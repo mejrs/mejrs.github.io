@@ -39,7 +39,7 @@ function parseSheet(sheet) {
         if (groupName && row.length !== 0) {
 
             let item = {};
-            item.rowNumber = rowNumber + 1;//starting at 1
+            item.rowNumber = rowNumber + 1; //starting at 1
             item.groupName = groupName
                 keys.forEach((key, colNumber) => {
                     item[key] = row[colNumber];
@@ -94,6 +94,7 @@ function parseCoord(pos, look) {
 }
 
 function createTeleports(map, collection) {
+	const bounds = map.options.maxBounds;
     var teleportControl = L.control.layers({}, {}, {
             "collapsed": true,
             "position": 'topleft'
@@ -123,12 +124,15 @@ function createTeleports(map, collection) {
                     });
 
                 if (item && item.destination) {
+					if (!bounds.contains([item.destination.y, item.destination.x])){
+						console.log("Bounds error",item);
+					}
                     let destinationMarker = L.marker([(item.destination.y + 0.5), (item.destination.x + 0.5)], {
                             icon: item.destination.plane === currentPlane ? icon : greyscaleIcon,
                         });
-                    let popUpText = Object.entries(item).map(x => x.map(i => typeof i !== "string" ? JSON.stringify(i) : i).join(" = ")).join("<br>");
+                    let popUpBody = createPopupBody("destination", map, item);
 
-                    destinationMarker.bindPopup(popUpText);
+                    destinationMarker.bindPopup(popUpBody);
                     destinationMarker.on('click', function (e) {
                         this.openPopup();
                     });
@@ -139,17 +143,23 @@ function createTeleports(map, collection) {
 
                     teleports.addLayer(destinationMarker);
                 }
-				
-				if (item && item.start) {
+
+                if (item && item.start) {
+					if (!bounds.contains([item.start.y, item.start.x])){
+						console.log("Bounds error",item);
+					}
                     let startMarker = L.marker([(item.start.y + 0.5), (item.start.x + 0.5)], {
                             icon: item.start.plane === currentPlane ? icon : greyscaleIcon,
                         });
-                    let popUpText = Object.entries(item).map(x => x.map(i => typeof i !== "string" ? JSON.stringify(i) : i).join(" = ")).join("<br>");
 
-                    startMarker.bindPopup(popUpText);
+					let popUpBody = createPopupBody("start", map, item);
+
+                    startMarker.bindPopup(popUpBody);
                     startMarker.on('click', function (e) {
                         this.openPopup();
                     });
+					
+					
 
                     map.on('planechange', function (e) {
                         startMarker.setIcon(item.start.plane === e.newPlane ? icon : greyscaleIcon);
@@ -157,12 +167,14 @@ function createTeleports(map, collection) {
 
                     teleports.addLayer(startMarker);
                 }
-				
-				if (item && item.start && item.destination){
-					let points = [[(item.start.y + 0.5), (item.start.x + 0.5)],[(item.destination.y + 0.5), (item.destination.x + 0.5)]];
-					let travel = L.polyline(points,{color: item.start.plane === item.destination.plane ? '#3388FF':'grey'});
-					teleports.addLayer(travel);
-				}
+
+                if (item && item.start && item.destination) {
+                    let points = [[(item.start.y + 0.5), (item.start.x + 0.5)], [(item.destination.y + 0.5), (item.destination.x + 0.5)]];
+                    let travel = L.polyline(points, {
+                            color: item.start.plane === item.destination.plane ? '#3388FF' : 'grey'
+                        });
+                    teleports.addLayer(travel);
+                }
             })
             teleports.addTo(map);
             teleportControl.addOverlay(teleports, group.groupName);
@@ -170,6 +182,43 @@ function createTeleports(map, collection) {
             return teleports
         })
         teleportControl.addTo(map);
+}
+
+function createPopupBody(mode, map, item) {
+    let wrapper = document.createElement('div');
+	
+    let nav = (item.start && item.destination) ? createNavigator(mode, map, item) : document.createElement('div');
+
+    let info = document.createElement('div');
+    info.innerHTML = Object.entries(item).map(x => x.map(i => typeof i !== "string" ? JSON.stringify(i) : i).join(" = ")).join("<br>");
+
+    wrapper.appendChild(nav);
+    wrapper.appendChild(info);
+	return wrapper;
+}
+
+function createNavigator(mode, map, item) {
+	
+
+    let newButton = document.createElement("button");
+    newButton.innerHTML = "Navigate to link";
+    newButton.onclick = function () {
+ 		switch(mode){
+			case 'start':
+			var {plane,x,y} = item.destination;
+			break;
+			case 'destination':
+			var {plane,x,y} = item.start;
+			break;
+			default:
+			throw mode + " is not an expected value!";
+			break;
+		}
+		console.log("navigating to", plane,x,y);
+		map.setPlane(plane);
+		map.flyTo([y,x],3,{duration: 3})
+    };
+    return newButton;
 }
 
 const API_KEY = "AIzaSyBrYT0-aS9VpW2Aenm-pJ2UCUhih8cZ4g8";
@@ -181,8 +230,6 @@ var dataPromise = fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SHEET_I
 dataPromise.then(response => response.json()).then(data => {
 
     let collection = parseSheet(data.values).map(parseItems);
-    console.log(collection);
-
     createTeleports(runescape_map, collection);
 
 });
