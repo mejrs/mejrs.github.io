@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Pick-fruit"], "width": 2, "length": 2, "unk_21": true, "ambient": 20, "contrast": 25, "unk_27": false, "models": [{"type": 10, "values": [57371]}], "name": "Mango tree", "occludes_2": false, "id": 52612}, "uniques": [{"id": 52612, "t": 10, "r": 0, "o": {"p": 0, "i": 42, "j": 42, "x": 43, "y": 56}}]}

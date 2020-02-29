@@ -1,0 +1,1 @@
+{"properties": {"width": 6, "length": 6, "isMembers": true, "model": false, "unk_88": false, "unk_27": false, "dummy_45": 13, "actions": ["Enter"], "models": [{"type": 10, "values": [42591]}], "name": "Pool", "action_cursors": [57], "occludes_2": false, "id": 111372}, "uniques": [{"id": 111372, "t": 10, "r": 0, "o": {"p": 1, "i": 35, "j": 55, "x": 30, "y": 31}}]}

@@ -1,0 +1,1 @@
+{"properties": {"width": 3, "length": 2, "unk_21": true, "model": false, "unk_196": 2, "models": [{"type": 10, "values": [18296]}], "name": "Wreck", "occludes_2": false, "id": 18357}, "uniques": [{"id": 18357, "t": 10, "r": 0, "o": {"p": 0, "i": 42, "j": 51, "x": 51, "y": 14}}, {"id": 18357, "t": 10, "r": 3, "o": {"p": 0, "i": 42, "j": 51, "x": 56, "y": 46}}]}

@@ -1,0 +1,1 @@
+{"properties": {"unk_22": true, "actions": ["Climb-up"], "dummy_45": 11, "models": [{"type": 10, "values": [14188]}], "name": "Ship's ladder", "action_cursors": [52], "occludes_2": false, "id": 5415}, "uniques": [{"id": 5415, "t": 10, "r": 2, "o": {"p": 1, "i": 57, "j": 54, "x": 46, "y": 54}}, {"id": 5415, "t": 10, "r": 2, "o": {"p": 1, "i": 57, "j": 54, "x": 50, "y": 54}}]}

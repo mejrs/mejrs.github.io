@@ -1,0 +1,1 @@
+{"properties": {"unk_22": true, "actions": ["Climb-down"], "dummy_45": 7, "ambient": 25, "width": 2, "unk_17": false, "models": [{"type": 10, "values": [46870]}], "name": "Ladder", "action_cursors": [53], "occludes_2": false, "id": 43185}, "uniques": [{"id": 43185, "t": 10, "r": 2, "o": {"p": 1, "i": 55, "j": 90, "x": 27, "y": 40}}]}

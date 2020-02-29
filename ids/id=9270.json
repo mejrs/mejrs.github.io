@@ -1,0 +1,1 @@
+{"properties": {"unk_22": true, "unk_19": 1, "unk_21": true, "ambient": 25, "contrast": 20, "model": false, "actions": ["Drink"], "models": [{"type": 10, "values": [4704]}], "name": "Supply table", "action_cursors": [48], "occludes_2": false, "id": 9270}, "uniques": [{"id": 9270, "t": 10, "r": 0, "o": {"p": 0, "i": 27, "j": 64, "x": 40, "y": 30}}]}

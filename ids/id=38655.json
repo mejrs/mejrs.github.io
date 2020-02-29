@@ -1,0 +1,1 @@
+{"properties": {"unk_21": true, "ambient": 25, "contrast": 15, "unk_27": false, "unk_24": 10333, "actions": ["Cast", "Cast-Alchemy", "Cast-Teleport"], "models": [{"type": 10, "values": [41889]}], "name": "Stool (level 70 approx.)", "occludes_2": false, "id": 38655}, "uniques": [{"id": 38655, "t": 10, "r": 3, "o": {"p": 0, "i": 55, "j": 87, "x": 37, "y": 42}}]}

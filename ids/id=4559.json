@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "unk_17": false, "actions": ["Jump-to"], "models": [{"type": 10, "values": [4556]}], "name": "Rocky shore", "occludes_2": false, "id": 4559}, "uniques": [{"id": 4559, "t": 10, "r": 0, "o": {"p": 1, "i": 38, "j": 71, "x": 18, "y": 35}}, {"id": 4559, "t": 10, "r": 0, "o": {"p": 1, "i": 39, "j": 56, "x": 18, "y": 35}}]}

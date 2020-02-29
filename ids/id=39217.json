@@ -1,0 +1,1 @@
+{"properties": {"length": 2, "unk_24": 10457, "ambient": 20, "contrast": 15, "unk_21": true, "unk_19": 1, "actions": ["Talk-to"], "models": [{"type": 10, "values": [25671, 25685, 25684]}], "name": "Guard", "action_cursors": [44], "occludes_2": false, "id": 39217}, "uniques": [{"id": 39217, "t": 10, "r": 2, "o": {"p": 0, "i": 29, "j": 87, "x": 50, "y": 42}}]}

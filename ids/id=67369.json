@@ -1,0 +1,1 @@
+{"properties": {"width": 2, "length": 2, "ambient": 25, "contrast": 25, "unk_27": false, "actions": ["Pray"], "morphs_1": {"varbit": 13376, "varp": 65535, "ids": [67372, 67370, 67371]}, "action_cursors": [61], "id": 67369}, "uniques": [{"id": 67369, "t": 10, "r": 1, "o": {"p": 0, "i": 45, "j": 54, "x": 41, "y": 25}}]}

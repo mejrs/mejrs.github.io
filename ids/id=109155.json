@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "translateX": 65456, "translateZ": 25, "actions": ["Climb down"], "mapscene": 7, "models": [{"type": 10, "values": [118798]}], "name": "Rope", "action_cursors": [53], "occludes_2": false, "id": 109155}, "uniques": [{"id": 109155, "t": 10, "r": 0, "o": {"p": 3, "i": 37, "j": 107, "x": 37, "y": 9}}]}

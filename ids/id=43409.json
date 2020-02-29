@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 25, "length": 3, "unk_22": true, "actions": ["Inspect"], "models": [{"type": 10, "values": [47051]}], "name": "Engine panel", "occludes_2": false, "id": 43409}, "uniques": [{"id": 43409, "t": 10, "r": 1, "o": {"p": 0, "i": 41, "j": 162, "x": 53, "y": 44}}]}

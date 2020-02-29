@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "unk_27": false, "unk_21": true, "ambient": 20, "contrast": 25, "actions": ["Leave"], "models": [{"type": 10, "values": [118797]}], "name": "Dungeon exit", "action_cursors": [57], "occludes_2": false, "id": 109139}, "uniques": [{"id": 109139, "t": 10, "r": 1, "o": {"p": 3, "i": 37, "j": 106, "x": 16, "y": 7}}]}

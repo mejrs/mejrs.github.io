@@ -1,0 +1,1 @@
+{"properties": {"ambient": 64, "actions": ["Look at"], "models": [{"type": 10, "values": [81641]}], "name": "Wine barrel", "unk_160": [369], "occludes_2": false, "id": 93709}, "uniques": [{"id": 93709, "t": 10, "r": 1, "o": {"p": 2, "i": 46, "j": 96, "x": 26, "y": 61}}]}

@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "unk_17": false, "ambient": 25, "contrast": 15, "model": false, "unk_88": false, "width": 4, "actions": ["Enter"], "models": [{"type": 10, "values": [105251]}], "name": "Portal", "action_cursors": [57], "occludes_2": false, "id": 97808}, "uniques": [{"id": 97808, "t": 10, "r": 0, "o": {"p": 0, "i": 67, "j": 12, "x": 26, "y": 12}}]}

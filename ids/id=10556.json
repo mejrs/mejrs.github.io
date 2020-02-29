@@ -1,0 +1,1 @@
+{"properties": {"ambient": 15, "actions": ["Open"], "models": [{"type": 10, "values": [10257]}], "name": "Champion statue", "action_cursors": [49], "occludes_2": false, "id": 10556}, "uniques": [{"id": 10556, "t": 10, "r": 1, "o": {"p": 1, "i": 49, "j": 152, "x": 48, "y": 38}}]}

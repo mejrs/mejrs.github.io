@@ -1,0 +1,1 @@
+{"properties": {"actions": ["West:"], "unk_17": false, "ambient": 25, "contrast": 15, "textures": [{"original": 2775, "replacement": 2774}], "models": [{"type": 10, "values": [68748]}], "name": "Ardougne", "occludes_2": false, "id": 69687}, "uniques": [{"id": 69687, "t": 10, "r": 0, "o": {"p": 0, "i": 43, "j": 53, "x": 37, "y": 42}}]}

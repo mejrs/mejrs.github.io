@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "length": 2, "width": 2, "ambient": 25, "contrast": 15, "unk_27": false, "unk_21": true, "actions": ["Investigate"], "models": [{"type": 10, "values": [9302]}], "name": "Strange device", "occludes_2": false, "id": 11542}, "uniques": [{"id": 11542, "t": 10, "r": 2, "o": {"p": 0, "i": 25, "j": 67, "x": 32, "y": 32}}]}

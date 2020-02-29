@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "actions": ["Lift"], "width": 7, "length": 4, "ambient": 25, "unk_27": false, "dummy_12": true, "models": [{"type": 10, "values": [106407]}], "name": "Table", "occludes_2": false, "id": 98831}, "uniques": [{"id": 98831, "t": 10, "r": 0, "o": {"p": 0, "i": 56, "j": 113, "x": 42, "y": 29}}]}

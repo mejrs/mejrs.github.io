@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 64, "actions": ["Search"], "models": [{"type": 10, "values": [99570]}], "name": "Pig", "action_cursors": [56], "unk_160": [369], "occludes_2": false, "id": 93612}, "uniques": [{"id": 93612, "t": 10, "r": 0, "o": {"p": 2, "i": 46, "j": 96, "x": 43, "y": 61}}]}

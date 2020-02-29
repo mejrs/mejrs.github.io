@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 25, "contrast": 15, "unk_21": true, "width": 2, "length": 2, "unk_22": true, "actions": ["Squeeze-through"], "dummy_45": 13, "models": [{"type": 10, "values": [10220]}], "name": "Hole", "action_cursors": [181], "occludes_2": false, "id": 12328}, "uniques": [{"id": 12328, "t": 10, "r": 0, "o": {"p": 0, "i": 46, "j": 46, "x": 2, "y": 11}}]}

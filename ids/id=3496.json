@@ -1,0 +1,1 @@
+{"properties": {"length": 2, "ambient": 25, "contrast": 15, "unk_19": 1, "actions": ["Study", "Take-from"], "mapscene": 82, "model": false, "models": [{"type": 10, "values": [111762]}], "name": "Monument", "action_cursors": [50], "occludes_2": false, "id": 3496}, "uniques": [{"id": 3496, "t": 10, "r": 2, "o": {"p": 0, "i": 53, "j": 154, "x": 31, "y": 28}}]}

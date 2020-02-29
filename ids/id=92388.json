@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 64, "unk_73": true, "translateX": 122, "translateY": 382, "translateZ": 216, "textures": [{"original": 4801, "replacement": 1413}], "models": [{"type": 22, "values": [98218]}], "name": "Cadarn voicestone", "occludes_2": false, "id": 92388}, "uniques": [{"id": 92388, "t": 22, "r": 3, "o": {"p": 2, "i": 35, "j": 51, "x": 35, "y": 38}}]}

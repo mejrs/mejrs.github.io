@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "unk_27": false, "actions": ["Squeeze-past"], "ambient": 20, "unk_21": true, "unk_75": 0, "models": [{"type": 10, "values": [12041]}], "name": "Stalagmite", "action_cursors": [57], "occludes_2": false, "id": 5050}, "uniques": [{"id": 5050, "t": 10, "r": 1, "o": {"p": 0, "i": 54, "j": 153, "x": 36, "y": 32}}]}

@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "unk_73": true, "unk_21": true, "unk_27": false, "actions": ["Fix"], "models": [{"type": 22, "values": [14154]}], "name": "Broken bridge", "occludes_2": false, "id": 13834}, "uniques": [{"id": 13834, "t": 22, "r": 1, "o": {"p": 1, "i": 40, "j": 78, "x": 42, "y": 47}}]}

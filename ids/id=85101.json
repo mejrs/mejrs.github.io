@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "actions": ["Search"], "dummy_12": true, "models": [{"type": 10, "values": [87081]}], "name": "Crate", "action_cursors": [56], "occludes_2": false, "id": 85101}, "uniques": [{"id": 85101, "t": 10, "r": 0, "o": {"p": 0, "i": 47, "j": 51, "x": 10, "y": 23}}]}

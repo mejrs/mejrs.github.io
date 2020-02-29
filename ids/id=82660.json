@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 0, "ambient": 25, "contrast": 15, "width": 2, "length": 2, "mirror": true, "unk_196": 1, "models": [{"type": 10, "values": [83580]}], "occludes_2": false, "id": 82660}, "uniques": [{"id": 82660, "t": 10, "r": 1, "o": {"p": 2, "i": 53, "j": 55, "x": 25, "y": 35}}, {"id": 82660, "t": 10, "r": 3, "o": {"p": 2, "i": 53, "j": 55, "x": 36, "y": 40}}]}

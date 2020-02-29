@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Crawl-under"], "scaleX": 128, "scaleY": 160, "scaleZ": 128, "ambient": 10, "models": [{"type": 0, "values": [17711]}], "name": "Wall", "id": 18078}, "uniques": [{"id": 18078, "t": 0, "r": 3, "o": {"p": 1, "i": 56, "j": 50, "x": 22, "y": 8}}]}

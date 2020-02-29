@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "unk_21": true, "ambient": 64, "unk_27": false, "actions": ["Smith"], "models": [{"type": 10, "values": [97802]}], "name": "Anvil", "action_cursors": [63], "occludes_2": false, "id": 92226}, "uniques": [{"id": 92226, "t": 10, "r": 1, "o": {"p": 0, "i": 30, "j": 84, "x": 52, "y": 31}}]}

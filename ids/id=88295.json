@@ -1,0 +1,1 @@
+{"properties": {"unk_24": 15763, "ambient": 64, "model": false, "unk_27": false, "dummy_bc": true, "models": [{"type": 10, "values": [91918]}], "name": "Villager", "occludes_2": false, "id": 88295}, "uniques": [{"id": 88295, "t": 11, "r": 3, "o": {"p": 2, "i": 38, "j": 41, "x": 16, "y": 57}}, {"id": 88295, "t": 11, "r": 2, "o": {"p": 2, "i": 39, "j": 41, "x": 5, "y": 57}}]}

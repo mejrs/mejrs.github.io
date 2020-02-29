@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "unk_21": true, "contrast": 20, "ambient": 30, "unk_27": false, "actions": ["Crawl-through"], "models": [{"type": 10, "values": [29046]}], "name": "Vines", "occludes_2": false, "id": 27176}, "uniques": [{"id": 27176, "t": 10, "r": 0, "o": {"p": 0, "i": 45, "j": 46, "x": 23, "y": 43}}]}

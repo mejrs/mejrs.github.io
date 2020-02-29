@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "unk_27": false, "ambient": 10, "contrast": 10, "dummy_12": true, "models": [{"type": 10, "values": [30416]}], "name": "Ball", "occludes_2": false, "id": 28360}, "uniques": [{"id": 28360, "t": 10, "r": 0, "o": {"p": 0, "i": 40, "j": 48, "x": 14, "y": 9}}, {"id": 28360, "t": 11, "r": 0, "o": {"p": 1, "i": 45, "j": 53, "x": 54, "y": 40}}]}

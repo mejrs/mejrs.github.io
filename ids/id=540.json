@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "width": 2, "unk_27": false, "ambient": 25, "contrast": 15, "actions": ["Operate"], "models": [{"type": 10, "values": [51749]}], "name": "Workbench", "occludes_2": false, "id": 540}, "uniques": [{"id": 540, "t": 10, "r": 2, "o": {"p": 0, "i": 56, "j": 75, "x": 42, "y": 18}}]}

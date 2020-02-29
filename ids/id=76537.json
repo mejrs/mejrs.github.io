@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 25, "contrast": 15, "unk_22": true, "width": 2, "length": 2, "actions": ["Climb-down"], "models": [{"type": 10, "values": [75920]}], "name": "Staircase", "action_cursors": [53], "occludes_2": false, "id": 76537}, "uniques": [{"id": 76537, "t": 10, "r": 0, "o": {"p": 1, "i": 51, "j": 49, "x": 36, "y": 24}}]}

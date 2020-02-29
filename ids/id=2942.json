@@ -1,0 +1,1 @@
+{"properties": {"width": 2, "length": 2, "actions": ["Look", "Investigate"], "mapscene": 8, "unk_78": {"unknown_1": 4923, "unknown_2": 3}, "models": [{"type": 10, "values": [1435]}], "name": "Water Pool", "occludes_2": false, "id": 2942}, "uniques": [{"id": 2942, "t": 10, "r": 0, "o": {"p": 0, "i": 44, "j": 45, "x": 21, "y": 35}}]}

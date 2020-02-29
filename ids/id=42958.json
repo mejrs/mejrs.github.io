@@ -1,0 +1,1 @@
+{"properties": {"ambient": 25, "unk_19": 1, "actions": ["Repair"], "models": [{"type": 10, "values": [46552]}], "name": "Broken chair", "action_cursors": [174], "occludes_2": false, "id": 42958}, "uniques": [{"id": 42958, "t": 10, "r": 0, "o": {"p": 0, "i": 23, "j": 75, "x": 17, "y": 14}}]}

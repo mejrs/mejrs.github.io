@@ -1,0 +1,1 @@
+{"properties": {"ambient": 25, "contrast": 15, "mirror": true, "actions": ["Open", "Search"], "models": [{"type": 0, "values": [27252]}], "name": "Ancient metal gate", "action_cursors": [49, 56], "id": 2255}, "uniques": [{"id": 2255, "t": 0, "r": 1, "o": {"p": 0, "i": 45, "j": 148, "x": 48, "y": 44}}]}

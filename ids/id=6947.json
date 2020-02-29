@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Jump down"], "models": [{"type": 10, "values": [3951]}], "name": "Cliff", "occludes_2": false, "id": 6947}, "uniques": [{"id": 6947, "t": 10, "r": 0, "o": {"p": 2, "i": 84, "j": 140, "x": 44, "y": 50}}]}

@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 25, "contrast": 20, "actions": ["Cross"], "unk_73": true, "models": [{"type": 22, "values": [46200]}], "name": "Floating bridge", "action_cursors": [181], "occludes_2": false, "id": 42877}, "uniques": [{"id": 42877, "t": 22, "r": 1, "o": {"p": 0, "i": 54, "j": 86, "x": 29, "y": 38}}]}

@@ -1,0 +1,1 @@
+{"properties": {"width": 2, "length": 2, "mapscene": 6, "actions": ["Chop down"], "models": [{"type": 10, "values": [16842]}], "name": "Windswept tree", "action_cursors": [59], "occludes_2": false, "id": 18137}, "uniques": [{"id": 18137, "t": 10, "r": 1, "o": {"p": 0, "i": 42, "j": 58, "x": 60, "y": 22}}]}

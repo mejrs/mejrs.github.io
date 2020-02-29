@@ -1,0 +1,1 @@
+{"properties": {"unk_28": 8, "ambient": 25, "contrast": 15, "unk_19": 1, "actions": ["Knock-at"], "models": [{"type": 0, "values": [38416]}], "name": "Wall", "occludes_1": false, "unk_170": 945, "id": 26940}, "uniques": [{"id": 26940, "t": 0, "r": 1, "o": {"p": 1, "i": 40, "j": 51, "x": 6, "y": 10}}]}

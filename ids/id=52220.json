@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Climb-up"], "length": 3, "ambient": 25, "contrast": 15, "dummy_45": 11, "mapscene": 7, "models": [{"type": 10, "values": [59836]}], "name": "Stairs", "action_cursors": [52], "occludes_2": false, "id": 52220}, "uniques": [{"id": 52220, "t": 10, "r": 1, "o": {"p": 0, "i": 41, "j": 141, "x": 11, "y": 25}}]}

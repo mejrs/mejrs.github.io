@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "unk_27": false, "ambient": 25, "contrast": 15, "actions": ["Open"], "dummy_12": true, "models": [{"type": 0, "values": [45828]}], "name": "Cell door", "action_cursors": [49], "id": 89460}, "uniques": [{"id": 89460, "t": 0, "r": 1, "o": {"p": 0, "i": 44, "j": 20, "x": 5, "y": 21}}]}

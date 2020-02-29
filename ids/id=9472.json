@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "actions": ["Climb-down"], "dummy_45": 14, "models": [{"type": 10, "values": [9503]}], "name": "Trapdoor", "action_cursors": [53], "occludes_2": false, "id": 9472}, "uniques": [{"id": 9472, "t": 10, "r": 1, "o": {"p": 0, "i": 47, "j": 49, "x": 0, "y": 14}}]}

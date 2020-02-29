@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "actions": ["Rummage"], "ambient": 25, "unk_22": true, "unk_73": true, "models": [{"type": 22, "values": [46647]}], "name": "Skeleton", "occludes_2": false, "id": 42997}, "uniques": [{"id": 42997, "t": 22, "r": 0, "o": {"p": 0, "i": 23, "j": 77, "x": 54, "y": 53}}]}

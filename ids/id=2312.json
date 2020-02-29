@@ -1,0 +1,1 @@
+{"properties": {"unk_21": true, "unk_22": true, "unk_19": 1, "actions": ["Walk-on"], "unk_27": false, "translateY": 10, "models": [{"type": 22, "values": [1878]}], "name": "Balancing rope", "action_cursors": [181], "occludes_2": false, "id": 2312}, "uniques": [{"id": 2312, "t": 22, "r": 1, "o": {"p": 2, "i": 38, "j": 53, "x": 46, "y": 28}}]}

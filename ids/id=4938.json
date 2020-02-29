@@ -1,0 +1,1 @@
+{"properties": {"unk_22": true, "mirror": true, "actions": ["Go-down"], "scaleY": 153, "ambient": 20, "contrast": 20, "models": [{"type": 10, "values": [21236]}], "name": "Lift", "occludes_2": false, "id": 4938}, "uniques": [{"id": 4938, "t": 10, "r": 3, "o": {"p": 0, "i": 43, "j": 70, "x": 55, "y": 12}}]}

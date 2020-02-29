@@ -1,0 +1,1 @@
+{"properties": {"unk_22": true, "unk_21": true, "actions": ["Enter"], "ambient": 25, "contrast": 20, "textures": [{"original": 1891, "replacement": 1155}], "models": [{"type": 0, "values": [37756]}], "name": "Crevasse", "action_cursors": [57], "occludes_2": false, "id": 33185}, "uniques": [{"id": 33185, "t": 0, "r": 3, "o": {"p": 0, "i": 43, "j": 159, "x": 20, "y": 57}}]}

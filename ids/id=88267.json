@@ -1,0 +1,1 @@
+{"properties": {"unk_24": 22052, "unk_89": false, "model": false, "ambient": 64, "actions": ["Talk to"], "unk_27": false, "models": [{"type": 10, "values": [91919]}], "name": "Villager", "action_cursors": [44], "occludes_2": false, "id": 88267}, "uniques": [{"id": 88267, "t": 10, "r": 3, "o": {"p": 3, "i": 38, "j": 42, "x": 60, "y": 7}}]}

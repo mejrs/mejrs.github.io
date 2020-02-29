@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Open"], "unk_21": true, "model": false, "models": [{"type": 10, "values": [1507]}], "name": "Manhole", "action_cursors": [49], "occludes_2": false, "id": 2543}, "uniques": [{"id": 2543, "t": 10, "r": 0, "o": {"p": 0, "i": 39, "j": 51, "x": 20, "y": 58}}, {"id": 2543, "t": 10, "r": 0, "o": {"p": 0, "i": 39, "j": 51, "x": 33, "y": 39}}]}

@@ -1,0 +1,1 @@
+{"properties": {"length": 2, "dummy_45": 7, "actions": ["Light"], "models": [{"type": 10, "values": [5963]}], "name": "Spinning Machine", "action_cursors": [65], "occludes_2": false, "id": 6080}, "uniques": [{"id": 6080, "t": 10, "r": 2, "o": {"p": 0, "i": 28, "j": 97, "x": 36, "y": 31}}, {"id": 6080, "t": 10, "r": 2, "o": {"p": 0, "i": 45, "j": 159, "x": 5, "y": 12}}]}

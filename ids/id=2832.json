@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "actions": ["Climb-over"], "dummy_12": true, "models": [{"type": 10, "values": [3345]}], "name": "Battlement", "action_cursors": [181], "occludes_2": false, "id": 2832}, "uniques": [{"id": 2832, "t": 10, "r": 1, "o": {"p": 0, "i": 39, "j": 47, "x": 11, "y": 3}}, {"id": 2832, "t": 10, "r": 1, "o": {"p": 0, "i": 39, "j": 47, "x": 11, "y": 4}}]}

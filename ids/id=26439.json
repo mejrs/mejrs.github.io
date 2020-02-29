@@ -1,0 +1,1 @@
+{"properties": {"model": false, "unk_17": false, "actions": ["Jump-over"], "models": [{"type": 22, "values": [21617]}], "name": "Broken bridge", "action_cursors": [181], "occludes_2": false, "id": 26439}, "uniques": [{"id": 26439, "t": 22, "r": 0, "o": {"p": 1, "i": 45, "j": 83, "x": 7, "y": 26}}, {"id": 26439, "t": 22, "r": 0, "o": {"p": 1, "i": 45, "j": 83, "x": 7, "y": 32}}]}

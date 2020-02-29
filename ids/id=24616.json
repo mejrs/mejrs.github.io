@@ -1,0 +1,1 @@
+{"properties": {"unk_27": false, "ambient": 20, "actions": ["Study"], "models": [{"type": 10, "values": [25348]}], "name": "Plaque", "action_cursors": [50], "occludes_2": false, "id": 24616}, "uniques": [{"id": 24616, "t": 10, "r": 2, "o": {"p": 0, "i": 27, "j": 77, "x": 53, "y": 29}}]}

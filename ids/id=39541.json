@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 20, "actions": ["Take-weapon"], "models": [{"type": 10, "values": [43023]}], "name": "Mage weapon table", "occludes_2": false, "id": 39541}, "uniques": [{"id": 39541, "t": 10, "r": 2, "o": {"p": 0, "i": 30, "j": 89, "x": 7, "y": 1}}]}

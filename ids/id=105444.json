@@ -1,0 +1,1 @@
+{"properties": {"actions": ["East:"], "unk_17": false, "ambient": 25, "contrast": 15, "textures": [{"original": 2775, "replacement": 2770}], "models": [{"type": 10, "values": [68753]}], "name": "New Varrock", "occludes_2": false, "id": 105444}, "uniques": [{"id": 105444, "t": 10, "r": 0, "o": {"p": 0, "i": 71, "j": 180, "x": 25, "y": 34}}]}

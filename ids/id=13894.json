@@ -1,0 +1,1 @@
+{"properties": {"unk_22": true, "unk_21": true, "length": 2, "ambient": 20, "actions": ["Look-inside"], "models": [{"type": 10, "values": [14236]}], "name": "Dark hole", "occludes_2": false, "id": 13894}, "uniques": [{"id": 13894, "t": 10, "r": 1, "o": {"p": 0, "i": 47, "j": 81, "x": 44, "y": 35}}]}

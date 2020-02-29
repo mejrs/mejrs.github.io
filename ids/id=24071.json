@@ -1,0 +1,1 @@
+{"properties": {"ambient": 20, "contrast": 10, "actions": ["Investigate"], "models": [{"type": 10, "values": [25317]}], "name": "Hopper", "occludes_2": false, "id": 24071}, "uniques": [{"id": 24071, "t": 10, "r": 0, "o": {"p": 2, "i": 49, "j": 53, "x": 6, "y": 60}}, {"id": 24071, "t": 10, "r": 0, "o": {"p": 2, "i": 57, "j": 141, "x": 6, "y": 60}}]}

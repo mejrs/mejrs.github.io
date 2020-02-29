@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 64, "unk_27": false, "model": false, "dummy_12": true, "textures": [{"original": 2720, "replacement": 9705}], "extra": {"6896": 60}, "morphs_1": {"varbit": 39826, "varp": 65535, "ids": [110577, 110578, 110579]}, "unk_93": 8224, "id": 110576}, "uniques": [{"id": 110576, "t": 10, "r": 2, "o": {"p": 0, "i": 49, "j": 50, "x": 62, "y": 51}}]}

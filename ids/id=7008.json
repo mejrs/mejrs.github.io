@@ -1,0 +1,1 @@
+{"properties": {"models": [{"type": 10, "values": [7112]}], "name": "Statue", "occludes_2": false, "id": 7008}, "uniques": [{"id": 7008, "t": 10, "r": 1, "o": {"p": 0, "i": 45, "j": 159, "x": 30, "y": 25}}, {"id": 7008, "t": 10, "r": 0, "o": {"p": 1, "i": 45, "j": 159, "x": 25, "y": 30}}]}

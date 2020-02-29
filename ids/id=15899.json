@@ -1,0 +1,1 @@
+{"properties": {"mirror": true, "unk_27": false, "dummy_45": 13, "actions": ["Climb-up"], "mapscene": 7, "translateX": 30, "models": [{"type": 10, "values": [15754]}], "name": "Copper Ladder", "action_cursors": [52], "occludes_2": false, "id": 15899}, "uniques": [{"id": 15899, "t": 10, "r": 0, "o": {"p": 0, "i": 59, "j": 46, "x": 44, "y": 55}}]}

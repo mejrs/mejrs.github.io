@@ -1,0 +1,1 @@
+{"properties": {"unk_24": 1112, "unk_27": false, "unk_73": true, "unk_19": 1, "actions": ["Jump-over"], "dummy_12": true, "models": [{"type": 10, "values": [7603]}], "name": "Strange floor", "action_cursors": [181], "occludes_2": false, "id": 9294}, "uniques": [{"id": 9294, "t": 10, "r": 0, "o": {"p": 0, "i": 44, "j": 153, "x": 63, "y": 21}}]}

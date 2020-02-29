@@ -1,0 +1,1 @@
+{"properties": {"ambient": 0, "length": 5, "width": 5, "unk_27": false, "model": false, "models": [{"type": 10, "values": [47374]}], "name": "Fountain", "occludes_2": false, "id": 111669}, "uniques": [{"id": 111669, "t": 10, "r": 2, "o": {"p": 0, "i": 71, "j": 143, "x": 8, "y": 31}}, {"id": 111669, "t": 10, "r": 3, "o": {"p": 0, "i": 71, "j": 143, "x": 14, "y": 1}}]}

@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 0, "length": 7, "width": 3, "unk_27": false, "model": false, "unk_196": 4, "translateX": 65456, "scaleX": 100, "scaleY": 100, "scaleZ": 100, "models": [{"type": 10, "values": [118558]}], "name": "Door", "occludes_2": false, "id": 107632}, "uniques": [{"id": 107632, "t": 10, "r": 0, "o": {"p": 2, "i": 49, "j": 42, "x": 13, "y": 38}}]}

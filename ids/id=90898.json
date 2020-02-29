@@ -1,0 +1,1 @@
+{"properties": {"ambient": 64, "actions": ["Search"], "unk_27": false, "dummy_12": true, "models": [{"type": 10, "values": [95189]}], "name": "Dead smuggler", "unk_93": 8224, "action_cursors": [56], "unk_160": [367], "occludes_2": false, "id": 90898}, "uniques": [{"id": 90898, "t": 11, "r": 0, "o": {"p": 0, "i": 60, "j": 105, "x": 17, "y": 29}}]}

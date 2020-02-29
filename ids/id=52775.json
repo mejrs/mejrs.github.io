@@ -1,0 +1,1 @@
+{"properties": {"ambient": 25, "contrast": 25, "actions": ["Search", null, null, null, "Remove"], "models": [{"type": 4, "values": [12601]}], "name": "Tools", "action_cursors": [56], "occludes_2": false, "id": 52775}, "uniques": [{"id": 52775, "t": 5, "r": 0, "o": {"p": 0, "i": 59, "j": 89, "x": 16, "y": 22}}]}

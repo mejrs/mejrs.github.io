@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "length": 3, "width": 5, "ambient": 20, "contrast": 15, "unk_27": false, "actions": ["Go-through", "Peek-in", "Custom-session"], "models": [{"type": 10, "values": [41081]}], "name": "Passage", "occludes_2": false, "id": 38811}, "uniques": [{"id": 38811, "t": 10, "r": 3, "o": {"p": 2, "i": 46, "j": 68, "x": 27, "y": 30}}]}

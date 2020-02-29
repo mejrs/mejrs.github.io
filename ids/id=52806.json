@@ -1,0 +1,1 @@
+{"properties": {"mapscene": 7, "width": 2, "length": 2, "dummy_45": 11, "actions": ["Climb-up", null, null, "Remove-room", "Remove"], "models": [{"type": 10, "values": [12553]}], "name": "Staircase", "action_cursors": [52], "occludes_2": false, "id": 52806}, "uniques": [{"id": 52806, "t": 10, "r": 3, "o": {"p": 0, "i": 59, "j": 89, "x": 19, "y": 35}}]}

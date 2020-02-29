@@ -1,0 +1,1 @@
+{"properties": {"width": 2, "length": 2, "ambient": 25, "contrast": 25, "models": [{"type": 10, "values": [2164]}], "name": "Altar slab", "occludes_2": false, "id": 1876}, "uniques": [{"id": 1876, "t": 10, "r": 1, "o": {"p": 0, "i": 25, "j": 83, "x": 62, "y": 41}}, {"id": 1876, "t": 10, "r": 1, "o": {"p": 0, "i": 50, "j": 53, "x": 62, "y": 1}}]}

@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Start encounter", "Quick start"], "width": 2, "length": 2, "ambient": 0, "unk_27": false, "model": false, "unk_196": 4, "mapFunction": 3209, "models": [{"type": 10, "values": [54577]}], "name": "Bait pad", "occludes_2": false, "id": 113816}, "uniques": [{"id": 113816, "t": 10, "r": 0, "o": {"p": 1, "i": 87, "j": 37, "x": 48, "y": 9}}]}

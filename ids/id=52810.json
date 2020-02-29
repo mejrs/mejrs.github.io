@@ -1,0 +1,1 @@
+{"properties": {"ambient": 25, "contrast": 25, "dummy_45": 11, "actions": ["Change-clothes", null, null, null, "Remove"], "models": [{"type": 10, "values": [11125]}], "name": "Gilded wardrobe", "occludes_2": false, "id": 52810}, "uniques": [{"id": 52810, "t": 10, "r": 1, "o": {"p": 0, "i": 59, "j": 89, "x": 23, "y": 25}}]}

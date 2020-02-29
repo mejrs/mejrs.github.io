@@ -1,0 +1,1 @@
+{"properties": {"mirror": true, "translateY": 240, "unk_22": true, "unk_196": 2, "models": [{"type": 10, "values": [25414]}], "name": "Canal barge", "occludes_2": false, "id": 24529}, "uniques": [{"id": 24529, "t": 10, "r": 3, "o": {"p": 0, "i": 59, "j": 118, "x": 27, "y": 54}}, {"id": 24529, "t": 10, "r": 1, "o": {"p": 0, "i": 59, "j": 118, "x": 30, "y": 57}}]}

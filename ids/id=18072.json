@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Jump-to"], "unk_21": true, "unk_22": true, "unk_19": 1, "unk_17": false, "unk_73": true, "models": [{"type": 22, "values": [17924]}], "name": "Floorboards", "occludes_2": false, "id": 18072}, "uniques": [{"id": 18072, "t": 22, "r": 0, "o": {"p": 1, "i": 56, "j": 50, "x": 17, "y": 0}}]}

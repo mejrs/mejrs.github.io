@@ -1,0 +1,1 @@
+{"properties": {"unk_22": true, "unk_21": true, "width": 3, "length": 3, "ambient": 15, "contrast": 15, "unk_19": 1, "actions": ["Enter"], "models": [{"type": 10, "values": [26519]}], "name": "Hole", "action_cursors": [57], "occludes_2": false, "id": 25154}, "uniques": [{"id": 25154, "t": 10, "r": 2, "o": {"p": 0, "i": 44, "j": 50, "x": 17, "y": 55}}]}

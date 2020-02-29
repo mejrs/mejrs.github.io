@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "unk_17": false, "actions": ["Jump off"], "models": [{"type": 10, "values": [4730]}], "name": "End of bridge", "occludes_2": false, "id": 4745}, "uniques": [{"id": 4745, "t": 10, "r": 0, "o": {"p": 2, "i": 43, "j": 42, "x": 51, "y": 39}}]}

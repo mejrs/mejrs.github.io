@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Open"], "mirror": true, "dummy_12": true, "models": [{"type": 0, "values": [1509]}, {"type": 9, "values": [1511]}], "name": "Metal gate", "action_cursors": [49], "id": 2260}, "uniques": [{"id": 2260, "t": 0, "r": 0, "o": {"p": 0, "i": 44, "j": 46, "x": 59, "y": 9}}]}

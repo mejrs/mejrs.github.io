@@ -1,0 +1,1 @@
+{"properties": {"length": 26, "width": 8, "ambient": 0, "unk_27": false, "model": false, "models": [{"type": 10, "values": [119502]}], "name": "Ship", "occludes_2": false, "id": 104214}, "uniques": [{"id": 104214, "t": 10, "r": 3, "o": {"p": 0, "i": 27, "j": 181, "x": 21, "y": 7}}, {"id": 104214, "t": 10, "r": 3, "o": {"p": 0, "i": 48, "j": 41, "x": 57, "y": 40}}]}

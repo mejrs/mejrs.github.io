@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "actions": ["Pass"], "unk_17": false, "ambient": 25, "contrast": 15, "width": 5, "length": 5, "unk_196": 2, "models": [{"type": 10, "values": [81228]}], "unk_186": 0, "name": "Fight Pit vent", "action_cursors": [57], "occludes_2": false, "id": 68223}, "uniques": [{"id": 68223, "t": 11, "r": 0, "o": {"p": 0, "i": 71, "j": 79, "x": 50, "y": 7}}]}

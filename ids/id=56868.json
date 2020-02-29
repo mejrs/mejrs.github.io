@@ -1,0 +1,1 @@
+{"properties": {"unk_21": true, "ambient": 25, "contrast": 15, "unk_27": false, "actions": ["Take Banana"], "colours": [{"original": 10176, "replacement": 17981}], "models": [{"type": 10, "values": [62290]}], "name": "Pile of bananas", "occludes_2": false, "id": 56868}, "uniques": [{"id": 56868, "t": 10, "r": 2, "o": {"p": 0, "i": 43, "j": 43, "x": 54, "y": 43}}]}

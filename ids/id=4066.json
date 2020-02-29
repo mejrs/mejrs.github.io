@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Search"], "colours": [{"original": 6744, "replacement": 7838}, {"original": 29117, "replacement": 916}], "models": [{"type": 10, "values": [1402]}], "name": "Signpost", "action_cursors": [56], "occludes_2": false, "id": 4066}, "uniques": [{"id": 4066, "t": 10, "r": 1, "o": {"p": 0, "i": 54, "j": 51, "x": 7, "y": 46}}]}

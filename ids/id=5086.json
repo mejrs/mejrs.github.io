@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 20, "unk_27": false, "actions": ["Fill"], "models": [{"type": 10, "values": [63457]}], "name": "Well", "occludes_2": false, "id": 5086}, "uniques": [{"id": 5086, "t": 10, "r": 3, "o": {"p": 0, "i": 48, "j": 53, "x": 3, "y": 32}}]}

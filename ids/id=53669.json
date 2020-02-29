@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "unk_21": true, "ambient": 20, "contrast": 15, "unk_27": false, "models": [{"type": 10, "values": [58615]}], "name": "Boxes", "occludes_2": false, "id": 53669}, "uniques": [{"id": 53669, "t": 10, "r": 1, "o": {"p": 0, "i": 68, "j": 88, "x": 24, "y": 33}}, {"id": 53669, "t": 10, "r": 3, "o": {"p": 0, "i": 68, "j": 88, "x": 32, "y": 30}}]}

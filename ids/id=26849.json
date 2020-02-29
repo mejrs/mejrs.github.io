@@ -1,0 +1,1 @@
+{"properties": {"unk_73": true, "unk_21": true, "actions": ["Climb"], "models": [{"type": 10, "values": [28861]}], "name": "Ladder", "action_cursors": [181], "occludes_2": false, "id": 26849}, "uniques": [{"id": 26849, "t": 10, "r": 1, "o": {"p": 0, "i": 38, "j": 50, "x": 20, "y": 31}}]}

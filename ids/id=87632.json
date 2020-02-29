@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Climb"], "unk_19": 1, "unk_88": false, "model": false, "unk_73": true, "models": [{"type": 22, "values": [90792]}], "name": "Rock face", "action_cursors": [181], "occludes_2": false, "id": 87632}, "uniques": [{"id": 87632, "t": 22, "r": 1, "o": {"p": 1, "i": 58, "j": 70, "x": 33, "y": 31}}]}

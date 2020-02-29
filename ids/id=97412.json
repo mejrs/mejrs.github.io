@@ -1,0 +1,1 @@
+{"properties": {"ambient": 20, "contrast": 40, "unk_19": 1, "actions": ["Jump over"], "models": [{"type": 10, "values": [50871]}], "name": "Rocks", "occludes_2": false, "id": 97412}, "uniques": [{"id": 97412, "t": 10, "r": 2, "o": {"p": 0, "i": 29, "j": 68, "x": 56, "y": 16}}]}

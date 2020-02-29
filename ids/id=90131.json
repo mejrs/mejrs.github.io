@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "actions": ["Wall run"], "mirror": true, "models": [{"type": 10, "values": [94245]}], "name": "Overhang", "occludes_2": false, "id": 90131}, "uniques": [{"id": 90131, "t": 10, "r": 0, "o": {"p": 2, "i": 62, "j": 98, "x": 28, "y": 15}}, {"id": 90131, "t": 10, "r": 0, "o": {"p": 2, "i": 67, "j": 101, "x": 28, "y": 15}}]}

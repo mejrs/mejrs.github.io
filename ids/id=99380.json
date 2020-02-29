@@ -1,0 +1,1 @@
+{"properties": {"model": false, "unk_17": false, "actions": ["Descend"], "unk_21": true, "models": [{"type": 10, "values": [96942]}], "name": "Cliff", "occludes_2": false, "id": 99380}, "uniques": [{"id": 99380, "t": 10, "r": 0, "o": {"p": 2, "i": 35, "j": 53, "x": 48, "y": 6}}]}

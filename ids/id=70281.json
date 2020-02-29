@@ -1,0 +1,1 @@
+{"properties": {"unk_27": false, "unk_21": true, "unk_75": 0, "ambient": 20, "contrast": 25, "actions": ["Pass-through"], "models": [{"type": 18, "values": [52157]}], "name": "Barrier", "action_cursors": [57], "occludes_2": false, "id": 70281}, "uniques": [{"id": 70281, "t": 18, "r": 1, "o": {"p": 0, "i": 5, "j": 34, "x": 57, "y": 25}}]}

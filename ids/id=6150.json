@@ -1,0 +1,1 @@
+{"properties": {"width": 2, "length": 2, "mapFunction": 3803, "unk_24": 31582, "actions": ["Climb"], "models": [{"type": 10, "values": [29872]}], "name": "Exit", "action_cursors": [181], "occludes_2": false, "id": 6150}, "uniques": [{"id": 6150, "t": 10, "r": 0, "o": {"p": 3, "i": 86, "j": 142, "x": 32, "y": 30}}]}

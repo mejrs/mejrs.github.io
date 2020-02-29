@@ -1,0 +1,1 @@
+{"properties": {"actions": ["North:"], "unk_17": false, "ambient": 25, "contrast": 15, "models": [{"type": 10, "values": [68747]}], "name": "Lumber Yard", "occludes_2": false, "id": 69721}, "uniques": [{"id": 69721, "t": 10, "r": 0, "o": {"p": 0, "i": 51, "j": 52, "x": 47, "y": 8}}, {"id": 69721, "t": 10, "r": 0, "o": {"p": 0, "i": 51, "j": 53, "x": 26, "y": 43}}]}

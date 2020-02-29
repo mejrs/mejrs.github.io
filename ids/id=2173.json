@@ -1,0 +1,1 @@
+{"properties": {"width": 2, "length": 6, "mirror": true, "actions": ["Inspect"], "models": [{"type": 10, "values": [1901]}], "name": "Trawler net", "occludes_2": false, "id": 2173}, "uniques": [{"id": 2173, "t": 10, "r": 0, "o": {"p": 0, "i": 30, "j": 75, "x": 24, "y": 19}}]}

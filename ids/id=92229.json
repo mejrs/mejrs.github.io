@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "unk_21": true, "ambient": 64, "unk_17": false, "actions": ["Deposit"], "models": [{"type": 10, "values": [97804]}], "name": "Item deposit", "occludes_2": false, "id": 92229}, "uniques": [{"id": 92229, "t": 10, "r": 2, "o": {"p": 0, "i": 30, "j": 84, "x": 8, "y": 32}}]}

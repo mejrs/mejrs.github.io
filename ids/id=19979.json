@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "actions": ["Operate"], "models": [{"type": 10, "values": [20071]}], "name": "Winch", "occludes_2": false, "id": 19979}, "uniques": [{"id": 19979, "t": 10, "r": 1, "o": {"p": 2, "i": 30, "j": 76, "x": 58, "y": 46}}]}

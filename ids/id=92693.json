@@ -1,0 +1,1 @@
+{"properties": {"actions": [null, "Use", "Collect"], "ambient": 64, "translateX": 65513, "models": [{"type": 10, "values": [98758]}], "name": "Bank chest", "action_cursors": [null, 46], "occludes_2": false, "id": 92693}, "uniques": [{"id": 92693, "t": 10, "r": 2, "o": {"p": 1, "i": 34, "j": 151, "x": 31, "y": 43}}]}

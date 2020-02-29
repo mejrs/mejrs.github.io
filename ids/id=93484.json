@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "width": 2, "length": 2, "unk_21": true, "ambient": 20, "contrast": 25, "unk_27": false, "actions": ["Transform"], "models": [{"type": 10, "values": [99775]}], "name": "Statue of Cres", "occludes_2": false, "id": 93484}, "uniques": [{"id": 93484, "t": 10, "r": 1, "o": {"p": 2, "i": 90, "j": 90, "x": 49, "y": 13}}]}

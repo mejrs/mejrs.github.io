@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "unk_27": false, "unk_21": true, "ambient": 20, "contrast": 25, "actions": ["Open"], "models": [{"type": 0, "values": [44355]}], "name": "Prison door", "action_cursors": [49], "id": 45024}, "uniques": [{"id": 45024, "t": 0, "r": 0, "o": {"p": 1, "i": 23, "j": 71, "x": 54, "y": 19}}]}

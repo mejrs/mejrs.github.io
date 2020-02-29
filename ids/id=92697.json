@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 64, "unk_17": false, "actions": ["Activate"], "models": [{"type": 10, "values": [98510]}], "name": "Memoriam device", "occludes_2": false, "id": 92697}, "uniques": [{"id": 92697, "t": 10, "r": 3, "o": {"p": 2, "i": 34, "j": 52, "x": 32, "y": 33}}, {"id": 92697, "t": 10, "r": 3, "o": {"p": 2, "i": 76, "j": 98, "x": 32, "y": 33}}]}

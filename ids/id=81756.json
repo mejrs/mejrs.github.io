@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "actions": ["Bank", "Collect"], "ambient": 25, "contrast": 15, "length": 2, "unk_27": false, "dummy_12": true, "models": [{"type": 10, "values": [82166]}], "name": "Bank Box", "occludes_2": false, "id": 81756}, "uniques": [{"id": 81756, "t": 10, "r": 1, "o": {"p": 0, "i": 64, "j": 116, "x": 22, "y": 29}}]}

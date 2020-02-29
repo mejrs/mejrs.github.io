@@ -1,0 +1,1 @@
+{"properties": {"width": 2, "length": 3, "actions": ["Search"], "models": [{"type": 10, "values": [1288]}], "name": "Bed", "action_cursors": [56], "occludes_2": false, "id": 6274}, "uniques": [{"id": 6274, "t": 10, "r": 1, "o": {"p": 1, "i": 52, "j": 46, "x": 44, "y": 28}}]}

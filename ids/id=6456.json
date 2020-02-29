@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Step-off"], "models": [{"type": 10, "values": [6318]}], "name": "Ice ledge", "occludes_2": false, "id": 6456}, "uniques": [{"id": 6456, "t": 10, "r": 0, "o": {"p": 2, "i": 44, "j": 59, "x": 36, "y": 33}}, {"id": 6456, "t": 10, "r": 0, "o": {"p": 2, "i": 44, "j": 59, "x": 36, "y": 34}}]}

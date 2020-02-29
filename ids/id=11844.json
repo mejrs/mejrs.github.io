@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Climb-over"], "unk_27": false, "ambient": 20, "contrast": 15, "models": [{"type": 10, "values": [107186]}], "name": "Crumbling wall", "action_cursors": [181], "occludes_2": false, "id": 11844}, "uniques": [{"id": 11844, "t": 10, "r": 2, "o": {"p": 0, "i": 45, "j": 52, "x": 55, "y": 27}}]}

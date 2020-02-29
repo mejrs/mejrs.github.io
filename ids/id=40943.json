@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Look-at"], "unk_27": false, "unk_21": true, "ambient": 25, "contrast": 15, "models": [{"type": 10, "values": [43987]}], "name": "Thermometer", "occludes_2": false, "id": 40943}, "uniques": [{"id": 40943, "t": 10, "r": 1, "o": {"p": 0, "i": 32, "j": 68, "x": 32, "y": 31}}]}

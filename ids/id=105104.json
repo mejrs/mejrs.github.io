@@ -1,0 +1,1 @@
+{"properties": {"width": 3, "length": 3, "model": false, "actions": ["Talk to"], "models": [{"type": 10, "values": [113650, 113651]}], "name": "Tuai Leit moai", "action_cursors": [44], "occludes_2": false, "id": 105104}, "uniques": [{"id": 105104, "t": 11, "r": 2, "o": {"p": 0, "i": 27, "j": 186, "x": 11, "y": 56}}]}

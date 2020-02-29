@@ -1,0 +1,1 @@
+{"properties": {"unk_27": false, "ambient": 20, "actions": ["Push"], "models": [{"type": 10, "values": [25792]}], "name": "Button", "action_cursors": [196], "occludes_2": false, "id": 95791}, "uniques": [{"id": 95791, "t": 10, "r": 1, "o": {"p": 0, "i": 58, "j": 141, "x": 60, "y": 54}}]}

@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 15, "contrast": 10, "unk_21": true, "length": 2, "models": [{"type": 10, "values": [61368]}], "name": "Bookshelves", "occludes_2": false, "id": 97571}, "uniques": [{"id": 97571, "t": 10, "r": 3, "o": {"p": 0, "i": 19, "j": 65, "x": 30, "y": 43}}, {"id": 97571, "t": 10, "r": 0, "o": {"p": 0, "i": 19, "j": 65, "x": 34, "y": 35}}]}

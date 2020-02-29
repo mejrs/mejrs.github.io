@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Read"], "unk_24": 2714, "ambient": 25, "contrast": 25, "models": [{"type": 10, "values": [32258, 32265]}], "name": "Instruction sign", "action_cursors": [50], "occludes_2": false, "id": 29464}, "uniques": [{"id": 29464, "t": 10, "r": 1, "o": {"p": 0, "i": 25, "j": 73, "x": 39, "y": 34}}]}

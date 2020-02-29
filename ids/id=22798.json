@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 20, "unk_27": false, "dummy_12": true, "models": [{"type": 10, "values": [23484]}], "name": "Mushrooms", "occludes_2": false, "id": 22798}, "uniques": [{"id": 22798, "t": 10, "r": 3, "o": {"p": 1, "i": 38, "j": 67, "x": 8, "y": 55}}, {"id": 22798, "t": 10, "r": 3, "o": {"p": 1, "i": 42, "j": 83, "x": 8, "y": 55}}]}

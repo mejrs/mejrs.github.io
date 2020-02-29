@@ -1,0 +1,1 @@
+{"properties": {"width": 6, "length": 3, "model": false, "actions": ["Travel"], "models": [{"type": 10, "values": [21563]}], "name": "Boat", "occludes_2": false, "id": 21175}, "uniques": [{"id": 21175, "t": 10, "r": 2, "o": {"p": 1, "i": 41, "j": 62, "x": 30, "y": 17}}]}

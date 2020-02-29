@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "unk_27": false, "unk_21": true, "ambient": 20, "contrast": 25, "actions": ["View"], "models": [{"type": 10, "values": [90772]}], "name": "Window", "occludes_2": false, "id": 87748}, "uniques": [{"id": 87748, "t": 10, "r": 1, "o": {"p": 1, "i": 59, "j": 70, "x": 25, "y": 51}}]}

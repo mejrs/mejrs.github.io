@@ -1,0 +1,1 @@
+{"properties": {"unk_24": 1656, "width": 3, "length": 3, "unk_19": 1, "actions": ["Operate", null, "Light"], "mapscene": 30, "dummy_12": true, "models": [{"type": 10, "values": [57660]}], "name": "Catapult", "action_cursors": [null, null, 65], "occludes_2": false, "id": 4382}, "uniques": [{"id": 4382, "t": 10, "r": 0, "o": {"p": 1, "i": 37, "j": 48, "x": 45, "y": 16}}]}

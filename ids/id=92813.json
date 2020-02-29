@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "actions": ["Exit"], "width": 3, "length": 3, "unk_27": false, "ambient": 25, "contrast": 15, "dummy_45": 13, "models": [{"type": 10, "values": [98432]}], "name": "Cage", "action_cursors": [57], "occludes_2": false, "id": 92813}, "uniques": [{"id": 92813, "t": 10, "r": 1, "o": {"p": 1, "i": 34, "j": 151, "x": 32, "y": 49}}]}

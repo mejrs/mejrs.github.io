@@ -1,0 +1,1 @@
+{"properties": {"length": 3, "contrast": 20, "ambient": 20, "actions": ["Untie"], "unk_24": 6211, "dummy_45": 13, "models": [{"type": 10, "values": [24405]}], "name": "Zanik", "action_cursors": [156], "occludes_2": false, "id": 23284}, "uniques": [{"id": 23284, "t": 10, "r": 0, "o": {"p": 0, "i": 39, "j": 86, "x": 46, "y": 8}}]}

@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 25, "contrast": 15, "unk_21": true, "model": false, "mapscene": 25, "unk_27": false, "dummy_12": true, "models": [{"type": 10, "values": [4051]}, {"type": 22, "values": [4086]}], "name": "Rockslide", "occludes_2": false, "id": 75697}, "uniques": [{"id": 75697, "t": 10, "r": 1, "o": {"p": 0, "i": 51, "j": 48, "x": 4, "y": 15}}]}

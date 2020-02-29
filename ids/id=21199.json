@@ -1,0 +1,1 @@
+{"properties": {"unk_22": true, "ambient": 20, "contrast": 20, "models": [{"type": 10, "values": [21653]}], "name": "Snow", "occludes_2": false, "id": 21199}, "uniques": [{"id": 21199, "t": 10, "r": 2, "o": {"p": 1, "i": 41, "j": 62, "x": 15, "y": 41}}, {"id": 21199, "t": 10, "r": 3, "o": {"p": 1, "i": 41, "j": 62, "x": 16, "y": 43}}]}

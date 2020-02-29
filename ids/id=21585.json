@@ -1,0 +1,1 @@
+{"properties": {"unk_73": true, "unk_22": true, "width": 2, "length": 2, "actions": ["Open"], "models": [{"type": 10, "values": [21982]}], "name": "Cave", "action_cursors": [49], "occludes_2": false, "id": 21585}, "uniques": [{"id": 21585, "t": 10, "r": 0, "o": {"p": 0, "i": 36, "j": 60, "x": 12, "y": 54}}]}

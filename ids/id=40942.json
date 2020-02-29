@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Look-at", "Search"], "unk_27": false, "unk_21": true, "ambient": 25, "contrast": 15, "models": [{"type": 10, "values": [43978]}], "name": "Drawers", "action_cursors": [null, 56], "occludes_2": false, "id": 40942}, "uniques": [{"id": 40942, "t": 10, "r": 2, "o": {"p": 0, "i": 32, "j": 68, "x": 32, "y": 29}}]}

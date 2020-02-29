@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "actions": ["Barricade"], "ambient": 64, "length": 3, "width": 3, "unk_27": false, "translateX": 65534, "translateZ": 12, "dummy_bc": true, "models": [{"type": 10, "values": [106390]}], "name": "Window", "occludes_2": false, "id": 98792}, "uniques": [{"id": 98792, "t": 10, "r": 0, "o": {"p": 0, "i": 56, "j": 113, "x": 32, "y": 38}}]}

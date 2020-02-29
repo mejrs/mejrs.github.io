@@ -1,0 +1,1 @@
+{"properties": {"width": 2, "textures": [{"original": 54, "replacement": 49}], "unk_45": 2, "models": [{"type": 10, "values": [1213, 6066]}], "name": "Cage", "occludes_2": false, "id": 6265}, "uniques": [{"id": 6265, "t": 10, "r": 3, "o": {"p": 0, "i": 52, "j": 46, "x": 23, "y": 23}}]}

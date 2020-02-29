@@ -1,0 +1,1 @@
+{"properties": {"length": 3, "width": 3, "mapscene": 7, "actions": ["Climb-down"], "models": [{"type": 10, "values": [35677]}], "name": "Staircase", "action_cursors": [53], "occludes_2": false, "id": 34978}, "uniques": [{"id": 34978, "t": 10, "r": 1, "o": {"p": 0, "i": 54, "j": 48, "x": 36, "y": 17}}]}

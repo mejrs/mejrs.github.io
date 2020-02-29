@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Use", "Collect"], "dummy_45": 14, "models": [{"type": 10, "values": [35833]}], "name": "Bank chest", "action_cursors": [46], "occludes_2": false, "id": 20607}, "uniques": [{"id": 20607, "t": 10, "r": 3, "o": {"p": 0, "i": 46, "j": 151, "x": 59, "y": 15}}]}

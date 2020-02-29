@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 20, "unk_21": true, "actions": ["Use", null, "Select destination"], "unk_27": false, "model": false, "unk_88": false, "models": [{"type": 22, "values": [119648]}], "name": "Fairy ring", "action_cursors": [46], "occludes_2": false, "id": 109511}, "uniques": [{"id": 109511, "t": 22, "r": 0, "o": {"p": 0, "i": 48, "j": 42, "x": 14, "y": 16}}]}

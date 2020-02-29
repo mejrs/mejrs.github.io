@@ -1,0 +1,1 @@
+{"properties": {"width": 2, "actions": ["Cook-at"], "models": [{"type": 10, "values": [26712]}], "name": "Range", "action_cursors": [64], "occludes_2": false, "id": 85656}, "uniques": [{"id": 85656, "t": 10, "r": 2, "o": {"p": 0, "i": 49, "j": 150, "x": 13, "y": 17}}]}
