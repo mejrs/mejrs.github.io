@@ -63,13 +63,13 @@ function parseItems(group) {
             if (!endPos || !endLook) {
                 return
             }
-            let destination = parseCoord(endPos, endLook);
+            let destination = parseCoord(item, endPos, endLook);
             item.destination = destination;
 
             let startPos = item["Pos (Start)"] ?? item["Pos"];
             let startLook = item["Look (Start)"] ?? item["Look"];
             if (startPos && startLook && startPos !== "-" && startLook !== "-" && (startPos !== endPos || startLook !== endLook)) {
-                let start = parseCoord(startPos, startLook);
+                let start = parseCoord(item, startPos, startLook);
                 item.start = start;
             }
 
@@ -80,10 +80,19 @@ function parseItems(group) {
 
 }
 
-function parseCoord(pos, look) {
+function parseCoord(item, pos, look) {
 
     let _plane = Number(pos);
-    let[, _i, _j, _x, _y] = look.match(/\d+/g).map(Number);
+
+    try {
+        var[, _i, _j, _x, _y, p, ...rest] = look.match(/\d+/g).map(Number);
+    } catch (error) {
+		throw new Error("error parsing",item);
+        
+    };
+    if ([_i, _j, _x, _y].includes(undefined) || rest.length !== 0) {
+        console.log(look, "is not a proper coordinate");
+    }
 
     let destination = {
         plane: _plane,
@@ -94,7 +103,7 @@ function parseCoord(pos, look) {
 }
 
 function createTeleports(map, collection) {
-	const bounds = map.options.maxBounds;
+    const bounds = map.options.maxBounds;
     var teleportControl = L.control.layers({}, {}, {
             "collapsed": true,
             "position": 'topleft'
@@ -124,9 +133,9 @@ function createTeleports(map, collection) {
                     });
 
                 if (item && item.destination) {
-					if (!bounds.contains([item.destination.y, item.destination.x])){
-						console.log("Bounds error",item);
-					}
+                    if (!bounds.contains([item.destination.y, item.destination.x])) {
+                        console.log("Bounds error", item);
+                    }
                     let destinationMarker = L.marker([(item.destination.y + 0.5), (item.destination.x + 0.5)], {
                             icon: item.destination.plane === currentPlane ? icon : greyscaleIcon,
                         });
@@ -145,21 +154,19 @@ function createTeleports(map, collection) {
                 }
 
                 if (item && item.start) {
-					if (!bounds.contains([item.start.y, item.start.x])){
-						console.log("Bounds error",item);
-					}
+                    if (!bounds.contains([item.start.y, item.start.x])) {
+                        console.log("Bounds error", item);
+                    }
                     let startMarker = L.marker([(item.start.y + 0.5), (item.start.x + 0.5)], {
                             icon: item.start.plane === currentPlane ? icon : greyscaleIcon,
                         });
 
-					let popUpBody = createPopupBody("start", map, item);
+                    let popUpBody = createPopupBody("start", map, item);
 
                     startMarker.bindPopup(popUpBody);
                     startMarker.on('click', function (e) {
                         this.openPopup();
                     });
-					
-					
 
                     map.on('planechange', function (e) {
                         startMarker.setIcon(item.start.plane === e.newPlane ? icon : greyscaleIcon);
@@ -186,7 +193,7 @@ function createTeleports(map, collection) {
 
 function createPopupBody(mode, map, item) {
     let wrapper = document.createElement('div');
-	
+
     let nav = (item.start && item.destination) ? createNavigator(mode, map, item) : document.createElement('div');
 
     let info = document.createElement('div');
@@ -194,29 +201,38 @@ function createPopupBody(mode, map, item) {
 
     wrapper.appendChild(nav);
     wrapper.appendChild(info);
-	return wrapper;
+    return wrapper;
 }
 
 function createNavigator(mode, map, item) {
-	
 
     let newButton = document.createElement("button");
     newButton.innerHTML = "Navigate to link";
     newButton.onclick = function () {
- 		switch(mode){
-			case 'start':
-			var {plane,x,y} = item.destination;
-			break;
-			case 'destination':
-			var {plane,x,y} = item.start;
-			break;
-			default:
-			throw mode + " is not an expected value!";
-			break;
-		}
-		console.log("navigating to", plane,x,y);
-		map.setPlane(plane);
-		map.flyTo([y,x],3,{duration: 3})
+        switch (mode) {
+        case 'start':
+            var {
+                plane,
+                x,
+                y
+            } = item.destination;
+            break;
+        case 'destination':
+            var {
+                plane,
+                x,
+                y
+            } = item.start;
+            break;
+        default:
+            throw mode + " is not an expected value!";
+            break;
+        }
+        console.log("navigating to", plane, x, y);
+        map.setPlane(plane);
+        map.flyTo([y, x], 3, {
+            duration: 3
+        })
     };
     return newButton;
 }
