@@ -29,13 +29,22 @@ var main = L.tileLayer.main('layers/{source}{iconMode}/{mapId}/{zoom}/{plane}_{x
         maxZoom: 4,
     }).addTo(runescape_map);
 
-var areas = L.tileLayer.main('layers/{source}/{mapId}/{zoom}_0_{x}_{y}.png', {
+var areas = L.tileLayer.main('layers/{source}/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
         source: 'areas_squares',
         minZoom: -4,
         maxNativeZoom: 2,
         maxZoom: 4,
     }).addTo(runescape_map);
 
+L.control.layers({
+}, {
+
+   areas:areas
+
+}, {
+    collapsed: false,
+    position: 'bottomright'
+}).addTo(runescape_map);
 
 L.control.plane().addTo(runescape_map);
 L.control.mousePosition().addTo(runescape_map);

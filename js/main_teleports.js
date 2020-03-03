@@ -36,6 +36,23 @@ var zones = L.tileLayer.main('layers/{source}/{mapId}/{zoom}_0_{x}_{y}.png', {
         maxZoom: 4,
     }).addTo(runescape_map);
 
+var areas = L.tileLayer.main('layers/{source}/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
+        source: 'areas_squares',
+        minZoom: -4,
+        maxNativeZoom: 2,
+        maxZoom: 4,
+    }).addTo(runescape_map);
+
+L.control.layers({
+}, {
+zones:zones,
+   areas:areas
+
+}, {
+    collapsed: false,
+    position: 'bottomright'
+}).addTo(runescape_map);
+
 
 L.control.plane().addTo(runescape_map);
 L.control.mousePosition().addTo(runescape_map);
