@@ -32,9 +32,9 @@ L.GameMap = L.Map.extend({
 
             this._plane = Number(parsedUrl.searchParams.get('plane') || parsedUrl.searchParams.get('p') || this._limitPlane(options.plane));
 
-            this._mapId = Number(parsedUrl.searchParams.get('mapId') || parsedUrl.searchParams.get('mapid') || parsedUrl.searchParams.get('m') || this.options.initialMapId || -1);
-            this.options.x = Number(parsedUrl.searchParams.get('x')) || this.options.x || 0;
-            this.options.y = Number(parsedUrl.searchParams.get('y')) || this.options.y || 0;
+            this._mapId = this.options.loadMapData ? (Number(parsedUrl.searchParams.get('mapId') || parsedUrl.searchParams.get('mapid') || parsedUrl.searchParams.get('m') || this.options.initialMapId || -1)) : -1;
+            this.options.x = Number(parsedUrl.searchParams.get('x')) || this.options.x || 3232;
+            this.options.y = Number(parsedUrl.searchParams.get('y')) || this.options.y || 3232;
 
             this.setView([this.options.y, this.options.x], this._zoom, {
                 reset: true,
@@ -236,7 +236,7 @@ L.TileLayer.Main = L.TileLayer.extend({
 
         options: {
             errorTileUrl: 'layers/alpha_pixel.png',
-            attribution: '<a href="http://runescape.wiki.com">RuneScape Wiki</a>',
+            attribution: '<a href="https://runescape.wiki/w/User:Mejrs/mejrs.github.io">Documentation</a>',
 
         }
 
@@ -312,4 +312,20 @@ L.TileLayer.Grid = L.TileLayer.extend({
 
 L.tileLayer.grid = function (folder, options) {
     return new L.TileLayer.Grid(folder, options);
+}
+
+
+function do_funny_stuff(){
+	
+	console.log("test start");
+	
+	var p = 0, i = 15, j = 70;
+	const url = `collisions/${p}_${i}_${j}.json`;
+	console.log(url);
+	//fetch().then(response => response.json()).then(data => console.log(data));
+	
+	
+	
+	
+	
 }
