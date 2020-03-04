@@ -16,8 +16,6 @@ var runescape_map = L.gameMap('map', {
         maxPlane: 3,
         doubleClickZoom: false,
         iconMode: "",
-        baseMaps: 'basemaps.json',
-        loadMapData: true,
         showMapBorder: true,
         enableUrlLocation: true
     });

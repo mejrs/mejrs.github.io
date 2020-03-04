@@ -6,7 +6,6 @@ var runescape_map = L.gameMap('map', {
         maxBoundsViscosity: 0.5,
         zoomControl: false,
         fullscreenControl: true,
-
         zoom: 2,
         initialMapId: -1,
         plane: 0,
@@ -16,8 +15,6 @@ var runescape_map = L.gameMap('map', {
         maxPlane: 3,
         doubleClickZoom: false,
         iconMode: "",
-        baseMaps: 'basemaps.json',
-        loadMapData: true,
         showMapBorder: true,
         enableUrlLocation: true
     });
