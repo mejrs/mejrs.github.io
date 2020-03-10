@@ -7,27 +7,26 @@ var runescape_map = L.gameMap('map', {
         zoomControl: false,
         fullscreenControl: true,
         x: 3232,
-		y: 3232,
+        y: 3232,
         zoom: 2,
-		initialMapId: -1,
-		plane: 0,
-		minPlane: 0,
-		maxPlane: 3,
+        initialMapId: -1,
+        plane: 0,
+        minPlane: 0,
+        maxPlane: 3,
         doubleClickZoom: false,
-		iconMode: "",
-		baseMaps: 'basemaps.json',
-		loadMapData: true,
-		loadMarkers: false,
+        iconMode: "",
+        baseMaps: 'basemaps.json',
+        loadMapData: true,
+        loadMarkers: false,
     });
 
 var main = L.tileLayer.main('layers/{source}{iconMode}/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
-		source: 'map_icon_squares',
+        source: 'map_icon_squares',
         minZoom: -4,
         maxNativeZoom: 3,
         maxZoom: 5,
-		iconMode: "",
+        iconMode: "",
 
-		
     }).addTo(runescape_map);
 
 L.control.customZoom().addTo(runescape_map);
@@ -36,8 +35,17 @@ L.control.plane().addTo(runescape_map);
 
 L.control.mousePosition().addTo(runescape_map);
 
+let parsedUrl = new URL(window.location.href);
+let npcParams = parsedUrl.searchParams.getAll('npc');
+let range = Number(parsedUrl.searchParams.get('range') ?? 0);
+if (isNaN(range) || range < 0) {
+    throw new Error(parsedUrl.searchParams.get('range') + " is invalid");
+}
 
-do_funny_stuff(runescape_map);
+let iconParams = parsedUrl.searchParams.getAll('icon');
+let heatmap = L.heatmap({
+        npcs: npcParams,
+        icons: iconParams,
+        range: range + 1,
 
-
-
+    }).addTo(runescape_map);
