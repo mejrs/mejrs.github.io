@@ -18,12 +18,12 @@ var runescape_map = L.gameMap('map', {
         enableUrlLocation: true
     });
 	
-var main = L.tileLayer.main('layers/{source}/{zoom}/{plane}_{x}_{y}.png', {
+var main = L.tileLayer.main('layers/{source}/-1/{zoom}/{plane}_{x}_{y}.png', {
         source: 'map_squares_osrs',
         minZoom: -4,
-        maxNativeZoom: 3,
+        maxNativeZoom: 2,
         maxZoom: 4,
-		 attribution: '<a href="https://explv.github.io/">Tiles @ Explv</a>',
+	
 
     }).addTo(runescape_map);
 

@@ -9,7 +9,7 @@ var runescape_map = L.gameMap('map', {
         x: 3232,
 		y: 3232,
         zoom: 2,
-		initialMapId: 28,
+		initialMapId: -1,
 		plane: 0,
 		minPlane: 0,
 		maxPlane: 3,
@@ -24,7 +24,7 @@ var main = L.tileLayer.main('layers/{source}{iconMode}/{mapId}/{zoom}/{plane}_{x
 		source: 'map_icon_squares',
         minZoom: -4,
         maxNativeZoom: 3,
-        maxZoom: 4,
+        maxZoom: 5,
 		iconMode: "",
 
 		
@@ -37,7 +37,7 @@ L.control.plane().addTo(runescape_map);
 L.control.mousePosition().addTo(runescape_map);
 
 
-do_funny_stuff();
+do_funny_stuff(runescape_map);
 
 
 
