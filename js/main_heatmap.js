@@ -37,7 +37,7 @@ L.control.mousePosition().addTo(runescape_map);
 
 let parsedUrl = new URL(window.location.href);
 let npcParams = parsedUrl.searchParams.getAll('npc');
-let range = Number(parsedUrl.searchParams.get('range') ?? 0);
+let range = Number(parsedUrl.searchParams.get('range') || 0);
 if (isNaN(range) || range < 0) {
     throw new Error(parsedUrl.searchParams.get('range') + " is invalid");
 }
