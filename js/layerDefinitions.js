@@ -355,18 +355,23 @@ L.Heatmap = L.GridLayer.extend({
 
             //fetch data linking npc names to ids
             fetch("npcname_id_map.json")
+			
             .then(res => res.json())
 
             //maps npc names to ids
             .then(data => npcNames.flatMap(name => data[name] ?? []))
-
+			
             //fetch location(s) of all the npc(s)
+			
             .then(idData => Promise.all(idData.map(id => fetch(`npcids/npcid=${id}.json`))))
             .then(instances => Promise.all(instances.map(res => res.json())))
             .then(data => data.flat())
+			.then(hi => {console.log("npcs:", hi);return hi;})
+
 
             //finds the map squares required
             .then(npcs => {
+				
                 let keys = this.array.unique(npcs.flatMap(npc => this.getRange(npc, range)));
 
                 //fetch collision data for these map squares
@@ -377,8 +382,8 @@ L.Heatmap = L.GridLayer.extend({
                     //calculate all the data
                     this.constructDataCache(mapData, keys, npcs);
 
-                    //callback to start drawing tiles
-                    this.fire("dataready", {
+                    //start drawing tiles
+                    this.fire("heatdataready", {
                         keys: this._heatData
                     });
                 });
@@ -396,7 +401,7 @@ L.Heatmap = L.GridLayer.extend({
             this._heatData = this.array.toObject(keys, heat);
 
             this._maxHeat = Math.max.apply(null, this._eachMaxHeat);
-            console.log("Max heat is", this._maxHeat);
+           
 
         },
 
@@ -637,7 +642,7 @@ L.Heatmap = L.GridLayer.extend({
             } else {
 
                 //defer drawing the tiles until data has loaded...
-                this.once("dataready", (e) => {
+                this.once("heatdataready", (e) => {
                     if (e.keys[key]) {
                         this._drawTile(tile, coords, e.keys[key]);
                         //console.log(key, "successfully instantiated");
@@ -728,26 +733,6 @@ L.heatmap = function (options) {
     return new L.Heatmap(options);
 };
 
-var heatmap;
-function do_funny_stuff(map) {
-
-    let parsedUrl = new URL(window.location.href);
-    let npcParams = parsedUrl.searchParams.getAll('npc');
-    let range = Number(parsedUrl.searchParams.get('range') ?? 0);
-    if (isNaN(range) || range < 0) {
-        throw new Error(parsedUrl.searchParams.get('range') + " is invalid");
-    }
-
-    let iconParams = parsedUrl.searchParams.getAll('icon');
-
-    heatmap = L.heatmap({
-            npcs: npcParams,
-            icons: iconParams,
-            range: range + 1,
-
-        }).addTo(map);
-
-};
 
 const MD5 = (function () {
     return class MD5 {
