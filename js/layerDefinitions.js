@@ -359,16 +359,14 @@ L.Heatmap = L.GridLayer.extend({
             .then(res => res.json())
 
             //maps npc names to ids
-            .then(data => npcNames.flatMap(name => data[name] ?? []))
+            .then(data => npcNames.flatMap(name => data[name] || []))
 			
             //fetch location(s) of all the npc(s)
 			
             .then(idData => Promise.all(idData.map(id => fetch(`npcids/npcid=${id}.json`))))
             .then(instances => Promise.all(instances.map(res => res.json())))
             .then(data => data.flat())
-			.then(hi => {console.log("npcs:", hi);return hi;})
-
-
+	
             //finds the map squares required
             .then(npcs => {
 				
@@ -376,7 +374,7 @@ L.Heatmap = L.GridLayer.extend({
 
                 //fetch collision data for these map squares
                 Promise.allSettled(keys.map(key => fetch(`collisions/-1/${key}.json`)))
-                .then(responses => Promise.all(responses.map(res => {console.log("response", res); return res.status === "fulfilled" && res.value.ok ? res.value.json() : undefined})))
+                .then(responses => Promise.all(responses.map(res => res.status === "fulfilled" && res.value.ok ? res.value.json() : undefined)))
                 .then(mapData => {
 					
 
@@ -402,7 +400,7 @@ L.Heatmap = L.GridLayer.extend({
             this._heatData = this.array.toObject(keys, heat);
 
             this._maxHeat = Math.max.apply(null, this._eachMaxHeat);
-           
+           console.log("Max heat is", this._maxHeat);
 
         },
 
@@ -627,9 +625,9 @@ L.Heatmap = L.GridLayer.extend({
 
             let key = this._generateDataKey(plane, properX, properY);
 
-            if (this._collisionData) {
+            if (this._heatData) {
 
-                if (this._collisionData[key] !== undefined) {
+                if (this._heatData[key] !== undefined) {
                     this._drawTile(tile, coords, this._heatData[key]);
                 } else {
                     error = "tile not in cache";
