@@ -376,7 +376,7 @@ L.Heatmap = L.GridLayer.extend({
 
                 //fetch collision data for these map squares
                 Promise.allSettled(keys.map(key => fetch(`collisions/-1/${key}.json`)))
-                .then(responses => Promise.all(responses.map(res => {console.log(res); return res.status === "fulfilled" ? res.value.json() : undefined})))
+                .then(responses => Promise.all(responses.map(res => {console.log("response", res); return res.status === "fulfilled" && res.value.ok ? res.value.json() : undefined})))
                 .then(mapData => {
 					
 
