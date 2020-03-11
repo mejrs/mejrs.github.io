@@ -399,7 +399,7 @@ L.Heatmap = L.GridLayer.extend({
             let heat = keys.map(key => this.createHeatmap(key));
             this._heatData = this.array.toObject(keys, heat);
 
-            this._maxHeat = Math.max.apply(null, this._eachMaxHeat);
+            this._maxHeat = this._eachMaxHeat.length ? Math.max.apply(null, this._eachMaxHeat) : null;
            console.log("Max heat is", this._maxHeat);
 
         },
@@ -412,7 +412,7 @@ L.Heatmap = L.GridLayer.extend({
 
             this._featureCollection = this.array.unique(npcs.flatMap(npc => npc.feature));
 
-            //for a given key of a map square, adds the npcs within range
+            
 
 
         },
