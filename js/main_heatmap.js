@@ -49,3 +49,13 @@ let heatmap = L.heatmap({
         range: range + 1,
 
     }).addTo(runescape_map);
+
+L.control.layers({
+}, {
+
+   heat:heatmap
+
+}, {
+    collapsed: false,
+    position: 'bottomright'
+}).addTo(runescape_map);

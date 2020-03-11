@@ -105,7 +105,7 @@ function parseCoord(item, pos, look) {
 function createTeleports(map, collection) {
     const bounds = map.options.maxBounds;
     var teleportControl = L.control.layers({}, {}, {
-            "collapsed": true,
+            "collapsed": false,
             "position": 'topleft'
         });
 
@@ -183,7 +183,7 @@ function createTeleports(map, collection) {
                     teleports.addLayer(travel);
                 }
             })
-            teleports.addTo(map);
+            //teleports.addTo(map);
             teleportControl.addOverlay(teleports, group.groupName);
 
             return teleports

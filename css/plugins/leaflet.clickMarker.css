@@ -20,7 +20,7 @@
 .leaflet-popup-content {
   width:240px;
 
-	overflow-x:hidden;
+	overflow-wrap: break-word;
   
   }
 
@@ -69,7 +69,7 @@
 	padding-top:0px;
 	border: 1px black;
  	overflow-y:scroll;
-	overflow-x:hidden;
+	
 }
 .tab:target {
     display: block;
