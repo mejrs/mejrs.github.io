@@ -129,7 +129,8 @@ function createTeleports(map, collection) {
                         iconAnchor: [12, 41],
                         popupAnchor: [1, -34],
                         tooltipAnchor: [16, -28],
-                        shadowSize: [41, 41]
+                        shadowSize: [41, 41],
+						
                     });
 
                 if (item && item.destination) {
@@ -138,6 +139,7 @@ function createTeleports(map, collection) {
                     }
                     let destinationMarker = L.marker([(item.destination.y + 0.5), (item.destination.x + 0.5)], {
                             icon: item.destination.plane === currentPlane ? icon : greyscaleIcon,
+							zIndexOffset : item.destination.plane === currentPlane ? 1 : -1,
                         });
                     let popUpBody = createPopupBody("destination", map, item);
 
