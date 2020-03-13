@@ -782,7 +782,7 @@ function loadIcon(item) {
         });
     } else {
        marker.on('mouseover', function (e) {
-          //  console.log(JSON.stringify(item));
+          console.log(JSON.stringify(item));
 			
         });
     }
@@ -849,7 +849,7 @@ function loadMaplink(item) {
             });
 
         marker.once('mouseover', function () {
-            //console.log(JSON.stringify(item));
+            console.log(JSON.stringify(item));
             this.setIcon(mouseover_marker_icon);
         });
 
@@ -863,9 +863,9 @@ function loadMaplink(item) {
             });
         });
     } else {
-        /*marker.on('mouseover', function (e) {
+        marker.on('mouseover', function (e) {
             console.log(JSON.stringify(item));
-        });*/
+        });
     }
 
     marker.on('click', function (e) {
