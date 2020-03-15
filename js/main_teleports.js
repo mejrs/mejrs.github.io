@@ -40,10 +40,19 @@ var areas = L.tileLayer.main('layers/{source}/{mapId}/{zoom}/{plane}_{x}_{y}.png
         maxZoom: 4,
     }).addTo(runescape_map);
 
+var watery = L.tileLayer.main('layers/{source}/{mapId}/plane_0/zoom_{zoom}/{x}_{y}.png', {
+        source: 'warp_map',
+        minZoom: -4,
+        maxNativeZoom: 2,
+        maxZoom: 4,
+		tileSize: 512
+    });
+
 L.control.layers({
 }, {
 zones:zones,
-   areas:areas
+   areas:areas,
+   watery: watery
 
 }, {
     collapsed: false,

@@ -139,7 +139,7 @@ function createTeleports(map, collection) {
                     }
                     let destinationMarker = L.marker([(item.destination.y + 0.5), (item.destination.x + 0.5)], {
                             icon: item.destination.plane === currentPlane ? icon : greyscaleIcon,
-							zIndexOffset : item.destination.plane === currentPlane ? 1 : -1,
+							
                         });
                     let popUpBody = createPopupBody("destination", map, item);
 
@@ -150,6 +150,8 @@ function createTeleports(map, collection) {
 
                     map.on('planechange', function (e) {
                         destinationMarker.setIcon(item.destination.plane === e.newPlane ? icon : greyscaleIcon);
+						
+						
                     });
 
                     teleports.addLayer(destinationMarker);
@@ -172,6 +174,7 @@ function createTeleports(map, collection) {
 
                     map.on('planechange', function (e) {
                         startMarker.setIcon(item.start.plane === e.newPlane ? icon : greyscaleIcon);
+						
                     });
 
                     teleports.addLayer(startMarker);
