@@ -137,7 +137,7 @@ function createTeleports(map, collection) {
                     if (!bounds.contains([item.destination.y, item.destination.x])) {
                         console.log("Bounds error", item);
                     }
-                    let destinationMarker = L.marker([(item.destination.y + 0.4 + 0.2*Math.random()), (item.destination.x + 0.4 + 0.2*Math.random())], {
+                    let destinationMarker = L.marker([(item.destination.y + 0.2 + 0.6*Math.random()), (item.destination.x + 0.2 + 0.6*Math.random())], {
                             icon: item.destination.plane === currentPlane ? icon : greyscaleIcon,
 							
                         });
@@ -161,7 +161,7 @@ function createTeleports(map, collection) {
                     if (!bounds.contains([item.start.y, item.start.x])) {
                         console.log("Bounds error", item);
                     }
-                    let startMarker = L.marker([(item.start.y + 0.4 + 0.2*Math.random()), (item.start.x + 0.4 + 0.2*Math.random())], {
+                    let startMarker = L.marker([(item.start.y + 0.2 + 0.6*Math.random()), (item.start.x + 0.2 + 0.6*Math.random())], {
                             icon: item.start.plane === currentPlane ? icon : greyscaleIcon,
                         });
 
@@ -181,14 +181,14 @@ function createTeleports(map, collection) {
                 }
 
                 if (item && item.start && item.destination) {
-                    let points = [[(item.start.y + 0.4 + 0.2*Math.random()), (item.start.x + 0.4 + 0.2*Math.random())], [(item.destination.y + 0.4 + 0.2*Math.random()), (item.destination.x + 0.4 + 0.2*Math.random())]];
+                    let points = [[(item.start.y + 0.2 + 0.6*Math.random()), (item.start.x + 0.2 + 0.6*Math.random())], [(item.destination.y + 0.2 + 0.6*Math.random()), (item.destination.x + 0.2 + 0.6*Math.random())]];
                     let travel = L.polyline(points, {
                             color: item.start.plane === item.destination.plane ? '#3388FF' : 'grey'
                         });
                     teleports.addLayer(travel);
                 }
             })
-            //teleports.addTo(map);
+           teleports.addTo(map);
             teleportControl.addOverlay(teleports, group.groupName);
 
             return teleports
