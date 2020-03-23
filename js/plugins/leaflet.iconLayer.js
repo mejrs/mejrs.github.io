@@ -516,13 +516,12 @@ L.IconLayer = L.Layer.extend({
         },
 
         _getTiledPixelBounds: function (center) {
-			console.log(this._tileZoom);
-            var map = this._map,
+			            var map = this._map,
             mapZoom = map._animatingZoom ? Math.max(map._animateToZoom, map.getZoom()) : map.getZoom(),
             scale = map.getZoomScale(mapZoom, this._tileZoom),
             pixelCenter = map.project(center, this._tileZoom).floor(),
             halfSize = map.getSize().divideBy(scale * 2);
-			console.log(pixelCenter.subtract(halfSize), pixelCenter.add(halfSize));
+			
             return new L.Bounds(pixelCenter.subtract(halfSize), pixelCenter.add(halfSize));
         },
 
@@ -576,7 +575,7 @@ L.IconLayer = L.Layer.extend({
             // create a queue of coordinates to load tiles from
             for (var j = tileRange.min.y; j <= tileRange.max.y; j++) {
                 for (var i = tileRange.min.x; i <= tileRange.max.x; i++) {
-					console.log(i,j);
+				
                     var coords = new L.Point(i, j);
                     coords.z = this._tileZoom;
 					coords.plane = this._map.getPlane();
@@ -703,7 +702,7 @@ L.IconLayer = L.Layer.extend({
 
             data.forEach(item => {
 
-                if (item.type === "object" || item.type === "object") {
+                if (item.type === "icon" || item.type === "object") {
                     var icon = loadIcon(item)
                         this._map.addLayer(icon);
                     icons.push(icon);
@@ -734,9 +733,11 @@ function loadIcon(item) {
     const privatelink = "../mejrs.github.io/";
     var iconSprite = item.iconData.icon.iconSprite;
     var iconClass = item.iconData.properties.unk_19;
-
+	
+	
     if (iconSprite == 32768) {
-        iconSprite = 33478;
+		console.log("max sprite?");
+       // iconSprite = 33478;
     }
 
     var marker_icon = L.divIcon({
@@ -819,12 +820,13 @@ function loadMaplink(item) {
     var iconClass = item.iconData.properties.unk_19;
 
     if (iconSprite == 32768) {
-        iconSprite = 33478;
+		console.log("max sprite?");
+       //iconSprite = 33478;
     }
 
     var marker_icon = L.divIcon({
             html: '<div class="map-icon plane-' + item.plane + ' icon-class-' + iconClass + '"><img src="' + privatelink + 'layers/sprites/' + iconSprite + '-0.png" alt="' + iconSprite + '"></div>',
-            iconSize: null //default marker is a 12x12 white box, this makes it not appear
+           iconSize: null //default marker is a 12x12 white box, this makes it not appear
         });
 
     let marker = L.marker([item.y, item.x], {
@@ -845,7 +847,7 @@ function loadMaplink(item) {
         var mouseoverIconSprite = item.iconData.icon.dungeonSprite;
         var mouseover_marker_icon = L.divIcon({
                 html: '<div class="map-icon plane-' + item.plane + ' icon-class-' + iconClass + '"><img src="' + privatelink + 'layers/sprites/' + mouseoverIconSprite + '-0.png" alt="' + mouseoverIconSprite + '"></div>',
-                iconSize: null //default marker is a 12x12 white box, this makes it not appear
+                //iconSize: null //default marker is a 12x12 white box, this makes it not appear
             });
 
         marker.once('mouseover', function () {

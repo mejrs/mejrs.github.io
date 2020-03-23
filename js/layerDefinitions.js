@@ -4,47 +4,31 @@
 L.GameMap = L.Map.extend({
         //adding inithook would be better but I want to avoid setting map variables twice
         initialize: function (id, options) { // (HTMLElement or String, Object)
-            options = L.setOptions(this, options);
-
-            // Make sure to assign internal flags at the beginning,
-            // to avoid inconsistent state in some edge cases.
-            this._handlers = [];
-            this._layers = {};
-            this._zoomBoundLayers = {};
-            this._sizeChanged = true;
-
-            this._initContainer(id);
-            this._initLayout();
-            this._baseMaps = undefined;
-
-            // hack for https://github.com/Leaflet/Leaflet/issues/1980
-            this._onResize = L.bind(this._onResize, this);
-
-            this._initEvents();
-
-            if (options.maxBounds) {
-                this.setMaxBounds(options.maxBounds);
-            }
 
             let parsedUrl = new URL(window.location.href);
 
-            this._zoom = Number(parsedUrl.searchParams.get('zoom') || parsedUrl.searchParams.get('z') || this._limitZoom(options.zoom) || 2);
+            options.zoom = Number(parsedUrl.searchParams.get('zoom') || parsedUrl.searchParams.get('z') || this._limitZoom(options.zoom) || 2);
 
             this._plane = Number(parsedUrl.searchParams.get('plane') || parsedUrl.searchParams.get('p') || this._limitPlane(options.plane));
 
-            this._mapId = this.options.loadMapData ? (Number(parsedUrl.searchParams.get('mapId') || parsedUrl.searchParams.get('mapid') || parsedUrl.searchParams.get('m') || this.options.initialMapId || -1)) : -1;
-            this.options.x = Number(parsedUrl.searchParams.get('x')) || this.options.x || 3232;
-            this.options.y = Number(parsedUrl.searchParams.get('y')) || this.options.y || 3232;
-
-            this.setView([this.options.y, this.options.x], this._zoom, {
-                reset: true,
-
-            });
-
-            if (this.options.baseMaps) {
+            this._mapId = options.loadMapData ? (Number(parsedUrl.searchParams.get('mapId') || parsedUrl.searchParams.get('mapid') || parsedUrl.searchParams.get('m') || options.initialMapId || -1)) : -1;
+            options.x = Number(parsedUrl.searchParams.get('x')) || options.x || 3232;
+            options.y = Number(parsedUrl.searchParams.get('y')) || options.y || 3232;
+            options.center = [options.y,options.x];
+			
+			options.crs = L.CRS.Simple;
+			
+			L.Map.prototype.initialize.call(this,id,options);
+			
+			this.on('moveend planechange mapidchange', this.setSearchParams)
+		
+			if (this.options.baseMaps) {
                 const dataPromise = fetch(this.options.baseMaps);
                 dataPromise.then(response => response.json()).then(data => {
-                    this._baseMaps = data;
+					
+					
+					
+                    this._baseMaps = Array.isArray(data) ? this.castBaseMaps(data) : data;
                     this._allowedMapIds = Object.keys(this._baseMaps).map(Number);
                     let bounds = this.getMapIdBounds(this._mapId);
 
@@ -63,23 +47,16 @@ L.GameMap = L.Map.extend({
                 });
                 dataPromise.catch(() => console.log("Unable to fetch " + this.options.baseMaps));
             }
-
-            this.on('moveend planechange mapidchange', this.setSearchParams)
-
-            this.callInitHooks();
-
-            // don't animate on browsers without hardware-accelerated transitions or old Android/Opera
-            this._zoomAnimated = L.DomUtil.TRANSITION && L.Browser.any3d && !L.Browser.mobileOpera && this.options.zoomAnimation;
-
-            // zoom transitions run with the same duration for all layers, so if one of transitionend events
-            // happens after starting zoom animation (propagating to the map pane), we know that it ended globally
-            if (this._zoomAnimated) {
-                this._createAnimProxy();
-                L.DomEvent.on(this._proxy, L.DomUtil.TRANSITION_END, this._catchTransitionEnd, this);
-            }
-
-            this._addLayers(this.options.layers);
         },
+		castBaseMaps: function(data){
+            let baseMaps = {}
+            for(let i in data) {
+              baseMaps[data[i].mapId] = data[i];
+            }
+            return baseMaps;
+
+        },
+
 
         setSearchParams: function (e, parameters = {
                 m: this._mapId,
@@ -235,7 +212,7 @@ L.TileLayer.Main = L.TileLayer.extend({
         },
 
         options: {
-            errorTileUrl: 'layers/alpha_pixel.png',
+            //errorTileUrl: 'layers/alpha_pixel.png',
             attribution: '<a href="https://runescape.wiki/w/User:Mejrs/mejrs.github.io">Documentation</a>',
 
         }
@@ -355,28 +332,27 @@ L.Heatmap = L.GridLayer.extend({
 
             //fetch data linking npc names to ids
             fetch("npcname_id_map.json")
-			
+
             .then(res => res.json())
 
             //maps npc names to ids
             .then(data => npcNames.flatMap(name => data[name] || []))
-			
+
             //fetch location(s) of all the npc(s)
-			
+
             .then(idData => Promise.all(idData.map(id => fetch(`npcids/npcid=${id}.json`))))
             .then(instances => Promise.all(instances.map(res => res.json())))
             .then(data => data.flat())
-	
+
             //finds the map squares required
             .then(npcs => {
-				
+
                 let keys = this.array.unique(npcs.flatMap(npc => this.getRange(npc, range)));
 
                 //fetch collision data for these map squares
                 Promise.allSettled(keys.map(key => fetch(`collisions/-1/${key}.json`)))
                 .then(responses => Promise.all(responses.map(res => res.status === "fulfilled" && res.value.ok ? res.value.json() : undefined)))
                 .then(mapData => {
-					
 
                     //calculate all the data
                     this.constructDataCache(mapData, keys, npcs);
@@ -400,7 +376,7 @@ L.Heatmap = L.GridLayer.extend({
             this._heatData = this.array.toObject(keys, heat);
 
             this._maxHeat = this._eachMaxHeat.length ? Math.max.apply(null, this._eachMaxHeat) : null;
-           console.log("Max heat is", this._maxHeat);
+            console.log("Max heat is", this._maxHeat);
 
         },
 
@@ -411,9 +387,6 @@ L.Heatmap = L.GridLayer.extend({
             this._npcData = npcs.filter(npc => npc.feature);
 
             this._featureCollection = this.array.unique(npcs.flatMap(npc => npc.feature));
-
-            
-
 
         },
         isInRange: function (key, npc, range) {
@@ -526,20 +499,20 @@ L.Heatmap = L.GridLayer.extend({
             let key = tileData.toString();
             if (!this.colors[key]) {
                 //this.colors[key] = '#' + (0x1000000 + (Math.random()) * 0xffffff).toString(16).substr(1, 6) + "E6";
-                this.colors[key] = 'rgba(' + parseInt(255 * tileData / this._maxHeat) + ',0, 0, ' + parseInt(100*tileData / this._maxHeat)/100 + ')'
+                this.colors[key] = 'rgba(' + parseInt(255 * tileData / this._maxHeat) + ',0, 0, ' + parseInt(100 * tileData / this._maxHeat) / 100 + ')'
 
             }
             return this.colors[key];
         },
-		
-		textColors: {},
-		
-		getTextColor: function (tileData) {
+
+        textColors: {},
+
+        getTextColor: function (tileData) {
 
             let key = tileData.toString();
             if (!this.textColors[key]) {
                 //this.colors[key] = '#' + (0x1000000 + (Math.random()) * 0xffffff).toString(16).substr(1, 6) + "E6";
-                this.textColors[key] = 'rgba( 255 ,255, 255, ' + parseInt(100*tileData / this._maxHeat)/100 + ')'
+                this.textColors[key] = 'rgba( 255 ,255, 255, ' + parseInt(100 * tileData / this._maxHeat) / 100 + ')'
 
             }
             return this.textColors[key];
@@ -568,7 +541,7 @@ L.Heatmap = L.GridLayer.extend({
 
             let marker = L.marker([(npc.y + 0.5), (npc.x + 0.5)], {
                     icon: icon,
-					alt: npc.name
+                    alt: npc.name
                 });
 
             map.on('planechange', function (e) {
@@ -732,7 +705,6 @@ L.Heatmap = L.GridLayer.extend({
 L.heatmap = function (options) {
     return new L.Heatmap(options);
 };
-
 
 const MD5 = (function () {
     return class MD5 {
@@ -920,7 +892,6 @@ const MD5 = (function () {
 }
     ());
 
-
 function show_data(map, path, fn) {
 
     var markerPromise = fetch(path);
@@ -954,11 +925,11 @@ function show_data(map, path, fn) {
             map.on('planechange', function (e) {
                 marker.setIcon(item.p === e.newPlane ? icon : greyscaleIcon);
             });
-			
-			let popUpText = Object.entries(item).map(x => x.map(i => typeof i !== "string" ? JSON.stringify(i) : i).join(" = ")).join("<br>");
-			marker.bindPopup(popUpText)
+
+            let popUpText = Object.entries(item).map(x => x.map(i => typeof i !== "string" ? JSON.stringify(i) : i).join(" = ")).join("<br>");
+            marker.bindPopup(popUpText)
             markerCollection.addLayer(marker)
-            
+
         });
 
         markerCollection.addTo(map);
@@ -971,4 +942,3 @@ function show_data(map, path, fn) {
     });
 
 }
-
