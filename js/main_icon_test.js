@@ -31,7 +31,7 @@ var main = L.tileLayer.main('layers/{source}{iconMode}/{mapId}/{zoom}/{plane}_{x
 
 var icons = L.iconLayer({
         iconGridFile: "icon_grid.json",
-        minZoom: 0,
+        minZoom: -4,
 		mNativeZoom: 2,
         maxNativeZoom: 2,
         maxZoom: 4,

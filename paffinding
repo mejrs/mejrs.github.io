@@ -29,6 +29,6 @@
 	</head>
   <body>
      <div id="map"></div>
-    <script src="js/main_teleports.js"></script>
+    <script src="js/main_paffinding.js"></script>
   </body>
 </html>

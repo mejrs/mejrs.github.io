@@ -85,6 +85,7 @@ L.IconLayer = L.Layer.extend({
                 const dataPromise = fetch(this.options.iconGridFile);
                 dataPromise.then(response => response.json()).then(data => {
                     console.log("data loaded");
+					
                     this._icon_data = data;
                     this._initContainer();
 
@@ -92,6 +93,7 @@ L.IconLayer = L.Layer.extend({
                     this._icons = {};
                     this._resetView();
                     this._update();
+					
 
                 });
                 dataPromise.catch(() => {
@@ -527,7 +529,7 @@ L.IconLayer = L.Layer.extend({
 
         // Private method to load tiles in the grid's active zoom level according to map bounds
         _update: function (center) {
-
+			
             var map = this._map;
             if (!map) {
                 return;
@@ -540,6 +542,7 @@ L.IconLayer = L.Layer.extend({
             if (this._tileZoom === undefined) {
                 return;
             } // if out of minzoom/maxzoom
+
 
             var pixelBounds = this._getTiledPixelBounds(center),
             tileRange = this._pxBoundsToTileRange(pixelBounds),
@@ -556,6 +559,7 @@ L.IconLayer = L.Layer.extend({
                     isFinite(tileRange.max.y))) {
                 throw new Error('Attempted to load an infinite number of tiles');
             }
+			
             for (var key in this._icons) {
                 var c = this._icons[key].coords;
 
@@ -590,7 +594,9 @@ L.IconLayer = L.Layer.extend({
                     } else {
 
                         var dataKey = 16384 * coords.plane + 128 * coords.x - coords.y;
+
                         if (this._icon_data.hasOwnProperty(dataKey)) {
+							
                             queue.push(coords);
                         }
                     }
