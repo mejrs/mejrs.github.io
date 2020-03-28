@@ -522,7 +522,6 @@ L.Heatmap = L.GridLayer.extend({
             let filename = this._npcIcons[npc.name] + ".png";
             if (filename) {
                 var hash = MD5.md5(filename);
-                //let map.config.wikiImageURL = 'https://runescape.wiki/images/';
                 npc.iconUrl = 'https://runescape.wiki/images/' + hash.substr(0, 1) + '/' + hash.substr(0, 2) + '/' + filename;
             }
         },

@@ -1,15 +1,17 @@
-.map-label {
-  position: absolute;
-  text-align: center;
-  width: max-content;
+.map-icon {
+
+    max-width: 35px;
+    max-height: 35px;
   transform: translate(-50%, -50%);
-  pointer-events: none;
+
+	
+
+
+
+  
 }
 
-.map-icon {
-  position: absolute;
- transform: translate(-50%, -100%);
-}
+
 
 .text-label-0 {
    font: 15px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -30,3 +32,10 @@
 	
 	text-align: center;
 }
+
+
+.teleport-icon{
+	
+filter: drop-shadow(0px 0px 5px white);
+}
+

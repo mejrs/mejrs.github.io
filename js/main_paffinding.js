@@ -66,7 +66,5 @@ var teleports = L.teleports({
     API_KEY: "AIzaSyBrYT0-aS9VpW2Aenm-pJ2UCUhih8cZ4g8",
     SHEET_ID: "1ZjKyAMUWa1qxFvBnmXwofNkRBkVfsizoGwp6rZylXXM",
 	minZoom: -3,
-	filterFn: item => item.type === "teleport"
-
 
 }).addTo(runescape_map);
