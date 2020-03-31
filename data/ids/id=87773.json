@@ -1,0 +1,1 @@
+{"properties": {"unk_27": false, "unk_19": 1, "unk_21": true, "actions": ["Take"], "ambient": -50, "morphs_1": {"varbit": 20645, "varp": 65535, "ids": [87774, 87775, 87776, 87777, 87778, 87779, 87780, 87781, 87782]}, "action_cursors": [45], "id": 87773}, "uniques": [{"id": 87773, "t": 10, "r": 2, "o": {"p": 1, "i": 59, "j": 70, "x": 29, "y": 50}}]}

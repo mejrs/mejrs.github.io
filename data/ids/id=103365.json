@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "unk_17": false, "ambient": 25, "contrast": 15, "length": 3, "textures": [{"original": 2078, "replacement": 3183}, {"original": 2102, "replacement": 3185}], "models": [{"type": 10, "values": [60870]}], "name": "Dragon", "occludes_2": false, "id": 103365}, "uniques": [{"id": 103365, "t": 11, "r": 0, "o": {"p": 0, "i": 15, "j": 86, "x": 9, "y": 51}}]}

@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 64, "unk_17": false, "translateX": 65422, "translateY": 382, "translateZ": 218, "textures": [{"original": 4801, "replacement": 1413}], "models": [{"type": 10, "values": [98211]}], "name": "Amlodd voicestone", "occludes_2": false, "id": 92390}, "uniques": [{"id": 92390, "t": 10, "r": 3, "o": {"p": 2, "i": 35, "j": 51, "x": 37, "y": 38}}]}

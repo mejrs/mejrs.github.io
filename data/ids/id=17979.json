@@ -1,0 +1,1 @@
+{"properties": {"scaleX": 128, "scaleY": 160, "scaleZ": 128, "length": 2, "actions": ["Climb-down"], "dummy_45": 14, "models": [{"type": 10, "values": [17688]}], "name": "Broken stairs", "action_cursors": [53], "occludes_2": false, "id": 17979}, "uniques": [{"id": 17979, "t": 10, "r": 0, "o": {"p": 1, "i": 56, "j": 50, "x": 24, "y": 9}}]}

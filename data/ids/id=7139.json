@@ -1,0 +1,1 @@
+{"properties": {"ambient": 50, "contrast": 50, "unk_24": 2178, "unk_19": 1, "actions": ["Exit-through"], "models": [{"type": 4, "values": [7446]}], "name": "Air rift", "occludes_2": false, "id": 7139}, "uniques": [{"id": 7139, "t": 4, "r": 1, "o": {"p": 0, "i": 47, "j": 75, "x": 39, "y": 25}}]}

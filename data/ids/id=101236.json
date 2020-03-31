@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "length": 3, "width": 3, "ambient": 10, "unk_27": false, "unk_21": true, "actions": ["Plan"], "models": [{"type": 10, "values": [110320]}], "name": "War table", "unk_160": [382], "occludes_2": false, "id": 101236}, "uniques": [{"id": 101236, "t": 10, "r": 0, "o": {"p": 1, "i": 71, "j": 107, "x": 30, "y": 11}}]}

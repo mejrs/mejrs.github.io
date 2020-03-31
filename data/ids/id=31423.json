@@ -1,0 +1,1 @@
+{"properties": {"width": 3, "length": 3, "unk_22": true, "ambient": 15, "contrast": 15, "models": [{"type": 10, "values": [34513]}], "name": "Machinery", "occludes_2": false, "id": 31423}, "uniques": [{"id": 31423, "t": 10, "r": 1, "o": {"p": 0, "i": 48, "j": 68, "x": 32, "y": 4}}, {"id": 31423, "t": 10, "r": 1, "o": {"p": 0, "i": 51, "j": 68, "x": 32, "y": 4}}]}

@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "contrast": 20, "ambient": 40, "unk_27": false, "actions": ["Read"], "models": [{"type": 10, "values": [28355]}], "name": "Lectern", "action_cursors": [50], "occludes_2": false, "id": 26802}, "uniques": [{"id": 26802, "t": 10, "r": 0, "o": {"p": 0, "i": 31, "j": 86, "x": 24, "y": 28}}]}

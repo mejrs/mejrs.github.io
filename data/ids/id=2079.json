@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "actions": ["Open"], "dummy_45": 11, "models": [{"type": 10, "values": [14984]}], "name": "Chest", "action_cursors": [49], "occludes_2": false, "id": 2079}, "uniques": [{"id": 2079, "t": 10, "r": 0, "o": {"p": 1, "i": 29, "j": 86, "x": 39, "y": 10}}, {"id": 2079, "t": 10, "r": 0, "o": {"p": 1, "i": 50, "j": 53, "x": 19, "y": 4}}]}

@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 64, "unk_17": false, "translateX": 65433, "translateY": 308, "translateZ": 222, "textures": [{"original": 4801, "replacement": 1413}], "models": [{"type": 10, "values": [98214]}], "name": "Hefin voicestone", "occludes_2": false, "id": 92392}, "uniques": [{"id": 92392, "t": 10, "r": 3, "o": {"p": 2, "i": 35, "j": 51, "x": 36, "y": 38}}]}

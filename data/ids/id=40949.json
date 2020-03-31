@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Look-at", "Search"], "length": 2, "ambient": 20, "contrast": 15, "unk_27": false, "mirror": true, "models": [{"type": 10, "values": [44003, 44022]}], "name": "Desk", "action_cursors": [null, 56], "occludes_2": false, "id": 40949}, "uniques": [{"id": 40949, "t": 10, "r": 2, "o": {"p": 1, "i": 32, "j": 68, "x": 20, "y": 28}}]}

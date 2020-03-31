@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Climb-over"], "scaleX": 128, "scaleY": 160, "scaleZ": 128, "unk_21": true, "models": [{"type": 10, "values": [17911]}], "name": "Wall rubble", "action_cursors": [181], "occludes_2": false, "id": 18037}, "uniques": [{"id": 18037, "t": 10, "r": 2, "o": {"p": 0, "i": 56, "j": 49, "x": 5, "y": 44}}]}

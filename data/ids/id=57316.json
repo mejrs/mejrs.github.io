@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "actions": ["Climb-down"], "contrast": 15, "ambient": 25, "unk_88": false, "model": false, "unk_22": true, "dummy_12": true, "models": [{"type": 10, "values": [65069]}], "name": "Wall", "action_cursors": [53], "occludes_2": false, "id": 57316}, "uniques": [{"id": 57316, "t": 10, "r": 1, "o": {"p": 1, "i": 24, "j": 71, "x": 22, "y": 35}}]}

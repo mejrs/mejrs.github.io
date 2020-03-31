@@ -1,0 +1,1 @@
+{"properties": {"width": 3, "length": 3, "unk_196": 4, "unk_22": true, "unk_27": false, "model": false, "actions": ["Search"], "models": [{"type": 10, "values": [47671]}], "name": "Rubble", "action_cursors": [56], "occludes_2": false, "id": 113897}, "uniques": [{"id": 113897, "t": 10, "r": 1, "o": {"p": 1, "i": 88, "j": 33, "x": 56, "y": 27}}]}

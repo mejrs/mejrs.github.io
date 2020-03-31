@@ -1,0 +1,1 @@
+{"properties": {"ambient": 20, "unk_19": 1, "dummy_45": 14, "actions": ["Turn"], "models": [{"type": 10, "values": [18741]}], "name": "Corkscrew lever", "occludes_2": false, "id": 18649}, "uniques": [{"id": 18649, "t": 10, "r": 2, "o": {"p": 2, "i": 30, "j": 80, "x": 35, "y": 41}}]}

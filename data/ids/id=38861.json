@@ -1,0 +1,1 @@
+{"properties": {"unk_21": true, "ambient": 30, "actions": ["Inspect"], "unk_27": false, "models": [{"type": 22, "values": [42520]}], "name": "Rock", "occludes_2": false, "id": 38861}, "uniques": [{"id": 38861, "t": 22, "r": 1, "o": {"p": 0, "i": 50, "j": 57, "x": 4, "y": 13}}]}

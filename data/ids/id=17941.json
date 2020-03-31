@@ -1,0 +1,1 @@
+{"properties": {"unk_22": true, "unk_21": true, "scaleX": 128, "scaleY": 160, "scaleZ": 128, "colours": [{"original": 10281, "replacement": 43034}, {"original": 26780, "replacement": 32910}], "models": [{"type": 10, "values": [17946]}], "name": "Wall", "occludes_2": false, "id": 17941}, "uniques": [{"id": 17941, "t": 10, "r": 0, "o": {"p": 0, "i": 56, "j": 50, "x": 4, "y": 15}}]}

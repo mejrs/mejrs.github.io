@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 25, "length": 4, "scaleX": 112, "actions": ["Shout through"], "models": [{"type": 10, "values": [102333]}], "name": "Impressive doorway", "occludes_2": false, "id": 103153}, "uniques": [{"id": 103153, "t": 10, "r": 3, "o": {"p": 0, "i": 25, "j": 104, "x": 26, "y": 27}}]}

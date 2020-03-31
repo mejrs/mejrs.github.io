@@ -1,0 +1,1 @@
+{"properties": {"unk_22": true, "actions": ["Leave"], "unk_21": true, "ambient": 25, "contrast": 15, "models": [{"type": 10, "values": [37684]}], "name": "Cave exit", "action_cursors": [57], "occludes_2": false, "id": 2819}, "uniques": [{"id": 2819, "t": 10, "r": 3, "o": {"p": 0, "i": 39, "j": 147, "x": 22, "y": 48}}]}

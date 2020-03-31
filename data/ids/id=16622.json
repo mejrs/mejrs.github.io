@@ -1,0 +1,1 @@
+{"properties": {"model": false, "contrast": 30, "ambient": 30, "unk_24": 4356, "unk_19": 1, "actions": ["Press"], "models": [{"type": 10, "values": [16785]}], "name": "Three", "occludes_2": false, "id": 16622}, "uniques": [{"id": 16622, "t": 10, "r": 0, "o": {"p": 2, "i": 27, "j": 79, "x": 58, "y": 5}}]}

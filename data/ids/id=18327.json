@@ -1,0 +1,1 @@
+{"properties": {"width": 4, "length": 4, "actions": ["Rotate"], "dummy_45": 11, "models": [{"type": 10, "values": [18447]}], "name": "Crane", "occludes_2": false, "id": 18327}, "uniques": [{"id": 18327, "t": 10, "r": 2, "o": {"p": 2, "i": 43, "j": 51, "x": 18, "y": 23}}]}

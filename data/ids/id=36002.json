@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "actions": ["Climb down"], "models": [{"type": 10, "values": [38329]}], "name": "Smokey well", "action_cursors": [53], "occludes_2": false, "id": 36002}, "uniques": [{"id": 36002, "t": 10, "r": 2, "o": {"p": 0, "i": 51, "j": 46, "x": 46, "y": 18}}]}

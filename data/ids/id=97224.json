@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "length": 3, "width": 3, "ambient": 64, "unk_27": false, "translateY": 65236, "model": false, "unk_88": false, "models": [{"type": 10, "values": [104289]}], "name": "Pedestal", "occludes_2": false, "id": 97224}, "uniques": [{"id": 97224, "t": 10, "r": 1, "o": {"p": 2, "i": 74, "j": 94, "x": 30, "y": 30}}]}

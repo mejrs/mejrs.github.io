@@ -1,0 +1,1 @@
+{"properties": {"length": 3, "width": 3, "actions": ["Inspect"], "models": [{"type": 10, "values": [9015]}], "name": "Broken multicannon", "occludes_2": false, "id": 5}, "uniques": [{"id": 5, "t": 11, "r": 2, "o": {"p": 2, "i": 72, "j": 95, "x": 5, "y": 13}}, {"id": 5, "t": 11, "r": 2, "o": {"p": 2, "i": 72, "j": 95, "x": 18, "y": 13}}]}

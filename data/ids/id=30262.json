@@ -1,0 +1,1 @@
+{"properties": {"mirror": true, "actions": ["Open"], "scaleY": 160, "unk_22": true, "textures": [{"original": 1830, "replacement": 2321}], "models": [{"type": 10, "values": [33687]}], "name": "Wooden doors", "action_cursors": [49], "occludes_2": false, "id": 30262}, "uniques": [{"id": 30262, "t": 10, "r": 1, "o": {"p": 0, "i": 54, "j": 153, "x": 45, "y": 21}}]}

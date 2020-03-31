@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 0, "unk_27": false, "model": false, "actions": ["Chop down"], "models": [{"type": 10, "values": [70732, 70945]}], "name": "Yeti village sign", "action_cursors": [59], "unk_160": [400], "occludes_2": false, "id": 43874}, "uniques": [{"id": 43874, "t": 10, "r": 0, "o": {"p": 0, "i": 76, "j": 150, "x": 22, "y": 4}}]}

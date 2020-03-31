@@ -1,0 +1,1 @@
+{"properties": {"width": 2, "length": 2, "mapscene": 9, "unk_21": true, "dummy_12": true, "models": [{"type": 10, "values": [1671]}], "name": "Bush", "occludes_2": false, "id": 1120}, "uniques": [{"id": 1120, "t": 11, "r": 2, "o": {"p": 0, "i": 39, "j": 53, "x": 51, "y": 38}}, {"id": 1120, "t": 10, "r": 3, "o": {"p": 0, "i": 39, "j": 53, "x": 53, "y": 26}}]}

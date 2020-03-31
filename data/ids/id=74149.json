@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 25, "length": 2, "width": 2, "unk_22": true, "actions": ["Look-through"], "models": [{"type": 10, "values": [72427]}], "name": "Periscope", "occludes_2": false, "id": 74149}, "uniques": [{"id": 74149, "t": 10, "r": 1, "o": {"p": 0, "i": 54, "j": 90, "x": 26, "y": 42}}]}

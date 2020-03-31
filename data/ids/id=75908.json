@@ -1,0 +1,1 @@
+{"properties": {"ambient": 25, "contrast": 15, "unk_19": 1, "model": false, "unk_21": true, "unk_22": true, "actions": ["Climb down"], "models": [{"type": 0, "values": [76224, 76215]}], "name": "Rug", "action_cursors": [53], "id": 75908}, "uniques": [{"id": 75908, "t": 0, "r": 1, "o": {"p": 2, "i": 51, "j": 49, "x": 13, "y": 51}}]}

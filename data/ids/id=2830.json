@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Jump-over"], "unk_17": false, "unk_196": 3, "models": [{"type": 10, "values": [20330]}], "name": "Gap", "action_cursors": [181], "occludes_2": false, "id": 2830}, "uniques": [{"id": 2830, "t": 10, "r": 0, "o": {"p": 1, "i": 39, "j": 47, "x": 34, "y": 18}}]}

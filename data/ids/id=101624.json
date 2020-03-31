@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Jump off"], "unk_19": 1, "unk_88": false, "model": false, "unk_73": true, "models": [{"type": 22, "values": [90792]}], "name": "Drop", "occludes_2": false, "id": 101624}, "uniques": [{"id": 101624, "t": 22, "r": 0, "o": {"p": 1, "i": 16, "j": 73, "x": 34, "y": 41}}]}

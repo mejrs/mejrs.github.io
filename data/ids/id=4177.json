@@ -1,0 +1,1 @@
+{"properties": {"length": 2, "dummy_45": 13, "actions": ["Open"], "models": [{"type": 10, "values": [2245]}], "name": "Cupboard", "action_cursors": [49], "occludes_2": false, "id": 4177}, "uniques": [{"id": 4177, "t": 10, "r": 3, "o": {"p": 2, "i": 41, "j": 57, "x": 5, "y": 12}}, {"id": 4177, "t": 10, "r": 3, "o": {"p": 2, "i": 70, "j": 92, "x": 22, "y": 12}}]}

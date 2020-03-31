@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 25, "contrast": 15, "unk_17": false, "actions": ["Talk to"], "models": [{"type": 10, "values": [89106]}], "name": "Skulls pirate", "action_cursors": [44], "occludes_2": false, "id": 104958}, "uniques": [{"id": 104958, "t": 10, "r": 0, "o": {"p": 2, "i": 35, "j": 178, "x": 21, "y": 42}}]}

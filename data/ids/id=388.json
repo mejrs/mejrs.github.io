@@ -1,0 +1,1 @@
+{"properties": {"dummy_45": 13, "actions": ["Open"], "ambient": 20, "models": [{"type": 10, "values": [1951, 36091]}], "name": "Wardrobe", "action_cursors": [49], "occludes_2": false, "id": 388}, "uniques": [{"id": 388, "t": 10, "r": 0, "o": {"p": 1, "i": 41, "j": 50, "x": 42, "y": 40}}, {"id": 388, "t": 10, "r": 2, "o": {"p": 1, "i": 41, "j": 50, "x": 49, "y": 42}}]}

@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "unk_24": 13898, "ambient": 25, "contrast": 15, "actions": ["Get-punch"], "unk_21": true, "length": 7, "width": 13, "dummy_45": 11, "unk_88": false, "models": [{"type": 10, "values": [1843]}], "name": "Punchbowl", "occludes_2": false, "id": 62594}, "uniques": [{"id": 62594, "t": 10, "r": 0, "o": {"p": 1, "i": 63, "j": 81, "x": 57, "y": 55}}]}

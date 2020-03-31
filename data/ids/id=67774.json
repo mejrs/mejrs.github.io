@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 25, "contrast": 15, "unk_27": false, "actions": ["Investigate"], "models": [{"type": 10, "values": [34635]}], "name": "Hopper", "occludes_2": false, "id": 67774}, "uniques": [{"id": 67774, "t": 10, "r": 3, "o": {"p": 2, "i": 17, "j": 92, "x": 11, "y": 21}}, {"id": 67774, "t": 10, "r": 2, "o": {"p": 2, "i": 45, "j": 53, "x": 13, "y": 34}}]}

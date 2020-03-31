@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Search"], "models": [{"type": 10, "values": [111415]}], "name": "Old Bookshelf", "action_cursors": [56], "occludes_2": false, "id": 24907}, "uniques": [{"id": 24907, "t": 10, "r": 0, "o": {"p": 1, "i": 54, "j": 54, "x": 21, "y": 25}}, {"id": 24907, "t": 10, "r": 0, "o": {"p": 1, "i": 74, "j": 164, "x": 21, "y": 25}}]}

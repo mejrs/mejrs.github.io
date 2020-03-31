@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 0, "unk_81": 40, "mapscene": 6, "ambient": 25, "contrast": 15, "model": false, "unk_88": false, "models": [{"type": 10, "values": [22377]}], "occludes_2": false, "id": 65247}, "uniques": [{"id": 65247, "t": 10, "r": 1, "o": {"p": 0, "i": 49, "j": 60, "x": 60, "y": 12}}, {"id": 65247, "t": 10, "r": 2, "o": {"p": 0, "i": 51, "j": 60, "x": 45, "y": 17}}]}

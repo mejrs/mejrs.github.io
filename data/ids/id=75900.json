@@ -1,0 +1,1 @@
+{"properties": {"ambient": 25, "contrast": 15, "unk_19": 1, "model": false, "width": 4, "actions": ["Walk across"], "dummy_45": 5, "unk_27": false, "models": [{"type": 10, "values": [76677]}], "name": "Plank", "action_cursors": [181], "occludes_2": false, "id": 75900}, "uniques": [{"id": 75900, "t": 10, "r": 1, "o": {"p": 2, "i": 51, "j": 49, "x": 54, "y": 51}}]}

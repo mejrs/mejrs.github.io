@@ -1,0 +1,1 @@
+{"properties": {"unk_21": true, "width": 2, "length": 2, "unk_78": {"unknown_1": 3474, "unknown_2": 10}, "mirror": true, "unk_104": 200, "unk_173": {"unknown_1": 240, "unknown_2": 260}, "models": [{"type": 10, "values": [102242]}], "name": "Furnace", "occludes_2": false, "id": 95291}, "uniques": [{"id": 95291, "t": 10, "r": 3, "o": {"p": 0, "i": 54, "j": 96, "x": 51, "y": 30}}]}

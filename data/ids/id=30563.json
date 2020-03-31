@@ -1,0 +1,1 @@
+{"properties": {"unk_27": false, "actions": ["Search"], "ambient": 25, "contrast": 25, "dummy_12": true, "models": [{"type": 10, "values": [33632]}], "name": "Fishing rods", "action_cursors": [56], "occludes_2": false, "id": 30563}, "uniques": [{"id": 30563, "t": 10, "r": 2, "o": {"p": 0, "i": 56, "j": 152, "x": 11, "y": 26}}]}

@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "unk_21": true, "ambient": 20, "contrast": 25, "unk_27": false, "actions": ["Swim to"], "model": false, "models": [{"type": 10, "values": [108300]}], "name": "Surface", "unk_98": true, "unk_160": [381], "occludes_2": false, "id": 100619}, "uniques": [{"id": 100619, "t": 10, "r": 0, "o": {"p": 0, "i": 81, "j": 12, "x": 21, "y": 34}}]}

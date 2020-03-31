@@ -1,0 +1,1 @@
+{"properties": {"unk_22": true, "unk_27": false, "unk_21": true, "ambient": 15, "unk_19": 1, "actions": ["Squeeze-through"], "model": false, "models": [{"type": 0, "values": [45125]}], "name": "Crevice", "action_cursors": [181], "id": 41670}, "uniques": [{"id": 41670, "t": 0, "r": 0, "o": {"p": 1, "i": 31, "j": 89, "x": 31, "y": 30}}]}

@@ -1,0 +1,1 @@
+{"properties": {"unk_22": true, "unk_19": 1, "ambient": 25, "width": 3, "length": 2, "unk_21": true, "actions": ["Enter"], "models": [{"type": 10, "values": [57215]}], "name": "Shady opening", "action_cursors": [57], "occludes_2": false, "id": 50580}, "uniques": [{"id": 50580, "t": 10, "r": 1, "o": {"p": 0, "i": 36, "j": 68, "x": 45, "y": 33}}]}

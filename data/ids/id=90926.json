@@ -1,0 +1,1 @@
+{"properties": {"ambient": 64, "dummy_45": 13, "unk_19": 1, "actions": ["Turn"], "models": [{"type": 4, "values": [95544, 95531]}], "name": "Valve wheel", "action_cursors": [155], "unk_160": [367], "occludes_2": false, "id": 90926}, "uniques": [{"id": 90926, "t": 4, "r": 3, "o": {"p": 0, "i": 60, "j": 105, "x": 47, "y": 39}}]}

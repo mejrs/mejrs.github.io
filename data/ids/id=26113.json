@@ -1,0 +1,1 @@
+{"properties": {"length": 2, "actions": ["Search"], "ambient": 20, "models": [{"type": 10, "values": [27323]}], "name": "Bookcase", "action_cursors": [56], "occludes_2": false, "id": 26113}, "uniques": [{"id": 26113, "t": 10, "r": 2, "o": {"p": 0, "i": 42, "j": 54, "x": 28, "y": 25}}]}

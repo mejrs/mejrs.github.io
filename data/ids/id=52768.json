@@ -1,0 +1,1 @@
+{"properties": {"width": 2, "length": 2, "dummy_45": 11, "actions": ["Enter", null, null, "Remove-room", "Remove"], "dummy_12": true, "models": [{"type": 10, "values": [12923]}], "name": "Dungeon entrance", "action_cursors": [57], "occludes_2": false, "id": 52768}, "uniques": [{"id": 52768, "t": 10, "r": 1, "o": {"p": 0, "i": 59, "j": 89, "x": 27, "y": 11}}]}

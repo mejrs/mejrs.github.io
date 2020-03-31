@@ -1,0 +1,1 @@
+{"properties": {"ambient": 20, "unk_27": false, "model": false, "translateY": 65416, "models": [{"type": 10, "values": [113422]}], "name": "Crate", "occludes_2": false, "id": 104928}, "uniques": [{"id": 104928, "t": 10, "r": 1, "o": {"p": 0, "i": 45, "j": 23, "x": 29, "y": 23}}, {"id": 104928, "t": 11, "r": 3, "o": {"p": 0, "i": 45, "j": 23, "x": 30, "y": 38}}]}

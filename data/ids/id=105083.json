@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 0, "ambient": 42, "unk_21": true, "model": false, "mirror": true, "models": [{"type": 0, "values": [114824]}, {"type": 1, "values": [114825]}], "id": 105083}, "uniques": [{"id": 105083, "t": 0, "r": 1, "o": {"p": 0, "i": 27, "j": 186, "x": 25, "y": 38}}, {"id": 105083, "t": 0, "r": 3, "o": {"p": 0, "i": 27, "j": 186, "x": 25, "y": 51}}]}

@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "actions": ["Climb through"], "models": [{"type": 10, "values": [50039]}], "name": "Obstacle", "action_cursors": [57], "occludes_2": false, "id": 87812}, "uniques": [{"id": 87812, "t": 10, "r": 0, "o": {"p": 1, "i": 58, "j": 70, "x": 38, "y": 36}}]}

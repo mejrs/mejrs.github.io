@@ -1,0 +1,1 @@
+{"properties": {"ambient": 25, "scaleY": 158, "unk_19": 1, "actions": ["Pick-lock", "Open"], "mirror": true, "models": [{"type": 0, "values": [24852]}], "name": "Treasury door", "action_cursors": [null, 49], "id": 111230}, "uniques": [{"id": 111230, "t": 0, "r": 3, "o": {"p": 2, "i": 50, "j": 54, "x": 3, "y": 20}}]}

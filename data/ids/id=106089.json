@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Jump"], "dummy_12": true, "models": [{"type": 10, "values": [50039]}], "name": "Gap", "action_cursors": [55], "unk_160": [388], "occludes_2": false, "id": 106089}, "uniques": [{"id": 106089, "t": 10, "r": 0, "o": {"p": 2, "i": 60, "j": 104, "x": 27, "y": 35}}, {"id": 106089, "t": 10, "r": 0, "o": {"p": 2, "i": 60, "j": 104, "x": 59, "y": 35}}]}

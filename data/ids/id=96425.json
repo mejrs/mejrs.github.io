@@ -1,0 +1,1 @@
+{"properties": {"ambient": -10, "scaleX": 160, "scaleY": 160, "scaleZ": 160, "models": [{"type": 10, "values": [103237, 103240]}], "name": "Statue of Zemouregal", "occludes_2": false, "id": 96425}, "uniques": [{"id": 96425, "t": 10, "r": 3, "o": {"p": 0, "i": 57, "j": 142, "x": 41, "y": 2}}, {"id": 96425, "t": 10, "r": 0, "o": {"p": 0, "i": 57, "j": 142, "x": 47, "y": 11}}]}

@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Inspect"], "ambient": 37, "unk_19": 1, "width": 8, "length": 2, "models": [{"type": 10, "values": [98626]}], "name": "Prifddinas monument", "occludes_2": false, "id": 92611}, "uniques": [{"id": 92611, "t": 10, "r": 0, "o": {"p": 1, "i": 34, "j": 51, "x": 63, "y": 6}}, {"id": 92611, "t": 10, "r": 0, "o": {"p": 1, "i": 76, "j": 97, "x": 63, "y": 6}}]}

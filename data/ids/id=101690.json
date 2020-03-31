@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 20, "contrast": 15, "width": 2, "unk_27": false, "actions": ["Take bottles"], "models": [{"type": 10, "values": [103012]}], "name": "Shelves", "occludes_2": false, "id": 101690}, "uniques": [{"id": 101690, "t": 10, "r": 0, "o": {"p": 1, "i": 16, "j": 73, "x": 35, "y": 57}}]}

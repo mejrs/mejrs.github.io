@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "length": 2, "actions": ["Check"], "unk_21": true, "ambient": 20, "contrast": 25, "unk_27": false, "models": [{"type": 10, "values": [1256]}], "name": "Bed", "occludes_2": false, "id": 65951}, "uniques": [{"id": 65951, "t": 10, "r": 0, "o": {"p": 1, "i": 21, "j": 68, "x": 42, "y": 25}}]}

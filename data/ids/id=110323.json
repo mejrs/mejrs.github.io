@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 40, "length": 4, "width": 2, "unk_27": false, "unk_21": true, "model": false, "unk_88": false, "actions": ["Investigate"], "models": [{"type": 10, "values": [8028]}], "name": "Damaged sleigh", "occludes_2": false, "id": 110323}, "uniques": [{"id": 110323, "t": 10, "r": 0, "o": {"p": 1, "i": 69, "j": 112, "x": 26, "y": 29}}]}

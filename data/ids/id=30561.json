@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Enter"], "unk_22": true, "unk_21": true, "ambient": 25, "contrast": 15, "models": [{"type": 10, "values": [111601]}], "name": "Cave entrance", "action_cursors": [57], "occludes_2": false, "id": 30561}, "uniques": [{"id": 30561, "t": 10, "r": 1, "o": {"p": 2, "i": 54, "j": 153, "x": 6, "y": 14}}]}

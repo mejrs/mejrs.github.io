@@ -1,0 +1,1 @@
+{"properties": {"ambient": 15, "contrast": 10, "actions": ["Pull"], "models": [{"type": 10, "values": [90532]}], "name": "Lever", "occludes_2": false, "id": 87350}, "uniques": [{"id": 87350, "t": 10, "r": 1, "o": {"p": 2, "i": 29, "j": 96, "x": 15, "y": 35}}]}

@@ -1,0 +1,1 @@
+{"properties": {"unk_21": true, "unk_22": true, "ambient": 25, "contrast": 25, "mapscene": 22, "unk_19": 1, "actions": ["Shout-through"], "models": [{"type": 0, "values": [34922]}], "name": "Barred window", "occludes_2": false, "id": 31495}, "uniques": [{"id": 31495, "t": 0, "r": 2, "o": {"p": 0, "i": 47, "j": 46, "x": 26, "y": 43}}]}

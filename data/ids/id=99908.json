@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "width": 3, "length": 3, "ambient": 25, "contrast": 15, "models": [{"type": 10, "values": [107611]}], "name": "Crane", "occludes_2": false, "id": 99908}, "uniques": [{"id": 99908, "t": 10, "r": 2, "o": {"p": 1, "i": 47, "j": 50, "x": 19, "y": 7}}, {"id": 99908, "t": 10, "r": 2, "o": {"p": 1, "i": 47, "j": 50, "x": 42, "y": 35}}]}

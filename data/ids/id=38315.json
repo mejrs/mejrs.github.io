@@ -1,0 +1,1 @@
+{"properties": {"unk_17": false, "ambient": 25, "contrast": 15, "length": 4, "width": 4, "actions": ["Study"], "model": false, "unk_88": false, "models": [{"type": 10, "values": [75511]}], "name": "Map", "action_cursors": [50], "occludes_2": false, "id": 38315}, "uniques": [{"id": 38315, "t": 10, "r": 0, "o": {"p": 2, "i": 26, "j": 85, "x": 31, "y": 28}}]}

@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Open"], "unk_19": 1, "models": [{"type": 0, "values": [4007]}], "name": "Waiting Room Door", "action_cursors": [49], "id": 15984}, "uniques": [{"id": 15984, "t": 0, "r": 2, "o": {"p": 0, "i": 59, "j": 47, "x": 26, "y": 7}}, {"id": 15984, "t": 0, "r": 0, "o": {"p": 0, "i": 59, "j": 47, "x": 47, "y": 7}}]}

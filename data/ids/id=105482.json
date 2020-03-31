@@ -1,0 +1,1 @@
+{"properties": {"width": 3, "ambient": 42, "unk_27": false, "model": false, "actions": ["Pedal"], "models": [{"type": 10, "values": [115293]}], "name": "Silver penny farthing", "action_cursors": [65], "occludes_2": false, "id": 105482}, "uniques": [{"id": 105482, "t": 10, "r": 0, "o": {"p": 0, "i": 98, "j": 16, "x": 12, "y": 37}}]}

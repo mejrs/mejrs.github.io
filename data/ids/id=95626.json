@@ -1,0 +1,1 @@
+{"properties": {"unk_21": true, "actions": ["Climb-up"], "unk_27": false, "width": 3, "models": [{"type": 10, "values": [102446]}], "name": "Skull slope", "action_cursors": [52], "occludes_2": false, "id": 95626}, "uniques": [{"id": 95626, "t": 10, "r": 2, "o": {"p": 0, "i": 42, "j": 42, "x": 56, "y": 53}}]}

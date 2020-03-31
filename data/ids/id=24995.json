@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "unk_27": false, "ambient": 25, "contrast": 15, "unk_22": true, "actions": ["Deposit", "Deposit-All"], "mirror": true, "models": [{"type": 10, "values": [75514]}], "name": "Deposit box", "occludes_2": false, "id": 24995}, "uniques": [{"id": 24995, "t": 10, "r": 2, "o": {"p": 2, "i": 26, "j": 85, "x": 41, "y": 33}}]}

@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "actions": ["Exit"], "models": [{"type": 10, "values": [113194]}], "name": "Trapdoor", "action_cursors": [57], "occludes_2": false, "id": 103602}, "uniques": [{"id": 103602, "t": 10, "r": 0, "o": {"p": 3, "i": 47, "j": 49, "x": 7, "y": 49}}]}

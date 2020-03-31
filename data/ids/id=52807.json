@@ -1,0 +1,1 @@
+{"properties": {"contrast": 25, "ambient": 25, "dummy_45": 11, "actions": ["Talk-to", null, null, null, "Remove"], "models": [{"type": 10, "values": [12159]}], "name": "Abyssal demon head", "action_cursors": [44], "occludes_2": false, "id": 52807}, "uniques": [{"id": 52807, "t": 10, "r": 3, "o": {"p": 0, "i": 59, "j": 89, "x": 16, "y": 38}}]}

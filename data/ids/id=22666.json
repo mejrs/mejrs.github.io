@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "actions": ["Climb-down"], "mapscene": 7, "unk_17": false, "models": [{"type": 22, "values": [23284]}], "name": "Ladder top", "action_cursors": [53], "occludes_2": false, "id": 22666}, "uniques": [{"id": 22666, "t": 22, "r": 3, "o": {"p": 3, "i": 42, "j": 81, "x": 31, "y": 57}}]}

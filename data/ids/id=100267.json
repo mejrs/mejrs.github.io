@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "length": 3, "ambient": 25, "unk_17": false, "model": false, "unk_88": false, "actions": ["Cross"], "models": [{"type": 10, "values": [107809]}], "name": "Stepping Stone", "action_cursors": [181], "occludes_2": false, "id": 100267}, "uniques": [{"id": 100267, "t": 10, "r": 0, "o": {"p": 0, "i": 52, "j": 43, "x": 31, "y": 2}}]}

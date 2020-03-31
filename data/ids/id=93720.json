@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "actions": ["Use"], "width": 2, "length": 3, "models": [{"type": 10, "values": [99505]}], "name": "Mountaineering gear", "action_cursors": [46], "unk_160": [369], "occludes_2": false, "id": 93720}, "uniques": [{"id": 93720, "t": 10, "r": 3, "o": {"p": 1, "i": 46, "j": 96, "x": 33, "y": 58}}]}

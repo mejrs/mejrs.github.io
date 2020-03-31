@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "actions": ["Leave"], "length": 3, "ambient": 25, "contrast": 15, "unk_27": false, "model": false, "unk_88": false, "models": [{"type": 10, "values": [120221]}], "name": "Exit", "action_cursors": [57], "occludes_2": false, "id": 100937}, "uniques": [{"id": 100937, "t": 10, "r": 1, "o": {"p": 0, "i": 96, "j": 16, "x": 24, "y": 13}}]}

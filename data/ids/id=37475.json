@@ -1,0 +1,1 @@
+{"properties": {"ambient": 25, "contrast": 15, "unk_27": false, "dummy_45": 11, "width": 2, "length": 3, "actions": ["Ring"], "models": [{"type": 10, "values": [36756]}], "name": "Bell", "occludes_2": false, "id": 37475}, "uniques": [{"id": 37475, "t": 10, "r": 0, "o": {"p": 2, "i": 36, "j": 89, "x": 43, "y": 6}}]}

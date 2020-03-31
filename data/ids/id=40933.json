@@ -1,0 +1,1 @@
+{"properties": {"length": 2, "width": 2, "ambient": 20, "contrast": 15, "actions": ["Climb-down"], "mapscene": 7, "dummy_45": 11, "models": [{"type": 10, "values": [44040]}], "name": "Spiral staircase", "action_cursors": [53], "occludes_2": false, "id": 40933}, "uniques": [{"id": 40933, "t": 10, "r": 2, "o": {"p": 1, "i": 32, "j": 68, "x": 21, "y": 22}}]}

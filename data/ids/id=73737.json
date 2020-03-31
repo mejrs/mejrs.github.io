@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 25, "contrast": 15, "unk_27": false, "actions": ["Get Seeds"], "dummy_12": true, "textures": [{"original": 305, "replacement": 1860}], "models": [{"type": 10, "values": [72061]}], "name": "Seed sacks", "occludes_2": false, "id": 73737}, "uniques": [{"id": 73737, "t": 10, "r": 0, "o": {"p": 0, "i": 23, "j": 81, "x": 10, "y": 17}}]}

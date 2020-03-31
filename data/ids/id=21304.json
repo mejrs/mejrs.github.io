@@ -1,0 +1,1 @@
+{"properties": {"ambient": 10, "actions": [null, "Spin"], "unk_189": true, "models": [{"type": 10, "values": [51141]}], "name": "Spinning wheel", "action_cursors": [null, 62], "occludes_2": false, "id": 21304}, "uniques": [{"id": 21304, "t": 10, "r": 3, "o": {"p": 0, "i": 36, "j": 59, "x": 48, "y": 18}}]}

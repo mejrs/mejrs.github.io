@@ -1,0 +1,1 @@
+{"properties": {"ambient": 25, "contrast": 15, "unk_19": 1, "actions": ["Open"], "unk_75": 0, "model": false, "models": [{"type": 0, "values": [56415]}], "name": "Big door", "action_cursors": [49], "occludes_2": false, "id": 84024}, "uniques": [{"id": 84024, "t": 0, "r": 0, "o": {"p": 0, "i": 44, "j": 82, "x": 15, "y": 36}}]}

@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Pass-through"], "mirror": true, "unk_27": false, "ambient": 25, "contrast": 15, "unk_21": true, "models": [{"type": 0, "values": [86266]}], "name": "Tunnel", "action_cursors": [57], "id": 32068}, "uniques": [{"id": 32068, "t": 0, "r": 1, "o": {"p": 0, "i": 41, "j": 146, "x": 23, "y": 33}}]}

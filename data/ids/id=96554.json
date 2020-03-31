@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "width": 8, "length": 3, "ambient": 25, "actions": ["Search"], "models": [{"type": 10, "values": [103311]}], "name": "Broken machine", "action_cursors": [56], "occludes_2": false, "id": 96554}, "uniques": [{"id": 96554, "t": 10, "r": 1, "o": {"p": 0, "i": 55, "j": 66, "x": 17, "y": 19}}]}

@@ -1,0 +1,1 @@
+{"properties": {"mirror": true, "actions": ["Search"], "models": [{"type": 10, "values": [61105, 61089]}], "name": "Table", "action_cursors": [56], "occludes_2": false, "id": 32008}, "uniques": [{"id": 32008, "t": 10, "r": 2, "o": {"p": 0, "i": 67, "j": 83, "x": 24, "y": 20}}, {"id": 32008, "t": 10, "r": 2, "o": {"p": 0, "i": 67, "j": 85, "x": 24, "y": 20}}]}

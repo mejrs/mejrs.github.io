@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "unk_21": true, "unk_17": false, "ambient": 20, "contrast": 25, "actions": ["Pull"], "models": [{"type": 10, "values": [102385]}], "name": "Lever", "occludes_2": false, "id": 95335}, "uniques": [{"id": 95335, "t": 10, "r": 1, "o": {"p": 0, "i": 55, "j": 97, "x": 10, "y": 48}}]}

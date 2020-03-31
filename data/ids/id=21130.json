@@ -1,0 +1,1 @@
+{"properties": {"model": false, "unk_17": false, "actions": ["Jump"], "models": [{"type": 22, "values": [21617]}], "name": "Stepping Stone", "action_cursors": [55], "occludes_2": false, "id": 21130}, "uniques": [{"id": 21130, "t": 22, "r": 3, "o": {"p": 1, "i": 41, "j": 63, "x": 11, "y": 27}}]}

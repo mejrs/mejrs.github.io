@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "contrast": 15, "ambient": 15, "unk_73": true, "scaleY": 135, "actions": [null, null, null, null, "Jump-to"], "unk_17": false, "models": [{"type": 22, "values": [21308]}], "name": "Ledge", "occludes_2": false, "id": 20900}, "uniques": [{"id": 20900, "t": 22, "r": 1, "o": {"p": 2, "i": 49, "j": 71, "x": 8, "y": 28}}]}

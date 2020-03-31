@@ -1,0 +1,1 @@
+{"properties": {"ambient": 15, "contrast": 10, "unk_21": true, "actions": [null, "Inspect"], "dummy_12": true, "textures": [{"original": 1869, "replacement": 1867}], "models": [{"type": 10, "values": [62140]}], "name": "Fertile soil", "occludes_2": false, "id": 113918}, "uniques": [{"id": 113918, "t": 10, "r": 0, "o": {"p": 0, "i": 88, "j": 37, "x": 53, "y": 46}}]}

@@ -1,0 +1,1 @@
+{"properties": {"mapscene": 6, "actions": ["Climb"], "colours": [{"original": 7054, "replacement": 5388}, {"original": 6028, "replacement": 5388}], "models": [{"type": 10, "values": [1716]}], "name": "Dead tree", "action_cursors": [181], "occludes_2": false, "id": 2020}, "uniques": [{"id": 2020, "t": 10, "r": 1, "o": {"p": 0, "i": 39, "j": 54, "x": 16, "y": 9}}]}

@@ -1,0 +1,1 @@
+{"properties": {"ambient": 0, "length": 4, "unk_17": false, "model": false, "unk_196": 4, "actions": ["Jump"], "models": [{"type": 10, "values": [48089]}], "unk_186": 0, "name": "Shackle Platform", "action_cursors": [55], "occludes_2": false, "id": 111440}, "uniques": [{"id": 111440, "t": 10, "r": 1, "o": {"p": 1, "i": 74, "j": 140, "x": 15, "y": 30}}]}

@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "unk_24": 14204, "width": 2, "unk_21": true, "ambient": 20, "contrast": 25, "unk_27": false, "actions": ["Talk-to"], "models": [{"type": 10, "values": [57874]}], "name": "Toll booth", "action_cursors": [44], "occludes_2": false, "id": 4453}, "uniques": [{"id": 4453, "t": 10, "r": 2, "o": {"p": 1, "i": 66, "j": 86, "x": 36, "y": 37}}]}

@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Look-at", "Craft"], "models": [{"type": 10, "values": [37376]}], "name": "Smashed table", "action_cursors": [null, 62], "occludes_2": false, "id": 2226}, "uniques": [{"id": 2226, "t": 10, "r": 0, "o": {"p": 0, "i": 45, "j": 146, "x": 16, "y": 33}}]}

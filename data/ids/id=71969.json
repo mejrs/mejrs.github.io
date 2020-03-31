@@ -1,0 +1,1 @@
+{"properties": {"ambient": 25, "contrast": 25, "actions": ["Store", "Deposit-All"], "translateX": 50, "models": [{"type": 10, "values": [70427]}], "name": "Locker", "action_cursors": [183], "occludes_2": false, "id": 71969}, "uniques": [{"id": 71969, "t": 10, "r": 0, "o": {"p": 0, "i": 46, "j": 49, "x": 23, "y": 60}}]}

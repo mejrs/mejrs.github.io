@@ -1,0 +1,1 @@
+{"properties": {"unk_21": true, "ambient": 25, "contrast": 15, "unk_27": false, "actions": ["Investigate", "Loot"], "model": false, "unk_24": 1357, "models": [{"type": 10, "values": [2853]}], "name": "Wreckage", "occludes_2": false, "id": 5593}, "uniques": [{"id": 5593, "t": 11, "r": 0, "o": {"p": 0, "i": 52, "j": 73, "x": 26, "y": 38}}]}

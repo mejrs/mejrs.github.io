@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Pump", "Vent"], "models": [{"type": 10, "values": [15832]}], "name": "Steam Pump", "occludes_2": false, "id": 15928}, "uniques": [{"id": 15928, "t": 10, "r": 1, "o": {"p": 0, "i": 59, "j": 46, "x": 38, "y": 55}}, {"id": 15928, "t": 10, "r": 3, "o": {"p": 0, "i": 59, "j": 46, "x": 43, "y": 8}}]}

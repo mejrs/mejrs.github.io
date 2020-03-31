@@ -1,0 +1,1 @@
+{"properties": {"unk_24": 6613, "unk_27": false, "mapFunction": 709, "actions": ["Talk-to"], "models": [{"type": 10, "values": [32809, 26367]}], "name": "Impling manager", "action_cursors": [44], "occludes_2": false, "id": 49106}, "uniques": [{"id": 49106, "t": 10, "r": 0, "o": {"p": 0, "i": 39, "j": 83, "x": 27, "y": 13}}]}

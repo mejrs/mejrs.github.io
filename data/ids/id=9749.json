@@ -1,0 +1,1 @@
+{"properties": {"ambient": 30, "contrast": 25, "unk_19": 1, "unk_24": 2734, "actions": ["Pull"], "models": [{"type": 0, "values": [9735]}, {"type": 4, "values": [9734]}], "name": "Crystal collector", "id": 9749}, "uniques": [{"id": 9749, "t": 4, "r": 2, "o": {"p": 1, "i": 29, "j": 72, "x": 57, "y": 31}}]}

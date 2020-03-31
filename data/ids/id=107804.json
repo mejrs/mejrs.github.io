@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 0, "ambient": 0, "length": 16, "width": 16, "unk_27": false, "model": false, "translateY": 80, "unk_196": 4, "textures": [{"original": 8722, "replacement": 8721}], "models": [{"type": 10, "values": [118564]}], "occludes_2": false, "id": 107804}, "uniques": [{"id": 107804, "t": 10, "r": 1, "o": {"p": 0, "i": 50, "j": 41, "x": 51, "y": 13}}]}

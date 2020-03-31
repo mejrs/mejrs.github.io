@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "actions": ["Exit"], "length": 3, "ambient": 25, "contrast": 15, "unk_75": 0, "dummy_12": true, "models": [{"type": 10, "values": [89137]}], "name": "Portcullis", "action_cursors": [57], "occludes_2": false, "id": 86815}, "uniques": [{"id": 86815, "t": 10, "r": 1, "o": {"p": 0, "i": 1, "j": 13, "x": 31, "y": 54}}]}

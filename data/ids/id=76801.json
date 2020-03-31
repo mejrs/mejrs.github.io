@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 25, "contrast": 15, "unk_27": false, "dummy_12": true, "models": [{"type": 10, "values": [75962]}], "name": "Spice Sacks", "occludes_2": false, "id": 76801}, "uniques": [{"id": 76801, "t": 10, "r": 3, "o": {"p": 0, "i": 51, "j": 49, "x": 39, "y": 61}}, {"id": 76801, "t": 10, "r": 1, "o": {"p": 0, "i": 51, "j": 50, "x": 43, "y": 4}}]}

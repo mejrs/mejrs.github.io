@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 0, "width": 16, "length": 16, "unk_17": false, "ambient": 25, "model": false, "unk_88": false, "textures": [{"original": 4744, "replacement": 4742}], "models": [{"type": 10, "values": [96857]}], "unk_186": 2, "occludes_2": false, "id": 91613}, "uniques": [{"id": 91613, "t": 10, "r": 1, "o": {"p": 1, "i": 71, "j": 98, "x": 32, "y": 0}}]}

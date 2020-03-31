@@ -1,0 +1,1 @@
+{"properties": {"length": 2, "ambient": 0, "unk_27": false, "model": false, "actions": ["Combat skill"], "models": [{"type": 10, "values": [113438]}], "name": "Contract board", "occludes_2": false, "id": 104119}, "uniques": [{"id": 104119, "t": 11, "r": 2, "o": {"p": 1, "i": 28, "j": 181, "x": 22, "y": 31}}]}

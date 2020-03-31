@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "actions": ["Take duck food"], "ambient": 20, "contrast": 15, "unk_27": false, "model": false, "dummy_12": true, "models": [{"type": 10, "values": [32877]}], "name": "Sack of duck food", "occludes_2": false, "id": 115437}, "uniques": [{"id": 115437, "t": 10, "r": 0, "o": {"p": 0, "i": 46, "j": 52, "x": 52, "y": 31}}]}

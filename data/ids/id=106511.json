@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "contrast": 25, "ambient": 25, "actions": ["Get Ice"], "models": [{"type": 10, "values": [46926]}], "name": "Ice Maker", "occludes_2": false, "id": 106511}, "uniques": [{"id": 106511, "t": 10, "r": 1, "o": {"p": 0, "i": 77, "j": 1, "x": 11, "y": 53}}]}

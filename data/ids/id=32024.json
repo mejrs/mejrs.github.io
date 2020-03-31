@@ -1,0 +1,1 @@
+{"properties": {"width": 2, "length": 2, "actions": ["Climb-down"], "textures": [{"original": 1512, "replacement": 1492}, {"original": 1529, "replacement": 1470}], "models": [{"type": 10, "values": [96122]}], "name": "Well", "action_cursors": [53], "occludes_2": false, "id": 32024}, "uniques": [{"id": 32024, "t": 10, "r": 0, "o": {"p": 0, "i": 37, "j": 151, "x": 48, "y": 10}}]}

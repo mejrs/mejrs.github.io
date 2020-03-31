@@ -1,0 +1,1 @@
+{"properties": {"unk_27": false, "ambient": 20, "actions": ["Study"], "models": [{"type": 10, "values": [25601]}], "name": "Display case", "action_cursors": [50], "occludes_2": false, "id": 24656}, "uniques": [{"id": 24656, "t": 10, "r": 0, "o": {"p": 2, "i": 51, "j": 53, "x": 1, "y": 58}}, {"id": 24656, "t": 10, "r": 0, "o": {"p": 2, "i": 71, "j": 163, "x": 1, "y": 58}}]}

@@ -1,0 +1,1 @@
+{"properties": {"scaleX": 128, "scaleY": 160, "scaleZ": 128, "ambient": 0, "unk_17": false, "model": false, "unk_196": 4, "actions": ["Read"], "models": [{"type": 22, "values": [17671]}], "name": "Cora's log", "action_cursors": [50], "occludes_2": false, "id": 5780}, "uniques": [{"id": 5780, "t": 22, "r": 0, "o": {"p": 0, "i": 39, "j": 181, "x": 60, "y": 4}}]}

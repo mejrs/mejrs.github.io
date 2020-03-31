@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Search"], "dummy_45": 11, "colours": [{"original": 6707, "replacement": 5904}, {"original": 7952, "replacement": 6806}], "models": [{"type": 10, "values": [11162]}], "name": "Repair Locker", "action_cursors": [56], "occludes_2": false, "id": 11247}, "uniques": [{"id": 11247, "t": 10, "r": 3, "o": {"p": 0, "i": 28, "j": 75, "x": 22, "y": 32}}]}

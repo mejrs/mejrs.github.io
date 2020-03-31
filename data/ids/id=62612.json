@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "actions": ["Face-East", "Face-West", "Face-North", "Face-South"], "ambient": 25, "contrast": 15, "unk_17": false, "unk_22": true, "width": 3, "length": 3, "models": [{"type": 10, "values": [1756]}], "name": "Podium", "occludes_2": false, "id": 62612}, "uniques": [{"id": 62612, "t": 10, "r": 3, "o": {"p": 0, "i": 63, "j": 82, "x": 63, "y": 16}}]}

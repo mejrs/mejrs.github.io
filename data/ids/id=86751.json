@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 25, "contrast": 15, "length": 9, "width": 3, "dummy_12": true, "models": [{"type": 10, "values": [89124]}], "name": "Debris", "occludes_2": false, "id": 86751}, "uniques": [{"id": 86751, "t": 10, "r": 2, "o": {"p": 0, "i": 1, "j": 14, "x": 15, "y": 27}}, {"id": 86751, "t": 10, "r": 2, "o": {"p": 0, "i": 1, "j": 15, "x": 15, "y": 27}}]}

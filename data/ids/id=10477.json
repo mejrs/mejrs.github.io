@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Squeeze-through"], "width": 2, "ambient": 20, "contrast": 15, "models": [{"type": 10, "values": [7404]}], "name": "Pipe", "action_cursors": [181], "occludes_2": false, "id": 10477}, "uniques": [{"id": 10477, "t": 10, "r": 3, "o": {"p": 0, "i": 62, "j": 89, "x": 52, "y": 38}}]}

@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "width": 5, "ambient": 30, "contrast": 30, "actions": ["Pray-at"], "unk_22": true, "models": [{"type": 10, "values": [29348]}], "name": "Altar", "action_cursors": [61], "occludes_2": false, "id": 27339}, "uniques": [{"id": 27339, "t": 10, "r": 0, "o": {"p": 0, "i": 43, "j": 66, "x": 30, "y": 30}}]}

@@ -1,0 +1,1 @@
+{"properties": {"width": 4, "length": 2, "actions": ["Play"], "models": [{"type": 10, "values": [1732]}], "name": "Church organ", "occludes_2": false, "id": 416}, "uniques": [{"id": 416, "t": 10, "r": 1, "o": {"p": 1, "i": 44, "j": 52, "x": 39, "y": 19}}, {"id": 416, "t": 10, "r": 1, "o": {"p": 1, "i": 68, "j": 179, "x": 39, "y": 19}}]}

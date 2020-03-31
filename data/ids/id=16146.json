@@ -1,0 +1,1 @@
+{"properties": {"unk_21": true, "actions": ["Climb-up"], "mapscene": 7, "models": [{"type": 10, "values": [9246]}], "name": "Spiky chain", "action_cursors": [52], "occludes_2": false, "id": 16146}, "uniques": [{"id": 16146, "t": 10, "r": 0, "o": {"p": 0, "i": 29, "j": 81, "x": 25, "y": 48}}]}

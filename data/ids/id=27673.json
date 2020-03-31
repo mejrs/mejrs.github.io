@@ -1,0 +1,1 @@
+{"properties": {"ambient": 0, "width": 2, "dummy_12": true, "models": [{"type": 10, "values": [29657]}], "name": "Hospital bench", "occludes_2": false, "id": 27673}, "uniques": [{"id": 27673, "t": 10, "r": 3, "o": {"p": 1, "i": 47, "j": 46, "x": 21, "y": 40}}, {"id": 27673, "t": 10, "r": 0, "o": {"p": 1, "i": 47, "j": 46, "x": 22, "y": 42}}]}

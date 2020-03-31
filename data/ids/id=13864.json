@@ -1,0 +1,1 @@
+{"properties": {"actions": [null, null, null, "Continue-trek", "Escape-event"], "unk_17": false, "width": 2, "length": 3, "models": [{"type": 10, "values": [14144]}], "name": "Boat", "occludes_2": false, "id": 13864}, "uniques": [{"id": 13864, "t": 10, "r": 0, "o": {"p": 2, "i": 40, "j": 78, "x": 14, "y": 42}}]}

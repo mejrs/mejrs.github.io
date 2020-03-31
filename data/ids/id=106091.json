@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Delay"], "dummy_12": true, "models": [{"type": 10, "values": [116399]}], "name": "Switch", "unk_160": [388], "occludes_2": false, "id": 106091}, "uniques": [{"id": 106091, "t": 10, "r": 2, "o": {"p": 2, "i": 60, "j": 104, "x": 22, "y": 34}}, {"id": 106091, "t": 10, "r": 2, "o": {"p": 2, "i": 60, "j": 104, "x": 43, "y": 34}}]}

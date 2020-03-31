@@ -1,0 +1,1 @@
+{"properties": {"width": 2, "actions": ["Enter"], "ambient": 80, "unk_78": {"unknown_1": 24885, "unknown_2": 15}, "unk_104": 180, "models": [{"type": 10, "values": [117581]}], "name": "Shattered Worlds challenger portal", "action_cursors": [57], "occludes_2": false, "id": 107345}, "uniques": [{"id": 107345, "t": 10, "r": 0, "o": {"p": 1, "i": 49, "j": 48, "x": 28, "y": 59}}]}

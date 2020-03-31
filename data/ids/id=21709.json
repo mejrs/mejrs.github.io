@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Open"], "unk_19": 1, "ambient": 30, "colours": [{"original": 6457, "replacement": 37941}, {"original": 6449, "replacement": 41137}], "models": [{"type": 0, "values": [22246]}], "name": "Gate", "action_cursors": [49], "id": 21709}, "uniques": [{"id": 21709, "t": 0, "r": 0, "o": {"p": 0, "i": 45, "j": 85, "x": 23, "y": 30}}]}

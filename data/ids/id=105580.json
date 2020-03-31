@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "length": 4, "width": 4, "unk_88": false, "model": false, "actions": ["Leave"], "models": [{"type": 10, "values": [110979]}], "name": "Wooden lift", "action_cursors": [57], "occludes_2": false, "id": 105580}, "uniques": [{"id": 105580, "t": 10, "r": 0, "o": {"p": 2, "i": 44, "j": 197, "x": 10, "y": 15}}]}

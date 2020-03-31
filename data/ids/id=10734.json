@@ -1,0 +1,1 @@
+{"properties": {"contrast": 30, "ambient": 30, "unk_22": true, "length": 2, "scaleX": 128, "scaleY": 192, "scaleZ": 128, "actions": ["Deposit"], "models": [{"type": 10, "values": [10648]}], "name": "Coin Collector", "occludes_2": false, "id": 10734}, "uniques": [{"id": 10734, "t": 10, "r": 3, "o": {"p": 2, "i": 52, "j": 150, "x": 36, "y": 50}}]}

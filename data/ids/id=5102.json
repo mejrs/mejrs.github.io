@@ -1,0 +1,1 @@
+{"properties": {"length": 2, "scaleX": 110, "scaleY": 110, "ambient": 20, "contrast": 15, "models": [{"type": 10, "values": [24726, 63543]}], "name": "Bed", "occludes_2": false, "id": 5102}, "uniques": [{"id": 5102, "t": 10, "r": 2, "o": {"p": 1, "i": 50, "j": 53, "x": 60, "y": 4}}, {"id": 5102, "t": 10, "r": 2, "o": {"p": 1, "i": 58, "j": 141, "x": 60, "y": 4}}]}

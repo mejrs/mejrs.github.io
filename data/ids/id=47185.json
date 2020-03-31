@@ -1,0 +1,1 @@
+{"properties": {"unk_27": false, "ambient": 15, "contrast": 15, "actions": ["Place-globe"], "unk_19": 1, "dummy_12": true, "textures": [{"original": 1892, "replacement": 1890}], "models": [{"type": 10, "values": [50768]}], "name": "Pedestal", "occludes_2": false, "id": 47185}, "uniques": [{"id": 47185, "t": 10, "r": 0, "o": {"p": 1, "i": 45, "j": 161, "x": 33, "y": 48}}]}

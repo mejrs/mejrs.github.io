@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 25, "contrast": 15, "scaleY": 150, "unk_27": false, "actions": ["Enter"], "models": [{"type": 10, "values": [17177]}], "name": "Passageway", "action_cursors": [57], "occludes_2": false, "id": 7258}, "uniques": [{"id": 7258, "t": 10, "r": 3, "o": {"p": 0, "i": 47, "j": 77, "x": 39, "y": 44}}]}

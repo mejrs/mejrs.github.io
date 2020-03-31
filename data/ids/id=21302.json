@@ -1,0 +1,1 @@
+{"properties": {"ambient": 10, "unk_73": true, "unk_78": {"unknown_1": 3468, "unknown_2": 3}, "unk_104": 127, "actions": ["Cook-at"], "models": [{"type": 10, "values": [21971]}], "name": "Clay oven", "action_cursors": [64], "occludes_2": false, "id": 21302}, "uniques": [{"id": 21302, "t": 10, "r": 0, "o": {"p": 0, "i": 36, "j": 59, "x": 38, "y": 35}}]}

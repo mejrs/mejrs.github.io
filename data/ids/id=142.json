@@ -1,0 +1,1 @@
+{"properties": {"width": 2, "length": 2, "mapscene": 3, "actions": ["Chop down"], "unk_81": 42, "unk_189": true, "colours": [{"original": 5786, "replacement": 8598}], "models": [{"type": 10, "values": [5530]}], "name": "Willow", "action_cursors": [59], "occludes_2": false, "id": 142}, "uniques": [{"id": 142, "t": 10, "r": 2, "o": {"p": 0, "i": 36, "j": 90, "x": 20, "y": 41}}]}

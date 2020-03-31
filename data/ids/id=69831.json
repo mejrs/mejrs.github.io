@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "width": 3, "length": 3, "unk_81": 32, "model": false, "unk_88": false, "unk_17": false, "morphs_1": {"varbit": 30, "varp": 65535, "ids": [69850, 69851]}, "id": 69831}, "uniques": [{"id": 69831, "t": 10, "r": 0, "o": {"p": 0, "i": 45, "j": 55, "x": 18, "y": 24}}, {"id": 69831, "t": 10, "r": 0, "o": {"p": 0, "i": 66, "j": 115, "x": 18, "y": 24}}]}

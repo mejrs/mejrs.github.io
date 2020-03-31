@@ -1,0 +1,1 @@
+{"properties": {"actions": ["Operate"], "dummy_45": 13, "models": [{"type": 10, "values": [68127]}], "name": "Reinitialisation Panel", "occludes_2": false, "id": 69122}, "uniques": [{"id": 69122, "t": 10, "r": 2, "o": {"p": 0, "i": 37, "j": 154, "x": 26, "y": 27}}, {"id": 69122, "t": 10, "r": 2, "o": {"p": 0, "i": 41, "j": 70, "x": 26, "y": 27}}]}

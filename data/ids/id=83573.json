@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "contrast": 15, "ambient": 25, "unk_27": false, "mirror": true, "actions": ["Climb up"], "unk_73": true, "dummy_45": 7, "models": [{"type": 22, "values": [85116]}], "name": "Steps", "action_cursors": [52], "occludes_2": false, "id": 83573}, "uniques": [{"id": 83573, "t": 22, "r": 2, "o": {"p": 1, "i": 37, "j": 48, "x": 3, "y": 54}}]}

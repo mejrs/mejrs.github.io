@@ -1,0 +1,1 @@
+{"properties": {"dummy_45": 11, "unk_22": true, "actions": ["Climb-down"], "models": [{"type": 10, "values": [57492]}], "name": "Stairs", "action_cursors": [53], "occludes_2": false, "id": 16371}, "uniques": [{"id": 16371, "t": 10, "r": 2, "o": {"p": 2, "i": 64, "j": 87, "x": 20, "y": 18}}, {"id": 16371, "t": 10, "r": 0, "o": {"p": 2, "i": 64, "j": 87, "x": 20, "y": 29}}]}

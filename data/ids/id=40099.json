@@ -1,0 +1,1 @@
+{"properties": {"unk_73": true, "mapFunction": 596, "ambient": 25, "contrast": 15, "textures": [{"original": 2075, "replacement": 1433}, {"original": 2090, "replacement": 1433}], "models": [{"type": 22, "values": [35511]}], "occludes_2": false, "id": 40099}, "uniques": [{"id": 40099, "t": 22, "r": 1, "o": {"p": 0, "i": 47, "j": 50, "x": 11, "y": 37}}]}

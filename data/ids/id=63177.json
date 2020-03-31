@@ -1,0 +1,1 @@
+{"properties": {"length": 3, "width": 2, "actions": ["Search"], "models": [{"type": 10, "values": [27997]}], "name": "Sarcophagus", "action_cursors": [56], "occludes_2": false, "id": 63177}, "uniques": [{"id": 63177, "t": 10, "r": 1, "o": {"p": 0, "i": 55, "j": 150, "x": 34, "y": 51}}, {"id": 63177, "t": 10, "r": 1, "o": {"p": 3, "i": 55, "j": 151, "x": 34, "y": 50}}]}
