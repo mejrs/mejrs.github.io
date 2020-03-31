@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 0, "width": 2, "unk_27": false, "model": false, "actions": ["Study"], "dummy_12": true, "models": [{"type": 10, "values": [88377]}], "name": "Desk", "action_cursors": [50], "occludes_2": false, "id": 116454}, "uniques": [{"id": 116454, "t": 10, "r": 3, "o": {"p": 1, "i": 52, "j": 52, "x": 0, "y": 49}}]}

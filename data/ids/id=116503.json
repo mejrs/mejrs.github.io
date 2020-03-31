@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "actions": ["Descend"], "colours": [{"original": 36300, "replacement": 123}], "textures": [{"original": 8868, "replacement": 11042}], "models": [{"type": 10, "values": [67768]}], "name": "Exit", "occludes_2": false, "id": 116503}, "uniques": [{"id": 116503, "t": 10, "r": 0, "o": {"p": 3, "i": 58, "j": 50, "x": 56, "y": 39}}]}

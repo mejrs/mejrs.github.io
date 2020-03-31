@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "unk_17": false, "actions": ["Activate"], "models": [{"type": 10, "values": [102744]}], "name": "Lighthouse elevator", "unk_160": [457], "occludes_2": false, "id": 116501}, "uniques": [{"id": 116501, "t": 10, "r": 0, "o": {"p": 1, "i": 36, "j": 118, "x": 38, "y": 27}}]}

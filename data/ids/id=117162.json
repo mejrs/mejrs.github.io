@@ -1,0 +1,1 @@
+{"properties": {"dummy_45": 7, "mapFunction": 625, "actions": ["Climb up"], "models": [{"type": 10, "values": [92079]}], "name": "Rope", "action_cursors": [52], "occludes_2": false, "id": 117162}, "uniques": [{"id": 117162, "t": 10, "r": 2, "o": {"p": 0, "i": 37, "j": 112, "x": 43, "y": 18}}]}

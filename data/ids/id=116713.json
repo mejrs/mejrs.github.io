@@ -1,0 +1,1 @@
+{"properties": {"width": 5, "length": 4, "unk_17": false, "scaleX": 300, "scaleY": 256, "scaleZ": 256, "actions": ["Leave"], "models": [{"type": 10, "values": [96705]}], "name": "Passage", "action_cursors": [57], "occludes_2": false, "id": 116713}, "uniques": [{"id": 116713, "t": 10, "r": 2, "o": {"p": 0, "i": 41, "j": 114, "x": 12, "y": 2}}]}

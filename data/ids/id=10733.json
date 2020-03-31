@@ -1,1 +1,1 @@
-{"properties": {"ambient": 20, "contrast": 15, "models": [{"type": 10, "values": [10619, 10618]}], "name": "Portal", "occludes_2": false, "id": 10733}, "uniques": [{"id": 10733, "t": 10, "r": 0, "o": {"p": 1, "i": 52, "j": 51, "x": 35, "y": 41}}, {"id": 10733, "t": 10, "r": 0, "o": {"p": 1, "i": 72, "j": 161, "x": 35, "y": 41}}]}
+{"properties": {"ambient": 20, "contrast": 15, "models": [{"type": 10, "values": [10619, 10618]}], "name": "Portal", "occludes_2": false, "id": 10733}, "uniques": [{"id": 10733, "t": 10, "r": 0, "o": {"p": 1, "i": 52, "j": 51, "x": 35, "y": 41}}]}

@@ -1,1 +1,1 @@
-{"properties": {"unk_19": 1, "unk_27": false, "translateY": 65471, "models": [{"type": 10, "values": [44342]}], "name": "Warehouse shelves", "occludes_2": false, "id": 112256}, "uniques": [{"id": 112256, "t": 10, "r": 2, "o": {"p": 0, "i": 72, "j": 162, "x": 38, "y": 30}}]}
+{"properties": {"unk_19": 1, "unk_27": false, "translateY": 65471, "models": [{"type": 10, "values": [44342]}], "name": "Warehouse shelves", "occludes_2": false, "id": 112256}, "uniques": [{"id": 112256, "t": 10, "r": 2, "o": {"p": 0, "i": 52, "j": 52, "x": 38, "y": 30}}]}

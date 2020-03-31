@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "length": 3, "width": 3, "unk_27": false, "model": false, "dummy_45": 4, "actions": ["Descend"], "dummy_12": true, "models": [{"type": 10, "values": [87733]}], "name": "Lift", "action_cursors": [57], "occludes_2": false, "id": 117243}, "uniques": [{"id": 117243, "t": 10, "r": 0, "o": {"p": 1, "i": 37, "j": 44, "x": 41, "y": 22}}]}

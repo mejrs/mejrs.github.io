@@ -40,3 +40,5 @@ var zones = L.tileLayer.main('layers/{source}/{mapId}/{zoom}_0_{x}_{y}.png', {
         maxNativeZoom: 2,
         maxZoom: 4,
     }).addTo(runescape_map);
+
+L.control.objects().addTo(runescape_map);

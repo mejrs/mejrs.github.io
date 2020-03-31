@@ -1,0 +1,1 @@
+{"properties": {"length": 3, "width": 3, "unk_19": 1, "actions": ["Climb up"], "models": [{"type": 10, "values": [87733, 87734]}], "name": "Lift", "action_cursors": [52], "occludes_2": false, "id": 117244}, "uniques": [{"id": 117244, "t": 10, "r": 0, "o": {"p": 1, "i": 37, "j": 114, "x": 29, "y": 37}}]}

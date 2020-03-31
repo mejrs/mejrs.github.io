@@ -1,0 +1,1 @@
+{"properties": {"width": 3, "length": 3, "ambient": 0, "unk_22": true, "actions": ["Dive"], "models": [{"type": 10, "values": [106497, 109308]}], "name": "Water", "unk_98": true, "unk_160": [457], "occludes_2": false, "id": 116522}, "uniques": [{"id": 116522, "t": 10, "r": 0, "o": {"p": 1, "i": 36, "j": 118, "x": 46, "y": 26}}]}

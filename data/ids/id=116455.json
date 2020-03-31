@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "ambient": 0, "model": false, "actions": ["Take"], "unk_73": true, "models": [{"type": 22, "values": [80268]}], "name": "Journal", "action_cursors": [45], "occludes_2": false, "id": 116455}, "uniques": [{"id": 116455, "t": 22, "r": 3, "o": {"p": 1, "i": 52, "j": 52, "x": 0, "y": 50}}]}

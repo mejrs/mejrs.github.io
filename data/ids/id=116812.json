@@ -1,0 +1,1 @@
+{"properties": {"unk_19": 1, "length": 3, "width": 2, "textures": [{"original": 12138, "replacement": 12603}], "models": [{"type": 10, "values": [89226, 89227]}], "name": "Rack", "occludes_2": false, "id": 116812}, "uniques": [{"id": 116812, "t": 10, "r": 0, "o": {"p": 0, "i": 41, "j": 114, "x": 34, "y": 10}}]}
