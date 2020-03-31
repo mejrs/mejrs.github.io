@@ -1,6 +1,18 @@
-'use strict';
-
-L.Control.MousePosition = L.Control.extend({
+(function (factory) {
+    var L;
+    if (typeof define === "function" && define.amd) {
+        define(["leaflet"], factory)
+    } else if (typeof module !== "undefined") {
+        L = require("leaflet");
+        module.exports = factory(L)
+    } else {
+        if (typeof window.L === "undefined") {
+            throw new Error("Leaflet must be loaded first")
+        }
+        factory(window.L)
+    }
+})(function (L) {
+    L.Control.Position = L.Control.extend({
         options: {
             position: 'topleft',
             separator: '_',
@@ -144,6 +156,16 @@ L.Control.MousePosition = L.Control.extend({
 
     });
 
-L.control.mousePosition = function (options) {
-    return new L.Control.MousePosition(options);
+
+    L.Map.addInitHook(function () {
+        if (this.options.positionControl) {
+            this.positionControl = new L.Control.Position(this.options.positionControl);
+            this.addControl(this.positionControl)
+        }
+
+    });
+
+   L.control.position = function (options) {
+    return new L.Control.Position(options);
 };
+});

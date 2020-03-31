@@ -4,8 +4,13 @@ var runescape_map = L.gameMap('map', {
         crs: L.CRS.Simple,
         maxBounds: [[-1000, -1000], [12800 + 1000, 6400 + 1000]],
         maxBoundsViscosity: 0.5,
-        zoomControl: false,
+        
+		customZoomControl:true,	
         fullscreenControl: true,
+		planeControl: true,
+		mapSelectorControl: true,
+
+		
         x: 3232,
 		y: 3232,
         zoom: 2,
@@ -15,7 +20,7 @@ var runescape_map = L.gameMap('map', {
 		maxPlane: 3,
         doubleClickZoom: false,
 		iconMode: "",
-		baseMaps: 'basemaps.json',
+		baseMaps: 'data/basemaps.json',
 		loadMapData: true,
 		loadMarkers: false,
     });
@@ -29,10 +34,4 @@ var main = L.tileLayer.main('layers/{source}{iconMode}/{mapId}/{zoom}/{plane}_{x
 
 		
     }).addTo(runescape_map);
-
-L.control.customZoom().addTo(runescape_map);
-
-L.control.plane().addTo(runescape_map);
-
-L.control.mapSelector().addTo(runescape_map);
 

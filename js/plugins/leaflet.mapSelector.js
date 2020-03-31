@@ -1,5 +1,18 @@
-
-L.Control.MapSelector = L.Control.extend({
+(function (factory) {
+    var L;
+    if (typeof define === "function" && define.amd) {
+        define(["leaflet"], factory)
+    } else if (typeof module !== "undefined") {
+        L = require("leaflet");
+        module.exports = factory(L)
+    } else {
+        if (typeof window.L === "undefined") {
+            throw new Error("Leaflet must be loaded first")
+        }
+        factory(window.L)
+    }
+})(function (L) {
+    L.Control.MapSelector = L.Control.extend({
         options: {
 
             position: 'topleft',
@@ -77,7 +90,17 @@ L.Control.MapSelector = L.Control.extend({
             //remove
         },
     });
+	
+	 L.Map.addInitHook(function() {
+        if (this.options.mapSelectorControl) {
+            this.mapSelectorControl = new L.Control.MapSelector(this.options.mapSelectorControl);
+            this.addControl(this.mapSelectorControl)
+        }
+       
+    });
 
-L.control.mapSelector = function (options) {
+    L.control.mapSelector = function (options) {
     return new L.Control.MapSelector(options);
 };
+
+});

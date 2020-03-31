@@ -2,6 +2,8 @@
 
     max-width: 35px;
     max-height: 35px;
+	min-width:20px;
+	min-height:20px;
   transform: translate(-50%, -50%);
 
 	
