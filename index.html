@@ -12,9 +12,9 @@
           let plane = Number(parsedUrl.searchParams.get('plane') || parsedUrl.searchParams.get('p') || 0);
 
           let mapId = Number(parsedUrl.searchParams.get('mapId') || parsedUrl.searchParams.get('mapid') || parsedUrl.searchParams.get('m') || -1);
-		  let scale = 64*2**-zoom;
-          let x = Math.round((Number(parsedUrl.searchParams.get('x')) || 3232)/scale);
-          let y = Math.round((Number(parsedUrl.searchParams.get('y')) || 3232)/scale);
+		  let scale = 64*2**(2-zoom);
+          let x = Math.floor((Number(parsedUrl.searchParams.get('x')) || 3232)/scale);
+          let y = Math.floor((Number(parsedUrl.searchParams.get('y')) || 3232)/scale);
 		  console.log(zoom,plane,mapId,x,y);
 		  let im = "https://mejrs.github.io/layers/map_icon_squares/"+ mapId +"/" + zoom + "/" + plane +"_"+x+"_"+y+".png"
 		  console.log(im);
