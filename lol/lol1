@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+ 
+<head>
+ 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta content="utf-8" http-equiv="encoding">
+	<meta name="og:image" content="bg.png">
+
+	
+	<style type="text/css">
+
+		body { 
+			background-image: url("bg1.png");
+			background-repeat: no-repeat;
+			background-color: white;
+			background-position: 8px 8px;
+			margin: 0; padding: 0;
+			font-family: sans-serif;
+			font-size: 12px;
+		}
+		
+		.container {
+			padding: 23px 19px;
+			}
+
+		.wrapper {
+		
+		float: left;
+		
+		}
+		input {
+		display:block;
+		
+			padding: 4px 8px;
+			
+		}
+
+
+
+	</style>
+ 
+</head>
+ 
+<body>
+	<audio id="hello" src="hello.mp3"></audio>
+	<audio id="namesdavidcoleman" src="namesdavidcoleman.mp3"></audio>
+	<audio id="leadcurator" src="leadcurator.mp3"></audio>
+	<audio id="jobgenerallywav" src="jobgenerallywav.wav"></audio>
+	<audio id="lookattheaccswav" src="lookattheaccswav.wav"></audio>
+	<audio id="impactoncommunity" src="impactoncommunity.mp3"></audio>
+	<audio id="working in a specialistteam" src="working in a specialistteam.mp3"></audio>
+	<audio id="familiars" src="familiars.mp3"></audio>
+	<audio id="familiars 2" src="familiars 2.wav"></audio>
+	<audio id="goldfarmers" src="goldfarmers.mp3"></audio>
+	<audio id="makingmoneyingame" src="makingmoneyingame.mp3"></audio>
+	<audio id="swimmingglitch" src="swimmingglitch.mp3"></audio>
+<div class="container">
+<div class="wrapper">
+	<input type="image" src="hello1.png" onclick="document.getElementById('hello').play()"></input>
+	<input type="image" src="namesdc.png" onclick="document.getElementById('namesdavidcoleman').play()"></input>
+	<input type="image" src="leadcurator.png" onclick="document.getElementById('leadcurator').play()"></input>
+	<input type="image" src="job generally.png" onclick="document.getElementById('jobgenerallywav').play()"></input>
+	<input type="image" src="look at the accs.png" onclick="document.getElementById('lookattheaccswav').play()"></input>
+	<input type="image" src="impact.png" onclick="document.getElementById('impactoncommunity').play()"></input>
+	<input type="image" src="specialist team.png" onclick="document.getElementById('working in a specialistteam').play()"></input>
+	</div>
+	
+	<div class="wrapper">
+	<input type="image" src="familiars1.png" onclick="document.getElementById('familiars').play()"></input>
+	<input type="image" src="familiars2.png" onclick="document.getElementById('familiars 2').play()"></input>
+	<input type="image" src="goldfarmers1.png" onclick="document.getElementById('goldfarmers').play()"></input>
+	<input type="image" src="money ingame.png" onclick="document.getElementById('makingmoneyingame').play()"></input>
+	<input type="image" src="swimming glitch.png" onclick="document.getElementById('swimmingglitch').play()"></input>
+	</div>
+	</div>
+
+</body>
+ 
+</html>
