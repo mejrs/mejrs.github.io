@@ -3,7 +3,8 @@
 	
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta content="utf-8" http-equiv="encoding">
-	<meta name="og:image" content="https://mejrs.github.io/layers/map_icon_squares/-1/2/0_50_50.png">
+	<meta name="og:image">
+	
 	<script>
 		let parsedUrl = new URL(window.location.href);
 
@@ -17,7 +18,7 @@
           let y = Math.floor((Number(parsedUrl.searchParams.get('y')) || 3232)/scale);
 		  console.log(zoom,plane,mapId,x,y);
 		  let im = "https://mejrs.github.io/layers/map_icon_squares/"+ mapId +"/" + zoom + "/" + plane +"_"+x+"_"+y+".png"
-		  console.log(im);
+		  console.log(0,im);
 		  
 	
 		document.querySelector('meta[name="og:image"]').setAttribute("content", im);
