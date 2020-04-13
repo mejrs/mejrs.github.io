@@ -4,8 +4,12 @@ var runescape_map = L.gameMap('map', {
         crs: L.CRS.Simple,
         maxBounds: [[-1000, -1000], [12800 + 1000, 6400 + 1000]],
         maxBoundsViscosity: 0.5,
-        zoomControl: false,
+		
+		customZoomControl:true,	
         fullscreenControl: true,
+		planeControl: true,
+		positionControl: true,
+
         zoom: 2,
         initialMapId: -1,
         plane: 0,
@@ -14,7 +18,6 @@ var runescape_map = L.gameMap('map', {
         minPlane: 0,
         maxPlane: 3,
         doubleClickZoom: false,
-        iconMode: "",
         showMapBorder: true,
         enableUrlLocation: true
     });
@@ -48,23 +51,25 @@ var watery = L.tileLayer.main('layers/{source}/{mapId}/plane_0/zoom_{zoom}/{x}_{
         tileSize: 512
     });
 
+var teleports = L.teleports({
+    API_KEY: "AIzaSyBrYT0-aS9VpW2Aenm-pJ2UCUhih8cZ4g8",
+    SHEET_ID: "1ZjKyAMUWa1qxFvBnmXwofNkRBkVfsizoGwp6rZylXXM",
+	minZoom: -3,
+	
+
+
+}).addTo(runescape_map);
+
+
 L.control.layers({}, {
     zones: zones,
     areas: areas,
-    watery: watery
+    watery: watery,
+	teleports: teleports
 
 }, {
     collapsed: false,
     position: 'bottomright'
 }).addTo(runescape_map);
 
-L.control.plane().addTo(runescape_map);
-L.control.mousePosition().addTo(runescape_map);
-L.control.customZoom().addTo(runescape_map);
 
-var teleports = L.teleports({
-    API_KEY: "AIzaSyBrYT0-aS9VpW2Aenm-pJ2UCUhih8cZ4g8",
-    SHEET_ID: "1ZjKyAMUWa1qxFvBnmXwofNkRBkVfsizoGwp6rZylXXM",
-	minZoom: -3,
-
-}).addTo(runescape_map);

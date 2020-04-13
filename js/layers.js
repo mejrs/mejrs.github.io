@@ -744,9 +744,21 @@ L.Teleports = L.Layer.extend({
         },
 
         //to be replaced by preprocessing the data like this
-        _parseData: function (data) {
-            let collection = parseSheet(data.values).map(parseItems);
+        _parseData: function (data, watery) {
+            this.watery = watery;
+            let startTime = new Date();
+            let collection = parseSheet(data).map(parseItems);
             let le_map = collection.flatMap(group => group.items).filter(item => item !== undefined);
+			
+			 le_map.forEach(item => {
+                item.plane = watery[item.x >> 6][item.y >> 6].includes((item.x << 14) + item.y) ? item.plane - 1 : item.plane;
+                if ("destination" in item) {
+                    item.destination.plane = watery[item.destination.x >> 6][item.destination.y >> 6].includes((item.destination.x << 14) + item.destination.y) ? item.destination.plane - 1 : item.destination.plane;
+                }
+                if ("start" in item) {
+                    item.start.plane = watery[item.start.x >> 6][item.start.y >> 6].includes((item.start.x << 14) + item.start.y) ? item.start.plane - 1 : item.start.plane;
+                }
+            });
 
             let transits = le_map.filter(item => "start" in item && "destination" in item);
             let transits_a = transits.map(item => Object.assign({
@@ -765,11 +777,16 @@ L.Teleports = L.Layer.extend({
 
             let all_icons = Array.prototype.concat.call(transits_a, transits_b, teleports);
 
+            all_icons.forEach(item => item.watery = watery[item.x >> 6][item.y >> 6].includes((item.x << 14) + item.y));
+
+           
+
             all_icons.forEach(item => item.key = this._tileCoordsToKey({
                         plane: item.plane,
                         x: (item.x >> 6),
                         y:  - (item.y >> 6)
                     }));
+
             all_icons.forEach(item => this.getIconUrl(item));
 
             if (this.options.filterFn) {
@@ -787,7 +804,9 @@ L.Teleports = L.Layer.extend({
                 }
                 icon_data[item.key].push(item);
             });
-            console.log("parsed", all_icons.length, "icons");
+
+            let endTime = new Date();
+            console.log("Parsed", all_icons.length, "icons", "in", endTime - startTime, "ms.");
             return icon_data;
         },
 
@@ -809,18 +828,26 @@ L.Teleports = L.Layer.extend({
 
         onAdd: function (map) {
             if (this.options.API_KEY && this.options.SHEET_ID) {
-                let url = `https://sheets.googleapis.com/v4/spreadsheets/${this.options.SHEET_ID}/values/A:Z?key=${this.options.API_KEY}`;
-                const dataPromise = fetch(url);
-                dataPromise.then(response => response.json()).then(data => {
-                    if ("error" in data) {
-                        throw new Error(data.error.message);
+
+                const dataPromise = fetch(`https://sheets.googleapis.com/v4/spreadsheets/${this.options.SHEET_ID}/values/A:Z?key=${this.options.API_KEY}`)
+                    .then(response => response.ok ? response.json().then(sheet => sheet.values) : response.json().then(oopsie => Promise.reject(new Error(oopsie.error.message)).then(() => {}, console.error)));
+
+                const wateryPromise = fetch('../mejrs.github.io/data/keyed_watery.json').then(response => response.json());
+
+                const allData = Promise.all([dataPromise, wateryPromise]);
+
+                allData.then(responses => {
+                    if (!responses.includes(undefined)) {
+
+                        this._icon_data = this._parseData.apply(this, responses);
+                        this._icons = {};
+                        this._resetView();
+                        this._update();
                     }
+                });
 
-                    this._icon_data = this._parseData(data);
-                    this._icons = {};
-                    this._resetView();
-                    this._update();
-
+                allData.catch(error => {
+                    console.error(error.message)
                 });
 
             } else {
@@ -1291,7 +1318,7 @@ L.Teleports = L.Layer.extend({
                         html: '<img class="map-icon plane-' + item.plane + teleclass + '" src="' + item.iconUrl + '" alt="' + item.name + '">',
                         iconSize: [0, 0]//default marker is a 12x12 white box, this makes it not appear
                     });
-                var destinationMarker = L.marker([item.y + 0.5, item.x + 0.5], {
+                var destinationMarker = L.marker([item.y + 0.4 + 0.2*Math.random(), item.x + 0.4 + 0.2*Math.random()], {
                         icon: thisIcon,
                         alt: item.name,
                         riseOnHover: true
