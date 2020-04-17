@@ -1,0 +1,65 @@
+<html>
+  <head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
+    <title>Pathfinding demo</title>
+
+    <script src="../js/leaflet.js"></script>	
+	<script src="../js/layers.js"></script>
+	
+	<style type="text/css">
+
+		body { 
+			background-color: grey;
+			}
+			body{text-align: center;background: #f2f6f8;}
+		#demo_img{
+
+z-index:1;
+			margin: -256px 0 0 -256px;
+		}
+
+		#container{
+
+			display:inline-block;
+
+			margin: 0 auto; 
+			background: black; 
+			position:relative; 
+			border:5px solid black; 
+			border-radius: 10px; 
+			box-shadow: 0 5px 5px #333}
+
+		#canvas{
+			position: relative;
+
+			z-index:20;
+		}
+		#crop{
+		position:absolute;
+			z-index:1;
+			width:512px; 
+			height: 512px;
+			overflow:hidden; /*hide bounds of image */
+			margin:0;   /*reset margin of figure tag*/
+		}
+	
+
+
+	</style>
+
+	
+	
+	</head>
+  <body>
+
+    <div id="container">
+		<div id="crop">
+			<img id="demo_img" src="demo.png">
+		</div>
+		<canvas width="512" height="512" id="canvas"></canvas>
+		
+	</div>
+  </body>
+  <script src="demo.js"></script>
+</html>
