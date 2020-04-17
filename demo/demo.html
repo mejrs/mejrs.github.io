@@ -10,19 +10,21 @@
 	<style type="text/css">
 
 		body { 
-			background-color: grey;
-			}
-			body{text-align: center;background: #f2f6f8;}
-		#demo_img{
 
-z-index:1;
+			-webkit-user-select: none; /* Safari */
+			-ms-user-select: none; /* IE 10+ and Edge */
+			user-select: none; /* Standard syntax */
+			background-color: grey;
+			text-align: center;background: #f2f6f8;
+		}
+		
+		#demo_img{
+			z-index:1;
 			margin: -256px 0 0 -256px;
 		}
 
 		#container{
-
 			display:inline-block;
-
 			margin: 0 auto; 
 			background: black; 
 			position:relative; 
@@ -32,11 +34,11 @@ z-index:1;
 
 		#canvas{
 			position: relative;
-
 			z-index:20;
 		}
+		
 		#crop{
-		position:absolute;
+			position:absolute;
 			z-index:1;
 			width:512px; 
 			height: 512px;
