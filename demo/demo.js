@@ -18,6 +18,9 @@ class Rect {
     }
 
     addToCanvas(canvas, x, y) {
+		if (this.collision(x,y)){
+			//console.error("You cannot have two rectangles on the same tile");
+		}
         this.x = x;
         this.y = y;
         this.canvas = canvas;
@@ -30,7 +33,7 @@ class Rect {
     mousemove(e) {
         let detectedX = e.layerX >> this.bit;
         let detectedY = e.layerY >> this.bit;
-        if (this.dragState === true && !this.hits(detectedX, detectedY)) {
+        if (this.dragState === true && !this.hits(detectedX, detectedY) && !this.collision(detectedX, detectedY)) {
             this.x = detectedX;
             this.y = detectedY;
             setTimeout(() => this.refresh(), 0);
@@ -53,6 +56,10 @@ class Rect {
         }
 
     }
+	
+	collision(detectedX, detectedY){
+		return Rect.instances.some(rect => (rect.x === detectedX && rect.y === detectedY ))
+	}
 
     checkIfMove(new_x, new_y) {
         return (this.x !== new_x || this.y !== new_y)
@@ -77,7 +84,6 @@ class Rect {
 
 }
 
-let rect1 = new Rect(SIZE, 'green').addToCanvas(canvas, 52, 48);
-let rect2 = new Rect(SIZE, 'red');
+new Rect(SIZE, 'green').addToCanvas(canvas, 52, 48);
+new Rect(SIZE, 'red').addToCanvas(canvas, 108, 103);
 
-rect2.addToCanvas(canvas, 108, 103);
