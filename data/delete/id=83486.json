@@ -1,1 +1,0 @@
-{"properties": {"ambient": 25, "contrast": 15, "actions": ["Open Doors", "Attack"], "unk_75": 0, "unk_27": false, "models": [{"type": 0, "values": [85113]}], "name": "Large door", "action_cursors": [null, 42], "occludes_2": false, "id": 83486}, "uniques": [{"id": 83486, "t": 0, "r": 1, "o": {"p": 0, "i": 37, "j": 48, "x": 59, "y": 16}}]}

@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "actions": ["Smash"], "ambient": 64, "unk_27": false, "translateX": 65494, "translateZ": 65494, "dummy_12": true, "models": [{"type": 10, "values": [106322]}], "name": "Chair", "extra": {"5321": 9532}, "occludes_2": false, "id": 98876}, "uniques": [{"id": 98876, "t": 10, "r": 2, "o": {"p": 0, "i": 56, "j": 113, "x": 39, "y": 20}}]}

@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Climb-on"], "models": [{"type": 10, "values": [1886]}], "name": "Barrel", "occludes_2": false, "id": 2161}, "uniques": [{"id": 2161, "t": 10, "r": 3, "o": {"p": 0, "i": 30, "j": 75, "x": 31, "y": 32}}, {"id": 2161, "t": 10, "r": 3, "o": {"p": 0, "i": 30, "j": 75, "x": 37, "y": 20}}]}

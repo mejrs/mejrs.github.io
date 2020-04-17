@@ -1,1 +1,0 @@
-{"properties": {"unk_21": true, "unk_19": 1, "ambient": 25, "contrast": 15, "actions": ["Crawl"], "models": [{"type": 0, "values": [37629]}], "name": "Tunnel", "occludes_2": false, "id": 26749}, "uniques": [{"id": 26749, "t": 0, "r": 3, "o": {"p": 0, "i": 39, "j": 149, "x": 48, "y": 35}}, {"id": 26749, "t": 0, "r": 3, "o": {"p": 0, "i": 40, "j": 69, "x": 48, "y": 35}}]}

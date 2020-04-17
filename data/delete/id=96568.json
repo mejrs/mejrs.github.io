@@ -1,1 +1,0 @@
-{"properties": {"length": 2, "width": 2, "ambient": 25, "unk_19": 1, "model": false, "unk_88": false, "actions": ["Search"], "models": [{"type": 10, "values": [103331]}], "name": "Chocolate bars", "action_cursors": [56], "occludes_2": false, "id": 96568}, "uniques": [{"id": 96568, "t": 10, "r": 3, "o": {"p": 0, "i": 55, "j": 66, "x": 31, "y": 25}}]}

@@ -1,1 +1,0 @@
-{"properties": {"unk_21": true, "ambient": 25, "contrast": 15, "unk_88": false, "model": false, "length": 3, "width": 4, "actions": ["Walk-down"], "models": [{"type": 10, "values": [77214]}], "name": "Stairs", "action_cursors": [53], "occludes_2": false, "id": 77509}, "uniques": [{"id": 77509, "t": 10, "r": 3, "o": {"p": 2, "i": 41, "j": 149, "x": 20, "y": 57}}]}

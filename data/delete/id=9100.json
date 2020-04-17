@@ -1,1 +1,0 @@
-{"properties": {"unk_24": 2437, "unk_19": 1, "actions": ["Put-ore-on"], "unk_27": false, "models": [{"type": 10, "values": [9063]}], "name": "Conveyor belt", "occludes_2": false, "id": 9100}, "uniques": [{"id": 9100, "t": 10, "r": 0, "o": {"p": 0, "i": 30, "j": 77, "x": 23, "y": 39}}]}

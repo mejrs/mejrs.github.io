@@ -22,6 +22,8 @@ L.GameMap = L.Map.extend({
 
             if (this.options.baseMaps) {
                 const dataPromise = fetch(this.options.baseMaps);
+				dataPromise.catch(console.error);
+				 
                 dataPromise.then(response => response.json()).then(data => {
 
                     this._baseMaps = Array.isArray(data) ? this.castBaseMaps(data) : data;
@@ -39,9 +41,9 @@ L.GameMap = L.Map.extend({
 
                     let paddedBounds = bounds.pad(0.1);
                     this.setMaxBounds(paddedBounds);
-
                 });
-                dataPromise.catch(() => console.log("Unable to fetch " + this.options.baseMaps));
+				
+               
             }
         },
 
@@ -86,12 +88,12 @@ L.GameMap = L.Map.extend({
         _validateMapId: function (_mapId) {
             const parsedMapId = parseInt(_mapId);
             if (!this._allowedMapIds) {
-                console.log("No basemaps found")
+                console.error("No basemaps found")
                 return this._mapId
             } else if (this._allowedMapIds.includes(parsedMapId)) {
                 return parsedMapId;
             } else {
-                console.log("Not a valid mapId");
+                console.warn("Not a valid mapId");
                 return this._mapId;
             }
 
@@ -372,7 +374,7 @@ L.Heatmap = L.GridLayer.extend({
             this._heatData = this.array.toObject(keys, heat);
 
             this._maxHeat = this._eachMaxHeat.length ? Math.max.apply(null, this._eachMaxHeat) : null;
-            console.log("Max heat is", this._maxHeat);
+            //console.log("Max heat is", this._maxHeat);
 
         },
 
@@ -654,7 +656,7 @@ L.Heatmap = L.GridLayer.extend({
 
         _drawRect: function (ctx, startX, startY, i, j, pixelsInGameTile, tileData) {
             if (i < 0 || j < 0 || i > 63 || j > 63) {
-                console.log("tried writing at", i, j);
+                throw new RangeError("tried writing at " + i + "," + j);
             }
 
             //Transform from y increasing down to increasing up and account for zoom scale
@@ -745,41 +747,37 @@ L.Teleports = L.Layer.extend({
 
         //to be replaced by preprocessing the data like this
         _parseData: function (data, watery) {
-            this.watery = watery;
             let startTime = new Date();
-            let collection = parseSheet(data).map(parseItems);
-            let le_map = collection.flatMap(group => group.items).filter(item => item !== undefined);
-			
-			 le_map.forEach(item => {
-                item.plane = watery[item.x >> 6][item.y >> 6].includes((item.x << 14) + item.y) ? item.plane - 1 : item.plane;
-                if ("destination" in item) {
-                    item.destination.plane = watery[item.destination.x >> 6][item.destination.y >> 6].includes((item.destination.x << 14) + item.destination.y) ? item.destination.plane - 1 : item.destination.plane;
-                }
-                if ("start" in item) {
-                    item.start.plane = watery[item.start.x >> 6][item.start.y >> 6].includes((item.start.x << 14) + item.start.y) ? item.start.plane - 1 : item.start.plane;
-                }
-            });
+            let dataCollection = parseSheet(data).map(parseItems).flatMap(group => group.items).filter(Boolean).map(item => {
+                    item.plane = watery[item.x >> 6][item.y >> 6].includes((item.x << 14) + item.y) ? item.plane - 1 : item.plane;
+                    if ("destination" in item) {
+                        item.destination.plane = watery[item.destination.x >> 6][item.destination.y >> 6].includes((item.destination.x << 14) + item.destination.y) ? item.destination.plane - 1 : item.destination.plane;
+                    }
+                    if ("start" in item) {
+                        item.start.plane = watery[item.start.x >> 6][item.start.y >> 6].includes((item.start.x << 14) + item.start.y) ? item.start.plane - 1 : item.start.plane;
+                    }
+                    return item
+                });
 
-            let transits = le_map.filter(item => "start" in item && "destination" in item);
+            let transits = dataCollection.filter(item => "start" in item && "destination" in item);
             let transits_a = transits.map(item => Object.assign({
                         ...item
-                    }, item.start));
+                    }, item.start, {
+                        mode: "start"
+                    }));
             let transits_b = transits.map(item => Object.assign({
                         ...item
-                    }, item.destination));
+                    }, item.destination, {
+                        mode: "destination"
+                    }));
 
-            transits_a.forEach(item => item.mode = "start");
-            transits_b.forEach(item => item.mode = "destination");
-
-            let teleports = le_map.filter(item => !("start" in item) && "destination" in item && !("type" in item));
+            let teleports = dataCollection.filter(item => !("start" in item) && "destination" in item && !("type" in item));
             teleports.forEach(item => item.type = "teleport");
             teleports.forEach(item => item = Object.assign(item, item.destination));
 
-            let all_icons = Array.prototype.concat.call(transits_a, transits_b, teleports);
+            let all_icons = [...transits_a, ...transits_b, ...teleports];
 
             all_icons.forEach(item => item.watery = watery[item.x >> 6][item.y >> 6].includes((item.x << 14) + item.y));
-
-           
 
             all_icons.forEach(item => item.key = this._tileCoordsToKey({
                         plane: item.plane,
@@ -806,7 +804,7 @@ L.Teleports = L.Layer.extend({
             });
 
             let endTime = new Date();
-            console.log("Parsed", all_icons.length, "icons", "in", endTime - startTime, "ms.");
+            console.info("Parsed", all_icons.length, "icons", "in", endTime - startTime, "ms.");
             return icon_data;
         },
 
@@ -839,7 +837,7 @@ L.Teleports = L.Layer.extend({
                 allData.then(responses => {
                     if (!responses.includes(undefined)) {
 
-                        this._icon_data = this._parseData.apply(this, responses);
+                        this._icon_data = this._parseData(...responses);
                         this._icons = {};
                         this._resetView();
                         this._update();
@@ -1318,7 +1316,7 @@ L.Teleports = L.Layer.extend({
                         html: '<img class="map-icon plane-' + item.plane + teleclass + '" src="' + item.iconUrl + '" alt="' + item.name + '">',
                         iconSize: [0, 0]//default marker is a 12x12 white box, this makes it not appear
                     });
-                var destinationMarker = L.marker([item.y + 0.4 + 0.2*Math.random(), item.x + 0.4 + 0.2*Math.random()], {
+                var destinationMarker = L.marker([item.y + 0.4 + 0.2 * Math.random(), item.x + 0.4 + 0.2 * Math.random()], {
                         icon: thisIcon,
                         alt: item.name,
                         riseOnHover: true
@@ -1441,7 +1439,7 @@ L.Teleports = L.Layer.extend({
                     throw mode + " is not an expected value!";
                     break;
                 }
-                console.log("navigating to", plane, x, y);
+                console.info("navigating to", plane, x, y);
                 map.setPlane(plane);
                 map.flyTo([y, x], 3, {
                     duration: 3
@@ -1481,9 +1479,6 @@ function parseSheet(sheet) {
                 items: []
             };
             group.push(newGroup);
-
-            //console.log(rowNumber,keys);
-
             return;
 
         }
@@ -1542,7 +1537,7 @@ function parseCoord(item, pos, look) {
 
     };
     if ([_i, _j, _x, _y].includes(undefined) || rest.length !== 0) {
-        console.log(look, "is not a proper coordinate");
+        console.warn(look, "is not a proper coordinate");
     }
 
     let destination = {

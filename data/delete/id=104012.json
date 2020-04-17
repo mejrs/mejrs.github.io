@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Dismantle"], "unk_17": false, "ambient": 20, "unk_75": 0, "models": [{"type": 10, "values": [113569, 113662]}], "name": "Tortle trap", "unk_93": 8224, "action_cursors": [167], "occludes_2": false, "id": 104012}, "uniques": [{"id": 104012, "t": 10, "r": 0, "o": {"p": 0, "i": 17, "j": 117, "x": 42, "y": 44}}]}

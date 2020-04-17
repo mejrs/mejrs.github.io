@@ -1,1 +1,0 @@
-{"properties": {"mapFunction": 625, "unk_24": 1199, "unk_27": false, "unk_21": true, "unk_19": 1, "ambient": 25, "actions": ["Interact"], "dummy_12": true, "models": [{"type": 10, "values": [120332, 1877]}], "name": "Magical Mushrooms", "occludes_2": false, "id": 111371}, "uniques": [{"id": 111371, "t": 10, "r": 0, "o": {"p": 1, "i": 21, "j": 88, "x": 17, "y": 4}}]}

@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "unk_17": false, "model": false, "unk_88": false, "actions": ["Pick-up"], "models": [{"type": 10, "values": [53883]}], "unk_186": 0, "name": "Boss collection log", "action_cursors": [45], "occludes_2": false, "id": 109558}, "uniques": [{"id": 109558, "t": 10, "r": 0, "o": {"p": 1, "i": 6, "j": 10, "x": 32, "y": 40}}]}

@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "ambient": 0, "unk_27": false, "model": false, "actions": ["Interact"], "models": [{"type": 10, "values": [82927]}], "name": "Remote farm device", "unk_98": true, "occludes_2": false, "id": 114610}, "uniques": [{"id": 114610, "t": 10, "r": 0, "o": {"p": 0, "i": 41, "j": 52, "x": 31, "y": 31}}]}

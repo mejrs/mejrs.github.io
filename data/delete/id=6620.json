@@ -1,1 +1,0 @@
-{"properties": {"unk_21": true, "unk_19": 1, "actions": ["Climb-through"], "model": false, "unk_88": false, "models": [{"type": 10, "values": [118481]}], "name": "Hole", "action_cursors": [57], "occludes_2": false, "id": 6620}, "uniques": [{"id": 6620, "t": 10, "r": 2, "o": {"p": 0, "i": 51, "j": 43, "x": 59, "y": 49}}]}

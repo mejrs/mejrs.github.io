@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Open"], "unk_19": 1, "dummy_45": 13, "scaleX": 128, "scaleY": 160, "scaleZ": 128, "ambient": 10, "models": [{"type": 0, "values": [17615]}], "name": "Door", "action_cursors": [49], "id": 30503}, "uniques": [{"id": 30503, "t": 0, "r": 0, "o": {"p": 0, "i": 56, "j": 51, "x": 49, "y": 59}}]}

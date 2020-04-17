@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "ambient": 64, "model": false, "unk_27": false, "actions": ["Enter"], "mapFunction": 567, "models": [{"type": 10, "values": [95438]}], "name": "Storm drain", "action_cursors": [57], "unk_160": [367], "occludes_2": false, "id": 90883}, "uniques": [{"id": 90883, "t": 10, "r": 1, "o": {"p": 2, "i": 55, "j": 106, "x": 30, "y": 10}}]}

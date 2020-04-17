@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Operate"], "models": [{"type": 4, "values": [17369]}], "name": "Call button", "occludes_2": false, "id": 64692}, "uniques": [{"id": 64692, "t": 4, "r": 1, "o": {"p": 1, "i": 47, "j": 78, "x": 12, "y": 25}}, {"id": 64692, "t": 4, "r": 0, "o": {"p": 1, "i": 47, "j": 78, "x": 17, "y": 30}}]}

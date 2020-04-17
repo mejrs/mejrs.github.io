@@ -1,1 +1,0 @@
-{"properties": {"model": false, "unk_88": false, "length": 2, "width": 3, "actions": ["Search"], "dummy_12": true, "models": [{"type": 10, "values": [50039]}], "name": "Unusual shape", "action_cursors": [56], "occludes_2": false, "id": 103204}, "uniques": [{"id": 103204, "t": 10, "r": 0, "o": {"p": 0, "i": 15, "j": 85, "x": 25, "y": 32}}]}

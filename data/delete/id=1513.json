@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Open"], "unk_75": 0, "models": [{"type": 0, "values": [616]}], "name": "Large door", "action_cursors": [49], "occludes_1": false, "unk_170": 960, "id": 1513}, "uniques": [{"id": 1513, "t": 0, "r": 0, "o": {"p": 0, "i": 41, "j": 73, "x": 11, "y": 4}}, {"id": 1513, "t": 0, "r": 0, "o": {"p": 1, "i": 41, "j": 73, "x": 14, "y": 12}}]}

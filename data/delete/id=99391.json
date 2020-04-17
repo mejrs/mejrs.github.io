@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Climb-into"], "unk_19": 1, "dummy_45": 14, "models": [{"type": 10, "values": [7766]}], "name": "Tunnel", "extra": {"5239": 1}, "action_cursors": [57], "occludes_2": false, "id": 99391}, "uniques": [{"id": 99391, "t": 10, "r": 2, "o": {"p": 0, "i": 44, "j": 46, "x": 14, "y": 62}}]}

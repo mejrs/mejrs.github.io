@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "unk_27": false, "length": 5, "unk_21": true, "ambient": 64, "actions": ["Check power"], "unk_88": false, "model": false, "models": [{"type": 10, "values": [101065]}], "name": "Door", "occludes_2": false, "id": 94959}, "uniques": [{"id": 94959, "t": 10, "r": 1, "o": {"p": 0, "i": 31, "j": 103, "x": 30, "y": 38}}]}

@@ -1,1 +1,0 @@
-{"properties": {"ambient": 25, "contrast": 15, "length": 2, "width": 3, "actions": ["Search"], "models": [{"type": 10, "values": [103018]}], "name": "Table", "action_cursors": [56], "occludes_2": false, "id": 96055}, "uniques": [{"id": 96055, "t": 10, "r": 1, "o": {"p": 0, "i": 58, "j": 142, "x": 1, "y": 28}}]}

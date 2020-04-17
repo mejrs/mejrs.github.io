@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "ambient": 25, "contrast": 15, "model": false, "actions": ["Pray"], "models": [{"type": 10, "values": [85023]}], "name": "Saradomin Altar", "action_cursors": [61], "occludes_2": false, "id": 83823}, "uniques": [{"id": 83823, "t": 10, "r": 1, "o": {"p": 1, "i": 37, "j": 48, "x": 63, "y": 5}}]}

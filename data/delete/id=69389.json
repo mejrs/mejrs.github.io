@@ -1,1 +1,0 @@
-{"properties": {"unk_27": false, "ambient": 25, "contrast": 15, "unk_19": 1, "actions": ["Jump-over"], "unk_196": 1, "dummy_12": true, "models": [{"type": 0, "values": [68178]}], "name": "Barrier", "action_cursors": [181], "id": 69389}, "uniques": [{"id": 69389, "t": 0, "r": 1, "o": {"p": 3, "i": 38, "j": 53, "x": 53, "y": 41}}]}

@@ -1,1 +1,0 @@
-{"properties": {"unk_24": 9534, "actions": ["Talk to"], "ambient": 25, "contrast": 25, "width": 2, "length": 3, "translateY": 96, "models": [{"type": 10, "values": [34657]}], "name": "Customs Sergeant", "action_cursors": [44], "occludes_2": false, "id": 31459}, "uniques": [{"id": 31459, "t": 10, "r": 2, "o": {"p": 0, "i": 46, "j": 49, "x": 23, "y": 57}}]}

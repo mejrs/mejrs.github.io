@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Search"], "ambient": 10, "width": 2, "models": [{"type": 10, "values": [33708]}], "name": "Trough", "action_cursors": [56], "occludes_2": false, "id": 30521}, "uniques": [{"id": 30521, "t": 10, "r": 0, "o": {"p": 2, "i": 56, "j": 51, "x": 51, "y": 60}}]}

@@ -1,1 +1,0 @@
-{"properties": {"width": 2, "length": 2, "ambient": 25, "contrast": 15, "unk_22": true, "actions": ["Walk-down"], "mapscene": 69, "models": [{"type": 10, "values": [50164]}], "name": "Stairs", "action_cursors": [53], "occludes_2": false, "id": 47643}, "uniques": [{"id": 47643, "t": 10, "r": 2, "o": {"p": 0, "i": 48, "j": 52, "x": 43, "y": 28}}]}

@@ -1,1 +1,0 @@
-{"properties": {"width": 2, "dummy_45": 11, "actions": ["Pray", null, null, null, "Remove"], "models": [{"type": 10, "values": [12373, 12380]}], "name": "Altar", "action_cursors": [61], "occludes_2": false, "id": 52825}, "uniques": [{"id": 52825, "t": 10, "r": 2, "o": {"p": 0, "i": 59, "j": 89, "x": 35, "y": 18}}]}

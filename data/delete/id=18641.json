@@ -1,1 +1,0 @@
-{"properties": {"ambient": 20, "unk_19": 1, "length": 3, "actions": ["Open"], "models": [{"type": 10, "values": [18818, 18817]}], "name": "Junction box", "action_cursors": [49], "occludes_2": false, "id": 18641}, "uniques": [{"id": 18641, "t": 10, "r": 0, "o": {"p": 3, "i": 30, "j": 80, "x": 23, "y": 33}}]}

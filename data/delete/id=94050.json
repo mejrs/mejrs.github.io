@@ -1,1 +1,0 @@
-{"properties": {"length": 4, "width": 5, "unk_17": false, "dummy_45": 11, "actions": ["Leap across"], "model": false, "unk_88": false, "models": [{"type": 10, "values": [99969]}], "name": "Walkway", "action_cursors": [181], "occludes_2": false, "id": 94050}, "uniques": [{"id": 94050, "t": 10, "r": 0, "o": {"p": 1, "i": 34, "j": 53, "x": 0, "y": 11}}]}

@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "actions": ["Operate"], "unk_24": 27918, "ambient": 15, "models": [{"type": 10, "values": [108279]}], "name": "Pump", "unk_160": [381], "occludes_2": false, "id": 100657}, "uniques": [{"id": 100657, "t": 10, "r": 1, "o": {"p": 0, "i": 85, "j": 11, "x": 16, "y": 17}}]}

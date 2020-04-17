@@ -1,1 +1,0 @@
-{"properties": {"length": 3, "ambient": 40, "contrast": 20, "actions": ["Pray"], "models": [{"type": 10, "values": [18203, 18202]}], "name": "Altar", "action_cursors": [61], "occludes_2": false, "id": 18254}, "uniques": [{"id": 18254, "t": 10, "r": 2, "o": {"p": 0, "i": 42, "j": 51, "x": 40, "y": 18}}]}

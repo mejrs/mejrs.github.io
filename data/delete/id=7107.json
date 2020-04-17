@@ -1,1 +1,0 @@
-{"properties": {"unk_17": false, "unk_19": 1, "ambient": 25, "contrast": 15, "width": 2, "model": false, "unk_22": true, "actions": ["Climb-down"], "models": [{"type": 10, "values": [40571]}], "name": "Spiral Stairs", "action_cursors": [53], "occludes_2": false, "id": 7107}, "uniques": [{"id": 7107, "t": 10, "r": 1, "o": {"p": 1, "i": 45, "j": 53, "x": 10, "y": 50}}]}

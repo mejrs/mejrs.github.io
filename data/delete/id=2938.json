@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Look", "Recharge-all"], "scaleY": 116, "scaleX": 116, "scaleZ": 116, "models": [{"type": 10, "values": [41151]}], "name": "Totem Pole", "occludes_2": false, "id": 2938}, "uniques": [{"id": 2938, "t": 10, "r": 0, "o": {"p": 0, "i": 42, "j": 52, "x": 41, "y": 50}}]}

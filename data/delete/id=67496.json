@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Search"], "unk_19": 1, "ambient": 25, "contrast": 15, "unk_27": false, "dummy_12": true, "models": [{"type": 10, "values": [38163, 37876]}], "name": "Cluttered Shelves", "action_cursors": [56], "occludes_2": false, "id": 67496}, "uniques": [{"id": 67496, "t": 10, "r": 1, "o": {"p": 1, "i": 45, "j": 53, "x": 50, "y": 59}}]}

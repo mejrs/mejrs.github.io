@@ -1,1 +1,0 @@
-{"properties": {"ambient": 50, "unk_19": 1, "actions": ["Read"], "models": [{"type": 4, "values": [2040]}], "name": "Noticeboard", "action_cursors": [50], "occludes_2": false, "id": 4642}, "uniques": [{"id": 4642, "t": 5, "r": 1, "o": {"p": 0, "i": 34, "j": 77, "x": 29, "y": 15}}, {"id": 4642, "t": 5, "r": 1, "o": {"p": 0, "i": 34, "j": 77, "x": 34, "y": 15}}]}

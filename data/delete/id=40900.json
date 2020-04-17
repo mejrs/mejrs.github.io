@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Climb-down"], "length": 4, "width": 3, "ambient": 20, "contrast": 15, "models": [{"type": 10, "values": [44029]}], "name": "Stairs", "action_cursors": [53], "occludes_2": false, "id": 40900}, "uniques": [{"id": 40900, "t": 10, "r": 2, "o": {"p": 0, "i": 31, "j": 68, "x": 20, "y": 44}}]}

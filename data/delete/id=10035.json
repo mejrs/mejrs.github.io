@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Climb-over"], "models": [{"type": 10, "values": [9738]}], "name": "Low wall", "action_cursors": [181], "occludes_2": false, "id": 10035}, "uniques": [{"id": 10035, "t": 10, "r": 3, "o": {"p": 1, "i": 29, "j": 72, "x": 27, "y": 12}}, {"id": 10035, "t": 10, "r": 3, "o": {"p": 1, "i": 29, "j": 72, "x": 27, "y": 50}}]}

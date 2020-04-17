@@ -1,1 +1,0 @@
-{"properties": {"ambient": 30, "mirror": true, "actions": ["Open"], "models": [{"type": 0, "values": [18668]}], "name": "Body door", "action_cursors": [49], "unk_160": [338], "id": 16363}, "uniques": [{"id": 16363, "t": 0, "r": 2, "o": {"p": 0, "i": 30, "j": 80, "x": 25, "y": 24}}, {"id": 16363, "t": 0, "r": 0, "o": {"p": 2, "i": 64, "j": 87, "x": 24, "y": 23}}]}

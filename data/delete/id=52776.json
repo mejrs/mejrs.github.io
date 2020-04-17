@@ -1,1 +1,0 @@
-{"properties": {"width": 2, "actions": ["Craft", null, null, null, "Remove"], "models": [{"type": 10, "values": [12185, 12182, 12183, 12189]}], "name": "Clockmaker's bench", "action_cursors": [62], "occludes_2": false, "id": 52776}, "uniques": [{"id": 52776, "t": 10, "r": 3, "o": {"p": 0, "i": 59, "j": 89, "x": 16, "y": 19}}]}

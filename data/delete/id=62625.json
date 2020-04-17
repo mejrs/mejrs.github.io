@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "unk_21": true, "ambient": 5, "contrast": 10, "length": 2, "width": 2, "actions": ["Read"], "models": [{"type": 10, "values": [39618]}], "name": "Signpost", "action_cursors": [50], "occludes_2": false, "id": 62625}, "uniques": [{"id": 62625, "t": 11, "r": 0, "o": {"p": 0, "i": 64, "j": 81, "x": 2, "y": 22}}]}

@@ -1,1 +1,0 @@
-{"properties": {"unk_21": true, "ambient": 25, "contrast": 15, "actions": ["Open"], "mirror": true, "models": [{"type": 0, "values": [66266]}], "name": "Door", "action_cursors": [49], "id": 77086}, "uniques": [{"id": 77086, "t": 0, "r": 2, "o": {"p": 0, "i": 45, "j": 153, "x": 8, "y": 38}}, {"id": 77086, "t": 0, "r": 1, "o": {"p": 0, "i": 45, "j": 153, "x": 13, "y": 33}}]}

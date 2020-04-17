@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "ambient": 0, "unk_17": false, "model": false, "translateX": 65526, "translateZ": 30, "actions": ["Interact"], "models": [{"type": 10, "values": [82954]}], "unk_186": 0, "name": "Remote farm device", "occludes_2": false, "id": 114611}, "uniques": [{"id": 114611, "t": 10, "r": 0, "o": {"p": 1, "i": 41, "j": 52, "x": 30, "y": 27}}]}

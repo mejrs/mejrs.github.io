@@ -1,1 +1,0 @@
-{"properties": {"actions": ["North:"], "unk_17": false, "ambient": 25, "contrast": 15, "textures": [{"original": 2775, "replacement": 2764}], "models": [{"type": 10, "values": [68743]}], "name": "Burthorpe", "occludes_2": false, "id": 69640}, "uniques": [{"id": 69640, "t": 10, "r": 0, "o": {"p": 0, "i": 45, "j": 53, "x": 45, "y": 46}}]}

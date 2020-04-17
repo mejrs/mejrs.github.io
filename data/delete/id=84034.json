@@ -1,1 +1,0 @@
-{"properties": {"unk_17": false, "unk_19": 1, "unk_81": 80, "ambient": 64, "scaleX": 200, "scaleY": 215, "scaleZ": 200, "width": 3, "length": 3, "model": false, "unk_189": true, "models": [{"type": 10, "values": [79552, 64768]}], "name": "Tree", "occludes_2": false, "id": 84034}, "uniques": [{"id": 84034, "t": 10, "r": 3, "o": {"p": 1, "i": 59, "j": 66, "x": 18, "y": 0}}]}

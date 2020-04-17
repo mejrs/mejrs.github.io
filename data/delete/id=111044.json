@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "unk_75": 0, "unk_17": false, "model": false, "unk_88": false, "width": 4, "length": 4, "actions": ["Jump from"], "models": [{"type": 10, "values": [99471]}], "name": "Edge", "action_cursors": [181], "occludes_2": false, "id": 111044}, "uniques": [{"id": 111044, "t": 10, "r": 3, "o": {"p": 1, "i": 68, "j": 106, "x": 23, "y": 38}}]}

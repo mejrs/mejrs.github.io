@@ -1,1 +1,0 @@
-{"properties": {"unk_27": false, "ambient": 10, "actions": ["Pick"], "mapFunction": 611, "model": false, "unk_88": false, "dummy_12": true, "models": [{"type": 10, "values": [56672]}], "name": "Salve nettles", "action_cursors": [45], "occludes_2": false, "id": 49826}, "uniques": [{"id": 49826, "t": 10, "r": 0, "o": {"p": 0, "i": 67, "j": 112, "x": 27, "y": 26}}]}

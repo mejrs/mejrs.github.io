@@ -1,1 +1,0 @@
-{"properties": {"ambient": 25, "contrast": 15, "unk_24": 8510, "actions": ["Renew points"], "models": [{"type": 10, "values": [66087]}], "name": "Small obelisk", "occludes_2": false, "id": 68237}, "uniques": [{"id": 68237, "t": 10, "r": 1, "o": {"p": 0, "i": 44, "j": 49, "x": 31, "y": 25}}, {"id": 68237, "t": 10, "r": 0, "o": {"p": 0, "i": 72, "j": 80, "x": 52, "y": 19}}]}

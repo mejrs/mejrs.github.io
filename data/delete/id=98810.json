@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "actions": ["Pick book"], "unk_17": false, "model": false, "unk_88": false, "dummy_45": 13, "models": [{"type": 10, "values": [106382]}], "unk_186": 0, "name": "Bookcase", "occludes_2": false, "id": 98810}, "uniques": [{"id": 98810, "t": 10, "r": 0, "o": {"p": 0, "i": 56, "j": 113, "x": 25, "y": 42}}]}

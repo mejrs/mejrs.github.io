@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "actions": ["Cross"], "width": 4, "length": 5, "unk_27": false, "ambient": 25, "model": false, "unk_88": false, "models": [{"type": 10, "values": [96940]}], "name": "Gap", "action_cursors": [181], "occludes_2": false, "id": 91661}, "uniques": [{"id": 91661, "t": 10, "r": 0, "o": {"p": 1, "i": 70, "j": 98, "x": 27, "y": 14}}]}

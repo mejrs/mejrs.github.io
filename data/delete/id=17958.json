@@ -1,1 +1,0 @@
-{"properties": {"unk_22": true, "unk_21": true, "scaleX": 128, "scaleY": 160, "scaleZ": 128, "mirror": true, "unk_19": 1, "unk_17": false, "actions": ["Jump-onto"], "models": [{"type": 10, "values": [17338]}], "name": "Rock", "action_cursors": [181], "occludes_2": false, "id": 17958}, "uniques": [{"id": 17958, "t": 10, "r": 0, "o": {"p": 1, "i": 56, "j": 49, "x": 21, "y": 27}}]}

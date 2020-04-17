@@ -1,1 +1,0 @@
-{"properties": {"length": 2, "actions": ["Fill"], "dummy_12": true, "models": [{"type": 10, "values": [8245]}], "name": "Sink", "occludes_2": false, "id": 10175}, "uniques": [{"id": 10175, "t": 10, "r": 1, "o": {"p": 1, "i": 33, "j": 79, "x": 30, "y": 51}}, {"id": 10175, "t": 10, "r": 1, "o": {"p": 1, "i": 68, "j": 109, "x": 30, "y": 51}}]}

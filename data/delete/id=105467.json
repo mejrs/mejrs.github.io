@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "length": 3, "width": 2, "ambient": 42, "unk_27": false, "model": false, "unk_24": 16626, "actions": ["Toss"], "models": [{"type": 10, "values": [115253, 115227]}], "name": "Head bin", "occludes_2": false, "id": 105467}, "uniques": [{"id": 105467, "t": 10, "r": 2, "o": {"p": 0, "i": 98, "j": 16, "x": 13, "y": 17}}]}

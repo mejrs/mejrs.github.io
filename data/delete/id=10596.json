@@ -1,1 +1,0 @@
-{"properties": {"unk_22": true, "ambient": 20, "contrast": 15, "actions": ["Run-up"], "unk_19": 1, "dummy_45": 7, "models": [{"type": 10, "values": [7417]}], "name": "Wall jump", "action_cursors": [181], "occludes_2": false, "id": 10596}, "uniques": [{"id": 10596, "t": 10, "r": 1, "o": {"p": 0, "i": 62, "j": 89, "x": 45, "y": 24}}]}

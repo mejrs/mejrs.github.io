@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "actions": ["Exit"], "unk_24": 14281, "unk_21": true, "ambient": 15, "contrast": 10, "length": 2, "models": [{"type": 10, "values": [57999]}], "name": "Mysterious door", "action_cursors": [57], "occludes_2": false, "id": 52864}, "uniques": [{"id": 52864, "t": 10, "r": 2, "o": {"p": 0, "i": 16, "j": 71, "x": 16, "y": 31}}]}

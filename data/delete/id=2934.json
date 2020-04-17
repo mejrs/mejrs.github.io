@@ -1,1 +1,0 @@
-{"properties": {"width": 4, "length": 5, "actions": ["Search"], "ambient": 25, "contrast": 15, "unk_21": true, "models": [{"type": 10, "values": [37260]}], "name": "Winch", "action_cursors": [56], "occludes_2": false, "id": 2934}, "uniques": [{"id": 2934, "t": 10, "r": 3, "o": {"p": 0, "i": 43, "j": 145, "x": 7, "y": 49}}]}

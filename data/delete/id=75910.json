@@ -1,1 +1,0 @@
-{"properties": {"ambient": 25, "contrast": 15, "unk_19": 1, "model": false, "unk_21": true, "unk_22": true, "unk_73": true, "actions": ["Jump from"], "models": [{"type": 22, "values": [76182]}], "name": "Scaffold", "action_cursors": [181], "occludes_2": false, "id": 75910}, "uniques": [{"id": 75910, "t": 22, "r": 3, "o": {"p": 1, "i": 51, "j": 49, "x": 7, "y": 51}}]}

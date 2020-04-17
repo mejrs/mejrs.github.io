@@ -1,1 +1,0 @@
-{"properties": {"width": 4, "length": 4, "unk_21": true, "ambient": 20, "contrast": 25, "unk_27": false, "actions": ["Climb-on"], "unk_75": 0, "models": [{"type": 10, "values": [45977]}], "name": "Ourg statue", "occludes_2": false, "id": 42596}, "uniques": [{"id": 42596, "t": 10, "r": 1, "o": {"p": 0, "i": 36, "j": 66, "x": 45, "y": 44}}]}

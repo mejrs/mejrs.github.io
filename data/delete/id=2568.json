@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "actions": ["Open", "Search for traps"], "dummy_45": 14, "models": [{"type": 10, "values": [32110]}], "name": "Chest", "action_cursors": [49], "occludes_2": false, "id": 2568}, "uniques": [{"id": 2568, "t": 10, "r": 1, "o": {"p": 1, "i": 41, "j": 51, "x": 47, "y": 35}}]}

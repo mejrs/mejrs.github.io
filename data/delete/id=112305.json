@@ -1,1 +1,0 @@
-{"properties": {"length": 2, "unk_19": 1, "unk_27": false, "unk_21": true, "model": false, "actions": ["Check animals", "Check farmhands"], "dummy_12": true, "models": [{"type": 10, "values": [65424]}], "name": "Breeding paddock", "occludes_2": false, "id": 112305}, "uniques": [{"id": 112305, "t": 10, "r": 0, "o": {"p": 0, "i": 41, "j": 52, "x": 49, "y": 42}}]}

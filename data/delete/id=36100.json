@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "actions": ["Open"], "unk_75": 0, "ambient": 15, "contrast": 10, "models": [{"type": 0, "values": [53092]}], "name": "Door", "action_cursors": [49], "occludes_1": false, "unk_170": 1017, "id": 36100}, "uniques": [{"id": 36100, "t": 0, "r": 1, "o": {"p": 0, "i": 16, "j": 78, "x": 47, "y": 40}}]}

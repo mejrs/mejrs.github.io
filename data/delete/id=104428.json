@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Deposit", "Deposit-All"], "ambient": 25, "contrast": 25, "translateX": 65511, "translateZ": 65511, "models": [{"type": 10, "values": [18943]}], "name": "Bank deposit box", "occludes_2": false, "id": 104428}, "uniques": [{"id": 104428, "t": 11, "r": 1, "o": {"p": 0, "i": 43, "j": 53, "x": 45, "y": 45}}]}

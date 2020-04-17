@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "unk_27": false, "width": 3, "length": 2, "unk_22": true, "actions": ["Enter"], "models": [{"type": 10, "values": [62547]}], "name": "Entrance", "action_cursors": [57], "occludes_2": false, "id": 57050}, "uniques": [{"id": 57050, "t": 10, "r": 3, "o": {"p": 0, "i": 44, "j": 159, "x": 2, "y": 35}}]}

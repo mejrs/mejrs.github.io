@@ -1,1 +1,0 @@
-{"properties": {"ambient": 30, "actions": ["Open"], "models": [{"type": 10, "values": [15885]}], "name": "Box of Health", "action_cursors": [49], "occludes_2": false, "id": 16118}, "uniques": [{"id": 16118, "t": 10, "r": 0, "o": {"p": 0, "i": 33, "j": 82, "x": 32, "y": 32}}]}

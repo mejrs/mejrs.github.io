@@ -1,1 +1,0 @@
-{"properties": {"unk_24": 2346, "actions": ["Climb-aboard"], "width": 6, "length": 2, "ambient": 20, "models": [{"type": 10, "values": [50905, 8695]}], "name": "Brundt's boat", "occludes_2": false, "id": 47261}, "uniques": [{"id": 47261, "t": 10, "r": 3, "o": {"p": 0, "i": 70, "j": 92, "x": 26, "y": 45}}]}

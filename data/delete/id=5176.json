@@ -1,1 +1,0 @@
-{"properties": {"width": 2, "length": 2, "unk_27": false, "actions": ["Repair"], "models": [{"type": 10, "values": [5173]}], "name": "Lightning conductor", "action_cursors": [174], "occludes_2": false, "id": 5176}, "uniques": [{"id": 5176, "t": 10, "r": 2, "o": {"p": 2, "i": 55, "j": 55, "x": 28, "y": 16}}]}

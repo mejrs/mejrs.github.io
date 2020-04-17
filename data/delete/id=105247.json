@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "unk_21": true, "unk_28": 32, "ambient": -42, "members_action_1": "Jump", "models": [{"type": 0, "values": [107647]}], "name": "Wall", "action_cursors": [55], "occludes_2": false, "id": 105247}, "uniques": [{"id": 105247, "t": 0, "r": 1, "o": {"p": 1, "i": 70, "j": 180, "x": 61, "y": 0}}]}

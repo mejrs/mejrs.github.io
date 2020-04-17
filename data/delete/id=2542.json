@@ -1,1 +1,0 @@
-{"properties": {"width": 2, "dummy_45": 13, "actions": ["Climb-up"], "unk_22": true, "ambient": 10, "contrast": 15, "models": [{"type": 10, "values": [37356]}], "name": "Pipe", "action_cursors": [52], "occludes_2": false, "id": 2542}, "uniques": [{"id": 2542, "t": 10, "r": 3, "o": {"p": 0, "i": 39, "j": 152, "x": 18, "y": 9}}]}

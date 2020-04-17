@@ -1,1 +1,0 @@
-{"properties": {"isMembers": true, "actions": ["Enter"], "length": 2, "width": 4, "scaleY": 384, "models": [{"type": 10, "values": [50020]}], "name": "Portal", "action_cursors": [57], "occludes_2": false, "id": 110130}, "uniques": [{"id": 110130, "t": 10, "r": 3, "o": {"p": 0, "i": 49, "j": 54, "x": 7, "y": 34}}]}

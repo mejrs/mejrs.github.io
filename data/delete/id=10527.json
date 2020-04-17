@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "ambient": 25, "contrast": 15, "unk_27": false, "actions": ["Exit"], "models": [{"type": 10, "values": [83780]}], "name": "Ladder", "action_cursors": [57], "occludes_2": false, "id": 10527}, "uniques": [{"id": 10527, "t": 10, "r": 3, "o": {"p": 0, "i": 22, "j": 74, "x": 45, "y": 13}}]}

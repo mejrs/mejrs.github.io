@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "unk_21": true, "contrast": 10, "ambient": 15, "width": 2, "length": 2, "unk_27": false, "actions": ["Pass"], "models": [{"type": 10, "values": [62767]}], "name": "Crack in wall", "action_cursors": [57], "occludes_2": false, "id": 68841}, "uniques": [{"id": 68841, "t": 10, "r": 0, "o": {"p": 0, "i": 74, "j": 79, "x": 2, "y": 9}}]}

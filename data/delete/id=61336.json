@@ -1,1 +1,0 @@
-{"properties": {"unk_24": 24668, "width": 2, "length": 2, "mapscene": 11, "actions": ["Pray"], "models": [{"type": 10, "values": [99146]}], "name": "Vampyric Altar", "action_cursors": [61], "occludes_2": false, "id": 61336}, "uniques": [{"id": 61336, "t": 10, "r": 3, "o": {"p": 0, "i": 56, "j": 52, "x": 6, "y": 45}}]}

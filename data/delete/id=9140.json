@@ -1,1 +1,0 @@
-{"properties": {"ambient": 25, "contrast": 15, "actions": ["Read"], "models": [{"type": 10, "values": [50380]}], "name": "Champions' board", "action_cursors": [50], "occludes_2": false, "id": 9140}, "uniques": [{"id": 9140, "t": 10, "r": 1, "o": {"p": 1, "i": 49, "j": 152, "x": 53, "y": 40}}]}

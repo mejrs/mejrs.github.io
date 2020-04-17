@@ -1,1 +1,0 @@
-{"properties": {"ambient": 25, "contrast": 15, "unk_22": true, "unk_21": true, "actions": ["Ascend"], "models": [{"type": 0, "values": [96151]}], "name": "Cave Stairs", "id": 3223}, "uniques": [{"id": 3223, "t": 0, "r": 1, "o": {"p": 0, "i": 36, "j": 153, "x": 32, "y": 1}}, {"id": 3223, "t": 0, "r": 2, "o": {"p": 0, "i": 36, "j": 154, "x": 0, "y": 59}}]}

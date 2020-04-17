@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "ambient": 20, "contrast": 25, "unk_17": false, "model": false, "unk_88": false, "length": 3, "width": 3, "#unk_19": [1], "actions": ["Collect from"], "models": [{"type": 10, "values": [85690]}], "name": "Nexus", "occludes_2": false, "id": 84209}, "uniques": [{"id": 84209, "t": 10, "r": 0, "o": {"p": 0, "i": 50, "j": 49, "x": 15, "y": 39}}]}

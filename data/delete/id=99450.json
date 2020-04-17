@@ -1,1 +1,0 @@
-{"properties": {"model": false, "unk_88": false, "unk_21": true, "ambient": 32, "actions": ["Look at"], "models": [{"type": 10, "values": [107039, 107040]}], "name": "Glyphs", "unk_160": [380], "occludes_2": false, "id": 99450}, "uniques": [{"id": 99450, "t": 10, "r": 1, "o": {"p": 0, "i": 76, "j": 11, "x": 10, "y": 18}}]}

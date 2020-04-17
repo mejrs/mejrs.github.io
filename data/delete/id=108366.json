@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "ambient": 32, "length": 3, "unk_27": false, "model": false, "translateZ": 40, "scaleX": 135, "scaleY": 155, "actions": ["Exit dungeon", "Quick exit"], "models": [{"type": 10, "values": [119471]}], "name": "Archway", "occludes_2": false, "id": 108366}, "uniques": [{"id": 108366, "t": 10, "r": 3, "o": {"p": 0, "i": 29, "j": 104, "x": 31, "y": 1}}]}

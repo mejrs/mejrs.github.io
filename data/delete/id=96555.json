@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "width": 5, "length": 3, "ambient": 25, "model": false, "actions": ["Search"], "models": [{"type": 10, "values": [103310]}], "name": "Broken bird perch", "action_cursors": [56], "occludes_2": false, "id": 96555}, "uniques": [{"id": 96555, "t": 10, "r": 0, "o": {"p": 0, "i": 55, "j": 66, "x": 27, "y": 19}}]}

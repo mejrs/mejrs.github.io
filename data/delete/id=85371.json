@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "actions": ["Reclaim"], "ambient": 25, "contrast": 15, "width": 3, "length": 3, "unk_81": 85, "models": [{"type": 10, "values": [88149]}], "name": "Barricade", "occludes_2": false, "id": 85371}, "uniques": [{"id": 85371, "t": 10, "r": 2, "o": {"p": 0, "i": 34, "j": 101, "x": 17, "y": 22}}]}

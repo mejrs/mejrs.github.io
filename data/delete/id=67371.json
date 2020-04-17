@@ -1,1 +1,0 @@
-{"properties": {"width": 2, "length": 2, "ambient": 25, "contrast": 25, "unk_27": false, "actions": ["Pray"], "models": [{"type": 10, "values": [33020, 53339]}], "name": "Altar of Guthix", "action_cursors": [61], "occludes_2": false, "id": 67371}, "uniques": [{"id": 67371, "t": 10, "r": 1, "o": {"p": 0, "i": 69, "j": 181, "x": 27, "y": 43}}]}

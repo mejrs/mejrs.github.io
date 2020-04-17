@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Climb-down"], "unk_19": 1, "models": [{"type": 4, "values": [10050]}], "name": "Trellis top", "action_cursors": [53], "occludes_2": false, "id": 10319}, "uniques": [{"id": 10319, "t": 5, "r": 1, "o": {"p": 1, "i": 44, "j": 79, "x": 28, "y": 48}}, {"id": 10319, "t": 5, "r": 1, "o": {"p": 1, "i": 44, "j": 79, "x": 35, "y": 48}}]}

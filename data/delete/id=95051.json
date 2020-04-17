@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "actions": ["Teleport"], "ambient": 37, "unk_27": false, "models": [{"type": 10, "values": [101398]}], "name": "Elven crystal", "occludes_2": false, "id": 95051}, "uniques": [{"id": 95051, "t": 10, "r": 0, "o": {"p": 1, "i": 31, "j": 66, "x": 21, "y": 18}}]}

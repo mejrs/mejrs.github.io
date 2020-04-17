@@ -1,1 +1,0 @@
-{"properties": {"width": 2, "unk_19": 1, "actions": ["Investigate"], "colours": [{"original": 6684, "replacement": 6573}, {"original": 6932, "replacement": 6817}], "models": [{"type": 10, "values": [1379]}], "name": "Hopper", "occludes_2": false, "id": 22422}, "uniques": [{"id": 22422, "t": 10, "r": 0, "o": {"p": 2, "i": 59, "j": 44, "x": 10, "y": 10}}]}

@@ -1,1 +1,0 @@
-{"properties": {"unk_21": true, "width": 5, "length": 4, "actions": ["Search"], "models": [{"type": 10, "values": [61066]}], "name": "Stage", "action_cursors": [56], "occludes_2": false, "id": 31860}, "uniques": [{"id": 31860, "t": 10, "r": 0, "o": {"p": 0, "i": 67, "j": 83, "x": 30, "y": 29}}, {"id": 31860, "t": 10, "r": 0, "o": {"p": 0, "i": 67, "j": 85, "x": 30, "y": 29}}]}

@@ -1,1 +1,0 @@
-{"properties": {"unk_21": true, "actions": ["Climb"], "dummy_45": 11, "models": [{"type": 10, "values": [11154]}], "name": "Climbing net", "action_cursors": [181], "occludes_2": false, "id": 11310}, "uniques": [{"id": 11310, "t": 10, "r": 2, "o": {"p": 1, "i": 28, "j": 75, "x": 24, "y": 31}}, {"id": 11310, "t": 10, "r": 0, "o": {"p": 1, "i": 28, "j": 75, "x": 31, "y": 34}}]}

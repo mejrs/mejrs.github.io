@@ -1,1 +1,0 @@
-{"properties": {"ambient": 25, "contrast": 15, "unk_21": true, "unk_27": false, "translateX": 55, "actions": ["Investigate"], "models": [{"type": 10, "values": [64917]}], "name": "Skeleton", "action_cursors": [56], "occludes_2": false, "id": 68106}, "uniques": [{"id": 68106, "t": 10, "r": 3, "o": {"p": 0, "i": 71, "j": 82, "x": 26, "y": 59}}]}

@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "actions": ["Enter"], "ambient": 35, "contrast": 35, "width": 3, "unk_27": false, "unk_24": 12485, "unk_88": false, "models": [{"type": 10, "values": [49970]}], "name": "Portal", "action_cursors": [57], "occludes_2": false, "id": 46934}, "uniques": [{"id": 46934, "t": 10, "r": 2, "o": {"p": 2, "i": 61, "j": 80, "x": 31, "y": 4}}]}

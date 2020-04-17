@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Enter"], "unk_19": 1, "unk_27": false, "unk_22": true, "ambient": 25, "contrast": 15, "unk_28": 25, "dummy_45": 13, "models": [{"type": 0, "values": [26704]}], "name": "Theatre entrance", "action_cursors": [57], "occludes_1": false, "id": 62432}, "uniques": [{"id": 62432, "t": 0, "r": 1, "o": {"p": 2, "i": 64, "j": 82, "x": 0, "y": 7}}]}

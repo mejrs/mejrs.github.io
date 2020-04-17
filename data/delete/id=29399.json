@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Search", "Close"], "models": [{"type": 10, "values": [32139]}], "name": "Chest", "action_cursors": [56], "occludes_2": false, "id": 29399}, "uniques": [{"id": 29399, "t": 11, "r": 0, "o": {"p": 0, "i": 48, "j": 155, "x": 56, "y": 6}}, {"id": 29399, "t": 10, "r": 3, "o": {"p": 0, "i": 48, "j": 155, "x": 62, "y": 7}}]}

@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "actions": ["Activate", "Reset puzzle"], "unk_21": true, "ambient": 25, "contrast": 15, "unk_27": false, "dummy_12": true, "models": [{"type": 10, "values": [97433]}], "name": "Seal of Cadarn", "action_cursors": [46], "occludes_2": false, "id": 91820}, "uniques": [{"id": 91820, "t": 10, "r": 3, "o": {"p": 1, "i": 34, "j": 152, "x": 42, "y": 28}}]}

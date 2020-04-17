@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "ambient": 25, "contrast": 15, "unk_27": false, "unk_22": true, "mapscene": 7, "actions": ["Exit"], "models": [{"type": 10, "values": [52409]}], "name": "Catacombs", "action_cursors": [57], "occludes_2": false, "id": 48798}, "uniques": [{"id": 48798, "t": 10, "r": 3, "o": {"p": 1, "i": 60, "j": 86, "x": 37, "y": 21}}]}

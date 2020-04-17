@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "actions": ["Open"], "ambient": 64, "length": 2, "unk_27": false, "model": false, "unk_88": false, "models": [{"type": 10, "values": [106515]}], "name": "Blood valve", "action_cursors": [49], "occludes_2": false, "id": 98939}, "uniques": [{"id": 98939, "t": 10, "r": 0, "o": {"p": 0, "i": 60, "j": 113, "x": 33, "y": 27}}]}

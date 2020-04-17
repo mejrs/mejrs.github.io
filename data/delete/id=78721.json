@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "length": 2, "width": 3, "unk_21": true, "actions": ["Enter"], "ambient": 25, "contrast": 15, "unk_27": false, "unk_75": 0, "models": [{"type": 10, "values": [78809]}], "name": "Tunnel", "action_cursors": [57], "occludes_2": false, "id": 78721}, "uniques": [{"id": 78721, "t": 10, "r": 2, "o": {"p": 0, "i": 50, "j": 149, "x": 25, "y": 5}}]}

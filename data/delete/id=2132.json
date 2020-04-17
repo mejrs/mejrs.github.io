@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "unk_27": false, "ambient": 25, "contrast": 15, "unk_22": true, "actions": ["Deposit", "Deposit-All"], "models": [{"type": 10, "values": [45611]}], "name": "Deposit box", "occludes_2": false, "id": 2132}, "uniques": [{"id": 2132, "t": 10, "r": 0, "o": {"p": 0, "i": 29, "j": 80, "x": 32, "y": 12}}]}

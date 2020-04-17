@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "actions": ["Climb-down"], "unk_75": 0, "unk_27": false, "unk_73": true, "ambient": 25, "contrast": 15, "#unk_73": [true], "models": [{"type": 22, "values": [85024]}], "name": "Trapdoor", "action_cursors": [53], "occludes_2": false, "id": 83827}, "uniques": [{"id": 83827, "t": 22, "r": 2, "o": {"p": 2, "i": 37, "j": 48, "x": 2, "y": 61}}]}

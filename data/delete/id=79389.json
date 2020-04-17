@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "ambient": 25, "contrast": 15, "mirror": true, "models": [{"type": 0, "values": [75611]}], "name": "Door", "id": 79389}, "uniques": [{"id": 79389, "t": 0, "r": 1, "o": {"p": 1, "i": 18, "j": 75, "x": 37, "y": 20}}, {"id": 79389, "t": 0, "r": 1, "o": {"p": 1, "i": 48, "j": 49, "x": 37, "y": 20}}]}

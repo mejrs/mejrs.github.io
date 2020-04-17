@@ -1,1 +1,0 @@
-{"properties": {"unk_81": 64, "actions": [null, null, "Pick-from"], "models": [{"type": 10, "values": [5704]}], "name": "Thorny bushes", "occludes_2": false, "id": 5856}, "uniques": [{"id": 5856, "t": 10, "r": 0, "o": {"p": 1, "i": 44, "j": 54, "x": 35, "y": 36}}, {"id": 5856, "t": 10, "r": 0, "o": {"p": 1, "i": 68, "j": 181, "x": 35, "y": 36}}]}

@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "width": 2, "actions": ["Pray-at", "Check"], "models": [{"type": 10, "values": [1216]}], "name": "Chaos altar", "action_cursors": [61], "occludes_2": false, "id": 61}, "uniques": [{"id": 61, "t": 10, "r": 2, "o": {"p": 0, "i": 50, "j": 52, "x": 59, "y": 53}}]}

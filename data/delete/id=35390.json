@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "unk_27": false, "length": 3, "width": 4, "ambient": 25, "actions": ["Lift", "Squeeze past"], "dummy_12": true, "models": [{"type": 10, "values": [64438]}], "name": "Boulder", "occludes_2": false, "id": 35390}, "uniques": [{"id": 35390, "t": 10, "r": 0, "o": {"p": 0, "i": 45, "j": 57, "x": 27, "y": 61}}]}

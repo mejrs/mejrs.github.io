@@ -1,1 +1,0 @@
-{"properties": {"scaleX": 140, "scaleY": 140, "scaleZ": 140, "ambient": 42, "translateX": 64, "translateZ": 65472, "unk_17": false, "actions": ["Enter"], "models": [{"type": 10, "values": [103227]}], "name": "Portal", "action_cursors": [57], "occludes_2": false, "id": 16523}, "uniques": [{"id": 16523, "t": 10, "r": 1, "o": {"p": 0, "i": 58, "j": 141, "x": 12, "y": 37}}]}

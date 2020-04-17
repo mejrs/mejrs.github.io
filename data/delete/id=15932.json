@@ -1,1 +1,0 @@
-{"properties": {"width": 2, "actions": ["Craft"], "models": [{"type": 10, "values": [15786]}], "name": "Workbench", "action_cursors": [62], "occludes_2": false, "id": 15932}, "uniques": [{"id": 15932, "t": 10, "r": 2, "o": {"p": 0, "i": 59, "j": 46, "x": 38, "y": 53}}, {"id": 15932, "t": 10, "r": 0, "o": {"p": 0, "i": 59, "j": 46, "x": 42, "y": 10}}]}

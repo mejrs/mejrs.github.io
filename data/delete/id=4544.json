@@ -1,1 +1,0 @@
-{"properties": {"unk_22": true, "unk_19": 1, "actions": ["Study"], "mirror": true, "ambient": 10, "models": [{"type": 0, "values": [37541]}], "name": "Strange wall", "action_cursors": [50], "id": 4544}, "uniques": [{"id": 4544, "t": 0, "r": 3, "o": {"p": 1, "i": 39, "j": 72, "x": 19, "y": 19}}, {"id": 4544, "t": 0, "r": 3, "o": {"p": 1, "i": 39, "j": 156, "x": 19, "y": 19}}]}

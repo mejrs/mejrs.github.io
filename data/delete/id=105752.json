@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "ambient": 35, "actions": ["Touch"], "colours": [{"original": 0, "replacement": 10175}], "models": [{"type": 10, "values": [115979]}], "name": "Light shard (Yellow)", "occludes_2": false, "id": 105752}, "uniques": [{"id": 105752, "t": 10, "r": 1, "o": {"p": 1, "i": 34, "j": 195, "x": 58, "y": 27}}]}

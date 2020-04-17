@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "length": 2, "width": 3, "unk_21": true, "contrast": 10, "ambient": 15, "unk_27": false, "actions": ["Mine"], "models": [{"type": 10, "values": [34316]}], "name": "Collapsed tunnel", "action_cursors": [58], "occludes_2": false, "id": 31239}, "uniques": [{"id": 31239, "t": 10, "r": 0, "o": {"p": 1, "i": 32, "j": 88, "x": 27, "y": 50}}]}

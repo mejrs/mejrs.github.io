@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "actions": ["Exit to"], "length": 5, "width": 2, "ambient": 25, "contrast": 15, "unk_27": false, "unk_22": true, "unk_21": true, "models": [{"type": 10, "values": [70879]}], "name": "Burthorpe", "action_cursors": [57], "occludes_2": false, "id": 66534}, "uniques": [{"id": 66534, "t": 10, "r": 1, "o": {"p": 0, "i": 34, "j": 68, "x": 30, "y": 10}}]}

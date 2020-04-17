@@ -1,1 +1,0 @@
-{"properties": {"length": 2, "dummy_45": 13, "actions": ["Fire"], "unk_78": {"unknown_1": 3474, "unknown_2": 10}, "unk_104": 100, "models": [{"type": 10, "values": [1184]}], "name": "Pottery Oven", "action_cursors": [62], "occludes_2": false, "id": 2643}, "uniques": [{"id": 2643, "t": 10, "r": 1, "o": {"p": 0, "i": 45, "j": 51, "x": 49, "y": 28}}]}

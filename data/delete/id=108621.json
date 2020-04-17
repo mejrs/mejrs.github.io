@@ -1,1 +1,0 @@
-{"properties": {"ambient": 0, "unk_27": false, "model": false, "scaleX": 80, "scaleY": 80, "scaleZ": 80, "textures": [{"original": 8834, "replacement": 8856}], "models": [{"type": 10, "values": [118577]}], "name": "Fish Stall", "occludes_2": false, "id": 108621}, "uniques": [{"id": 108621, "t": 10, "r": 2, "o": {"p": 0, "i": 50, "j": 43, "x": 17, "y": 25}}]}

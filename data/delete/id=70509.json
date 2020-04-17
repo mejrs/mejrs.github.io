@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "ambient": 25, "contrast": 15, "model": false, "unk_88": false, "actions": ["Climb down"], "dummy_45": 11, "models": [{"type": 10, "values": [69534]}], "name": "Vine ladder", "action_cursors": [53], "occludes_2": false, "id": 70509}, "uniques": [{"id": 70509, "t": 10, "r": 0, "o": {"p": 1, "i": 64, "j": 95, "x": 53, "y": 26}}]}

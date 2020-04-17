@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "actions": ["Run-across"], "unk_17": false, "ambient": 25, "contrast": 15, "unk_22": true, "models": [{"type": 0, "values": [68007]}], "name": "Signpost", "action_cursors": [181], "id": 69514}, "uniques": [{"id": 69514, "t": 0, "r": 1, "o": {"p": 3, "i": 38, "j": 53, "x": 46, "y": 25}}]}

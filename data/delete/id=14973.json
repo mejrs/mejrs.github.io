@@ -1,1 +1,0 @@
-{"properties": {"width": 2, "length": 2, "unk_21": true, "actions": ["Take-from"], "models": [{"type": 10, "values": [14898, 14899]}], "name": "Net", "occludes_2": false, "id": 14973}, "uniques": [{"id": 14973, "t": 10, "r": 0, "o": {"p": 0, "i": 36, "j": 57, "x": 50, "y": 54}}, {"id": 14973, "t": 10, "r": 1, "o": {"p": 0, "i": 36, "j": 57, "x": 52, "y": 52}}]}

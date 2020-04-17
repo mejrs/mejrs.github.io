@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "width": 2, "unk_21": true, "ambient": 20, "contrast": 25, "unk_27": false, "dummy_45": 11, "actions": ["Use"], "models": [{"type": 10, "values": [90878]}], "name": "Viewing panel", "action_cursors": [46], "occludes_2": false, "id": 87685}, "uniques": [{"id": 87685, "t": 10, "r": 1, "o": {"p": 1, "i": 59, "j": 71, "x": 9, "y": 11}}]}

@@ -1,1 +1,0 @@
-{"properties": {"ambient": 15, "scaleY": 160, "unk_22": true, "actions": ["Climb-down"], "models": [{"type": 10, "values": [33552]}], "name": "Wooden beam", "action_cursors": [53], "occludes_2": false, "id": 30495}, "uniques": [{"id": 30495, "t": 10, "r": 2, "o": {"p": 1, "i": 56, "j": 51, "x": 51, "y": 54}}]}

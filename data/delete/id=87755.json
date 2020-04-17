@@ -1,1 +1,0 @@
-{"properties": {"ambient": 25, "contrast": 15, "unk_27": false, "actions": ["Investigate"], "dummy_12": true, "models": [{"type": 10, "values": [86255]}], "name": "Storage crate", "occludes_2": false, "id": 87755}, "uniques": [{"id": 87755, "t": 10, "r": 3, "o": {"p": 1, "i": 58, "j": 70, "x": 37, "y": 27}}]}

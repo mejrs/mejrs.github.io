@@ -1,1 +1,0 @@
-{"properties": {"width": 2, "length": 2, "mapscene": 11, "actions": ["Search"], "colours": [{"original": 14228, "replacement": 978}], "models": [{"type": 10, "values": [2165]}], "name": "Mossy rock", "action_cursors": [56], "occludes_2": false, "id": 24300}, "uniques": [{"id": 24300, "t": 10, "r": 1, "o": {"p": 0, "i": 43, "j": 45, "x": 29, "y": 56}}]}

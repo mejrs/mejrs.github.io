@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "ambient": 32, "model": false, "unk_88": false, "width": 2, "actions": ["Search"], "models": [{"type": 10, "values": [107014]}], "name": "Wall", "action_cursors": [56], "occludes_2": false, "id": 103199}, "uniques": [{"id": 103199, "t": 10, "r": 0, "o": {"p": 0, "i": 15, "j": 85, "x": 26, "y": 36}}]}

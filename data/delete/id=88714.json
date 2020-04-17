@@ -1,1 +1,0 @@
-{"properties": {"width": 2, "length": 2, "actions": ["Construct"], "models": [{"type": 10, "values": [92538]}], "name": "Golem", "occludes_2": false, "id": 88714}, "uniques": [{"id": 88714, "t": 11, "r": 3, "o": {"p": 1, "i": 41, "j": 100, "x": 34, "y": 32}}, {"id": 88714, "t": 11, "r": 3, "o": {"p": 1, "i": 43, "j": 100, "x": 24, "y": 32}}]}

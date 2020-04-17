@@ -1,1 +1,0 @@
-{"properties": {"model": false, "actions": ["Jump-across"], "models": [{"type": 10, "values": [3722]}], "name": "Clump of rocks", "occludes_2": false, "id": 5849}, "uniques": [{"id": 5849, "t": 10, "r": 1, "o": {"p": 0, "i": 43, "j": 57, "x": 19, "y": 44}}]}

@@ -1,1 +1,0 @@
-{"properties": {"actions": [null, "Investigate"], "models": [{"type": 10, "values": [1482]}], "name": "Sacks", "occludes_2": false, "id": 2663}, "uniques": [{"id": 2663, "t": 10, "r": 1, "o": {"p": 0, "i": 42, "j": 55, "x": 43, "y": 62}}, {"id": 2663, "t": 10, "r": 2, "o": {"p": 0, "i": 42, "j": 55, "x": 44, "y": 62}}]}

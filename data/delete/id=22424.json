@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "actions": ["Pull"], "dummy_45": 14, "colours": [{"original": 6569, "replacement": 6573}, {"original": 5660, "replacement": 6817}], "models": [{"type": 10, "values": [1381]}], "name": "Lever", "occludes_2": false, "id": 22424}, "uniques": [{"id": 22424, "t": 10, "r": 0, "o": {"p": 2, "i": 59, "j": 44, "x": 9, "y": 9}}]}

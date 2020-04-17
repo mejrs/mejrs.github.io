@@ -1,1 +1,0 @@
-{"properties": {"unk_22": true, "unk_21": true, "actions": ["Look", "Jump-over"], "ambient": 25, "contrast": 15, "models": [{"type": 0, "values": [45468]}], "name": "Jagged wall", "action_cursors": [null, 181], "id": 9292}, "uniques": [{"id": 9292, "t": 0, "r": 1, "o": {"p": 0, "i": 43, "j": 145, "x": 39, "y": 14}}]}

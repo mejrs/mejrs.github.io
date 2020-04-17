@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "length": 2, "width": 2, "ambient": 25, "contrast": 25, "actions": ["Climb-down"], "models": [{"type": 10, "values": [34437]}], "name": "Well", "action_cursors": [53], "occludes_2": false, "id": 31359}, "uniques": [{"id": 31359, "t": 10, "r": 0, "o": {"p": 0, "i": 52, "j": 46, "x": 30, "y": 27}}]}

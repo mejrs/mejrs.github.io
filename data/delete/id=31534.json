@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Shout-through", "Open"], "ambient": 25, "contrast": 25, "unk_19": 1, "unk_75": 0, "mapscene": 22, "models": [{"type": 0, "values": [34924]}], "name": "Door", "action_cursors": [null, 49], "occludes_2": false, "id": 31534}, "uniques": [{"id": 31534, "t": 0, "r": 3, "o": {"p": 0, "i": 47, "j": 46, "x": 25, "y": 42}}]}

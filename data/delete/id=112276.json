@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "actions": ["Turn"], "length": 3, "width": 3, "unk_27": false, "unk_21": true, "model": false, "dummy_12": true, "models": [{"type": 10, "values": [65371]}], "name": "Manure mound", "occludes_2": false, "id": 112276}, "uniques": [{"id": 112276, "t": 10, "r": 3, "o": {"p": 0, "i": 41, "j": 52, "x": 34, "y": 33}}]}

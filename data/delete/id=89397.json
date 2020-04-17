@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "actions": ["Climb"], "ambient": 25, "contrast": 15, "dummy_45": 7, "models": [{"type": 10, "values": [93627]}], "name": "ladder", "action_cursors": [181], "occludes_2": false, "id": 89397}, "uniques": [{"id": 89397, "t": 10, "r": 1, "o": {"p": 0, "i": 46, "j": 53, "x": 4, "y": 25}}]}

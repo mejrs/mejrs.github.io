@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "ambient": 15, "contrast": 25, "actions": ["Mine"], "models": [{"type": 10, "values": [90505]}], "name": "Statue", "action_cursors": [58], "occludes_2": false, "id": 87414}, "uniques": [{"id": 87414, "t": 10, "r": 0, "o": {"p": 0, "i": 26, "j": 97, "x": 22, "y": 50}}, {"id": 87414, "t": 10, "r": 0, "o": {"p": 0, "i": 28, "j": 96, "x": 22, "y": 50}}]}

@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "actions": ["East:"], "ambient": 37, "model": false, "unk_88": false, "models": [{"type": 10, "values": [98466]}], "name": "Crwys", "occludes_2": false, "id": 94278}, "uniques": [{"id": 94278, "t": 10, "r": 2, "o": {"p": 1, "i": 34, "j": 53, "x": 44, "y": 12}}, {"id": 94278, "t": 10, "r": 2, "o": {"p": 1, "i": 34, "j": 53, "x": 44, "y": 27}}]}

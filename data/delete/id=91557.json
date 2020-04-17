@@ -1,1 +1,0 @@
-{"properties": {"width": 5, "length": 6, "ambient": 25, "contrast": 15, "unk_21": true, "unk_17": false, "actions": ["Enter", "Enter-Graveyard"], "models": [{"type": 10, "values": [4498, 96983, 4557]}], "name": "Cave", "action_cursors": [57], "occludes_2": false, "id": 91557}, "uniques": [{"id": 91557, "t": 10, "r": 0, "o": {"p": 0, "i": 57, "j": 53, "x": 51, "y": 29}}]}

@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "actions": ["Enter"], "unk_75": 0, "ambient": 64, "unk_27": false, "models": [{"type": 10, "values": [98219]}], "name": "Tower entrance", "action_cursors": [57], "occludes_2": false, "id": 92255}, "uniques": [{"id": 92255, "t": 10, "r": 3, "o": {"p": 1, "i": 35, "j": 51, "x": 36, "y": 53}}]}

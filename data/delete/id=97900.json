@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "length": 3, "width": 3, "model": false, "ambient": 32, "actions": ["Investigate"], "models": [{"type": 10, "values": [105225]}], "name": "Ancient statue", "occludes_2": false, "id": 97900}, "uniques": [{"id": 97900, "t": 10, "r": 2, "o": {"p": 0, "i": 66, "j": 11, "x": 33, "y": 60}}]}

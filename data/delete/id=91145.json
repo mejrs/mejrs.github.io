@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "ambient": 25, "contrast": 15, "length": 3, "width": 3, "unk_17": false, "actions": ["Climb down"], "models": [{"type": 10, "values": [96105]}], "name": "Stairs", "action_cursors": [53], "occludes_2": false, "id": 91145}, "uniques": [{"id": 91145, "t": 10, "r": 0, "o": {"p": 1, "i": 36, "j": 49, "x": 36, "y": 39}}]}

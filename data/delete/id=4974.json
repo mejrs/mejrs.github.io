@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Search"], "models": [{"type": 10, "values": [1398]}], "name": "Mine cart", "action_cursors": [56], "occludes_2": false, "id": 4974}, "uniques": [{"id": 4974, "t": 10, "r": 1, "o": {"p": 0, "i": 43, "j": 70, "x": 22, "y": 57}}, {"id": 4974, "t": 10, "r": 1, "o": {"p": 0, "i": 43, "j": 70, "x": 26, "y": 26}}]}

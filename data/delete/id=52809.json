@@ -1,1 +1,0 @@
-{"properties": {"unk_24": 3511, "unk_19": 1, "ambient": 25, "contrast": 25, "actions": ["Read", null, null, null, "Remove"], "models": [{"type": 10, "values": [12972]}], "name": "Clock", "action_cursors": [50], "occludes_2": false, "id": 52809}, "uniques": [{"id": 52809, "t": 11, "r": 2, "o": {"p": 0, "i": 59, "j": 89, "x": 16, "y": 24}}]}

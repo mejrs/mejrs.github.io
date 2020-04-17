@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "unk_21": true, "actions": ["Close"], "ambient": 25, "contrast": 15, "models": [{"type": 0, "values": [107585]}], "name": "Door", "id": 40109}, "uniques": [{"id": 40109, "t": 0, "r": 0, "o": {"p": 0, "i": 47, "j": 49, "x": 3, "y": 60}}, {"id": 40109, "t": 0, "r": 2, "o": {"p": 0, "i": 47, "j": 50, "x": 18, "y": 45}}]}

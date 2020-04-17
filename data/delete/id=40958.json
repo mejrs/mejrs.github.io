@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Look-at", "Search"], "dummy_45": 11, "unk_19": 1, "width": 2, "unk_27": false, "ambient": 25, "contrast": 15, "models": [{"type": 10, "values": [43706]}], "name": "Bed", "action_cursors": [null, 56], "occludes_2": false, "id": 40958}, "uniques": [{"id": 40958, "t": 10, "r": 1, "o": {"p": 2, "i": 32, "j": 68, "x": 19, "y": 26}}]}

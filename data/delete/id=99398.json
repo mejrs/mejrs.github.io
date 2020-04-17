@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "length": 3, "translateX": 65472, "ambient": 22, "unk_17": false, "actions": ["Climb"], "models": [{"type": 10, "values": [106741]}], "name": "Handholds", "action_cursors": [181], "occludes_2": false, "id": 99398}, "uniques": [{"id": 99398, "t": 10, "r": 3, "o": {"p": 1, "i": 35, "j": 53, "x": 42, "y": 2}}]}

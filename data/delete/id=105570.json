@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "actions": ["Withdraw"], "ambient": 64, "model": false, "width": 2, "length": 5, "unk_27": false, "dummy_12": true, "models": [{"type": 10, "values": [115503]}], "name": "Crystal storage bin", "occludes_2": false, "id": 105570}, "uniques": [{"id": 105570, "t": 10, "r": 0, "o": {"p": 2, "i": 44, "j": 197, "x": 10, "y": 27}}]}

@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Search"], "models": [{"type": 10, "values": [61105, 61083]}], "name": "Table", "action_cursors": [56], "occludes_2": false, "id": 31915}, "uniques": [{"id": 31915, "t": 10, "r": 2, "o": {"p": 0, "i": 67, "j": 83, "x": 24, "y": 28}}, {"id": 31915, "t": 10, "r": 2, "o": {"p": 0, "i": 67, "j": 85, "x": 24, "y": 28}}]}

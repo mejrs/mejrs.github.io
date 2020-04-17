@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "actions": ["Activate", "Reset puzzle"], "unk_21": true, "ambient": 25, "contrast": 15, "unk_27": false, "dummy_12": true, "models": [{"type": 10, "values": [97431]}], "name": "Seal of Trahaearn", "action_cursors": [46], "occludes_2": false, "id": 91821}, "uniques": [{"id": 91821, "t": 10, "r": 0, "o": {"p": 1, "i": 34, "j": 152, "x": 34, "y": 20}}]}

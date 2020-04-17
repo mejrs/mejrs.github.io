@@ -1,1 +1,0 @@
-{"properties": {"unk_22": true, "unk_19": 1, "contrast": 15, "ambient": 25, "unk_27": false, "unk_21": true, "width": 3, "actions": ["Squeeze-through"], "models": [{"type": 10, "values": [45072]}], "name": "Cave entrance", "action_cursors": [181], "occludes_2": false, "id": 41665}, "uniques": [{"id": 41665, "t": 10, "r": 0, "o": {"p": 1, "i": 32, "j": 90, "x": 46, "y": 35}}]}

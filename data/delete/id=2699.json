@@ -1,1 +1,0 @@
-{"properties": {"unk_22": true, "unk_21": true, "mirror": true, "actions": ["Walk through"], "models": [{"type": 0, "values": [19291]}], "name": "Mine cave", "occludes_1": false, "unk_170": 960, "id": 2699}, "uniques": [{"id": 2699, "t": 0, "r": 0, "o": {"p": 0, "i": 51, "j": 147, "x": 17, "y": 7}}, {"id": 2699, "t": 0, "r": 2, "o": {"p": 0, "i": 51, "j": 147, "x": 19, "y": 6}}]}

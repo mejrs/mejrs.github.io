@@ -1,1 +1,0 @@
-{"properties": {"length": 3, "width": 3, "model": false, "actions": ["Board"], "ambient": 64, "models": [{"type": 10, "values": [17556]}], "name": "Boat", "occludes_2": false, "id": 99052}, "uniques": [{"id": 99052, "t": 10, "r": 0, "o": {"p": 0, "i": 57, "j": 49, "x": 23, "y": 33}}]}

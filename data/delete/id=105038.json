@@ -1,1 +1,0 @@
-{"properties": {"length": 2, "width": 2, "ambient": 0, "unk_27": false, "model": false, "mapFunction": 595, "actions": ["Fill"], "models": [{"type": 10, "values": [113414]}], "name": "Water barrel", "occludes_2": false, "id": 105038}, "uniques": [{"id": 105038, "t": 10, "r": 3, "o": {"p": 1, "i": 27, "j": 187, "x": 41, "y": 28}}]}

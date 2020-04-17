@@ -1,1 +1,0 @@
-{"properties": {"unk_27": false, "ambient": 15, "contrast": 10, "actions": ["Mine"], "mapFunction": 563, "model": false, "unk_88": false, "dummy_12": true, "models": [{"type": 10, "values": [56744]}], "name": "Novite ore", "action_cursors": [58], "occludes_2": false, "id": 49766}, "uniques": [{"id": 49766, "t": 10, "r": 0, "o": {"p": 0, "i": 67, "j": 112, "x": 39, "y": 38}}]}

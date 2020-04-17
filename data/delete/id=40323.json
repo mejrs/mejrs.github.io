@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Jump-over"], "unk_19": 1, "unk_27": false, "unk_21": true, "contrast": 15, "ambient": 25, "dummy_12": true, "models": [{"type": 10, "values": [44488]}], "name": "Barricade", "action_cursors": [181], "occludes_2": false, "id": 40323}, "uniques": [{"id": 40323, "t": 10, "r": 0, "o": {"p": 2, "i": 47, "j": 156, "x": 35, "y": 16}}]}

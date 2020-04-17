@@ -1,1 +1,0 @@
-{"properties": {"length": 2, "actions": ["Search"], "dummy_45": 13, "models": [{"type": 10, "values": [9501]}], "name": "Bookcase", "action_cursors": [56], "occludes_2": false, "id": 9611}, "uniques": [{"id": 9611, "t": 10, "r": 3, "o": {"p": 1, "i": 49, "j": 53, "x": 26, "y": 45}}, {"id": 9611, "t": 10, "r": 3, "o": {"p": 1, "i": 57, "j": 141, "x": 26, "y": 45}}]}

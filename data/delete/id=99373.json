@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "model": false, "unk_17": false, "actions": ["Jump to"], "unk_21": true, "models": [{"type": 10, "values": [96942]}], "name": "Bridge", "occludes_2": false, "id": 99373}, "uniques": [{"id": 99373, "t": 10, "r": 0, "o": {"p": 1, "i": 35, "j": 53, "x": 26, "y": 10}}]}

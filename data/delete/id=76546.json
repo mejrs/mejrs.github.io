@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Go-through", "Look-at"], "unk_19": 1, "ambient": 25, "contrast": 15, "unk_21": true, "width": 2, "length": 5, "unk_17": false, "dummy_45": 5, "models": [{"type": 10, "values": [76384]}], "name": "Shantay Pass", "occludes_2": false, "id": 76546}, "uniques": [{"id": 76546, "t": 10, "r": 1, "o": {"p": 0, "i": 51, "j": 48, "x": 38, "y": 44}}]}

@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Open"], "unk_19": 1, "unk_75": 0, "dummy_12": true, "models": [{"type": 0, "values": [1509]}, {"type": 9, "values": [1511]}], "name": "Gate", "action_cursors": [49], "id": 1589}, "uniques": [{"id": 1589, "t": 0, "r": 0, "o": {"p": 2, "i": 41, "j": 73, "x": 19, "y": 10}}, {"id": 1589, "t": 0, "r": 1, "o": {"p": 1, "i": 42, "j": 54, "x": 38, "y": 38}}]}

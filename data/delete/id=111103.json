@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Open"], "ambient": 25, "contrast": 25, "unk_19": 1, "unk_75": 0, "mapscene": 22, "models": [{"type": 0, "values": [34765]}], "name": "Door", "action_cursors": [49], "occludes_1": false, "unk_170": 529, "id": 111103}, "uniques": [{"id": 111103, "t": 0, "r": 1, "o": {"p": 0, "i": 43, "j": 23, "x": 25, "y": 35}}]}

@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "unk_89": false, "unk_27": false, "ambient": 25, "contrast": 15, "dummy_45": 13, "actions": ["Sit"], "dummy_12": true, "models": [{"type": 10, "values": [64650]}], "name": "Chair", "occludes_2": false, "id": 7268}, "uniques": [{"id": 7268, "t": 10, "r": 2, "o": {"p": 0, "i": 57, "j": 46, "x": 21, "y": 51}}]}

@@ -1,1 +1,0 @@
-{"properties": {"blocks_ranged": true, "ambient": 15, "contrast": 10, "unk_27": false, "unk_21": true, "length": 2, "actions": ["Open"], "models": [{"type": 10, "values": [53101]}], "name": "Orange corner door", "action_cursors": [49], "occludes_2": false, "id": 11513}, "uniques": [{"id": 11513, "t": 10, "r": 1, "o": {"p": 0, "i": 26, "j": 68, "x": 39, "y": 63}}]}

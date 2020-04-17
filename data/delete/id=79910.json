@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "length": 5, "ambient": 25, "contrast": 15, "actions": ["Open"], "models": [{"type": 10, "values": [80630, 80634]}], "name": "Studies door", "action_cursors": [49], "occludes_2": false, "id": 79910}, "uniques": [{"id": 79910, "t": 10, "r": 1, "o": {"p": 1, "i": 25, "j": 96, "x": 30, "y": 55}}]}

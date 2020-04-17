@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "unk_17": false, "unk_88": false, "actions": ["Dig"], "models": [{"type": 10, "values": [11448]}], "name": "Mud patch", "occludes_2": false, "id": 2531}, "uniques": [{"id": 2531, "t": 10, "r": 2, "o": {"p": 0, "i": 40, "j": 52, "x": 6, "y": 3}}, {"id": 2531, "t": 10, "r": 2, "o": {"p": 0, "i": 40, "j": 52, "x": 6, "y": 5}}]}

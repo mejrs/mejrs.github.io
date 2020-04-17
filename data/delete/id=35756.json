@@ -1,1 +1,0 @@
-{"properties": {"ambient": 25, "actions": ["Search"], "colours": [{"original": 6707, "replacement": 7830}, {"original": 7952, "replacement": 7582}], "models": [{"type": 10, "values": [35906]}], "name": "Bookcase", "action_cursors": [56], "occludes_2": false, "id": 35756}, "uniques": [{"id": 35756, "t": 10, "r": 0, "o": {"p": 0, "i": 51, "j": 52, "x": 15, "y": 56}}]}

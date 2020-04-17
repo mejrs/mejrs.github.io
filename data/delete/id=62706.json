@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "contrast": 15, "ambient": 25, "mirror": true, "actions": ["Go-through"], "models": [{"type": 0, "values": [101342]}], "name": "Entrance door", "id": 62706}, "uniques": [{"id": 62706, "t": 0, "r": 2, "o": {"p": 2, "i": 58, "j": 102, "x": 16, "y": 32}}, {"id": 62706, "t": 0, "r": 0, "o": {"p": 2, "i": 58, "j": 102, "x": 47, "y": 31}}]}

@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "ambient": 30, "models": [{"type": 0, "values": [42172]}], "name": "Door", "occludes_1": false, "unk_170": 1045, "id": 38799}, "uniques": [{"id": 38799, "t": 0, "r": 0, "o": {"p": 0, "i": 45, "j": 86, "x": 25, "y": 34}}, {"id": 38799, "t": 0, "r": 2, "o": {"p": 0, "i": 45, "j": 86, "x": 38, "y": 34}}]}

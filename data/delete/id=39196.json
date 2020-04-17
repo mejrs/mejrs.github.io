@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "ambient": 10, "contrast": 5, "unk_21": true, "unk_22": true, "mirror": true, "actions": ["Look-over"], "unk_196": 3, "dummy_12": true, "models": [{"type": 10, "values": [42466]}], "name": "Balcony", "occludes_2": false, "id": 39196}, "uniques": [{"id": 39196, "t": 10, "r": 3, "o": {"p": 1, "i": 50, "j": 156, "x": 44, "y": 47}}]}

@@ -1,1 +1,0 @@
-{"properties": {"length": 2, "contrast": 25, "ambient": 25, "unk_78": {"unknown_1": 4969, "unknown_2": 3}, "unk_104": 50, "actions": [null, null, null, null, "Remove"], "models": [{"type": 10, "values": [12632]}], "name": "Fancy range", "occludes_2": false, "id": 52814}, "uniques": [{"id": 52814, "t": 10, "r": 1, "o": {"p": 0, "i": 59, "j": 89, "x": 35, "y": 39}}]}

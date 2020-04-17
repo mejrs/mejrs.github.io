@@ -1,1 +1,0 @@
-{"properties": {"unk_21": true, "mirror": true, "unk_22": true, "actions": ["Search"], "colours": [{"original": 6689, "replacement": 6930}], "models": [{"type": 10, "values": [6795]}], "name": "Broken Lecturn", "action_cursors": [56], "occludes_2": false, "id": 6846}, "uniques": [{"id": 6846, "t": 10, "r": 1, "o": {"p": 2, "i": 38, "j": 147, "x": 11, "y": 51}}]}

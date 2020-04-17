@@ -1,1 +1,0 @@
-{"properties": {"ambient": 25, "contrast": 15, "unk_19": 1, "model": false, "unk_21": true, "unk_22": true, "actions": ["Climb-down"], "#unk_19": [0], "mapscene": 7, "models": [{"type": 22, "values": [76138]}], "name": "Steps", "action_cursors": [53], "occludes_2": false, "id": 76222}, "uniques": [{"id": 76222, "t": 22, "r": 3, "o": {"p": 1, "i": 51, "j": 49, "x": 19, "y": 54}}]}

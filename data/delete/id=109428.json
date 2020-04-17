@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Deposit", "Charge-altar", "Check-storage"], "unk_24": 503, "unk_27": false, "translateZ": 30, "dummy_12": true, "models": [{"type": 10, "values": [118892]}], "name": "Charger", "occludes_2": false, "id": 109428}, "uniques": [{"id": 109428, "t": 10, "r": 2, "o": {"p": 0, "i": 30, "j": 104, "x": 36, "y": 32}}]}

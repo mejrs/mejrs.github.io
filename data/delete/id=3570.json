@@ -1,1 +1,0 @@
-{"properties": {"unk_17": false, "unk_73": true, "unk_19": 1, "actions": ["Walk-on"], "colours": [{"original": 61, "replacement": 6449}], "models": [{"type": 22, "values": [3637]}], "name": "Plank", "action_cursors": [181], "occludes_2": false, "id": 3570}, "uniques": [{"id": 3570, "t": 22, "r": 3, "o": {"p": 3, "i": 43, "j": 149, "x": 17, "y": 21}}]}

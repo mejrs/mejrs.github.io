@@ -1,1 +1,0 @@
-{"properties": {"width": 2, "length": 2, "actions": ["Take-decoration"], "models": [{"type": 10, "values": [10459, 10462]}], "name": "Decorations Box", "occludes_2": false, "id": 10685}, "uniques": [{"id": 10685, "t": 10, "r": 1, "o": {"p": 1, "i": 31, "j": 69, "x": 45, "y": 36}}, {"id": 10685, "t": 10, "r": 2, "o": {"p": 1, "i": 31, "j": 69, "x": 47, "y": 25}}]}

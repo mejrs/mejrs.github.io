@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Open"], "unk_21": true, "models": [{"type": 0, "values": [9872]}], "name": "Gate", "action_cursors": [49], "id": 10172}, "uniques": [{"id": 10172, "t": 0, "r": 1, "o": {"p": 1, "i": 33, "j": 79, "x": 8, "y": 42}}, {"id": 10172, "t": 0, "r": 1, "o": {"p": 1, "i": 68, "j": 109, "x": 8, "y": 42}}]}

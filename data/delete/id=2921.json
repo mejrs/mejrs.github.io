@@ -1,1 +1,0 @@
-{"properties": {"width": 2, "length": 2, "mapscene": 11, "actions": ["Smash-to-bits"], "colours": [{"original": 7952, "replacement": 7054}], "models": [{"type": 10, "values": [685]}], "name": "Boulder", "occludes_2": false, "id": 2921}, "uniques": [{"id": 2921, "t": 10, "r": 0, "o": {"p": 0, "i": 43, "j": 145, "x": 57, "y": 39}}]}

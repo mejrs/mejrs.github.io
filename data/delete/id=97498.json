@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "width": 3, "length": 3, "actions": ["Mine"], "ambient": 25, "unk_27": false, "models": [{"type": 10, "values": [104704]}], "name": "Roof support", "action_cursors": [58], "unk_160": [377], "occludes_2": false, "id": 97498}, "uniques": [{"id": 97498, "t": 10, "r": 1, "o": {"p": 1, "i": 18, "j": 65, "x": 31, "y": 7}}]}

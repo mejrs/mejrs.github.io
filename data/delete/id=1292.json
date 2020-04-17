@@ -1,1 +1,0 @@
-{"properties": {"width": 2, "length": 2, "actions": ["Chop down"], "mapscene": 0, "unk_81": 42, "unk_189": true, "models": [{"type": 10, "values": [1650]}], "name": "Dramen tree", "action_cursors": [59], "occludes_2": false, "id": 1292}, "uniques": [{"id": 1292, "t": 10, "r": 0, "o": {"p": 0, "i": 44, "j": 152, "x": 44, "y": 6}}]}

@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "length": 3, "width": 2, "ambient": 120, "unk_27": false, "unk_21": true, "models": [{"type": 10, "values": [88138]}], "name": "Tent", "occludes_2": false, "id": 99955}, "uniques": [{"id": 99955, "t": 11, "r": 1, "o": {"p": 0, "i": 47, "j": 73, "x": 23, "y": 55}}, {"id": 99955, "t": 11, "r": 1, "o": {"p": 0, "i": 52, "j": 44, "x": 23, "y": 55}}]}

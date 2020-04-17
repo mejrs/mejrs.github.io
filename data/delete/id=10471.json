@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Jump-from"], "unk_21": true, "unk_22": true, "unk_19": 1, "unk_17": false, "unk_73": true, "mirror": true, "ambient": 20, "contrast": 15, "models": [{"type": 22, "values": [7513]}], "name": "Floor", "occludes_2": false, "id": 10471}, "uniques": [{"id": 10471, "t": 22, "r": 0, "o": {"p": 2, "i": 62, "j": 89, "x": 49, "y": 39}}]}

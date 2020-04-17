@@ -1,1 +1,0 @@
-{"properties": {"unk_22": true, "unk_21": true, "unk_27": false, "#unk_22": [true], "unk_19": 1, "length": 2, "width": 2, "actions": ["Pray"], "dummy_12": true, "models": [{"type": 10, "values": [46510]}], "name": "Pyramid", "action_cursors": [61], "occludes_2": false, "id": 42984}, "uniques": [{"id": 42984, "t": 10, "r": 0, "o": {"p": 0, "i": 23, "j": 75, "x": 23, "y": 17}}]}

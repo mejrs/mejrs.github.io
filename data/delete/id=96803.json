@@ -1,1 +1,0 @@
-{"properties": {"length": 3, "unk_27": false, "actions": ["Jump"], "unk_17": false, "models": [{"type": 10, "values": [10772]}], "name": "Space", "action_cursors": [55], "occludes_2": false, "id": 96803}, "uniques": [{"id": 96803, "t": 10, "r": 0, "o": {"p": 3, "i": 5, "j": 7, "x": 13, "y": 54}}, {"id": 96803, "t": 10, "r": 0, "o": {"p": 3, "i": 5, "j": 7, "x": 18, "y": 54}}]}

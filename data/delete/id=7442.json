@@ -1,1 +1,0 @@
-{"properties": {"ambient": 15, "actions": ["Turn"], "dummy_12": true, "models": [{"type": 10, "values": [7777]}], "name": "Valve", "occludes_2": false, "id": 7442}, "uniques": [{"id": 7442, "t": 10, "r": 0, "o": {"p": 1, "i": 45, "j": 159, "x": 38, "y": 17}}]}

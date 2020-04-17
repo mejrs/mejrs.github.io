@@ -1,1 +1,0 @@
-{"properties": {"width": 3, "length": 3, "unk_19": 1, "ambient": 25, "contrast": 15, "unk_24": 11820, "actions": ["Fire"], "models": [{"type": 10, "values": [47314]}], "name": "Spring device", "action_cursors": [41], "occludes_2": false, "id": 43587}, "uniques": [{"id": 43587, "t": 10, "r": 2, "o": {"p": 3, "i": 39, "j": 55, "x": 36, "y": 24}}]}

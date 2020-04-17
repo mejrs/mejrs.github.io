@@ -1,1 +1,0 @@
-{"properties": {"mirror": true, "length": 3, "unk_22": true, "unk_19": 1, "actions": ["Go-through"], "models": [{"type": 10, "values": [4960]}], "name": "Ice gate", "occludes_2": false, "id": 5044}, "uniques": [{"id": 5044, "t": 10, "r": 2, "o": {"p": 0, "i": 44, "j": 58, "x": 22, "y": 24}}]}

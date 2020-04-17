@@ -1,1 +1,0 @@
-{"properties": {"width": 2, "length": 2, "unk_81": 32, "colours": [{"original": 5916, "replacement": 7952}], "models": [{"type": 10, "values": [728]}], "name": "Column", "occludes_2": false, "id": 465}, "uniques": [{"id": 465, "t": 10, "r": 2, "o": {"p": 0, "i": 37, "j": 73, "x": 52, "y": 37}}, {"id": 465, "t": 10, "r": 0, "o": {"p": 0, "i": 37, "j": 73, "x": 53, "y": 5}}]}

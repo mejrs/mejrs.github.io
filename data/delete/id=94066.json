@@ -1,1 +1,0 @@
-{"properties": {"ambient": 37, "width": 2, "length": 2, "unk_27": false, "actions": ["Get sand from"], "dummy_12": true, "models": [{"type": 10, "values": [99999]}], "name": "Sand pit", "occludes_2": false, "id": 94066}, "uniques": [{"id": 94066, "t": 10, "r": 3, "o": {"p": 1, "i": 33, "j": 52, "x": 30, "y": 6}}]}

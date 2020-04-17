@@ -1,1 +1,0 @@
-{"properties": {"unk_21": true, "unk_19": 1, "width": 6, "ambient": 30, "actions": ["Open"], "models": [{"type": 10, "values": [18381]}], "name": "Imposing doors", "action_cursors": [49], "occludes_2": false, "id": 18441}, "uniques": [{"id": 18441, "t": 10, "r": 2, "o": {"p": 0, "i": 36, "j": 79, "x": 44, "y": 37}}]}

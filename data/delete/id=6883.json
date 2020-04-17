@@ -1,1 +1,0 @@
-{"properties": {"width": 2, "length": 3, "unk_21": true, "ambient": 25, "contrast": 15, "actions": ["Open", "Pick-lock"], "mapscene": 34, "unk_196": 2, "models": [{"type": 10, "values": [37180]}], "name": "Ogre Coffin", "action_cursors": [49], "occludes_2": false, "id": 6883}, "uniques": [{"id": 6883, "t": 10, "r": 1, "o": {"p": 2, "i": 38, "j": 147, "x": 11, "y": 55}}]}

@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "ambient": 64, "actions": ["Open"], "dummy_45": 11, "scaleZ": 115, "scaleX": 110, "scaleY": 110, "models": [{"type": 10, "values": [80386]}], "name": "Dungeoneering chest", "action_cursors": [49], "occludes_2": false, "id": 95228}, "uniques": [{"id": 95228, "t": 10, "r": 0, "o": {"p": 0, "i": 66, "j": 117, "x": 30, "y": 37}}]}

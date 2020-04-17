@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "unk_21": true, "ambient": 25, "contrast": 15, "unk_27": false, "actions": ["Knock-on"], "models": [{"type": 0, "values": [58607]}], "name": "Guarded door", "occludes_1": false, "unk_170": 366, "id": 53685}, "uniques": [{"id": 53685, "t": 0, "r": 3, "o": {"p": 0, "i": 68, "j": 88, "x": 28, "y": 21}}]}

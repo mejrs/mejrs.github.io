@@ -1,1 +1,0 @@
-{"properties": {"width": 3, "length": 3, "ambient": 10, "model": false, "unk_19": 1, "models": [{"type": 10, "values": [14149]}], "name": "Swamp tree", "occludes_2": false, "id": 53065}, "uniques": [{"id": 53065, "t": 10, "r": 2, "o": {"p": 0, "i": 40, "j": 78, "x": 33, "y": 19}}, {"id": 53065, "t": 10, "r": 0, "o": {"p": 0, "i": 40, "j": 78, "x": 36, "y": 20}}]}

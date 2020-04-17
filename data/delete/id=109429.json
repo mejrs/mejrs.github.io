@@ -1,1 +1,0 @@
-{"properties": {"width": 3, "length": 3, "actions": ["Craft-rune"], "unk_24": 503, "unk_27": false, "dummy_12": true, "models": [{"type": 10, "values": [119267, 40655]}], "name": "Altar", "action_cursors": [66], "occludes_2": false, "id": 109429}, "uniques": [{"id": 109429, "t": 10, "r": 3, "o": {"p": 0, "i": 30, "j": 104, "x": 32, "y": 30}}]}

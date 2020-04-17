@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Inspect"], "ambient": 25, "contrast": 15, "model": false, "unk_88": false, "models": [{"type": 10, "values": [36864]}], "name": "Hole", "occludes_2": false, "id": 66473}, "uniques": [{"id": 66473, "t": 11, "r": 0, "o": {"p": 0, "i": 44, "j": 54, "x": 57, "y": 32}}, {"id": 66473, "t": 11, "r": 0, "o": {"p": 0, "i": 68, "j": 181, "x": 57, "y": 32}}]}

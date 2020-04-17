@@ -1,1 +1,0 @@
-{"properties": {"unk_24": 29067, "ambient": 0, "length": 3, "width": 9, "model": false, "actions": ["Board"], "models": [{"type": 10, "values": [113562]}], "name": "Boat to Lumbridge", "action_cursors": [57], "occludes_2": false, "id": 114172}, "uniques": [{"id": 114172, "t": 10, "r": 3, "o": {"p": 0, "i": 44, "j": 53, "x": 58, "y": 7}}]}

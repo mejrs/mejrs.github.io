@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "ambient": 0, "unk_27": false, "model": false, "actions": ["Read"], "models": [{"type": 10, "values": [85023]}], "name": "Mysterious lectern", "action_cursors": [50], "occludes_2": false, "id": 5774}, "uniques": [{"id": 5774, "t": 11, "r": 2, "o": {"p": 0, "i": 70, "j": 140, "x": 29, "y": 32}}]}

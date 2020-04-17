@@ -1,1 +1,0 @@
-{"properties": {"width": 2, "length": 2, "unk_24": 6898, "actions": ["Talk-to"], "dummy_12": true, "models": [{"type": 10, "values": [27389]}], "name": "Judge", "action_cursors": [44], "occludes_2": false, "id": 4420}, "uniques": [{"id": 4420, "t": 10, "r": 0, "o": {"p": 0, "i": 28, "j": 66, "x": 27, "y": 22}}]}

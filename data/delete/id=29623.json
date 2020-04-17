@@ -1,1 +1,0 @@
-{"properties": {"mirror": true, "ambient": 15, "actions": ["Use"], "models": [{"type": 0, "values": [32431]}], "name": "Tunnel", "action_cursors": [46], "id": 29623}, "uniques": [{"id": 29623, "t": 0, "r": 2, "o": {"p": 2, "i": 49, "j": 66, "x": 3, "y": 6}}]}

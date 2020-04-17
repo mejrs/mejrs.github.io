@@ -1,1 +1,0 @@
-{"properties": {"width": 2, "length": 2, "actions": ["Open"], "dummy_12": true, "models": [{"type": 10, "values": [18539]}], "name": "Coffin", "action_cursors": [49], "occludes_2": false, "id": 74824}, "uniques": [{"id": 74824, "t": 10, "r": 2, "o": {"p": 0, "i": 44, "j": 153, "x": 62, "y": 11}}, {"id": 74824, "t": 10, "r": 2, "o": {"p": 0, "i": 44, "j": 153, "x": 62, "y": 15}}]}

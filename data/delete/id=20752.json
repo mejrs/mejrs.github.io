@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Climb-through"], "ambient": 15, "contrast": 10, "unk_21": true, "unk_22": true, "textures": [{"original": 1516, "replacement": 1532}], "models": [{"type": 0, "values": [49654]}], "name": "Crevice", "action_cursors": [57], "occludes_2": false, "id": 20752}, "uniques": [{"id": 20752, "t": 0, "r": 2, "o": {"p": 0, "i": 55, "j": 68, "x": 3, "y": 10}}]}

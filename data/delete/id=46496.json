@@ -1,1 +1,0 @@
-{"properties": {"unk_19": 1, "length": 3, "width": 3, "unk_27": false, "unk_22": true, "ambient": 25, "contrast": 15, "actions": ["Shoot"], "models": [{"type": 10, "values": [96397]}], "name": "Crystal ballista", "occludes_2": false, "id": 46496}, "uniques": [{"id": 46496, "t": 10, "r": 3, "o": {"p": 2, "i": 31, "j": 71, "x": 28, "y": 35}}]}

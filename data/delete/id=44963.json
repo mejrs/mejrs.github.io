@@ -1,1 +1,0 @@
-{"properties": {"unk_22": true, "unk_19": 1, "mirror": true, "ambient": 25, "contrast": 15, "actions": ["Turn"], "dummy_45": 7, "models": [{"type": 10, "values": [48580]}], "name": "Switch", "occludes_2": false, "id": 44963}, "uniques": [{"id": 44963, "t": 10, "r": 1, "o": {"p": 1, "i": 23, "j": 71, "x": 54, "y": 2}}]}

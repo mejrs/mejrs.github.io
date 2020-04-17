@@ -1,1 +1,0 @@
-{"properties": {"actions": ["Climb-down"], "unk_21": true, "unk_22": true, "unk_19": 1, "unk_17": false, "unk_73": true, "models": [{"type": 10, "values": [17685]}], "name": "Shelf", "action_cursors": [53], "occludes_2": false, "id": 18096}, "uniques": [{"id": 18096, "t": 10, "r": 0, "o": {"p": 2, "i": 56, "j": 50, "x": 31, "y": 10}}]}

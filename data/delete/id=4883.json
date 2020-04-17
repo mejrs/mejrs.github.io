@@ -1,1 +1,0 @@
-{"properties": {"unk_21": true, "unk_17": false, "actions": ["Search"], "models": [{"type": 10, "values": [37416]}], "name": "A rock", "action_cursors": [56], "occludes_2": false, "id": 4883}, "uniques": [{"id": 4883, "t": 10, "r": 0, "o": {"p": 0, "i": 42, "j": 142, "x": 5, "y": 21}}, {"id": 4883, "t": 10, "r": 3, "o": {"p": 0, "i": 42, "j": 142, "x": 55, "y": 58}}]}

@@ -1,1 +1,0 @@
-{"properties": {"unk_22": true, "actions": ["Climb-down"], "unk_27": false, "dummy_45": 13, "mapscene": 7, "ambient": 45, "contrast": 20, "models": [{"type": 10, "values": [50893]}], "name": "Staircase", "action_cursors": [53], "occludes_2": false, "id": 47361}, "uniques": [{"id": 47361, "t": 10, "r": 2, "o": {"p": 3, "i": 69, "j": 91, "x": 29, "y": 32}}]}

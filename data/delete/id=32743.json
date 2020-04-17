@@ -1,1 +1,0 @@
-{"properties": {"width": 3, "length": 2, "ambient": 25, "contrast": 20, "actions": ["Exit"], "models": [{"type": 10, "values": [37498]}], "name": "Cave Exit", "action_cursors": [57], "occludes_2": false, "id": 32743}, "uniques": [{"id": 32743, "t": 10, "r": 2, "o": {"p": 0, "i": 43, "j": 159, "x": 50, "y": 9}}]}
