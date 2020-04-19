@@ -84,6 +84,6 @@ class Rect {
 
 }
 
-new Rect(SIZE, 'green').addToCanvas(canvas, 52, 48);
+new Rect(SIZE, 'lime').addToCanvas(canvas, 52, 48);
 new Rect(SIZE, 'red').addToCanvas(canvas, 108, 103);
 

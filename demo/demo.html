@@ -6,7 +6,7 @@
 
     <script src="../js/leaflet.js"></script>	
 	<script src="../js/layers.js"></script>
-	
+	<script src="PNG.js"></script>
 	<style type="text/css">
 
 		body { 
@@ -17,18 +17,13 @@
 			background-color: grey;
 			text-align: center;background: #f2f6f8;
 		}
-		
-		#demo_img{
-			z-index:1;
-			margin: -256px 0 0 -256px;
-		}
 
 		#container{
 			display:inline-block;
 			margin: 0 auto; 
-			background: black; 
+			background: grey; 
 			position:relative; 
-			border:5px solid black; 
+			border:5px solid grey; 
 			border-radius: 10px; 
 			box-shadow: 0 5px 5px #333}
 
@@ -37,13 +32,14 @@
 			z-index:20;
 		}
 		
-		#crop{
+		#demo_img{
 			position:absolute;
 			z-index:1;
 			width:512px; 
 			height: 512px;
 			overflow:hidden; /*hide bounds of image */
 			margin:0;   /*reset margin of figure tag*/
+			filter:  invert(100%) brightness(0.5) invert(100%);
 		}
 	
 
@@ -56,9 +52,8 @@
   <body>
 
     <div id="container">
-		<div id="crop">
-			<img id="demo_img" src="demo.png">
-		</div>
+	
+		<img id="demo_img" src="feature_0_9114.png">
 		<canvas width="512" height="512" id="canvas"></canvas>
 		
 	</div>
