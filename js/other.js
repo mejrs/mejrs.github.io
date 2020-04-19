@@ -1,4 +1,4 @@
-function show_data(map, path, fn) {
+function show_data(map, path, fn = (i) => i) {
 
     var markerPromise = fetch(path);
     const currentPlane = map.getPlane();
