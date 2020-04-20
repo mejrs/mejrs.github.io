@@ -112,7 +112,7 @@
         },
         _panMap: function (e, input) {
             let destination = this.interpret(input);
-            if (destination !== undefined) {
+            if (this.validateCoordinate(destination)) {
                 this._map.setPlane(destination.plane);
                 this._map.flyTo([destination.globalY, destination.globalX], 3, {
                     duration: this.options.flyDuration,
@@ -122,10 +122,14 @@
                     this.fire("panend");
                 });
             } else {
-                //console.log("That is not a valid coordinate");
+                console.error(input, "was parsed as", this.createString(destination), "which is not a valid coordinate.");
             }
 
         },
+		
+		validateCoordinate: function (destination){
+			return destination && destination.plane < 4 && this._map.options.maxBounds.contains(L.latLng(destination.globalY,destination.globalX)) ;
+		},
 
         createString: function (...args) {
             if (typeof args[0] === "number") {
@@ -133,7 +137,7 @@
             }
             if (typeof args[0] === "object") {
                 let coord = args[0];
-                return [coord.plane, coord.i, coord.j, coord.x, coord.y].join(this.options.separator);
+                return [coord.plane, coord.i, coord.j, coord.x, coord.y, coord.globalX, coord.globalY].filter(item => item !== undefined).join(this.options.separator);
             }
         },
 		_containerPointCache: {x:0,y:0},
