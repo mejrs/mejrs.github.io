@@ -1506,7 +1506,7 @@ function parseItems(group) {
     group.items = group.items.map(item => {
             let endPos = item["Pos (End)"] ?? item["Pos"];
             let endLook = item["Look (End)"] ?? item["Look"];
-            if (!endPos || !endLook) {
+            if (!endPos || !endLook || endPos === "-" || endLook === "-" ) {
                 return
             }
             let destination = parseCoord(item, endPos, endLook);
@@ -1533,7 +1533,7 @@ function parseCoord(item, pos, look) {
     try {
         var[, _i, _j, _x, _y, ...rest] = look.match(/\d+/g).map(Number);
     } catch (error) {
-        throw new Error("error parsing", item);
+        throw new Error("error parsing", JSON.stringify(item));
 
     };
     if ([_i, _j, _x, _y].includes(undefined) || rest.length !== 0) {

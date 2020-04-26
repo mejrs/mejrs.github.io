@@ -37,8 +37,6 @@ L.Navigator = L.Control.extend({
             return this._container;
         },
 
-        dataCache: {},
-
         getOldLatLng: function () {
             return this._oldLatLng;
         },
@@ -95,7 +93,8 @@ L.Navigator = L.Control.extend({
         },
 
         doStuffWithFeature: function (feature, newLatLng) {
-            if (feature === 0) {
+			console.info("Feature is", feature);
+            if (!Number.isInteger(feature) || feature === 0) {
                 //should not be possible
                 throw new Error("Malformed feature " + feature + " at " + newLatLng.lng + ", " + newLatLng.lat)
             }
@@ -104,7 +103,7 @@ L.Navigator = L.Control.extend({
                 this.control.drawPath();
             } else {
                 let[otherFeature, otherNewLatLng] = Reflect.apply(this.control.findOtherFeature, this.control, [feature, newLatLng]);
-                if (otherFeature) {
+                if (otherFeature && otherFeature > 0) {
                     console.log("snapped to", otherFeature, otherNewLatLng);
                     this.setLatLng(this.control.centerOnTile.apply(otherNewLatLng));
                     this.control.drawPath();
@@ -113,12 +112,16 @@ L.Navigator = L.Control.extend({
                 };
             }
         },
-
+		
+		//disabled for now
         findOtherFeature: function (feature, newLatLng) {
             let key = this._generateDataKey(newLatLng);
             let localX = newLatLng.lng & 0x3F;
             let localY = newLatLng.lat & 0x3F;
-            let data = this.dataCache[key];
+
+			if (true){
+				return [-1, newLatLng];
+			} 
 
             let iterator = [{
                     x: 0,
@@ -177,19 +180,10 @@ L.Navigator = L.Control.extend({
             let key = this._generateDataKey(latLng);
             let localX = latLng.lng & 0x3F;
             let localY = latLng.lat & 0x3F;
-            if (key in this.dataCache) {
-                return Promise.resolve(this.dataCache[key][localX][localY].f);
-            }
-
-            //returns the feature number of tile at that location
-            else {
-                return fetch(`data/collisions/-1/${key}.json`)
+			return fetch(`data/collisions/-1/${key}.json`)
                 .then(response => response.json())
-                .then(data => {
-                    this.dataCache[key] = data;
-                    return data[localX][localY].f;
-                });
-            }
+                .then(data => data[localX][localY].f);
+            
         },
 
         _generateDataKey: function (...args) {
