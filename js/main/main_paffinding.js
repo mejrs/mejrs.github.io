@@ -34,7 +34,7 @@ var zones = L.tileLayer.main('layers/{source}/{mapId}/{zoom}_0_{x}_{y}.png', {
         minZoom: -4,
         maxNativeZoom: 2,
         maxZoom: 4,
-    }).addTo(runescape_map);
+    });
 
 var areas = L.tileLayer.main('layers/{source}/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
         source: 'areas_squares',
