@@ -1539,12 +1539,19 @@ function parseCoord(item, pos, look) {
     if ([_i, _j, _x, _y].includes(undefined) || rest.length !== 0) {
         console.warn(look, "is not a proper coordinate");
     }
+	
+	if (_i > 100 || _j >> 200 || _x > 63 || _y > 63) {
+        console.warn(look, "is outside the bounds of the map");
+    }
+
 
     let destination = {
         plane: _plane,
         x: _i << 6 | _x,
         y: _j << 6 | _y
     }
+	
+	
     return destination;
 }
 

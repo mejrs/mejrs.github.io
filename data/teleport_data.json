@@ -1,0 +1,8847 @@
+[
+  {
+    "rowNumber": 25,
+    "groupName": "Lodestone Teleport",
+    "no-repeat-key": "25",
+    "destination": {
+      "plane": 0,
+      "x": 2085,
+      "y": 3914,
+      "f": "0_9114"
+    }
+  },
+  {
+    "rowNumber": 26,
+    "groupName": "Lodestone Teleport",
+    "no-repeat-key": "26",
+    "destination": {
+      "plane": 0,
+      "x": 2712,
+      "y": 3677,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 27,
+    "groupName": "Lodestone Teleport",
+    "no-repeat-key": "27",
+    "destination": {
+      "plane": 0,
+      "x": 3143,
+      "y": 3635,
+      "f": "0_17198"
+    }
+  },
+  {
+    "rowNumber": 28,
+    "groupName": "Lodestone Teleport",
+    "no-repeat-key": "28",
+    "destination": {
+      "plane": 0,
+      "x": 2366,
+      "y": 3479,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 29,
+    "groupName": "Lodestone Teleport",
+    "no-repeat-key": "29",
+    "destination": {
+      "plane": 0,
+      "x": 2689,
+      "y": 3482,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 30,
+    "groupName": "Lodestone Teleport",
+    "no-repeat-key": "30",
+    "destination": {
+      "plane": 0,
+      "x": 2899,
+      "y": 3544,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 31,
+    "groupName": "Lodestone Teleport",
+    "no-repeat-key": "31",
+    "destination": {
+      "plane": 0,
+      "x": 3067,
+      "y": 3505,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 32,
+    "groupName": "Lodestone Teleport",
+    "no-repeat-key": "32",
+    "destination": {
+      "plane": 0,
+      "x": 3517,
+      "y": 3515,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 33,
+    "groupName": "Lodestone Teleport",
+    "no-repeat-key": "33",
+    "destination": {
+      "plane": 1,
+      "x": 2208,
+      "y": 3360,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 34,
+    "groupName": "Lodestone Teleport",
+    "no-repeat-key": "34",
+    "destination": {
+      "plane": 0,
+      "x": 2634,
+      "y": 3348,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 35,
+    "groupName": "Lodestone Teleport",
+    "no-repeat-key": "35",
+    "destination": {
+      "plane": 0,
+      "x": 2811,
+      "y": 3449,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 36,
+    "groupName": "Lodestone Teleport",
+    "no-repeat-key": "36",
+    "destination": {
+      "plane": 0,
+      "x": 2878,
+      "y": 3442,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 37,
+    "groupName": "Lodestone Teleport",
+    "no-repeat-key": "37",
+    "destination": {
+      "plane": 0,
+      "x": 3214,
+      "y": 3376,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 38,
+    "groupName": "Lodestone Teleport",
+    "no-repeat-key": "38",
+    "destination": {
+      "plane": 0,
+      "x": 2967,
+      "y": 3403,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 39,
+    "groupName": "Lodestone Teleport",
+    "no-repeat-key": "39",
+    "destination": {
+      "plane": 0,
+      "x": 3105,
+      "y": 3298,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 40,
+    "groupName": "Lodestone Teleport",
+    "no-repeat-key": "40",
+    "destination": {
+      "plane": 0,
+      "x": 2254,
+      "y": 3149,
+      "f": "0_9761"
+    }
+  },
+  {
+    "rowNumber": 41,
+    "groupName": "Lodestone Teleport",
+    "no-repeat-key": "41",
+    "destination": {
+      "plane": 0,
+      "x": 2529,
+      "y": 3094,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 42,
+    "groupName": "Lodestone Teleport",
+    "no-repeat-key": "42",
+    "destination": {
+      "plane": 0,
+      "x": 2761,
+      "y": 3147,
+      "f": "0_14686"
+    }
+  },
+  {
+    "rowNumber": 43,
+    "groupName": "Lodestone Teleport",
+    "no-repeat-key": "43",
+    "destination": {
+      "plane": 0,
+      "x": 3011,
+      "y": 3215,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 44,
+    "groupName": "Lodestone Teleport",
+    "no-repeat-key": "44",
+    "destination": {
+      "plane": 0,
+      "x": 3233,
+      "y": 3221,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 45,
+    "groupName": "Lodestone Teleport",
+    "no-repeat-key": "45",
+    "destination": {
+      "plane": 0,
+      "x": 3297,
+      "y": 3184,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 46,
+    "groupName": "Lodestone Teleport",
+    "no-repeat-key": "46",
+    "destination": {
+      "plane": 0,
+      "x": 2532,
+      "y": 2871,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 47,
+    "groupName": "Lodestone Teleport",
+    "no-repeat-key": "47",
+    "destination": {
+      "plane": 0,
+      "x": 3214,
+      "y": 2954,
+      "f": "0_17904"
+    }
+  },
+  {
+    "rowNumber": 48,
+    "groupName": "Lodestone Teleport",
+    "no-repeat-key": "48",
+    "destination": {
+      "plane": 2,
+      "x": 2474,
+      "y": 2708,
+      "f": "2_832"
+    }
+  },
+  {
+    "rowNumber": 49,
+    "groupName": "Lodestone Teleport",
+    "no-repeat-key": "49",
+    "destination": {
+      "plane": 0,
+      "x": 3216,
+      "y": 2716,
+      "f": "0_18249"
+    }
+  },
+  {
+    "rowNumber": 50,
+    "groupName": "Lodestone Teleport",
+    "no-repeat-key": "50",
+    "destination": {
+      "plane": 0,
+      "x": 5431,
+      "y": 2338,
+      "f": "0_27535"
+    }
+  },
+  {
+    "rowNumber": 53,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "53",
+    "destination": {
+      "plane": 0,
+      "x": 3162,
+      "y": 3464,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 54,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "54",
+    "destination": {
+      "plane": 1,
+      "x": 2508,
+      "y": 3861,
+      "f": "1_6910"
+    }
+  },
+  {
+    "rowNumber": 55,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "55",
+    "destination": {
+      "plane": 0,
+      "x": 3162,
+      "y": 3464,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 56,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "56",
+    "destination": {
+      "plane": 1,
+      "x": 2508,
+      "y": 3861,
+      "f": "1_6910"
+    }
+  },
+  {
+    "rowNumber": 57,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "57",
+    "destination": {
+      "plane": 0,
+      "x": 3162,
+      "y": 3464,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 58,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "58",
+    "destination": {
+      "plane": 1,
+      "x": 2508,
+      "y": 3861,
+      "f": "1_6910"
+    }
+  },
+  {
+    "rowNumber": 59,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "59",
+    "destination": {
+      "plane": 0,
+      "x": 2857,
+      "y": 10199,
+      "f": "0_15873"
+    }
+  },
+  {
+    "rowNumber": 60,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "60",
+    "destination": {
+      "plane": 0,
+      "x": 3162,
+      "y": 3464,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 61,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "61",
+    "destination": {
+      "plane": 1,
+      "x": 2508,
+      "y": 3861,
+      "f": "1_6910"
+    }
+  },
+  {
+    "rowNumber": 62,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "62",
+    "destination": {
+      "plane": 0,
+      "x": 2857,
+      "y": 10199,
+      "f": "0_15873"
+    }
+  },
+  {
+    "rowNumber": 63,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "63",
+    "destination": {
+      "plane": 0,
+      "x": 2424,
+      "y": 3396,
+      "f": "0_11221"
+    }
+  },
+  {
+    "rowNumber": 64,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "64",
+    "destination": {
+      "plane": 0,
+      "x": 3087,
+      "y": 3496,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 65,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "65",
+    "destination": {
+      "plane": 0,
+      "x": 3080,
+      "y": 3250,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 66,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "66",
+    "destination": {
+      "plane": 0,
+      "x": 3305,
+      "y": 3123,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 67,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "67",
+    "destination": {
+      "plane": 0,
+      "x": 2918,
+      "y": 3176,
+      "f": "0_15797"
+    }
+  },
+  {
+    "rowNumber": 68,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "68",
+    "destination": {
+      "plane": 0,
+      "x": 2615,
+      "y": 3385,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 69,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "69",
+    "destination": {
+      "plane": 0,
+      "x": 3016,
+      "y": 3338,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 70,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "70",
+    "destination": {
+      "plane": 0,
+      "x": 2933,
+      "y": 3290,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 71,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "71",
+    "destination": {
+      "plane": 0,
+      "x": 3143,
+      "y": 3442,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 72,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "72",
+    "destination": {
+      "plane": 0,
+      "x": 2997,
+      "y": 3437,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 73,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "73",
+    "destination": {
+      "plane": 0,
+      "x": 2646,
+      "y": 3355,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 74,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "74",
+    "destination": {
+      "plane": 3,
+      "x": 3102,
+      "y": 3152,
+      "f": "3_974"
+    }
+  },
+  {
+    "rowNumber": 75,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "75",
+    "destination": {
+      "plane": 0,
+      "x": 3332,
+      "y": 3378,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 76,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "76",
+    "destination": {
+      "plane": 0,
+      "x": 3378,
+      "y": 3444,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 77,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "77",
+    "destination": {
+      "plane": 0,
+      "x": 3362,
+      "y": 3345,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 78,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "78",
+    "destination": {
+      "plane": 0,
+      "x": 2877,
+      "y": 3560,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 79,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "79",
+    "destination": {
+      "plane": 0,
+      "x": 2520,
+      "y": 3571,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 80,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "80",
+    "destination": {
+      "plane": 0,
+      "x": 2967,
+      "y": 9678,
+      "f": "0_17283"
+    }
+  },
+  {
+    "rowNumber": 81,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "81",
+    "destination": {
+      "plane": 0,
+      "x": 3860,
+      "y": 6827,
+      "f": "0_22844"
+    }
+  },
+  {
+    "rowNumber": 82,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "82",
+    "destination": {
+      "plane": 2,
+      "x": 2885,
+      "y": 4372,
+      "f": "2_1424"
+    }
+  },
+  {
+    "rowNumber": 83,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "83",
+    "destination": {
+      "plane": 0,
+      "x": 3487,
+      "y": 3237,
+      "f": "0_20563"
+    }
+  },
+  {
+    "rowNumber": 84,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "84",
+    "destination": {
+      "plane": 2,
+      "x": 3250,
+      "y": 9517,
+      "f": "2_1836"
+    }
+  },
+  {
+    "rowNumber": 85,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "85",
+    "destination": {
+      "plane": 0,
+      "x": 3316,
+      "y": 3234,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 86,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "86",
+    "destination": {
+      "plane": 0,
+      "x": 2442,
+      "y": 3089,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 87,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "87",
+    "destination": {
+      "plane": 0,
+      "x": 2413,
+      "y": 2847,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 88,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "88",
+    "destination": {
+      "plane": 0,
+      "x": 1694,
+      "y": 5601,
+      "f": "0_7420"
+    }
+  },
+  {
+    "rowNumber": 89,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "89",
+    "destination": {
+      "plane": 0,
+      "x": 3223,
+      "y": 3222,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 90,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "90",
+    "destination": {
+      "plane": 0,
+      "x": 2971,
+      "y": 3340,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 91,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "91",
+    "destination": {
+      "plane": 0,
+      "x": 2760,
+      "y": 3478,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 92,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "92",
+    "destination": {
+      "plane": 0,
+      "x": 1893,
+      "y": 3179,
+      "f": "0_8285"
+    }
+  },
+  {
+    "rowNumber": 93,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "93",
+    "destination": {
+      "plane": 0,
+      "x": 2890,
+      "y": 3539,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 94,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "94",
+    "destination": {
+      "plane": 0,
+      "x": 3101,
+      "y": 3180,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 95,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "95",
+    "destination": {
+      "plane": 0,
+      "x": 2444,
+      "y": 3348,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 96,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "96",
+    "destination": {
+      "plane": 0,
+      "x": 3421,
+      "y": 3141,
+      "f": "0_17904"
+    }
+  },
+  {
+    "rowNumber": 97,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "97",
+    "destination": {
+      "plane": 0,
+      "x": 3216,
+      "y": 3180,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 98,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "98",
+    "destination": {
+      "plane": 0,
+      "x": 3232,
+      "y": 3657,
+      "f": "0_17198"
+    }
+  },
+  {
+    "rowNumber": 99,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "99",
+    "destination": {
+      "plane": 0,
+      "x": 3168,
+      "y": 2993,
+      "f": "0_17904"
+    }
+  },
+  {
+    "rowNumber": 100,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "100",
+    "destination": {
+      "plane": 0,
+      "x": 2880,
+      "y": 3542,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 101,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "101",
+    "destination": {
+      "plane": 0,
+      "x": 3191,
+      "y": 3365,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 102,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "102",
+    "destination": {
+      "plane": 0,
+      "x": 3052,
+      "y": 3488,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 103,
+    "groupName": "Enchanted Jewellery",
+    "no-repeat-key": "103",
+    "destination": {
+      "plane": 0,
+      "x": 2655,
+      "y": 3441,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 244,
+    "groupName": "Master Archaeologist outfit",
+    "no-repeat-key": "244",
+    "destination": {
+      "plane": 0,
+      "x": 3336,
+      "y": 3378,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 245,
+    "groupName": "Master Archaeologist outfit",
+    "no-repeat-key": "245",
+    "destination": {
+      "plane": 0,
+      "x": 3345,
+      "y": 3194,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 246,
+    "groupName": "Master Archaeologist outfit",
+    "no-repeat-key": "246",
+    "destination": {
+      "plane": 0,
+      "x": 3271,
+      "y": 3504,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 247,
+    "groupName": "Master Archaeologist outfit",
+    "no-repeat-key": "247",
+    "destination": {
+      "plane": 0,
+      "x": 3697,
+      "y": 3206,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 248,
+    "groupName": "Master Archaeologist outfit",
+    "no-repeat-key": "248",
+    "destination": {
+      "plane": 0,
+      "x": 2680,
+      "y": 3403,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 249,
+    "groupName": "Master Archaeologist outfit",
+    "no-repeat-key": "249",
+    "destination": {
+      "plane": 0,
+      "x": 2409,
+      "y": 2824,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 250,
+    "groupName": "Master Archaeologist outfit",
+    "no-repeat-key": "250",
+    "destination": {
+      "plane": 2,
+      "x": 3254,
+      "y": 3453,
+      "f": "2_1866"
+    }
+  },
+  {
+    "rowNumber": 251,
+    "groupName": "Master Archaeologist outfit",
+    "no-repeat-key": "251",
+    "destination": {
+      "plane": 0,
+      "x": 2550,
+      "y": 2853,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 252,
+    "groupName": "Master Archaeologist outfit",
+    "no-repeat-key": "252",
+    "destination": {
+      "plane": 0,
+      "x": 2957,
+      "y": 3510,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 253,
+    "groupName": "Master Archaeologist outfit",
+    "no-repeat-key": "253",
+    "destination": {
+      "plane": 0,
+      "x": 2921,
+      "y": 9701,
+      "f": "0_16544"
+    }
+  },
+  {
+    "rowNumber": 254,
+    "groupName": "Master Archaeologist outfit",
+    "no-repeat-key": "254",
+    "destination": {
+      "plane": 0,
+      "x": 2985,
+      "y": 3268,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 255,
+    "groupName": "Master Archaeologist outfit",
+    "no-repeat-key": "255",
+    "destination": {
+      "plane": 0,
+      "x": 2963,
+      "y": 3346,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 256,
+    "groupName": "Master Archaeologist outfit",
+    "no-repeat-key": "256",
+    "destination": {
+      "plane": 0,
+      "x": 3181,
+      "y": 3417,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 257,
+    "groupName": "Master Archaeologist outfit",
+    "no-repeat-key": "257",
+    "destination": {
+      "plane": 0,
+      "x": 3342,
+      "y": 3383,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 258,
+    "groupName": "Master Archaeologist outfit",
+    "no-repeat-key": "258",
+    "destination": {
+      "plane": 0,
+      "x": 3088,
+      "y": 3254,
+      "f": "0_18284"
+    }
+  },
+  {
+    "rowNumber": 336,
+    "groupName": "Achievement tasks set",
+    "no-repeat-key": "336",
+    "destination": {
+      "plane": 0,
+      "x": 3143,
+      "y": 5544,
+      "f": "0_18554"
+    }
+  },
+  {
+    "rowNumber": 337,
+    "groupName": "Achievement tasks set",
+    "no-repeat-key": "337",
+    "destination": {
+      "plane": 0,
+      "x": 2345,
+      "y": 3172,
+      "f": "0_10714"
+    }
+  },
+  {
+    "rowNumber": 338,
+    "groupName": "Achievement tasks set",
+    "no-repeat-key": "338",
+    "destination": {
+      "plane": 1,
+      "x": 2175,
+      "y": 3353,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 339,
+    "groupName": "Achievement tasks set",
+    "no-repeat-key": "339",
+    "destination": {
+      "plane": 0,
+      "x": 2291,
+      "y": 3146,
+      "f": "0_10401"
+    }
+  },
+  {
+    "rowNumber": 340,
+    "groupName": "Achievement tasks set",
+    "no-repeat-key": "340",
+    "destination": {
+      "plane": 0,
+      "x": 2204,
+      "y": 3159,
+      "f": "0_9725"
+    }
+  },
+  {
+    "rowNumber": 341,
+    "groupName": "Achievement tasks set",
+    "no-repeat-key": "341",
+    "destination": {
+      "plane": 0,
+      "x": 1991,
+      "y": 4175,
+      "f": "0_8783"
+    }
+  },
+  {
+    "rowNumber": 342,
+    "groupName": "Achievement tasks set",
+    "no-repeat-key": "342",
+    "destination": {
+      "plane": 0,
+      "x": 2186,
+      "y": 3148,
+      "f": "0_9434"
+    }
+  },
+  {
+    "rowNumber": 343,
+    "groupName": "Achievement tasks set",
+    "no-repeat-key": "343",
+    "destination": {
+      "plane": 0,
+      "x": 1858,
+      "y": 4639,
+      "f": "0_8255"
+    }
+  },
+  {
+    "rowNumber": 344,
+    "groupName": "Achievement tasks set",
+    "no-repeat-key": "344",
+    "destination": {
+      "plane": 0,
+      "x": 2203,
+      "y": 3256,
+      "f": "0_9585"
+    }
+  },
+  {
+    "rowNumber": 345,
+    "groupName": "Achievement tasks set",
+    "no-repeat-key": "345",
+    "destination": {
+      "plane": 1,
+      "x": 2221,
+      "y": 3399,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 346,
+    "groupName": "Achievement tasks set",
+    "no-repeat-key": "346",
+    "destination": {
+      "plane": 0,
+      "x": 2227,
+      "y": 3135,
+      "f": "0_9778"
+    }
+  },
+  {
+    "rowNumber": 347,
+    "groupName": "Achievement tasks set",
+    "no-repeat-key": "347",
+    "destination": {
+      "plane": 0,
+      "x": 3053,
+      "y": 3291,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 348,
+    "groupName": "Achievement tasks set",
+    "no-repeat-key": "348",
+    "destination": {
+      "plane": 0,
+      "x": 3141,
+      "y": 3816,
+      "f": "0_17198"
+    }
+  },
+  {
+    "rowNumber": 349,
+    "groupName": "Achievement tasks set",
+    "no-repeat-key": "349",
+    "destination": {
+      "plane": 0,
+      "x": 3084,
+      "y": 3502,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 350,
+    "groupName": "Achievement tasks set",
+    "no-repeat-key": "350",
+    "destination": {
+      "plane": 0,
+      "x": 3083,
+      "y": 10060,
+      "f": "0_17712"
+    }
+  },
+  {
+    "rowNumber": 352,
+    "groupName": "Achievement tasks set",
+    "no-repeat-key": "352",
+    "destination": {
+      "plane": 0,
+      "x": 3298,
+      "y": 3781,
+      "f": "0_17198"
+    }
+  },
+  {
+    "rowNumber": 354,
+    "groupName": "Achievement tasks set",
+    "no-repeat-key": "354",
+    "destination": {
+      "plane": 0,
+      "x": 3000,
+      "y": 3913,
+      "f": "0_17158"
+    }
+  },
+  {
+    "rowNumber": 355,
+    "groupName": "Achievement tasks set",
+    "no-repeat-key": "355",
+    "destination": {
+      "plane": 0,
+      "x": 2606,
+      "y": 3219,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 356,
+    "groupName": "Achievement tasks set",
+    "no-repeat-key": "356",
+    "destination": {
+      "plane": 0,
+      "x": 2671,
+      "y": 3376,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 357,
+    "groupName": "Achievement tasks set",
+    "no-repeat-key": "357",
+    "destination": {
+      "plane": 0,
+      "x": 3428,
+      "y": 2919,
+      "f": "0_17904"
+    }
+  },
+  {
+    "rowNumber": 358,
+    "groupName": "Achievement tasks set",
+    "no-repeat-key": "358",
+    "destination": {
+      "plane": 0,
+      "x": 3475,
+      "y": 3096,
+      "f": "0_17904"
+    }
+  },
+  {
+    "rowNumber": 359,
+    "groupName": "Achievement tasks set",
+    "no-repeat-key": "359",
+    "destination": {
+      "plane": 0,
+      "x": 2528,
+      "y": 3741,
+      "f": "0_12328"
+    }
+  },
+  {
+    "rowNumber": 360,
+    "groupName": "Achievement tasks set",
+    "no-repeat-key": "360",
+    "destination": {
+      "plane": 0,
+      "x": 2404,
+      "y": 3781,
+      "f": "0_11371"
+    }
+  },
+  {
+    "rowNumber": 364,
+    "groupName": "Achievement tasks set",
+    "no-repeat-key": "364",
+    "destination": {
+      "plane": 0,
+      "x": 2654,
+      "y": 3693,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 365,
+    "groupName": "Achievement tasks set",
+    "no-repeat-key": "365",
+    "destination": {
+      "plane": 0,
+      "x": 2643,
+      "y": 3678,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 366,
+    "groupName": "Achievement tasks set",
+    "no-repeat-key": "366",
+    "destination": {
+      "plane": 0,
+      "x": 2840,
+      "y": 9386,
+      "f": "0_15952"
+    }
+  },
+  {
+    "rowNumber": 367,
+    "groupName": "Achievement tasks set",
+    "no-repeat-key": "367",
+    "destination": {
+      "plane": 0,
+      "x": 3683,
+      "y": 9887,
+      "f": "0_22288"
+    }
+  },
+  {
+    "rowNumber": 370,
+    "groupName": "Slayer cape",
+    "no-repeat-key": "370",
+    "destination": {
+      "plane": 0,
+      "x": 2912,
+      "y": 3420,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 371,
+    "groupName": "Slayer cape",
+    "no-repeat-key": "371",
+    "destination": {
+      "plane": 0,
+      "x": 3508,
+      "y": 3508,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 372,
+    "groupName": "Slayer cape",
+    "no-repeat-key": "372",
+    "destination": {
+      "plane": 0,
+      "x": 3149,
+      "y": 9913,
+      "f": "0_18388"
+    }
+  },
+  {
+    "rowNumber": 373,
+    "groupName": "Slayer cape",
+    "no-repeat-key": "373",
+    "destination": {
+      "plane": 0,
+      "x": 2445,
+      "y": 4431,
+      "f": "0_11209"
+    }
+  },
+  {
+    "rowNumber": 374,
+    "groupName": "Slayer cape",
+    "no-repeat-key": "374",
+    "destination": {
+      "plane": 0,
+      "x": 3360,
+      "y": 2993,
+      "f": "0_17904"
+    }
+  },
+  {
+    "rowNumber": 375,
+    "groupName": "Slayer cape",
+    "no-repeat-key": "375",
+    "destination": {
+      "plane": 1,
+      "x": 2869,
+      "y": 2982,
+      "f": "1_8921"
+    }
+  },
+  {
+    "rowNumber": 376,
+    "groupName": "Slayer cape",
+    "no-repeat-key": "376",
+    "destination": {
+      "plane": 1,
+      "x": 1686,
+      "y": 5287,
+      "f": "1_3424"
+    }
+  },
+  {
+    "rowNumber": 377,
+    "groupName": "Slayer cape",
+    "no-repeat-key": "377",
+    "destination": {
+      "plane": 1,
+      "x": 2195,
+      "y": 3327,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 378,
+    "groupName": "Slayer cape",
+    "no-repeat-key": "378",
+    "destination": {
+      "plane": 0,
+      "x": 3091,
+      "y": 3497,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 379,
+    "groupName": "Slayer cape",
+    "no-repeat-key": "379",
+    "destination": {
+      "plane": 0,
+      "x": 5669,
+      "y": 2137,
+      "f": "0_27535"
+    }
+  },
+  {
+    "rowNumber": 382,
+    "groupName": "Dungeoneering cape",
+    "no-repeat-key": "382",
+    "destination": {
+      "plane": 0,
+      "x": 3134,
+      "y": 9915,
+      "f": "0_18388"
+    }
+  },
+  {
+    "rowNumber": 383,
+    "groupName": "Dungeoneering cape",
+    "no-repeat-key": "383",
+    "destination": {
+      "plane": 0,
+      "x": 3036,
+      "y": 9774,
+      "f": "0_17358"
+    }
+  },
+  {
+    "rowNumber": 384,
+    "groupName": "Dungeoneering cape",
+    "no-repeat-key": "384",
+    "destination": {
+      "plane": 0,
+      "x": 3105,
+      "y": 9829,
+      "f": "0_18333"
+    }
+  },
+  {
+    "rowNumber": 385,
+    "groupName": "Dungeoneering cape",
+    "no-repeat-key": "385",
+    "destination": {
+      "plane": 0,
+      "x": 2843,
+      "y": 9555,
+      "f": "0_15970"
+    }
+  },
+  {
+    "rowNumber": 386,
+    "groupName": "Dungeoneering cape",
+    "no-repeat-key": "386",
+    "destination": {
+      "plane": 0,
+      "x": 3512,
+      "y": 3663,
+      "f": "0_20009"
+    }
+  },
+  {
+    "rowNumber": 387,
+    "groupName": "Dungeoneering cape",
+    "no-repeat-key": "387",
+    "destination": {
+      "plane": 0,
+      "x": 2581,
+      "y": 9897,
+      "f": "0_12943"
+    }
+  },
+  {
+    "rowNumber": 388,
+    "groupName": "Dungeoneering cape",
+    "no-repeat-key": "388",
+    "destination": {
+      "plane": 0,
+      "x": 3022,
+      "y": 9739,
+      "f": "0_17724"
+    }
+  },
+  {
+    "rowNumber": 389,
+    "groupName": "Dungeoneering cape",
+    "no-repeat-key": "389",
+    "destination": {
+      "plane": 0,
+      "x": 2125,
+      "y": 5146,
+      "f": "0_9354"
+    }
+  },
+  {
+    "rowNumber": 390,
+    "groupName": "Dungeoneering cape",
+    "no-repeat-key": "390",
+    "destination": {
+      "plane": 0,
+      "x": 2856,
+      "y": 9840,
+      "f": "0_15831"
+    }
+  },
+  {
+    "rowNumber": 391,
+    "groupName": "Dungeoneering cape",
+    "no-repeat-key": "391",
+    "destination": {
+      "plane": 0,
+      "x": 2915,
+      "y": 9806,
+      "f": "0_15831"
+    }
+  },
+  {
+    "rowNumber": 392,
+    "groupName": "Dungeoneering cape",
+    "no-repeat-key": "392",
+    "destination": {
+      "plane": 0,
+      "x": 3166,
+      "y": 9879,
+      "f": "0_18640"
+    }
+  },
+  {
+    "rowNumber": 393,
+    "groupName": "Dungeoneering cape",
+    "no-repeat-key": "393",
+    "destination": {
+      "plane": 0,
+      "x": 3812,
+      "y": 3528,
+      "f": "0_22572"
+    }
+  },
+  {
+    "rowNumber": 394,
+    "groupName": "Dungeoneering cape",
+    "no-repeat-key": "394",
+    "destination": {
+      "plane": 0,
+      "x": 3159,
+      "y": 5524,
+      "f": "0_18671"
+    }
+  },
+  {
+    "rowNumber": 395,
+    "groupName": "Dungeoneering cape",
+    "no-repeat-key": "395",
+    "destination": {
+      "plane": 0,
+      "x": 3299,
+      "y": 3307,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 396,
+    "groupName": "Dungeoneering cape",
+    "no-repeat-key": "396",
+    "destination": {
+      "plane": 0,
+      "x": 2697,
+      "y": 9441,
+      "f": "0_14572"
+    }
+  },
+  {
+    "rowNumber": 397,
+    "groupName": "Dungeoneering cape",
+    "no-repeat-key": "397",
+    "destination": {
+      "plane": 3,
+      "x": 4659,
+      "y": 5491,
+      "f": "3_1352"
+    }
+  },
+  {
+    "rowNumber": 398,
+    "groupName": "Dungeoneering cape",
+    "no-repeat-key": "398",
+    "destination": {
+      "plane": 0,
+      "x": 3032,
+      "y": 9599,
+      "f": "0_17489"
+    }
+  },
+  {
+    "rowNumber": 399,
+    "groupName": "Dungeoneering cape",
+    "no-repeat-key": "399",
+    "destination": {
+      "plane": 0,
+      "x": 3398,
+      "y": 3665,
+      "f": "0_20009"
+    }
+  },
+  {
+    "rowNumber": 400,
+    "groupName": "Dungeoneering cape",
+    "no-repeat-key": "400",
+    "destination": {
+      "plane": 1,
+      "x": 2235,
+      "y": 3420,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 401,
+    "groupName": "Dungeoneering cape",
+    "no-repeat-key": "401",
+    "destination": {
+      "plane": 0,
+      "x": 3434,
+      "y": 3529,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 402,
+    "groupName": "Dungeoneering cape",
+    "no-repeat-key": "402",
+    "destination": {
+      "plane": 1,
+      "x": 2233,
+      "y": 3396,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 405,
+    "groupName": "Master Quest Cape",
+    "no-repeat-key": "405",
+    "destination": {
+      "plane": 0,
+      "x": 2540,
+      "y": 5773,
+      "f": "0_12305"
+    }
+  },
+  {
+    "rowNumber": 406,
+    "groupName": "Master Quest Cape",
+    "no-repeat-key": "406",
+    "destination": {
+      "plane": 1,
+      "x": 1181,
+      "y": 5394,
+      "f": "1_2310"
+    }
+  },
+  {
+    "rowNumber": 407,
+    "groupName": "Master Quest Cape",
+    "no-repeat-key": "407",
+    "destination": {
+      "plane": 0,
+      "x": 3189,
+      "y": 3360,
+      "f": "0_18938"
+    }
+  },
+  {
+    "rowNumber": 408,
+    "groupName": "Master Quest Cape",
+    "no-repeat-key": "408",
+    "destination": {
+      "plane": 2,
+      "x": 2826,
+      "y": 12630,
+      "f": "2_1347"
+    }
+  },
+  {
+    "rowNumber": 409,
+    "groupName": "Master Quest Cape",
+    "no-repeat-key": "409",
+    "destination": {
+      "plane": 0,
+      "x": 4195,
+      "y": 5750,
+      "f": "0_24549"
+    }
+  },
+  {
+    "rowNumber": 410,
+    "groupName": "Master Quest Cape",
+    "no-repeat-key": "410",
+    "destination": {
+      "plane": 0,
+      "x": 2921,
+      "y": 9894,
+      "f": "0_16596"
+    }
+  },
+  {
+    "rowNumber": 411,
+    "groupName": "Master Quest Cape",
+    "no-repeat-key": "411",
+    "destination": {
+      "plane": 0,
+      "x": 2728,
+      "y": 3348,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 412,
+    "groupName": "Master Quest Cape",
+    "no-repeat-key": "412",
+    "destination": {
+      "plane": 0,
+      "x": 2729,
+      "y": 3376,
+      "f": "0_14904"
+    }
+  },
+  {
+    "rowNumber": 413,
+    "groupName": "Master Quest Cape",
+    "no-repeat-key": "413",
+    "destination": {
+      "plane": 2,
+      "x": 3250,
+      "y": 9515,
+      "f": "2_1836"
+    }
+  },
+  {
+    "rowNumber": 414,
+    "groupName": "Master Quest Cape",
+    "no-repeat-key": "414",
+    "destination": {
+      "plane": 0,
+      "x": 3253,
+      "y": 3449,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 415,
+    "groupName": "Master Quest Cape",
+    "no-repeat-key": "415",
+    "destination": {
+      "plane": 0,
+      "x": 2367,
+      "y": 3361,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 419,
+    "groupName": "Crystal teleport seed",
+    "no-repeat-key": "419",
+    "destination": {
+      "plane": 0,
+      "x": 2332,
+      "y": 3170,
+      "f": "0_10714"
+    }
+  },
+  {
+    "rowNumber": 420,
+    "groupName": "Crystal teleport seed",
+    "no-repeat-key": "420",
+    "destination": {
+      "plane": 0,
+      "x": 1940,
+      "y": 4640,
+      "f": "0_8295"
+    }
+  },
+  {
+    "rowNumber": 421,
+    "groupName": "Crystal teleport seed",
+    "no-repeat-key": "421",
+    "destination": {
+      "plane": 1,
+      "x": 2157,
+      "y": 3382,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 422,
+    "groupName": "Crystal teleport seed",
+    "no-repeat-key": "422",
+    "destination": {
+      "plane": 1,
+      "x": 2261,
+      "y": 3339,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 423,
+    "groupName": "Crystal teleport seed",
+    "no-repeat-key": "423",
+    "destination": {
+      "plane": 1,
+      "x": 2263,
+      "y": 3384,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 424,
+    "groupName": "Crystal teleport seed",
+    "no-repeat-key": "424",
+    "destination": {
+      "plane": 1,
+      "x": 2185,
+      "y": 3410,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 425,
+    "groupName": "Crystal teleport seed",
+    "no-repeat-key": "425",
+    "destination": {
+      "plane": 1,
+      "x": 2186,
+      "y": 3312,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 426,
+    "groupName": "Crystal teleport seed",
+    "no-repeat-key": "426",
+    "destination": {
+      "plane": 1,
+      "x": 2157,
+      "y": 3340,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 427,
+    "groupName": "Crystal teleport seed",
+    "no-repeat-key": "427",
+    "destination": {
+      "plane": 1,
+      "x": 2232,
+      "y": 3410,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 428,
+    "groupName": "Crystal teleport seed",
+    "no-repeat-key": "428",
+    "destination": {
+      "plane": 1,
+      "x": 2231,
+      "y": 3312,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 517,
+    "groupName": "Grace of the Elves",
+    "no-repeat-key": "517",
+    "destination": {
+      "plane": 0,
+      "x": 3034,
+      "y": 9231,
+      "f": "0_17644"
+    }
+  },
+  {
+    "rowNumber": 518,
+    "groupName": "Grace of the Elves",
+    "no-repeat-key": "518",
+    "destination": {
+      "plane": 0,
+      "x": 2177,
+      "y": 5663,
+      "f": "0_9582"
+    }
+  },
+  {
+    "rowNumber": 519,
+    "groupName": "Grace of the Elves",
+    "no-repeat-key": "519",
+    "destination": {
+      "plane": 0,
+      "x": 3651,
+      "y": 5122,
+      "f": "0_21742"
+    }
+  },
+  {
+    "rowNumber": 520,
+    "groupName": "Grace of the Elves",
+    "no-repeat-key": "520",
+    "destination": {
+      "plane": 0,
+      "x": 3402,
+      "y": 3293,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 521,
+    "groupName": "Grace of the Elves",
+    "no-repeat-key": "521",
+    "destination": {
+      "plane": 0,
+      "x": 3807,
+      "y": 3549,
+      "f": "0_22572"
+    }
+  },
+  {
+    "rowNumber": 522,
+    "groupName": "Grace of the Elves",
+    "no-repeat-key": "522",
+    "destination": {
+      "plane": 0,
+      "x": 3311,
+      "y": 2657,
+      "f": "0_19293"
+    }
+  },
+  {
+    "rowNumber": 523,
+    "groupName": "Grace of the Elves",
+    "no-repeat-key": "523",
+    "destination": {
+      "plane": 0,
+      "x": 2285,
+      "y": 3047,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 524,
+    "groupName": "Grace of the Elves",
+    "no-repeat-key": "524",
+    "destination": {
+      "plane": 1,
+      "x": 4297,
+      "y": 6040,
+      "f": "1_13371"
+    }
+  },
+  {
+    "rowNumber": 525,
+    "groupName": "Grace of the Elves",
+    "no-repeat-key": "525",
+    "destination": {
+      "plane": 0,
+      "x": 2462,
+      "y": 3444,
+      "f": "0_11221"
+    }
+  },
+  {
+    "rowNumber": 526,
+    "groupName": "Grace of the Elves",
+    "no-repeat-key": "526",
+    "destination": {
+      "plane": 0,
+      "x": 2412,
+      "y": 4434,
+      "f": "0_11209"
+    }
+  },
+  {
+    "rowNumber": 527,
+    "groupName": "Grace of the Elves",
+    "no-repeat-key": "527",
+    "destination": {
+      "plane": 0,
+      "x": 2591,
+      "y": 4319,
+      "f": "0_13144"
+    }
+  },
+  {
+    "rowNumber": 528,
+    "groupName": "Grace of the Elves",
+    "no-repeat-key": "528",
+    "destination": {
+      "plane": 2,
+      "x": 2293,
+      "y": 3404,
+      "f": "2_748"
+    }
+  },
+  {
+    "rowNumber": 529,
+    "groupName": "Grace of the Elves",
+    "no-repeat-key": "529",
+    "destination": {
+      "plane": 0,
+      "x": 6169,
+      "y": 1041,
+      "f": "0_28305"
+    }
+  },
+  {
+    "rowNumber": 530,
+    "groupName": "Grace of the Elves",
+    "no-repeat-key": "530",
+    "destination": {
+      "plane": 0,
+      "x": 3186,
+      "y": 2744,
+      "f": "0_18871"
+    }
+  },
+  {
+    "rowNumber": 531,
+    "groupName": "Grace of the Elves",
+    "no-repeat-key": "531",
+    "destination": {
+      "plane": 0,
+      "x": 2135,
+      "y": 7107,
+      "f": "0_9142"
+    }
+  },
+  {
+    "rowNumber": 532,
+    "groupName": "Grace of the Elves",
+    "no-repeat-key": "532",
+    "destination": {
+      "plane": 0,
+      "x": 2949,
+      "y": 2977,
+      "f": "0_16617"
+    }
+  },
+  {
+    "rowNumber": 555,
+    "groupName": "Other teleports",
+    "no-repeat-key": "555",
+    "destination": {
+      "plane": 0,
+      "x": 3442,
+      "y": 3694,
+      "f": "0_20009"
+    }
+  },
+  {
+    "rowNumber": 556,
+    "groupName": "Other teleports",
+    "no-repeat-key": "556",
+    "destination": {
+      "plane": 0,
+      "x": 1923,
+      "y": 5987,
+      "f": "0_8369"
+    }
+  },
+  {
+    "rowNumber": 557,
+    "groupName": "Other teleports",
+    "no-repeat-key": "557",
+    "destination": {
+      "plane": 0,
+      "x": 2367,
+      "y": 3358,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 558,
+    "groupName": "Other teleports",
+    "no-repeat-key": "558",
+    "destination": {
+      "plane": 0,
+      "x": 2264,
+      "y": 3554,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 559,
+    "groupName": "Other teleports",
+    "no-repeat-key": "559",
+    "destination": {
+      "plane": 0,
+      "x": 2540,
+      "y": 5773,
+      "f": "0_12305"
+    }
+  },
+  {
+    "rowNumber": 560,
+    "groupName": "Other teleports",
+    "no-repeat-key": "560",
+    "destination": {
+      "plane": 0,
+      "x": 3561,
+      "y": 3311,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 561,
+    "groupName": "Other teleports",
+    "no-repeat-key": "561",
+    "destination": {
+      "plane": 0,
+      "x": 3496,
+      "y": 3202,
+      "f": "0_20563"
+    }
+  },
+  {
+    "rowNumber": 562,
+    "groupName": "Other teleports",
+    "no-repeat-key": "562",
+    "destination": {
+      "plane": 0,
+      "x": 3627,
+      "y": 9617,
+      "f": "0_21829"
+    }
+  },
+  {
+    "rowNumber": 563,
+    "groupName": "Other teleports",
+    "no-repeat-key": "563",
+    "destination": {
+      "plane": 0,
+      "x": 3625,
+      "y": 3365,
+      "f": "0_21886"
+    }
+  },
+  {
+    "rowNumber": 564,
+    "groupName": "Other teleports",
+    "no-repeat-key": "564",
+    "destination": {
+      "plane": 0,
+      "x": 3633,
+      "y": 9696,
+      "f": "0_21953"
+    }
+  },
+  {
+    "rowNumber": 565,
+    "groupName": "Other teleports",
+    "no-repeat-key": "565",
+    "destination": {
+      "plane": 0,
+      "x": 1942,
+      "y": 4498,
+      "f": "0_8599"
+    }
+  },
+  {
+    "rowNumber": 566,
+    "groupName": "Other teleports",
+    "no-repeat-key": "566",
+    "destination": {
+      "plane": 0,
+      "x": 3341,
+      "y": 2827,
+      "f": "0_17904"
+    }
+  },
+  {
+    "rowNumber": 567,
+    "groupName": "Other teleports",
+    "no-repeat-key": "567",
+    "destination": {
+      "plane": 0,
+      "x": 3232,
+      "y": 2897,
+      "f": "0_19161"
+    }
+  },
+  {
+    "rowNumber": 568,
+    "groupName": "Other teleports",
+    "no-repeat-key": "568",
+    "destination": {
+      "plane": 0,
+      "x": 1942,
+      "y": 4498,
+      "f": "0_8599"
+    }
+  },
+  {
+    "rowNumber": 569,
+    "groupName": "Other teleports",
+    "no-repeat-key": "569",
+    "destination": {
+      "plane": 0,
+      "x": 3341,
+      "y": 2827,
+      "f": "0_17904"
+    }
+  },
+  {
+    "rowNumber": 570,
+    "groupName": "Other teleports",
+    "no-repeat-key": "570",
+    "destination": {
+      "plane": 0,
+      "x": 3232,
+      "y": 2897,
+      "f": "0_19161"
+    }
+  },
+  {
+    "rowNumber": 571,
+    "groupName": "Other teleports",
+    "no-repeat-key": "571",
+    "destination": {
+      "plane": 0,
+      "x": 3175,
+      "y": 2729,
+      "f": "0_18249"
+    }
+  },
+  {
+    "rowNumber": 572,
+    "groupName": "Other teleports",
+    "no-repeat-key": "572",
+    "destination": {
+      "plane": 0,
+      "x": 3081,
+      "y": 3421,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 573,
+    "groupName": "Other teleports",
+    "no-repeat-key": "573",
+    "destination": {
+      "plane": 0,
+      "x": 1862,
+      "y": 5242,
+      "f": "0_8262"
+    }
+  },
+  {
+    "rowNumber": 574,
+    "groupName": "Other teleports",
+    "no-repeat-key": "574",
+    "destination": {
+      "plane": 0,
+      "x": 2044,
+      "y": 5245,
+      "f": "0_9030"
+    }
+  },
+  {
+    "rowNumber": 575,
+    "groupName": "Other teleports",
+    "no-repeat-key": "575",
+    "destination": {
+      "plane": 0,
+      "x": 2125,
+      "y": 5253,
+      "f": "0_9360"
+    }
+  },
+  {
+    "rowNumber": 576,
+    "groupName": "Other teleports",
+    "no-repeat-key": "576",
+    "destination": {
+      "plane": 0,
+      "x": 2360,
+      "y": 5213,
+      "f": "0_11096"
+    }
+  },
+  {
+    "rowNumber": 577,
+    "groupName": "Other teleports",
+    "no-repeat-key": "577",
+    "destination": {
+      "plane": 0,
+      "x": 2914,
+      "y": 5476,
+      "f": "0_16791"
+    }
+  },
+  {
+    "rowNumber": 578,
+    "groupName": "Other teleports",
+    "no-repeat-key": "578",
+    "destination": {
+      "plane": 0,
+      "x": 3657,
+      "y": 3524,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 579,
+    "groupName": "Other teleports",
+    "no-repeat-key": "579",
+    "destination": {
+      "plane": 0,
+      "x": 3194,
+      "y": 2926,
+      "f": "0_17904"
+    }
+  },
+  {
+    "rowNumber": 580,
+    "groupName": "Other teleports",
+    "no-repeat-key": "580",
+    "destination": {
+      "plane": 0,
+      "x": 3361,
+      "y": 3505,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 581,
+    "groupName": "Other teleports",
+    "no-repeat-key": "581",
+    "destination": {
+      "plane": 0,
+      "x": 3361,
+      "y": 3505,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 582,
+    "groupName": "Other teleports",
+    "no-repeat-key": "582",
+    "destination": {
+      "plane": 0,
+      "x": 2994,
+      "y": 3231,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 583,
+    "groupName": "Other teleports",
+    "no-repeat-key": "583",
+    "destination": {
+      "plane": 0,
+      "x": 2356,
+      "y": 3437,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 584,
+    "groupName": "Other teleports",
+    "no-repeat-key": "584",
+    "destination": {
+      "plane": 1,
+      "x": 3787,
+      "y": 4360,
+      "f": "1_12302"
+    }
+  },
+  {
+    "rowNumber": 585,
+    "groupName": "Other teleports",
+    "no-repeat-key": "585",
+    "destination": {
+      "plane": 0,
+      "x": 3684,
+      "y": 2958,
+      "f": "0_22091"
+    }
+  },
+  {
+    "rowNumber": 586,
+    "groupName": "Other teleports",
+    "no-repeat-key": "586",
+    "destination": {
+      "plane": 1,
+      "x": 2162,
+      "y": 5114,
+      "f": "1_5094"
+    }
+  },
+  {
+    "rowNumber": 587,
+    "groupName": "Other teleports",
+    "no-repeat-key": "587",
+    "destination": {
+      "plane": 0,
+      "x": 3792,
+      "y": 3559,
+      "f": "0_22572"
+    }
+  },
+  {
+    "rowNumber": 588,
+    "groupName": "Other teleports",
+    "no-repeat-key": "588",
+    "destination": {
+      "plane": 0,
+      "x": 3797,
+      "y": 2836,
+      "f": "0_22547"
+    }
+  },
+  {
+    "rowNumber": 590,
+    "groupName": "Other teleports",
+    "no-repeat-key": "590",
+    "destination": {
+      "plane": 0,
+      "x": 4668,
+      "y": 5151,
+      "f": "0_26111"
+    }
+  },
+  {
+    "rowNumber": 591,
+    "groupName": "Other teleports",
+    "no-repeat-key": "591",
+    "destination": {
+      "plane": 0,
+      "x": 4603,
+      "y": 5062,
+      "f": "0_26111"
+    }
+  },
+  {
+    "rowNumber": 592,
+    "groupName": "Other teleports",
+    "no-repeat-key": "592",
+    "destination": {
+      "plane": 0,
+      "x": 4611,
+      "y": 5126,
+      "f": "0_26111"
+    }
+  },
+  {
+    "rowNumber": 593,
+    "groupName": "Other teleports",
+    "no-repeat-key": "593",
+    "destination": {
+      "plane": 0,
+      "x": 4744,
+      "y": 5173,
+      "f": "0_26111"
+    }
+  },
+  {
+    "rowNumber": 594,
+    "groupName": "Other teleports",
+    "no-repeat-key": "594",
+    "destination": {
+      "plane": 0,
+      "x": 4784,
+      "y": 5129,
+      "f": "0_26111"
+    }
+  },
+  {
+    "rowNumber": 595,
+    "groupName": "Other teleports",
+    "no-repeat-key": "595",
+    "destination": {
+      "plane": 0,
+      "x": 2953,
+      "y": 2933,
+      "f": "0_17212"
+    }
+  },
+  {
+    "rowNumber": 596,
+    "groupName": "Other teleports",
+    "no-repeat-key": "596",
+    "destination": {
+      "plane": 0,
+      "x": 3488,
+      "y": 6169,
+      "f": "0_20545"
+    }
+  },
+  {
+    "rowNumber": 597,
+    "groupName": "Other teleports",
+    "no-repeat-key": "597",
+    "destination": {
+      "plane": 0,
+      "x": 2658,
+      "y": 2660,
+      "f": "0_13744"
+    }
+  },
+  {
+    "rowNumber": 598,
+    "groupName": "Other teleports",
+    "no-repeat-key": "598",
+    "destination": {
+      "plane": 0,
+      "x": 2967,
+      "y": 3282,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 599,
+    "groupName": "Other teleports",
+    "no-repeat-key": "599",
+    "destination": {
+      "plane": 1,
+      "x": 2219,
+      "y": 3373,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 600,
+    "groupName": "Other teleports",
+    "no-repeat-key": "600",
+    "destination": {
+      "plane": 1,
+      "x": 1740,
+      "y": 5313,
+      "f": "1_3588"
+    }
+  },
+  {
+    "rowNumber": 601,
+    "groupName": "Other teleports",
+    "no-repeat-key": "601",
+    "destination": {
+      "plane": 1,
+      "x": 2195,
+      "y": 3328,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 602,
+    "groupName": "Other teleports",
+    "no-repeat-key": "602",
+    "destination": {
+      "plane": 0,
+      "x": 3360,
+      "y": 2993,
+      "f": "0_17904"
+    }
+  },
+  {
+    "rowNumber": 603,
+    "groupName": "Other teleports",
+    "no-repeat-key": "603",
+    "destination": {
+      "plane": 0,
+      "x": 3420,
+      "y": 3525,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 604,
+    "groupName": "Other teleports",
+    "no-repeat-key": "604",
+    "destination": {
+      "plane": 0,
+      "x": 2792,
+      "y": 3615,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 605,
+    "groupName": "Other teleports",
+    "no-repeat-key": "605",
+    "destination": {
+      "plane": 0,
+      "x": 3185,
+      "y": 4599,
+      "f": "0_18886"
+    }
+  },
+  {
+    "rowNumber": 606,
+    "groupName": "Other teleports",
+    "no-repeat-key": "606",
+    "destination": {
+      "plane": 0,
+      "x": 3741,
+      "y": 6428,
+      "f": "0_22439"
+    }
+  },
+  {
+    "rowNumber": 607,
+    "groupName": "Other teleports",
+    "no-repeat-key": "607",
+    "destination": {
+      "plane": 0,
+      "x": 2465,
+      "y": 3495,
+      "f": "0_11975"
+    }
+  },
+  {
+    "rowNumber": 608,
+    "groupName": "Other teleports",
+    "no-repeat-key": "608",
+    "destination": {
+      "plane": 0,
+      "x": 4447,
+      "y": 7524,
+      "f": "0_25588"
+    }
+  },
+  {
+    "rowNumber": 609,
+    "groupName": "Other teleports",
+    "no-repeat-key": "609",
+    "destination": {
+      "plane": 0,
+      "x": 2295,
+      "y": 3552,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 610,
+    "groupName": "Other teleports",
+    "no-repeat-key": "610",
+    "destination": {
+      "plane": 0,
+      "x": 2930,
+      "y": 3447,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 611,
+    "groupName": "Other teleports",
+    "no-repeat-key": "611",
+    "destination": {
+      "plane": 0,
+      "x": 2524,
+      "y": 3055,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 618,
+    "groupName": "Other teleports",
+    "no-repeat-key": "618",
+    "destination": {
+      "plane": 0,
+      "x": 5611,
+      "y": 2456,
+      "f": "0_27535"
+    }
+  },
+  {
+    "rowNumber": 619,
+    "groupName": "Other teleports",
+    "no-repeat-key": "619",
+    "destination": {
+      "plane": 0,
+      "x": 2323,
+      "y": 3634,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 620,
+    "groupName": "Other teleports",
+    "no-repeat-key": "620",
+    "destination": {
+      "plane": 0,
+      "x": 2787,
+      "y": 3002,
+      "f": "0_14686"
+    }
+  },
+  {
+    "rowNumber": 621,
+    "groupName": "Other teleports",
+    "no-repeat-key": "621",
+    "destination": {
+      "plane": 2,
+      "x": 3250,
+      "y": 9517,
+      "f": "2_1836"
+    }
+  },
+  {
+    "rowNumber": 622,
+    "groupName": "Other teleports",
+    "no-repeat-key": "622",
+    "destination": {
+      "plane": 0,
+      "x": 2540,
+      "y": 5773,
+      "f": "0_12305"
+    }
+  },
+  {
+    "rowNumber": 623,
+    "groupName": "Other teleports",
+    "no-repeat-key": "623",
+    "destination": {
+      "plane": 0,
+      "x": 3027,
+      "y": 3834,
+      "f": "0_17198"
+    }
+  },
+  {
+    "rowNumber": 624,
+    "groupName": "Other teleports",
+    "no-repeat-key": "624",
+    "destination": {
+      "plane": 0,
+      "x": 2728,
+      "y": 3348,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 625,
+    "groupName": "Other teleports",
+    "no-repeat-key": "625",
+    "destination": {
+      "plane": 0,
+      "x": 2729,
+      "y": 3376,
+      "f": "0_14904"
+    }
+  },
+  {
+    "rowNumber": 626,
+    "groupName": "Other teleports",
+    "no-repeat-key": "626",
+    "destination": {
+      "plane": 3,
+      "x": 3035,
+      "y": 3577,
+      "f": "3_953"
+    }
+  },
+  {
+    "rowNumber": 627,
+    "groupName": "Other teleports",
+    "no-repeat-key": "627",
+    "destination": {
+      "plane": 0,
+      "x": 3168,
+      "y": 3163,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 628,
+    "groupName": "Other teleports",
+    "no-repeat-key": "628",
+    "destination": {
+      "plane": 0,
+      "x": 3336,
+      "y": 3378,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 629,
+    "groupName": "Other teleports",
+    "no-repeat-key": "629",
+    "destination": {
+      "plane": 1,
+      "x": 1183,
+      "y": 5396,
+      "f": "1_2310"
+    }
+  },
+  {
+    "rowNumber": 630,
+    "groupName": "Other teleports",
+    "no-repeat-key": "630",
+    "destination": {
+      "plane": 0,
+      "x": 3419,
+      "y": 3524,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 674,
+    "groupName": "Standard Spellbook",
+    "no-repeat-key": "674",
+    "destination": {
+      "plane": 0,
+      "x": 2414,
+      "y": 2846,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 675,
+    "groupName": "Standard Spellbook",
+    "no-repeat-key": "675",
+    "destination": {
+      "plane": 0,
+      "x": 3211,
+      "y": 3434,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 676,
+    "groupName": "Standard Spellbook",
+    "no-repeat-key": "676",
+    "destination": {
+      "plane": 0,
+      "x": 3219,
+      "y": 3247,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 678,
+    "groupName": "Standard Spellbook",
+    "no-repeat-key": "678",
+    "destination": {
+      "plane": 0,
+      "x": 2965,
+      "y": 3379,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 679,
+    "groupName": "Standard Spellbook",
+    "no-repeat-key": "679",
+    "destination": {
+      "plane": 0,
+      "x": 2759,
+      "y": 3478,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 680,
+    "groupName": "Standard Spellbook",
+    "no-repeat-key": "680",
+    "destination": {
+      "plane": 0,
+      "x": 2660,
+      "y": 3303,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 681,
+    "groupName": "Standard Spellbook",
+    "no-repeat-key": "681",
+    "destination": {
+      "plane": 0,
+      "x": 2574,
+      "y": 3090,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 682,
+    "groupName": "Standard Spellbook",
+    "no-repeat-key": "682",
+    "destination": {
+      "plane": 0,
+      "x": 2880,
+      "y": 3669,
+      "f": "0_15895"
+    }
+  },
+  {
+    "rowNumber": 683,
+    "groupName": "Standard Spellbook",
+    "no-repeat-key": "683",
+    "destination": {
+      "plane": 0,
+      "x": 2908,
+      "y": 3714,
+      "f": "0_16769"
+    }
+  },
+  {
+    "rowNumber": 684,
+    "groupName": "Standard Spellbook",
+    "no-repeat-key": "684",
+    "destination": {
+      "plane": 1,
+      "x": 2796,
+      "y": 2797,
+      "f": "1_8549"
+    }
+  },
+  {
+    "rowNumber": 685,
+    "groupName": "Standard Spellbook",
+    "no-repeat-key": "685",
+    "destination": {
+      "plane": 0,
+      "x": 4317,
+      "y": 820,
+      "f": "0_24827"
+    }
+  },
+  {
+    "rowNumber": 686,
+    "groupName": "Standard Spellbook",
+    "no-repeat-key": "686",
+    "destination": {
+      "plane": 0,
+      "x": 5285,
+      "y": 2347,
+      "f": "0_27535"
+    }
+  },
+  {
+    "rowNumber": 688,
+    "groupName": "Standard Spellbook",
+    "no-repeat-key": "688",
+    "destination": {
+      "plane": 0,
+      "x": 5635,
+      "y": 2234,
+      "f": "0_27535"
+    }
+  },
+  {
+    "rowNumber": 689,
+    "groupName": "Standard Spellbook",
+    "no-repeat-key": "689",
+    "destination": {
+      "plane": 1,
+      "x": 2276,
+      "y": 3327,
+      "f": "1_5494"
+    }
+  },
+  {
+    "rowNumber": 690,
+    "groupName": "Standard Spellbook",
+    "no-repeat-key": "690",
+    "destination": {
+      "plane": 1,
+      "x": 2276,
+      "y": 3313,
+      "f": "1_5487"
+    }
+  },
+  {
+    "rowNumber": 691,
+    "groupName": "Standard Spellbook",
+    "no-repeat-key": "691",
+    "destination": {
+      "plane": 0,
+      "x": 2606,
+      "y": 3219,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 692,
+    "groupName": "Standard Spellbook",
+    "no-repeat-key": "692",
+    "destination": {
+      "plane": 0,
+      "x": 2671,
+      "y": 3376,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 693,
+    "groupName": "Standard Spellbook",
+    "no-repeat-key": "693",
+    "destination": {
+      "plane": 0,
+      "x": 3362,
+      "y": 3503,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 694,
+    "groupName": "Standard Spellbook",
+    "no-repeat-key": "694",
+    "destination": {
+      "plane": 0,
+      "x": 3294,
+      "y": 10127,
+      "f": "0_19374"
+    }
+  },
+  {
+    "rowNumber": 697,
+    "groupName": "Ancient Spellbook",
+    "no-repeat-key": "697",
+    "destination": {
+      "plane": 0,
+      "x": 3097,
+      "y": 9884,
+      "f": "0_18246"
+    }
+  },
+  {
+    "rowNumber": 698,
+    "groupName": "Ancient Spellbook",
+    "no-repeat-key": "698",
+    "destination": {
+      "plane": 0,
+      "x": 3375,
+      "y": 3404,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 699,
+    "groupName": "Ancient Spellbook",
+    "no-repeat-key": "699",
+    "destination": {
+      "plane": 0,
+      "x": 3499,
+      "y": 3482,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 700,
+    "groupName": "Ancient Spellbook",
+    "no-repeat-key": "700",
+    "destination": {
+      "plane": 0,
+      "x": 3006,
+      "y": 3472,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 701,
+    "groupName": "Ancient Spellbook",
+    "no-repeat-key": "701",
+    "destination": {
+      "plane": 0,
+      "x": 2967,
+      "y": 3696,
+      "f": "0_17198"
+    }
+  },
+  {
+    "rowNumber": 702,
+    "groupName": "Ancient Spellbook",
+    "no-repeat-key": "702",
+    "destination": {
+      "plane": 0,
+      "x": 3220,
+      "y": 3667,
+      "f": "0_17198"
+    }
+  },
+  {
+    "rowNumber": 703,
+    "groupName": "Ancient Spellbook",
+    "no-repeat-key": "703",
+    "destination": {
+      "plane": 0,
+      "x": 3289,
+      "y": 3884,
+      "f": "0_17198"
+    }
+  },
+  {
+    "rowNumber": 704,
+    "groupName": "Ancient Spellbook",
+    "no-repeat-key": "704",
+    "destination": {
+      "plane": 0,
+      "x": 2978,
+      "y": 3872,
+      "f": "0_17198"
+    }
+  },
+  {
+    "rowNumber": 707,
+    "groupName": "Lunar Spellbook",
+    "no-repeat-key": "707",
+    "destination": {
+      "plane": 0,
+      "x": 2112,
+      "y": 3916,
+      "f": "0_9114"
+    }
+  },
+  {
+    "rowNumber": 708,
+    "groupName": "Lunar Spellbook",
+    "no-repeat-key": "708",
+    "destination": {
+      "plane": 0,
+      "x": 2547,
+      "y": 3754,
+      "f": "0_12328"
+    }
+  },
+  {
+    "rowNumber": 709,
+    "groupName": "Lunar Spellbook",
+    "no-repeat-key": "709",
+    "destination": {
+      "plane": 0,
+      "x": 2542,
+      "y": 3571,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 710,
+    "groupName": "Lunar Spellbook",
+    "no-repeat-key": "710",
+    "destination": {
+      "plane": 0,
+      "x": 2635,
+      "y": 3168,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 711,
+    "groupName": "Lunar Spellbook",
+    "no-repeat-key": "711",
+    "destination": {
+      "plane": 0,
+      "x": 2612,
+      "y": 3381,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 712,
+    "groupName": "Lunar Spellbook",
+    "no-repeat-key": "712",
+    "destination": {
+      "plane": 0,
+      "x": 2789,
+      "y": 3454,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 713,
+    "groupName": "Lunar Spellbook",
+    "no-repeat-key": "713",
+    "destination": {
+      "plane": 0,
+      "x": 2973,
+      "y": 3940,
+      "f": "0_17158"
+    }
+  },
+  {
+    "rowNumber": 714,
+    "groupName": "Lunar Spellbook",
+    "no-repeat-key": "714",
+    "destination": {
+      "plane": 0,
+      "x": 2818,
+      "y": 3677,
+      "f": "0_15705"
+    }
+  },
+  {
+    "rowNumber": 715,
+    "groupName": "Lunar Spellbook",
+    "no-repeat-key": "715",
+    "destination": {
+      "plane": 0,
+      "x": 2112,
+      "y": 3916,
+      "f": "0_9114"
+    }
+  },
+  {
+    "rowNumber": 716,
+    "groupName": "Lunar Spellbook",
+    "no-repeat-key": "716",
+    "destination": {
+      "plane": 0,
+      "x": 2466,
+      "y": 3245,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 717,
+    "groupName": "Lunar Spellbook",
+    "no-repeat-key": "717",
+    "destination": {
+      "plane": 0,
+      "x": 2547,
+      "y": 3754,
+      "f": "0_12328"
+    }
+  },
+  {
+    "rowNumber": 718,
+    "groupName": "Lunar Spellbook",
+    "no-repeat-key": "718",
+    "destination": {
+      "plane": 0,
+      "x": 3053,
+      "y": 3309,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 719,
+    "groupName": "Lunar Spellbook",
+    "no-repeat-key": "719",
+    "destination": {
+      "plane": 0,
+      "x": 2542,
+      "y": 3571,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 720,
+    "groupName": "Lunar Spellbook",
+    "no-repeat-key": "720",
+    "destination": {
+      "plane": 0,
+      "x": 2672,
+      "y": 3378,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 721,
+    "groupName": "Lunar Spellbook",
+    "no-repeat-key": "721",
+    "destination": {
+      "plane": 0,
+      "x": 2635,
+      "y": 3168,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 722,
+    "groupName": "Lunar Spellbook",
+    "no-repeat-key": "722",
+    "destination": {
+      "plane": 0,
+      "x": 2612,
+      "y": 3381,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 723,
+    "groupName": "Lunar Spellbook",
+    "no-repeat-key": "723",
+    "destination": {
+      "plane": 0,
+      "x": 2789,
+      "y": 3454,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 724,
+    "groupName": "Lunar Spellbook",
+    "no-repeat-key": "724",
+    "destination": {
+      "plane": 0,
+      "x": 2973,
+      "y": 3940,
+      "f": "0_17158"
+    }
+  },
+  {
+    "rowNumber": 725,
+    "groupName": "Lunar Spellbook",
+    "no-repeat-key": "725",
+    "destination": {
+      "plane": 0,
+      "x": 2818,
+      "y": 3677,
+      "f": "0_15705"
+    }
+  },
+  {
+    "rowNumber": 729,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "729",
+    "destination": {
+      "plane": 0,
+      "x": 2412,
+      "y": 4434,
+      "f": "0_11209"
+    }
+  },
+  {
+    "rowNumber": 730,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "730",
+    "destination": {
+      "plane": 0,
+      "x": 2996,
+      "y": 3114,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 731,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "731",
+    "destination": {
+      "plane": 0,
+      "x": 1737,
+      "y": 5342,
+      "f": "0_7829"
+    }
+  },
+  {
+    "rowNumber": 732,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "732",
+    "destination": {
+      "plane": 0,
+      "x": 2735,
+      "y": 5221,
+      "f": "0_14582"
+    }
+  },
+  {
+    "rowNumber": 733,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "733",
+    "destination": {
+      "plane": 0,
+      "x": 4183,
+      "y": 5726,
+      "f": "0_24549"
+    }
+  },
+  {
+    "rowNumber": 734,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "734",
+    "destination": {
+      "plane": 3,
+      "x": 3501,
+      "y": 9821,
+      "f": "3_1065"
+    }
+  },
+  {
+    "rowNumber": 735,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "735",
+    "destination": {
+      "plane": 0,
+      "x": 4622,
+      "y": 5147,
+      "f": "0_26111"
+    }
+  },
+  {
+    "rowNumber": 736,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "736",
+    "destination": {
+      "plane": 0,
+      "x": 2571,
+      "y": 2956,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 737,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "737",
+    "destination": {
+      "plane": 0,
+      "x": 2468,
+      "y": 4189,
+      "f": "0_11835"
+    }
+  },
+  {
+    "rowNumber": 738,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "738",
+    "destination": {
+      "plane": 0,
+      "x": 2385,
+      "y": 3035,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 739,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "739",
+    "destination": {
+      "plane": 0,
+      "x": 2735,
+      "y": 2742,
+      "f": "0_14976"
+    }
+  },
+  {
+    "rowNumber": 740,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "740",
+    "destination": {
+      "plane": 0,
+      "x": 2682,
+      "y": 3081,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 741,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "741",
+    "destination": {
+      "plane": 0,
+      "x": 2513,
+      "y": 3884,
+      "f": "0_12290"
+    }
+  },
+  {
+    "rowNumber": 742,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "742",
+    "destination": {
+      "plane": 0,
+      "x": 3763,
+      "y": 2930,
+      "f": "0_22499"
+    }
+  },
+  {
+    "rowNumber": 743,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "743",
+    "destination": {
+      "plane": 0,
+      "x": 2500,
+      "y": 3896,
+      "f": "0_12301"
+    }
+  },
+  {
+    "rowNumber": 744,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "744",
+    "destination": {
+      "plane": 0,
+      "x": 2213,
+      "y": 3099,
+      "f": "0_9800"
+    }
+  },
+  {
+    "rowNumber": 745,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "745",
+    "destination": {
+      "plane": 0,
+      "x": 3410,
+      "y": 3324,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 746,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "746",
+    "destination": {
+      "plane": 0,
+      "x": 3082,
+      "y": 3206,
+      "f": "0_18233"
+    }
+  },
+  {
+    "rowNumber": 747,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "747",
+    "destination": {
+      "plane": 0,
+      "x": 2700,
+      "y": 3247,
+      "f": "0_14555"
+    }
+  },
+  {
+    "rowNumber": 748,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "748",
+    "destination": {
+      "plane": 0,
+      "x": 2635,
+      "y": 3266,
+      "f": "0_13752"
+    }
+  },
+  {
+    "rowNumber": 749,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "749",
+    "destination": {
+      "plane": 0,
+      "x": 2740,
+      "y": 3351,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 750,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "750",
+    "destination": {
+      "plane": 0,
+      "x": 2644,
+      "y": 3495,
+      "f": "0_13727"
+    }
+  },
+  {
+    "rowNumber": 751,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "751",
+    "destination": {
+      "plane": 0,
+      "x": 2528,
+      "y": 3127,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 752,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "752",
+    "destination": {
+      "plane": 0,
+      "x": 2319,
+      "y": 3619,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 753,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "753",
+    "destination": {
+      "plane": 0,
+      "x": 2705,
+      "y": 3576,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 754,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "754",
+    "destination": {
+      "plane": 0,
+      "x": 2676,
+      "y": 3587,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 755,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "755",
+    "destination": {
+      "plane": 0,
+      "x": 2780,
+      "y": 3613,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 756,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "756",
+    "destination": {
+      "plane": 0,
+      "x": 2744,
+      "y": 3719,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 757,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "757",
+    "destination": {
+      "plane": 0,
+      "x": 2658,
+      "y": 3230,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 758,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "758",
+    "destination": {
+      "plane": 0,
+      "x": 2901,
+      "y": 2930,
+      "f": "0_15246"
+    }
+  },
+  {
+    "rowNumber": 759,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "759",
+    "destination": {
+      "plane": 0,
+      "x": 2900,
+      "y": 3111,
+      "f": "0_16617"
+    }
+  },
+  {
+    "rowNumber": 760,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "760",
+    "destination": {
+      "plane": 0,
+      "x": 2801,
+      "y": 3003,
+      "f": "0_14686"
+    }
+  },
+  {
+    "rowNumber": 761,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "761",
+    "destination": {
+      "plane": 0,
+      "x": 3251,
+      "y": 3095,
+      "f": "0_17904"
+    }
+  },
+  {
+    "rowNumber": 762,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "762",
+    "destination": {
+      "plane": 0,
+      "x": 3423,
+      "y": 3016,
+      "f": "0_17904"
+    }
+  },
+  {
+    "rowNumber": 763,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "763",
+    "destination": {
+      "plane": 0,
+      "x": 3086,
+      "y": 2704,
+      "f": "0_18249"
+    }
+  },
+  {
+    "rowNumber": 764,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "764",
+    "destination": {
+      "plane": 0,
+      "x": 3129,
+      "y": 3496,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 765,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "765",
+    "destination": {
+      "plane": 0,
+      "x": 3092,
+      "y": 3137,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 766,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "766",
+    "destination": {
+      "plane": 0,
+      "x": 3447,
+      "y": 3470,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 767,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "767",
+    "destination": {
+      "plane": 0,
+      "x": 3597,
+      "y": 3495,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 768,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "768",
+    "destination": {
+      "plane": 0,
+      "x": 3469,
+      "y": 3431,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 769,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "769",
+    "destination": {
+      "plane": 0,
+      "x": 3059,
+      "y": 4875,
+      "f": "0_17663"
+    }
+  },
+  {
+    "rowNumber": 770,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "770",
+    "destination": {
+      "plane": 0,
+      "x": 2075,
+      "y": 4848,
+      "f": "0_9136"
+    }
+  },
+  {
+    "rowNumber": 771,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "771",
+    "destination": {
+      "plane": 0,
+      "x": 3041,
+      "y": 4532,
+      "f": "0_17716"
+    }
+  },
+  {
+    "rowNumber": 772,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "772",
+    "destination": {
+      "plane": 0,
+      "x": 3038,
+      "y": 5348,
+      "f": "0_17748"
+    }
+  },
+  {
+    "rowNumber": 773,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "773",
+    "destination": {
+      "plane": 2,
+      "x": 2030,
+      "y": 5982,
+      "f": "2_558"
+    }
+  },
+  {
+    "rowNumber": 774,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "774",
+    "destination": {
+      "plane": 0,
+      "x": 2650,
+      "y": 4730,
+      "f": "0_13737"
+    }
+  },
+  {
+    "rowNumber": 775,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "775",
+    "destination": {
+      "plane": 0,
+      "x": 3419,
+      "y": 4772,
+      "f": "0_20150"
+    }
+  },
+  {
+    "rowNumber": 776,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "776",
+    "destination": {
+      "plane": 0,
+      "x": 2455,
+      "y": 4396,
+      "f": "0_11820"
+    }
+  },
+  {
+    "rowNumber": 777,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "777",
+    "destination": {
+      "plane": 1,
+      "x": 2229,
+      "y": 4244,
+      "f": "1_5322"
+    }
+  },
+  {
+    "rowNumber": 778,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "778",
+    "destination": {
+      "plane": 0,
+      "x": 1359,
+      "y": 5635,
+      "f": "0_6250"
+    }
+  },
+  {
+    "rowNumber": 779,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "779",
+    "destination": {
+      "plane": 1,
+      "x": 2130,
+      "y": 3369,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 780,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "780",
+    "destination": {
+      "plane": 0,
+      "x": 4026,
+      "y": 5699,
+      "f": "0_23476"
+    }
+  },
+  {
+    "rowNumber": 781,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "781",
+    "destination": {
+      "plane": 0,
+      "x": 1560,
+      "y": 4234,
+      "f": "0_6881"
+    }
+  },
+  {
+    "rowNumber": 782,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "782",
+    "destination": {
+      "plane": 0,
+      "x": 1626,
+      "y": 4176,
+      "f": "0_7065"
+    }
+  },
+  {
+    "rowNumber": 846,
+    "groupName": "Teleport scrolls",
+    "no-repeat-key": "846",
+    "destination": {
+      "plane": 0,
+      "x": 2513,
+      "y": 3858,
+      "f": "0_12290"
+    }
+  },
+  {
+    "rowNumber": 847,
+    "groupName": "Teleport scrolls",
+    "no-repeat-key": "847",
+    "destination": {
+      "plane": 0,
+      "x": 3306,
+      "y": 3489,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 848,
+    "groupName": "Teleport scrolls",
+    "no-repeat-key": "848",
+    "destination": {
+      "plane": 0,
+      "x": 3172,
+      "y": 2983,
+      "f": "0_17904"
+    }
+  },
+  {
+    "rowNumber": 849,
+    "groupName": "Teleport scrolls",
+    "no-repeat-key": "849",
+    "destination": {
+      "plane": 0,
+      "x": 3361,
+      "y": 2970,
+      "f": "0_17904"
+    }
+  },
+  {
+    "rowNumber": 850,
+    "groupName": "Teleport scrolls",
+    "no-repeat-key": "850",
+    "destination": {
+      "plane": 0,
+      "x": 2292,
+      "y": 3620,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 851,
+    "groupName": "Teleport scrolls",
+    "no-repeat-key": "851",
+    "destination": {
+      "plane": 0,
+      "x": 2805,
+      "y": 3086,
+      "f": "0_14686"
+    }
+  },
+  {
+    "rowNumber": 852,
+    "groupName": "Teleport scrolls",
+    "no-repeat-key": "852",
+    "destination": {
+      "plane": 0,
+      "x": 2508,
+      "y": 3634,
+      "f": "0_12342"
+    }
+  },
+  {
+    "rowNumber": 853,
+    "groupName": "Teleport scrolls",
+    "no-repeat-key": "853",
+    "destination": {
+      "plane": 0,
+      "x": 2593,
+      "y": 3254,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 854,
+    "groupName": "Teleport scrolls",
+    "no-repeat-key": "854",
+    "destination": {
+      "plane": 0,
+      "x": 2521,
+      "y": 3062,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 855,
+    "groupName": "Teleport scrolls",
+    "no-repeat-key": "855",
+    "destination": {
+      "plane": 0,
+      "x": 3162,
+      "y": 3464,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 858,
+    "groupName": "Globetrotter arm guards",
+    "no-repeat-key": "858",
+    "destination": {
+      "plane": 0,
+      "x": 2513,
+      "y": 3858,
+      "f": "0_12290"
+    }
+  },
+  {
+    "rowNumber": 859,
+    "groupName": "Globetrotter arm guards",
+    "no-repeat-key": "859",
+    "destination": {
+      "plane": 0,
+      "x": 3306,
+      "y": 3489,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 860,
+    "groupName": "Globetrotter arm guards",
+    "no-repeat-key": "860",
+    "destination": {
+      "plane": 0,
+      "x": 3172,
+      "y": 2983,
+      "f": "0_17904"
+    }
+  },
+  {
+    "rowNumber": 861,
+    "groupName": "Globetrotter arm guards",
+    "no-repeat-key": "861",
+    "destination": {
+      "plane": 0,
+      "x": 3361,
+      "y": 2970,
+      "f": "0_17904"
+    }
+  },
+  {
+    "rowNumber": 862,
+    "groupName": "Globetrotter arm guards",
+    "no-repeat-key": "862",
+    "destination": {
+      "plane": 0,
+      "x": 2292,
+      "y": 3620,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 863,
+    "groupName": "Globetrotter arm guards",
+    "no-repeat-key": "863",
+    "destination": {
+      "plane": 0,
+      "x": 2805,
+      "y": 3086,
+      "f": "0_14686"
+    }
+  },
+  {
+    "rowNumber": 864,
+    "groupName": "Globetrotter arm guards",
+    "no-repeat-key": "864",
+    "destination": {
+      "plane": 0,
+      "x": 2508,
+      "y": 3634,
+      "f": "0_12342"
+    }
+  },
+  {
+    "rowNumber": 865,
+    "groupName": "Globetrotter arm guards",
+    "no-repeat-key": "865",
+    "destination": {
+      "plane": 0,
+      "x": 2593,
+      "y": 3254,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 866,
+    "groupName": "Globetrotter arm guards",
+    "no-repeat-key": "866",
+    "destination": {
+      "plane": 0,
+      "x": 2521,
+      "y": 3062,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 867,
+    "groupName": "Globetrotter arm guards",
+    "no-repeat-key": "867",
+    "destination": {
+      "plane": 0,
+      "x": 3162,
+      "y": 3464,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 881,
+    "groupName": "Spirit tree re-rooter",
+    "no-repeat-key": "881",
+    "destination": {
+      "plane": 0,
+      "x": 2542,
+      "y": 3169,
+      "f": "0_12468"
+    }
+  },
+  {
+    "rowNumber": 882,
+    "groupName": "Spirit tree re-rooter",
+    "no-repeat-key": "882",
+    "destination": {
+      "plane": 0,
+      "x": 2462,
+      "y": 3444,
+      "f": "0_11221"
+    }
+  },
+  {
+    "rowNumber": 883,
+    "groupName": "Spirit tree re-rooter",
+    "no-repeat-key": "883",
+    "destination": {
+      "plane": 0,
+      "x": 2557,
+      "y": 3259,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 884,
+    "groupName": "Spirit tree re-rooter",
+    "no-repeat-key": "884",
+    "destination": {
+      "plane": 0,
+      "x": 3185,
+      "y": 3511,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 885,
+    "groupName": "Spirit tree re-rooter",
+    "no-repeat-key": "885",
+    "destination": {
+      "plane": 0,
+      "x": 2416,
+      "y": 2851,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 886,
+    "groupName": "Spirit tree re-rooter",
+    "no-repeat-key": "886",
+    "destination": {
+      "plane": 0,
+      "x": 3058,
+      "y": 3257,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 887,
+    "groupName": "Spirit tree re-rooter",
+    "no-repeat-key": "887",
+    "destination": {
+      "plane": 0,
+      "x": 2613,
+      "y": 3855,
+      "f": "0_12290"
+    }
+  },
+  {
+    "rowNumber": 888,
+    "groupName": "Spirit tree re-rooter",
+    "no-repeat-key": "888",
+    "destination": {
+      "plane": 0,
+      "x": 2800,
+      "y": 3203,
+      "f": "0_14686"
+    }
+  },
+  {
+    "rowNumber": 889,
+    "groupName": "Spirit tree re-rooter",
+    "no-repeat-key": "889",
+    "destination": {
+      "plane": 0,
+      "x": 2338,
+      "y": 3109,
+      "f": "0_10713"
+    }
+  },
+  {
+    "rowNumber": 890,
+    "groupName": "Spirit tree re-rooter",
+    "no-repeat-key": "890",
+    "destination": {
+      "plane": 1,
+      "x": 2275,
+      "y": 3371,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 891,
+    "groupName": "Spirit tree re-rooter",
+    "no-repeat-key": "891",
+    "destination": {
+      "plane": 0,
+      "x": 2661,
+      "y": 3383,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 894,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "894",
+    "destination": {
+      "plane": 0,
+      "x": 2076,
+      "y": 6952,
+      "f": "0_9125"
+    }
+  },
+  {
+    "rowNumber": 895,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "895",
+    "destination": {
+      "plane": 0,
+      "x": 3288,
+      "y": 2706,
+      "f": "0_19293"
+    }
+  },
+  {
+    "rowNumber": 896,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "896",
+    "destination": {
+      "plane": 0,
+      "x": 3207,
+      "y": 2781,
+      "f": "0_18249"
+    }
+  },
+  {
+    "rowNumber": 897,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "897",
+    "destination": {
+      "plane": 0,
+      "x": 3184,
+      "y": 2654,
+      "f": "0_18249"
+    }
+  },
+  {
+    "rowNumber": 898,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "898",
+    "destination": {
+      "plane": 0,
+      "x": 3158,
+      "y": 2796,
+      "f": "0_18249"
+    }
+  },
+  {
+    "rowNumber": 899,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "899",
+    "destination": {
+      "plane": 0,
+      "x": 3175,
+      "y": 2731,
+      "f": "0_18249"
+    }
+  },
+  {
+    "rowNumber": 900,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "900",
+    "destination": {
+      "plane": 0,
+      "x": 3125,
+      "y": 3406,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 901,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "901",
+    "destination": {
+      "plane": 0,
+      "x": 2980,
+      "y": 3513,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 902,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "902",
+    "destination": {
+      "plane": 0,
+      "x": 3159,
+      "y": 3188,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 903,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "903",
+    "destination": {
+      "plane": 0,
+      "x": 3303,
+      "y": 3477,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 904,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "904",
+    "destination": {
+      "plane": 0,
+      "x": 3309,
+      "y": 3251,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 905,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "905",
+    "destination": {
+      "plane": 0,
+      "x": 3051,
+      "y": 3441,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 906,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "906",
+    "destination": {
+      "plane": 0,
+      "x": 2407,
+      "y": 4383,
+      "f": "0_11209"
+    }
+  },
+  {
+    "rowNumber": 907,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "907",
+    "destination": {
+      "plane": 0,
+      "x": 3058,
+      "y": 3594,
+      "f": "0_17198"
+    }
+  },
+  {
+    "rowNumber": 908,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "908",
+    "destination": {
+      "plane": 0,
+      "x": 2150,
+      "y": 3862,
+      "f": "0_9114"
+    }
+  },
+  {
+    "rowNumber": 909,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "909",
+    "destination": {
+      "plane": 0,
+      "x": 2865,
+      "y": 3022,
+      "f": "0_14686"
+    }
+  },
+  {
+    "rowNumber": 910,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "910",
+    "destination": {
+      "plane": 0,
+      "x": 2857,
+      "y": 3379,
+      "f": "0_15679"
+    }
+  },
+  {
+    "rowNumber": 911,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "911",
+    "destination": {
+      "plane": 0,
+      "x": 1864,
+      "y": 4638,
+      "f": "0_8255"
+    }
+  },
+  {
+    "rowNumber": 912,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "912",
+    "destination": {
+      "plane": 0,
+      "x": 3559,
+      "y": 9778,
+      "f": "0_21002"
+    }
+  },
+  {
+    "rowNumber": 913,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "913",
+    "destination": {
+      "plane": 2,
+      "x": 1696,
+      "y": 5465,
+      "f": "2_340"
+    }
+  },
+  {
+    "rowNumber": 914,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "914",
+    "destination": {
+      "plane": 0,
+      "x": 2954,
+      "y": 3225,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 915,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "915",
+    "destination": {
+      "plane": 0,
+      "x": 2882,
+      "y": 3451,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 916,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "916",
+    "destination": {
+      "plane": 0,
+      "x": 3339,
+      "y": 3004,
+      "f": "0_17904"
+    }
+  },
+  {
+    "rowNumber": 917,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "917",
+    "destination": {
+      "plane": 0,
+      "x": 2668,
+      "y": 3631,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 918,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "918",
+    "destination": {
+      "plane": 0,
+      "x": 2757,
+      "y": 3177,
+      "f": "0_14686"
+    }
+  },
+  {
+    "rowNumber": 919,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "919",
+    "destination": {
+      "plane": 0,
+      "x": 2546,
+      "y": 3095,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 920,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "920",
+    "destination": {
+      "plane": 0,
+      "x": 2891,
+      "y": 3676,
+      "f": "0_15895"
+    }
+  },
+  {
+    "rowNumber": 921,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "921",
+    "destination": {
+      "plane": 1,
+      "x": 2166,
+      "y": 3336,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 922,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "922",
+    "destination": {
+      "plane": 0,
+      "x": 4196,
+      "y": 920,
+      "f": "0_24517"
+    }
+  },
+  {
+    "rowNumber": 923,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "923",
+    "destination": {
+      "plane": 0,
+      "x": 3124,
+      "y": 2634,
+      "f": "0_18249"
+    }
+  },
+  {
+    "rowNumber": 924,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "924",
+    "destination": {
+      "plane": 0,
+      "x": 5436,
+      "y": 2375,
+      "f": "0_27535"
+    }
+  },
+  {
+    "rowNumber": 925,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "925",
+    "destination": {
+      "plane": 0,
+      "x": 3050,
+      "y": 3245,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 926,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "926",
+    "destination": {
+      "plane": 0,
+      "x": 1820,
+      "y": 11616,
+      "f": "0_7915"
+    }
+  },
+  {
+    "rowNumber": 927,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "927",
+    "destination": {
+      "plane": 0,
+      "x": 2060,
+      "y": 11800,
+      "f": "0_8615"
+    }
+  },
+  {
+    "rowNumber": 928,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "928",
+    "destination": {
+      "plane": 0,
+      "x": 1800,
+      "y": 11961,
+      "f": "0_7824"
+    }
+  },
+  {
+    "rowNumber": 929,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "929",
+    "destination": {
+      "plane": 0,
+      "x": 2279,
+      "y": 11503,
+      "f": "0_9989"
+    }
+  },
+  {
+    "rowNumber": 930,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "930",
+    "destination": {
+      "plane": 0,
+      "x": 2085,
+      "y": 11276,
+      "f": "0_9106"
+    }
+  },
+  {
+    "rowNumber": 931,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "931",
+    "destination": {
+      "plane": 0,
+      "x": 2462,
+      "y": 11546,
+      "f": "0_11624"
+    }
+  },
+  {
+    "rowNumber": 932,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "932",
+    "destination": {
+      "plane": 0,
+      "x": 2316,
+      "y": 11224,
+      "f": "0_10053"
+    }
+  },
+  {
+    "rowNumber": 933,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "933",
+    "destination": {
+      "plane": 1,
+      "x": 1958,
+      "y": 4375,
+      "f": "1_4435"
+    }
+  },
+  {
+    "rowNumber": 934,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "934",
+    "destination": {
+      "plane": 0,
+      "x": 2721,
+      "y": 5275,
+      "f": "0_14861"
+    }
+  },
+  {
+    "rowNumber": 935,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "935",
+    "destination": {
+      "plane": 0,
+      "x": 2961,
+      "y": 3506,
+      "f": "0_17335"
+    }
+  },
+  {
+    "rowNumber": 936,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "936",
+    "destination": {
+      "plane": 0,
+      "x": 2582,
+      "y": 9838,
+      "f": "0_12819"
+    }
+  },
+  {
+    "rowNumber": 937,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "937",
+    "destination": {
+      "plane": 0,
+      "x": 2344,
+      "y": 4247,
+      "f": "0_10821"
+    }
+  },
+  {
+    "rowNumber": 938,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "938",
+    "destination": {
+      "plane": 0,
+      "x": 3254,
+      "y": 3449,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 939,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "939",
+    "destination": {
+      "plane": 0,
+      "x": 3168,
+      "y": 3199,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 940,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "940",
+    "destination": {
+      "plane": 0,
+      "x": 3007,
+      "y": 3318,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 941,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "941",
+    "destination": {
+      "plane": 0,
+      "x": 2796,
+      "y": 3419,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 942,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "942",
+    "destination": {
+      "plane": 0,
+      "x": 2537,
+      "y": 3308,
+      "f": "0_11604"
+    }
+  },
+  {
+    "rowNumber": 943,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "943",
+    "destination": {
+      "plane": 0,
+      "x": 2444,
+      "y": 3178,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 944,
+    "groupName": "Teletabs (excluding ones with spell versions)",
+    "no-repeat-key": "944",
+    "destination": {
+      "plane": 1,
+      "x": 3200,
+      "y": 6942,
+      "f": "1_10021"
+    }
+  },
+  {
+    "rowNumber": 963,
+    "groupName": "Wicked hood, rune ethereal outfit",
+    "no-repeat-key": "963",
+    "destination": {
+      "plane": 3,
+      "x": 3109,
+      "y": 3157,
+      "f": "3_974"
+    }
+  },
+  {
+    "rowNumber": 964,
+    "groupName": "Wicked hood, rune ethereal outfit",
+    "no-repeat-key": "964",
+    "destination": {
+      "plane": 0,
+      "x": 3127,
+      "y": 3407,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 965,
+    "groupName": "Wicked hood, rune ethereal outfit",
+    "no-repeat-key": "965",
+    "destination": {
+      "plane": 0,
+      "x": 3165,
+      "y": 3183,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 966,
+    "groupName": "Wicked hood, rune ethereal outfit",
+    "no-repeat-key": "966",
+    "destination": {
+      "plane": 0,
+      "x": 3300,
+      "y": 3477,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 967,
+    "groupName": "Wicked hood, rune ethereal outfit",
+    "no-repeat-key": "967",
+    "destination": {
+      "plane": 0,
+      "x": 3309,
+      "y": 3253,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 968,
+    "groupName": "Wicked hood, rune ethereal outfit",
+    "no-repeat-key": "968",
+    "destination": {
+      "plane": 0,
+      "x": 3050,
+      "y": 3444,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 969,
+    "groupName": "Wicked hood, rune ethereal outfit",
+    "no-repeat-key": "969",
+    "destination": {
+      "plane": 0,
+      "x": 2981,
+      "y": 3509,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 970,
+    "groupName": "Wicked hood, rune ethereal outfit",
+    "no-repeat-key": "970",
+    "destination": {
+      "plane": 0,
+      "x": 1863,
+      "y": 4636,
+      "f": "0_8255"
+    }
+  },
+  {
+    "rowNumber": 971,
+    "groupName": "Wicked hood, rune ethereal outfit",
+    "no-repeat-key": "971",
+    "destination": {
+      "plane": 0,
+      "x": 2270,
+      "y": 4845,
+      "f": "0_10078"
+    }
+  },
+  {
+    "rowNumber": 972,
+    "groupName": "Wicked hood, rune ethereal outfit",
+    "no-repeat-key": "972",
+    "destination": {
+      "plane": 0,
+      "x": 2856,
+      "y": 3378,
+      "f": "0_15679"
+    }
+  },
+  {
+    "rowNumber": 973,
+    "groupName": "Wicked hood, rune ethereal outfit",
+    "no-repeat-key": "973",
+    "destination": {
+      "plane": 0,
+      "x": 2864,
+      "y": 3023,
+      "f": "0_14686"
+    }
+  },
+  {
+    "rowNumber": 974,
+    "groupName": "Wicked hood, rune ethereal outfit",
+    "no-repeat-key": "974",
+    "destination": {
+      "plane": 0,
+      "x": 2404,
+      "y": 4379,
+      "f": "0_11209"
+    }
+  },
+  {
+    "rowNumber": 975,
+    "groupName": "Wicked hood, rune ethereal outfit",
+    "no-repeat-key": "975",
+    "destination": {
+      "plane": 0,
+      "x": 2155,
+      "y": 3866,
+      "f": "0_9114"
+    }
+  },
+  {
+    "rowNumber": 976,
+    "groupName": "Wicked hood, rune ethereal outfit",
+    "no-repeat-key": "976",
+    "destination": {
+      "plane": 0,
+      "x": 3559,
+      "y": 9778,
+      "f": "0_21002"
+    }
+  },
+  {
+    "rowNumber": 977,
+    "groupName": "Wicked hood, rune ethereal outfit",
+    "no-repeat-key": "977",
+    "destination": {
+      "plane": 0,
+      "x": 2016,
+      "y": 6877,
+      "f": "0_8878"
+    }
+  },
+  {
+    "rowNumber": 980,
+    "groupName": "Dragon trinkets",
+    "no-repeat-key": "980",
+    "destination": {
+      "plane": 0,
+      "x": 3303,
+      "y": 5468,
+      "f": "0_19638"
+    }
+  },
+  {
+    "rowNumber": 981,
+    "groupName": "Dragon trinkets",
+    "no-repeat-key": "981",
+    "destination": {
+      "plane": 0,
+      "x": 2512,
+      "y": 3511,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 982,
+    "groupName": "Dragon trinkets",
+    "no-repeat-key": "982",
+    "destination": {
+      "plane": 0,
+      "x": 2891,
+      "y": 9769,
+      "f": "0_15831"
+    }
+  },
+  {
+    "rowNumber": 983,
+    "groupName": "Dragon trinkets",
+    "no-repeat-key": "983",
+    "destination": {
+      "plane": 0,
+      "x": 2731,
+      "y": 9529,
+      "f": "0_14487"
+    }
+  },
+  {
+    "rowNumber": 984,
+    "groupName": "Dragon trinkets",
+    "no-repeat-key": "984",
+    "destination": {
+      "plane": 0,
+      "x": 1565,
+      "y": 4356,
+      "f": "0_6857"
+    }
+  },
+  {
+    "rowNumber": 985,
+    "groupName": "Dragon trinkets",
+    "no-repeat-key": "985",
+    "destination": {
+      "plane": 0,
+      "x": 3051,
+      "y": 3519,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 986,
+    "groupName": "Dragon trinkets",
+    "no-repeat-key": "986",
+    "destination": {
+      "plane": 0,
+      "x": 1198,
+      "y": 6499,
+      "f": "0_5720"
+    }
+  },
+  {
+    "rowNumber": 989,
+    "groupName": "Metallic dragon trinkets",
+    "no-repeat-key": "989",
+    "destination": {
+      "plane": 0,
+      "x": 2723,
+      "y": 9486,
+      "f": "0_14572"
+    }
+  },
+  {
+    "rowNumber": 990,
+    "groupName": "Metallic dragon trinkets",
+    "no-repeat-key": "990",
+    "destination": {
+      "plane": 0,
+      "x": 2694,
+      "y": 9443,
+      "f": "0_14572"
+    }
+  },
+  {
+    "rowNumber": 991,
+    "groupName": "Metallic dragon trinkets",
+    "no-repeat-key": "991",
+    "destination": {
+      "plane": 0,
+      "x": 2708,
+      "y": 9468,
+      "f": "0_14572"
+    }
+  },
+  {
+    "rowNumber": 992,
+    "groupName": "Metallic dragon trinkets",
+    "no-repeat-key": "992",
+    "destination": {
+      "plane": 0,
+      "x": 1778,
+      "y": 5346,
+      "f": "0_7829"
+    }
+  },
+  {
+    "rowNumber": 993,
+    "groupName": "Metallic dragon trinkets",
+    "no-repeat-key": "993",
+    "destination": {
+      "plane": 0,
+      "x": 4516,
+      "y": 6046,
+      "f": "0_25851"
+    }
+  },
+  {
+    "rowNumber": 994,
+    "groupName": "Metallic dragon trinkets",
+    "no-repeat-key": "994",
+    "destination": {
+      "plane": 0,
+      "x": 2367,
+      "y": 3358,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 1080,
+    "groupName": "Elder divination outfit",
+    "no-repeat-key": "1080",
+    "destination": {
+      "plane": 0,
+      "x": 2281,
+      "y": 3049,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 1081,
+    "groupName": "Elder divination outfit",
+    "no-repeat-key": "1081",
+    "destination": {
+      "plane": 0,
+      "x": 3314,
+      "y": 2659,
+      "f": "0_19293"
+    }
+  },
+  {
+    "rowNumber": 1082,
+    "groupName": "Elder divination outfit",
+    "no-repeat-key": "1082",
+    "destination": {
+      "plane": 0,
+      "x": 3806,
+      "y": 3553,
+      "f": "0_22572"
+    }
+  },
+  {
+    "rowNumber": 1083,
+    "groupName": "Elder divination outfit",
+    "no-repeat-key": "1083",
+    "destination": {
+      "plane": 0,
+      "x": 3406,
+      "y": 3295,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 1084,
+    "groupName": "Elder divination outfit",
+    "no-repeat-key": "1084",
+    "destination": {
+      "plane": 0,
+      "x": 4268,
+      "y": 6318,
+      "f": "0_25031"
+    }
+  },
+  {
+    "rowNumber": 1085,
+    "groupName": "Elder divination outfit",
+    "no-repeat-key": "1085",
+    "destination": {
+      "plane": 0,
+      "x": 3467,
+      "y": 3536,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 1086,
+    "groupName": "Elder divination outfit",
+    "no-repeat-key": "1086",
+    "destination": {
+      "plane": 0,
+      "x": 2419,
+      "y": 2862,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 1087,
+    "groupName": "Elder divination outfit",
+    "no-repeat-key": "1087",
+    "destination": {
+      "plane": 0,
+      "x": 2891,
+      "y": 3046,
+      "f": "0_14686"
+    }
+  },
+  {
+    "rowNumber": 1088,
+    "groupName": "Elder divination outfit",
+    "no-repeat-key": "1088",
+    "destination": {
+      "plane": 0,
+      "x": 2768,
+      "y": 3596,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 1089,
+    "groupName": "Elder divination outfit",
+    "no-repeat-key": "1089",
+    "destination": {
+      "plane": 0,
+      "x": 2733,
+      "y": 3410,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 1090,
+    "groupName": "Elder divination outfit",
+    "no-repeat-key": "1090",
+    "destination": {
+      "plane": 0,
+      "x": 3307,
+      "y": 3395,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 1091,
+    "groupName": "Elder divination outfit",
+    "no-repeat-key": "1091",
+    "destination": {
+      "plane": 0,
+      "x": 3007,
+      "y": 3404,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 1092,
+    "groupName": "Elder divination outfit",
+    "no-repeat-key": "1092",
+    "destination": {
+      "plane": 0,
+      "x": 3123,
+      "y": 3215,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 1093,
+    "groupName": "Elder divination outfit",
+    "no-repeat-key": "1093",
+    "destination": {
+      "plane": 0,
+      "x": 3147,
+      "y": 3711,
+      "f": "0_17198"
+    }
+  },
+  {
+    "rowNumber": 1333,
+    "groupName": "Goebie rangers",
+    "no-repeat-key": "1333",
+    "destination": {
+      "plane": 0,
+      "x": 4358,
+      "y": 781,
+      "f": "0_24827"
+    }
+  },
+  {
+    "rowNumber": 1334,
+    "groupName": "Goebie rangers",
+    "no-repeat-key": "1334",
+    "destination": {
+      "plane": 0,
+      "x": 4199,
+      "y": 929,
+      "f": "0_24517"
+    }
+  },
+  {
+    "rowNumber": 1335,
+    "groupName": "Goebie rangers",
+    "no-repeat-key": "1335",
+    "destination": {
+      "plane": 0,
+      "x": 4315,
+      "y": 783,
+      "f": "0_24827"
+    }
+  },
+  {
+    "rowNumber": 1336,
+    "groupName": "Goebie rangers",
+    "no-repeat-key": "1336",
+    "destination": {
+      "plane": 0,
+      "x": 4226,
+      "y": 794,
+      "f": "0_24827"
+    }
+  },
+  {
+    "rowNumber": 1337,
+    "groupName": "Goebie rangers",
+    "no-repeat-key": "1337",
+    "destination": {
+      "plane": 0,
+      "x": 4185,
+      "y": 831,
+      "f": "0_24517"
+    }
+  },
+  {
+    "rowNumber": 1338,
+    "groupName": "Goebie rangers",
+    "no-repeat-key": "1338",
+    "destination": {
+      "plane": 0,
+      "x": 4722,
+      "y": 781,
+      "f": "0_26451"
+    }
+  },
+  {
+    "rowNumber": 1395,
+    "groupName": "Interactive scenery",
+    "no-repeat-key": "1395",
+    "destination": {
+      "plane": 0,
+      "x": 2909,
+      "y": 10174,
+      "f": "0_15873"
+    }
+  },
+  {
+    "rowNumber": 1396,
+    "groupName": "Interactive scenery",
+    "no-repeat-key": "1396",
+    "destination": {
+      "plane": 0,
+      "x": 2923,
+      "y": 10176,
+      "f": "0_15873"
+    }
+  },
+  {
+    "rowNumber": 1397,
+    "groupName": "Interactive scenery",
+    "no-repeat-key": "1397",
+    "destination": {
+      "plane": 0,
+      "x": 2919,
+      "y": 10168,
+      "f": "0_15873"
+    }
+  },
+  {
+    "rowNumber": 1398,
+    "groupName": "Interactive scenery",
+    "no-repeat-key": "1398",
+    "destination": {
+      "plane": 0,
+      "x": 3141,
+      "y": 3506,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 1399,
+    "groupName": "Interactive scenery",
+    "no-repeat-key": "1399",
+    "destination": {
+      "plane": 0,
+      "x": 2995,
+      "y": 9835,
+      "f": "0_17358"
+    }
+  },
+  {
+    "rowNumber": 1400,
+    "groupName": "Interactive scenery",
+    "no-repeat-key": "1400",
+    "destination": {
+      "plane": 0,
+      "x": 2876,
+      "y": 9869,
+      "f": "0_15832"
+    }
+  },
+  {
+    "rowNumber": 1429,
+    "groupName": "Interactive scenery",
+    "no-repeat-key": "1429",
+    "destination": {
+      "plane": 0,
+      "x": 2367,
+      "y": 3354,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 1754,
+    "groupName": "Abyss ",
+    "oneway": true,
+    "no-repeat-key": "1754",
+    "destination": {
+      "plane": 0,
+      "x": 3017,
+      "y": 4822,
+      "f": "0_17660"
+    }
+  },
+  {
+    "rowNumber": 1779,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1779",
+    "destination": {
+      "plane": 0,
+      "x": 2877,
+      "y": 3572,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 1780,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1780",
+    "destination": {
+      "plane": 0,
+      "x": 2221,
+      "y": 4561,
+      "f": "0_9642"
+    }
+  },
+  {
+    "rowNumber": 1781,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1781",
+    "destination": {
+      "plane": 0,
+      "x": 3419,
+      "y": 3524,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 1782,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1782",
+    "destination": {
+      "plane": 0,
+      "x": 3408,
+      "y": 3559,
+      "f": "0_20103"
+    }
+  },
+  {
+    "rowNumber": 1783,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1783",
+    "destination": {
+      "plane": 0,
+      "x": 3614,
+      "y": 9764,
+      "f": "0_21002"
+    }
+  },
+  {
+    "rowNumber": 1784,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1784",
+    "destination": {
+      "plane": 0,
+      "x": 3419,
+      "y": 3524,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 1785,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1785",
+    "destination": {
+      "plane": 0,
+      "x": 3437,
+      "y": 3557,
+      "f": "0_20103"
+    }
+  },
+  {
+    "rowNumber": 1786,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1786",
+    "destination": {
+      "plane": 0,
+      "x": 3358,
+      "y": 9427,
+      "f": "0_19858"
+    }
+  },
+  {
+    "rowNumber": 1787,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1787",
+    "destination": {
+      "plane": 0,
+      "x": 2802,
+      "y": 10026,
+      "f": "0_14550"
+    }
+  },
+  {
+    "rowNumber": 1788,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1788",
+    "destination": {
+      "plane": 0,
+      "x": 2750,
+      "y": 9996,
+      "f": "0_14550"
+    }
+  },
+  {
+    "rowNumber": 1789,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1789",
+    "destination": {
+      "plane": 0,
+      "x": 3315,
+      "y": 4336,
+      "f": "0_19349"
+    }
+  },
+  {
+    "rowNumber": 1790,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1790",
+    "destination": {
+      "plane": 0,
+      "x": 3419,
+      "y": 3524,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 1791,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1791",
+    "destination": {
+      "plane": 1,
+      "x": 3415,
+      "y": 3549,
+      "f": "1_11142"
+    }
+  },
+  {
+    "rowNumber": 1792,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1792",
+    "destination": {
+      "plane": 0,
+      "x": 3607,
+      "y": 9747,
+      "f": "0_21002"
+    }
+  },
+  {
+    "rowNumber": 1793,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1793",
+    "destination": {
+      "plane": 0,
+      "x": 2715,
+      "y": 10030,
+      "f": "0_14550"
+    }
+  },
+  {
+    "rowNumber": 1794,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1794",
+    "destination": {
+      "plane": 0,
+      "x": 3285,
+      "y": 5460,
+      "f": "0_19312"
+    }
+  },
+  {
+    "rowNumber": 1795,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1795",
+    "destination": {
+      "plane": 0,
+      "x": 2866,
+      "y": 3927,
+      "f": "0_16290"
+    }
+  },
+  {
+    "rowNumber": 1796,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1796",
+    "destination": {
+      "plane": 0,
+      "x": 3419,
+      "y": 3524,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 1797,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1797",
+    "destination": {
+      "plane": 1,
+      "x": 3442,
+      "y": 3556,
+      "f": "1_11392"
+    }
+  },
+  {
+    "rowNumber": 1798,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1798",
+    "destination": {
+      "plane": 0,
+      "x": 3316,
+      "y": 4336,
+      "f": "0_19349"
+    }
+  },
+  {
+    "rowNumber": 1799,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1799",
+    "destination": {
+      "plane": 0,
+      "x": 3225,
+      "y": 9394,
+      "f": "0_19014"
+    }
+  },
+  {
+    "rowNumber": 1800,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1800",
+    "destination": {
+      "plane": 0,
+      "x": 3176,
+      "y": 5515,
+      "f": "0_18742"
+    }
+  },
+  {
+    "rowNumber": 1801,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1801",
+    "destination": {
+      "plane": 0,
+      "x": 3290,
+      "y": 2707,
+      "f": "0_19293"
+    }
+  },
+  {
+    "rowNumber": 1802,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1802",
+    "destination": {
+      "plane": 0,
+      "x": 2704,
+      "y": 10005,
+      "f": "0_14550"
+    }
+  },
+  {
+    "rowNumber": 1803,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1803",
+    "destination": {
+      "plane": 0,
+      "x": 3276,
+      "y": 4370,
+      "f": "0_19349"
+    }
+  },
+  {
+    "rowNumber": 1804,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1804",
+    "destination": {
+      "plane": 0,
+      "x": 2461,
+      "y": 2909,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 1805,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1805",
+    "destination": {
+      "plane": 0,
+      "x": 3419,
+      "y": 3524,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 1806,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1806",
+    "destination": {
+      "plane": 2,
+      "x": 3435,
+      "y": 3553,
+      "f": "2_2114"
+    }
+  },
+  {
+    "rowNumber": 1807,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1807",
+    "destination": {
+      "plane": 0,
+      "x": 3177,
+      "y": 5471,
+      "f": "0_18793"
+    }
+  },
+  {
+    "rowNumber": 1808,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1808",
+    "destination": {
+      "plane": 0,
+      "x": 2510,
+      "y": 3635,
+      "f": "0_12342"
+    }
+  },
+  {
+    "rowNumber": 1809,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1809",
+    "destination": {
+      "plane": 0,
+      "x": 2528,
+      "y": 3741,
+      "f": "0_12328"
+    }
+  },
+  {
+    "rowNumber": 1810,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1810",
+    "destination": {
+      "plane": 0,
+      "x": 3374,
+      "y": 3154,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 1811,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1811",
+    "destination": {
+      "plane": 0,
+      "x": 3034,
+      "y": 9231,
+      "f": "0_17644"
+    }
+  },
+  {
+    "rowNumber": 1812,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1812",
+    "destination": {
+      "plane": 0,
+      "x": 3419,
+      "y": 3524,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 1813,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1813",
+    "destination": {
+      "plane": 2,
+      "x": 3413,
+      "y": 3549,
+      "f": "2_2078"
+    }
+  },
+  {
+    "rowNumber": 1814,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1814",
+    "destination": {
+      "plane": 0,
+      "x": 3435,
+      "y": 3530,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 1816,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1816",
+    "destination": {
+      "plane": 0,
+      "x": 3058,
+      "y": 4875,
+      "f": "0_17663"
+    }
+  },
+  {
+    "rowNumber": 1817,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1817",
+    "destination": {
+      "plane": 0,
+      "x": 2886,
+      "y": 9770,
+      "f": "0_15831"
+    }
+  },
+  {
+    "rowNumber": 1818,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1818",
+    "destination": {
+      "plane": 0,
+      "x": 1845,
+      "y": 5987,
+      "f": "0_7988"
+    }
+  },
+  {
+    "rowNumber": 1819,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1819",
+    "destination": {
+      "plane": 0,
+      "x": 2701,
+      "y": 9980,
+      "f": "0_14550"
+    }
+  },
+  {
+    "rowNumber": 1820,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1820",
+    "destination": {
+      "plane": 0,
+      "x": 2029,
+      "y": 4661,
+      "f": "0_8295"
+    }
+  },
+  {
+    "rowNumber": 1822,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1822",
+    "destination": {
+      "plane": 0,
+      "x": 3435,
+      "y": 3530,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 1823,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1823",
+    "destination": {
+      "plane": 0,
+      "x": 2274,
+      "y": 3613,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 1824,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1824",
+    "destination": {
+      "plane": 0,
+      "x": 2736,
+      "y": 3731,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 1825,
+    "groupName": "Slayer Masks/Helms",
+    "no-repeat-key": "1825",
+    "destination": {
+      "plane": 0,
+      "x": 4618,
+      "y": 5394,
+      "f": "0_26153"
+    }
+  },
+  {
+    "rowNumber": 2095,
+    "groupName": "Master camouflage outfit",
+    "no-repeat-key": "2095",
+    "destination": {
+      "plane": 1,
+      "x": 2186,
+      "y": 3312,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 2096,
+    "groupName": "Master camouflage outfit",
+    "no-repeat-key": "2096",
+    "destination": {
+      "plane": 1,
+      "x": 2157,
+      "y": 3340,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 2097,
+    "groupName": "Master camouflage outfit",
+    "no-repeat-key": "2097",
+    "destination": {
+      "plane": 1,
+      "x": 2261,
+      "y": 3339,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 2098,
+    "groupName": "Master camouflage outfit",
+    "no-repeat-key": "2098",
+    "destination": {
+      "plane": 1,
+      "x": 2157,
+      "y": 3382,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 2099,
+    "groupName": "Master camouflage outfit",
+    "no-repeat-key": "2099",
+    "destination": {
+      "plane": 1,
+      "x": 2231,
+      "y": 3312,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 2100,
+    "groupName": "Master camouflage outfit",
+    "no-repeat-key": "2100",
+    "destination": {
+      "plane": 1,
+      "x": 2185,
+      "y": 3410,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 2101,
+    "groupName": "Master camouflage outfit",
+    "no-repeat-key": "2101",
+    "destination": {
+      "plane": 1,
+      "x": 2263,
+      "y": 3384,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 2102,
+    "groupName": "Master camouflage outfit",
+    "no-repeat-key": "2102",
+    "destination": {
+      "plane": 1,
+      "x": 2232,
+      "y": 3410,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 2103,
+    "groupName": "Master camouflage outfit",
+    "no-repeat-key": "2103",
+    "destination": {
+      "plane": 0,
+      "x": 3291,
+      "y": 2808,
+      "f": "0_19293"
+    }
+  },
+  {
+    "rowNumber": 2104,
+    "groupName": "Master camouflage outfit",
+    "no-repeat-key": "2104",
+    "destination": {
+      "plane": 1,
+      "x": 2885,
+      "y": 10199,
+      "f": "1_8905"
+    }
+  },
+  {
+    "rowNumber": 2105,
+    "groupName": "Master camouflage outfit",
+    "no-repeat-key": "2105",
+    "destination": {
+      "plane": 0,
+      "x": 2333,
+      "y": 3172,
+      "f": "0_10714"
+    }
+  },
+  {
+    "rowNumber": 2106,
+    "groupName": "Master camouflage outfit",
+    "no-repeat-key": "2106",
+    "destination": {
+      "plane": 0,
+      "x": 3223,
+      "y": 3269,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2107,
+    "groupName": "Master camouflage outfit",
+    "no-repeat-key": "2107",
+    "destination": {
+      "plane": 0,
+      "x": 3362,
+      "y": 2975,
+      "f": "0_17904"
+    }
+  },
+  {
+    "rowNumber": 2110,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2110",
+    "destination": {
+      "plane": 1,
+      "x": 2711,
+      "y": 3824,
+      "f": "1_8059"
+    }
+  },
+  {
+    "rowNumber": 2111,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2111",
+    "destination": {
+      "plane": 0,
+      "x": 2336,
+      "y": 3576,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2112,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2112",
+    "destination": {
+      "plane": 0,
+      "x": 2525,
+      "y": 2890,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2113,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2113",
+    "destination": {
+      "plane": 0,
+      "x": 3409,
+      "y": 3119,
+      "f": "0_17904"
+    }
+  },
+  {
+    "rowNumber": 2114,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2114",
+    "destination": {
+      "plane": 1,
+      "x": 2695,
+      "y": 4011,
+      "f": "1_8010"
+    }
+  },
+  {
+    "rowNumber": 2115,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2115",
+    "destination": {
+      "plane": 0,
+      "x": 2356,
+      "y": 3604,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2116,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2116",
+    "destination": {
+      "plane": 0,
+      "x": 2953,
+      "y": 2933,
+      "f": "0_17212"
+    }
+  },
+  {
+    "rowNumber": 2117,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2117",
+    "destination": {
+      "plane": 0,
+      "x": 2953,
+      "y": 2933,
+      "f": "0_17212"
+    }
+  },
+  {
+    "rowNumber": 2118,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2118",
+    "destination": {
+      "plane": 0,
+      "x": 2953,
+      "y": 2933,
+      "f": "0_17212"
+    }
+  },
+  {
+    "rowNumber": 2119,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2119",
+    "destination": {
+      "plane": 0,
+      "x": 2335,
+      "y": 3587,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2120,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2120",
+    "destination": {
+      "plane": 1,
+      "x": 2716,
+      "y": 3804,
+      "f": "1_8059"
+    }
+  },
+  {
+    "rowNumber": 2121,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2121",
+    "destination": {
+      "plane": 0,
+      "x": 2721,
+      "y": 3781,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2122,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2122",
+    "destination": {
+      "plane": 0,
+      "x": 2558,
+      "y": 2914,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2123,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2123",
+    "destination": {
+      "plane": 0,
+      "x": 3367,
+      "y": 3742,
+      "f": "0_17198"
+    }
+  },
+  {
+    "rowNumber": 2124,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2124",
+    "destination": {
+      "plane": 0,
+      "x": 2310,
+      "y": 3520,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2125,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2125",
+    "destination": {
+      "plane": 0,
+      "x": 2850,
+      "y": 2911,
+      "f": "0_15246"
+    }
+  },
+  {
+    "rowNumber": 2126,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2126",
+    "destination": {
+      "plane": 0,
+      "x": 2916,
+      "y": 3080,
+      "f": "0_16617"
+    }
+  },
+  {
+    "rowNumber": 2127,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2127",
+    "destination": {
+      "plane": 0,
+      "x": 2925,
+      "y": 3097,
+      "f": "0_16617"
+    }
+  },
+  {
+    "rowNumber": 2128,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2128",
+    "destination": {
+      "plane": 0,
+      "x": 2833,
+      "y": 3049,
+      "f": "0_14686"
+    }
+  },
+  {
+    "rowNumber": 2129,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2129",
+    "destination": {
+      "plane": 0,
+      "x": 3060,
+      "y": 3423,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2130,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2130",
+    "destination": {
+      "plane": 0,
+      "x": 2455,
+      "y": 3537,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2131,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2131",
+    "destination": {
+      "plane": 0,
+      "x": 2787,
+      "y": 3004,
+      "f": "0_14686"
+    }
+  },
+  {
+    "rowNumber": 2132,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2132",
+    "destination": {
+      "plane": 0,
+      "x": 2331,
+      "y": 3531,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2133,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2133",
+    "destination": {
+      "plane": 0,
+      "x": 3663,
+      "y": 3436,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 2134,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2134",
+    "destination": {
+      "plane": 0,
+      "x": 2542,
+      "y": 2821,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2135,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2135",
+    "destination": {
+      "plane": 0,
+      "x": 2335,
+      "y": 3587,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2136,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2136",
+    "destination": {
+      "plane": 1,
+      "x": 2695,
+      "y": 4011,
+      "f": "1_8010"
+    }
+  },
+  {
+    "rowNumber": 2137,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2137",
+    "destination": {
+      "plane": 0,
+      "x": 2558,
+      "y": 2914,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2138,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2138",
+    "destination": {
+      "plane": 0,
+      "x": 2267,
+      "y": 3239,
+      "f": "0_10089"
+    }
+  },
+  {
+    "rowNumber": 2139,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2139",
+    "destination": {
+      "plane": 0,
+      "x": 2731,
+      "y": 3871,
+      "f": "0_14803"
+    }
+  },
+  {
+    "rowNumber": 2140,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2140",
+    "destination": {
+      "plane": 0,
+      "x": 2267,
+      "y": 3239,
+      "f": "0_10089"
+    }
+  },
+  {
+    "rowNumber": 2141,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2141",
+    "destination": {
+      "plane": 0,
+      "x": 3171,
+      "y": 2867,
+      "f": "0_17904"
+    }
+  },
+  {
+    "rowNumber": 2142,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2142",
+    "destination": {
+      "plane": 0,
+      "x": 2168,
+      "y": 3192,
+      "f": "0_9446"
+    }
+  },
+  {
+    "rowNumber": 2143,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2143",
+    "destination": {
+      "plane": 0,
+      "x": 2600,
+      "y": 2928,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2144,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2144",
+    "destination": {
+      "plane": 0,
+      "x": 3410,
+      "y": 3098,
+      "f": "0_17904"
+    }
+  },
+  {
+    "rowNumber": 2145,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2145",
+    "destination": {
+      "plane": 0,
+      "x": 2335,
+      "y": 3587,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2146,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2146",
+    "destination": {
+      "plane": 0,
+      "x": 2721,
+      "y": 3781,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2147,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2147",
+    "destination": {
+      "plane": 0,
+      "x": 2544,
+      "y": 2880,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2148,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2148",
+    "destination": {
+      "plane": 0,
+      "x": 2505,
+      "y": 2822,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2149,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2149",
+    "destination": {
+      "plane": 0,
+      "x": 2565,
+      "y": 2914,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2150,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2150",
+    "destination": {
+      "plane": 0,
+      "x": 2776,
+      "y": 3006,
+      "f": "0_14686"
+    }
+  },
+  {
+    "rowNumber": 2151,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2151",
+    "destination": {
+      "plane": 0,
+      "x": 2732,
+      "y": 3786,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2152,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2152",
+    "destination": {
+      "plane": 0,
+      "x": 2339,
+      "y": 3553,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2153,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2153",
+    "destination": {
+      "plane": 0,
+      "x": 2573,
+      "y": 2928,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2154,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2154",
+    "destination": {
+      "plane": 0,
+      "x": 2317,
+      "y": 3602,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2155,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2155",
+    "destination": {
+      "plane": 0,
+      "x": 2505,
+      "y": 2822,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2158,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2158",
+    "destination": {
+      "plane": 0,
+      "x": 3552,
+      "y": 3441,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 2159,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2159",
+    "destination": {
+      "plane": 0,
+      "x": 2976,
+      "y": 3443,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2160,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2160",
+    "destination": {
+      "plane": 0,
+      "x": 3410,
+      "y": 3098,
+      "f": "0_17904"
+    }
+  },
+  {
+    "rowNumber": 2161,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2161",
+    "destination": {
+      "plane": 1,
+      "x": 2695,
+      "y": 4011,
+      "f": "1_8010"
+    }
+  },
+  {
+    "rowNumber": 2162,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2162",
+    "destination": {
+      "plane": 0,
+      "x": 2457,
+      "y": 3221,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2163,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2163",
+    "destination": {
+      "plane": 0,
+      "x": 3321,
+      "y": 3664,
+      "f": "0_17198"
+    }
+  },
+  {
+    "rowNumber": 2164,
+    "groupName": "Volcanic Trapper outfit",
+    "no-repeat-key": "2164",
+    "destination": {
+      "plane": 0,
+      "x": 2378,
+      "y": 3605,
+      "f": "0_11137"
+    }
+  },
+  {
+    "rowNumber": 2171,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2171",
+    "destination": {
+      "plane": 0,
+      "x": 3135,
+      "y": 3430,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2172,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2172",
+    "destination": {
+      "plane": 0,
+      "x": 3290,
+      "y": 3475,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2173,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2173",
+    "destination": {
+      "plane": 0,
+      "x": 3166,
+      "y": 3415,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2174,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2174",
+    "destination": {
+      "plane": 0,
+      "x": 3277,
+      "y": 3475,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2175,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2175",
+    "destination": {
+      "plane": 0,
+      "x": 3090,
+      "y": 3232,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2176,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2176",
+    "destination": {
+      "plane": 0,
+      "x": 2783,
+      "y": 3429,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2177,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2177",
+    "destination": {
+      "plane": 0,
+      "x": 2520,
+      "y": 3579,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2178,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2178",
+    "destination": {
+      "plane": 0,
+      "x": 2728,
+      "y": 3501,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2179,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2179",
+    "destination": {
+      "plane": 0,
+      "x": 3500,
+      "y": 3626,
+      "f": "0_20714"
+    }
+  },
+  {
+    "rowNumber": 2180,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2180",
+    "destination": {
+      "plane": 0,
+      "x": 2708,
+      "y": 3463,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2181,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2181",
+    "destination": {
+      "plane": 0,
+      "x": 2757,
+      "y": 3431,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2182,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2182",
+    "destination": {
+      "plane": 0,
+      "x": 3087,
+      "y": 3475,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2183,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2183",
+    "destination": {
+      "plane": 0,
+      "x": 3208,
+      "y": 3438,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2184,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2184",
+    "destination": {
+      "plane": 1,
+      "x": 2261,
+      "y": 3383,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 2185,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2185",
+    "destination": {
+      "plane": 0,
+      "x": 2694,
+      "y": 3425,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2186,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2186",
+    "destination": {
+      "plane": 0,
+      "x": 2702,
+      "y": 3397,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2187,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2187",
+    "destination": {
+      "plane": 0,
+      "x": 3357,
+      "y": 3310,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2188,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2188",
+    "destination": {
+      "plane": 0,
+      "x": 2287,
+      "y": 3140,
+      "f": "0_10401"
+    }
+  },
+  {
+    "rowNumber": 2189,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2189",
+    "destination": {
+      "plane": 1,
+      "x": 2249,
+      "y": 3367,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 2190,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2190",
+    "destination": {
+      "plane": 0,
+      "x": 2734,
+      "y": 3401,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2191,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2191",
+    "destination": {
+      "plane": 0,
+      "x": 2572,
+      "y": 3063,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2192,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2192",
+    "destination": {
+      "plane": 0,
+      "x": 2425,
+      "y": 3456,
+      "f": "0_11221"
+    }
+  },
+  {
+    "rowNumber": 2193,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2193",
+    "destination": {
+      "plane": 0,
+      "x": 3094,
+      "y": 3215,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2194,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2194",
+    "destination": {
+      "plane": 0,
+      "x": 3052,
+      "y": 3320,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2195,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2195",
+    "destination": {
+      "plane": 0,
+      "x": 3259,
+      "y": 3370,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2196,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2196",
+    "destination": {
+      "plane": 0,
+      "x": 2294,
+      "y": 3147,
+      "f": "0_10401"
+    }
+  },
+  {
+    "rowNumber": 2197,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2197",
+    "destination": {
+      "plane": 0,
+      "x": 2321,
+      "y": 3598,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2198,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2198",
+    "destination": {
+      "plane": 0,
+      "x": 3094,
+      "y": 3451,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2199,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2199",
+    "destination": {
+      "plane": 0,
+      "x": 2933,
+      "y": 3227,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2202,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2202",
+    "destination": {
+      "plane": 0,
+      "x": 2815,
+      "y": 3084,
+      "f": "0_14686"
+    }
+  },
+  {
+    "rowNumber": 2203,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2203",
+    "destination": {
+      "plane": 0,
+      "x": 2774,
+      "y": 2696,
+      "f": "0_14580"
+    }
+  },
+  {
+    "rowNumber": 2204,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2204",
+    "destination": {
+      "plane": 0,
+      "x": 2334,
+      "y": 3048,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2205,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2205",
+    "destination": {
+      "plane": 0,
+      "x": 2815,
+      "y": 3084,
+      "f": "0_14686"
+    }
+  },
+  {
+    "rowNumber": 2206,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2206",
+    "destination": {
+      "plane": 0,
+      "x": 2716,
+      "y": 2708,
+      "f": "0_14580"
+    }
+  },
+  {
+    "rowNumber": 2207,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2207",
+    "destination": {
+      "plane": 0,
+      "x": 2932,
+      "y": 2928,
+      "f": "0_15246"
+    }
+  },
+  {
+    "rowNumber": 2208,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2208",
+    "destination": {
+      "plane": 0,
+      "x": 2355,
+      "y": 3848,
+      "f": "0_10766"
+    }
+  },
+  {
+    "rowNumber": 2209,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2209",
+    "destination": {
+      "plane": 0,
+      "x": 3186,
+      "y": 2720,
+      "f": "0_18249"
+    }
+  },
+  {
+    "rowNumber": 2210,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2210",
+    "destination": {
+      "plane": 0,
+      "x": 3217,
+      "y": 3499,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2211,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2211",
+    "destination": {
+      "plane": 0,
+      "x": 3232,
+      "y": 3460,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2212,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2212",
+    "destination": {
+      "plane": 0,
+      "x": 3015,
+      "y": 3394,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2213,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2213",
+    "destination": {
+      "plane": 0,
+      "x": 3047,
+      "y": 3326,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2214,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2214",
+    "destination": {
+      "plane": 0,
+      "x": 2938,
+      "y": 3428,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2215,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2215",
+    "destination": {
+      "plane": 0,
+      "x": 2623,
+      "y": 3307,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2216,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2216",
+    "destination": {
+      "plane": 0,
+      "x": 2594,
+      "y": 3112,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2217,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2217",
+    "destination": {
+      "plane": 0,
+      "x": 2429,
+      "y": 3062,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2218,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2218",
+    "destination": {
+      "plane": 1,
+      "x": 2241,
+      "y": 3375,
+      "f": "1_4942"
+    }
+  },
+  {
+    "rowNumber": 2219,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2219",
+    "destination": {
+      "plane": 0,
+      "x": 2932,
+      "y": 3026,
+      "f": "0_16617"
+    }
+  },
+  {
+    "rowNumber": 2220,
+    "groupName": "Nature's sentinel outfit",
+    "no-repeat-key": "2220",
+    "destination": {
+      "plane": 0,
+      "x": 2949,
+      "y": 2977,
+      "f": "0_16617"
+    }
+  },
+  {
+    "rowNumber": 2272,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2272",
+    "destination": {
+      "plane": 0,
+      "x": 4317,
+      "y": 822,
+      "f": "0_24827"
+    }
+  },
+  {
+    "rowNumber": 2273,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2273",
+    "destination": {
+      "plane": 0,
+      "x": 2094,
+      "y": 11352,
+      "f": "0_9106"
+    }
+  },
+  {
+    "rowNumber": 2274,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2274",
+    "destination": {
+      "plane": 0,
+      "x": 3372,
+      "y": 3877,
+      "f": "0_19916"
+    }
+  },
+  {
+    "rowNumber": 2275,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2275",
+    "destination": {
+      "plane": 0,
+      "x": 3510,
+      "y": 3691,
+      "f": "0_20009"
+    }
+  },
+  {
+    "rowNumber": 2276,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2276",
+    "destination": {
+      "plane": 0,
+      "x": 3742,
+      "y": 6428,
+      "f": "0_22439"
+    }
+  },
+  {
+    "rowNumber": 2277,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2277",
+    "destination": {
+      "plane": 3,
+      "x": 3104,
+      "y": 3021,
+      "f": "3_970"
+    }
+  },
+  {
+    "rowNumber": 2278,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2278",
+    "destination": {
+      "plane": 0,
+      "x": 1373,
+      "y": 5640,
+      "f": "0_6250"
+    }
+  },
+  {
+    "rowNumber": 2280,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2280",
+    "destination": {
+      "plane": 0,
+      "x": 3450,
+      "y": 3728,
+      "f": "0_20009"
+    }
+  },
+  {
+    "rowNumber": 2281,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2281",
+    "destination": {
+      "plane": 0,
+      "x": 2074,
+      "y": 6946,
+      "f": "0_9125"
+    }
+  },
+  {
+    "rowNumber": 2283,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2283",
+    "destination": {
+      "plane": 0,
+      "x": 2993,
+      "y": 9679,
+      "f": "0_17283"
+    }
+  },
+  {
+    "rowNumber": 2284,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2284",
+    "destination": {
+      "plane": 0,
+      "x": 1689,
+      "y": 5600,
+      "f": "0_7420"
+    }
+  },
+  {
+    "rowNumber": 2285,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2285",
+    "destination": {
+      "plane": 0,
+      "x": 4600,
+      "y": 5062,
+      "f": "0_26111"
+    }
+  },
+  {
+    "rowNumber": 2286,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2286",
+    "destination": {
+      "plane": 0,
+      "x": 2993,
+      "y": 9679,
+      "f": "0_17283"
+    }
+  },
+  {
+    "rowNumber": 2287,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2287",
+    "destination": {
+      "plane": 0,
+      "x": 3119,
+      "y": 3517,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2288,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2288",
+    "destination": {
+      "plane": 0,
+      "x": 2208,
+      "y": 4949,
+      "f": "0_9703"
+    }
+  },
+  {
+    "rowNumber": 2289,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2289",
+    "destination": {
+      "plane": 0,
+      "x": 2645,
+      "y": 2678,
+      "f": "0_13744"
+    }
+  },
+  {
+    "rowNumber": 2290,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2290",
+    "destination": {
+      "plane": 0,
+      "x": 2663,
+      "y": 3161,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2291,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2291",
+    "destination": {
+      "plane": 0,
+      "x": 3039,
+      "y": 4964,
+      "f": "0_17810"
+    }
+  },
+  {
+    "rowNumber": 2292,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2292",
+    "destination": {
+      "plane": 0,
+      "x": 3506,
+      "y": 3317,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 2293,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2293",
+    "destination": {
+      "plane": 2,
+      "x": 1698,
+      "y": 5464,
+      "f": "2_340"
+    }
+  },
+  {
+    "rowNumber": 2294,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2294",
+    "destination": {
+      "plane": 0,
+      "x": 3814,
+      "y": 3022,
+      "f": "0_22091"
+    }
+  },
+  {
+    "rowNumber": 2295,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2295",
+    "destination": {
+      "plane": 0,
+      "x": 1637,
+      "y": 4707,
+      "f": "0_7158"
+    }
+  },
+  {
+    "rowNumber": 2296,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2296",
+    "destination": {
+      "plane": 0,
+      "x": 3700,
+      "y": 3418,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 2297,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2297",
+    "destination": {
+      "plane": 2,
+      "x": 2884,
+      "y": 4373,
+      "f": "2_1424"
+    }
+  },
+  {
+    "rowNumber": 2298,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2298",
+    "destination": {
+      "plane": 0,
+      "x": 2546,
+      "y": 3758,
+      "f": "0_12328"
+    }
+  },
+  {
+    "rowNumber": 2299,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2299",
+    "destination": {
+      "plane": 0,
+      "x": 2989,
+      "y": 3380,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2300,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2300",
+    "destination": {
+      "plane": 0,
+      "x": 2884,
+      "y": 3668,
+      "f": "0_15895"
+    }
+  },
+  {
+    "rowNumber": 2301,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2301",
+    "destination": {
+      "plane": 1,
+      "x": 3276,
+      "y": 7051,
+      "f": "1_10021"
+    }
+  },
+  {
+    "rowNumber": 2302,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2302",
+    "destination": {
+      "plane": 1,
+      "x": 3266,
+      "y": 6907,
+      "f": "1_10021"
+    }
+  },
+  {
+    "rowNumber": 2303,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2303",
+    "destination": {
+      "plane": 0,
+      "x": 3232,
+      "y": 2857,
+      "f": "0_17904"
+    }
+  },
+  {
+    "rowNumber": 2304,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2304",
+    "destination": {
+      "plane": 0,
+      "x": 3227,
+      "y": 3103,
+      "f": "0_17904"
+    }
+  },
+  {
+    "rowNumber": 2305,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2305",
+    "destination": {
+      "plane": 0,
+      "x": 3051,
+      "y": 3518,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2306,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2306",
+    "destination": {
+      "plane": 0,
+      "x": 2884,
+      "y": 3668,
+      "f": "0_15895"
+    }
+  },
+  {
+    "rowNumber": 2307,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2307",
+    "destination": {
+      "plane": 1,
+      "x": 3131,
+      "y": 7044,
+      "f": "1_10021"
+    }
+  },
+  {
+    "rowNumber": 2308,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2308",
+    "destination": {
+      "plane": 1,
+      "x": 3122,
+      "y": 6901,
+      "f": "1_10021"
+    }
+  },
+  {
+    "rowNumber": 2310,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2310",
+    "destination": {
+      "plane": 0,
+      "x": 2444,
+      "y": 3088,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2311,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2311",
+    "destination": {
+      "plane": 0,
+      "x": 2968,
+      "y": 9699,
+      "f": "0_17283"
+    }
+  },
+  {
+    "rowNumber": 2312,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2312",
+    "destination": {
+      "plane": 0,
+      "x": 1890,
+      "y": 3177,
+      "f": "0_8285"
+    }
+  },
+  {
+    "rowNumber": 2313,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2313",
+    "destination": {
+      "plane": 0,
+      "x": 2649,
+      "y": 2648,
+      "f": "0_13744"
+    }
+  },
+  {
+    "rowNumber": 2314,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2314",
+    "destination": {
+      "plane": 0,
+      "x": 1940,
+      "y": 4961,
+      "f": "0_8602"
+    }
+  },
+  {
+    "rowNumber": 2315,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2315",
+    "destination": {
+      "plane": 0,
+      "x": 2949,
+      "y": 3419,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2316,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2316",
+    "destination": {
+      "plane": 0,
+      "x": 3540,
+      "y": 3307,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 2318,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2318",
+    "destination": {
+      "plane": 0,
+      "x": 2533,
+      "y": 3571,
+      "f": "0_12548"
+    }
+  },
+  {
+    "rowNumber": 2319,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2319",
+    "destination": {
+      "plane": 0,
+      "x": 2972,
+      "y": 3428,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2321,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2321",
+    "destination": {
+      "plane": 0,
+      "x": 2994,
+      "y": 9700,
+      "f": "0_17283"
+    }
+  },
+  {
+    "rowNumber": 2355,
+    "groupName": "Modified skilling outfits",
+    "no-repeat-key": "2355",
+    "destination": {
+      "plane": 0,
+      "x": 3598,
+      "y": 3523,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 2356,
+    "groupName": "Modified skilling outfits",
+    "no-repeat-key": "2356",
+    "destination": {
+      "plane": 0,
+      "x": 2933,
+      "y": 3290,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2357,
+    "groupName": "Modified skilling outfits",
+    "no-repeat-key": "2357",
+    "destination": {
+      "plane": 0,
+      "x": 3033,
+      "y": 3339,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2358,
+    "groupName": "Modified skilling outfits",
+    "no-repeat-key": "2358",
+    "destination": {
+      "plane": 0,
+      "x": 1923,
+      "y": 5987,
+      "f": "0_8369"
+    }
+  },
+  {
+    "rowNumber": 2359,
+    "groupName": "Modified skilling outfits",
+    "no-repeat-key": "2359",
+    "destination": {
+      "plane": 0,
+      "x": 2790,
+      "y": 3463,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2360,
+    "groupName": "Modified skilling outfits",
+    "no-repeat-key": "2360",
+    "destination": {
+      "plane": 0,
+      "x": 3143,
+      "y": 3441,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2361,
+    "groupName": "Modified skilling outfits",
+    "no-repeat-key": "2361",
+    "destination": {
+      "plane": 0,
+      "x": 2523,
+      "y": 3061,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2365,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2365",
+    "destination": {
+      "plane": 0,
+      "x": 2279,
+      "y": 4509,
+      "f": "0_10189"
+    }
+  },
+  {
+    "rowNumber": 2366,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2366",
+    "destination": {
+      "plane": 0,
+      "x": 3226,
+      "y": 3148,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2367,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2367",
+    "destination": {
+      "plane": 0,
+      "x": 2279,
+      "y": 4509,
+      "f": "0_10189"
+    }
+  },
+  {
+    "rowNumber": 2368,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2368",
+    "destination": {
+      "plane": 0,
+      "x": 3226,
+      "y": 3148,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2369,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2369",
+    "destination": {
+      "plane": 0,
+      "x": 3146,
+      "y": 3147,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2370,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2370",
+    "destination": {
+      "plane": 0,
+      "x": 3181,
+      "y": 3368,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2371,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2371",
+    "destination": {
+      "plane": 0,
+      "x": 3299,
+      "y": 3303,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2372,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2372",
+    "destination": {
+      "plane": 0,
+      "x": 2926,
+      "y": 3338,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2373,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2373",
+    "destination": {
+      "plane": 0,
+      "x": 3299,
+      "y": 3303,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2374,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2374",
+    "destination": {
+      "plane": 0,
+      "x": 3001,
+      "y": 3237,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2375,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2375",
+    "destination": {
+      "plane": 0,
+      "x": 2699,
+      "y": 3332,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2376,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2376",
+    "destination": {
+      "plane": 0,
+      "x": 3288,
+      "y": 3364,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2377,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2377",
+    "destination": {
+      "plane": 0,
+      "x": 3001,
+      "y": 3237,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2378,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2378",
+    "destination": {
+      "plane": 0,
+      "x": 3322,
+      "y": 2874,
+      "f": "0_17904"
+    }
+  },
+  {
+    "rowNumber": 2379,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2379",
+    "destination": {
+      "plane": 0,
+      "x": 2628,
+      "y": 3142,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2380,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2380",
+    "destination": {
+      "plane": 0,
+      "x": 2860,
+      "y": 9576,
+      "f": "0_15970"
+    }
+  },
+  {
+    "rowNumber": 2381,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2381",
+    "destination": {
+      "plane": 0,
+      "x": 2581,
+      "y": 3265,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2382,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2382",
+    "destination": {
+      "plane": 0,
+      "x": 2452,
+      "y": 3448,
+      "f": "0_11221"
+    }
+  },
+  {
+    "rowNumber": 2383,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2383",
+    "destination": {
+      "plane": 0,
+      "x": 2495,
+      "y": 3178,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2384,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2384",
+    "destination": {
+      "plane": 0,
+      "x": 2632,
+      "y": 3224,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2385,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2385",
+    "destination": {
+      "plane": 0,
+      "x": 3119,
+      "y": 3245,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2386,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2386",
+    "destination": {
+      "plane": 0,
+      "x": 3294,
+      "y": 3489,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2387,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2387",
+    "destination": {
+      "plane": 0,
+      "x": 2482,
+      "y": 3157,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2388,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2388",
+    "destination": {
+      "plane": 0,
+      "x": 2649,
+      "y": 2958,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2389,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2389",
+    "destination": {
+      "plane": 0,
+      "x": 2702,
+      "y": 3297,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2390,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2390",
+    "destination": {
+      "plane": 0,
+      "x": 3025,
+      "y": 3170,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2391,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2391",
+    "destination": {
+      "plane": 0,
+      "x": 2917,
+      "y": 3298,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2392,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2392",
+    "destination": {
+      "plane": 0,
+      "x": 3086,
+      "y": 3232,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2393,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2393",
+    "destination": {
+      "plane": 0,
+      "x": 2610,
+      "y": 3502,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2394,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2394",
+    "destination": {
+      "plane": 0,
+      "x": 2703,
+      "y": 3592,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2395,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2395",
+    "destination": {
+      "plane": 0,
+      "x": 2748,
+      "y": 3466,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2396,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2396",
+    "destination": {
+      "plane": 0,
+      "x": 2654,
+      "y": 3523,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2397,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2397",
+    "destination": {
+      "plane": 0,
+      "x": 2714,
+      "y": 3368,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2398,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2398",
+    "destination": {
+      "plane": 0,
+      "x": 2582,
+      "y": 3598,
+      "f": "0_12342"
+    }
+  },
+  {
+    "rowNumber": 2399,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2399",
+    "destination": {
+      "plane": 0,
+      "x": 3511,
+      "y": 3072,
+      "f": "0_17904"
+    }
+  },
+  {
+    "rowNumber": 2400,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2400",
+    "destination": {
+      "plane": 0,
+      "x": 2331,
+      "y": 3047,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2401,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2401",
+    "destination": {
+      "plane": 0,
+      "x": 2774,
+      "y": 2699,
+      "f": "0_14580"
+    }
+  },
+  {
+    "rowNumber": 2402,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2402",
+    "destination": {
+      "plane": 0,
+      "x": 2364,
+      "y": 3064,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2403,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2403",
+    "destination": {
+      "plane": 0,
+      "x": 2603,
+      "y": 2974,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2404,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2404",
+    "destination": {
+      "plane": 0,
+      "x": 2515,
+      "y": 2865,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2405,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2405",
+    "destination": {
+      "plane": 0,
+      "x": 2440,
+      "y": 2859,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2406,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2406",
+    "destination": {
+      "plane": 0,
+      "x": 3248,
+      "y": 3202,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2407,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2407",
+    "destination": {
+      "plane": 0,
+      "x": 2218,
+      "y": 3138,
+      "f": "0_9778"
+    }
+  },
+  {
+    "rowNumber": 2408,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2408",
+    "destination": {
+      "plane": 0,
+      "x": 2317,
+      "y": 3604,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2409,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2409",
+    "destination": {
+      "plane": 0,
+      "x": 3256,
+      "y": 3362,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2410,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2410",
+    "destination": {
+      "plane": 0,
+      "x": 2733,
+      "y": 3336,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2411,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2411",
+    "destination": {
+      "plane": 0,
+      "x": 2711,
+      "y": 3462,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2412,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2412",
+    "destination": {
+      "plane": 0,
+      "x": 3305,
+      "y": 3467,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2413,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2413",
+    "destination": {
+      "plane": 0,
+      "x": 2694,
+      "y": 3428,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2414,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2414",
+    "destination": {
+      "plane": 0,
+      "x": 2287,
+      "y": 3140,
+      "f": "0_10401"
+    }
+  },
+  {
+    "rowNumber": 2415,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2415",
+    "destination": {
+      "plane": 0,
+      "x": 2438,
+      "y": 3410,
+      "f": "0_11221"
+    }
+  },
+  {
+    "rowNumber": 2416,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2416",
+    "destination": {
+      "plane": 0,
+      "x": 3372,
+      "y": 3312,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2417,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2417",
+    "destination": {
+      "plane": 0,
+      "x": 2493,
+      "y": 3416,
+      "f": "0_11221"
+    }
+  },
+  {
+    "rowNumber": 2418,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2418",
+    "destination": {
+      "plane": 0,
+      "x": 3100,
+      "y": 3217,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2419,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2419",
+    "destination": {
+      "plane": 0,
+      "x": 2937,
+      "y": 3228,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2420,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2420",
+    "destination": {
+      "plane": 0,
+      "x": 2733,
+      "y": 3402,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2421,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2421",
+    "destination": {
+      "plane": 0,
+      "x": 2432,
+      "y": 3459,
+      "f": "0_11221"
+    }
+  },
+  {
+    "rowNumber": 2422,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2422",
+    "destination": {
+      "plane": 0,
+      "x": 3093,
+      "y": 3451,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2423,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2423",
+    "destination": {
+      "plane": 0,
+      "x": 3053,
+      "y": 3320,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2424,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2424",
+    "destination": {
+      "plane": 0,
+      "x": 2316,
+      "y": 3603,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2425,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2425",
+    "destination": {
+      "plane": 0,
+      "x": 2571,
+      "y": 3058,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2426,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2426",
+    "destination": {
+      "plane": 0,
+      "x": 2706,
+      "y": 3668,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2427,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2427",
+    "destination": {
+      "plane": 0,
+      "x": 2785,
+      "y": 3463,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2428,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2428",
+    "destination": {
+      "plane": 0,
+      "x": 3215,
+      "y": 3083,
+      "f": "0_17904"
+    }
+  },
+  {
+    "rowNumber": 2429,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2429",
+    "destination": {
+      "plane": 0,
+      "x": 3406,
+      "y": 2886,
+      "f": "0_17904"
+    }
+  },
+  {
+    "rowNumber": 2430,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2430",
+    "destination": {
+      "plane": 0,
+      "x": 2532,
+      "y": 9466,
+      "f": "0_12601"
+    }
+  },
+  {
+    "rowNumber": 2431,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2431",
+    "destination": {
+      "plane": 0,
+      "x": 3177,
+      "y": 9885,
+      "f": "0_18640"
+    }
+  },
+  {
+    "rowNumber": 2432,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2432",
+    "destination": {
+      "plane": 0,
+      "x": 3126,
+      "y": 9951,
+      "f": "0_18239"
+    }
+  },
+  {
+    "rowNumber": 2433,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2433",
+    "destination": {
+      "plane": 0,
+      "x": 2419,
+      "y": 3508,
+      "f": "0_11221"
+    }
+  },
+  {
+    "rowNumber": 2434,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2434",
+    "destination": {
+      "plane": 0,
+      "x": 3218,
+      "y": 3191,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2435,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2435",
+    "destination": {
+      "plane": 0,
+      "x": 3466,
+      "y": 3402,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 2436,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2436",
+    "destination": {
+      "plane": 0,
+      "x": 2905,
+      "y": 3392,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2437,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2437",
+    "destination": {
+      "plane": 0,
+      "x": 3217,
+      "y": 3810,
+      "f": "0_18821"
+    }
+  },
+  {
+    "rowNumber": 2438,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2438",
+    "destination": {
+      "plane": 0,
+      "x": 2257,
+      "y": 3167,
+      "f": "0_10152"
+    }
+  },
+  {
+    "rowNumber": 2439,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2439",
+    "destination": {
+      "plane": 0,
+      "x": 2905,
+      "y": 9805,
+      "f": "0_15831"
+    }
+  },
+  {
+    "rowNumber": 2440,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2440",
+    "destination": {
+      "plane": 0,
+      "x": 3415,
+      "y": 9484,
+      "f": "0_20090"
+    }
+  },
+  {
+    "rowNumber": 2441,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2441",
+    "destination": {
+      "plane": 0,
+      "x": 2953,
+      "y": 3474,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2442,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2442",
+    "destination": {
+      "plane": 0,
+      "x": 2907,
+      "y": 3293,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2443,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2443",
+    "destination": {
+      "plane": 0,
+      "x": 2544,
+      "y": 3758,
+      "f": "0_12328"
+    }
+  },
+  {
+    "rowNumber": 2444,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2444",
+    "destination": {
+      "plane": 0,
+      "x": 2512,
+      "y": 3081,
+      "f": "0_12363"
+    }
+  },
+  {
+    "rowNumber": 2445,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2445",
+    "destination": {
+      "plane": 0,
+      "x": 2987,
+      "y": 3180,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2446,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2446",
+    "destination": {
+      "plane": 0,
+      "x": 3241,
+      "y": 3160,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2447,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2447",
+    "destination": {
+      "plane": 0,
+      "x": 3089,
+      "y": 3233,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2448,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2448",
+    "destination": {
+      "plane": 0,
+      "x": 3102,
+      "y": 3429,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2449,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2449",
+    "destination": {
+      "plane": 0,
+      "x": 3240,
+      "y": 3249,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2450,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2450",
+    "destination": {
+      "plane": 0,
+      "x": 2685,
+      "y": 3597,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2451,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2451",
+    "destination": {
+      "plane": 0,
+      "x": 3255,
+      "y": 3206,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2452,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2452",
+    "destination": {
+      "plane": 0,
+      "x": 2987,
+      "y": 3180,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2453,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2453",
+    "destination": {
+      "plane": 0,
+      "x": 3089,
+      "y": 3233,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2454,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2454",
+    "destination": {
+      "plane": 0,
+      "x": 3240,
+      "y": 3249,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2455,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2455",
+    "destination": {
+      "plane": 0,
+      "x": 3102,
+      "y": 3429,
+      "f": "0_15883"
+    }
+  },
+  {
+    "rowNumber": 2456,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2456",
+    "destination": {
+      "plane": 0,
+      "x": 2476,
+      "y": 3154,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2457,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2457",
+    "destination": {
+      "plane": 0,
+      "x": 2563,
+      "y": 3368,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2458,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2458",
+    "destination": {
+      "plane": 0,
+      "x": 2645,
+      "y": 3446,
+      "f": "0_9594"
+    }
+  },
+  {
+    "rowNumber": 2459,
+    "groupName": "Resource locator (random destination for each resource)",
+    "no-repeat-key": "2459",
+    "destination": {
+      "plane": 0,
+      "x": 2925,
+      "y": 3174,
+      "f": "0_15797"
+    }
+  },
+  {
+    "rowNumber": 4285,
+    "groupName": "Dungeon entrances",
+    "no-repeat-key": "4285",
+    "destination": {
+      "plane": 0,
+      "x": 3434,
+      "y": 3531,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 4302,
+    "groupName": "Dungeon entrances",
+    "no-repeat-key": "4302",
+    "destination": {
+      "plane": 0,
+      "x": 3580,
+      "y": 3268,
+      "f": "0_20101"
+    }
+  },
+  {
+    "rowNumber": 779,
+    "groupName": "Portable fairy ring",
+    "no-repeat-key": "779",
+    "destination": {
+      "plane": 1,
+      "x": 2130,
+      "y": 3369,
+      "f": "1_5079"
+    }
+  },
+  {
+    "rowNumber": 2313,
+    "groupName": "Grouping System",
+    "no-repeat-key": "2313",
+    "destination": {
+      "plane": 0,
+      "x": 2649,
+      "y": 2648,
+      "f": "0_14012"
+    }
+  }
+]
