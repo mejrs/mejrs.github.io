@@ -830,7 +830,8 @@ L.Teleports = L.Layer.extend({
                 const dataPromise = fetch(`https://sheets.googleapis.com/v4/spreadsheets/${this.options.SHEET_ID}/values/A:Z?key=${this.options.API_KEY}`)
                     .then(response => response.ok ? response.json().then(sheet => sheet.values) : response.json().then(oopsie => Promise.reject(new Error(oopsie.error.message)).then(() => {}, console.error)));
 
-                const wateryPromise = fetch('../mejrs.github.io/data/keyed_watery.json').then(response => response.json());
+                const wateryPromise = fetch('../mejrs.github.io/data/keyed_watery.json').then(response => response.ok ? response.json() : Promise.reject(new Error(response.status + " Error fetching " + response.url))).catch(console.error);
+				
 
                 const allData = Promise.all([dataPromise, wateryPromise]);
 
@@ -844,9 +845,7 @@ L.Teleports = L.Layer.extend({
                     }
                 });
 
-                allData.catch(error => {
-                    console.error(error.message)
-                });
+                allData.catch(console.error);
 
             } else {
                 throw new Error("No API_KEY and/or SHEET_ID specified");
