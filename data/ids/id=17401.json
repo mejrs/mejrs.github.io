@@ -1,1 +1,1 @@
-{"properties": {"id": 17402}, "uniques": [{"id": 17401, "t": 10, "r": 0, "o": {"p": 1, "i": 43, "j": 50, "x": 10, "y": 38}}]}
+{"properties": {"actions": ["Cross"], "unk_19": 1, "unk_22": true, "models": [{"type": 10, "values": [1844]}], "name": "Gangplank", "action_cursors": [181], "occludes_2": false, "id": 17401}, "uniques": [{"id": 17401, "t": 10, "r": 0, "o": {"p": 1, "i": 43, "j": 50, "x": 10, "y": 38}}]}
