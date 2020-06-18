@@ -1,0 +1,108 @@
+.leaflet-control-navigator{
+	background: #ddd;
+	background-clip: padding-box;
+	padding: 5px 5px;
+	border-radius: 5px;
+	color: #333;
+	border: 2px;
+	font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+	overflow-y:scroll;
+	max-height:600px;
+}
+
+.leaflet-control-navigator-hide{
+	background: #fff;
+	border-radius: 5px;
+	float:left;
+	display: block;
+	margin-right: 5px;
+	height: 100%;
+}
+
+.leaflet-control-navigator-content{
+
+	float:right;
+	display: block;
+}
+
+
+.leaflet-control-navigator > * {
+    display: block;
+    margin-top: 5px;
+}
+
+.leaflet-control-navigator > *:first-child {
+    margin-top: 0px;
+}
+
+.leaflet-control-navigator-map{
+	 border-radius: 5px;
+	 background: #000000;
+	
+}
+
+
+.leaflet-control-navigator-panel{
+		background: #fff;
+	border-radius: 5px;
+}
+			
+.leaflet-control-navigator-title{}
+
+.leaflet-control-navigator-description{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.leaflet-control-message-container{
+	position: relative;
+	top: 5px;
+	pointer-events: none;
+	z-index:1337;
+	
+}
+
+.leaflet-control-message-box {
+
+	float:top;
+	position: relative;
+	left: 50%;
+	display: table;
+	transform: translate(-50%, 0%);
+	background: #fff;
+	background-clip: padding-box;
+	padding: 5px 5px;
+	margin-left: 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+	font: 20px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.leaflet-control-message-content{
+	position: relative;
+	display: inline-block;
+	
+}
+
+.leaflet-control-message-clear{
+	position: relative;
+	margin-left: 5px;
+	color: grey;
+	display: inline-block;
+	pointer-events: auto;
+}

@@ -14,6 +14,196 @@ L.Navigator = L.Control.extend({
 
         onAdd: function (map) {
             this._map = map;
+            this._container = L.DomUtil.create('div', 'leaflet-control-navigator');
+            L.DomEvent.disableClickPropagation(this._container);
+            L.DomEvent.disableScrollPropagation(this._container);
+            this._container.innerHTML = this.options.emptyString;
+
+            this.makePath();
+            return this._container;
+        },
+
+        makePath: function () {
+            fetch(this.options.dataUrl)
+            .then(res => res.ok ? res.json() : new Error(res))
+            .then(solution => {
+
+                this.drawPath.bind(this)(solution);
+                this.drawNavigationPanels.bind(this)(solution);
+            })
+            .catch(console.error);
+        },
+
+        drawNavigationPanels: function (solution) {
+            this._container.innerHTML = "";
+
+            let hide = L.DomUtil.create('div', 'leaflet-control-navigator-hide');
+            hide.innerHTML = "collapse <br> > <br> > <br> > <br> > <br> >";
+            this._container.appendChild(hide);
+
+            let content = L.DomUtil.create('div', 'leaflet-control-navigator-content');
+            let navigationPanels = Promise.all(solution.route.map(this.drawPanel.bind(this)))
+                .then(panels => panels.forEach(panel => {
+                        content.appendChild(panel)
+                    }));
+
+            hide.onclick = () => {
+                if (content.style.display !== "none") {
+                    content.style.display = "none";
+					hide.innerHTML = "show <br> < <br> < <br> < <br> < <br> <";
+                }else{
+					content.style.display = "block";
+					hide.innerHTML = "collapse <br> > <br> > <br> > <br> > <br> >";
+				}
+            };
+
+            this._container.appendChild(content);
+
+        },
+
+        drawPanel: async function (path) {
+            let panel = L.DomUtil.create('div', 'leaflet-control-navigator-panel');
+
+            let title = L.DomUtil.create('p', 'leaflet-control-navigator-title');
+            title.innerHTML = path.title;
+            panel.appendChild(title);
+
+            let description = L.DomUtil.create('p', 'leaflet-control-navigator-description');
+            description.innerHTML = path.description;
+            panel.appendChild(description);
+
+            if (path.requirements) {
+                let requirements = L.DomUtil.create('p', 'leaflet-control-navigator-requirements');
+                requirements.innerHTML = path.requirements;
+                panel.appendChild(requirements);
+            }
+
+            let minimap = await this.drawCanvas(path);
+            panel.appendChild(minimap);
+
+            return panel;
+        },
+
+        drawCanvas: async function (path) {
+
+            let canvas = document.createElement('canvas');
+            let ctx = canvas.getContext('2d');
+
+            canvas.className = "leaflet-control-navigator-map";
+            canvas.height = 256;
+            canvas.width = 256;
+
+            var boundingBox = L.bounds(path.coords);
+            let pathCenter = boundingBox.getCenter();
+            let size = boundingBox.getSize();
+
+            let canvasZoom = 7 - Math.trunc(Math.log2(Math.max(16, size.x, size.y)));
+            let gameTilesInCanvas = 256 * 2 ** -canvasZoom;
+
+            let originTileX = (pathCenter.x - 128 * 2 ** -canvasZoom) >> (8 - canvasZoom);
+            let originTileY = (pathCenter.y - 128 * 2 ** -canvasZoom) >> (8 - canvasZoom);
+
+            let canvasCenter = {
+                x: (originTileX + 1) << (8 - canvasZoom),
+                y: (originTileY + 1) << (8 - canvasZoom)
+            };
+
+            let canvasOffsetX = Math.trunc((pathCenter.x - canvasCenter.x) * (256 / gameTilesInCanvas));
+            let canvasOffsetY = Math.trunc((pathCenter.y - canvasCenter.y) * (256 / gameTilesInCanvas));
+
+            let iter = [[0, 0], [0, 1], [1, 0], [1, 1]];
+            let tiles = await Promise.all(iter.map(offset => L.Util.template(this.options.tileUrl, {
+                            zoom: canvasZoom,
+                            plane: path.coords[0].z,
+                            x: originTileX + offset[0],
+                            y: originTileY + offset[1],
+                        })).map(this.getImage.bind(this)));
+
+            for (const[[di, dj], tile]of(iter.map((k, i) => [k, tiles[i]]))) {
+                //map tiles are 256px
+                ctx.drawImage(tile, 256 * di - 128 - canvasOffsetX, -256 * dj + 128 + canvasOffsetY);
+            }
+
+            let localCanvasTransform = this.canvasTransform(pathCenter, canvasZoom);
+            ctx.fillStyle = "red";
+
+            for (const coordinate of path.coords) {
+                let {
+                    cx,
+                    cy,
+                    dotSize,
+                } = localCanvasTransform(coordinate);
+
+                ctx.fillRect(cx, cy, dotSize, dotSize);
+            }
+
+            canvas.onclick = () => {
+                this._map.setPlane(path.coords[0].z);
+                this._map.setView([pathCenter.y, pathCenter.x], canvasZoom + 1);
+            };
+            canvas.title = "Navigate to this path section.";
+            return canvas;
+        },
+
+        canvasTransform: function (pathCenter, canvasZoom) {
+            return function (coordinate) {
+                let cx = 128 + (coordinate.x - pathCenter.x) * 2 ** canvasZoom;
+                let cy = 128 - (1 + coordinate.y - pathCenter.y) * 2 ** canvasZoom;
+                let dotSize = 4
+                    return {
+                    cx: cx,
+                    cy: cy,
+                    dotSize: dotSize,
+                }
+            }
+        },
+
+        getImage: function (url) {
+            return new Promise((resolve, reject) => {
+                let img = new Image();
+                img.onload = () => resolve(img);
+                img.onerror = () => resolve(new Image());
+                img.src = url;
+            })
+        },
+
+        getErrorTile: function () {
+            return Promise.resolve();
+        },
+
+        path: [],
+
+        drawPath: function (solution) {
+            solution.route.forEach(route_section => {
+                let latlngs = route_section.coords.map(coord => [coord.y + 0.5, coord.x + 0.5]);
+                let section = L.polyline(latlngs, {
+                        color: 'red'
+                    }).addTo(this._map);
+                this.path.push(section);
+            });
+        },
+
+    });
+
+L.navigator = function (options) {
+    return new L.Navigator(options);
+}
+
+L.DynamicNavigator = L.Navigator.extend({
+        initialize: function (options) {
+            L.setOptions(this, options);
+
+            //CSS Transform not supported (for centering messages)
+            if (L.Browser.ielt9) {
+                this.options.messageBox = false;
+            }
+
+            this._map = null;
+
+        },
+
+        onAdd: function (map) {
+            this._map = map;
             this.initMarkers(map);
             this._container = L.DomUtil.create('div', 'leaflet-control-navigator');
             L.DomEvent.disableClickPropagation(this._container);
@@ -24,15 +214,15 @@ L.Navigator = L.Control.extend({
                 this._messageContainer = L.DomUtil.create('div', 'leaflet-control-message-container');
                 map._controlContainer.appendChild(this._messageContainer);
             }
+
             if (this.options.shadowTileUrl) {
                 this.shadowLayer = L.tileLayer.main(this.options.shadowTileUrl, {
                         source: 'shadow_squares',
                         minZoom: -4,
                         maxNativeZoom: 2,
                         maxZoom: 5,
-						errorTileUrl: this.options.shadowErrorTileUrl,
+                        errorTileUrl: this.options.shadowErrorTileUrl,
                     });
-
             }
 
             this.updatePath();
@@ -95,10 +285,10 @@ L.Navigator = L.Control.extend({
                 this.path.forEach(section => section.remove());
             };
             this.path = [];
-            this.calculatePath();
+            this.getPath();
         },
 
-        calculatePath: function () {
+        getPath: function () {
             let start = this.startMarker.getLatLng();
             let startPlane = this.startMarker.getOldPlane();
 
@@ -111,9 +301,9 @@ L.Navigator = L.Control.extend({
             Promise.all([startFeaturePromise, endFeaturePromise])
             .then(features => {
                 if (features[0] && features[1]) {
-                    this.options.algorithm(startPlane, start.lng, start.lat, features[0], endPlane, end.lng, end.lat, features[1]).then(paths => {
-                        this.drawPath.bind(this)(paths);
-                        this.drawMaps.bind(this)(paths);
+                    this.options.algorithm(startPlane, start.lng, start.lat, features[0], endPlane, end.lng, end.lat, features[1]).then(solution => {
+                        this.drawPath.bind(this)(solution);
+                        this.drawNavigationPanels.bind(this)(solution);
                     }).catch(err => {
                         this.addMessage(err);
                         console.error(err)
@@ -126,118 +316,10 @@ L.Navigator = L.Control.extend({
 
         },
 
-        drawMaps: function (paths) {
-            this._container.innerHTML = "";
-            let minimaps = Promise.all(paths.map(this.drawMap.bind(this)))
-                .then(minimaps => minimaps.forEach(minimap => {
-                        this._container.appendChild(minimap)
-                    }));
-
-        },
-
-        drawMap: async function (path) {
-            var canvas = document.createElement('canvas');
-            let ctx = canvas.getContext('2d');
-
-            canvas.className = "leaflet-control-navigator-map";
-            canvas.height = 256;
-            canvas.width = 256;
-
-            var boundingBox = L.latLngBounds(path.solution).pad(0.05);
-            let pathCenter = boundingBox.getCenter();
-            let dimX = Math.floor(boundingBox.getEast() - boundingBox.getWest());
-            let dimY = Math.floor(boundingBox.getNorth() - boundingBox.getSouth());
-
-            let canvasZoom = 7 - Math.trunc(Math.log2(Math.max(16, dimX, dimY)));
-            let gameTilesInCanvas = 256 * 2 ** -canvasZoom;
-
-            let originTileX = (pathCenter.lng - 128 * 2 ** -canvasZoom) >> (8 - canvasZoom);
-            let originTileY = (pathCenter.lat - 128 * 2 ** -canvasZoom) >> (8 - canvasZoom);
-
-            let canvasCenter = {
-                x: (originTileX + 1) << (8 - canvasZoom),
-                y: (originTileY + 1) << (8 - canvasZoom)
-            };
-
-            let canvasOffsetX = Math.trunc((pathCenter.lng - canvasCenter.x) * (256 / gameTilesInCanvas));
-            let canvasOffsetY = Math.trunc((pathCenter.lat - canvasCenter.y) * (256 / gameTilesInCanvas));
-
-            //console.log(canvasOffsetX, canvasOffsetY);
-
-            let iter = [[0, 0], [0, 1], [1, 0], [1, 1]];
-            let tiles = await Promise.all(iter.map(offset => L.Util.template(this.options.tileUrl, {
-                            zoom: canvasZoom,
-                            plane: path.start.plane,
-                            x: originTileX + offset[0],
-                            y: originTileY + offset[1],
-                        })).map(this.getImage.bind(this)));
-
-            for (const[[di, dj], tile]of(iter.map((k, i) => [k, tiles[i]]))) {
-                //map tiles are 256px
-                ctx.drawImage(tile, 256 * di - 128 - canvasOffsetX, -256 * dj + 128 + canvasOffsetY);
-            }
-
-            let localCanvasTransform = this.canvasTransform(pathCenter, canvasZoom);
-            ctx.fillStyle = "red";
-
-            for (const[lat, lng]of path.solution) {
-                let {
-                    cx,
-                    cy,
-                    dotSize,
-                } = localCanvasTransform(lat, lng);
-
-                ctx.fillRect(cx, cy, dotSize, dotSize);
-            }
-
-            canvas.onclick = () => {
-                this._map.setPlane(path.start.plane);
-                this._map.setView(pathCenter, canvasZoom + 1);
-            };
-            canvas.title = "Navigate to this path section.";
-            return canvas;
-        },
-
-        canvasTransform: function (pathCenter, canvasZoom) {
-            return function (lat, lng) {
-                let cx = 128 + (lng - pathCenter.lng) * 2 ** canvasZoom;
-                let cy = 128 - (lat - pathCenter.lat + 1) * 2 ** canvasZoom;
-                let dotSize = 4
-                    return {
-                    cx: cx,
-                    cy: cy,
-                    dotSize: dotSize,
-                }
-            }
-        },
-
-        getImage: function (url) {
-            return new Promise((resolve, reject) => {
-                let img = new Image();
-                img.onload = () => resolve(img);
-                img.onerror = () => resolve(new Image());
-                img.src = url;
-            })
-        },
-
-        getErrorTile: function () {
-            return Promise.resolve();
-        },
-
-        drawPath: function (paths) {
-            paths.forEach(path => {
-                let latlngs = path.solution.map(latlng => [latlng[0] + 0.5, latlng[1] + 0.5]);
-                let section = L.polyline(latlngs, {
-                        color: 'red'
-                    }).addTo(this._map);
-                this.path.push(section);
-            });
-        },
-
     });
 
-L.navigator = function (options) {
-    return new L.Navigator(options);
+L.dynamicNavigator = function (options) {
+    return new L.DynamicNavigator(options);
 }
 
 L.StartIcon = L.Icon.extend({
@@ -295,18 +377,7 @@ L.Pathfindermarker = L.Marker.extend({
         },
 
         onRemove: function (map) {
-            if (this.dragging && this.dragging.enabled()) {
-                this.options.draggable = true;
-                this.dragging.removeHooks();
-            }
-            delete this.dragging;
-
-            if (this._zoomAnimated) {
-                map.off('zoomanim', this._animateZoom, this);
-            }
-
-            this._removeIcon();
-            this._removeShadow();
+            L.Marker.prototype.remove.call(this);
         },
 
         _feature: undefined,
@@ -347,17 +418,21 @@ L.Pathfindermarker = L.Marker.extend({
         },
 
         dragStart: function (e) {
-			this.options.control.shadowLayer.addTo(this._map);
+            if (this.options.control.shadowLayer) {
+                this.options.control.shadowLayer.addTo(this._map);
+            }
             let dragStartLocation = this.getLatLng();
             this.setOldLatLng(dragStartLocation);
         },
 
         plant: function (e) {
-			this.options.control.shadowLayer.remove();
+            if (this.options.control.shadowLayer) {
+                this.options.control.shadowLayer.remove();
+            }
             let oldLatLng = this.getOldLatLng();
-            let oldPlane = this.getOldPlane()
+            let oldPlane = this.getOldPlane();
 
-                let newLatLng = this.getLatLng();
+            let newLatLng = this.getLatLng();
             let newPlane = this._map.getPlane();
 
             let feature = this.fetchFeature(newPlane, newLatLng).then(feature => {
