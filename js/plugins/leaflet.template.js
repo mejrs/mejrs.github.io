@@ -17,7 +17,7 @@
                 position: 'topleft',
                 id: 'maptemplate',
                 title: '',
-                description: "Press CTRL-C to copy map template syntax using any combination of the variables {x},{y},{plane},{zoom},{mapId}",
+                description: "Press CTRL-C to copy map template syntax",
                 default_value: '{{NPC map|x={x}|y={y}|plane={plane}|mapId={mapId}}}',
                 classes: 'leaflet-control-maptemplate',
                 content: ['<input type="text" class="inputelement" id="mapsyntax" value="', '">'],
