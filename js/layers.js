@@ -1177,7 +1177,11 @@ L.Teleports = L.Layer.extend({
         },
         // converts tile coordinates to key for the tile cache
         _tileCoordsToKey: function (coords) {
-            return coords.plane + ':' + coords.x + ':' + coords.y;
+            try {
+                return coords.plane + ':' + coords.x + ':' + coords.y;
+            } catch {
+                throw new Error("Error parsing " + JSON.stringify(coords))
+            };
 
         },
 
@@ -1579,6 +1583,86 @@ L.CustomParseTeleports = L.Teleports.extend({
             } else {
                 throw new Error("No API_KEY and/or SHEET_ID specified");
             }
+        },
+
+        createIcon: function (item) {
+            let this_controller = this;
+
+            let icon = (item.plane === this._map.getPlane()) ? L.icon({
+                iconUrl: '../mejrs.github.io/images/marker-icon.png',
+                iconSize: [25, 41],
+                iconAnchor: [12, 41],
+                popupAnchor: [1, -34],
+                tooltipAnchor: [16, -28],
+                shadowSize: [41, 41]
+            }) : L.icon({
+                iconUrl: '../mejrs.github.io/images/marker-icon-greyscale.png',
+                iconSize: [25, 41],
+                iconAnchor: [12, 41],
+                popupAnchor: [1, -34],
+                tooltipAnchor: [16, -28],
+                shadowSize: [41, 41]
+            });
+
+            var destinationMarker = L.marker([item.y + 0.4 + 0.2 * Math.random(), item.x + 0.4 + 0.2 * Math.random()], {
+                    icon: icon,
+                    riseOnHover: true
+                });
+
+            let popUpBody = this.createPopupBody(item.mode, this._map, item);
+            destinationMarker.bindPopup(popUpBody);
+
+            if ("start" in item && "destination" in item) {
+                destinationMarker.once('mouseover', function () {
+                    let points = [[item.start.y + 0.5, item.start.x + 0.5], [item.destination.y + 0.5, item.destination.x + 0.5]];
+                    let travel = L.polyline(points, {
+                            color: 'white'
+                        });
+                    this._map.addLayer(travel);
+                    window.setTimeout(function () {
+                        travel.remove()
+                    }, 20000)
+
+                });
+
+                destinationMarker.on('mouseout', function () {
+                    //Prevent mouseover event from firing continuously if/when the icon changes
+                    destinationMarker.once('mouseover', function () {
+                        let points = [[item.start.y + 0.5, item.start.x + 0.5], [item.destination.y + 0.5, item.destination.x + 0.5]];
+                        let travel = L.polyline(points, {
+                                color: 'white'
+                            });
+                        this._map.addLayer(travel);
+                        window.setTimeout(function () {
+                            travel.remove()
+                        }, 60000)
+
+                    });
+                });
+            }
+            destinationMarker._item = item;
+
+            return destinationMarker;
+        },
+
+        _tileCoordsToKey: function (coords) {
+            try {
+                return coords.x + ':' + coords.y;
+            } catch {
+                throw new Error("Error parsing " + JSON.stringify(coords))
+            };
+
+        },
+
+        // converts tile cache key to coordinates
+        _keyToTileCoords: function (key) {
+
+            var k = key.split(':');
+            var coords = {
+                x: +k[1],
+                y: +k[2]
+            };
+            return coords;
         },
     });
 
