@@ -22,8 +22,8 @@ L.GameMap = L.Map.extend({
 
             if (this.options.baseMaps) {
                 const dataPromise = fetch(this.options.baseMaps);
-				dataPromise.catch(console.error);
-				 
+                dataPromise.catch(console.error);
+
                 dataPromise.then(response => response.json()).then(data => {
 
                     this._baseMaps = Array.isArray(data) ? this.castBaseMaps(data) : data;
@@ -42,8 +42,7 @@ L.GameMap = L.Map.extend({
                     let paddedBounds = bounds.pad(0.1);
                     this.setMaxBounds(paddedBounds);
                 });
-				
-               
+
             }
         },
 
@@ -748,7 +747,7 @@ L.Teleports = L.Layer.extend({
         //to be replaced by preprocessing the data like this
         _parseData: function (data, watery) {
             let startTime = new Date();
-            let dataCollection = parseSheet(data).map(parseItems).flatMap(group => group.items).filter(Boolean).map(item => {
+            let dataCollection = this.parseSheet(data).map(this.parseItems.bind(this)).flatMap(group => group.items).filter(Boolean).map(item => {
                     item.plane = watery[item.x >> 6][item.y >> 6].includes((item.x << 14) + item.y) ? item.plane - 1 : item.plane;
                     if ("destination" in item) {
                         item.destination.plane = watery[item.destination.x >> 6][item.destination.y >> 6].includes((item.destination.x << 14) + item.destination.y) ? item.destination.plane - 1 : item.destination.plane;
@@ -831,7 +830,6 @@ L.Teleports = L.Layer.extend({
                     .then(response => response.ok ? response.json().then(sheet => sheet.values) : response.json().then(oopsie => Promise.reject(new Error(oopsie.error.message)).then(() => {}, console.error)));
 
                 const wateryPromise = fetch('../mejrs.github.io/data/keyed_watery.json').then(response => response.ok ? response.json() : Promise.reject(new Error(response.status + " Error fetching " + response.url))).catch(console.error);
-				
 
                 const allData = Promise.all([dataPromise, wateryPromise]);
 
@@ -1446,116 +1444,144 @@ L.Teleports = L.Layer.extend({
             };
             return newButton;
         },
-    });
+        detectNewHeader: function (row, previousRow) {
 
-function detectNewHeader(row, previousRow) {
+            if (typeof previousRow !== undefined && previousRow.length === 0) {
+                if (typeof row !== undefined && row.length > 1) {
+                    return true;
+                }
 
-    if (typeof previousRow !== undefined && previousRow.length === 0) {
-        if (typeof row !== undefined && row.length > 1) {
-            return true;
-        }
+            }
+            return false;
+        },
+        parseSheet: function (sheet) {
+            let keys;
+            let groupName;
 
-    }
-    return false;
-}
+            let group = [];
+            sheet.forEach((row, rowNumber, array) => {
+                let previousRow = array[rowNumber - 1] ?? [];
 
-function parseSheet(sheet) {
-    let keys;
-    let groupName;
+                if (this.detectNewHeader(row, previousRow)) {
 
-    let group = [];
-    sheet.forEach((row, rowNumber, array) => {
-        let previousRow = array[rowNumber - 1] ?? [];
+                    keys = row;
+                    groupName = row[0];
+                    row[0] = "name";
+                    let newGroup = {
+                        rowNumber: rowNumber,
+                        groupName: groupName,
+                        items: []
+                    };
+                    group.push(newGroup);
+                    return;
 
-        if (detectNewHeader(row, previousRow)) {
+                }
+                if (groupName && row.length !== 0) {
 
-            keys = row;
-            groupName = row[0];
-            row[0] = "name";
-            let newGroup = {
-                rowNumber: rowNumber,
-                groupName: groupName,
-                items: []
+                    let item = {};
+                    item.rowNumber = rowNumber + 1; //starting at 1
+                    item.groupName = groupName
+                        keys.forEach((key, colNumber) => {
+                            item[key] = row[colNumber];
+                        })
+                        group[group.length - 1].items.push(item);
+                    //console.log(rowNumber,row);
+                }
+
+                //console.log(name, keys);
+
+            });
+            return group;
+
+        },
+
+        parseItems: function (group) {
+            //console.log(group);
+            group.items = group.items.map(item => {
+                    let endPos = item["Pos (End)"] ?? item["Pos"];
+                    let endLook = item["Look (End)"] ?? item["Look"];
+                    if (!endPos || !endLook || endPos === "-" || endLook === "-") {
+                        return
+                    }
+                    let destination = this.parseCoord(item, endPos, endLook);
+                    item.destination = destination;
+
+                    let startPos = item["Pos (Start)"] ?? item["Pos"];
+                    let startLook = item["Look (Start)"] ?? item["Look"];
+                    if (startPos && startLook && startPos !== "-" && startPos !== "" && startLook !== "-" && startLook !== "" && (startPos !== endPos || startLook !== endLook)) {
+                        let start = this.parseCoord(item, startPos, startLook);
+                        item.start = start;
+                    }
+
+                    return item
+                });
+
+            return group;
+
+        },
+
+        parseCoord: function (item, pos, look) {
+
+            let _plane = Number(pos);
+
+            try {
+                var[, _i, _j, _x, _y, ...rest] = look.match(/\d+/g).map(Number);
+            } catch (error) {
+                throw new Error("error parsing", JSON.stringify(item));
+
             };
-            group.push(newGroup);
-            return;
+            if ([_i, _j, _x, _y].includes(undefined) || rest.length !== 0) {
+                console.warn(look, "is not a proper coordinate");
+            }
 
+            if (_i > 100 || _j >> 200 || _x > 63 || _y > 63) {
+                console.warn(look, "is outside the bounds of the map");
+            }
+
+            let destination = {
+                plane: _plane,
+                x: _i << 6 | _x,
+                y: _j << 6 | _y
+            }
+
+            return destination;
         }
-        if (groupName && row.length !== 0) {
-
-            let item = {};
-            item.rowNumber = rowNumber + 1; //starting at 1
-            item.groupName = groupName
-                keys.forEach((key, colNumber) => {
-                    item[key] = row[colNumber];
-                })
-                group[group.length - 1].items.push(item);
-            //console.log(rowNumber,row);
-        }
-
-        //console.log(name, keys);
 
     });
-    return group;
-
-}
-
-function parseItems(group) {
-    //console.log(group);
-    group.items = group.items.map(item => {
-            let endPos = item["Pos (End)"] ?? item["Pos"];
-            let endLook = item["Look (End)"] ?? item["Look"];
-            if (!endPos || !endLook || endPos === "-" || endLook === "-" ) {
-                return
-            }
-            let destination = parseCoord(item, endPos, endLook);
-            item.destination = destination;
-
-            let startPos = item["Pos (Start)"] ?? item["Pos"];
-            let startLook = item["Look (Start)"] ?? item["Look"];
-            if (startPos && startLook && startPos !== "-" && startPos !== "" && startLook !== "-" && startLook !== "" && (startPos !== endPos || startLook !== endLook)) {
-                let start = parseCoord(item, startPos, startLook);
-                item.start = start;
-            }
-
-            return item
-        });
-
-    return group;
-
-}
-
-function parseCoord(item, pos, look) {
-
-    let _plane = Number(pos);
-
-    try {
-        var[, _i, _j, _x, _y, ...rest] = look.match(/\d+/g).map(Number);
-    } catch (error) {
-        throw new Error("error parsing", JSON.stringify(item));
-
-    };
-    if ([_i, _j, _x, _y].includes(undefined) || rest.length !== 0) {
-        console.warn(look, "is not a proper coordinate");
-    }
-	
-	if (_i > 100 || _j >> 200 || _x > 63 || _y > 63) {
-        console.warn(look, "is outside the bounds of the map");
-    }
-
-
-    let destination = {
-        plane: _plane,
-        x: _i << 6 | _x,
-        y: _j << 6 | _y
-    }
-	
-	
-    return destination;
-}
 
 // @factory L.teleports(options?: Teleports options)
 // Creates a new instance of Teleports with the supplied options.
 L.teleports = function (options) {
     return new L.Teleports(options);
+}
+
+L.CustomParseTeleports = L.Teleports.extend({
+        onAdd: function (map) {
+            if (this.options.API_KEY && this.options.SHEET_ID) {
+
+                const dataPromise = fetch(`https://sheets.googleapis.com/v4/spreadsheets/${this.options.SHEET_ID}/values/A:Z?key=${this.options.API_KEY}`)
+                    .then(response => response.ok ? response.json().then(sheet => sheet.values) : response.json().then(oopsie => Promise.reject(new Error(oopsie.error.message)).then(() => {}, console.error)));
+
+                const allData = Promise.all([dataPromise]);
+
+                allData.then(responses => {
+                    if (!responses.includes(undefined)) {
+
+                        this._icon_data = this.options.parseFn(...responses);
+                        this._icons = {};
+                        this._resetView();
+                        this._update();
+                    }
+                });
+
+                allData.catch(console.error);
+
+            } else {
+                throw new Error("No API_KEY and/or SHEET_ID specified");
+            }
+        },
+    });
+
+L.customParseTeleports = function (options) {
+    return new L.CustomParseTeleports(options);
 }

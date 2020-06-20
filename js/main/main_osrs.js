@@ -27,7 +27,7 @@ var main = L.tileLayer.main('layers/{source}/-1/{zoom}/{plane}_{x}_{y}.png', {
 
     }).addTo(runescape_map);
 
-L.control.mapTemplate().addTo(runescape_map);
+//L.control.mapTemplate().addTo(runescape_map);
 L.control.plane().addTo(runescape_map);
-L.control.mousePosition().addTo(runescape_map);
+L.control.position().addTo(runescape_map);
 L.control.customZoom().addTo(runescape_map);
