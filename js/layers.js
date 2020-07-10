@@ -269,8 +269,8 @@ L.Grid = L.GridLayer.extend({
         }
     });
 
-L.grid = function (folder, options) {
-    return new L.Grid(folder, options);
+L.grid = function (options) {
+    return new L.Grid(options);
 }
 
 L.Heatmap = L.GridLayer.extend({
