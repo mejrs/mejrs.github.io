@@ -1,1 +1,1 @@
-[{"name": "Karam", "id": 1422, "x": 2781, "y": 2799, "p": 0}]
+[{"name": "Karam", "id": 1422, "p": 0, "x": 2781, "y": 2799, "mapId": 28, "mapId_p": 0, "mapId_x": 2781, "mapId_y": 2799, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 1965, "combat": 0, "headModels": [63349], "modelContract": 20, "models": [62946, 63080, 63124], "movementCapabilities": 3}]

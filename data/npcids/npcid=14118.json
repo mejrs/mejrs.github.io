@@ -1,1 +1,1 @@
-[{"name": "Arboretum guard", "id": 14118, "x": 3617, "y": 3363, "p": 0}]
+[{"name": "Arboretum guard", "id": 14118, "p": 0, "x": 3617, "y": 3363, "mapId": 28, "mapId_p": 0, "mapId_x": 3617, "mapId_y": 3363, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 2137, "combat": 0, "headModels": [22793], "modelContract": 25, "models": [23406], "movementCapabilities": 1, "respawnDirection": 6}]

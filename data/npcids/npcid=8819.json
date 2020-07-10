@@ -1,0 +1,1 @@
+[{"name": "Supreme Commander", "id": 8819, "p": 1, "x": 2827, "y": 10209, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 2964, "combat": 0, "headModels": [90020], "models": [90212, 78297, 8642], "movementCapabilities": 1, "respawnDirection": 0}]

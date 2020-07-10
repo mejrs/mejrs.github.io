@@ -1,0 +1,1 @@
+[{"name": "Waiko islander", "id": 23116, "p": 0, "x": 1825, "y": 11556, "mapId": 695, "mapId_p": 0, "mapId_x": 1825, "mapId_y": 11556, "animation_group": 2777, "combat": 0, "headModels": [113707], "models": [113755, 113754, 113761], "movementCapabilities": 1, "respawnDirection": 6, "texture_replacements": {"7330": 7333}}]

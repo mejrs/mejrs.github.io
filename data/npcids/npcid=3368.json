@@ -1,0 +1,1 @@
+[{"name": "Zanik", "id": 3368, "p": 0, "x": 2426, "y": 4257, "mapId": 252, "mapId_p": 0, "mapId_x": 2426, "mapId_y": 4257, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "boundSize": 1, "combat": 0, "headModels": [23243, 15561], "models": [46049], "movementCapabilities": 1}]

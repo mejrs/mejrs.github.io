@@ -1,0 +1,1 @@
+[{"name": "Violet", "id": 8796, "p": 0, "x": 5214, "y": 9625, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 4346, "boundSize": 1, "combat": 0, "headModels": [69170], "models": [70960], "movementCapabilities": 1, "movementType": 2, "quests": [400]}]

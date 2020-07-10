@@ -1,1 +1,1 @@
-[{"name": "Mami Rimba", "id": 15234, "x": 3058, "y": 3517, "p": 0}]
+[{"name": "Mami Rimba", "id": 15234, "p": 0, "x": 3058, "y": 3517, "mapId": 28, "mapId_p": 0, "mapId_x": 3058, "mapId_y": 3517, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "ambience": 20, "animation_group": 2447, "boundSize": 1, "combat": 0, "headModels": [68849], "modelContract": 25, "models": [68815], "movementCapabilities": 1, "respawnDirection": 2, "unknown_63": true}]

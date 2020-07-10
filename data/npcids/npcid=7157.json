@@ -1,1 +1,1 @@
-[{"name": "Student", "id": 7157, "x": 3077, "y": 3453, "p": 0}]
+[{"name": "Student", "id": 7157, "p": 0, "x": 3077, "y": 3453, "mapId": 28, "mapId_p": 0, "mapId_x": 3077, "mapId_y": 3453, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 560, "color_replacements": {"25238": 40219, "4626": 0, "6798": 9783, "8741": 5801}, "combat": 0, "headModels": [39016, 38861], "models": [32384, 32416, 32390, 32415], "movementCapabilities": 1, "texture_replacements": {"745": 746}, "unknown_67": 1024}]

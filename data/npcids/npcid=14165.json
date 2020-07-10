@@ -1,1 +1,1 @@
-[{"name": "Darkmeyer blood trader", "id": 14165, "x": 3603, "y": 3345, "p": 0}]
+[{"name": "Darkmeyer blood trader", "id": 14165, "p": 0, "x": 3603, "y": 3345, "mapId": 28, "mapId_p": 0, "mapId_x": 3603, "mapId_y": 3345, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "ambience": 20, "animation_group": 2140, "combat": 0, "headModels": [23160], "modelContract": 25, "models": [23593], "movementCapabilities": 1, "respawnDirection": 6}]

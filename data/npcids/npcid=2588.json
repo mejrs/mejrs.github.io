@@ -1,1 +1,1 @@
-[{"name": "Brother Althric", "id": 2588, "x": 3049, "y": 3504, "p": 0}]
+[{"name": "Brother Althric", "id": 2588, "p": 0, "x": 3049, "y": 3504, "mapId": 28, "mapId_p": 0, "mapId_x": 3049, "mapId_y": 3504, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "combat": 0, "headModels": [39630], "models": [230, 181, 246, 16256, 16253, 10218, 16252], "movementCapabilities": 1, "unknown_63": true}]

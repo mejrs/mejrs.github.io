@@ -1,0 +1,1 @@
+[{"name": "Cook", "morph_names_1": ["", "", "Cook", ""], "id": 9417, "p": 0, "x": 2650, "y": 5661, "mapId": 219, "mapId_p": 0, "mapId_x": 2650, "mapId_y": 5661, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, -1, 9418, -1], "varbit": 14695, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 6, "unknown_63": true}]

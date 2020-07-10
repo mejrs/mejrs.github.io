@@ -1,0 +1,1 @@
+[{"name": "Sinister Stranger", "morph_names_1": ["Sinister Stranger", "Sinister Stranger", ""], "id": 226, "p": 0, "x": 2637, "y": 3440, "mapId": 28, "mapId_p": 0, "mapId_x": 2637, "mapId_y": 3440, "animation_group": 4, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [3677, 3678, -1], "varbit": 10825, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

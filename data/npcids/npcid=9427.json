@@ -1,0 +1,1 @@
+[{"name": "Statue", "id": 9427, "p": 0, "x": 3275, "y": 5848, "mapId": 387, "mapId_p": 0, "mapId_x": 3275, "mapId_y": 5848, "actions": ["Move", null, null, null, null], "boundSize": 1, "combat": 0, "drawMapDot": false, "models": [51404], "movementCapabilities": 1, "unknown_63": true, "unknown_67": 0}]

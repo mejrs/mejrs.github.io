@@ -1,1 +1,1 @@
-[{"name": "Leon", "id": 5111, "x": 2567, "y": 3085, "p": 0}]
+[{"name": "Leon", "id": 5111, "p": 0, "x": 2567, "y": 3085, "mapId": 28, "mapId_p": 0, "mapId_x": 2567, "mapId_y": 3085, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, "Trade"], "animation_group": 3183, "color_replacements": {"25238": 912, "4626": 7355, "6798": 2593, "8741": 924}, "combat": 0, "headModels": [40019, 39270], "models": [9452, 9620, 10984, 6036, 151, 179, 73630, 11339, 181], "movementCapabilities": 3, "unknown_63": true}]

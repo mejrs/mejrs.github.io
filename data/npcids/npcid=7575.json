@@ -1,0 +1,1 @@
+[{"name": "Larry", "morph_names_1": ["", "Larry", ""], "id": 7575, "p": 0, "x": 2707, "y": 3733, "mapId": 28, "mapId_p": 0, "mapId_x": 2707, "mapId_y": 3733, "animation_group": 4, "combat": 0, "morphs_1": {"ids": [-1, 5425, -1], "varbit": 13734, "varp": -1}, "movementCapabilities": 1, "unknown_63": true}]

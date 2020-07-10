@@ -1,1 +1,1 @@
-[{"name": "Shark", "id": 16843, "x": 2793, "y": 3220, "p": 0}]
+[{"name": "Shark", "id": 16843, "p": 0, "x": 2793, "y": 3220, "mapId": 28, "mapId_p": 0, "mapId_x": 2793, "mapId_y": 3220, "animation_group": 1415, "boundSize": 1, "combat": 0, "models": [2848], "movementCapabilities": 7}]

@@ -1,1 +1,1 @@
-[{"name": "Relomia, Emissary of Sliske", "id": 17134, "x": 3093, "y": 3263, "p": 0}]
+[{"name": "Relomia, Emissary of Sliske", "id": 17134, "p": 0, "x": 3093, "y": 3263, "mapId": 28, "mapId_p": 0, "mapId_x": 3093, "mapId_y": 3263, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2859, "boundSize": 1, "combat": 0, "headModels": [86000], "members_actions": [null, null, "Check jobs", null, null], "models": [116189, 116190, 116188], "movementCapabilities": 1, "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "Prison Pete", "id": 16875, "x": 3016, "y": 3181, "p": 0}]
+[{"name": "Prison Pete", "id": 16875, "p": 0, "x": 3016, "y": 3181, "mapId": 28, "mapId_p": 0, "mapId_x": 3016, "mapId_y": 3181, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 4, "boundSize": 1, "combat": 0, "headModels": [40020, 39442, 39223], "models": [230, 246, 10741, 10743, 10742, 181], "movementCapabilities": 1, "respawnDirection": 0, "texture_replacements": {"607": 608, "620": 608}, "unknown_63": true}]

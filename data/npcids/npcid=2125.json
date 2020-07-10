@@ -1,0 +1,1 @@
+[{"name": "Trader", "morph_names_1": ["Trader", "Trader", ""], "id": 2125, "p": 1, "x": 2877, "y": 10195, "actions": [null, null, "Pickpocket", null, null], "animation_group": 2675, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [2126, 8827, -1], "varbit": 13277, "varp": -1}, "movementCapabilities": 3}]

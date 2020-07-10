@@ -1,0 +1,1 @@
+[{"name": "Gnome", "morph_names_1": ["", "Gnome", ""], "id": 2370, "p": 0, "x": 2036, "y": 4630, "mapId": 211, "mapId_p": 0, "mapId_x": 2036, "mapId_y": 4630, "ambience": 20, "animation_group": 108, "boundSize": 1, "combat": 0, "modelContract": 20, "morphs_1": {"ids": [-1, 2371, -1], "varbit": 23234, "varp": -1}, "movementCapabilities": 1}]

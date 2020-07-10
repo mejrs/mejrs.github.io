@@ -1,0 +1,1 @@
+[{"name": "Spirit of Faith", "morph_names_1": ["", "Spirit of Faith", "Spirit of Faith", ""], "id": 20822, "p": 0, "x": 3698, "y": 9099, "mapId": 677, "mapId_p": 0, "mapId_x": 3698, "mapId_y": 9099, "combat": 0, "extra": {"weakness_class": 8}, "morphs_1": {"ids": [-1, 20823, 20823, -1], "varbit": 27277, "varp": -1}, "movementCapabilities": 1, "unknown_63": true}]

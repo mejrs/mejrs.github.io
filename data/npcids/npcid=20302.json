@@ -1,1 +1,1 @@
-[{"name": "Hefin musician", "id": 20302, "x": 2176, "y": 3395, "p": 1}]
+[{"name": "Hefin musician", "id": 20302, "p": 1, "x": 2176, "y": 3395, "action_cursors": [null, null, 44, null, null, null], "actions": ["Listen to", null, "Talk to", null, null], "animation_group": 3309, "boundSize": 1, "combat": 0, "headModels": [97152], "models": [97238, 97239, 97237, 97243, 97242, 97348], "movementCapabilities": 1, "respawnDirection": 2, "texture_replacements": {"4840": 4849}, "unknown_63": true}]

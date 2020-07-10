@@ -1,1 +1,1 @@
-[{"name": "Iorwerth musician", "id": 20304, "x": 2180, "y": 3327, "p": 1}]
+[{"name": "Iorwerth musician", "id": 20304, "p": 1, "x": 2180, "y": 3327, "action_cursors": [null, null, 44, null, null, null], "actions": ["Listen to", null, "Talk to", null, null], "animation_group": 2255, "boundSize": 1, "combat": 0, "headModels": [97190], "models": [100202], "movementCapabilities": 1, "respawnDirection": 3, "texture_replacements": {"4840": 4843}, "unknown_63": true}]

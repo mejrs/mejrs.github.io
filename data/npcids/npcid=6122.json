@@ -1,0 +1,1 @@
+[{"name": "Sleeping guard", "id": 6122, "p": 0, "x": 2327, "y": 9394, "mapId": 545, "mapId_p": 0, "mapId_x": 2327, "mapId_y": 9394, "actions": ["Prod", null, null, null, null], "animation_group": 959, "combat": 0, "headModels": [78247], "models": [75368, 75412, 75345, 75389, 75354, 75358, 24507], "movementCapabilities": 1}]

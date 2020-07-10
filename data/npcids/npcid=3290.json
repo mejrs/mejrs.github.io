@@ -1,0 +1,1 @@
+[{"name": "Chicken", "morph_names_1": ["Chicken", "Chicken", "Chicken", ""], "id": 3290, "p": 2, "x": 3110, "y": 3366, "mapId": 28, "mapId_p": 2, "mapId_x": 3110, "mapId_y": 3366, "animation_group": 2074, "combat": 0, "morphs_1": {"ids": [288, 288, 288, -1], "varbit": -1, "varp": 2183}, "movementCapabilities": 3, "movementType": 0}]

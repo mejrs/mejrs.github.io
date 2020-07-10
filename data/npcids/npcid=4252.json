@@ -1,1 +1,1 @@
-[{"name": "Macaroni Penguin", "id": 4252, "x": 2571, "y": 3907, "p": 0}]
+[{"name": "Macaroni Penguin", "id": 4252, "p": 0, "x": 2571, "y": 3907, "mapId": 28, "mapId_p": 0, "mapId_x": 2571, "mapId_y": 3907, "animation_group": 90, "boundSize": 1, "combat": 0, "models": [21550], "movementCapabilities": 3, "scaleXZ": 75, "scaleY": 75}]

@@ -1,1 +1,1 @@
-[{"name": "Explorer Jack", "id": 7969, "x": 3204, "y": 3241, "p": 0}]
+[{"name": "Explorer Jack", "id": 7969, "p": 0, "x": 3204, "y": 3241, "mapId": 28, "mapId_p": 0, "mapId_x": 3204, "mapId_y": 3241, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Claim-rewards", null, null], "animation_group": 1936, "boundSize": 1, "combat": 0, "headModels": [39395, 39836, 39204], "models": [40847], "movementCapabilities": 1, "quests": [74, 182], "respawnDirection": 0, "unknown_63": true}]

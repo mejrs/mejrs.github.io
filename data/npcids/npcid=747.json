@@ -1,1 +1,1 @@
-[{"name": "Oziach", "id": 747, "x": 3068, "y": 3516, "p": 0}]
+[{"name": "Oziach", "id": 747, "p": 0, "x": 3068, "y": 3516, "mapId": 28, "mapId_p": 0, "mapId_x": 3068, "mapId_y": 3516, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3183, "boundSize": 1, "combat": 0, "headModels": [38641, 39256], "models": [84929], "movementCapabilities": 3, "unknown_63": true}]

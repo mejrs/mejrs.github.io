@@ -1,0 +1,1 @@
+[{"name": "Spring Elemental", "id": 5540, "p": 0, "x": 2924, "y": 5463, "mapId": 268, "mapId_p": 0, "mapId_x": 2924, "mapId_y": 5463, "ambience": 20, "animation_group": 355, "boundSize": 1, "combat": 0, "models": [22266, 22267], "movementCapabilities": 0, "scaleXZ": 80, "scaleY": 80, "slowWalk": false, "unknown_63": true}]

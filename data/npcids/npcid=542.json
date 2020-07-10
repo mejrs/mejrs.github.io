@@ -1,1 +1,1 @@
-[{"name": "Louie Legs", "id": 542, "x": 3316, "y": 3175, "p": 0}]
+[{"name": "Louie Legs", "id": 542, "p": 0, "x": 3316, "y": 3175, "mapId": 28, "mapId_p": 0, "mapId_x": 3316, "mapId_y": 3175, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3183, "boundSize": 1, "combat": 0, "headModels": [39199, 39578], "models": [40192, 29690, 29694, 29683, 40183, 40224, 268], "movementCapabilities": 3, "unknown_63": true}]

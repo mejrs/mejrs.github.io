@@ -1,0 +1,1 @@
+[{"name": "Stanley Limelight", "morph_names_1": ["", "", "", "", "", "", "Stanley Limelight", ""], "id": 21063, "p": 2, "x": 1688, "y": 5470, "mapId": 109, "mapId_p": 0, "mapId_x": 1688, "mapId_y": 5470, "combat": 0, "morphs_1": {"ids": [-1, -1, -1, -1, -1, -1, 21056, -1], "varbit": -1, "varp": 5424}, "movementCapabilities": 1, "respawnDirection": 2}]

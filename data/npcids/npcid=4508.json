@@ -1,0 +1,1 @@
+[{"name": "Ethereal Mimic", "morph_names_1": ["Ethereal Mimic", "Ethereal Mimic", ""], "id": 4508, "p": 2, "x": 1770, "y": 5070, "mapId": 475, "mapId_p": 0, "mapId_x": 1770, "mapId_y": 5070, "ambience": 40, "animation_group": 4, "combat": 0, "modelContract": 40, "morphs_1": {"ids": [33, 135, -1], "varbit": 10252, "varp": -1}, "movementCapabilities": 1}]

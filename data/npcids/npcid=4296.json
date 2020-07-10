@@ -1,1 +1,1 @@
-[{"name": "Jade", "id": 4296, "x": 2841, "y": 3538, "p": 0}]
+[{"name": "Jade", "id": 4296, "p": 0, "x": 2841, "y": 3538, "mapId": 28, "mapId_p": 0, "mapId_x": 2841, "mapId_y": 3538, "action_cursors": [null, null, 44, null, null, null], "actions": ["Bank", null, "Talk-to", "Collect", null], "animation_group": 3180, "color_replacements": {"25238": 43059, "6798": 9019, "8078": 902, "8741": 10353}, "combat": 0, "headModels": [39068], "models": [408, 15320, 343, 10218, 435], "movementCapabilities": 1, "texture_replacements": {"745": 746}, "unknown_63": true}]

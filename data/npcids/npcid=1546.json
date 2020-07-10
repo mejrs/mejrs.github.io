@@ -1,0 +1,1 @@
+[{"name": "Mine cart", "id": 1546, "p": 0, "x": 2697, "y": 4498, "mapId": 295, "mapId_p": 0, "mapId_x": 2697, "mapId_y": 4498, "ambient_sound": [2901, 34777, 34777, 34777, 15], "combat": 0, "extra": {"weakness_class": 8}, "models": [4894], "movementCapabilities": 2, "unknown_63": true, "unknown_67": 1024}]

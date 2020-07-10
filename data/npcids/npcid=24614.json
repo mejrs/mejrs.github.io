@@ -1,0 +1,1 @@
+[{"name": "High Priest of Crondis", "id": 24614, "p": 0, "x": 2207, "y": 6756, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2699, "combat": 0, "headModels": [119241], "models": [119350], "movementCapabilities": 1, "quests": [391]}]

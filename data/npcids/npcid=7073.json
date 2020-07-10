@@ -1,0 +1,1 @@
+[{"name": "Grr'bah", "id": 7073, "p": 0, "x": 2587, "y": 5525, "mapId": 282, "mapId_p": 0, "mapId_x": 2587, "mapId_y": 5525, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 25, "animation_group": 1143, "combat": 0, "headModels": [31786], "models": [32028], "movementCapabilities": 3}]

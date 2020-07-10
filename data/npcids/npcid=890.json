@@ -1,0 +1,1 @@
+[{"name": "Butler Jones", "morph_names_1": ["", "Butler Jones", ""], "id": 890, "p": 0, "x": 2569, "y": 3272, "mapId": 28, "mapId_p": 0, "mapId_x": 2569, "mapId_y": 3272, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, 15584, -1], "varbit": 13013, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

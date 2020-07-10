@@ -1,0 +1,1 @@
+[{"name": "Flying bugs", "morph_names_1": ["Wimpy bird", "Flying bugs", ""], "id": 7034, "p": 0, "x": 2536, "y": 2839, "mapId": 28, "mapId_p": 0, "mapId_x": 2536, "mapId_y": 2839, "animation_group": 83, "combat": 0, "extra": {"attack_speed": 5, "slayer_task_id": 5}, "morphs_1": {"ids": [7031, 7083, -1], "varbit": 14047, "varp": -1}, "movementCapabilities": 3}]

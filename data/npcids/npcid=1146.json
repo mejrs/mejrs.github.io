@@ -1,0 +1,1 @@
+[{"name": "Guard", "id": 1146, "p": 0, "x": 2861, "y": 10080, "mapId": 2, "mapId_p": 0, "mapId_x": 45, "mapId_y": 32, "animation_group": 1717, "boundSize": 1, "color_replacements": {"7219": 7325, "7227": 7330, "7236": 7335, "7240": 7341, "7326": 10403, "7345": 7330}, "combat": 0, "models": [64506], "movementCapabilities": 0, "scaleXZ": 117, "scaleY": 117}]

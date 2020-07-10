@@ -1,1 +1,1 @@
-[{"name": "Captain Ethar", "id": 12195, "x": 2637, "y": 2676, "p": 0}]
+[{"name": "Captain Ethar", "id": 12195, "p": 0, "x": 2637, "y": 2676, "mapId": 28, "mapId_p": 0, "mapId_x": 2637, "mapId_y": 2676, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Exchange", null, null], "ambience": 25, "animation_group": 1870, "boundSize": 1, "combat": 0, "headModels": [59978], "modelContract": 25, "models": [59980], "movementCapabilities": 1, "respawnDirection": 2, "unknown_63": true, "unknown_67": 0}]

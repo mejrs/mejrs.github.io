@@ -1,1 +1,1 @@
-[{"name": "Sin Seer", "id": 5571, "x": 2700, "y": 3475, "p": 1}]
+[{"name": "Sin Seer", "id": 5571, "p": 1, "x": 2700, "y": 3475, "mapId": 28, "mapId_p": 1, "mapId_x": 2700, "mapId_y": 3475, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 2699, "combat": 0, "headModels": [98190], "models": [98191], "movementCapabilities": 3, "unknown_63": true}]

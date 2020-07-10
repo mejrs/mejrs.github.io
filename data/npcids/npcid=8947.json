@@ -1,1 +1,1 @@
-[{"name": "Baby Shakes", "id": 8947, "x": 2649, "y": 3353, "p": 0}]
+[{"name": "Baby Shakes", "id": 8947, "p": 0, "x": 2649, "y": 3353, "mapId": 28, "mapId_p": 0, "mapId_x": 2649, "mapId_y": 3353, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "'Sell' all", null, null], "ambience": 25, "animation_group": 2356, "boundSize": 1, "combat": 0, "headModels": [53681], "modelContract": 15, "models": [47570], "movementCapabilities": 1, "respawnDirection": 0, "unknown_63": true}]

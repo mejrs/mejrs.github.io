@@ -1,0 +1,1 @@
+[{"name": "Captain Marlin", "id": 7583, "p": 1, "x": 3570, "y": 5802, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 1522, "boundSize": 1, "combat": 0, "headModels": [47025], "models": [47074], "movementCapabilities": 3, "movementType": 0, "scaleXZ": 75, "scaleY": 75}]

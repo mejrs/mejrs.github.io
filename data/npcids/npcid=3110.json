@@ -1,0 +1,1 @@
+[{"name": "Sandy", "morph_names_1": ["Sandy", ""], "id": 3110, "p": 0, "x": 2788, "y": 3176, "mapId": 28, "mapId_p": 0, "mapId_x": 2788, "mapId_y": 3176, "animation_group": 4, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [3112, -1], "varbit": 14038, "varp": -1}, "movementCapabilities": 1}]

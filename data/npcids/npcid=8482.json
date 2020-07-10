@@ -1,0 +1,1 @@
+[{"name": "Mazchna", "morph_names_1": ["", "", "Mazchna", ""], "id": 8482, "p": 0, "x": 3512, "y": 3509, "mapId": 28, "mapId_p": 0, "mapId_x": 3512, "mapId_y": 3509, "animation_group": 30, "combat": 0, "morphs_1": {"ids": [-1, -1, 8464, -1], "varbit": 11754, "varp": -1}, "movementCapabilities": 3}]

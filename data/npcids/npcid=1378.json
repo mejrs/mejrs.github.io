@@ -1,1 +1,1 @@
-[{"name": "Flower Girl", "id": 1378, "x": 2514, "y": 3866, "p": 0}]
+[{"name": "Flower Girl", "id": 1378, "p": 0, "x": 2514, "y": 3866, "mapId": 28, "mapId_p": 0, "mapId_x": 2514, "mapId_y": 3866, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"25238": 8472, "43072": 8472, "6798": 7613, "8741": 1686}, "combat": 0, "headModels": [39066], "models": [390, 471, 348, 176, 428, 358], "movementCapabilities": 3, "recolor_indices": [0, 1, 2, -1, 3]}]

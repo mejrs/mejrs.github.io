@@ -1,1 +1,1 @@
-[{"name": "Museum guard", "id": 5941, "x": 3260, "y": 3447, "p": 0}]
+[{"name": "Museum guard", "id": 5941, "p": 0, "x": 3260, "y": 3447, "mapId": 28, "mapId_p": 0, "mapId_x": 3260, "mapId_y": 3447, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 517, "combat": 0, "headModels": [39733, 39223, 39466], "models": [25655, 6848, 246, 25679, 25647, 177, 25667, 181], "movementCapabilities": 1, "unknown_63": true, "unknown_67": 0}]

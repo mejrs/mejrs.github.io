@@ -1,0 +1,1 @@
+[{"name": "Abyssal demon", "id": 9086, "p": 1, "x": 1683, "y": 5288, "ambient_sound": [46478, 46478, 46478, 46478, 15], "animation_group": 3249, "boundSize": 1, "combat": 0, "extra": {"weakness_class": 1}, "models": [97960], "movementCapabilities": 1, "unknown_8C": 100, "unknown_A4": {"unknown_1": 230, "unknown_2": 270}}]

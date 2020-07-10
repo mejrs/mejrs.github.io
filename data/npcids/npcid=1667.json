@@ -1,0 +1,1 @@
+[{"name": "Gardener Ghost", "morph_names_1": ["Gardener Ghost", ""], "id": 1667, "p": 0, "x": 3551, "y": 3561, "mapId": 28, "mapId_p": 0, "mapId_x": 3551, "mapId_y": 3561, "animation_group": 4, "combat": 0, "morphs_1": {"ids": [1675, -1], "varbit": 12895, "varp": -1}, "movementCapabilities": 3}]

@@ -1,1 +1,1 @@
-[{"name": "Styrmir", "id": 1275, "x": 2657, "y": 3680, "p": 0}]
+[{"name": "Styrmir", "id": 1275, "p": 0, "x": 2657, "y": 3680, "mapId": 28, "mapId_p": 0, "mapId_x": 2657, "mapId_y": 3680, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 80, "boundSize": 1, "color_replacements": {"25238": 7465, "6798": 6585, "8078": 5409, "8084": 7601, "8741": 5404}, "combat": 0, "headModels": [39947, 38097], "models": [206, 252, 292, 162, 176, 3599, 4391, 4234], "movementCapabilities": 1, "unknown_67": 0}]

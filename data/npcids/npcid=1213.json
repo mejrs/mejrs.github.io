@@ -1,1 +1,1 @@
-[{"name": "Tegid", "id": 1213, "x": 2920, "y": 3418, "p": 0}]
+[{"name": "Tegid", "id": 1213, "p": 0, "x": 2920, "y": 3418, "mapId": 28, "mapId_p": 0, "mapId_x": 2920, "mapId_y": 3418, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 25, "animation_group": 864, "boundSize": 2, "color_replacements": {"55232": 9444, "6798": 9436}, "combat": 0, "headModels": [39638, 39223], "models": [97078], "movementCapabilities": 1}]

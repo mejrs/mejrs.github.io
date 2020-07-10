@@ -1,1 +1,1 @@
-[{"name": "Mr Ex", "id": 3709, "x": 3088, "y": 3507, "p": 0}]
+[{"name": "Mr Ex", "id": 3709, "p": 0, "x": 3088, "y": 3507, "mapId": 28, "mapId_p": 0, "mapId_x": 3088, "mapId_y": 3507, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 689, "boundSize": 1, "combat": 0, "headModels": [106], "models": [204], "movementCapabilities": 1}]

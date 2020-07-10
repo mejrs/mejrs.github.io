@@ -1,1 +1,1 @@
-[{"name": "Ifaba", "id": 1436, "x": 2754, "y": 2775, "p": 0}]
+[{"name": "Ifaba", "id": 1436, "p": 0, "x": 2754, "y": 2775, "mapId": 28, "mapId_p": 0, "mapId_x": 2754, "mapId_y": 2775, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 177, "color_replacements": {"20": 12, "7469": 17705}, "combat": 0, "headModels": [4659], "models": [4822, 4827], "movementCapabilities": 3}]

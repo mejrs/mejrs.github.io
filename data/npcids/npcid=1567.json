@@ -1,1 +1,1 @@
-[{"name": "Cyreg Paddlehorn", "id": 1567, "x": 3522, "y": 3284, "p": 0}]
+[{"name": "Cyreg Paddlehorn", "id": 1567, "p": 0, "x": 3522, "y": 3284, "mapId": 28, "mapId_p": 0, "mapId_x": 3522, "mapId_y": 3284, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 118, "boundSize": 1, "combat": 0, "headModels": [113171], "models": [113172], "movementCapabilities": 3}]

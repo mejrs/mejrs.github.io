@@ -1,1 +1,1 @@
-[{"name": "Hops", "id": 341, "x": 3268, "y": 3389, "p": 0}]
+[{"name": "Hops", "id": 341, "p": 0, "x": 3268, "y": 3389, "mapId": 28, "mapId_p": 0, "mapId_x": 3268, "mapId_y": 3389, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 79, "color_replacements": {"1942": 4764, "25238": 7442, "43072": 4550, "6798": 7353, "8741": 5409, "906": 5400}, "combat": 0, "headModels": [39744, 38642], "models": [6848, 250, 299, 9621, 170, 10218, 6098, 274, 181, 9607], "movementCapabilities": 3}]

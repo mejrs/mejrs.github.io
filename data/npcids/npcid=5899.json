@@ -1,0 +1,1 @@
+[{"name": "Cyrisus", "morph_names_1": ["", "Cyrisus", "Cyrisus", "Cyrisus", ""], "id": 5899, "p": 0, "x": 2149, "y": 3867, "mapId": 28, "mapId_p": 0, "mapId_x": 2149, "mapId_y": 3867, "animation_group": 4, "combat": 0, "morphs_1": {"ids": [-1, 5896, 5897, 5895, -1], "varbit": 9546, "varp": -1}, "movementCapabilities": 1, "unknown_63": true}]

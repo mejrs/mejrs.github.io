@@ -1,1 +1,1 @@
-[{"name": "Sawmill operator", "id": 20309, "x": 2172, "y": 3339, "p": 1}]
+[{"name": "Sawmill operator", "id": 20309, "p": 1, "x": 2172, "y": 3339, "action_cursors": [174, null, 44, null, null, null], "actions": ["Buy plank", null, "Talk to", "Trade", null], "animation_group": 2699, "boundSize": 1, "combat": 0, "headModels": [98924], "models": [97255, 97256, 97258, 97260, 97257, 98993, 100170], "movementCapabilities": 1, "respawnDirection": 6, "texture_replacements": {"4840": 4848}, "unknown_63": true}]

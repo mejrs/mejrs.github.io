@@ -1,0 +1,1 @@
+[{"name": "Mawnis Burowgar", "morph_names_1": ["Mawnis Burowgar", "Mawnis Burowgar", ""], "id": 5530, "p": 0, "x": 2335, "y": 3799, "mapId": 28, "mapId_p": 0, "mapId_x": 2335, "mapId_y": 3799, "animation_group": 4, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [5503, 5504, -1], "varbit": 13183, "varp": -1}, "movementCapabilities": 3}]

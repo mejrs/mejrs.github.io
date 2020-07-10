@@ -1,0 +1,1 @@
+[{"name": "Ramarno", "id": 8170, "p": 0, "x": 3045, "y": 9881, "mapId": 538, "mapId_p": 0, "mapId_x": 3045, "mapId_y": 9881, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 1085, "boundSize": 1, "combat": 0, "headModels": [89995], "models": [90223, 78297], "movementCapabilities": 3, "unknown_63": true}]

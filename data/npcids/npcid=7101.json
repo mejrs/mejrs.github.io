@@ -1,0 +1,1 @@
+[{"name": "Thump", "morph_names_1": ["Thump", ""], "id": 7101, "p": 0, "x": 2585, "y": 2842, "mapId": 28, "mapId_p": 0, "mapId_x": 2585, "mapId_y": 2842, "ambience": 25, "animation_group": 288, "boundSize": 2, "combat": 0, "morphs_1": {"ids": [7061, -1], "varbit": 14042, "varp": -1}, "movementCapabilities": 3}]

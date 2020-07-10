@@ -1,0 +1,1 @@
+[{"name": "Battleship", "id": 22871, "p": 0, "x": 990, "y": 5520, "actions": ["Fire at", null, null, null, null], "animation_group": 3709, "boundSize": 1, "color_replacements": {"16311": 10, "16323": 21, "16335": 33, "16347": 45}, "combat": 0, "headModels": [81335], "models": [81108, 246, 230, 81136, 81119, 81103, 81095, 112747], "movementCapabilities": 3, "quests": [385]}]

@@ -1,0 +1,1 @@
+[{"name": "Kent", "morph_names_1": ["", "", "", "", "", "", "", "", "", "", "", "Kent", "Kent", ""], "id": 4869, "p": 1, "x": 2710, "y": 3281, "mapId": 28, "mapId_p": 1, "mapId_x": 2710, "mapId_y": 3281, "animation_group": 4, "combat": 0, "morphs_1": {"ids": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 701, 701, -1], "varbit": -1, "varp": 2700}, "movementCapabilities": 3}]

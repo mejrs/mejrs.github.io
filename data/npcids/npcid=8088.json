@@ -1,1 +1,1 @@
-[{"name": "Ticket vendor", "id": 8088, "x": 2443, "y": 3380, "p": 0}]
+[{"name": "Ticket vendor", "id": 8088, "p": 0, "x": 2443, "y": 3380, "mapId": 28, "mapId_p": 0, "mapId_x": 2443, "mapId_y": 3380, "actions": ["Go-to", null, "Scoreboard", null, null], "animation_group": 333, "boundSize": 2, "combat": 0, "drawMapDot": false, "models": [41955], "movementCapabilities": 1}]

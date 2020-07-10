@@ -1,1 +1,1 @@
-[{"name": "Kanel", "id": 784, "x": 3155, "y": 3406, "p": 0}]
+[{"name": "Kanel", "id": 784, "p": 0, "x": 3155, "y": 3406, "mapId": 28, "mapId_p": 0, "mapId_x": 3155, "mapId_y": 3406, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 949, "color_replacements": {"158": 43166, "24856": 5404, "25104": 5272, "278": 43156, "8596": 10529}, "combat": 0, "headModels": [28684], "models": [28609, 28647, 28661, 28611, 28612, 28669, 28591], "movementCapabilities": 1, "unknown_67": 0}]

@@ -1,0 +1,1 @@
+[{"name": "Merlin", "morph_names_1": ["", "", "", "", "", "", "", "Merlin", ""], "id": 213, "p": 1, "x": 2767, "y": 3499, "mapId": 28, "mapId_p": 1, "mapId_x": 2767, "mapId_y": 3499, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, -1, -1, -1, -1, -1, -1, 249, -1], "varbit": -1, "varp": 2178}, "movementCapabilities": 3, "unknown_63": true}]

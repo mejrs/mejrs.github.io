@@ -1,0 +1,1 @@
+[{"name": "Dead monkey", "morph_names_1": ["", "Dead monkey", ""], "id": 13209, "p": 0, "x": 3224, "y": 2989, "mapId": 28, "mapId_p": 0, "mapId_x": 3224, "mapId_y": 2989, "combat": 0, "morphs_1": {"ids": [-1, 13210, -1], "varbit": 9344, "varp": -1}, "movementCapabilities": 3, "quests": [343], "unknown_63": true}]

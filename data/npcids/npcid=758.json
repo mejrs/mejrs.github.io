@@ -1,1 +1,1 @@
-[{"name": "Fred the Farmer", "id": 758, "x": 3206, "y": 3290, "p": 0}]
+[{"name": "Fred the Farmer", "id": 758, "p": 0, "x": 3206, "y": 3290, "mapId": 28, "mapId_p": 0, "mapId_x": 3206, "mapId_y": 3290, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 29, "combat": 0, "headModels": [49449], "models": [49451], "movementCapabilities": 3, "unknown_63": true}]

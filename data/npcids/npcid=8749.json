@@ -1,0 +1,1 @@
+[{"name": "Lieutenant Brae", "morph_names_1": ["Lieutenant Brae", ""], "id": 8749, "p": 0, "x": 2827, "y": 10214, "mapId": 21, "mapId_p": 0, "mapId_x": 11, "mapId_y": 166, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [18444, -1], "varbit": 20583, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

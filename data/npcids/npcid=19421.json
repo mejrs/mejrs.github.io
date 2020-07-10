@@ -1,0 +1,1 @@
+[{"name": "Goblin Maitre d'", "id": 19421, "p": 1, "x": 1302, "y": 5109, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 86, "combat": 0, "headModels": [78259], "models": [75381, 75413, 75336, 75386, 75352, 75359, 75423], "movementCapabilities": 1, "quests": [368]}]

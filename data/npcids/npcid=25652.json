@@ -1,1 +1,1 @@
-[{"name": "Sif", "id": 25652, "x": 3358, "y": 3872, "p": 0}]
+[{"name": "Sif", "id": 25652, "p": 0, "x": 3358, "y": 3872, "mapId": 28, "mapId_p": 0, "mapId_x": 3358, "mapId_y": 3872, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 1582, "boundSize": 1, "combat": 0, "headModels": [52274], "models": [52277], "movementCapabilities": 1}]

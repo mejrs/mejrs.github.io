@@ -1,1 +1,1 @@
-[{"name": "Francis", "id": 2327, "x": 2814, "y": 3337, "p": 0}]
+[{"name": "Francis", "id": 2327, "p": 0, "x": 2814, "y": 3337, "mapId": 28, "mapId_p": 0, "mapId_x": 2814, "mapId_y": 3337, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Pay", null, null], "animation_group": 4, "color_replacements": {"25238": 5665, "6798": 8379, "8741": 5665}, "combat": 0, "headModels": [39744, 38642], "models": [6848, 250, 292, 170, 10218, 7368, 265, 7121], "movementCapabilities": 3, "retexture_indices": [-1, 0], "texture_replacements": {"618": 615}}]

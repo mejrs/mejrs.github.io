@@ -1,0 +1,1 @@
+[{"name": "Drunken Dwarf", "morph_names_1": ["Drunken Dwarf", "Drunken Dwarf", ""], "id": 2202, "p": 0, "x": 2912, "y": 10222, "mapId": 21, "mapId_p": 0, "mapId_x": 96, "mapId_y": 174, "animation_group": 48, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [2203, 2204, -1], "varbit": 15388, "varp": -1}, "movementCapabilities": 3}]

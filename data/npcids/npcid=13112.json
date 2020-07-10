@@ -1,0 +1,1 @@
+[{"name": "Common jadinko", "morph_names_1": ["", "Common jadinko", ""], "id": 13112, "p": 0, "x": 2951, "y": 2932, "mapId": 28, "mapId_p": 0, "mapId_x": 2951, "mapId_y": 2932, "ambience": 20, "animation_group": 1923, "boundSize": 1, "combat": 0, "modelContract": 25, "morphs_1": {"ids": [-1, 13119, -1], "varbit": 16144, "varp": -1}, "movementCapabilities": 3}]

@@ -1,1 +1,1 @@
-[{"name": "Derrik", "id": 1376, "x": 2551, "y": 3897, "p": 0}]
+[{"name": "Derrik", "id": 1376, "p": 0, "x": 2551, "y": 3897, "mapId": 28, "mapId_p": 0, "mapId_x": 2551, "mapId_y": 3897, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"25238": 7958, "54397": 6445, "6798": 0}, "combat": 0, "headModels": [39726, 38097], "models": [214, 252, 302, 167, 179, 4226, 4218, 73190], "movementCapabilities": 3, "scaleXZ": 128, "scaleY": 128}]

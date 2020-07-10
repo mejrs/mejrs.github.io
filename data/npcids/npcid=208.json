@@ -1,1 +1,1 @@
-[{"name": "Captain Lawgof", "id": 208, "x": 2567, "y": 3460, "p": 0}]
+[{"name": "Captain Lawgof", "id": 208, "p": 0, "x": 2567, "y": 3460, "mapId": 28, "mapId_p": 0, "mapId_x": 2567, "mapId_y": 3460, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 2675, "boundSize": 1, "combat": 0, "headModels": [89980], "models": [90190, 78297], "movementCapabilities": 3, "unknown_63": true}]

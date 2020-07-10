@@ -1,1 +1,1 @@
-[{"name": "Lumbridge guardsman", "id": 14938, "x": 3232, "y": 3228, "p": 0}]
+[{"name": "Lumbridge guardsman", "id": 14938, "p": 0, "x": 3232, "y": 3228, "mapId": 28, "mapId_p": 0, "mapId_x": 3232, "mapId_y": 3228, "animation_group": 3209, "combat": 0, "headModels": [87637], "models": [87678, 79889, 74145], "movementCapabilities": 0}]

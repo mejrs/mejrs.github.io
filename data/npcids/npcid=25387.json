@@ -1,0 +1,1 @@
+[{"name": "Cassie Toebeard", "id": 25387, "p": 0, "x": 2780, "y": 1505, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "ambience": 20, "animation_group": 4, "boundSize": 1, "combat": 0, "headModels": [39111], "modelContract": 25, "models": [28839, 28845, 28824, 28851, 28836, 28852], "movementCapabilities": 1}]

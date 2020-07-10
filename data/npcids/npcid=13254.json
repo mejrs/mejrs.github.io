@@ -1,0 +1,1 @@
+[{"name": "Snow angel statue", "id": 13254, "p": 0, "x": 2847, "y": 5808, "mapId": 220, "mapId_p": 0, "mapId_x": 2847, "mapId_y": 5808, "actions": ["Touch", null, null, null, null], "boundSize": 1, "combat": 0, "models": [62455], "movementCapabilities": 1, "unknown_67": 26}]

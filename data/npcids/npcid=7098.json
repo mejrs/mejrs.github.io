@@ -1,0 +1,1 @@
+[{"name": "Peanut", "morph_names_1": ["", "Peanut", ""], "id": 7098, "p": 0, "x": 2611, "y": 2864, "mapId": 28, "mapId_p": 0, "mapId_x": 2611, "mapId_y": 2864, "animation_group": 1155, "combat": 0, "extra": {"attack_speed": 5}, "morphs_1": {"ids": [-1, 7030, -1], "varbit": 14058, "varp": -1}, "movementCapabilities": 3}]

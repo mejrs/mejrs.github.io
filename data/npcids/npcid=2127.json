@@ -1,0 +1,1 @@
+[{"name": "Octagon Referee", "id": 2127, "p": 1, "x": 2880, "y": 10199, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2675, "combat": 0, "headModels": [89996], "models": [90194, 78297], "movementCapabilities": 1, "unknown_63": true}]

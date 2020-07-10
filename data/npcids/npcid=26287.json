@@ -1,0 +1,1 @@
+[{"name": "Azzanadra", "morph_names_1": ["", "Azzanadra", ""], "id": 26287, "p": 1, "x": 2890, "y": 3570, "mapId": 28, "mapId_p": 1, "mapId_x": 2890, "mapId_y": 3570, "boundSize": 2, "combat": 0, "morphs_1": {"ids": [17488, 26288, -1], "varbit": 43980, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 2}]

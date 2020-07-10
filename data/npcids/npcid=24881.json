@@ -1,0 +1,1 @@
+[{"name": "Gunther", "id": 24881, "p": 0, "x": 3033, "y": 1644, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 2699, "boundSize": 1, "combat": 0, "headModels": [39538, 39836, 39254], "models": [8775, 215, 249, 8780, 8777, 181, 10218], "movementCapabilities": 1}]

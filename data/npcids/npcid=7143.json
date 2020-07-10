@@ -1,1 +1,1 @@
-[{"name": "Professor Henry", "id": 7143, "x": 3084, "y": 3458, "p": 0}]
+[{"name": "Professor Henry", "id": 7143, "p": 0, "x": 3084, "y": 3458, "mapId": 28, "mapId_p": 0, "mapId_x": 3084, "mapId_y": 3458, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "color_replacements": {"16": 22}, "combat": 0, "headModels": [39910, 39306], "models": [32380, 32383, 25644, 25667, 14374, 176], "movementCapabilities": 3, "texture_replacements": {"607": 619, "608": 619, "622": 614}, "unknown_63": true}]

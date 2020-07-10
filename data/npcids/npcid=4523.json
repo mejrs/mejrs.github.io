@@ -1,1 +1,1 @@
-[{"name": "Enchanted Broom", "id": 4523, "x": 2075, "y": 3905, "p": 1}]
+[{"name": "Enchanted Broom", "id": 4523, "p": 1, "x": 2075, "y": 3905, "mapId": 28, "mapId_p": 1, "mapId_x": 2075, "mapId_y": 3905, "ambience": 12, "animation_group": 874, "combat": 0, "drawMapDot": false, "modelContract": 12, "models": [16738], "movementCapabilities": 2}]

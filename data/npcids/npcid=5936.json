@@ -1,1 +1,1 @@
-[{"name": "Sinco Doar", "id": 5936, "x": 3266, "y": 3445, "p": 0}]
+[{"name": "Sinco Doar", "id": 5936, "p": 0, "x": 3266, "y": 3445, "mapId": 28, "mapId_p": 0, "mapId_x": 3266, "mapId_y": 3445, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animateIdle": false, "boundSize": 1, "color_replacements": {"6798": 6188}, "combat": 0, "headModels": [39915, 38096], "models": [25362], "movementCapabilities": 1, "unknown_67": 0}]

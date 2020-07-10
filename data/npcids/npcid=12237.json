@@ -1,1 +1,1 @@
-[{"name": "Ikis Krum", "id": 12237, "x": 3047, "y": 3365, "p": 0}]
+[{"name": "Ikis Krum", "id": 12237, "p": 0, "x": 3047, "y": 3365, "mapId": 28, "mapId_p": 0, "mapId_x": 3047, "mapId_y": 3365, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Pick-pocket", null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"25238": 5652, "43569": 62375, "8741": 425}, "combat": 0, "headModels": [39812, 39280, 39481], "models": [107516], "movementCapabilities": 3, "retexture_indices": [-1, 0], "texture_replacements": {"618": 601}}]

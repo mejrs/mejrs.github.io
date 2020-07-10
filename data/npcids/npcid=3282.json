@@ -1,1 +1,1 @@
-[{"name": "Engineer", "id": 3282, "x": 3008, "y": 3442, "p": 0}]
+[{"name": "Engineer", "id": 3282, "p": 0, "x": 3008, "y": 3442, "mapId": 28, "mapId_p": 0, "mapId_x": 3008, "mapId_y": 3442, "animation_group": 2675, "combat": 0, "headModels": [90027, 90037], "models": [90335, 90306, 90294, 90286, 90356, 78297, 90321, 90383], "movementCapabilities": 1}]

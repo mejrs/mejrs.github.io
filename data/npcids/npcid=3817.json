@@ -1,1 +1,1 @@
-[{"name": "Lieutenant Schepbur", "id": 3817, "x": 2515, "y": 3205, "p": 0}]
+[{"name": "Lieutenant Schepbur", "id": 3817, "p": 0, "x": 2515, "y": 3205, "mapId": 28, "mapId_p": 0, "mapId_x": 2515, "mapId_y": 3205, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 108, "combat": 0, "headModels": [63369, 63384], "modelContract": 20, "models": [62957, 62999, 63106, 62889, 63036, 62924, 63134], "movementCapabilities": 3}]

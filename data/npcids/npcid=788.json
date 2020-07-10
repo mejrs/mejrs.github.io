@@ -1,1 +1,1 @@
-[{"name": "Garv", "id": 788, "x": 2776, "y": 3186, "p": 0}]
+[{"name": "Garv", "id": 788, "p": 0, "x": 2776, "y": 3186, "mapId": 28, "mapId_p": 0, "mapId_x": 2776, "mapId_y": 3186, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 4, "color_replacements": {"25238": 12, "61": 12, "8741": 12}, "combat": 0, "headModels": [38589, 39223], "models": [219, 294, 151, 254, 185, 179, 246, 550], "movementCapabilities": 3}]

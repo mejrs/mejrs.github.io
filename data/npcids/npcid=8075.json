@@ -1,0 +1,1 @@
+[{"name": "Egg", "morph_names_1": ["Egg", "Egg", "Egg", ""], "id": 8075, "p": 0, "x": 2939, "y": 3681, "mapId": 28, "mapId_p": 0, "mapId_x": 2939, "mapId_y": 3681, "animation_group": 1717, "boundSize": 2, "combat": 0, "morphs_1": {"ids": [8061, 8062, 8062, -1], "varbit": 13519, "varp": -1}, "movementCapabilities": 1, "unknown_63": true}]

@@ -1,0 +1,1 @@
+[{"name": "Urbi", "morph_names_1": ["", "Urbi", ""], "id": 5265, "p": 0, "x": 3288, "y": 2806, "mapId": 28, "mapId_p": 0, "mapId_x": 3288, "mapId_y": 2806, "animation_group": 4, "combat": 0, "morphs_1": {"ids": [-1, 5266, -1], "varbit": 10293, "varp": -1}, "movementCapabilities": 1}]

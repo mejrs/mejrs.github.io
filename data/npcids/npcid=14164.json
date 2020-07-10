@@ -1,1 +1,1 @@
-[{"name": "Darkmeyer trader", "id": 14164, "x": 3669, "y": 3380, "p": 0}]
+[{"name": "Darkmeyer trader", "id": 14164, "p": 0, "x": 3669, "y": 3380, "mapId": 28, "mapId_p": 0, "mapId_x": 3669, "mapId_y": 3380, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3182, "boundSize": 1, "combat": 0, "headModels": [38940], "models": [26146, 26155, 26139, 26150, 26142], "movementCapabilities": 0}]

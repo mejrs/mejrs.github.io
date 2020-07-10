@@ -1,0 +1,1 @@
+[{"name": "Veldaban", "morph_names_1": ["", "", "", "Veldaban", "", "Veldaban", ""], "id": 8764, "p": 0, "x": 2910, "y": 10195, "mapId": 21, "mapId_p": 0, "mapId_x": 94, "mapId_y": 147, "color_replacements": {"7062": 10838}, "combat": 0, "morphs_1": {"ids": [-1, -1, -1, 8766, -1, 8766, -1], "varbit": 10547, "varp": -1}, "movementCapabilities": 1}]

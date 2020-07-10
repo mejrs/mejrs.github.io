@@ -1,1 +1,1 @@
-[{"name": "Lord Amlodd", "id": 20229, "x": 2140, "y": 3372, "p": 1}]
+[{"name": "Lord Amlodd", "id": 20229, "p": 1, "x": 2140, "y": 3372, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Trade", "Swap", null], "animation_group": 3223, "boundSize": 1, "combat": 0, "headModels": [97181], "models": [97296], "movementCapabilities": 1, "unknown_63": true}]

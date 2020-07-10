@@ -1,0 +1,1 @@
+[{"name": "Nirrie", "id": 3023, "p": 0, "x": 3367, "y": 9586, "mapId": 567, "mapId_p": 0, "mapId_x": 3367, "mapId_y": 9586, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 126, "combat": 0, "headModels": [39063], "models": [10212], "movementCapabilities": 3, "unknown_63": true}]

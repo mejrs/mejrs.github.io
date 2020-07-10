@@ -1,1 +1,1 @@
-[{"name": "Soldier", "id": 26630, "x": 2921, "y": 3570, "p": 0}]
+[{"name": "Soldier", "id": 26630, "p": 0, "x": 2921, "y": 3570, "mapId": 28, "mapId_p": 0, "mapId_x": 2921, "mapId_y": 3570, "animation_group": 2368, "combat": 0, "extra": {"unknown_item_reference": 14922}, "models": [79681], "movementCapabilities": 1, "respawnDirection": 0, "unknown_63": true}]

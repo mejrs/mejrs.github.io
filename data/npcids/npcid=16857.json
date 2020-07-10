@@ -1,1 +1,1 @@
-[{"name": "Freaky Forester", "id": 16857, "x": 2628, "y": 3489, "p": 0}]
+[{"name": "Freaky Forester", "id": 16857, "p": 0, "x": 2628, "y": 3489, "mapId": 28, "mapId_p": 0, "mapId_x": 2628, "mapId_y": 3489, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"8741": 119}, "combat": 0, "headModels": [39836, 39254, 39538], "models": [215, 249, 299, 170, 176, 8777, 185, 8781, 8775], "movementCapabilities": 1, "respawnDirection": 2, "unknown_63": true}]

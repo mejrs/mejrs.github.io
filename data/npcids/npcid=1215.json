@@ -1,1 +1,1 @@
-[{"name": "Parrots", "id": 1215, "x": 2612, "y": 3287, "p": 0}, {"name": "Parrots", "id": 1215, "x": 2613, "y": 3287, "p": 0}]
+[{"name": "Parrots", "id": 1215, "p": 0, "x": 2612, "y": 3287, "mapId": 28, "mapId_p": 0, "mapId_x": 2612, "mapId_y": 3287, "boundSize": 1, "combat": 0, "models": [26868], "movementCapabilities": 1}, {"name": "Parrots", "id": 1215, "p": 0, "x": 2613, "y": 3287, "mapId": 28, "mapId_p": 0, "mapId_x": 2613, "mapId_y": 3287, "boundSize": 1, "combat": 0, "models": [26868], "movementCapabilities": 1}]

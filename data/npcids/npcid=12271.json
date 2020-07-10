@@ -1,0 +1,1 @@
+[{"name": "Jessika", "morph_names_1": ["", "Jessika", ""], "id": 12271, "p": 0, "x": 2999, "y": 3373, "mapId": 28, "mapId_p": 0, "mapId_x": 2999, "mapId_y": 3373, "animation_group": 4, "combat": 0, "morphs_1": {"ids": [-1, 12266, -1], "varbit": 13127, "varp": -1}, "movementCapabilities": 3, "quests": [342], "unknown_63": true}]

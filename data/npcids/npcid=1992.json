@@ -1,1 +1,1 @@
-[{"name": "Neite", "id": 1992, "x": 3298, "y": 2757, "p": 0}]
+[{"name": "Neite", "id": 1992, "p": 0, "x": 3298, "y": 2757, "mapId": 28, "mapId_p": 0, "mapId_x": 3298, "mapId_y": 2757, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 15, "animation_group": 41, "boundSize": 1, "combat": 0, "headModels": [34049], "models": [34013], "movementCapabilities": 3, "unknown_63": true}]

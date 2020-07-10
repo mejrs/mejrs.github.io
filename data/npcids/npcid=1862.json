@@ -1,1 +1,1 @@
-[{"name": "Ali Morrisane", "id": 1862, "x": 3303, "y": 3211, "p": 0}]
+[{"name": "Ali Morrisane", "id": 1862, "p": 0, "x": 3303, "y": 3211, "mapId": 28, "mapId_p": 0, "mapId_x": 3303, "mapId_y": 3211, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 4, "boundSize": 1, "combat": 0, "headModels": [46676], "models": [46484], "movementCapabilities": 1, "unknown_63": true}]

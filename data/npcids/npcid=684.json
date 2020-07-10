@@ -1,1 +1,1 @@
-[{"name": "Tower Advisor", "id": 684, "x": 2667, "y": 3430, "p": 2}]
+[{"name": "Tower Advisor", "id": 684, "p": 2, "x": 2667, "y": 3430, "mapId": 28, "mapId_p": 2, "mapId_x": 2667, "mapId_y": 3430, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "combat": 0, "headModels": [38588, 39227], "models": [208, 185, 253, 296, 151, 179, 262, 563, 317], "movementCapabilities": 1, "texture_replacements": {"620": 619}}]

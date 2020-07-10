@@ -1,1 +1,1 @@
-[{"name": "Philop", "id": 782, "x": 3150, "y": 3407, "p": 0}]
+[{"name": "Philop", "id": 782, "p": 0, "x": 3150, "y": 3407, "mapId": 28, "mapId_p": 0, "mapId_x": 3150, "mapId_y": 3407, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 948, "color_replacements": {"24856": 36252, "25104": 36372, "8483": 45}, "combat": 0, "headModels": [28688], "models": [28604, 28633, 28661, 28611, 28612, 28669, 28591], "movementCapabilities": 1, "unknown_67": 0}]

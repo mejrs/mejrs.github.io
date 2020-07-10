@@ -1,0 +1,1 @@
+[{"name": "General Wartface", "id": 3391, "p": 0, "x": 1862, "y": 5351, "mapId": 394, "mapId_p": 0, "mapId_x": 1862, "mapId_y": 5351, "animation_group": 754, "boundSize": 1, "combat": 0, "headModels": [78240], "models": [75366, 75412, 75340, 75392, 75351, 75359], "movementCapabilities": 1, "scaleXZ": 148, "scaleY": 148, "unknown_63": true}]

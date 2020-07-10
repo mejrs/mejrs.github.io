@@ -1,0 +1,1 @@
+[{"name": "Dioscuri Sentinel", "id": 26854, "p": 0, "x": 2891, "y": 3525, "mapId": 28, "mapId_p": 0, "mapId_x": 2891, "mapId_y": 3525, "animation_group": 4438, "boundSize": 1, "combat": 0, "drawMapDot": false, "models": [97391, 97400, 97401, 97403, 97415, 97416, 97419], "movementCapabilities": 1, "movementType": 2, "respawnDirection": 3}]

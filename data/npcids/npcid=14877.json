@@ -1,1 +1,1 @@
-[{"name": "Jack Oval", "id": 14877, "x": 2888, "y": 3501, "p": 0}]
+[{"name": "Jack Oval", "id": 14877, "p": 0, "x": 2888, "y": 3501, "mapId": 28, "mapId_p": 0, "mapId_x": 2888, "mapId_y": 3501, "action_cursors": [62, null, 44, null, null, null], "actions": ["Tan hide", null, "Talk to", null, "Trade"], "ambience": 25, "animation_group": 2325, "boundSize": 1, "combat": 0, "headModels": [48738], "modelContract": 15, "models": [49213, 60162], "movementCapabilities": 1, "respawnDirection": 0, "unknown_63": true}]

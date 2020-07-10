@@ -1,1 +1,1 @@
-[{"name": "Fadli", "id": 958, "x": 3383, "y": 3269, "p": 0}]
+[{"name": "Fadli", "id": 958, "p": 0, "x": 3383, "y": 3269, "mapId": 28, "mapId_p": 0, "mapId_x": 3383, "mapId_y": 3269, "action_cursors": [null, null, 44, null, null, null], "actions": ["Bank", null, "Talk-to", "Collect", "Trade"], "animation_group": 3180, "boundSize": 1, "color_replacements": {"25238": 8720, "4533": 6690, "4540": 6697, "4550": 6707, "4554": 6711}, "combat": 0, "headModels": [39600, 39254], "models": [210, 249, 296, 33034, 179, 254, 185], "movementCapabilities": 3, "scaleXZ": 128, "scaleY": 128}]

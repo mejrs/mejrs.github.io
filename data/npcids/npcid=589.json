@@ -1,1 +1,1 @@
-[{"name": "Zenesha", "id": 589, "x": 2660, "y": 3291, "p": 0}]
+[{"name": "Zenesha", "id": 589, "p": 0, "x": 2660, "y": 3291, "mapId": 28, "mapId_p": 0, "mapId_x": 2660, "mapId_y": 3291, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3182, "boundSize": 1, "color_replacements": {"6798": 6852, "8741": 103}, "combat": 0, "headModels": [39016, 38861], "models": [393, 468, 352, 179, 432, 414, 361], "movementCapabilities": 3, "texture_replacements": {"745": 746}, "unknown_63": true}]

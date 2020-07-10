@@ -1,0 +1,1 @@
+[{"name": "Mime", "id": 1056, "p": 0, "x": 2011, "y": 4762, "mapId": 307, "mapId_p": 0, "mapId_x": 2011, "mapId_y": 4762, "animation_group": 47, "boundSize": 1, "color_replacements": {"10004": 43117, "10659": 8, "25238": 8, "4626": 8, "8741": 8, "9104": 43117}, "combat": 0, "models": [40225, 3667, 292, 163, 179, 254, 185], "movementCapabilities": 1, "unknown_63": true}]

@@ -1,0 +1,1 @@
+[{"name": "Odd Old Man", "morph_names_2": ["Odd Old Man", "Odd Old Man", "Odd Old Man"], "id": 9175, "p": 0, "x": 3361, "y": 3505, "mapId": 28, "mapId_p": 0, "mapId_x": 3361, "mapId_y": 3505, "boundSize": 2, "combat": 0, "morphs_2": {"ids": [9173, 9174, 9173], "varbit": 9915, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

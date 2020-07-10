@@ -1,0 +1,1 @@
+[{"name": "Zanik", "morph_names_1": ["", "", "", "", "", "", "", "Zanik", "Zanik", ""], "id": 6396, "p": 0, "x": 2791, "y": 4279, "mapId": 254, "mapId_p": 0, "mapId_x": 2791, "mapId_y": 4279, "animation_group": 214, "combat": 0, "morphs_1": {"ids": [-1, -1, -1, -1, -1, -1, -1, 6393, 6393, -1], "varbit": 13322, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

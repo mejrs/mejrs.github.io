@@ -1,1 +1,1 @@
-[{"name": "Scavvo", "id": 537, "x": 3191, "y": 3351, "p": 1}]
+[{"name": "Scavvo", "id": 537, "p": 1, "x": 3191, "y": 3351, "mapId": 28, "mapId_p": 1, "mapId_x": 3191, "mapId_y": 3351, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3183, "boundSize": 1, "color_replacements": {"25238": 5652, "43072": 4550, "6798": 45, "8741": 4769}, "combat": 0, "headModels": [39947, 39227], "models": [206, 254, 253, 292, 151, 10218, 181], "movementCapabilities": 3, "unknown_63": true}]

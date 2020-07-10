@@ -1,0 +1,1 @@
+[{"name": "Gnomecopter pilot", "id": 19572, "p": 0, "x": 4643, "y": 6469, "ambience": 20, "animation_group": 108, "boundSize": 1, "color_replacements": {"6533": 6556, "6538": 6561, "6543": 6566}, "combat": 0, "headModels": [63351, 63393], "modelContract": 20, "models": [62944, 62996, 63070, 62894, 62910, 63027], "movementCapabilities": 1, "respawnDirection": 0}]

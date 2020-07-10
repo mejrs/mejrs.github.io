@@ -1,0 +1,1 @@
+[{"name": "Fred", "id": 25193, "p": 0, "x": 2079, "y": 7118, "mapId": 704, "mapId_p": 0, "mapId_x": 95, "mapId_y": 142, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 2780, "combat": 0, "headModels": [91878], "models": [91896], "movementCapabilities": 1, "respawnDirection": 2, "unknown_67": 0}]

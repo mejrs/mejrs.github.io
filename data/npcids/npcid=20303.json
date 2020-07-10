@@ -1,1 +1,1 @@
-[{"name": "Cadarn musician", "id": 20303, "x": 2266, "y": 3338, "p": 1}]
+[{"name": "Cadarn musician", "id": 20303, "p": 1, "x": 2266, "y": 3338, "action_cursors": [null, null, 44, null, null, null], "actions": ["Listen to", null, "Talk to", null, null], "animation_group": 3309, "boundSize": 1, "combat": 0, "headModels": [97155], "models": [97238, 97239, 97237, 97243, 97242, 97355], "movementCapabilities": 1, "respawnDirection": 2, "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "Remsai", "id": 472, "x": 2524, "y": 3169, "p": 0}]
+[{"name": "Remsai", "id": 472, "p": 0, "x": 2524, "y": 3169, "mapId": 28, "mapId_p": 0, "mapId_x": 2524, "mapId_y": 3169, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 108, "boundSize": 1, "combat": 0, "headModels": [63323, 42662, 42660], "modelContract": 20, "models": [63086, 62879, 62911, 62948, 62994], "movementCapabilities": 3}]

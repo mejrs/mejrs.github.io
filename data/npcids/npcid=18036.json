@@ -1,1 +1,1 @@
-[{"name": "Fortress guard", "id": 18036, "x": 3024, "y": 3540, "p": 0}]
+[{"name": "Fortress guard", "id": 18036, "p": 0, "x": 3024, "y": 3540, "mapId": 28, "mapId_p": 0, "mapId_x": 3024, "mapId_y": 3540, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2696, "combat": 0, "headModels": [56724, 39223], "models": [56850, 59179, 246, 176, 56729, 59050, 80144], "movementCapabilities": 1, "quests": [363], "respawnDirection": 5}]

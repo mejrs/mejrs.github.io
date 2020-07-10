@@ -1,0 +1,1 @@
+[{"name": "Lapalok", "morph_names_1": ["Duradel", "Lapalok", "Lapalok", ""], "id": 8483, "p": 1, "x": 2869, "y": 2982, "mapId": 28, "mapId_p": 1, "mapId_x": 2869, "mapId_y": 2982, "animation_group": 3183, "combat": 0, "morphs_1": {"ids": [8466, 8467, 8467, -1], "varbit": 11754, "varp": -1}, "movementCapabilities": 3}]

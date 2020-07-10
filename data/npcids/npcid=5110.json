@@ -1,1 +1,1 @@
-[{"name": "Aleck", "id": 5110, "x": 2568, "y": 3082, "p": 0}]
+[{"name": "Aleck", "id": 5110, "p": 0, "x": 2568, "y": 3082, "mapId": 28, "mapId_p": 0, "mapId_x": 2568, "mapId_y": 3082, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, "Trade"], "animation_group": 3183, "color_replacements": {"5673": 7587}, "combat": 0, "headModels": [39431, 39630], "models": [19822, 19832, 14175, 169, 179, 19333, 19814], "movementCapabilities": 3, "quests": [182], "recolor_indices": [-1, 0], "unknown_63": true}]

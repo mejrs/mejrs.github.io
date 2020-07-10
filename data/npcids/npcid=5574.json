@@ -1,0 +1,1 @@
+[{"name": "Scout", "morph_names_1": ["", "Scout", ""], "id": 5574, "p": 0, "x": 2835, "y": 3053, "mapId": 28, "mapId_p": 0, "mapId_x": 2835, "mapId_y": 3053, "animation_group": 111, "combat": 0, "morphs_1": {"ids": [-1, 5567, -1], "varbit": 9517, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "Drummer", "id": 8720, "x": 2811, "y": 2946, "p": 0}]
+[{"name": "Drummer", "id": 8720, "p": 0, "x": 2811, "y": 2946, "mapId": 28, "mapId_p": 0, "mapId_x": 2811, "mapId_y": 2946, "action_cursors": [null, null, 44, null, null, null], "actions": ["Listen to", null, "Talk to", null, null], "animation_group": 1545, "boundSize": 1, "combat": 0, "headModels": [47200], "models": [47136, 47172], "movementCapabilities": 1, "respawnDirection": 0}]

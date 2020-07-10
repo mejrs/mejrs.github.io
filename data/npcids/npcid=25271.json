@@ -1,0 +1,1 @@
+[{"name": "Hermit crab", "id": 25271, "p": 0, "x": 2119, "y": 7132, "mapId": 704, "mapId_p": 0, "mapId_x": 135, "mapId_y": 156, "ambience": 25, "animation_group": 3589, "combat": 0, "headModels": [106785], "modelContract": 15, "models": [106770, 106771], "movementCapabilities": 1, "respawnDirection": 2, "unknown_63": true, "unknown_67": 0}]

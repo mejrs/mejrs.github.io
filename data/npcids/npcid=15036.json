@@ -1,1 +1,1 @@
-[{"name": "Man", "id": 15036, "x": 3208, "y": 3273, "p": 0}]
+[{"name": "Man", "id": 15036, "p": 0, "x": 3202, "y": 3254, "mapId": 28, "mapId_p": 0, "mapId_x": 3202, "mapId_y": 3254, "animation_group": 2330, "boundSize": 1, "combat": 0, "headModels": [49069], "models": [49571], "movementCapabilities": 1, "respawnDirection": 2, "unknown_63": true}]

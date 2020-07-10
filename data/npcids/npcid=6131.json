@@ -1,0 +1,1 @@
+[{"name": "Zombie", "id": 6131, "p": 0, "x": 1885, "y": 5026, "mapId": 134, "mapId_p": 0, "mapId_x": 1885, "mapId_y": 5026, "animation_group": 679, "boundSize": 2, "color_replacements": {"13489": 32811, "13493": 32811, "13497": 32815, "13501": 32819, "13506": 32819}, "combat": 0, "extra": {"weakness_class": 8}, "models": [27113], "movementCapabilities": 1}]

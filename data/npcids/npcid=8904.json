@@ -1,1 +1,1 @@
-[{"name": "Overseer", "id": 8904, "x": 3316, "y": 3491, "p": 0}]
+[{"name": "Overseer", "id": 8904, "p": 0, "x": 3316, "y": 3491, "mapId": 28, "mapId_p": 0, "mapId_x": 3316, "mapId_y": 3491, "action_cursors": [44, null, null, null, null, null], "animation_group": 4, "color_replacements": {"23326": 4627, "25238": 37017, "43072": 7699, "8078": 9388, "8741": 4627, "8887": 7236}, "combat": 0, "headModels": [39066], "members_actions": ["Talk-to", null, "Finish job", null, null], "models": [14868, 437, 176, 343, 390, 358], "movementCapabilities": 1, "respawnDirection": 0}]

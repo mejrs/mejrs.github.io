@@ -1,1 +1,1 @@
-[{"name": "Gargh", "id": 2063, "x": 2413, "y": 3053, "p": 0}]
+[{"name": "Gargh", "id": 2063, "p": 0, "x": 2413, "y": 3053, "mapId": 28, "mapId_p": 0, "mapId_x": 2413, "mapId_y": 3053, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 1476, "boundSize": 2, "combat": 0, "headModels": [31791], "models": [46178], "movementCapabilities": 3}]

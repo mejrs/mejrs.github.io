@@ -1,0 +1,1 @@
+[{"name": "Myself", "morph_names_1": ["", "", "", "", "", "", "", "Myself", ""], "id": 23265, "p": 0, "x": 3244, "y": 3402, "mapId": 28, "mapId_p": 0, "mapId_x": 3244, "mapId_y": 3402, "combat": 0, "morphs_1": {"ids": [-1, -1, -1, -1, -1, -1, -1, 23274, -1], "varbit": 33784, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 0}]

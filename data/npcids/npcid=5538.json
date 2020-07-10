@@ -1,0 +1,1 @@
+[{"name": "Autumn Elemental", "id": 5538, "p": 0, "x": 2917, "y": 5455, "mapId": 268, "mapId_p": 0, "mapId_x": 2917, "mapId_y": 5455, "ambience": 20, "animation_group": 355, "boundSize": 1, "combat": 0, "models": [22264, 22265], "movementCapabilities": 0, "scaleXZ": 80, "scaleY": 80, "slowWalk": false, "unknown_63": true}]

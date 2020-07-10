@@ -1,0 +1,1 @@
+[{"name": "Dororan", "morph_names_1": ["", "Dororan", ""], "id": 2646, "p": 0, "x": 3083, "y": 3417, "mapId": 28, "mapId_p": 0, "mapId_x": 3083, "mapId_y": 3417, "combat": 0, "morphs_1": {"ids": [-1, 2647, -1], "varbit": 9196, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 5, "unknown_63": true, "unknown_67": 0}]

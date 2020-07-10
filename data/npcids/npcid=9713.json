@@ -1,1 +1,1 @@
-[{"name": "Thok of Daemonheim", "id": 9713, "x": 3439, "y": 3698, "p": 0}]
+[{"name": "Thok of Daemonheim", "id": 9713, "p": 0, "x": 3439, "y": 3698, "mapId": 28, "mapId_p": 0, "mapId_x": 3439, "mapId_y": 3698, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Check Hard Mode Floors", null, null], "animation_group": 1764, "boundSize": 1, "combat": 0, "headModels": [55626], "models": [55641], "movementCapabilities": 1}]

@@ -1,0 +1,1 @@
+[{"name": "King Black Dragon", "morph_names_1": ["", "King Black Dragon", ""], "id": 26029, "p": 0, "x": 3486, "y": 3660, "mapId": 28, "mapId_p": 0, "mapId_x": 3486, "mapId_y": 3660, "boundSize": 5, "combat": 0, "morphs_1": {"ids": [-1, 26030, -1], "varbit": 43454, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 0}]

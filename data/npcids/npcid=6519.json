@@ -1,0 +1,1 @@
+[{"name": "Dwarven Miner", "morph_names_1": ["", "", "Dwarven Miner", ""], "id": 6519, "p": 0, "x": 2692, "y": 3330, "mapId": 28, "mapId_p": 0, "mapId_x": 2692, "mapId_y": 3330, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, -1, 6520, -1], "varbit": 10023, "varp": -1}, "movementCapabilities": 3}]

@@ -1,0 +1,1 @@
+[{"name": "Lava hawk", "id": 17204, "p": 0, "x": 1435, "y": 7640, "mapId": 694, "mapId_p": 0, "mapId_x": 1435, "mapId_y": 7640, "animation_group": 3331, "combat": 0, "drawMapDot": false, "extra": {"pet_category": 1}, "headModels": [84023], "models": [101235], "movementCapabilities": 3}]

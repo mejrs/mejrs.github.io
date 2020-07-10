@@ -1,1 +1,1 @@
-[{"name": "Duke Horacio", "id": 741, "x": 3212, "y": 3220, "p": 1}]
+[{"name": "Duke Horacio", "id": 741, "p": 1, "x": 3212, "y": 3220, "mapId": 28, "mapId_p": 1, "mapId_x": 3212, "mapId_y": 3220, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 117, "boundSize": 1, "combat": 0, "headModels": [39624], "models": [40357], "movementCapabilities": 1, "quests": [66], "texture_replacements": {"612": 601}, "unknown_63": true}]

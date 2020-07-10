@@ -1,1 +1,1 @@
-[{"name": "Sentinel Plaguemanst", "id": 14113, "x": 3587, "y": 3358, "p": 0}]
+[{"name": "Sentinel Plaguemanst", "id": 14113, "p": 0, "x": 3587, "y": 3358, "mapId": 28, "mapId_p": 0, "mapId_x": 3587, "mapId_y": 3358, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 2140, "combat": 0, "headModels": [52484], "modelContract": 25, "models": [22706], "movementCapabilities": 1, "respawnDirection": 2}]

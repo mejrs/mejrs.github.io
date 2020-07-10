@@ -1,1 +1,1 @@
-[{"name": "Hari", "id": 3330, "x": 3133, "y": 3509, "p": 0}]
+[{"name": "Hari", "id": 3330, "p": 0, "x": 3133, "y": 3509, "mapId": 28, "mapId_p": 0, "mapId_x": 3133, "mapId_y": 3509, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-To", null, null, null, null], "animation_group": 2844, "boundSize": 1, "color_replacements": {"13122": 5157, "25238": 38061, "43072": 4535, "4540": 4522, "4550": 4535}, "combat": 0, "headModels": [39715, 39312], "models": [12083, 244, 12085, 33034, 177, 12087, 5218], "movementCapabilities": 3, "scaleXZ": 134, "scaleY": 145}]

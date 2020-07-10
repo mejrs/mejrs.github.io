@@ -1,0 +1,1 @@
+[{"name": "Penguin", "morph_names_1": ["", "Penguin", ""], "id": 15743, "p": 1, "x": 2865, "y": 5919, "boundSize": 1, "combat": 0, "drawMapDot": false, "morphs_1": {"ids": [-1, 15744, -1], "varbit": 9517, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

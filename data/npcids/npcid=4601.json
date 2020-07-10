@@ -1,1 +1,1 @@
-[{"name": "Burkor", "id": 4601, "x": 2420, "y": 3474, "p": 1}]
+[{"name": "Burkor", "id": 4601, "p": 1, "x": 2420, "y": 3474, "mapId": 28, "mapId_p": 1, "mapId_x": 2420, "mapId_y": 3474, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 108, "boundSize": 1, "combat": 0, "headModels": [63304, 63378, 42660], "modelContract": 20, "models": [62984, 63048, 62984, 63012, 62924, 63129], "movementCapabilities": 3}]

@@ -1,1 +1,1 @@
-[{"name": "Saradominist priest's daughter", "id": 17475, "x": 3205, "y": 3242, "p": 1}]
+[{"name": "Saradominist priest's daughter", "id": 17475, "p": 1, "x": 3205, "y": 3242, "mapId": 28, "mapId_p": 1, "mapId_x": 3205, "mapId_y": 3242, "animation_group": 2370, "boundSize": 1, "combat": 0, "headModels": [87609], "models": [87785], "movementCapabilities": 3}]

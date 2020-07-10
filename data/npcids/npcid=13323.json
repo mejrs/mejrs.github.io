@@ -1,0 +1,1 @@
+[{"name": "Troll", "id": 13323, "p": 0, "x": 1583, "y": 5867, "mapId": 101, "mapId_p": 0, "mapId_x": 1583, "mapId_y": 5867, "animation_group": 1787, "boundSize": 2, "combat": 0, "models": [44731, 62661, 62673, 62676], "movementCapabilities": 3, "scaleXZ": 128, "scaleY": 128}]

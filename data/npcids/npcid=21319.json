@@ -1,1 +1,1 @@
-[{"name": "Wizard Chambers", "id": 21319, "x": 3249, "y": 3168, "p": 0}]
+[{"name": "Wizard Chambers", "id": 21319, "p": 0, "x": 3249, "y": 3168, "mapId": 28, "mapId_p": 0, "mapId_x": 3249, "mapId_y": 3168, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Teleport", "Replay cutscene", null], "animation_group": 3456, "boundSize": 1, "combat": 0, "headModels": [103799], "models": [103844], "movementCapabilities": 1, "unknown_67": 0}]

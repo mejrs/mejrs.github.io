@@ -1,1 +1,1 @@
-[{"name": "Ranging Guild Doorman", "id": 679, "x": 2658, "y": 3439, "p": 0}]
+[{"name": "Ranging Guild Doorman", "id": 679, "p": 0, "x": 2658, "y": 3439, "mapId": 28, "mapId_p": 0, "mapId_x": 2658, "mapId_y": 3439, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"6674": 8111}, "combat": 0, "headModels": [39799, 39227, 39441], "models": [220, 185, 253, 296, 151, 179, 262, 563], "movementCapabilities": 3, "texture_replacements": {"620": 619}}]

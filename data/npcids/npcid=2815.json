@@ -1,1 +1,1 @@
-[{"name": "Neferti the Camel", "id": 2815, "x": 3293, "y": 2755, "p": 0}]
+[{"name": "Neferti the Camel", "id": 2815, "p": 0, "x": 3293, "y": 2755, "mapId": 28, "mapId_p": 0, "mapId_x": 3293, "mapId_y": 2755, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 25, "animation_group": 109, "boundSize": 2, "combat": 0, "headModels": [119260], "models": [119423], "movementCapabilities": 3}]

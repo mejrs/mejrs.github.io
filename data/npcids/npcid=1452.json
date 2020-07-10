@@ -1,1 +1,1 @@
-[{"name": "Monkey Child", "id": 1452, "x": 2743, "y": 2795, "p": 0}]
+[{"name": "Monkey Child", "id": 1452, "p": 0, "x": 2743, "y": 2795, "mapId": 28, "mapId_p": 0, "mapId_x": 2743, "mapId_y": 2795, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 177, "combat": 0, "headModels": [4657], "models": [4818, 4825], "movementCapabilities": 3, "scaleXZ": 100, "scaleY": 100}]

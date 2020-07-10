@@ -1,0 +1,1 @@
+[{"name": "White Chisel Director", "id": 2104, "p": 1, "x": 2890, "y": 10205, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2675, "boundSize": 1, "combat": 0, "headModels": [90028], "models": [90224, 78297], "movementCapabilities": 3, "unknown_63": true}]

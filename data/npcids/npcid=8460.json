@@ -1,0 +1,1 @@
+[{"name": "Hazelmere", "morph_names_1": ["Hazelmere", ""], "id": 8460, "p": 1, "x": 2678, "y": 3086, "mapId": 28, "mapId_p": 1, "mapId_x": 2678, "mapId_y": 3086, "animation_group": 505, "combat": 0, "morphs_1": {"ids": [669, -1], "varbit": 11754, "varp": -1}, "movementCapabilities": 3}]

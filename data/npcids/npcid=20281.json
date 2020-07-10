@@ -1,1 +1,1 @@
-[{"name": "Tanner", "id": 20281, "x": 2146, "y": 3344, "p": 1}]
+[{"name": "Tanner", "id": 20281, "p": 1, "x": 2146, "y": 3344, "action_cursors": [62, null, 44, null, null, null], "actions": ["Tan hide", null, "Talk to", "Trade", null], "animation_group": 2699, "combat": 0, "headModels": [97173], "models": [97255, 97256, 97258, 97260, 97257, 97352, 100165], "movementCapabilities": 1, "respawnDirection": 6, "texture_replacements": {"4840": 4848}, "unknown_63": true}]

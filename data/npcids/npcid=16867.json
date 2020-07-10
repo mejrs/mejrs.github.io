@@ -1,1 +1,1 @@
-[{"name": "Leo", "id": 16867, "x": 2611, "y": 3301, "p": 0}]
+[{"name": "Leo", "id": 16867, "p": 0, "x": 2611, "y": 3301, "mapId": 28, "mapId_p": 0, "mapId_x": 2611, "mapId_y": 3301, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 39, "color_replacements": {"25238": 8472, "6798": 3243, "8741": 6573}, "combat": 0, "headModels": [39744, 39212], "models": [6848, 11190, 293, 169, 177, 13938, 275, 185], "movementCapabilities": 3}]

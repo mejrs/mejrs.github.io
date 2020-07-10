@@ -1,0 +1,1 @@
+[{"name": "Snowcone seller", "id": 8845, "p": 0, "x": 5018, "y": 9639, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 4351, "combat": 0, "headModels": [69175], "models": [71043], "movementCapabilities": 1, "respawnDirection": 2}]

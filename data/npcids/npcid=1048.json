@@ -1,0 +1,1 @@
+[{"name": "Mercenary Adventurer", "morph_names_1": ["", "Mercenary Adventurer", ""], "id": 1048, "p": 0, "x": 3439, "y": 3486, "mapId": 28, "mapId_p": 0, "mapId_x": 3439, "mapId_y": 3486, "animation_group": 4, "combat": 0, "morphs_1": {"ids": [-1, 7664, -1], "varbit": 13979, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

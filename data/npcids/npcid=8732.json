@@ -1,0 +1,1 @@
+[{"name": "Violet", "morph_names_2": ["Violet", "", "", "", "", "", ""], "id": 8732, "p": 0, "x": 2855, "y": 3459, "mapId": 28, "mapId_p": 0, "mapId_x": 2855, "mapId_y": 3459, "combat": 0, "morphs_2": {"ids": [8733, 8734, 8734, 8734, 8734, 8734, 8734], "varbit": 5326, "varp": -1}, "movementCapabilities": 1, "quests": [400], "unknown_63": true}]

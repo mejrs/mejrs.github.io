@@ -1,1 +1,1 @@
-[{"name": "Zookeeper", "id": 28, "x": 2611, "y": 3269, "p": 0}]
+[{"name": "Zookeeper", "id": 28, "p": 0, "x": 2611, "y": 3269, "mapId": 28, "mapId_p": 0, "mapId_x": 2611, "mapId_y": 3269, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 25, "animation_group": 4, "boundSize": 1, "combat": 0, "headModels": [39744, 39275], "models": [47090], "movementCapabilities": 3}]

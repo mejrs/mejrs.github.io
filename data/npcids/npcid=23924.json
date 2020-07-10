@@ -1,1 +1,1 @@
-[{"name": "Papillo Goldblum", "id": 23924, "x": 2271, "y": 3553, "p": 0}]
+[{"name": "Papillo Goldblum", "id": 23924, "p": 0, "x": 2271, "y": 3553, "mapId": 28, "mapId_p": 0, "mapId_x": 2271, "mapId_y": 3553, "animateIdle": false, "animation_group": 89, "boundSize": 1, "combat": 0, "drawMapDot": false, "models": [116497], "movementCapabilities": 3}]

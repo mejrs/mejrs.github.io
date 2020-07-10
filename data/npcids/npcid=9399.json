@@ -1,0 +1,1 @@
+[{"name": "Santa Claus", "morph_names_1": ["", "Santa Claus", ""], "id": 9399, "p": 0, "x": 2654, "y": 5664, "mapId": 219, "mapId_p": 0, "mapId_x": 2654, "mapId_y": 5664, "boundSize": 2, "combat": 0, "morphs_1": {"ids": [-1, 9400, -1], "varbit": 14687, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

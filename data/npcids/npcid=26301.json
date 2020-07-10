@@ -1,0 +1,1 @@
+[{"name": "Oneiromancer", "morph_names_1": ["", "Oneiromancer", ""], "id": 26301, "p": 1, "x": 2897, "y": 3564, "mapId": 28, "mapId_p": 1, "mapId_x": 2897, "mapId_y": 3564, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [17488, 26302, -1], "varbit": 43987, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 7}]

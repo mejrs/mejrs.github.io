@@ -1,1 +1,1 @@
-[{"name": "Simon", "id": 1786, "x": 3236, "y": 3600, "p": 0}]
+[{"name": "Simon", "id": 1786, "p": 0, "x": 3236, "y": 3600, "mapId": 28, "mapId_p": 0, "mapId_x": 3236, "mapId_y": 3600, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", "Bank", null], "animation_group": 223, "boundSize": 2, "color_replacements": {"43072": 80}, "combat": 0, "headModels": [39859, 38642], "mapFunction": 560, "models": [217, 250, 5614, 173, 176, 269, 181, 293], "movementCapabilities": 3}]

@@ -1,1 +1,1 @@
-[{"name": "Snake", "id": 1875, "x": 3354, "y": 2952, "p": 0}]
+[{"name": "Snake", "id": 1875, "p": 0, "x": 3354, "y": 2952, "mapId": 28, "mapId_p": 0, "mapId_x": 3354, "mapId_y": 2952, "animation_group": 1532, "boundSize": 1, "combat": 0, "models": [47120], "movementCapabilities": 1, "unknown_63": true}]

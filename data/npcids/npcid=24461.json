@@ -1,1 +1,1 @@
-[{"name": "Raja", "id": 24461, "x": 3217, "y": 2701, "p": 0}]
+[{"name": "Raja", "id": 24461, "p": 0, "x": 3217, "y": 2701, "mapId": 28, "mapId_p": 0, "mapId_x": 3217, "mapId_y": 2701, "actions": ["Poke", null, null, null, null], "ambience": 50, "animation_group": 3645, "boundSize": 4, "combat": 0, "models": [107910], "movementCapabilities": 1, "respawnDirection": 0, "scaleXZ": 90, "scaleY": 90}]

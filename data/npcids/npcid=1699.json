@@ -1,1 +1,1 @@
-[{"name": "Ghost shopkeeper", "id": 1699, "x": 3658, "y": 3477, "p": 0}]
+[{"name": "Ghost shopkeeper", "id": 1699, "p": 0, "x": 3658, "y": 3477, "mapId": 28, "mapId_p": 0, "mapId_x": 3658, "mapId_y": 3477, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-To", null, "Trade", null, null], "ambience": 40, "animation_group": 3179, "color_replacements": {"17467": 18626}, "combat": 0, "extra": {"weakness_class": 8}, "headModels": [39661], "modelContract": 40, "models": [5212, 5219, 5209, 5216], "movementCapabilities": 3, "scaleXZ": 110, "scaleY": 110}]

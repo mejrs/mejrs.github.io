@@ -1,1 +1,1 @@
-[{"name": "Torrcs", "id": 5939, "x": 3253, "y": 3453, "p": 1}]
+[{"name": "Torrcs", "id": 5939, "p": 1, "x": 3253, "y": 3453, "mapId": 28, "mapId_p": 1, "mapId_x": 3253, "mapId_y": 3453, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"24": 61, "41": 37270, "57": 36133, "61": 36133}, "combat": 0, "headModels": [39947, 39223], "models": [206, 246, 66670, 179, 79805, 74132, 66587, 66342], "movementCapabilities": 3}]

@@ -1,1 +1,1 @@
-[{"name": "Kaylee", "id": 3217, "x": 2957, "y": 3370, "p": 0}]
+[{"name": "Kaylee", "id": 3217, "p": 0, "x": 2957, "y": 3370, "mapId": 28, "mapId_p": 0, "mapId_x": 2957, "mapId_y": 3370, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "color_replacements": {"25238": 12, "43072": 4550, "8741": 49383}, "combat": 0, "headModels": [39090], "models": [107551], "movementCapabilities": 3}]

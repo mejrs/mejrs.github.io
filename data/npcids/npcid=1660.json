@@ -1,0 +1,1 @@
+[{"name": "Skullball Boss", "id": 1660, "p": 0, "x": 3549, "y": 9867, "mapId": 41, "mapId_p": 0, "mapId_x": 3549, "mapId_y": 9867, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-To", null, null, null, null], "animation_group": 190, "boundSize": 1, "combat": 0, "headModels": [26113], "models": [26177, 26190, 26184], "movementCapabilities": 1}]

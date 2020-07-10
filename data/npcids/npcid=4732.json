@@ -1,0 +1,1 @@
+[{"name": "Skaldrun", "morph_names_1": ["", "", "", "Skaldrun", ""], "id": 4732, "p": 0, "x": 3429, "y": 3701, "mapId": 28, "mapId_p": 0, "mapId_x": 3429, "mapId_y": 3701, "combat": 0, "extra": {"custom_experience": 0}, "morphs_1": {"ids": [-1, -1, -1, 4661, -1], "varbit": 4759, "varp": -1}, "movementCapabilities": 1}]

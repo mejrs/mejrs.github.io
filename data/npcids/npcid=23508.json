@@ -1,0 +1,1 @@
+[{"name": "Dr Fenkenbrain", "id": 23508, "p": 0, "x": 6298, "y": 1043, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Progress", null, null], "ambience": 32, "combat": 0, "headModels": [115223], "models": [115329], "movementCapabilities": 1}]

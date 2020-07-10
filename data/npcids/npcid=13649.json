@@ -1,0 +1,1 @@
+[{"name": "Cloud spirit", "id": 13649, "p": 2, "x": 1550, "y": 4533, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 2008, "boundSize": 1, "combat": 0, "headModels": [65189], "modelContract": 25, "models": [65154], "movementCapabilities": 1, "unknown_63": true}]

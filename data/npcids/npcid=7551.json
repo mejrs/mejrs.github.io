@@ -1,0 +1,1 @@
+[{"name": "General Khazard", "id": 7551, "p": 0, "x": 3747, "y": 6560, "mapId": 286, "mapId_p": 0, "mapId_x": 3747, "mapId_y": 6560, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 2176, "boundSize": 1, "combat": 0, "headModels": [58562], "models": [55424], "movementCapabilities": 3}]

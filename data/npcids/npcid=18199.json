@@ -1,1 +1,1 @@
-[{"name": "Bruin Odetsson", "id": 18199, "x": 3127, "y": 3232, "p": 0}]
+[{"name": "Bruin Odetsson", "id": 18199, "p": 0, "x": 3127, "y": 3232, "mapId": 28, "mapId_p": 0, "mapId_x": 3127, "mapId_y": 3232, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 2699, "boundSize": 1, "color_replacements": {"4550": 3514, "55232": 1570, "6798": 1554}, "combat": 0, "headModels": [46443, 39275], "models": [89283], "movementCapabilities": 1, "unknown_67": 0}]

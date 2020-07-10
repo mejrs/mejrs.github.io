@@ -1,1 +1,1 @@
-[{"name": "Fridgeir", "id": 1277, "x": 2659, "y": 3678, "p": 0}]
+[{"name": "Fridgeir", "id": 1277, "p": 0, "x": 2659, "y": 3678, "mapId": 28, "mapId_p": 0, "mapId_x": 2659, "mapId_y": 3678, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 80, "boundSize": 1, "color_replacements": {"25238": 4506, "6798": 6945, "8078": 10514, "8084": 7601, "8741": 10518}, "combat": 0, "headModels": [39947, 38097], "models": [206, 252, 292, 162, 176, 3599, 4391, 4234], "movementCapabilities": 1, "unknown_67": 0}]

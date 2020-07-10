@@ -1,0 +1,1 @@
+[{"name": "Fish", "morph_names_1": ["", "Fish", "Fish", "Fish", ""], "id": 25205, "p": 0, "x": 2063, "y": 7126, "mapId": 704, "mapId_p": 0, "mapId_x": 79, "mapId_y": 150, "combat": 0, "morphs_1": {"ids": [-1, 25210, 25210, 25210, -1], "varbit": 39894, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 6, "unknown_63": true}]

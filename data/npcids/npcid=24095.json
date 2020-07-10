@@ -1,0 +1,1 @@
+[{"name": "Rose", "morph_names_1": ["", "Rose", ""], "id": 24095, "p": 0, "x": 4933, "y": 115, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 3995, "combat": 0, "morphs_1": {"ids": [24086, 24096, -1], "varbit": 35037, "varp": -1}, "movementCapabilities": 3}]

@@ -1,0 +1,1 @@
+[{"name": "Ur-zek", "id": 5770, "p": 0, "x": 2717, "y": 5359, "mapId": 26, "mapId_p": 0, "mapId_x": 29, "mapId_y": 111, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 214, "combat": 0, "headModels": [23249], "models": [23657, 23705, 23629], "movementCapabilities": 3}]

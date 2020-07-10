@@ -1,0 +1,1 @@
+[{"name": "Fish", "id": 3428, "p": 1, "x": 2963, "y": 9492, "ambience": 25, "animateIdle": false, "animation_group": 748, "color_replacements": {"2991": 4, "4946": 4, "5051": 8, "5056": 16, "5062": 24}, "combat": 0, "drawMapDot": false, "models": [13806], "movementCapabilities": 3}]

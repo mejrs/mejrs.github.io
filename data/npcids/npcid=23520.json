@@ -1,0 +1,1 @@
+[{"name": "Rabbit", "id": 23520, "p": 0, "x": 6309, "y": 1040, "animation_group": 4285, "boundSize": 1, "combat": 0, "drawMapDot": false, "models": [66618], "movementCapabilities": 3}, {"name": "Rabbit", "id": 23520, "p": 0, "x": 6309, "y": 1049, "animation_group": 4285, "boundSize": 1, "combat": 0, "drawMapDot": false, "models": [66618], "movementCapabilities": 3}]

@@ -1,0 +1,1 @@
+[{"name": "King Vargas", "morph_names_1": ["", "King Vargas", ""], "id": 1373, "p": 1, "x": 2502, "y": 3860, "mapId": 28, "mapId_p": 1, "mapId_x": 2502, "mapId_y": 3860, "animation_group": 4, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, 7402, -1], "varbit": 12916, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 2, "unknown_63": true}]

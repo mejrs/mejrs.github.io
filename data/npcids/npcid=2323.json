@@ -1,1 +1,1 @@
-[{"name": "Elstan", "id": 2323, "x": 3053, "y": 3308, "p": 0}]
+[{"name": "Elstan", "id": 2323, "p": 0, "x": 3053, "y": 3308, "mapId": 28, "mapId_p": 0, "mapId_x": 3053, "mapId_y": 3308, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Pay (North-west)", "Pay (South-east)", null], "animation_group": 2844, "color_replacements": {"25238": 8604, "4550": 3422, "6798": 6065, "8741": 40107}, "combat": 0, "headModels": [39600, 38097], "models": [210, 252, 292, 326, 170, 10218, 496, 274, 7121], "movementCapabilities": 3}]

@@ -1,1 +1,1 @@
-[{"name": "Trainer Nacklepen", "id": 3818, "x": 2421, "y": 3525, "p": 0}]
+[{"name": "Trainer Nacklepen", "id": 3818, "p": 0, "x": 2421, "y": 3525, "mapId": 28, "mapId_p": 0, "mapId_x": 2421, "mapId_y": 3525, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 505, "color_replacements": {"6227": 6793}, "combat": 0, "headModels": [42660, 42662, 63339], "modelContract": 20, "models": [62966, 62994, 63072, 62895, 62924, 63019, 63144], "movementCapabilities": 3}]

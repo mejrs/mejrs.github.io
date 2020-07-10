@@ -1,1 +1,1 @@
-[{"name": "Tutab", "id": 1435, "x": 2757, "y": 2770, "p": 0}]
+[{"name": "Tutab", "id": 1435, "p": 0, "x": 2757, "y": 2770, "mapId": 28, "mapId_p": 0, "mapId_x": 2757, "mapId_y": 2770, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 177, "color_replacements": {"20": 45, "7721": 6461}, "combat": 0, "headModels": [4659], "models": [4817, 4827], "movementCapabilities": 3, "scaleXZ": 130, "scaleY": 160}]

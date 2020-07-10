@@ -1,1 +1,1 @@
-[{"name": "Lokkir", "id": 24718, "x": 3194, "y": 2615, "p": 0}]
+[{"name": "Lokkir", "id": 24718, "p": 0, "x": 3194, "y": 2615, "mapId": 28, "mapId_p": 0, "mapId_x": 3194, "mapId_y": 2615, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2699, "boundSize": 1, "color_replacements": {"7082": 281}, "combat": 0, "extra": {"extra_0019C1": 28}, "headModels": [104580], "models": [104601], "movementCapabilities": 1, "respawnDirection": 6, "unknown_63": true}]

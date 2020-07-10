@@ -1,1 +1,1 @@
-[{"name": "Pierre", "id": 807, "x": 2750, "y": 3576, "p": 0}]
+[{"name": "Pierre", "id": 807, "p": 0, "x": 2750, "y": 3576, "mapId": 28, "mapId_p": 0, "mapId_x": 2750, "mapId_y": 3576, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"25238": 8, "8090": 8, "8741": 8, "908": 8}, "combat": 0, "headModels": [39630, 39307], "models": [230, 246, 295, 150, 275, 185, 236, 322], "movementCapabilities": 3, "unknown_63": true}]

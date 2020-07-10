@@ -1,1 +1,1 @@
-[{"name": "Clint", "id": 26471, "x": 5525, "y": 2350, "p": 0}]
+[{"name": "Clint", "id": 26471, "p": 0, "x": 5525, "y": 2350, "mapId": 28, "mapId_p": 0, "mapId_x": 4053, "mapId_y": 4334, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "ambience": 15, "animation_group": 4291, "boundSize": 1, "color_replacements": {"13737": 49461}, "combat": 0, "headModels": [34783], "models": [34766, 34830, 34775], "movementCapabilities": 3, "texture_replacements": {"11202": 11206}}]

@@ -1,1 +1,1 @@
-[{"name": "Zamorakian herbalist", "id": 17476, "x": 3221, "y": 3267, "p": 0}]
+[{"name": "Zamorakian herbalist", "id": 17476, "p": 0, "x": 3221, "y": 3267, "mapId": 28, "mapId_p": 0, "mapId_x": 3221, "mapId_y": 3267, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 1, "boundSize": 1, "color_replacements": {"55232": 6154, "6798": 6150}, "combat": 0, "headModels": [39723, 39213], "models": [87709], "movementCapabilities": 3}]

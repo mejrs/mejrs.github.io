@@ -1,0 +1,1 @@
+[{"name": "Cosmic Billy", "id": 26856, "p": 0, "x": 2890, "y": 3526, "mapId": 28, "mapId_p": 0, "mapId_x": 2890, "mapId_y": 3526, "animation_group": 4437, "boundSize": 1, "combat": 0, "drawMapDot": false, "models": [97441, 97533, 97534], "movementCapabilities": 1, "movementType": 2, "respawnDirection": 3}]

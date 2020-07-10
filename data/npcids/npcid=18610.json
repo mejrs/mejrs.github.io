@@ -1,1 +1,1 @@
-[{"name": "Sarah", "id": 18610, "x": 2503, "y": 2679, "p": 2}]
+[{"name": "Sarah", "id": 18610, "p": 2, "x": 2503, "y": 2679, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "ambience": 64, "animation_group": 3009, "boundSize": 1, "color_replacements": {"1": 1}, "combat": 0, "headModels": [91873], "models": [91912], "movementCapabilities": 1, "respawnDirection": 2, "unknown_63": true}]

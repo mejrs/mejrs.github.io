@@ -1,1 +1,1 @@
-[{"name": "Muruwoi", "id": 1450, "x": 2804, "y": 2764, "p": 0}]
+[{"name": "Muruwoi", "id": 1450, "p": 0, "x": 2804, "y": 2764, "mapId": 28, "mapId_p": 0, "mapId_x": 2804, "mapId_y": 2764, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 177, "combat": 0, "headModels": [4656], "models": [4822, 4824], "movementCapabilities": 3, "scaleXZ": 180, "scaleY": 180}]

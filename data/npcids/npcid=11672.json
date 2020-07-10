@@ -1,0 +1,1 @@
+[{"name": "Empty barrel", "id": 11672, "p": 0, "x": 4381, "y": 5593, "mapId": 424, "mapId_p": 0, "mapId_x": 4381, "mapId_y": 5593, "actions": ["Kick", null, null, null, null], "ambience": 25, "boundSize": 1, "combat": 0, "drawMapDot": false, "modelContract": 15, "models": [58677], "movementCapabilities": 1, "unknown_63": true, "unknown_67": 0}]

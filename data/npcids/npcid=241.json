@@ -1,1 +1,1 @@
-[{"name": "Sir Kay", "id": 241, "x": 2761, "y": 3497, "p": 0}]
+[{"name": "Sir Kay", "id": 241, "p": 0, "x": 2761, "y": 3497, "mapId": 28, "mapId_p": 0, "mapId_x": 2761, "mapId_y": 3497, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 119, "boundSize": 1, "combat": 0, "headModels": [39993, 39365], "models": [27130, 27200, 27203], "movementCapabilities": 3, "quests": [182]}]

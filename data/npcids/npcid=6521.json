@@ -1,1 +1,1 @@
-[{"name": "Grand Exchange Tutor", "id": 6521, "x": 3164, "y": 3475, "p": 0}]
+[{"name": "Grand Exchange Tutor", "id": 6521, "p": 0, "x": 3164, "y": 3475, "mapId": 28, "mapId_p": 0, "mapId_x": 3164, "mapId_y": 3475, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 1258, "color_replacements": {"7322": 6430}, "combat": 0, "headModels": [39703], "models": [29898, 29900, 29891, 28758, 29896, 28810, 29895], "movementCapabilities": 1, "unknown_63": true}]

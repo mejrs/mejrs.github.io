@@ -1,1 +1,1 @@
-[{"name": "Henryeta Carnillean", "id": 889, "x": 2574, "y": 3273, "p": 0}]
+[{"name": "Henryeta Carnillean", "id": 889, "p": 0, "x": 2574, "y": 3273, "mapId": 28, "mapId_p": 0, "mapId_x": 2574, "mapId_y": 3273, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 2542, "boundSize": 1, "combat": 0, "headModels": [71383], "models": [71393], "movementCapabilities": 3, "movementType": 0}]

@@ -1,0 +1,1 @@
+[{"name": "Name", "id": 23450, "p": 0, "x": 1797, "y": 11962, "mapId": 695, "mapId_p": 0, "mapId_x": 1797, "mapId_y": 11962, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 3896, "boundSize": 1, "combat": 0, "headModels": [115039], "models": [115124], "movementCapabilities": 3}]

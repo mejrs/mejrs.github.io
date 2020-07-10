@@ -1,0 +1,1 @@
+[{"name": "Zebub", "id": 23647, "p": 2, "x": 2656, "y": 12635, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "ambience": 45, "animation_group": 2826, "boundSize": 3, "combat": 0, "headModels": [115901], "models": [115872], "movementCapabilities": 1, "quests": [386], "respawnDirection": 0, "unknown_63": true}]

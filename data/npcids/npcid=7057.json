@@ -1,1 +1,1 @@
-[{"name": "Snurgh", "id": 7057, "x": 2596, "y": 2845, "p": 0}]
+[{"name": "Snurgh", "id": 7057, "p": 0, "x": 2596, "y": 2845, "mapId": 28, "mapId_p": 0, "mapId_x": 2596, "mapId_y": 2845, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 25, "animation_group": 1153, "boundSize": 2, "combat": 0, "headModels": [31801], "models": [32030], "movementCapabilities": 3, "texture_replacements": {"2569": 524}}]

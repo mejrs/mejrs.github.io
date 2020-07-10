@@ -1,1 +1,1 @@
-[{"name": "Habibah", "id": 3034, "x": 3410, "y": 2929, "p": 1}]
+[{"name": "Habibah", "id": 3034, "p": 1, "x": 3410, "y": 2929, "mapId": 28, "mapId_p": 1, "mapId_x": 3410, "mapId_y": 2929, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "color_replacements": {"25238": 39099, "4533": 3487, "4540": 3491, "4550": 3495, "4554": 3499, "49054": 39091, "61": 39091, "8741": 7630, "9019": 7630}, "combat": 0, "headModels": [39048], "models": [9022, 9025, 332, 176, 430, 358], "movementCapabilities": 3}]

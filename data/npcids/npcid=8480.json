@@ -1,0 +1,1 @@
+[{"name": "Spria", "morph_names_1": ["Turael", "Spria", "Spria", ""], "id": 8480, "p": 0, "x": 2890, "y": 3548, "mapId": 28, "mapId_p": 0, "mapId_x": 2890, "mapId_y": 3548, "animation_group": 3181, "combat": 0, "morphs_1": {"ids": [8461, 8462, 8462, -1], "varbit": 11754, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

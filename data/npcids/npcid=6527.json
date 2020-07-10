@@ -1,1 +1,1 @@
-[{"name": "Hofuthand (armour and weapons)", "id": 6527, "x": 3148, "y": 3483, "p": 0}]
+[{"name": "Hofuthand (armour and weapons)", "id": 6527, "p": 0, "x": 3148, "y": 3483, "mapId": 28, "mapId_p": 0, "mapId_x": 3148, "mapId_y": 3483, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Info-combat", null, null], "animation_group": 1255, "boundSize": 1, "combat": 0, "headModels": [90023, 90041], "models": [90188, 78297, 90307, 90326, 90397], "movementCapabilities": 1, "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "Seegud", "id": 7052, "x": 2571, "y": 2855, "p": 0}]
+[{"name": "Seegud", "id": 7052, "p": 0, "x": 2571, "y": 2855, "mapId": 28, "mapId_p": 0, "mapId_x": 2571, "mapId_y": 2855, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 25, "animation_group": 1152, "boundSize": 2, "combat": 0, "headModels": [31781], "models": [32045], "movementCapabilities": 3, "scaleXZ": 112, "scaleY": 112}]

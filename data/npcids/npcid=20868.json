@@ -1,0 +1,1 @@
+[{"name": "Baron Mauser", "morph_names_1": ["", "", "", "Baron Mauser", ""], "id": 20868, "p": 1, "x": 3700, "y": 9044, "combat": 0, "morphs_1": {"ids": [-1, -1, -1, 20869, -1], "varbit": 27331, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

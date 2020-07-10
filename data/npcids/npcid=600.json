@@ -1,1 +1,1 @@
-[{"name": "Hudo", "id": 600, "x": 2448, "y": 3509, "p": 1}]
+[{"name": "Hudo", "id": 600, "p": 1, "x": 2448, "y": 3509, "mapId": 28, "mapId_p": 1, "mapId_x": 2448, "mapId_y": 3509, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "ambience": 20, "animation_group": 108, "color_replacements": {"41253": 17932, "41257": 17936, "41261": 17940, "42415": 17932, "42423": 17940}, "combat": 0, "headModels": [42660, 63367, 63306], "modelContract": 20, "models": [62990, 62994, 63047, 62886, 62911, 63035], "movementCapabilities": 3}]

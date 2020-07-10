@@ -1,1 +1,1 @@
-[{"name": "Nkuku", "id": 3032, "x": 3415, "y": 2938, "p": 0}]
+[{"name": "Nkuku", "id": 3032, "p": 0, "x": 3415, "y": 2938, "mapId": 28, "mapId_p": 0, "mapId_x": 3415, "mapId_y": 2938, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "color_replacements": {"25238": 3515, "49054": 3515, "8741": 8519, "9019": 8519}, "combat": 0, "headModels": [39945, 38096], "models": [9016, 251, 9017, 151, 176, 265, 181], "movementCapabilities": 3}]

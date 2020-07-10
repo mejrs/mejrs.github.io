@@ -1,1 +1,1 @@
-[{"name": "The Monkey's Uncle", "id": 1453, "x": 2737, "y": 2793, "p": 1}]
+[{"name": "The Monkey's Uncle", "id": 1453, "p": 1, "x": 2737, "y": 2793, "mapId": 28, "mapId_p": 1, "mapId_x": 2737, "mapId_y": 2793, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 177, "color_replacements": {"24": 57}, "combat": 0, "headModels": [4659], "models": [4820, 4827], "movementCapabilities": 3, "scaleXZ": 140, "scaleY": 180}]

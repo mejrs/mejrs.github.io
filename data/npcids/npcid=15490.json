@@ -1,0 +1,1 @@
+[{"name": "Ethereal figure", "morph_names_1": ["", "Ethereal figure", ""], "id": 15490, "p": 0, "x": 1184, "y": 6113, "mapId": 74, "mapId_p": 0, "mapId_x": 1184, "mapId_y": 6113, "combat": 0, "morphs_1": {"ids": [-1, 15491, -1], "varbit": 12664, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 2}]

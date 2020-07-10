@@ -1,0 +1,1 @@
+[{"name": "Zanik", "morph_names_1": ["", "Zanik", ""], "id": 26289, "p": 1, "x": 2896, "y": 3570, "mapId": 28, "mapId_p": 1, "mapId_x": 2896, "mapId_y": 3570, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [17488, 26290, -1], "varbit": 43981, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 5}]

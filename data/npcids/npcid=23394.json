@@ -1,0 +1,1 @@
+[{"name": "See", "id": 23394, "p": 0, "x": 2272, "y": 11164, "mapId": 695, "mapId_p": 0, "mapId_x": 2272, "mapId_y": 11164, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 3890, "boundSize": 2, "combat": 0, "headModels": [115035], "models": [114556, 113640], "movementCapabilities": 1, "respawnDirection": 2}]

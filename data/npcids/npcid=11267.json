@@ -1,1 +1,1 @@
-[{"name": "Stiles", "id": 11267, "x": 2851, "y": 3143, "p": 0}]
+[{"name": "Stiles", "id": 11267, "p": 0, "x": 2851, "y": 3143, "mapId": 28, "mapId_p": 0, "mapId_x": 2851, "mapId_y": 3143, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Exchange", null, null], "animation_group": 207, "color_replacements": {"41256": 13, "41263": 15, "41264": 17, "41267": 19, "41271": 21, "41282": 23, "41288": 26, "42279": 21, "42285": 23}, "combat": 0, "headModels": [56935], "models": [40360], "movementCapabilities": 1, "unknown_63": true, "unknown_67": 0}]

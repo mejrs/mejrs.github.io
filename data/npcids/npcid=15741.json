@@ -1,0 +1,1 @@
+[{"name": "Ping", "morph_names_1": ["", "Ping", ""], "id": 15741, "p": 0, "x": 2670, "y": 10395, "mapId": 14, "mapId_p": 0, "mapId_x": 2670, "mapId_y": 10395, "animation_group": 90, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, 5437, -1], "varbit": 9406, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

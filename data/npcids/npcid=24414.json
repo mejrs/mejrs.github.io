@@ -1,1 +1,1 @@
-[{"name": "Shebit", "id": 24414, "x": 3172, "y": 2803, "p": 0}]
+[{"name": "Shebit", "id": 24414, "p": 0, "x": 3172, "y": 2803, "mapId": 28, "mapId_p": 0, "mapId_x": 3172, "mapId_y": 2803, "action_cursors": [null, null, 44, null, null, null], "actions": ["Pet", null, "Talk to", null, null], "ambience": 15, "animation_group": 2790, "boundSize": 1, "combat": 0, "drawMapDot": false, "headModels": [119258], "models": [119433], "movementCapabilities": 1, "texture_replacements": {"8618": 8634}, "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "Brother Celerity", "id": 16725, "x": 3058, "y": 3497, "p": 0}]
+[{"name": "Brother Celerity", "id": 16725, "p": 0, "x": 3058, "y": 3497, "mapId": 28, "mapId_p": 0, "mapId_x": 3058, "mapId_y": 3497, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 4, "boundSize": 1, "combat": 0, "headModels": [83078], "models": [83107], "movementCapabilities": 1, "unknown_63": true}]

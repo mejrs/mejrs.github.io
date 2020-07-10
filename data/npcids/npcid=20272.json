@@ -1,1 +1,1 @@
-[{"name": "Lady Hefin", "id": 20272, "x": 2196, "y": 3397, "p": 1}]
+[{"name": "Lady Hefin", "id": 20272, "p": 1, "x": 2196, "y": 3397, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 3307, "boundSize": 1, "combat": 0, "headModels": [97161], "models": [97338], "movementCapabilities": 1, "unknown_63": true, "unknown_67": 0}]

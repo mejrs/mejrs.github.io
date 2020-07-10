@@ -1,0 +1,1 @@
+[{"name": "Buzz", "morph_names_1": ["", "Buzz", ""], "id": 24099, "p": 0, "x": 4987, "y": 108, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 632, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [24086, 24100, -1], "varbit": 35037, "varp": -1}, "movementCapabilities": 1, "unknown_67": 900}]

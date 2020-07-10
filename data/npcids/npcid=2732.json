@@ -1,1 +1,1 @@
-[{"name": "Master Crafter", "id": 2732, "x": 2935, "y": 3280, "p": 0}]
+[{"name": "Almost Master Crafter", "id": 2732, "p": 0, "x": 2935, "y": 3280, "mapId": 28, "mapId_p": 0, "mapId_x": 2935, "mapId_y": 3280, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 4, "combat": 0, "headModels": [38641, 39227, 86827], "models": [235, 253, 86894, 86955, 86950, 86849, 86841, 87117], "movementCapabilities": 3, "texture_replacements": {"615": 614}}]

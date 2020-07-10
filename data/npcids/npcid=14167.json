@@ -1,1 +1,1 @@
-[{"name": "Canifis settler", "id": 14167, "x": 3658, "y": 3357, "p": 0}]
+[{"name": "Canifis settler", "id": 14167, "p": 0, "x": 3658, "y": 3357, "mapId": 28, "mapId_p": 0, "mapId_x": 3658, "mapId_y": 3357, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 664, "boundSize": 1, "combat": 0, "headModels": [38940], "models": [26146, 26152, 26136, 26149, 26141], "movementCapabilities": 3, "unknown_63": true}]

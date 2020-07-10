@@ -1,1 +1,1 @@
-[{"name": "Slave", "id": 18053, "x": 3011, "y": 3574, "p": 1}]
+[{"name": "Slave", "id": 18053, "p": 1, "x": 3011, "y": 3574, "mapId": 28, "mapId_p": 1, "mapId_x": 3011, "mapId_y": 3574, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2928, "combat": 0, "headModels": [88958], "models": [88983], "movementCapabilities": 1, "respawnDirection": 2}]

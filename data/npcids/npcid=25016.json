@@ -1,0 +1,1 @@
+[{"name": "Sparky", "morph_names_1": ["Sparky", ""], "id": 25016, "p": 0, "x": 2666, "y": 3277, "mapId": 28, "mapId_p": 0, "mapId_x": 2666, "mapId_y": 3277, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [9170, -1], "varbit": 38770, "varp": -1}, "movementCapabilities": 3, "movementType": 0}]

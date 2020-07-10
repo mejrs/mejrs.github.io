@@ -1,1 +1,1 @@
-[{"name": "Town crier", "id": 6135, "x": 3253, "y": 3429, "p": 0}]
+[{"name": "Town crier", "id": 6135, "p": 0, "x": 3253, "y": 3429, "mapId": 28, "mapId_p": 0, "mapId_x": 3253, "mapId_y": 3429, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 390, "boundSize": 1, "combat": 0, "headModels": [40045, 39416], "models": [27149, 27153, 27140, 27141, 27144, 2847, 27155, 27152], "movementCapabilities": 3, "texture_replacements": {"745": 746}, "unknown_63": true}]

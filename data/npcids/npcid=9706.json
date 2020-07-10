@@ -1,0 +1,1 @@
+[{"name": "Linza", "morph_names_1": ["", "", "Linza", "Linza", "", "Linza", ""], "id": 9706, "p": 0, "x": 2639, "y": 3420, "mapId": 28, "mapId_p": 0, "mapId_x": 2639, "mapId_y": 3420, "combat": 0, "morphs_1": {"ids": [-1, -1, 10107, 10107, -1, 10107, -1], "varbit": 9215, "varp": -1}, "movementCapabilities": 1, "unknown_63": true, "unknown_67": 0}]

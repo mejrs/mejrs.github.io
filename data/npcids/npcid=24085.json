@@ -1,0 +1,1 @@
+[{"name": "Filip", "id": 24085, "p": 0, "x": 4960, "y": 69, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 90, "boundSize": 1, "combat": 0, "headModels": [21525], "models": [21547], "movementCapabilities": 3, "scaleXZ": 75, "scaleY": 75, "unknown_63": true}]

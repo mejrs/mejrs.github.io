@@ -1,1 +1,1 @@
-[{"name": "Horacio", "id": 845, "x": 2635, "y": 3311, "p": 0}]
+[{"name": "Horacio", "id": 845, "p": 0, "x": 2635, "y": 3311, "mapId": 28, "mapId_p": 0, "mapId_x": 2635, "mapId_y": 3311, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Pay", "Retrieve Seed", null], "animation_group": 4, "boundSize": 1, "color_replacements": {"43072": 4550}, "combat": 0, "headModels": [39726, 38642], "models": [214, 185, 250, 299, 32592, 10218, 271, 276, 329, 495], "movementCapabilities": 3, "unknown_63": true}]

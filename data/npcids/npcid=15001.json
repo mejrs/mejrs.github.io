@@ -1,1 +1,1 @@
-[{"name": "Farmer", "id": 15001, "x": 2885, "y": 3472, "p": 0}]
+[{"name": "Farmer", "id": 15001, "p": 0, "x": 2885, "y": 3472, "mapId": 28, "mapId_p": 0, "mapId_x": 2885, "mapId_y": 3472, "animation_group": 2367, "boundSize": 1, "combat": 0, "headModels": [49057], "models": [49603, 7125], "movementCapabilities": 1, "unknown_63": true}]

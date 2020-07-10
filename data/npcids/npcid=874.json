@@ -1,1 +1,1 @@
-[{"name": "Ogre merchant", "id": 874, "x": 2528, "y": 3048, "p": 0}]
+[{"name": "Ogre merchant", "id": 874, "p": 0, "x": 2528, "y": 3048, "mapId": 28, "mapId_p": 0, "mapId_x": 2528, "mapId_y": 3048, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "ambience": 25, "animation_group": 321, "boundSize": 2, "combat": 0, "extra": {"slayer_task_id": 20}, "headModels": [31696], "models": [46155], "movementCapabilities": 3}]

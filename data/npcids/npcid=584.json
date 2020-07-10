@@ -1,1 +1,1 @@
-[{"name": "Herquin", "id": 584, "x": 2944, "y": 3334, "p": 0}]
+[{"name": "Herquin", "id": 584, "p": 0, "x": 2944, "y": 3334, "mapId": 28, "mapId_p": 0, "mapId_x": 2944, "mapId_y": 3334, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3180, "combat": 0, "headModels": [38641, 39270, 39320], "models": [107515], "movementCapabilities": 3, "unknown_63": true}]

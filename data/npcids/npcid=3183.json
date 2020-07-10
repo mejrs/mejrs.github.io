@@ -1,1 +1,1 @@
-[{"name": "Pirate", "id": 3183, "x": 3688, "y": 3006, "p": 0}]
+[{"name": "Pirate", "id": 3183, "p": 0, "x": 3688, "y": 3006, "mapId": 28, "mapId_p": 0, "mapId_x": 3688, "mapId_y": 3006, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 35, "combat": 0, "headModels": [39115], "models": [28841, 28844, 28822, 28828, 28835, 28848, 28830], "movementCapabilities": 3}]

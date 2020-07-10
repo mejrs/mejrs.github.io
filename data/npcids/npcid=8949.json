@@ -1,1 +1,1 @@
-[{"name": "Phil", "id": 8949, "x": 3038, "y": 3366, "p": 0}]
+[{"name": "Phil", "id": 8949, "p": 0, "x": 3038, "y": 3366, "mapId": 28, "mapId_p": 0, "mapId_x": 3038, "mapId_y": 3366, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 3183, "boundSize": 1, "color_replacements": {"25238": 38039, "8741": 8343}, "combat": 0, "headModels": [39915, 39223], "models": [14340, 246, 66257, 10218, 66252, 181], "movementCapabilities": 3}]

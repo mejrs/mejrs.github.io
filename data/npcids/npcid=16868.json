@@ -1,0 +1,1 @@
+[{"name": "Mime", "morph_names_1": ["Mime", "Mime", ""], "id": 16868, "p": 0, "x": 3046, "y": 3384, "mapId": 28, "mapId_p": 0, "mapId_x": 3046, "mapId_y": 3384, "combat": 0, "morphs_1": {"ids": [16869, 16870, -1], "varbit": 17966, "varp": -1}, "movementCapabilities": 1, "unknown_63": true}]

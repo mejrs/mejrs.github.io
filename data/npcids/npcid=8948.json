@@ -1,1 +1,1 @@
-[{"name": "Delphie", "id": 8948, "x": 3040, "y": 3366, "p": 0}]
+[{"name": "Delphie", "id": 8948, "p": 0, "x": 3040, "y": 3366, "mapId": 28, "mapId_p": 0, "mapId_x": 3040, "mapId_y": 3366, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 3182, "boundSize": 1, "color_replacements": {"25238": 45}, "combat": 0, "headModels": [39090], "models": [378, 66230, 176, 66225, 358], "movementCapabilities": 3}]

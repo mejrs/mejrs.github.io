@@ -1,1 +1,1 @@
-[{"name": "Ashild", "id": 1366, "x": 2603, "y": 3858, "p": 0}]
+[{"name": "Ashild", "id": 1366, "p": 0, "x": 2603, "y": 3858, "mapId": 28, "mapId_p": 0, "mapId_x": 2603, "mapId_y": 3858, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"25238": 10279, "4540": 2524, "4626": 29574, "6798": 7731, "8741": 10279}, "combat": 0, "headModels": [39068], "models": [391, 469, 347, 10218, 429, 358], "movementCapabilities": 3, "recolor_indices": [0, -1, 1, -1, 2, 3, 4]}]

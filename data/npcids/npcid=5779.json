@@ -1,0 +1,1 @@
+[{"name": "Turgall", "id": 5779, "p": 2, "x": 2741, "y": 5241, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Help", null, null], "animation_group": 214, "combat": 0, "headModels": [23229, 23246], "models": [23675, 23701, 23631], "movementCapabilities": 3, "unknown_63": true}]

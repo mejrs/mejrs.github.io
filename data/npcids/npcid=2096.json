@@ -1,0 +1,1 @@
+[{"name": "White Chisel Secretary", "id": 2096, "p": 1, "x": 2890, "y": 10207, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 440, "combat": 0, "headModels": [89990], "models": [90187, 78297], "movementCapabilities": 1}]

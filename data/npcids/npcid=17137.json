@@ -1,1 +1,1 @@
-[{"name": "Holstein, Emissary of the Godless", "id": 17137, "x": 3043, "y": 3254, "p": 0}]
+[{"name": "Holstein, Emissary of the Godless", "id": 17137, "p": 0, "x": 3043, "y": 3254, "mapId": 28, "mapId_p": 0, "mapId_x": 3043, "mapId_y": 3254, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2862, "boundSize": 1, "combat": 0, "headModels": [86015], "members_actions": [null, null, "Check jobs", null, null], "models": [86029], "movementCapabilities": 1, "unknown_63": true}]

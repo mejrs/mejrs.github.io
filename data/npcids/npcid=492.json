@@ -1,1 +1,1 @@
-[{"name": "Spirit of Scorpius", "id": 492, "x": 2465, "y": 3227, "p": 0}]
+[{"name": "Spirit of Scorpius", "id": 492, "p": 0, "x": 2465, "y": 3227, "mapId": 28, "mapId_p": 0, "mapId_x": 2465, "mapId_y": 3227, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 73, "boundSize": 1, "combat": 0, "extra": {"weakness_class": 8}, "headModels": [21405], "models": [21155], "movementCapabilities": 3}]

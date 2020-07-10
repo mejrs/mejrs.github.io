@@ -1,0 +1,1 @@
+[{"name": "Trevor", "id": 8745, "p": 0, "x": 5216, "y": 9625, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Leave area", null, null], "animation_group": 4351, "combat": 0, "headModels": [69176], "models": [71045], "movementCapabilities": 1, "movementType": 2, "quests": [400]}]

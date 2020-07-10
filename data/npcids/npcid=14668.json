@@ -1,0 +1,1 @@
+[{"name": "Feet", "morph_names_1": ["Feet", "Feet", "Feet", ""], "id": 14668, "p": 2, "x": 3446, "y": 3176, "mapId": 28, "mapId_p": 2, "mapId_x": 3446, "mapId_y": 3176, "combat": 0, "morphs_1": {"ids": [14671, 14671, 14671, -1], "varbit": 12269, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 0, "unknown_63": true, "unknown_67": 0}]

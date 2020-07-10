@@ -1,0 +1,1 @@
+[{"name": "Rantz", "morph_names_1": ["Rantz", ""], "id": 8659, "p": 0, "x": 2630, "y": 2981, "mapId": 28, "mapId_p": 0, "mapId_x": 2630, "mapId_y": 2981, "animation_group": 1476, "boundSize": 2, "combat": 0, "morphs_1": {"ids": [1010, -1], "varbit": 12763, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

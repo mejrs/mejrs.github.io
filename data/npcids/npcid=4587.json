@@ -1,1 +1,1 @@
-[{"name": "Perrdur", "id": 4587, "x": 2447, "y": 3501, "p": 1}]
+[{"name": "Perrdur", "id": 4587, "p": 1, "x": 2447, "y": 3501, "mapId": 28, "mapId_p": 1, "mapId_x": 2447, "mapId_y": 3501, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 1967, "color_replacements": {"6793": 103, "6798": 107}, "combat": 0, "headModels": [68464, 63356], "modelContract": 20, "models": [68446, 62998, 63077, 62882, 62911, 63039, 63128], "movementCapabilities": 1, "unknown_67": 0}]

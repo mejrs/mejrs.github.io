@@ -1,0 +1,1 @@
+[{"name": "Black Guard", "morph_names_1": ["", "Black Guard", ""], "id": 8753, "p": 0, "x": 2827, "y": 10218, "mapId": 21, "mapId_p": 0, "mapId_x": 11, "mapId_y": 170, "combat": 0, "morphs_1": {"ids": [-1, 8752, -1], "varbit": 10545, "varp": -1}, "movementCapabilities": 1}]

@@ -1,1 +1,1 @@
-[{"name": "Bub", "id": 24828, "x": 1369, "y": 5550, "p": 0}]
+[{"name": "Bub", "id": 24828, "p": 0, "x": 1369, "y": 5550, "mapId": 28, "mapId_p": 0, "mapId_x": 1945, "mapId_y": 3054, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 30, "animation_group": 4115, "boundSize": 1, "combat": 0, "headModels": [11913], "models": [57321], "movementCapabilities": 1, "unknown_63": true, "unknown_67": 0}]

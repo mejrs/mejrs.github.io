@@ -1,0 +1,1 @@
+[{"name": "Dwarven Smith", "morph_names_1": ["", "", "", "", "Dwarven Smith", ""], "id": 15944, "p": 0, "x": 1560, "y": 5982, "mapId": 100, "mapId_p": 0, "mapId_x": 1560, "mapId_y": 5982, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, -1, -1, -1, 15945, -1], "varbit": 10019, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 0}]

@@ -1,0 +1,1 @@
+[{"name": "Grendt", "morph_names_2": ["Brendt", "Grendt"], "id": 5501, "p": 0, "x": 2408, "y": 3815, "mapId": 28, "mapId_p": 0, "mapId_x": 2408, "mapId_y": 3815, "combat": 0, "morphs_2": {"ids": [18252, 18253], "varbit": 20561, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

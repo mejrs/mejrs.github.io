@@ -1,0 +1,1 @@
+[{"name": "Cave goblin", "id": 5753, "p": 0, "x": 2697, "y": 5332, "mapId": 26, "mapId_p": 0, "mapId_x": 9, "mapId_y": 84, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Pickpocket", null, null], "animation_group": 214, "combat": 0, "headModels": [23246], "models": [23652, 23694, 23629], "movementCapabilities": 3}]

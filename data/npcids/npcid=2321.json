@@ -1,0 +1,1 @@
+[{"name": "Blandebir", "id": 2321, "p": 1, "x": 2915, "y": 10194, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 2, "combat": 0, "headModels": [90066], "models": [90258, 78297], "movementCapabilities": 3}]

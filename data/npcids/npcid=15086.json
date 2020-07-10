@@ -1,1 +1,1 @@
-[{"name": "Foppish Pierre", "id": 15086, "x": 2882, "y": 3423, "p": 0}]
+[{"name": "Foppish Pierre", "id": 15086, "p": 0, "x": 2882, "y": 3423, "mapId": 28, "mapId_p": 0, "mapId_x": 2882, "mapId_y": 3423, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Pickpocket", null, null], "ambience": 20, "animation_group": 303, "boundSize": 1, "combat": 0, "headModels": [49036], "modelContract": 25, "models": [50377], "movementCapabilities": 1, "quests": [350], "unknown_63": true}]

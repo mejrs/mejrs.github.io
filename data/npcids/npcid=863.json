@@ -1,0 +1,1 @@
+[{"name": "Scared skavid", "id": 863, "p": 0, "x": 2499, "y": 9433, "mapId": 503, "mapId_p": 0, "mapId_x": 2499, "mapId_y": 9433, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 114, "boundSize": 2, "combat": 0, "headModels": [20394], "models": [20388], "movementCapabilities": 3}]

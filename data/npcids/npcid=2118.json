@@ -1,0 +1,1 @@
+[{"name": "Trader", "id": 2118, "p": 1, "x": 2885, "y": 10199, "actions": [null, null, "Pickpocket", null, null], "animation_group": 2675, "color_replacements": {"38928": 2080, "38938": 2090, "38943": 2095, "38950": 2102, "38955": 2107, "38965": 2117}, "combat": 0, "headModels": [89964], "models": [90102, 78297, 90140], "movementCapabilities": 3}]

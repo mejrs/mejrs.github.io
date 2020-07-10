@@ -1,1 +1,1 @@
-[{"name": "Vanessa", "id": 2305, "x": 2785, "y": 3453, "p": 0}]
+[{"name": "Vanessa", "id": 2305, "p": 0, "x": 2785, "y": 3453, "mapId": 28, "mapId_p": 0, "mapId_x": 2785, "mapId_y": 3453, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3182, "color_replacements": {"25238": 7582, "43072": 4550, "6798": 2737, "8741": 9761}, "combat": 0, "headModels": [39084], "models": [387, 467, 348, 176, 421, 7366], "movementCapabilities": 3, "recolor_indices": [0, -1, 1, 2, 3], "unknown_63": true}]

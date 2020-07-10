@@ -1,0 +1,1 @@
+[{"name": "Cap'n Ekahi", "morph_names_1": ["", "Cap'n Ekahi", "Cap'n Ekahi", ""], "id": 22971, "p": 0, "x": 1865, "y": 11580, "mapId": 695, "mapId_p": 0, "mapId_x": 1865, "mapId_y": 11580, "boundSize": 2, "combat": 0, "morphs_1": {"ids": [-1, 23010, 23010, -1], "varbit": 33161, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 2, "unknown_67": 0}]

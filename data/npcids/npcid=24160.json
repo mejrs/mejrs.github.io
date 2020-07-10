@@ -1,0 +1,1 @@
+[{"name": "Calm imp", "morph_names_1": ["", "Choleric imp", "", "Choleric imp", "Calm imp", "Calm imp", ""], "id": 24160, "p": 0, "x": 3311, "y": 3257, "mapId": 28, "mapId_p": 0, "mapId_x": 3311, "mapId_y": 3257, "combat": 0, "morphs_1": {"ids": [-1, 24157, -1, 24157, 24159, 24159, -1], "varbit": 35226, "varp": -1}, "movementCapabilities": 1, "unknown_63": true, "unknown_67": 0}]

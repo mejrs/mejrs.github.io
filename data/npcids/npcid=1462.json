@@ -1,1 +1,1 @@
-[{"name": "Elder Guard", "id": 1462, "x": 2801, "y": 2757, "p": 0}]
+[{"name": "Elder Guard", "id": 1462, "p": 0, "x": 2801, "y": 2757, "mapId": 28, "mapId_p": 0, "mapId_x": 2801, "mapId_y": 2757, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 281, "boundSize": 2, "combat": 0, "extra": {"slayer_task_id": 1}, "headModels": [4663], "models": [4809, 4813], "movementCapabilities": 1}]

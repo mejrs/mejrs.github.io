@@ -1,1 +1,1 @@
-[{"name": "Werewolf", "id": 1665, "x": 3544, "y": 3462, "p": 0}]
+[{"name": "Werewolf", "id": 1665, "p": 0, "x": 3544, "y": 3462, "mapId": 28, "mapId_p": 0, "mapId_x": 3544, "mapId_y": 3462, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-To", null, null, null, null], "animation_group": 190, "boundSize": 1, "combat": 0, "headModels": [26113], "models": [26177, 26188, 26181], "movementCapabilities": 1}]

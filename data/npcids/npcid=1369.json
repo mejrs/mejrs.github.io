@@ -1,1 +1,1 @@
-[{"name": "Fishmonger", "id": 1369, "x": 2605, "y": 3876, "p": 0}]
+[{"name": "Fishmonger", "id": 1369, "p": 0, "x": 2605, "y": 3876, "mapId": 28, "mapId_p": 0, "mapId_x": 2605, "mapId_y": 3876, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3183, "boundSize": 1, "color_replacements": {"25238": 43160, "6798": 5671, "7952": 43043, "8078": 43053, "8741": 43045}, "combat": 0, "headModels": [39600, 39223], "models": [210, 246, 292, 162, 176, 4226, 4218, 326, 317], "movementCapabilities": 3}]

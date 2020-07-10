@@ -1,0 +1,1 @@
+[{"name": "Pumpkin Pete", "id": 12377, "p": 0, "x": 4318, "y": 5455, "mapId": 225, "mapId_p": 0, "mapId_x": 4318, "mapId_y": 5455, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "combat": 0, "headModels": [61120], "models": [61121], "movementCapabilities": 3, "unknown_63": true}]

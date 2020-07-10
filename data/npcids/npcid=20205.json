@@ -1,1 +1,1 @@
-[{"name": "Maria", "id": 20205, "x": 3360, "y": 3481, "p": 0}]
+[{"name": "Maria", "id": 20205, "p": 0, "x": 3360, "y": 3481, "mapId": 28, "mapId_p": 0, "mapId_x": 3360, "mapId_y": 3481, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "ambience": 64, "animation_group": 3293, "boundSize": 1, "combat": 0, "headModels": [39090], "models": [99710], "movementCapabilities": 1, "quests": [369], "respawnDirection": 0, "unknown_63": true}]

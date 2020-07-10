@@ -1,0 +1,1 @@
+[{"name": "Saradominist crusader", "morph_names_1": ["Saradominist crusader", "Saradominist crusader", ""], "id": 23787, "p": 0, "x": 2976, "y": 3343, "mapId": 28, "mapId_p": 0, "mapId_x": 2976, "mapId_y": 3343, "combat": 0, "morphs_1": {"ids": [23788, 23788, -1], "varbit": 34589, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 0}]

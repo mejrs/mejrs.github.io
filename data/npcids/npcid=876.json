@@ -1,1 +1,1 @@
-[{"name": "Ogre trader", "id": 876, "x": 2525, "y": 3043, "p": 0}]
+[{"name": "Ogre trader", "id": 876, "p": 0, "x": 2525, "y": 3043, "mapId": 28, "mapId_p": 0, "mapId_x": 2525, "mapId_y": 3043, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "ambience": 25, "animation_group": 321, "boundSize": 2, "combat": 0, "extra": {"slayer_task_id": 20}, "headModels": [31696], "models": [46150], "movementCapabilities": 3}]

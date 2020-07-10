@@ -1,1 +1,1 @@
-[{"name": "Perdita", "id": 25509, "x": 1372, "y": 5645, "p": 0}]
+[{"name": "Perdita", "id": 25509, "p": 0, "x": 1372, "y": 5645, "mapId": 28, "mapId_p": 0, "mapId_x": 1948, "mapId_y": 3149, "ambience": 30, "animation_group": 4012, "combat": 0, "drawMapDot": false, "headModels": [38941], "models": [39700], "movementCapabilities": 1}]

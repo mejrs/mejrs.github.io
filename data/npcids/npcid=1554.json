@@ -1,0 +1,1 @@
+[{"name": "Aga", "id": 1554, "p": 1, "x": 2828, "y": 10103, "mapId": 2, "mapId_p": 0, "mapId_x": 108, "mapId_y": 55, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 1717, "boundSize": 2, "combat": 0, "headModels": [64488], "models": [64516], "movementCapabilities": 1}]

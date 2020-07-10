@@ -1,1 +1,1 @@
-[{"name": "Grigan Kaninus", "id": 14079, "x": 3637, "y": 3379, "p": 0}]
+[{"name": "Grigan Kaninus", "id": 14079, "p": 0, "x": 3637, "y": 3379, "mapId": 28, "mapId_p": 0, "mapId_x": 3637, "mapId_y": 3379, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 2140, "combat": 0, "headModels": [52484], "modelContract": 25, "models": [22706], "movementCapabilities": 3}]

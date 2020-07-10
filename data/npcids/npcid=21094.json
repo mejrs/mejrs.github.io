@@ -1,0 +1,1 @@
+[{"name": "Scopulus", "id": 21094, "p": 3, "x": 361, "y": 511, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Reward shop", "Previous event shop", null], "animation_group": 3457, "boundSize": 2, "combat": 0, "headModels": [86689], "models": [86773], "movementCapabilities": 1, "respawnDirection": 0}]

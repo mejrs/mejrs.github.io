@@ -1,1 +1,1 @@
-[{"name": "Thaki the delivery dwarf", "id": 7115, "x": 3051, "y": 3259, "p": 0}]
+[{"name": "Thaki the delivery dwarf", "id": 7115, "p": 0, "x": 3051, "y": 3259, "mapId": 28, "mapId_p": 0, "mapId_x": 3051, "mapId_y": 3259, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 851, "combat": 0, "headModels": [90021, 90042], "models": [90346, 90288, 90344, 90295, 78297, 90309, 90322, 32149, 90394], "movementCapabilities": 1, "unknown_67": 0}]

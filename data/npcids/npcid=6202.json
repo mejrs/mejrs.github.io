@@ -1,0 +1,1 @@
+[{"name": "Knight", "morph_names_1": ["Knight", "Knight", ""], "id": 6202, "p": 0, "x": 2910, "y": 3730, "mapId": 28, "mapId_p": 0, "mapId_x": 2910, "mapId_y": 3730, "animation_group": 542, "boundSize": 2, "combat": 0, "morphs_1": {"ids": [6201, 15777, -1], "varbit": 15159, "varp": -1}, "movementCapabilities": 1, "unknown_67": 0}]

@@ -1,1 +1,1 @@
-[{"name": "Bill Blakey", "id": 8722, "x": 3424, "y": 3320, "p": 0}]
+[{"name": "Bill Blakey", "id": 8722, "p": 0, "x": 3424, "y": 3320, "mapId": 28, "mapId_p": 0, "mapId_x": 3424, "mapId_y": 3320, "action_cursors": [null, null, 44, null, null, null], "actions": ["Listen to", null, "Talk to", null, null], "animation_group": 1548, "boundSize": 1, "combat": 0, "headModels": [47178], "models": [47151, 47173], "movementCapabilities": 1}]

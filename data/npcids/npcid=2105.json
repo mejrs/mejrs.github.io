@@ -1,0 +1,1 @@
+[{"name": "Silver Cog Director", "id": 2105, "p": 1, "x": 2893, "y": 10196, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2675, "boundSize": 1, "combat": 0, "headModels": [90016], "models": [90221, 78297], "movementCapabilities": 3, "unknown_63": true}]

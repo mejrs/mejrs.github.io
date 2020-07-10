@@ -1,1 +1,1 @@
-[{"name": "Amaethwr", "id": 2860, "x": 2347, "y": 3164, "p": 0}]
+[{"name": "Amaethwr", "id": 2860, "p": 0, "x": 2347, "y": 3164, "mapId": 28, "mapId_p": 0, "mapId_x": 2347, "mapId_y": 3164, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Pay", null, null], "animation_group": 2366, "combat": 0, "headModels": [97210], "models": [97293], "movementCapabilities": 1, "respawnDirection": 5, "texture_replacements": {"4840": 4846}, "unknown_67": 0}]

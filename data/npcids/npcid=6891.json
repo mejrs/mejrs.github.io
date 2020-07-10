@@ -1,1 +1,1 @@
-[{"name": "Penguin keeper", "id": 6891, "x": 2598, "y": 3272, "p": 0}]
+[{"name": "Penguin keeper", "id": 6891, "p": 0, "x": 2598, "y": 3272, "mapId": 28, "mapId_p": 0, "mapId_x": 2598, "mapId_y": 3272, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 25, "animation_group": 4, "combat": 0, "headModels": [39836, 39270, 38643], "models": [47086], "movementCapabilities": 3, "unknown_63": true}]

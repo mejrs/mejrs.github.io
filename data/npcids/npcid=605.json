@@ -1,1 +1,1 @@
-[{"name": "Sir Vyvin", "id": 605, "x": 2983, "y": 3335, "p": 2}]
+[{"name": "Sir Vyvin", "id": 605, "p": 2, "x": 2983, "y": 3335, "mapId": 28, "mapId_p": 2, "mapId_x": 2983, "mapId_y": 3335, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 2100, "boundSize": 1, "color_replacements": {"41": 82, "57": 99, "61": 99}, "combat": 0, "headModels": [39947, 39256, 39307], "models": [206, 66343, 66389, 66600, 66691, 247, 236], "movementCapabilities": 3, "recolor_indices": [-1, -1, 0, 1, -1, 2]}]

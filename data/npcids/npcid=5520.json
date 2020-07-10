@@ -1,1 +1,1 @@
-[{"name": "Slug Hemligssen", "id": 5520, "x": 2336, "y": 3811, "p": 0}]
+[{"name": "Slug Hemligssen", "id": 5520, "p": 0, "x": 2336, "y": 3811, "mapId": 28, "mapId_p": 0, "mapId_x": 2336, "mapId_y": 3811, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"6798": 5058, "7446": 123}, "combat": 0, "headModels": [39630, 39227, 39394], "models": [21875, 230, 253, 21889, 21864, 21898, 21881, 21870], "movementCapabilities": 3}]

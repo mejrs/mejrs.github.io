@@ -1,0 +1,1 @@
+[{"name": "Sir Owen", "morph_names_1": ["Sir Owen", ""], "id": 18614, "p": 2, "x": 2511, "y": 2645, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "boundSize": 1, "combat": 0, "morphs_1": {"ids": [18615, -1], "varbit": 3081, "varp": -1}, "movementCapabilities": 1}]

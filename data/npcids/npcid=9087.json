@@ -1,0 +1,1 @@
+[{"name": "Gargoyle", "id": 9087, "p": 1, "x": 1733, "y": 5312, "mapId": 36, "mapId_p": 0, "mapId_x": 133, "mapId_y": 64, "ambience": 25, "animation_group": 3274, "boundSize": 3, "combat": 0, "extra": {"weakness_class": 1}, "models": [83769], "movementCapabilities": 1}]

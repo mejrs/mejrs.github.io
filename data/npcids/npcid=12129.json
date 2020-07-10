@@ -1,0 +1,1 @@
+[{"name": "Sliding block", "id": 12129, "p": 0, "x": 615, "y": 4695, "mapId": 642, "mapId_p": 0, "mapId_x": 615, "mapId_y": 4695, "actions": ["Move", null, null, null, null], "ambience": 15, "boundSize": 2, "combat": 0, "drawMapDot": false, "modelContract": 10, "models": [59108], "movementCapabilities": 1, "unknown_67": 0}]

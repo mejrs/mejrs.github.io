@@ -1,1 +1,1 @@
-[{"name": "Chicken", "id": 11256, "x": 3429, "y": 3678, "p": 0}]
+[{"name": "Chicken", "id": 11256, "p": 0, "x": 3429, "y": 3678, "mapId": 28, "mapId_p": 0, "mapId_x": 3429, "mapId_y": 3678, "ambience": 25, "animation_group": 3206, "boundSize": 1, "combat": 0, "models": [97091], "movementCapabilities": 3, "movementType": 0, "scaleXZ": 80, "scaleY": 80}]

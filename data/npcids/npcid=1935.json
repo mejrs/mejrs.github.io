@@ -1,1 +1,1 @@
-[{"name": "Ice troll", "id": 1935, "x": 2841, "y": 3738, "p": 0}]
+[{"name": "Ice troll", "id": 1935, "p": 0, "x": 2841, "y": 3738, "mapId": 28, "mapId_p": 0, "mapId_x": 2841, "mapId_y": 3738, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 1786, "boundSize": 2, "combat": 0, "headModels": [64484], "models": [64504, 64502, 44711, 56867, 56868], "movementCapabilities": 1, "scaleXZ": 139, "scaleY": 139}]

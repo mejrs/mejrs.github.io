@@ -1,1 +1,1 @@
-[{"name": "Da Vinci", "id": 336, "x": 2927, "y": 3218, "p": 0}]
+[{"name": "Da Vinci", "id": 336, "p": 0, "x": 2927, "y": 3218, "mapId": 28, "mapId_p": 0, "mapId_x": 2927, "mapId_y": 3218, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "color_replacements": {"10353": 6554, "4626": 6550, "6798": 6684, "8078": 6430, "8741": 6435}, "combat": 0, "headModels": [39686, 39270, 39492], "models": [9618, 217, 9620, 292, 317, 162, 10218, 9461, 6090, 9617, 4391], "movementCapabilities": 3}]

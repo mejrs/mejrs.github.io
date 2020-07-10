@@ -1,0 +1,1 @@
+[{"name": "Loki", "id": 2985, "p": 0, "x": 1937, "y": 4701, "mapId": 191, "mapId_p": 0, "mapId_x": 1937, "mapId_y": 4701, "ambience": 15, "animation_group": 41, "boundSize": 1, "color_replacements": {"10353": 7704, "39": 7580, "43": 7585, "47": 7461, "5272": 4506, "5276": 4502}, "combat": 0, "headModels": [34046], "models": [34019], "movementCapabilities": 3, "unknown_63": true}]

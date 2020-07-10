@@ -1,0 +1,1 @@
+[{"name": "Audmann", "id": 2201, "p": 0, "x": 2866, "y": 10206, "mapId": 21, "mapId_p": 0, "mapId_x": 50, "mapId_y": 158, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 2675, "combat": 0, "headModels": [90027, 90046], "models": [90333, 90298, 90284, 90355, 78297, 90306, 90328], "movementCapabilities": 3}]

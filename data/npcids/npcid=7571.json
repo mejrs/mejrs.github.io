@@ -1,1 +1,1 @@
-[{"name": "Zookeeper", "id": 7571, "x": 2603, "y": 3284, "p": 0}]
+[{"name": "Zookeeper", "id": 7571, "p": 0, "x": 2603, "y": 3284, "mapId": 28, "mapId_p": 0, "mapId_x": 2603, "mapId_y": 3284, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 25, "animation_group": 4, "boundSize": 1, "color_replacements": {"8376": 8501, "8380": 8507}, "combat": 0, "headModels": [38641, 39256, 39395], "models": [47094], "movementCapabilities": 3}]

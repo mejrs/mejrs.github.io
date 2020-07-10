@@ -1,0 +1,1 @@
+[{"name": "Movario", "morph_names_1": ["Movario", ""], "id": 14333, "p": 0, "x": 2927, "y": 3848, "mapId": 28, "mapId_p": 0, "mapId_x": 2927, "mapId_y": 3848, "animation_group": 215, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [14334, -1], "varbit": 11651, "varp": -1}, "movementCapabilities": 3}]

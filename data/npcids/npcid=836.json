@@ -1,1 +1,1 @@
-[{"name": "Shantay", "id": 836, "x": 3304, "y": 3118, "p": 0}]
+[{"name": "Shantay", "id": 836, "p": 0, "x": 3304, "y": 3118, "mapId": 28, "mapId_p": 0, "mapId_x": 3304, "mapId_y": 3118, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 3181, "boundSize": 1, "color_replacements": {"25238": 6583, "61": 4550, "8741": 9104}, "combat": 0, "headModels": [76589], "members_actions": [null, null, "Trade", null, null], "models": [76617], "movementCapabilities": 1, "respawnDirection": 0}]

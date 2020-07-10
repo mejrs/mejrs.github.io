@@ -1,1 +1,1 @@
-[{"name": "Elena Suerten", "id": 18202, "x": 3130, "y": 3232, "p": 0}]
+[{"name": "Elena Suerten", "id": 18202, "p": 0, "x": 3130, "y": 3232, "mapId": 28, "mapId_p": 0, "mapId_x": 3130, "mapId_y": 3232, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 2699, "boundSize": 1, "color_replacements": {"4550": 3498, "55232": 6158, "6798": 6152}, "combat": 0, "headModels": [44976], "models": [89286], "movementCapabilities": 1, "respawnDirection": 5, "unknown_67": 0}]

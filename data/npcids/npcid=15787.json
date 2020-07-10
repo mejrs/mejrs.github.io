@@ -1,0 +1,1 @@
+[{"name": "Ozan", "morph_names_1": ["", "", "", "", "Ozan", ""], "id": 15787, "p": 0, "x": 3290, "y": 3180, "mapId": 28, "mapId_p": 0, "mapId_x": 3290, "mapId_y": 3180, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, -1, -1, -1, 15793, -1], "varbit": 11884, "varp": -1}, "movementCapabilities": 1, "quests": [356], "respawnDirection": 0, "unknown_63": true}]

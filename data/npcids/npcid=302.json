@@ -1,1 +1,1 @@
-[{"name": "Hadley", "id": 302, "x": 2516, "y": 3428, "p": 0}]
+[{"name": "Hadley", "id": 302, "p": 0, "x": 2516, "y": 3428, "mapId": 28, "mapId_p": 0, "mapId_x": 2516, "mapId_y": 3428, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"25238": 6492, "43072": 4550}, "combat": 0, "headModels": [39836, 38642], "models": [215, 181, 250, 299, 32592, 10218, 254, 329], "movementCapabilities": 3}]

@@ -1,0 +1,1 @@
+[{"name": "Gnome emissary", "morph_names_1": ["Gnome emissary", ""], "id": 2406, "p": 1, "x": 2872, "y": 10190, "ambience": 20, "animation_group": 108, "combat": 0, "modelContract": 20, "morphs_1": {"ids": [2137, -1], "varbit": 13277, "varp": -1}, "movementCapabilities": 3}]

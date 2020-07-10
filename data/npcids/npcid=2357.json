@@ -1,1 +1,1 @@
-[{"name": "Gethin", "id": 2357, "x": 2335, "y": 3158, "p": 1}]
+[{"name": "Gethin", "id": 2357, "p": 1, "x": 2335, "y": 3158, "mapId": 28, "mapId_p": 1, "mapId_x": 2335, "mapId_y": 3158, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3183, "boundSize": 1, "color_replacements": {"107": 7390, "7595": 6480, "8792": 6583}, "combat": 0, "headModels": [97195, 97180], "models": [97259, 97262, 97258, 97260, 97281, 97308], "movementCapabilities": 3}]

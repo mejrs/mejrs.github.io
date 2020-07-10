@@ -1,1 +1,1 @@
-[{"name": "Kilron", "id": 349, "x": 2556, "y": 3266, "p": 0}]
+[{"name": "Kilron", "id": 349, "p": 0, "x": 2556, "y": 3266, "mapId": 28, "mapId_p": 0, "mapId_x": 2556, "mapId_y": 3266, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"25238": 3980, "8472": 3980}, "combat": 0, "headModels": [38588, 38642], "models": [208, 185, 250, 311, 162, 179, 274], "movementCapabilities": 1, "texture_replacements": {"621": 620}}]

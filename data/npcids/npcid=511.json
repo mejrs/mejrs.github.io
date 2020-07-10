@@ -1,1 +1,1 @@
-[{"name": "Vigroy", "id": 511, "x": 2834, "y": 2954, "p": 0}]
+[{"name": "Vigroy", "id": 511, "p": 0, "x": 2834, "y": 2954, "mapId": 28, "mapId_p": 0, "mapId_x": 2834, "mapId_y": 2954, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Pay-fare", null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"103": 103, "25238": 43478, "4533": 4637, "4540": 4641, "4550": 4645, "4554": 4649, "8090": 103, "8741": 103}, "combat": 0, "headModels": [39799, 39256], "models": [230, 247, 295, 150, 274, 185], "movementCapabilities": 3}]

@@ -1,1 +1,1 @@
-[{"name": "Elf musician", "id": 8723, "x": 2255, "y": 3190, "p": 0}]
+[{"name": "Elf musician", "id": 8723, "p": 0, "x": 2255, "y": 3190, "mapId": 28, "mapId_p": 0, "mapId_x": 2255, "mapId_y": 3190, "action_cursors": [null, null, 44, null, null, null], "actions": ["Listen to", null, "Talk to", null, null], "animation_group": 1540, "boundSize": 1, "combat": 0, "headModels": [97155], "models": [97238, 97239, 97237, 97243, 97242, 97355, 47167], "movementCapabilities": 1}]

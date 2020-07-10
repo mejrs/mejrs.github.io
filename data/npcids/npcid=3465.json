@@ -1,0 +1,1 @@
+[{"name": "Nung", "id": 3465, "p": 1, "x": 2975, "y": 9512, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 25, "animation_group": 1478, "boundSize": 2, "combat": 0, "headModels": [31789], "models": [46157], "movementCapabilities": 3}]

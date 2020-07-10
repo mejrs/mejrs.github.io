@@ -1,0 +1,1 @@
+[{"name": "Rohak", "morph_names_2": ["Old Dwarf", "Rohak", "Rohak"], "id": 3401, "p": 0, "x": 2865, "y": 9876, "mapId": 8, "mapId_p": 0, "mapId_x": 49, "mapId_y": 20, "combat": 0, "morphs_2": {"ids": [15231, 3403, 3405], "varbit": 12748, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

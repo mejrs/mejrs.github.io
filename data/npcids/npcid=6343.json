@@ -1,1 +1,1 @@
-[{"name": "Child", "id": 6343, "x": 2469, "y": 3295, "p": 0}]
+[{"name": "Child", "id": 6343, "p": 0, "x": 2469, "y": 3295, "mapId": 28, "mapId_p": 0, "mapId_x": 2469, "mapId_y": 3295, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 165, "boundSize": 1, "color_replacements": {"10429": 32920, "10434": 32916, "10438": 33040, "10442": 33040, "3404": 4639, "4434": 4645, "8596": 16}, "combat": 0, "headModels": [28685], "models": [28608, 28641, 28650, 28611, 28616, 28671], "movementCapabilities": 3}]

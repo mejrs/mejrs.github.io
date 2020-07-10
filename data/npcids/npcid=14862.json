@@ -1,1 +1,1 @@
-[{"name": "Alfred Stonemason", "id": 14862, "x": 2953, "y": 3229, "p": 0}]
+[{"name": "Alfred Stonemason", "id": 14862, "p": 0, "x": 2953, "y": 3229, "mapId": 28, "mapId_p": 0, "mapId_x": 2953, "mapId_y": 3229, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, "Trade"], "ambience": 25, "animation_group": 2318, "boundSize": 1, "combat": 0, "headModels": [48704], "modelContract": 15, "models": [49233, 50543], "movementCapabilities": 1, "respawnDirection": 2, "unknown_63": true}]

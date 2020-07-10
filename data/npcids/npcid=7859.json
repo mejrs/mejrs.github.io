@@ -1,1 +1,1 @@
-[{"name": "Young Ralph", "id": 7859, "x": 3035, "y": 2986, "p": 0}]
+[{"name": "Young Ralph", "id": 7859, "p": 0, "x": 3035, "y": 2986, "mapId": 28, "mapId_p": 0, "mapId_x": 3035, "mapId_y": 2986, "animation_group": 2699, "boundSize": 1, "combat": 0, "headModels": [39728, 39244], "models": [77830], "movementCapabilities": 1, "unknown_63": true}]

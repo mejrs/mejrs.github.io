@@ -1,1 +1,1 @@
-[{"name": "Ghostly piper", "id": 8713, "x": 3244, "y": 3821, "p": 0}]
+[{"name": "Ghostly piper", "id": 8713, "p": 0, "x": 3244, "y": 3821, "mapId": 28, "mapId_p": 0, "mapId_x": 3244, "mapId_y": 3821, "action_cursors": [null, null, 44, null, null, null], "actions": ["Listen to", null, "Talk to", null, null], "animation_group": 1547, "boundSize": 1, "combat": 0, "headModels": [47180], "models": [47150], "movementCapabilities": 1}]

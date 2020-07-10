@@ -1,1 +1,1 @@
-[{"name": "Tracker gnome 1", "id": 481, "x": 2502, "y": 3261, "p": 0}]
+[{"name": "Tracker gnome 1", "id": 481, "p": 0, "x": 2502, "y": 3261, "mapId": 28, "mapId_p": 0, "mapId_x": 2502, "mapId_y": 3261, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 108, "boundSize": 1, "combat": 0, "headModels": [63358], "modelContract": 20, "models": [63114, 62880, 62919, 62973, 62995], "movementCapabilities": 3}]

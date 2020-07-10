@@ -1,0 +1,1 @@
+[{"name": "Kjell", "morph_names_1": ["Kjell", "Kjell", ""], "id": 2872, "p": 0, "x": 3079, "y": 3414, "mapId": 28, "mapId_p": 0, "mapId_x": 3079, "mapId_y": 3414, "combat": 0, "morphs_1": {"ids": [2873, 2874, -1], "varbit": 9190, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 1, "unknown_63": true, "unknown_67": 0}]

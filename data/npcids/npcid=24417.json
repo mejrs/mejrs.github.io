@@ -1,1 +1,1 @@
-[{"name": "The Postcat", "id": 24417, "x": 3141, "y": 2853, "p": 0}]
+[{"name": "The Postcat", "id": 24417, "p": 0, "x": 3141, "y": 2853, "mapId": 28, "mapId_p": 0, "mapId_x": 3141, "mapId_y": 2853, "action_cursors": [null, null, 44, null, null, null], "actions": ["Pat", null, "Talk to", null, null], "ambience": 15, "animation_group": 2790, "boundSize": 1, "combat": 0, "headModels": [119258, 119259], "models": [119433, 119434], "movementCapabilities": 0, "texture_replacements": {"8618": 8625}, "unknown_8F": true}]

@@ -1,0 +1,1 @@
+[{"name": "Jogre", "id": 26901, "p": 0, "x": 2423, "y": 2818, "mapId": 28, "mapId_p": 0, "mapId_x": 2423, "mapId_y": 2818, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2597, "boundSize": 2, "combat": 0, "models": [75309, 75312], "movementCapabilities": 3}]

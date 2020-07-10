@@ -1,0 +1,1 @@
+[{"name": "Xenia", "morph_names_1": ["Xenia", ""], "id": 13949, "p": 0, "x": 3193, "y": 3357, "mapId": 28, "mapId_p": 0, "mapId_x": 3193, "mapId_y": 3357, "animation_group": 2120, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [13952, -1], "varbit": 26349, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 6}]

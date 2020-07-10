@@ -1,0 +1,1 @@
+[{"name": "Yadech Strongarm", "morph_names_1": ["Sloane", "Yadech Strongarm", "Yadech Strongarm", ""], "id": 8269, "p": 1, "x": 2855, "y": 3548, "mapId": 28, "mapId_p": 1, "mapId_x": 2855, "mapId_y": 3548, "animation_group": 4, "combat": 0, "morphs_1": {"ids": [4297, 8270, 8270, -1], "varbit": 11755, "varp": -1}, "movementCapabilities": 3}]

@@ -1,0 +1,1 @@
+[{"name": "Boric", "morph_names_1": ["", "Boric", ""], "id": 727, "p": 0, "x": 1560, "y": 5987, "mapId": 100, "mapId_p": 0, "mapId_x": 1560, "mapId_y": 5987, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, 730, -1], "varbit": 10015, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

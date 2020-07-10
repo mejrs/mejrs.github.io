@@ -1,0 +1,1 @@
+[{"name": "Gorvek", "morph_names_1": ["", "Gorvek", ""], "id": 26031, "p": 0, "x": 3493, "y": 3659, "mapId": 28, "mapId_p": 0, "mapId_x": 3493, "mapId_y": 3659, "boundSize": 5, "combat": 0, "morphs_1": {"ids": [-1, 26032, -1], "varbit": 43453, "varp": -1}, "movementCapabilities": 1, "quests": [402], "respawnDirection": 0}]

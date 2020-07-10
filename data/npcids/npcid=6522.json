@@ -1,1 +1,1 @@
-[{"name": "Brugsen Bursen", "id": 6522, "x": 3165, "y": 3469, "p": 0}]
+[{"name": "Brugsen Bursen", "id": 6522, "p": 0, "x": 3165, "y": 3469, "mapId": 28, "mapId_p": 0, "mapId_x": 3165, "mapId_y": 3469, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 1253, "combat": 0, "headModels": [39642], "models": [29907, 29902], "movementCapabilities": 1, "unknown_63": true}]

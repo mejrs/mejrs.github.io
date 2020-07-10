@@ -1,0 +1,1 @@
+[{"name": "Goblin", "morph_names_1": ["Goblin", "", "Goblin", ""], "id": 19415, "p": 1, "x": 1230, "y": 5080, "animation_group": 86, "combat": 0, "morphs_1": {"ids": [19419, -1, 19420, -1], "varbit": 4310, "varp": -1}, "movementCapabilities": 1, "quests": [368]}]

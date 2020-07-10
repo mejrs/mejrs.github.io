@@ -1,0 +1,1 @@
+[{"name": "Santa Claus", "id": 22043, "p": 0, "x": 2655, "y": 5727, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 3333, "boundSize": 2, "combat": 0, "headModels": [92782], "models": [101136], "movementCapabilities": 1, "respawnDirection": 0, "unknown_63": true}]

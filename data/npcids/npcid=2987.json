@@ -1,0 +1,1 @@
+[{"name": "Treacle", "id": 2987, "p": 0, "x": 2914, "y": 5104, "mapId": 354, "mapId_p": 0, "mapId_x": 2914, "mapId_y": 5104, "ambience": 15, "animation_group": 41, "boundSize": 1, "color_replacements": {"10345": 66, "10353": 70, "5272": 38049, "5276": 37925}, "combat": 0, "headModels": [34046], "models": [34019], "movementCapabilities": 3, "unknown_63": true}]

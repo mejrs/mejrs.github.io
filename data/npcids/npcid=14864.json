@@ -1,1 +1,1 @@
-[{"name": "Ayleth Beaststalker", "id": 14864, "x": 2929, "y": 3507, "p": 0}]
+[{"name": "Ayleth Beaststalker", "id": 14864, "p": 0, "x": 2929, "y": 3507, "mapId": 28, "mapId_p": 0, "mapId_x": 2929, "mapId_y": 3507, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, "Trade"], "ambience": 25, "animation_group": 2319, "boundSize": 1, "combat": 0, "headModels": [48473], "modelContract": 15, "models": [49220, 50565, 50555], "movementCapabilities": 1, "respawnDirection": 0, "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "Apprentice Clara", "id": 14906, "x": 2915, "y": 3540, "p": 0}]
+[{"name": "Apprentice Clara", "id": 14906, "p": 0, "x": 2915, "y": 3540, "mapId": 28, "mapId_p": 0, "mapId_x": 2915, "mapId_y": 3540, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Trade", null, null], "ambience": 25, "animation_group": 3182, "boundSize": 1, "color_replacements": {"4891": 35618, "4896": 35623, "55232": 4784, "6798": 4771}, "combat": 0, "headModels": [44998], "modelContract": 15, "models": [49234], "movementCapabilities": 1, "respawnDirection": 6}]

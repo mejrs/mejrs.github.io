@@ -1,1 +1,1 @@
-[{"name": "Angor", "id": 259, "x": 2566, "y": 3140, "p": 0}]
+[{"name": "Angor", "id": 259, "p": 0, "x": 2566, "y": 3140, "mapId": 28, "mapId_p": 0, "mapId_x": 2566, "mapId_y": 3140, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"25238": 10508, "43072": 4550, "8741": 10345}, "combat": 0, "headModels": [39799, 39256], "models": [230, 247, 292, 151, 10218, 254, 181, 326], "movementCapabilities": 3}]

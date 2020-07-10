@@ -1,0 +1,1 @@
+[{"name": "Evil creature", "morph_names_1": ["", "Cute creature", "Evil creature", ""], "id": 6333, "p": 0, "x": 2542, "y": 3170, "mapId": 28, "mapId_p": 0, "mapId_x": 2542, "mapId_y": 3170, "animation_group": 239, "combat": 0, "morphs_1": {"ids": [-1, 6311, 6312, -1], "varbit": 10493, "varp": -1}, "movementCapabilities": 3}]

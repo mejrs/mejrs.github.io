@@ -1,0 +1,1 @@
+[{"name": "Rat", "morph_names_1": ["", "Bat", "Blackbird", "Lizard", "Spider", "Snail", "Rat", ""], "id": 8225, "p": 0, "x": 3240, "y": 4503, "mapId": 240, "mapId_p": 0, "mapId_x": 3240, "mapId_y": 4503, "animation_group": 1071, "combat": 0, "morphs_1": {"ids": [-1, 8208, 8211, 8210, 8212, 8213, 8209, -1], "varbit": 9875, "varp": -1}, "movementCapabilities": 7}]

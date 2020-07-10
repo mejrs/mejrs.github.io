@@ -1,1 +1,1 @@
-[{"name": "Ollie the Camel", "id": 2811, "x": 3291, "y": 3209, "p": 0}]
+[{"name": "Ollie the Camel", "id": 2811, "p": 0, "x": 3291, "y": 3209, "mapId": 28, "mapId_p": 0, "mapId_x": 3291, "mapId_y": 3209, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 25, "animation_group": 109, "boundSize": 2, "combat": 0, "headModels": [119260], "models": [119423], "movementCapabilities": 3}]

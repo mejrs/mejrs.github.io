@@ -1,1 +1,1 @@
-[{"name": "Ned", "id": 18606, "x": 2459, "y": 2720, "p": 2}]
+[{"name": "Ned", "id": 18606, "p": 2, "x": 2459, "y": 2720, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "ambience": 64, "animation_group": 3007, "boundSize": 1, "color_replacements": {"1": 1}, "combat": 0, "headModels": [91882], "models": [91921], "movementCapabilities": 1, "unknown_63": true}]

@@ -1,0 +1,1 @@
+[{"name": "Monkey guard", "morph_names_1": ["", "Monkey guard", ""], "id": 13240, "p": 0, "x": 2806, "y": 2794, "mapId": 28, "mapId_p": 0, "mapId_x": 2806, "mapId_y": 2794, "combat": 0, "morphs_1": {"ids": [-1, 13242, -1], "varbit": 9342, "varp": -1}, "movementCapabilities": 1, "quests": [343]}]

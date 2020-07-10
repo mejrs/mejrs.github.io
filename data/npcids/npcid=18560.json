@@ -1,1 +1,1 @@
-[{"name": "Plank maker", "id": 18560, "x": 2954, "y": 3231, "p": 0}]
+[{"name": "Plank maker", "id": 18560, "p": 0, "x": 2954, "y": 3231, "mapId": 28, "mapId_p": 0, "mapId_x": 2954, "mapId_y": 3231, "action_cursors": [174, null, 44, null, null, null], "actions": ["Buy plank", null, "Talk to", null, null], "animation_group": 4, "color_replacements": {"10004": 5276, "25238": 10518, "8741": 5276}, "combat": 0, "headModels": [39343, 39799, 39254], "models": [230, 9619, 249, 305, 10980, 179, 274, 181], "movementCapabilities": 1, "respawnDirection": 2, "unknown_63": true}]

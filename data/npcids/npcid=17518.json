@@ -1,0 +1,1 @@
+[{"name": "Guardsman Peale", "morph_names_1": ["Guardsman Peale", "Guardsman Peale", "Guardsman Peale", "Guardsman Peale", ""], "id": 17518, "p": 0, "x": 3208, "y": 3227, "mapId": 28, "mapId_p": 0, "mapId_x": 3208, "mapId_y": 3227, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [7890, 17523, 7890, 17523, -1], "varbit": 18700, "varp": -1}, "movementCapabilities": 3}]

@@ -1,1 +1,1 @@
-[{"name": "Goth leprechaun", "id": 8000, "x": 3145, "y": 3824, "p": 0}]
+[{"name": "Goth leprechaun", "id": 8000, "p": 0, "x": 3145, "y": 3824, "mapId": 28, "mapId_p": 0, "mapId_x": 3145, "mapId_y": 3824, "action_cursors": [null, null, 44, null, null, null], "actions": ["Exchange", null, "Talk to", null, "Compost"], "animation_group": 1507, "combat": 0, "headModels": [46766], "models": [46755], "movementCapabilities": 3, "unknown_63": true}]

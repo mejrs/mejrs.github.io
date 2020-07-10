@@ -1,1 +1,1 @@
-[{"name": "Scalectrix", "id": 15055, "x": 2881, "y": 3430, "p": 0}]
+[{"name": "Scalectrix", "id": 15055, "p": 0, "x": 2881, "y": 3430, "mapId": 28, "mapId_p": 0, "mapId_x": 2881, "mapId_y": 3430, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-To", null, null, null, null], "ambience": 20, "animation_group": 1, "boundSize": 1, "combat": 0, "headModels": [53614], "modelContract": 25, "models": [97086], "movementCapabilities": 1, "quests": [324], "respawnDirection": 2, "unknown_63": true}]

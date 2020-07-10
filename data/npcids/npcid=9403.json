@@ -1,0 +1,1 @@
+[{"name": "Jack Frost", "id": 9403, "p": 0, "x": 2668, "y": 5671, "mapId": 219, "mapId_p": 0, "mapId_x": 2668, "mapId_y": 5671, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "combat": 0, "headModels": [45289], "models": [45189], "movementCapabilities": 1, "unknown_63": true}]

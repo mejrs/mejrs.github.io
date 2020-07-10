@@ -1,0 +1,1 @@
+[{"name": "Rock", "morph_names_2": ["Rock", "Iwazaru", "Rock"], "id": 13202, "p": 0, "x": 3225, "y": 2983, "mapId": 28, "mapId_p": 0, "mapId_x": 3225, "mapId_y": 2983, "combat": 0, "morphs_2": {"ids": [13206, 13208, 13206], "varbit": 9350, "varp": -1}, "movementCapabilities": 1, "quests": [343], "respawnDirection": 0}]

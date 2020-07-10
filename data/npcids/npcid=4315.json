@@ -1,0 +1,1 @@
+[{"name": "Dwarf", "morph_names_1": ["", "", "", "", "", "", "", "Dwarf", "Dwarf", "Dwarf", ""], "id": 4315, "p": 0, "x": 3224, "y": 3286, "mapId": 28, "mapId_p": 0, "mapId_x": 3224, "mapId_y": 3286, "animation_group": 2675, "combat": 0, "morphs_1": {"ids": [-1, -1, -1, -1, -1, -1, -1, 4316, 4316, 4316, -1], "varbit": 11533, "varp": -1}, "movementCapabilities": 3}]

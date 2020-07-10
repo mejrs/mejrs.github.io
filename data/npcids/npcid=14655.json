@@ -1,1 +1,1 @@
-[{"name": "Dancer", "id": 14655, "x": 3400, "y": 3151, "p": 0}]
+[{"name": "Dancer", "id": 14655, "p": 0, "x": 3400, "y": 3151, "mapId": 28, "mapId_p": 0, "mapId_x": 3400, "mapId_y": 3151, "actions": ["Dance-with", null, null, null, null], "animation_group": 2251, "boundSize": 1, "combat": 0, "models": [9331], "movementCapabilities": 1, "respawnDirection": 6, "unknown_63": true, "unknown_67": 0}]

@@ -1,0 +1,1 @@
+[{"name": "Pheasant", "id": 392, "p": 0, "x": 2606, "y": 4775, "mapId": 304, "mapId_p": 0, "mapId_x": 2606, "mapId_y": 4775, "actions": [null, "Attack", null, null, null], "animation_group": 680, "attackCursor": 42, "boundSize": 1, "combat": 4, "models": [8839, 8843], "movementCapabilities": 3, "scaleXZ": 30, "scaleY": 30, "unknown_63": true}]

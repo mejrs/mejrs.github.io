@@ -1,1 +1,1 @@
-[{"name": "Khoochak", "id": 15813, "x": 3291, "y": 3149, "p": 0}]
+[{"name": "Khoochak", "id": 15813, "p": 0, "x": 3291, "y": 3149, "mapId": 28, "mapId_p": 0, "mapId_x": 3291, "mapId_y": 3149, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2665, "boundSize": 1, "combat": 0, "headModels": [76592], "models": [76805], "movementCapabilities": 1, "respawnDirection": 0}]

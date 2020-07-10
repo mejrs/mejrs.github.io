@@ -1,0 +1,1 @@
+[{"name": "Chair", "morph_names_2": ["Chair", "Klaas", "Chair"], "id": 6734, "p": 0, "x": 2837, "y": 10192, "mapId": 21, "mapId_p": 0, "mapId_x": 21, "mapId_y": 144, "combat": 0, "morphs_2": {"ids": [6738, 6737, 6738], "varbit": 13905, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 6}]

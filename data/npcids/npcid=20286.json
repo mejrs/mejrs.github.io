@@ -1,1 +1,1 @@
-[{"name": "Lady Meilyr", "id": 20286, "x": 2236, "y": 3432, "p": 1}]
+[{"name": "Lady Meilyr", "id": 20286, "p": 1, "x": 2236, "y": 3432, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, "Open shop", "View Recipes"], "animation_group": 3226, "boundSize": 1, "combat": 0, "headModels": [97169], "models": [97334], "movementCapabilities": 1, "respawnDirection": 6}]

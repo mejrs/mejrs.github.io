@@ -1,1 +1,1 @@
-[{"name": "Magda", "id": 18609, "x": 2479, "y": 2689, "p": 2}]
+[{"name": "Magda", "id": 18609, "p": 2, "x": 2479, "y": 2689, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "ambience": 64, "animation_group": 3010, "boundSize": 1, "color_replacements": {"1": 1}, "combat": 0, "headModels": [91870], "models": [91923], "movementCapabilities": 1, "respawnDirection": 0, "unknown_63": true}]

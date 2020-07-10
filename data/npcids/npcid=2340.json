@@ -1,1 +1,1 @@
-[{"name": "Heskel", "id": 2340, "x": 3001, "y": 3373, "p": 0}]
+[{"name": "Heskel", "id": 2340, "p": 0, "x": 3001, "y": 3373, "mapId": 28, "mapId_p": 0, "mapId_x": 3001, "mapId_y": 3373, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Pay", null, null], "animation_group": 4, "color_replacements": {"11844": 8076, "25238": 5400, "6798": 5027, "8741": 4391, "908": 8076}, "combat": 0, "headModels": [39066], "models": [107553], "movementCapabilities": 3, "recolor_indices": [0, 1, -1, 2, 3, 4]}]

@@ -1,0 +1,1 @@
+[{"name": "Crate", "morph_names_1": ["Crate", "Crate", "Crate", ""], "id": 8074, "p": 0, "x": 2945, "y": 3621, "mapId": 28, "mapId_p": 0, "mapId_x": 2945, "mapId_y": 3621, "animation_group": 1717, "boundSize": 2, "combat": 0, "morphs_1": {"ids": [8059, 8060, 8060, -1], "varbit": 13519, "varp": -1}, "movementCapabilities": 1, "unknown_63": true}]

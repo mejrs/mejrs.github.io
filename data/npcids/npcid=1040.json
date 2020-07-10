@@ -1,1 +1,1 @@
-[{"name": "Fidelio", "id": 1040, "x": 3475, "y": 3497, "p": 0}]
+[{"name": "Fidelio", "id": 1040, "p": 0, "x": 3475, "y": 3497, "mapId": 28, "mapId_p": 0, "mapId_x": 3475, "mapId_y": 3497, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3179, "boundSize": 1, "combat": 0, "headModels": [39751], "models": [26121, 26130, 26114, 26125, 26119], "movementCapabilities": 3}]

@@ -1,0 +1,1 @@
+[{"name": "Primrose", "id": 25982, "p": 1, "x": 4631, "y": 7279, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 4335, "boundSize": 2, "combat": 0, "headModels": [68404], "models": [68408], "movementCapabilities": 1, "respawnDirection": 6, "unknown_67": 0}]

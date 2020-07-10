@@ -1,1 +1,1 @@
-[{"name": "Priest", "id": 31, "x": 2616, "y": 3308, "p": 0}]
+[{"name": "Priest", "id": 31, "p": 0, "x": 2616, "y": 3308, "mapId": 28, "mapId_p": 0, "mapId_x": 2616, "mapId_y": 3308, "animation_group": 4, "boundSize": 1, "color_replacements": {"25238": 43414, "8078": 43111, "8741": 43660}, "combat": 0, "models": [223, 249, 292, 162, 176, 265, 185, 325], "movementCapabilities": 3, "retexture_indices": [-1, 0], "texture_replacements": {"618": 615}}]

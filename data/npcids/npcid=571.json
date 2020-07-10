@@ -1,1 +1,1 @@
-[{"name": "Baker", "id": 571, "x": 2669, "y": 3310, "p": 0}]
+[{"name": "Baker", "id": 571, "p": 0, "x": 2669, "y": 3310, "mapId": 28, "mapId_p": 0, "mapId_x": 2669, "mapId_y": 3310, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3179, "boundSize": 1, "color_replacements": {"107": 127, "25238": 127, "8741": 6470}, "combat": 0, "headModels": [39934, 39509, 39256], "models": [40236, 302, 247, 159, 179, 254, 185, 283, 199], "movementCapabilities": 3, "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "Kent", "id": 701, "x": 2793, "y": 3321, "p": 0}]
+[{"name": "Kent", "id": 701, "p": 0, "x": 2793, "y": 3321, "mapId": 28, "mapId_p": 0, "mapId_x": 2793, "mapId_y": 3321, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 29, "boundSize": 1, "color_replacements": {"21526": 21568, "43072": 4550, "8741": 4550}, "combat": 0, "headModels": [39726, 39245], "models": [214, 10304, 12085, 32593, 8918, 18493, 10218, 18132, 18129], "movementCapabilities": 3, "unknown_63": true}]

@@ -1,0 +1,1 @@
+[{"name": "Jeremy Clerksin", "id": 20790, "p": 0, "x": 3765, "y": 9109, "mapId": 677, "mapId_p": 0, "mapId_x": 3765, "mapId_y": 9109, "ambience": 10, "animation_group": 1032, "boundSize": 1, "color_replacements": {"25238": 13592, "8741": 5297}, "combat": 0, "modelContract": 5, "models": [102877], "movementCapabilities": 1, "texture_replacements": {"608": 620}, "unknown_67": 0}]

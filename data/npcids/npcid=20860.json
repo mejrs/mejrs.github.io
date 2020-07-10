@@ -1,0 +1,1 @@
+[{"name": "Tiny Zemouregal", "id": 20860, "p": 1, "x": 3724, "y": 9109, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2991, "color_replacements": {"1": 1}, "combat": 0, "headModels": [102387], "models": [102389], "movementCapabilities": 1, "unknown_63": true}]

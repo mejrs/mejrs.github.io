@@ -1,1 +1,1 @@
-[{"name": "Black Knight", "id": 18061, "x": 3020, "y": 3567, "p": 1}]
+[{"name": "Black Knight", "id": 18061, "p": 1, "x": 3020, "y": 3567, "mapId": 28, "mapId_p": 1, "mapId_x": 3020, "mapId_y": 3567, "animation_group": 2930, "combat": 0, "models": [230, 66511, 66354, 66324, 66624, 246, 49365], "movementCapabilities": 1, "respawnDirection": 0, "unknown_63": true}]

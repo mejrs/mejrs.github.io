@@ -1,0 +1,1 @@
+[{"name": "Jennifer Bloodspatter", "id": 25385, "p": 0, "x": 2782, "y": 1506, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "ambience": 20, "animation_group": 4, "boundSize": 1, "combat": 0, "headModels": [39111], "modelContract": 25, "models": [28838, 28842, 28824, 28826, 28837, 28846], "movementCapabilities": 1}]

@@ -1,0 +1,1 @@
+[{"name": "Tyke", "id": 7068, "p": 0, "x": 2585, "y": 5527, "mapId": 282, "mapId_p": 0, "mapId_x": 2585, "mapId_y": 5527, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 25, "animation_group": 1143, "combat": 0, "headModels": [31788], "models": [32042], "movementCapabilities": 3}]

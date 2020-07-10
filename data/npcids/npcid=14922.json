@@ -1,0 +1,1 @@
+[{"name": "Corporal Boothe", "id": 14922, "p": 0, "x": 2207, "y": 4368, "mapId": 719, "mapId_p": 0, "mapId_x": 159, "mapId_y": 272, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, "Trade"], "animation_group": 3179, "boundSize": 1, "combat": 0, "headModels": [49042], "models": [49823], "movementCapabilities": 1, "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "Mosol Rei", "id": 500, "x": 2883, "y": 2951, "p": 0}]
+[{"name": "Mosol Rei", "id": 500, "p": 0, "x": 2883, "y": 2951, "mapId": 28, "mapId_p": 0, "mapId_x": 2883, "mapId_y": 2951, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Enter-village", null, null], "animation_group": 119, "boundSize": 1, "color_replacements": {"43072": 4785, "4533": 4765, "4540": 4777, "4550": 4787, "4554": 4791}, "combat": 0, "headModels": [39947, 39254], "models": [206, 249, 315, 33034, 10218, 279, 181, 553], "movementCapabilities": 2}]

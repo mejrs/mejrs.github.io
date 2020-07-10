@@ -1,1 +1,1 @@
-[{"name": "King Arthur", "id": 251, "x": 2764, "y": 3515, "p": 0}]
+[{"name": "King Arthur", "id": 251, "p": 0, "x": 2764, "y": 3515, "mapId": 28, "mapId_p": 0, "mapId_x": 2764, "mapId_y": 3515, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 2100, "boundSize": 1, "color_replacements": {"687": 43299}, "combat": 0, "headModels": [39839, 39382, 38096], "models": [27193, 27197, 27203], "movementCapabilities": 3, "unknown_63": true}]

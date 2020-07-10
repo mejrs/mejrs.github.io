@@ -1,1 +1,1 @@
-[{"name": "Greengrocer", "id": 1370, "x": 2602, "y": 3876, "p": 0}]
+[{"name": "Greengrocer", "id": 1370, "p": 0, "x": 2602, "y": 3876, "mapId": 28, "mapId_p": 0, "mapId_x": 2602, "mapId_y": 3876, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3183, "boundSize": 1, "color_replacements": {"25238": 13072, "6798": 6713, "7952": 3608, "8078": 12705, "8741": 12585}, "combat": 0, "headModels": [39947, 39254], "models": [206, 249, 292, 162, 176, 4226, 4218, 4391, 317], "movementCapabilities": 3}]

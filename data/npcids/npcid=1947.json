@@ -1,0 +1,1 @@
+[{"name": "Troll father", "morph_names_1": ["", "", "", "", "Troll father", "Troll father", ""], "id": 1947, "p": 0, "x": 2833, "y": 3740, "mapId": 28, "mapId_p": 0, "mapId_x": 2833, "mapId_y": 3740, "animation_group": 1717, "boundSize": 2, "combat": 0, "morphs_1": {"ids": [-1, -1, -1, -1, 1948, 1948, -1], "varbit": 9506, "varp": -1}, "movementCapabilities": 1}]

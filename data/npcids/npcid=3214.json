@@ -1,0 +1,1 @@
+[{"name": "Edmond", "morph_names_1": ["", "Edmond", ""], "id": 3214, "p": 0, "x": 2517, "y": 9755, "mapId": 505, "mapId_p": 0, "mapId_x": 2517, "mapId_y": 9755, "animation_group": 29, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, 714, -1], "varbit": 11264, "varp": -1}, "movementCapabilities": 3}]

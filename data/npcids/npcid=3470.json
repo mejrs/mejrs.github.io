@@ -1,0 +1,1 @@
+[{"name": "Ogre boat", "morph_names_1": ["", "Ogre boat", ""], "id": 3470, "p": 0, "x": 2753, "y": 3081, "mapId": 28, "mapId_p": 0, "mapId_x": 2753, "mapId_y": 3081, "animation_group": 1044, "boundSize": 5, "combat": 0, "morphs_1": {"ids": [-1, 3471, -1], "varbit": 12766, "varp": -1}, "movementCapabilities": 1}]

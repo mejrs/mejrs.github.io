@@ -1,1 +1,1 @@
-[{"name": "Lalli", "id": 1270, "x": 2770, "y": 3622, "p": 0}]
+[{"name": "Lalli", "id": 1270, "p": 0, "x": 2770, "y": 3622, "mapId": 28, "mapId_p": 0, "mapId_x": 2770, "mapId_y": 3622, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 1717, "boundSize": 2, "color_replacements": {"10396": 7455, "14490": 7450, "14614": 7446, "7341": 7329, "7349": 7337, "7357": 7342}, "combat": 0, "headModels": [52825], "models": [62670, 62660, 62674], "movementCapabilities": 3, "scaleXZ": 160, "scaleY": 160}]

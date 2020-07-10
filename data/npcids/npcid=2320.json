@@ -1,1 +1,1 @@
-[{"name": "Tanner", "id": 2320, "x": 3188, "y": 3407, "p": 0}]
+[{"name": "Tanner", "id": 2320, "p": 0, "x": 3188, "y": 3407, "mapId": 28, "mapId_p": 0, "mapId_x": 3188, "mapId_y": 3407, "action_cursors": [62, null, 44, null, null, null], "actions": ["Tan hide", null, "Talk-to", null, null], "animation_group": 3183, "boundSize": 1, "color_replacements": {"25238": 38039, "8741": 8343}, "combat": 0, "headModels": [39915, 39223], "models": [14340, 246, 305, 10980, 10218, 12138, 181], "movementCapabilities": 3}]

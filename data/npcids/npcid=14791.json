@@ -1,0 +1,1 @@
+[{"name": "Isis", "morph_names_1": ["Isis", "", "", "", "", "Isis", ""], "id": 14791, "p": 0, "x": 2363, "y": 3380, "mapId": 28, "mapId_p": 0, "mapId_x": 2363, "mapId_y": 3380, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [14792, -1, -1, -1, -1, 14792, -1], "varbit": 11683, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 5, "unknown_63": true}]

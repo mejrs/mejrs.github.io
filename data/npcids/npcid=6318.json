@@ -1,1 +1,1 @@
-[{"name": "Longramble", "id": 6318, "x": 2340, "y": 3096, "p": 0}]
+[{"name": "Longramble", "id": 6318, "p": 0, "x": 2340, "y": 3096, "mapId": 28, "mapId_p": 0, "mapId_x": 2340, "mapId_y": 3096, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 108, "combat": 0, "headModels": [63390, 42662, 63327], "modelContract": 20, "models": [62979, 63001, 63076, 62869, 62924, 63015, 63120], "movementCapabilities": 3, "unknown_63": true}]

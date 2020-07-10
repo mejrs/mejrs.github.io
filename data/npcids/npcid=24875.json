@@ -1,0 +1,1 @@
+[{"name": "Racing Supervisor", "id": 24875, "p": 1, "x": 2265, "y": 6177, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Start Race", null, null], "animation_group": 48, "boundSize": 1, "combat": 0, "headModels": [90048], "models": [90276, 78297], "movementCapabilities": 1, "respawnDirection": 0}]

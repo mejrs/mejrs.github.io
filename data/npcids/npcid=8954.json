@@ -1,0 +1,1 @@
+[{"name": "Tortle", "morph_names_1": ["", "Tortle", ""], "id": 8954, "p": 0, "x": 1944, "y": 11788, "mapId": 695, "mapId_p": 0, "mapId_x": 1944, "mapId_y": 11788, "ambience": 20, "combat": 0, "morphs_1": {"ids": [22520, 8959, -1], "varbit": 43442, "varp": -1}, "movementCapabilities": 3, "movementType": 0, "quests": [402], "unknown_63": true}]

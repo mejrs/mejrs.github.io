@@ -1,1 +1,1 @@
-[{"name": "Farmer", "id": 1377, "x": 2538, "y": 3852, "p": 0}]
+[{"name": "Farmer", "id": 1377, "p": 0, "x": 2538, "y": 3852, "mapId": 28, "mapId_p": 0, "mapId_x": 2538, "mapId_y": 3852, "animation_group": 1714, "color_replacements": {"25238": 5537, "6798": 6705, "7073": 5404, "7952": 13072, "8078": 7609, "8741": 6435}, "combat": 0, "headModels": [39836, 39275], "models": [215, 248, 292, 162, 179, 4226, 4218, 40287, 4390, 317], "movementCapabilities": 2, "texture_replacements": {"745": 746}}]

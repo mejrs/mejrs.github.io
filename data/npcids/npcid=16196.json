@@ -1,1 +1,1 @@
-[{"name": "Wizard", "id": 16196, "x": 3093, "y": 3160, "p": 1}]
+[{"name": "Wizard", "id": 16196, "p": 1, "x": 1173, "y": 4824, "animation_group": 2733, "boundSize": 1, "combat": 0, "models": [80523], "movementCapabilities": 1}, {"name": "Wizard", "id": 16196, "p": 1, "x": 3093, "y": 3160, "mapId": 28, "mapId_p": 1, "mapId_x": 3093, "mapId_y": 3160, "animation_group": 2733, "boundSize": 1, "combat": 0, "models": [80523], "movementCapabilities": 1}]

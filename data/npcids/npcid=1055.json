@@ -1,1 +1,1 @@
-[{"name": "Pirate Jackie the Fruit", "id": 1055, "x": 2811, "y": 3192, "p": 0}]
+[{"name": "Pirate Jackie the Fruit", "id": 1055, "p": 0, "x": 2811, "y": 3192, "mapId": 28, "mapId_p": 0, "mapId_x": 2811, "mapId_y": 3192, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3182, "color_replacements": {"10004": 0, "22177": 43193, "25238": 43210, "4626": 0, "8741": 317}, "combat": 0, "headModels": [39013], "models": [388, 456, 332, 179, 433, 361], "movementCapabilities": 3, "quests": [182]}]

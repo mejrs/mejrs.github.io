@@ -1,1 +1,1 @@
-[{"name": "Rhodri Dail", "id": 21506, "x": 2279, "y": 3316, "p": 1}]
+[{"name": "Rhodri Dail", "id": 21506, "p": 1, "x": 2279, "y": 3316, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Decant", null, null], "animation_group": 3273, "combat": 0, "headModels": [97185], "models": [97259, 97262, 97258, 97260, 97261, 97303], "movementCapabilities": 1, "respawnDirection": 5, "texture_replacements": {"4840": 4844}, "unknown_63": true}]

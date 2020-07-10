@@ -1,1 +1,1 @@
-[{"name": "Smellytoes", "id": 6128, "x": 2465, "y": 3183, "p": 0}]
+[{"name": "Smellytoes", "id": 6128, "p": 0, "x": 2465, "y": 3183, "mapId": 28, "mapId_p": 0, "mapId_x": 2465, "mapId_y": 3183, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 963, "boundSize": 1, "combat": 0, "headModels": [78259], "models": [75381, 75402, 75336, 75392, 75351, 75363, 26899, 24499], "movementCapabilities": 1}]

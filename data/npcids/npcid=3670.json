@@ -1,1 +1,1 @@
-[{"name": "Estocada", "id": 3670, "x": 3318, "y": 3227, "p": 0}]
+[{"name": "Estocada", "id": 3670, "p": 0, "x": 3318, "y": 3227, "mapId": 28, "mapId_p": 0, "mapId_x": 3318, "mapId_y": 3227, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 683, "boundSize": 1, "combat": 0, "headModels": [105], "models": [212], "movementCapabilities": 1, "respawnDirection": 0}]

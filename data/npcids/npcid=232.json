@@ -1,1 +1,1 @@
-[{"name": "Austri", "id": 232, "x": 2880, "y": 3458, "p": 0}]
+[{"name": "Austri", "id": 232, "p": 0, "x": 2880, "y": 3458, "mapId": 28, "mapId_p": 0, "mapId_x": 2880, "mapId_y": 3458, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 2379, "boundSize": 1, "combat": 0, "headModels": [53588], "models": [53409], "movementCapabilities": 3, "unknown_63": true}]

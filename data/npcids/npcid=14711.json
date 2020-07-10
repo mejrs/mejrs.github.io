@@ -1,0 +1,1 @@
+[{"name": "Timmy", "id": 14711, "p": 2, "x": 1381, "y": 4373, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-To", null, null, null, null], "animation_group": 201, "boundSize": 2, "combat": 0, "models": [17375, 17391, 17384, 17388], "movementCapabilities": 1, "quests": [348], "respawnDirection": 0, "scaleXZ": 86, "scaleY": 86}]

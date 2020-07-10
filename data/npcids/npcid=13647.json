@@ -1,0 +1,1 @@
+[{"name": "Stone spirit", "id": 13647, "p": 1, "x": 1642, "y": 4535, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 2008, "boundSize": 1, "combat": 0, "headModels": [65190], "modelContract": 25, "models": [65153], "movementCapabilities": 1, "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "Gull", "id": 1179, "x": 2937, "y": 3104, "p": 0}]
+[{"name": "Gull", "id": 1179, "p": 0, "x": 2937, "y": 3104, "mapId": 28, "mapId_p": 0, "mapId_x": 2937, "mapId_y": 3104, "ambience": 20, "animation_group": 83, "boundSize": 2, "combat": 0, "drawMapDot": false, "extra": {"old_stats_crush_defence": 16, "old_stats_magic_defence": 8, "old_stats_ranged_defence": 4, "old_stats_slash_defence": 10, "old_stats_stab_defence": 12}, "models": [26841], "movementCapabilities": 3, "scaleXZ": 138, "scaleY": 138}]

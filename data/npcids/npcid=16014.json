@@ -1,1 +1,1 @@
-[{"name": "Lady Deathknell", "id": 16014, "x": 3210, "y": 3256, "p": 0}]
+[{"name": "Lady Deathknell", "id": 16014, "p": 0, "x": 2066, "y": 6231, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Start training", null, null], "ambience": 20, "animation_group": 2699, "boundSize": 1, "combat": 0, "headModels": [78930], "modelContract": 25, "models": [79110], "movementCapabilities": 1, "respawnDirection": 7, "unknown_63": true}]

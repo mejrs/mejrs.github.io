@@ -1,0 +1,1 @@
+[{"name": "Sharktooth Emma", "id": 25386, "p": 0, "x": 2781, "y": 1505, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "ambience": 20, "animation_group": 4, "boundSize": 1, "combat": 0, "headModels": [39630], "modelContract": 25, "models": [28841, 28844, 28822, 28828, 28835, 28848], "movementCapabilities": 1}]

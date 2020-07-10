@@ -1,0 +1,1 @@
+[{"name": "Delivery gnome", "id": 19573, "p": 0, "x": 4644, "y": 6469, "ambience": 20, "animation_group": 108, "boundSize": 1, "color_replacements": {"6227": 6793}, "combat": 0, "headModels": [63397, 42662, 63311], "modelContract": 20, "models": [62942, 63003, 63104, 62891, 62911, 63022], "movementCapabilities": 1, "respawnDirection": 0}]

@@ -1,1 +1,1 @@
-[{"name": "Sharathteerk", "id": 14350, "x": 2823, "y": 3849, "p": 1}]
+[{"name": "Sharathteerk", "id": 14350, "p": 1, "x": 2823, "y": 3849, "mapId": 28, "mapId_p": 1, "mapId_x": 2823, "mapId_y": 3849, "ambience": 25, "animation_group": 1086, "boundSize": 3, "combat": 0, "headModels": [99141], "models": [99147], "movementCapabilities": 3, "respawnDirection": 0}]

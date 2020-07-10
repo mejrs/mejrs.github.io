@@ -1,1 +1,1 @@
-[{"name": "A Meiyerditch child", "id": 4748, "x": 3626, "y": 3222, "p": 0}]
+[{"name": "A Meiyerditch child", "id": 4748, "p": 0, "x": 3626, "y": 3222, "mapId": 28, "mapId_p": 0, "mapId_x": 3626, "mapId_y": 3222, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 165, "color_replacements": {"24856": 43160, "24865": 43164, "25104": 43156, "3404": 5328, "4434": 5334, "8483": 66, "8596": 8377}, "combat": 0, "headModels": [29218], "models": [28603, 29197, 29204, 28611, 29200, 29211], "movementCapabilities": 3}]

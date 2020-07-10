@@ -1,0 +1,1 @@
+[{"name": "Assistant", "morph_names_1": ["", "Assistant", ""], "id": 13235, "p": 0, "x": 3228, "y": 2990, "mapId": 28, "mapId_p": 0, "mapId_x": 3228, "mapId_y": 2990, "combat": 0, "morphs_1": {"ids": [-1, 13236, -1], "varbit": 9347, "varp": -1}, "movementCapabilities": 1, "unknown_67": 0}]

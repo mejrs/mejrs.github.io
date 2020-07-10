@@ -1,1 +1,1 @@
-[{"name": "Bogrog", "id": 4472, "x": 2523, "y": 3057, "p": 0}]
+[{"name": "Bogrog", "id": 4472, "p": 0, "x": 2523, "y": 3057, "mapId": 28, "mapId_p": 0, "mapId_x": 2523, "mapId_y": 3057, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-To", null, "Trade", "Swap", null], "animation_group": 321, "boundSize": 2, "combat": 0, "headModels": [31696], "models": [31698], "movementCapabilities": 3, "unknown_63": true}]

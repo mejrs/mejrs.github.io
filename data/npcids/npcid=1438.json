@@ -1,1 +1,1 @@
-[{"name": "Hafuba", "id": 1438, "x": 2797, "y": 2798, "p": 1}]
+[{"name": "Hafuba", "id": 1438, "p": 1, "x": 2797, "y": 2798, "mapId": 28, "mapId_p": 1, "mapId_x": 2797, "mapId_y": 2798, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 281, "boundSize": 2, "combat": 0, "headModels": [4664], "models": [4811, 4813, 4814], "movementCapabilities": 3, "scaleXZ": 180, "scaleY": 180}]

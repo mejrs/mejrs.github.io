@@ -1,1 +1,1 @@
-[{"name": "Admiral' Wadud (Ports)", "id": 24489, "x": 3179, "y": 2649, "p": 0}]
+[{"name": "'Admiral' Wadud (Ports)", "id": 24489, "p": 0, "x": 3179, "y": 2649, "mapId": 28, "mapId_p": 0, "mapId_x": 3179, "mapId_y": 2649, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 4028, "combat": 0, "headModels": [119239], "models": [119407], "movementCapabilities": 1, "respawnDirection": 6, "unknown_63": true}]

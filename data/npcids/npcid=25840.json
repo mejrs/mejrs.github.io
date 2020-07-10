@@ -1,1 +1,1 @@
-[{"name": "Sam the sheepdog", "id": 25840, "x": 2647, "y": 3356, "p": 0}]
+[{"name": "Sam the sheepdog", "id": 25840, "p": 0, "x": 2647, "y": 3356, "mapId": 28, "mapId_p": 0, "mapId_x": 2647, "mapId_y": 3356, "actions": ["View breeding log", null, null, null, null], "animation_group": 4171, "combat": 0, "headModels": [11354], "models": [17508], "movementCapabilities": 1, "respawnDirection": 6, "unknown_63": true}]

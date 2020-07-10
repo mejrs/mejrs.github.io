@@ -1,1 +1,1 @@
-[{"name": "Avan", "id": 663, "x": 3292, "y": 3283, "p": 0}]
+[{"name": "Avan", "id": 663, "p": 0, "x": 3292, "y": 3283, "mapId": 28, "mapId_p": 0, "mapId_x": 3292, "mapId_y": 3283, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Change-gauntlets", null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"25238": 45, "43072": 4550, "7700": 11200, "8741": 13522, "926": 11200}, "combat": 0, "headModels": [39836, 39223], "models": [215, 281, 246, 292, 151, 10218, 254, 181, 323], "movementCapabilities": 3}]

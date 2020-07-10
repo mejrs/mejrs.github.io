@@ -1,0 +1,1 @@
+[{"name": "Guardsman Pazel", "morph_names_1": ["Guardsman Pazel", "Guardsman Pazel", "Guardsman Pazel", "Guardsman Pazel", ""], "id": 17516, "p": 1, "x": 3213, "y": 3210, "mapId": 28, "mapId_p": 1, "mapId_x": 3213, "mapId_y": 3210, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [7889, 17522, 7889, 17522, -1], "varbit": 18700, "varp": -1}, "movementCapabilities": 3}]

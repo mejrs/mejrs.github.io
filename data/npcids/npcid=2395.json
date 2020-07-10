@@ -1,0 +1,1 @@
+[{"name": "Mysterious ghost", "morph_names_1": ["", "", "Mysterious ghost", ""], "id": 2395, "p": 1, "x": 3438, "y": 3545, "mapId": 28, "mapId_p": 1, "mapId_x": 3438, "mapId_y": 3545, "animation_group": 252, "combat": 0, "morphs_1": {"ids": [-1, -1, 2402, -1], "varbit": 27923, "varp": -1}, "movementCapabilities": 3}]

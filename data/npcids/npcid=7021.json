@@ -1,1 +1,1 @@
-[{"name": "Platypus", "id": 7021, "x": 2510, "y": 2822, "p": 0}]
+[{"name": "Platypus", "id": 7021, "p": 0, "x": 2510, "y": 2822, "mapId": 28, "mapId_p": 0, "mapId_x": 2510, "mapId_y": 2822, "ambience": 25, "animation_group": 1155, "boundSize": 1, "combat": 0, "extra": {"attack_speed": 5}, "modelContract": 10, "models": [31818], "movementCapabilities": 3}]

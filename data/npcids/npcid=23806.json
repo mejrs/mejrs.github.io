@@ -1,1 +1,1 @@
-[{"name": "White Knight", "id": 23806, "x": 2982, "y": 3352, "p": 3}]
+[{"name": "White Knight", "id": 23806, "p": 3, "x": 2982, "y": 3352, "mapId": 28, "mapId_p": 3, "mapId_x": 2982, "mapId_y": 3352, "actions": [null, "Attack", null, null, null], "animation_group": 2704, "attackCursor": 42, "boundSize": 1, "combat": 35, "extra": {"accuracy_melee_(npc)": 381, "armor": 381, "attack_speed": 7, "combat_style": 1, "damage_melee": 1750, "extra_000B00": 14930, "extra_000B66": 18033, "extra_000B8B": 2692, "weakness": 2}, "models": [107545], "movementCapabilities": 3}]

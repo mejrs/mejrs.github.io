@@ -1,0 +1,1 @@
+[{"name": "Angry woman", "id": 25256, "p": 0, "x": 2090, "y": 7096, "mapId": 704, "mapId_p": 0, "mapId_x": 106, "mapId_y": 120, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 2777, "combat": 0, "headModels": [26028], "models": [82434], "movementCapabilities": 1, "respawnDirection": 6, "unknown_67": 0}]

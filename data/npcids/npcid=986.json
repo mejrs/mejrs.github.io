@@ -1,0 +1,1 @@
+[{"name": "Boulder", "id": 986, "p": 0, "x": 2396, "y": 9595, "mapId": 579, "mapId_p": 0, "mapId_x": 2396, "mapId_y": 9595, "actions": ["Push", null, null, null, null], "animation_group": 289, "boundSize": 2, "color_replacements": {"8367": 7054}, "combat": 0, "drawMapDot": false, "models": [40117], "movementCapabilities": 5}]

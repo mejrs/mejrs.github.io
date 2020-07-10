@@ -1,1 +1,1 @@
-[{"name": "Carpenter Kjallak", "id": 3916, "x": 2594, "y": 3891, "p": 0}]
+[{"name": "Carpenter Kjallak", "id": 3916, "p": 0, "x": 2594, "y": 3891, "mapId": 28, "mapId_p": 0, "mapId_x": 2594, "mapId_y": 3891, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Approval rating", null, null], "animation_group": 945, "boundSize": 1, "color_replacements": {"40237": 3604, "8741": 8656}, "combat": 0, "headModels": [39836, 39212, 39432], "models": [15103, 215, 11190, 15105, 167, 179, 79773, 15104, 4218], "movementCapabilities": 1, "unknown_63": true}]

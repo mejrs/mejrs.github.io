@@ -1,0 +1,1 @@
+[{"name": "Seasinger", "id": 25259, "p": 0, "x": 2080, "y": 7080, "mapId": 704, "mapId_p": 0, "mapId_x": 96, "mapId_y": 104, "actions": ["Wave", null, null, null, null], "animation_group": 1564, "combat": 0, "headModels": [115039], "models": [115124], "movementCapabilities": 1, "unknown_67": 0}]

@@ -1,1 +1,1 @@
-[{"name": "Kragen", "id": 2325, "x": 2660, "y": 3374, "p": 0}]
+[{"name": "Kragen", "id": 2325, "p": 0, "x": 2660, "y": 3374, "mapId": 28, "mapId_p": 0, "mapId_x": 2660, "mapId_y": 3374, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Pay (North)", "Pay (South)", null], "animation_group": 120, "color_replacements": {"25238": 6689, "43072": 4550, "6798": 9630, "908": 6689, "9096": 6808}, "combat": 0, "headModels": [39580, 39547, 39227], "models": [4843, 235, 253, 315, 33034, 10218, 496, 274, 7121], "movementCapabilities": 3}]

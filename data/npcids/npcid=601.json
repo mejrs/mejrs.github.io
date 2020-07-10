@@ -1,1 +1,1 @@
-[{"name": "Rometti", "id": 601, "x": 2482, "y": 3510, "p": 1}]
+[{"name": "Rometti", "id": 601, "p": 1, "x": 2482, "y": 3510, "mapId": 28, "mapId_p": 1, "mapId_x": 2482, "mapId_y": 3510, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "ambience": 20, "animation_group": 108, "color_replacements": {"12": 53649, "16": 53653, "20": 53657, "4": 53641}, "combat": 0, "headModels": [63390, 63369], "modelContract": 20, "models": [62957, 63001, 62908, 62888, 63063, 63039], "movementCapabilities": 3}]

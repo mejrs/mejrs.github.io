@@ -1,0 +1,1 @@
+[{"name": "Sir Prysin", "morph_names_1": ["Sir Prysin", "Sir Prysin", ""], "id": 9359, "p": 0, "x": 3204, "y": 3471, "mapId": 28, "mapId_p": 0, "mapId_x": 3204, "mapId_y": 3471, "animation_group": 2100, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [883, 883, -1], "varbit": 13396, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

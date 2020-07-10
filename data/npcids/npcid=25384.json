@@ -1,0 +1,1 @@
+[{"name": "Jimmy the Parrot", "id": 25384, "p": 0, "x": 2773, "y": 1513, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "ambience": 20, "animation_group": 4, "boundSize": 1, "combat": 0, "headModels": [39941, 38097, 39482], "modelContract": 25, "models": [28786, 28802, 28749, 28758, 28773, 28806], "movementCapabilities": 1}]

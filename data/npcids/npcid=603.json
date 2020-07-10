@@ -1,1 +1,1 @@
-[{"name": "Heckel Funch", "id": 603, "x": 2493, "y": 3488, "p": 1}]
+[{"name": "Heckel Funch", "id": 603, "p": 1, "x": 2493, "y": 3488, "mapId": 28, "mapId_p": 1, "mapId_x": 2493, "mapId_y": 3488, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "ambience": 20, "animation_group": 108, "color_replacements": {"42415": 41253, "42423": 41261}, "combat": 0, "headModels": [42660, 63367, 63306], "modelContract": 20, "models": [62990, 62994, 63047, 62886, 62911, 63035], "movementCapabilities": 3}]

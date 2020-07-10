@@ -1,1 +1,1 @@
-[{"name": "Sir Lancelot", "id": 239, "x": 2759, "y": 3515, "p": 1}]
+[{"name": "Sir Lancelot", "id": 239, "p": 1, "x": 2759, "y": 3515, "mapId": 28, "mapId_p": 1, "mapId_x": 2759, "mapId_y": 3515, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 2100, "boundSize": 1, "combat": 0, "headModels": [39747, 39281], "models": [27191, 27195, 27203], "movementCapabilities": 3}]

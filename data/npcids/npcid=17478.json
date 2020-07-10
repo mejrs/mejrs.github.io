@@ -1,1 +1,1 @@
-[{"name": "Zamorakian herbalist's son", "id": 17478, "x": 3221, "y": 3265, "p": 1}]
+[{"name": "Zamorakian herbalist's son", "id": 17478, "p": 1, "x": 3221, "y": 3265, "mapId": 28, "mapId_p": 1, "mapId_x": 3221, "mapId_y": 3265, "animation_group": 2370, "boundSize": 1, "combat": 0, "headModels": [86907], "models": [87784], "movementCapabilities": 3}]

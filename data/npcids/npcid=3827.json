@@ -1,1 +1,1 @@
-[{"name": "Ramara du Croissant", "id": 3827, "x": 2344, "y": 3678, "p": 0}]
+[{"name": "Ramara du Croissant", "id": 3827, "p": 0, "x": 2344, "y": 3678, "mapId": 28, "mapId_p": 0, "mapId_x": 2344, "mapId_y": 3678, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "color_replacements": {"23326": 17694, "43422": 41131, "6976": 8111, "7097": 7991, "8887": 7609}, "combat": 0, "headModels": [39126, 38850], "models": [14866, 14868, 14862, 14863, 14867, 14864, 14865], "movementCapabilities": 3}]

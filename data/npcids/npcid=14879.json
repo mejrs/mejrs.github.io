@@ -1,1 +1,1 @@
-[{"name": "Nicholas Angle", "id": 14879, "x": 2896, "y": 3467, "p": 0}]
+[{"name": "Nicholas Angle", "id": 14879, "p": 0, "x": 2896, "y": 3467, "mapId": 28, "mapId_p": 0, "mapId_x": 2896, "mapId_y": 3467, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, "Trade"], "ambience": 25, "animation_group": 2326, "boundSize": 1, "combat": 0, "headModels": [48681], "modelContract": 15, "models": [49231, 60136], "movementCapabilities": 1, "respawnDirection": 0, "unknown_63": true}]

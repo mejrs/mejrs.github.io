@@ -1,0 +1,1 @@
+[{"name": "Commander Veldaban", "morph_names_1": ["Commander Veldaban", ""], "id": 2129, "p": 0, "x": 2826, "y": 10215, "mapId": 21, "mapId_p": 0, "mapId_x": 10, "mapId_y": 167, "combat": 0, "morphs_1": {"ids": [8821, -1], "varbit": 10547, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

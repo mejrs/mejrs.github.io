@@ -1,1 +1,1 @@
-[{"name": "Bellemorde", "id": 2942, "x": 3019, "y": 3233, "p": 0}]
+[{"name": "Bellemorde", "id": 2942, "p": 0, "x": 3019, "y": 3233, "mapId": 28, "mapId_p": 0, "mapId_x": 3019, "mapId_y": 3233, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 15, "animation_group": 41, "boundSize": 1, "color_replacements": {"10353": 9521, "39": 9517, "43": 9641, "47": 9637, "5272": 4506, "5276": 4502}, "combat": 0, "headModels": [34041], "models": [34022], "movementCapabilities": 3, "unknown_63": true}]

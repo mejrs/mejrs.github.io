@@ -1,1 +1,1 @@
-[{"name": "Shanomi", "id": 4290, "x": 2854, "y": 3537, "p": 0}]
+[{"name": "Shanomi", "id": 4290, "p": 0, "x": 2854, "y": 3537, "mapId": 28, "mapId_p": 0, "mapId_x": 2854, "mapId_y": 3537, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 39, "color_replacements": {"41": 10337, "61": 7370, "6798": 0, "7700": 801, "8076": 914, "8741": 939}, "combat": 0, "headModels": [38588, 38642], "models": [208, 250, 306, 4604, 15302, 176, 10318, 15313, 185], "movementCapabilities": 3, "unknown_63": true}]

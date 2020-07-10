@@ -1,1 +1,1 @@
-[{"name": "Cormorant", "id": 1180, "x": 2931, "y": 3108, "p": 0}]
+[{"name": "Cormorant", "id": 1180, "p": 0, "x": 2931, "y": 3108, "mapId": 28, "mapId_p": 0, "mapId_x": 2931, "mapId_y": 3108, "ambience": 20, "animation_group": 85, "boundSize": 2, "combat": 0, "drawMapDot": false, "extra": {"old_stats_crush_defence": 16, "old_stats_magic_defence": 8, "old_stats_ranged_defence": 4, "old_stats_slash_defence": 10, "old_stats_stab_defence": 12}, "models": [26840], "movementCapabilities": 3}]

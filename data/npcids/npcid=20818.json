@@ -1,0 +1,1 @@
+[{"name": "Spirit of the Body", "morph_names_1": ["", "", "Spirit of the Body", ""], "id": 20818, "p": 0, "x": 3735, "y": 9033, "mapId": 677, "mapId_p": 0, "mapId_x": 3735, "mapId_y": 9033, "combat": 0, "extra": {"weakness_class": 8}, "morphs_1": {"ids": [-1, -1, 20819, -1], "varbit": 27275, "varp": -1}, "movementCapabilities": 1, "unknown_63": true}]

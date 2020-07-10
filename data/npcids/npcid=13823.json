@@ -1,1 +1,1 @@
-[{"name": "Dotmatrix", "id": 13823, "x": 2948, "y": 2956, "p": 0}]
+[{"name": "Dotmatrix", "id": 13823, "p": 0, "x": 2948, "y": 2956, "mapId": 28, "mapId_p": 0, "mapId_x": 2948, "mapId_y": 2956, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 10, "animation_group": 4, "boundSize": 1, "color_replacements": {"6798": 103}, "combat": 0, "headModels": [10235], "modelContract": 10, "models": [10370], "movementCapabilities": 3, "unknown_63": true}]

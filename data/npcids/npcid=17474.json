@@ -1,1 +1,1 @@
-[{"name": "Saradominist Priestess", "id": 17474, "x": 3202, "y": 3242, "p": 1}]
+[{"name": "Saradominist Priestess", "id": 17474, "p": 1, "x": 3202, "y": 3242, "mapId": 28, "mapId_p": 1, "mapId_x": 3202, "mapId_y": 3242, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"4533": 4637, "4540": 4644, "4550": 4654, "4554": 4658, "55232": 6170, "6798": 6158}, "combat": 0, "headModels": [44990], "models": [87773], "movementCapabilities": 3}]

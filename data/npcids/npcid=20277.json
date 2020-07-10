@@ -1,1 +1,1 @@
-[{"name": "Light creature", "id": 20277, "x": 2180, "y": 3399, "p": 1}]
+[{"name": "Light creature", "id": 20277, "p": 1, "x": 2180, "y": 3399, "animateIdle": false, "animation_group": 136, "combat": 0, "headModels": [99102], "models": [99102], "movementCapabilities": 1, "respawnDirection": 0, "unknown_63": true}]

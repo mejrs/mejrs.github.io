@@ -1,1 +1,1 @@
-[{"name": "Prissy Scilla", "id": 1037, "x": 2438, "y": 3418, "p": 0}]
+[{"name": "Prissy Scilla", "id": 1037, "p": 0, "x": 2438, "y": 3418, "mapId": 28, "mapId_p": 0, "mapId_x": 2438, "mapId_y": 3418, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Pay", null, null], "ambience": 20, "animation_group": 108, "color_replacements": {"7750": 3609, "7760": 3614}, "combat": 0, "headModels": [85529], "modelContract": 20, "models": [64881, 64882], "movementCapabilities": 3}]

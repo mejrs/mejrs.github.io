@@ -1,1 +1,1 @@
-[{"name": "Farmer in need (hard)", "id": 26748, "x": 2649, "y": 3350, "p": 0}]
+[{"name": "Farmer in need (hard)", "id": 26748, "p": 0, "x": 2649, "y": 3350, "mapId": 28, "mapId_p": 0, "mapId_x": 2649, "mapId_y": 3350, "actions": ["Help", null, "Hand in hard request", null, null], "animation_group": 1426, "boundSize": 1, "combat": 0, "headModels": [39575, 6318, 6318, 6318, 6318], "models": [40329, 28785, 28796, 40370, 28767, 28810, 6318, 6318, 6318, 6318, 6318, 6318], "movementCapabilities": 1, "respawnDirection": 5}]

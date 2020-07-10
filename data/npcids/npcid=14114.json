@@ -1,1 +1,1 @@
-[{"name": "Sentinel Bloodmortis", "id": 14114, "x": 3599, "y": 3340, "p": 0}]
+[{"name": "Sentinel Bloodmortis", "id": 14114, "p": 0, "x": 3599, "y": 3340, "mapId": 28, "mapId_p": 0, "mapId_x": 3599, "mapId_y": 3340, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 2140, "combat": 0, "headModels": [52474], "modelContract": 25, "models": [23377], "movementCapabilities": 1, "respawnDirection": 2}]

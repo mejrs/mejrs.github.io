@@ -1,1 +1,1 @@
-[{"name": "Lidio", "id": 4293, "x": 2842, "y": 3547, "p": 0}]
+[{"name": "Lidio", "id": 4293, "p": 0, "x": 2842, "y": 3547, "mapId": 28, "mapId_p": 0, "mapId_x": 2842, "mapId_y": 3547, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3179, "color_replacements": {"43928": 43183, "6439": 54397, "8741": 43183}, "combat": 0, "headModels": [39842, 39216, 39519], "models": [14174, 215, 10561, 302, 170, 10218, 12750, 181], "movementCapabilities": 3, "unknown_63": true}]

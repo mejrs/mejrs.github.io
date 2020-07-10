@@ -1,0 +1,1 @@
+[{"name": "Ivan Strom", "morph_names_1": ["", "Mercenary Adventurer", "Ivan Strom", ""], "id": 7708, "p": 0, "x": 3484, "y": 3243, "mapId": 28, "mapId_p": 0, "mapId_x": 3484, "mapId_y": 3243, "animation_group": 4, "combat": 0, "morphs_1": {"ids": [-1, 7664, 7665, -1], "varbit": 13980, "varp": -1}, "movementCapabilities": 3}]

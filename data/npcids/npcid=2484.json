@@ -1,0 +1,1 @@
+[{"name": "Tiadeche", "morph_names_1": ["", "", "", "", "", "", "Tiadeche", ""], "id": 2484, "p": 0, "x": 2781, "y": 3057, "mapId": 28, "mapId_p": 0, "mapId_x": 2781, "mapId_y": 3057, "animation_group": 4, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, -1, -1, -1, -1, -1, 1164, -1], "varbit": -1, "varp": 2523}, "movementCapabilities": 3}]

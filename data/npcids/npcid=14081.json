@@ -1,1 +1,1 @@
-[{"name": "Sentinel Mortshade", "id": 14081, "x": 3660, "y": 3378, "p": 0}]
+[{"name": "Sentinel Mortshade", "id": 14081, "p": 0, "x": 3660, "y": 3378, "mapId": 28, "mapId_p": 0, "mapId_x": 3660, "mapId_y": 3378, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 2140, "combat": 0, "headModels": [52474], "modelContract": 25, "models": [23377], "movementCapabilities": 1}]

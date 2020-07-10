@@ -1,1 +1,1 @@
-[{"name": "Brass Hand Harry", "id": 7857, "x": 3668, "y": 2995, "p": 1}]
+[{"name": "Brass Hand Harry", "id": 7857, "p": 1, "x": 3668, "y": 2995, "mapId": 28, "mapId_p": 1, "mapId_x": 3668, "mapId_y": 2995, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 4208, "combat": 0, "headModels": [27810], "models": [28135], "movementCapabilities": 3}]

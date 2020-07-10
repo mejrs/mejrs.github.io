@@ -1,0 +1,1 @@
+[{"name": "Beige spider", "morph_names_1": ["", "", "Beige spider", ""], "id": 12417, "p": 0, "x": 4319, "y": 5464, "mapId": 225, "mapId_p": 0, "mapId_x": 4319, "mapId_y": 5464, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [1957, 1957, 12430, -1], "varbit": 14664, "varp": -1}, "movementCapabilities": 1, "unknown_63": true}]

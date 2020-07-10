@@ -1,1 +1,1 @@
-[{"name": "Doric", "id": 284, "x": 2959, "y": 3439, "p": 0}]
+[{"name": "Doric", "id": 284, "p": 0, "x": 2959, "y": 3439, "mapId": 28, "mapId_p": 0, "mapId_x": 2959, "mapId_y": 3439, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 2672, "boundSize": 1, "combat": 0, "headModels": [78231], "models": [78299], "movementCapabilities": 3, "movementType": 0, "quests": [357]}]

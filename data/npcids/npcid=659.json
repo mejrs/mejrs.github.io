@@ -1,1 +1,1 @@
-[{"name": "Party Pete", "id": 659, "x": 3052, "y": 3373, "p": 0}]
+[{"name": "Party Pete", "id": 659, "p": 0, "x": 3052, "y": 3373, "mapId": 28, "mapId_p": 0, "mapId_x": 3052, "mapId_y": 3373, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3616, "boundSize": 1, "combat": 0, "headModels": [39708, 39297], "models": [107518], "movementCapabilities": 3}]

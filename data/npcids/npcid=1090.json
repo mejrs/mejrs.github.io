@@ -1,1 +1,1 @@
-[{"name": "Hild", "id": 1090, "x": 2914, "y": 3523, "p": 0}]
+[{"name": "Hild", "id": 1090, "p": 0, "x": 2914, "y": 3523, "mapId": 28, "mapId_p": 0, "mapId_x": 2914, "mapId_y": 3523, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"55232": 31758, "6798": 31751}, "combat": 0, "headModels": [46403], "models": [50786], "movementCapabilities": 3, "unknown_63": true}]

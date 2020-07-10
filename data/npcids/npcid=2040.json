@@ -1,1 +1,1 @@
-[{"name": "Pilg", "id": 2040, "x": 2443, "y": 3046, "p": 0}]
+[{"name": "Pilg", "id": 2040, "p": 0, "x": 2443, "y": 3046, "mapId": 28, "mapId_p": 0, "mapId_x": 2443, "mapId_y": 3046, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 1465, "boundSize": 2, "combat": 0, "headModels": [31696], "models": [46172], "movementCapabilities": 1, "unknown_67": 0}]

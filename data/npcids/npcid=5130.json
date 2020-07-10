@@ -1,0 +1,1 @@
+[{"name": "Desert eagle", "id": 5130, "p": 3, "x": 2019, "y": 4957, "mapId": 141, "mapId_p": 0, "mapId_x": 2019, "mapId_y": 4957, "animation_group": 286, "boundSize": 3, "color_replacements": {"10357": 6364, "5543": 6455, "5551": 6806, "5667": 6447, "6573": 6558, "6697": 6439}, "combat": 0, "models": [19380], "movementCapabilities": 3, "unknown_63": true}]

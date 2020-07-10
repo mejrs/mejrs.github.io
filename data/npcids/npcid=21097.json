@@ -1,0 +1,1 @@
+[{"name": "Bree", "id": 21097, "p": 3, "x": 364, "y": 511, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Reward shop", "Previous event shop", null], "animation_group": 3459, "boundSize": 2, "combat": 0, "headModels": [103834], "models": [75255, 75252], "movementCapabilities": 1}]

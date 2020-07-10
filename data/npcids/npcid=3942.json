@@ -1,1 +1,1 @@
-[{"name": "Guard", "id": 3942, "x": 2619, "y": 3865, "p": 0}]
+[{"name": "Guard", "id": 3942, "p": 0, "x": 2619, "y": 3865, "mapId": 28, "mapId_p": 0, "mapId_x": 2619, "mapId_y": 3865, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "color_replacements": {"25238": 7566, "8078": 7609, "8741": 6554}, "combat": 0, "headModels": [38095, 38097], "models": [4220, 252, 292, 162, 179, 4226, 4218, 326, 4221, 4219], "movementCapabilities": 1, "scaleXZ": 128, "scaleY": 128}]

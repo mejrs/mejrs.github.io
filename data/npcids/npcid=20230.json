@@ -1,1 +1,1 @@
-[{"name": "Daffyd", "id": 20230, "x": 2131, "y": 3383, "p": 1}]
+[{"name": "Daffyd", "id": 20230, "p": 1, "x": 2131, "y": 3383, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 3310, "boundSize": 1, "combat": 0, "headModels": [100132], "models": [100148], "movementCapabilities": 1, "unknown_63": true}]

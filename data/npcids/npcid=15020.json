@@ -1,1 +1,1 @@
-[{"name": "Fishing spot", "id": 15020, "x": 3070, "y": 3839, "p": 0}]
+[{"name": "Fishing spot", "id": 15020, "p": 0, "x": 3070, "y": 3839, "mapId": 28, "mapId_p": 0, "mapId_x": 3070, "mapId_y": 3839, "action_cursors": [60, null, null, null, null, null], "actions": ["Bait", null, null, null, null], "animation_group": 178, "boundSize": 1, "combat": 0, "drawMapDot": false, "models": [55217], "movementCapabilities": 5, "unknown_B8": 5}]

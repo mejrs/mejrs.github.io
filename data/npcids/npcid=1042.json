@@ -1,1 +1,1 @@
-[{"name": "Roavar", "id": 1042, "x": 3493, "y": 3471, "p": 0}]
+[{"name": "Roavar", "id": 1042, "p": 0, "x": 3493, "y": 3471, "mapId": 28, "mapId_p": 0, "mapId_x": 3493, "mapId_y": 3471, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3179, "boundSize": 1, "combat": 0, "headModels": [39890], "models": [26123, 26132, 26116, 26127, 26119], "movementCapabilities": 3, "texture_replacements": {"601": 612}}]

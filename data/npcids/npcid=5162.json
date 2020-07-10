@@ -1,1 +1,1 @@
-[{"name": "Sheep", "id": 5162, "x": 3052, "y": 3519, "p": 0}]
+[{"name": "Sheep", "id": 5162, "p": 0, "x": 3052, "y": 3519, "mapId": 28, "mapId_p": 0, "mapId_x": 3052, "mapId_y": 3519, "action_cursors": [148, null, null, null, null, null], "actions": ["Shear", null, null, null, null], "animation_group": 4287, "boundSize": 1, "combat": 0, "models": [66706], "movementCapabilities": 3}]

@@ -1,1 +1,1 @@
-[{"name": "Gulluck", "id": 602, "x": 2468, "y": 3486, "p": 2}]
+[{"name": "Gulluck", "id": 602, "p": 2, "x": 2468, "y": 3486, "mapId": 28, "mapId_p": 2, "mapId_x": 2468, "mapId_y": 3486, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "ambience": 20, "animation_group": 108, "color_replacements": {"6227": 6793}, "combat": 0, "headModels": [63309, 42662, 42660], "modelContract": 20, "models": [63116, 62865, 62909, 62976, 62994], "movementCapabilities": 3}]

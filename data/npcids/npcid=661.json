@@ -1,1 +1,1 @@
-[{"name": "Megan", "id": 661, "x": 3043, "y": 3373, "p": 1}]
+[{"name": "Megan", "id": 661, "p": 1, "x": 3043, "y": 3373, "mapId": 28, "mapId_p": 1, "mapId_x": 3043, "mapId_y": 3373, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "color_replacements": {"25238": 43162, "8741": 41682}, "combat": 0, "headModels": [39047, 38795], "models": [107555], "movementCapabilities": 3}]

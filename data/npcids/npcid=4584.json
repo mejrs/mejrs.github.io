@@ -1,1 +1,1 @@
-[{"name": "Damwin", "id": 4584, "x": 2417, "y": 3496, "p": 1}]
+[{"name": "Damwin", "id": 4584, "p": 1, "x": 2417, "y": 3496, "mapId": 28, "mapId_p": 1, "mapId_x": 2417, "mapId_y": 3496, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 2444, "color_replacements": {"58910": 4884, "58940": 4914, "58945": 4919, "58950": 4924, "7750": 6, "7755": 10, "7760": 16}, "combat": 0, "headModels": [63295], "modelContract": 20, "models": [62840, 62826, 62859, 62831, 62842], "movementCapabilities": 3}]

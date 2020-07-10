@@ -1,0 +1,1 @@
+[{"name": "Tiny Thom", "morph_names_1": ["", "", "Tiny Thom", ""], "id": 9421, "p": 0, "x": 2656, "y": 5661, "mapId": 219, "mapId_p": 0, "mapId_x": 2656, "mapId_y": 5661, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, -1, 9422, -1], "varbit": 14697, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 6, "unknown_63": true}]

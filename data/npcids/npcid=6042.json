@@ -1,1 +1,1 @@
-[{"name": "Nikita", "id": 6042, "x": 3479, "y": 3498, "p": 0}]
+[{"name": "Nikita", "id": 6042, "p": 0, "x": 3479, "y": 3498, "mapId": 28, "mapId_p": 0, "mapId_x": 3479, "mapId_y": 3498, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", "Attack", null, null, null], "animation_group": 664, "attackCursor": 42, "combat": 28, "extra": {"accuracy_melee_(npc)": 316, "armor": 316, "attack_speed": 5, "combat_style": 1, "damage_melee": 1000, "weakness": 4}, "headModels": [38940], "models": [26146, 26155, 26139, 26151, 26142], "movementCapabilities": 3}]

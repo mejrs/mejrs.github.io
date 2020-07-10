@@ -1,1 +1,1 @@
-[{"name": "Meredith", "id": 20469, "x": 2323, "y": 3269, "p": 0}]
+[{"name": "Meredith", "id": 20469, "p": 0, "x": 2323, "y": 3269, "mapId": 28, "mapId_p": 0, "mapId_x": 2323, "mapId_y": 3269, "actions": ["Sell", null, null, null, null], "animation_group": 2703, "combat": 0, "headModels": [97154], "models": [97255, 97256, 97258, 97260, 97257, 97365, 98978], "movementCapabilities": 3, "texture_replacements": {"4840": 4842}}]

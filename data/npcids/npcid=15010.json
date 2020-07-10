@@ -1,0 +1,1 @@
+[{"name": "Pee Hat", "id": 15010, "p": 1, "x": 1195, "y": 4913, "animation_group": 1786, "boundSize": 2, "color_replacements": {"10396": 7455, "14490": 7450, "14614": 7446, "7341": 7329, "7349": 7337, "7357": 7342}, "combat": 0, "models": [62665, 62662, 44710, 56867, 64523], "movementCapabilities": 1, "respawnDirection": 0, "scaleXZ": 145, "scaleY": 145, "unknown_8F": true}]

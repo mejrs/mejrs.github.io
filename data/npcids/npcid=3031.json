@@ -1,1 +1,1 @@
-[{"name": "Usi", "id": 3031, "x": 3428, "y": 2908, "p": 0}]
+[{"name": "Usi", "id": 3031, "p": 0, "x": 3428, "y": 2908, "mapId": 28, "mapId_p": 0, "mapId_x": 3428, "mapId_y": 2908, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "color_replacements": {"25238": 6329, "49054": 44096, "8741": 8519, "9019": 8519}, "combat": 0, "headModels": [39945, 39275], "models": [9016, 248, 9017, 151, 176, 265, 181], "movementCapabilities": 3}]

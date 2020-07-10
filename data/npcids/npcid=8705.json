@@ -1,1 +1,1 @@
-[{"name": "Musician", "id": 8705, "x": 2849, "y": 3437, "p": 0}]
+[{"name": "Musician", "id": 8705, "p": 0, "x": 2849, "y": 3437, "mapId": 28, "mapId_p": 0, "mapId_x": 2849, "mapId_y": 3437, "action_cursors": [null, null, 44, null, null, null], "actions": ["Listen to", null, "Talk to", null, null], "animation_group": 1542, "boundSize": 1, "color_replacements": {"4892": 39, "4899": 41}, "combat": 0, "headModels": [47197], "models": [47133, 47171], "movementCapabilities": 1, "texture_replacements": {"2355": 1493}}]

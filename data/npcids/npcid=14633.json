@@ -1,0 +1,1 @@
+[{"name": "Spirit of Saint Elspeth", "morph_names_1": ["", "", "", "Spirit of Saint Elspeth", ""], "id": 14633, "p": 0, "x": 3496, "y": 9567, "mapId": 536, "mapId_p": 0, "mapId_x": 3496, "mapId_y": 9567, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, -1, -1, 14634, -1], "varbit": 12310, "varp": -1}, "movementCapabilities": 1, "unknown_63": true}]

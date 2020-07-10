@@ -1,1 +1,1 @@
-[{"name": "Mieliki Tapio", "id": 15752, "x": 2484, "y": 3392, "p": 1}]
+[{"name": "Mieliki Tapio", "id": 15752, "p": 1, "x": 2484, "y": 3392, "mapId": 28, "mapId_p": 1, "mapId_x": 2484, "mapId_y": 3392, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Rewards", null, null], "animation_group": 2592, "boundSize": 1, "combat": 0, "headModels": [72969], "models": [73030], "movementCapabilities": 1, "respawnDirection": 7, "unknown_63": true}]

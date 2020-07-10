@@ -1,0 +1,1 @@
+[{"name": "Thuddley", "id": 7072, "p": 0, "x": 2571, "y": 5517, "mapId": 282, "mapId_p": 0, "mapId_x": 2571, "mapId_y": 5517, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 25, "animation_group": 1143, "combat": 0, "headModels": [31786], "models": [32035], "movementCapabilities": 3}]

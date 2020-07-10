@@ -1,0 +1,1 @@
+[{"name": "Agility Boss", "id": 1661, "p": 0, "x": 3540, "y": 9873, "mapId": 41, "mapId_p": 0, "mapId_x": 3540, "mapId_y": 9873, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-To", null, null, null, null], "animation_group": 661, "boundSize": 1, "combat": 0, "headModels": [26113], "models": [26177, 26189, 26183, 26173], "movementCapabilities": 1}]

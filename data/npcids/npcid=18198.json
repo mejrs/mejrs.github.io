@@ -1,1 +1,1 @@
-[{"name": "May Stormbrewer", "id": 18198, "x": 3134, "y": 3234, "p": 0}]
+[{"name": "May Stormbrewer", "id": 18198, "p": 0, "x": 3134, "y": 3234, "mapId": 28, "mapId_p": 0, "mapId_x": 3134, "mapId_y": 3234, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, "Offer chronicles", null], "animation_group": 2942, "boundSize": 1, "combat": 0, "headModels": [89256], "models": [89292], "movementCapabilities": 1, "respawnDirection": 3, "unknown_63": true, "unknown_67": 0}]

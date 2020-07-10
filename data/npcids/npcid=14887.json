@@ -1,1 +1,1 @@
-[{"name": "Chaplain Sarah", "id": 14887, "x": 2931, "y": 3565, "p": 0}]
+[{"name": "Chaplain Sarah", "id": 14887, "p": 0, "x": 2931, "y": 3565, "mapId": 28, "mapId_p": 0, "mapId_x": 2931, "mapId_y": 3565, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "ambience": 25, "animation_group": 2329, "boundSize": 1, "combat": 0, "headModels": [48301], "modelContract": 15, "models": [49223, 60150], "movementCapabilities": 1, "respawnDirection": 0, "unknown_63": true}]

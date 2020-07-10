@@ -1,1 +1,1 @@
-[{"name": "Charlie", "id": 5138, "x": 2607, "y": 3264, "p": 0}]
+[{"name": "Charlie", "id": 5138, "p": 0, "x": 2607, "y": 3264, "mapId": 28, "mapId_p": 0, "mapId_x": 2607, "mapId_y": 3264, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 25, "animation_group": 4, "color_replacements": {"0": 8844, "4626": 7446}, "combat": 0, "headModels": [39799, 39212, 39345], "models": [47087], "movementCapabilities": 3, "recolor_indices": [-1, -1, 0, 1], "unknown_63": true}]

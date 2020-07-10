@@ -1,1 +1,1 @@
-[{"name": "Lady Ithell", "id": 20282, "x": 2176, "y": 3345, "p": 1}]
+[{"name": "Lady Ithell", "id": 20282, "p": 1, "x": 2176, "y": 3345, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Exchange", null, null], "animation_group": 3226, "boundSize": 1, "combat": 0, "headModels": [97168], "models": [97342], "movementCapabilities": 1, "respawnDirection": 6, "unknown_63": true}]

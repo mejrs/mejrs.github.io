@@ -1,0 +1,1 @@
+[{"name": "Kennith", "morph_names_1": ["", "Kennith", "", "", "", "Kennith", ""], "id": 13750, "p": 0, "x": 3505, "y": 3698, "mapId": 28, "mapId_p": 0, "mapId_x": 3505, "mapId_y": 3698, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, 13751, -1, -1, -1, 13751, -1], "varbit": 9199, "varp": -1}, "movementCapabilities": 1, "unknown_63": true}]

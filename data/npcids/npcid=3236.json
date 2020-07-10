@@ -1,1 +1,1 @@
-[{"name": "Workman", "id": 3236, "x": 2973, "y": 3369, "p": 1}]
+[{"name": "Workman", "id": 3236, "p": 1, "x": 2973, "y": 3369, "mapId": 28, "mapId_p": 1, "mapId_x": 2973, "mapId_y": 3369, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "ambience": 10, "animation_group": 54, "color_replacements": {"25238": 7452, "54397": 7376, "8741": 8371}, "combat": 0, "headModels": [39744, 39275], "modelContract": 10, "models": [107513], "movementCapabilities": 3}]

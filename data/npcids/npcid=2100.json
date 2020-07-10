@@ -1,0 +1,1 @@
+[{"name": "Purple Pewter Director", "id": 2100, "p": 1, "x": 2870, "y": 10196, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2675, "boundSize": 1, "combat": 0, "headModels": [90007], "models": [90213, 78297], "movementCapabilities": 3, "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "Richard", "id": 2306, "x": 2631, "y": 3384, "p": 0}]
+[{"name": "Richard", "id": 2306, "p": 0, "x": 2631, "y": 3384, "mapId": 28, "mapId_p": 0, "mapId_x": 2631, "mapId_y": 3384, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3183, "color_replacements": {"25238": 5400, "6798": 6589, "8741": 12583, "9096": 5400}, "combat": 0, "headModels": [39859, 39223], "models": [217, 305, 170, 176, 274, 7121, 246], "movementCapabilities": 3, "texture_replacements": {"745": 746}, "unknown_63": true}]

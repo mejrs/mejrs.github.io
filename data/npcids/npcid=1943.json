@@ -1,0 +1,1 @@
+[{"name": "Troll father", "morph_names_1": ["Ice block", "Troll father", ""], "id": 1943, "p": 2, "x": 2825, "y": 3807, "mapId": 28, "mapId_p": 2, "mapId_x": 2825, "mapId_y": 3807, "boundSize": 2, "combat": 30, "extra": {"armor": 628, "weakness": 4}, "morphs_1": {"ids": [1944, 1948, -1], "varbit": 9504, "varp": -1}, "movementCapabilities": 1, "unknown_67": 0}]

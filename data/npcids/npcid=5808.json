@@ -1,0 +1,1 @@
+[{"name": "Bozin", "id": 5808, "p": 1, "x": 2741, "y": 5334, "mapId": 26, "mapId_p": 0, "mapId_x": 149, "mapId_y": 150, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 497, "combat": 0, "headModels": [23244], "models": [23654, 23697, 23633, 23677], "movementCapabilities": 3, "scaleXZ": 86, "scaleY": 86}]

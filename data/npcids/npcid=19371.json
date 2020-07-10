@@ -1,0 +1,1 @@
+[{"name": "Zarador", "id": 19371, "p": 2, "x": 1188, "y": 4898, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animateIdle": false, "animation_group": 3028, "boundSize": 3, "combat": 0, "headModels": [92191], "models": [92686], "movementCapabilities": 1, "quests": [368]}]

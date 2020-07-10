@@ -1,0 +1,1 @@
+[{"name": "Hallvar", "id": 12, "p": 0, "x": 2422, "y": 10181, "mapId": 492, "mapId_p": 0, "mapId_x": 2422, "mapId_y": 10181, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Cert-ore", null, null], "animation_group": 4, "combat": 0, "headModels": [39799, 39256], "models": [11749], "movementCapabilities": 3}]

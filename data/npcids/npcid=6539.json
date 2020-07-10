@@ -1,1 +1,1 @@
-[{"name": "Nastroth", "id": 6539, "x": 3223, "y": 3212, "p": 0}]
+[{"name": "Nastroth", "id": 6539, "p": 0, "x": 3223, "y": 3212, "mapId": 28, "mapId_p": 0, "mapId_x": 3223, "mapId_y": 3212, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 25, "animation_group": 2025, "combat": 0, "headModels": [47263], "modelContract": 25, "models": [47262], "movementCapabilities": 1, "respawnDirection": 0, "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "Greasycheeks", "id": 6127, "x": 2467, "y": 3183, "p": 0}]
+[{"name": "Greasycheeks", "id": 6127, "p": 0, "x": 2467, "y": 3183, "mapId": 28, "mapId_p": 0, "mapId_x": 2467, "mapId_y": 3183, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 960, "boundSize": 1, "combat": 0, "headModels": [78258], "models": [75371, 75405, 75339, 75389, 75353, 75363, 24501], "movementCapabilities": 1}]

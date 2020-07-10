@@ -1,0 +1,1 @@
+[{"name": "Lucien", "morph_names_1": ["Lucien", ""], "id": 8345, "p": 0, "x": 2573, "y": 3321, "mapId": 28, "mapId_p": 0, "mapId_x": 2573, "mapId_y": 3321, "animation_group": 255, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [273, -1], "varbit": 11842, "varp": -1}, "movementCapabilities": 3}]

@@ -1,1 +1,1 @@
-[{"name": "Master Farmer", "id": 2235, "x": 3231, "y": 3347, "p": 0}]
+[{"name": "Master Farmer", "id": 2235, "p": 0, "x": 3231, "y": 3347, "mapId": 28, "mapId_p": 0, "mapId_x": 3231, "mapId_y": 3347, "actions": [null, null, "Pickpocket", null, null], "animation_group": 2844, "color_replacements": {"53": 5429, "57": 5424, "61": 5429, "6798": 6961}, "combat": 0, "headModels": [39686, 39223, 39456], "models": [48103], "movementCapabilities": 3, "texture_replacements": {"745": 746}}]

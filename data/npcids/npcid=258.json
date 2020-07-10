@@ -1,0 +1,1 @@
+[{"name": "Lady Servil", "morph_names_1": ["Lady Servil", "Lady Servil", "Lady Servil", ""], "id": 258, "p": 0, "x": 2566, "y": 3201, "mapId": 28, "mapId_p": 0, "mapId_x": 2566, "mapId_y": 3201, "animation_group": 1498, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [7529, 7529, 7530, -1], "varbit": 12785, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

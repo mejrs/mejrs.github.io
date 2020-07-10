@@ -1,0 +1,1 @@
+[{"name": "Wounded Soldier", "id": 15031, "p": 0, "x": 2206, "y": 4369, "mapId": 719, "mapId_p": 0, "mapId_x": 158, "mapId_y": 273, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 2352, "boundSize": 1, "combat": 0, "headModels": [49056], "models": [49940], "movementCapabilities": 1, "unknown_63": true}]

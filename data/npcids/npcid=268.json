@@ -1,1 +1,1 @@
-[{"name": "Local", "id": 268, "x": 2583, "y": 3171, "p": 0}]
+[{"name": "Local", "id": 268, "p": 0, "x": 2583, "y": 3171, "mapId": 28, "mapId_p": 0, "mapId_x": 2583, "mapId_y": 3171, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"25238": 33, "8741": 912}, "combat": 0, "headModels": [39799, 39254, 39307], "models": [230, 249, 236, 299, 167, 179, 275, 185], "movementCapabilities": 3}]

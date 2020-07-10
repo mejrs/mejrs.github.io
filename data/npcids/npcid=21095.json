@@ -1,0 +1,1 @@
+[{"name": "Moia", "id": 21095, "p": 3, "x": 365, "y": 508, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Reward shop", "Previous event shop", null], "ambient_sound": [14617, 14617, 14617, 14617, 1], "animation_group": 3390, "boundSize": 1, "combat": 0, "headModels": [87608], "models": [102176], "movementCapabilities": 1, "unknown_8C": 255}]

@@ -1,0 +1,1 @@
+[{"name": "Irksol", "id": 566, "p": 0, "x": 2479, "y": 4469, "mapId": 1, "mapId_p": 0, "mapId_x": 2479, "mapId_y": 4469, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 1833, "boundSize": 1, "combat": 0, "headModels": [11925], "models": [57326], "movementCapabilities": 3, "unknown_63": true}]

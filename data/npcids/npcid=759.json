@@ -1,0 +1,1 @@
+[{"name": "Fluffs", "morph_names_1": ["", "", "Fluffs", "Fluffs", "Fluffs", ""], "id": 759, "p": 1, "x": 3306, "y": 3512, "mapId": 28, "mapId_p": 1, "mapId_x": 3306, "mapId_y": 3512, "animation_group": 41, "combat": 0, "morphs_1": {"ids": [-1, -1, 7742, 7742, 7742, -1], "varbit": -1, "varp": 2175}, "movementCapabilities": 3}]

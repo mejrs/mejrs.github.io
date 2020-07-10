@@ -1,0 +1,1 @@
+[{"name": "The Kendal", "id": 25894, "p": 0, "x": 3541, "y": 11550, "mapId": 697, "mapId_p": 0, "mapId_x": 3541, "mapId_y": 11550, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 917, "boundSize": 2, "combat": 0, "headModels": [18880], "models": [18904, 18905], "movementCapabilities": 1}]

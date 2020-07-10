@@ -1,1 +1,1 @@
-[{"name": "Talsar", "id": 16827, "x": 3430, "y": 3692, "p": 0}]
+[{"name": "Talsar", "id": 16827, "p": 0, "x": 3430, "y": 3692, "mapId": 28, "mapId_p": 0, "mapId_x": 3430, "mapId_y": 3692, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Teleport", null, null], "animation_group": 2821, "boundSize": 1, "combat": 0, "headModels": [83362], "models": [83470], "movementCapabilities": 1, "unknown_63": true}]

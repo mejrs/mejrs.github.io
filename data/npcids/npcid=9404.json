@@ -1,0 +1,1 @@
+[{"name": "Cook", "morph_names_1": ["Cook", "", "Cook", "Cook", ""], "id": 9404, "p": 0, "x": 2649, "y": 5665, "mapId": 219, "mapId_p": 0, "mapId_x": 2649, "mapId_y": 5665, "ambience": 25, "boundSize": 1, "combat": 0, "modelContract": 15, "morphs_1": {"ids": [9405, -1, 9405, 9405, -1], "varbit": 14699, "varp": -1}, "movementCapabilities": 3}]

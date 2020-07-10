@@ -1,0 +1,1 @@
+[{"name": "Pyramid block", "morph_names_1": ["", "", "", "Pyramid block", ""], "id": 3124, "p": 3, "x": 3366, "y": 2845, "mapId": 28, "mapId_p": 3, "mapId_x": 3366, "mapId_y": 2845, "boundSize": 2, "combat": 0, "drawMapDot": false, "morphs_1": {"ids": [-1, -1, -1, 8521, -1], "varbit": 4949, "varp": -1}, "movementCapabilities": 1, "unknown_67": 0}]

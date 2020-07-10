@@ -1,1 +1,1 @@
-[{"name": "Brother Kojo", "id": 223, "x": 2569, "y": 3249, "p": 0}]
+[{"name": "Brother Kojo", "id": 223, "p": 0, "x": 2569, "y": 3249, "mapId": 28, "mapId_p": 0, "mapId_x": 2569, "mapId_y": 3249, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"8741": 4769, "9108": 4769}, "combat": 0, "headModels": [39938, 39223], "models": [223, 181, 246, 292, 170, 176, 260], "movementCapabilities": 3, "texture_replacements": {"618": 615, "620": 617}}]

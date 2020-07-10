@@ -1,0 +1,1 @@
+[{"name": "Veliaf Hurtz", "morph_names_1": ["", "Veliaf Hurtz", ""], "id": 22636, "p": 1, "x": 4254, "y": 7904, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "combat": 0, "morphs_1": {"ids": [-1, 21670, -1], "varbit": 31205, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 2, "unknown_63": true}]

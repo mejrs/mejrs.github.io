@@ -1,1 +1,1 @@
-[{"name": "Goutbones", "id": 18910, "x": 2969, "y": 3482, "p": 0}]
+[{"name": "Goutbones", "id": 18910, "p": 0, "x": 2969, "y": 3482, "mapId": 28, "mapId_p": 0, "mapId_x": 2969, "mapId_y": 3482, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Replay opening cutscene", "Replay finale cutscene", null], "ambience": 15, "animation_group": 86, "combat": 0, "headModels": [78264], "models": [75345, 75353, 75364, 75369, 75392, 75405], "movementCapabilities": 1}]

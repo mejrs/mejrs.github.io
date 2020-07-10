@@ -1,1 +1,1 @@
-[{"name": "Gossip", "id": 813, "x": 2742, "y": 3555, "p": 0}]
+[{"name": "Gossip", "id": 813, "p": 0, "x": 2742, "y": 3555, "mapId": 28, "mapId_p": 0, "mapId_x": 2742, "mapId_y": 3555, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"25238": 7070, "43072": 4550, "8741": 8}, "combat": 0, "headModels": [39859, 39254], "models": [217, 249, 292, 151, 10218, 254, 181], "movementCapabilities": 3, "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "Tyras guard", "id": 7120, "x": 2181, "y": 3184, "p": 0}]
+[{"name": "Tyras guard", "id": 7120, "p": 0, "x": 2181, "y": 3184, "mapId": 28, "mapId_p": 0, "mapId_x": 2181, "mapId_y": 3184, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2100, "boundSize": 1, "combat": 0, "headModels": [39630], "models": [32232], "movementCapabilities": 3, "unknown_63": true}]

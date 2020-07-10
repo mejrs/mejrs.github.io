@@ -1,0 +1,1 @@
+[{"name": "My Arm", "id": 4949, "p": 1, "x": 1895, "y": 4869, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 1950, "boundSize": 1, "combat": 0, "extra": {"slayer_task_id": 18}, "headModels": [62654], "models": [62667], "movementCapabilities": 1, "scaleXZ": 100, "scaleY": 100, "unknown_63": true}]

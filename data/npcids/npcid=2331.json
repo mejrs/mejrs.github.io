@@ -1,1 +1,1 @@
-[{"name": "Ellena", "id": 2331, "x": 2861, "y": 3432, "p": 0}]
+[{"name": "Ellena", "id": 2331, "p": 0, "x": 2861, "y": 3432, "mapId": 28, "mapId_p": 0, "mapId_x": 2861, "mapId_y": 3432, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Pay", null, null], "animation_group": 1952, "color_replacements": {"10262": 5551, "25238": 6689, "43569": 5435, "6798": 7762, "8741": 7469}, "combat": 0, "headModels": [39047, 38789], "models": [370, 390, 456, 332, 10218, 7368, 433, 7366], "movementCapabilities": 3, "recolor_indices": [0, 1, 2, -1, 3, 4]}]

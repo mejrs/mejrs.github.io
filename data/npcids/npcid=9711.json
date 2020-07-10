@@ -1,1 +1,1 @@
-[{"name": "Rewards trader", "id": 9711, "x": 3443, "y": 3698, "p": 0}]
+[{"name": "Rewards trader", "id": 9711, "p": 0, "x": 3443, "y": 3698, "mapId": 28, "mapId_p": 0, "mapId_x": 3443, "mapId_y": 3698, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Shop", "Recharge", null], "animation_group": 1745, "boundSize": 1, "combat": 0, "headModels": [55622], "models": [55635], "movementCapabilities": 1, "respawnDirection": 3, "unknown_67": 0}]

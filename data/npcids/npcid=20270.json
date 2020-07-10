@@ -1,1 +1,1 @@
-[{"name": "Hefin monk", "id": 20270, "x": 2194, "y": 3451, "p": 1}]
+[{"name": "Hefin monk", "id": 20270, "p": 1, "x": 2194, "y": 3451, "actions": ["Trade with", null, null, null, null], "animation_group": 3273, "boundSize": 1, "combat": 0, "headModels": [100133], "models": [97259, 97262, 97258, 97260, 97261, 100149], "movementCapabilities": 3, "texture_replacements": {"4840": 4849}, "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "Martina Scorsby", "id": 3326, "x": 3256, "y": 3481, "p": 0}]
+[{"name": "Martina Scorsby", "id": 3326, "p": 0, "x": 3256, "y": 3481, "mapId": 28, "mapId_p": 0, "mapId_x": 3256, "mapId_y": 3481, "ambience": 10, "animation_group": 1031, "boundSize": 1, "color_replacements": {"25238": 54447, "8615": 10448, "8741": 10574}, "combat": 0, "headModels": [39102, 38781], "modelContract": 5, "models": [12140, 470, 12139, 428, 358, 12144], "movementCapabilities": 1, "texture_replacements": {"611": 620}, "unknown_67": 0}]

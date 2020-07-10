@@ -1,1 +1,1 @@
-[{"name": "Ancient Zygomite elder", "id": 26448, "x": 5612, "y": 2458, "p": 0}]
+[{"name": "Ancient Zygomite elder", "id": 26448, "p": 0, "x": 5612, "y": 2458, "mapId": 28, "mapId_p": 0, "mapId_x": 4140, "mapId_y": 4442, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Open shop", null, null], "ambience": 15, "animation_group": 4398, "boundSize": 1, "combat": 0, "headModels": [34832], "models": [34766, 34830], "movementCapabilities": 1}]

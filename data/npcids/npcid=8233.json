@@ -1,0 +1,1 @@
+[{"name": "Mystic", "id": 8233, "p": 0, "x": 2966, "y": 9704, "mapId": 25, "mapId_p": 0, "mapId_x": 3030, "mapId_y": 9832, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 2675, "combat": 0, "headModels": [90003], "models": [90192, 78297], "movementCapabilities": 3, "unknown_63": true}]

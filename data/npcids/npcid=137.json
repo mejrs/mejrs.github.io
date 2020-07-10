@@ -1,1 +1,1 @@
-[{"name": "Terrorchick", "id": 137, "x": 2440, "y": 3500, "p": 0}, {"name": "Terrorchick", "id": 137, "x": 2440, "y": 3502, "p": 0}]
+[{"name": "Terrorchick", "id": 137, "p": 0, "x": 2440, "y": 3500, "mapId": 28, "mapId_p": 0, "mapId_x": 2440, "mapId_y": 3500, "animation_group": 503, "combat": 0, "models": [26859], "movementCapabilities": 3}, {"name": "Terrorchick", "id": 137, "p": 0, "x": 2440, "y": 3502, "mapId": 28, "mapId_p": 0, "mapId_x": 2440, "mapId_y": 3502, "animation_group": 503, "combat": 0, "models": [26859], "movementCapabilities": 3}]

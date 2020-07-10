@@ -1,0 +1,1 @@
+[{"name": "Sarsaparilla", "morph_names_1": ["", "Sarsaparilla", ""], "id": 15629, "p": 1, "x": 2565, "y": 3269, "mapId": 28, "mapId_p": 1, "mapId_x": 2565, "mapId_y": 3269, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, 15630, -1], "varbit": 13018, "varp": -1}, "movementCapabilities": 3}]

@@ -1,1 +1,1 @@
-[{"name": "Musician", "id": 14628, "x": 3402, "y": 3148, "p": 0}]
+[{"name": "Musician", "id": 14628, "p": 0, "x": 3402, "y": 3148, "mapId": 28, "mapId_p": 0, "mapId_x": 3402, "mapId_y": 3148, "actions": ["Listen-to", null, null, null, null], "animation_group": 2257, "boundSize": 1, "combat": 0, "headModels": [9809], "models": [9533], "movementCapabilities": 1, "respawnDirection": 6, "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "Woman", "id": 15914, "x": 3316, "y": 3186, "p": 1}]
+[{"name": "Woman", "id": 15914, "p": 1, "x": 3316, "y": 3186, "mapId": 28, "mapId_p": 1, "mapId_x": 3316, "mapId_y": 3186, "animation_group": 4, "combat": 0, "models": [40439, 75169, 40413, 76634, 76631, 29683], "movementCapabilities": 1, "unknown_63": true}]

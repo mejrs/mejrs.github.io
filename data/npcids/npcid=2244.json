@@ -1,1 +1,1 @@
-[{"name": "Lumbridge Sage", "id": 2244, "x": 3238, "y": 3219, "p": 0}]
+[{"name": "Lumbridge Sage", "id": 2244, "p": 0, "x": 3238, "y": 3219, "mapId": 28, "mapId_p": 0, "mapId_x": 3238, "mapId_y": 3219, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 1627, "combat": 0, "headModels": [48455], "models": [49374], "movementCapabilities": 1, "respawnDirection": 6, "unknown_63": true, "unknown_67": 0}]

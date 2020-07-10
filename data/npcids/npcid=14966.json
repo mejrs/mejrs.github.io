@@ -1,0 +1,1 @@
+[{"name": "Memory echo", "id": 14966, "p": 0, "x": 1632, "y": 6176, "mapId": 94, "mapId_p": 0, "mapId_x": 1632, "mapId_y": 6176, "actions": ["Gaze-into", null, null, null, null], "animateIdle": false, "animation_group": 2736, "boundSize": 1, "combat": 0, "headModels": [1800], "models": [81004], "movementCapabilities": 1}]

@@ -1,1 +1,1 @@
-[{"name": "Stanford", "id": 811, "x": 2731, "y": 3579, "p": 0}]
+[{"name": "Stanford", "id": 811, "p": 0, "x": 2731, "y": 3579, "mapId": 28, "mapId_p": 0, "mapId_x": 2731, "mapId_y": 3579, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"10128": 8, "25238": 8, "43072": 8, "4540": 7060, "4550": 7068, "4626": 8}, "combat": 0, "headModels": [39811, 38096], "models": [203, 251, 315, 173, 179, 271, 185, 496, 283], "movementCapabilities": 3, "unknown_63": true}]

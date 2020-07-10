@@ -1,0 +1,1 @@
+[{"name": "Chair", "morph_names_2": ["Chair", "Monarchist", "Chair", "Monarchist", "Chair"], "id": 13291, "p": 0, "x": 2834, "y": 10192, "mapId": 21, "mapId_p": 0, "mapId_x": 18, "mapId_y": 144, "combat": 0, "morphs_2": {"ids": [13289, 13293, 13289, 13293, 13289], "varbit": 13905, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 2}]

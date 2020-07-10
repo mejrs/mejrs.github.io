@@ -1,0 +1,1 @@
+[{"name": "Karl", "id": 2195, "p": 0, "x": 2900, "y": 10227, "mapId": 21, "mapId_p": 0, "mapId_x": 84, "mapId_y": 179, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 2675, "combat": 0, "headModels": [90026, 90038], "models": [90291, 90339, 90364, 90303, 78297, 90315, 90323], "movementCapabilities": 3}]

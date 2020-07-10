@@ -1,1 +1,1 @@
-[{"name": "Pet shop owner", "id": 6893, "x": 2932, "y": 3433, "p": 0}]
+[{"name": "Pet shop owner", "id": 6893, "p": 0, "x": 2932, "y": 3433, "mapId": 28, "mapId_p": 0, "mapId_x": 2932, "mapId_y": 3433, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", "Sell-shards", null], "ambience": 25, "animation_group": 3183, "combat": 0, "headModels": [49041], "models": [49228], "movementCapabilities": 3, "unknown_63": true}]

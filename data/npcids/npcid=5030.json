@@ -1,1 +1,1 @@
-[{"name": "Captain Cain", "id": 5030, "x": 2534, "y": 3568, "p": 0}]
+[{"name": "Captain Cain", "id": 5030, "p": 0, "x": 2534, "y": 3568, "mapId": 28, "mapId_p": 0, "mapId_x": 2534, "mapId_y": 3568, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Tutorial", "What's new", null], "animation_group": 4, "combat": 0, "headModels": [39799, 39391, 38097], "models": [11740, 230, 252, 11759, 11765, 11727, 11732, 19250, 11735], "movementCapabilities": 3, "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "Man", "id": 3223, "x": 2990, "y": 3365, "p": 0}]
+[{"name": "Man", "id": 3223, "p": 0, "x": 2990, "y": 3365, "mapId": 28, "mapId_p": 0, "mapId_x": 2990, "mapId_y": 3365, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", "Attack", "Pickpocket", null, null], "animation_group": 4, "attackCursor": 42, "boundSize": 1, "combat": 4, "extra": {"accuracy_melee_(npc)": 130, "armor": 130, "attack_speed": 4, "combat_style": 1, "damage_melee": 120, "weakness": 4}, "headModels": [107360], "models": [107510], "movementCapabilities": 3}]

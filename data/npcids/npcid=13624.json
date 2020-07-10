@@ -1,0 +1,1 @@
+[{"name": "Ibis", "id": 13624, "p": 0, "x": 1436, "y": 7640, "mapId": 694, "mapId_p": 0, "mapId_x": 1436, "mapId_y": 7640, "actions": ["Diagnose", null, null, null, null], "ambience": 25, "animation_group": 1313, "boundSize": 1, "combat": 0, "headModels": [31155], "models": [30437], "movementCapabilities": 1, "respawnDirection": 0, "unknown_63": true}]

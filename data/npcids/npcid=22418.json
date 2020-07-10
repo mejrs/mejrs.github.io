@@ -1,0 +1,1 @@
+[{"name": "Dairy cow", "id": 22418, "p": 1, "x": 992, "y": 4706, "actions": ["Milk", null, null, null, null], "animation_group": 3159, "boundSize": 2, "combat": 0, "headModels": [91859], "models": [110805], "movementCapabilities": 1, "respawnDirection": 2}]

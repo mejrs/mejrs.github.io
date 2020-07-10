@@ -1,0 +1,1 @@
+[{"name": "Juna", "morph_names_1": ["", "Juna", ""], "id": 26305, "p": 1, "x": 2897, "y": 3561, "mapId": 28, "mapId_p": 1, "mapId_x": 2897, "mapId_y": 3561, "boundSize": 2, "combat": 0, "morphs_1": {"ids": [17488, 26306, -1], "varbit": 43989, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 6, "unknown_67": 0}]

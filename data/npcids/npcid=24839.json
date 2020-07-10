@@ -1,1 +1,1 @@
-[{"name": "Headless moss golem", "id": 24839, "x": 1443, "y": 5660, "p": 0}]
+[{"name": "Headless moss golem", "id": 24839, "p": 0, "x": 1443, "y": 5660, "mapId": 28, "mapId_p": 0, "mapId_x": 2019, "mapId_y": 3164, "ambience": 30, "animation_group": 4116, "boundSize": 1, "combat": 0, "models": [120373], "movementCapabilities": 3, "movementType": 0}]

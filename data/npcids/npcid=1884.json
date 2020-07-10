@@ -1,1 +1,1 @@
-[{"name": "Trobert", "id": 1884, "x": 2806, "y": 3174, "p": 0}]
+[{"name": "Trobert", "id": 1884, "p": 0, "x": 2806, "y": 3174, "mapId": 28, "mapId_p": 0, "mapId_x": 2806, "mapId_y": 3174, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 4, "color_replacements": {"11200": 111, "6798": 12, "7700": 7083, "8741": 12}, "combat": 0, "headModels": [38641, 39223], "models": [235, 246, 292, 254, 323, 179, 185, 151, 290, 518, 326], "movementCapabilities": 3, "recolor_indices": [0, -1, 1, 2, 3]}]

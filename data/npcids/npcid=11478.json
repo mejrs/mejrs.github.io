@@ -1,0 +1,1 @@
+[{"name": "Knight Bernard", "morph_names_1": ["Knight Bernard", "Knight Bernard", ""], "id": 11478, "p": 1, "x": 4393, "y": 5528, "mapId": 491, "mapId_p": 0, "mapId_x": 4393, "mapId_y": 5528, "animation_group": 1837, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [11480, 11481, -1], "varbit": 13052, "varp": -1}, "movementCapabilities": 1, "movementType": 2, "unknown_63": true}]

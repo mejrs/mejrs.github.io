@@ -1,1 +1,1 @@
-[{"name": "Hengrad", "id": 263, "x": 2598, "y": 3142, "p": 0}]
+[{"name": "Hengrad", "id": 263, "p": 0, "x": 2598, "y": 3142, "mapId": 28, "mapId_p": 0, "mapId_x": 2598, "mapId_y": 3142, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"25238": 8722, "4626": 4550, "8741": 5297}, "combat": 0, "headModels": [39630], "models": [230, 246, 310, 151, 176, 275, 33033], "movementCapabilities": 3, "texture_replacements": {"618": 613}}]

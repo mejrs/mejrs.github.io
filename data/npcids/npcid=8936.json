@@ -1,1 +1,1 @@
-[{"name": "Egil", "id": 8936, "x": 3040, "y": 3339, "p": 0}]
+[{"name": "Egil", "id": 8936, "p": 0, "x": 3040, "y": 3339, "mapId": 28, "mapId_p": 0, "mapId_x": 3040, "mapId_y": 3339, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Rewards", null, null], "ambience": 20, "animation_group": 2675, "boundSize": 1, "color_replacements": {"5775": 71, "5784": 81}, "combat": 0, "headModels": [78223], "modelContract": 25, "models": [78320], "movementCapabilities": 1, "respawnDirection": 6}]

@@ -1,0 +1,1 @@
+[{"name": "Arrav", "id": 8169, "p": 1, "x": 1880, "y": 5617, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 3434, "combat": 180, "extra": {"weakness_class": 8}, "headModels": [102778], "models": [104799], "movementCapabilities": 1}]

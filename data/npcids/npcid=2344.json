@@ -1,1 +1,1 @@
-[{"name": "Gileth", "id": 2344, "x": 2488, "y": 3179, "p": 0}]
+[{"name": "Gileth", "id": 2344, "p": 0, "x": 2488, "y": 3179, "mapId": 28, "mapId_p": 0, "mapId_x": 2488, "mapId_y": 3179, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Pay", null, null], "animation_group": 1952, "combat": 0, "headModels": [39066], "models": [390, 470, 482, 332, 176, 7368, 428, 7366], "movementCapabilities": 3}]

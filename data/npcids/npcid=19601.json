@@ -1,0 +1,1 @@
+[{"name": "Martha Rehnison", "morph_names_1": ["", "", "Martha Rehnison", ""], "id": 19601, "p": 0, "x": 2548, "y": 3316, "mapId": 28, "mapId_p": 0, "mapId_x": 2548, "mapId_y": 3316, "animation_group": 4, "combat": 0, "morphs_1": {"ids": [-1, -1, 19643, -1], "varbit": 23203, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 0}]

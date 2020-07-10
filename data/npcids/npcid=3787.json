@@ -1,1 +1,1 @@
-[{"name": "Sir Palomedes", "id": 3787, "x": 2754, "y": 3509, "p": 0}]
+[{"name": "Sir Palomedes", "id": 3787, "p": 0, "x": 2754, "y": 3509, "mapId": 28, "mapId_p": 0, "mapId_x": 2754, "mapId_y": 3509, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 2100, "boundSize": 1, "color_replacements": {"7888": 4903}, "combat": 0, "headModels": [39839, 39381, 38096], "models": [27126, 27195, 27203], "movementCapabilities": 3}]

@@ -1,0 +1,1 @@
+[{"name": "Waiko islander", "morph_names_2": ["Waiko islander", "Waiko islander"], "id": 23459, "p": 0, "x": 1832, "y": 11606, "mapId": 695, "mapId_p": 0, "mapId_x": 1832, "mapId_y": 11606, "boundSize": 1, "combat": 0, "morphs_2": {"ids": [23467, 23089], "varbit": 33899, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

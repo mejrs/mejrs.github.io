@@ -1,1 +1,1 @@
-[{"name": "Will", "id": 7737, "x": 3316, "y": 3513, "p": 0}]
+[{"name": "Will", "id": 7737, "p": 0, "x": 3316, "y": 3513, "mapId": 28, "mapId_p": 0, "mapId_x": 3316, "mapId_y": 3513, "animation_group": 4, "color_replacements": {"40117": 7566, "40237": 7446, "43146": 3980, "43150": 7446, "43270": 3604, "8741": 10291}, "combat": 0, "models": [18084, 215, 249, 10705, 19329, 19332, 10377], "movementCapabilities": 3, "retexture_indices": [0, -1, 1], "texture_replacements": {"606": 622, "612": 622}, "unknown_67": 1024}]

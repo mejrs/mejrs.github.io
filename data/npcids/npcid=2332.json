@@ -1,1 +1,1 @@
-[{"name": "Selena", "id": 2332, "x": 2578, "y": 3101, "p": 0}]
+[{"name": "Selena", "id": 2332, "p": 0, "x": 2578, "y": 3101, "mapId": 28, "mapId_p": 0, "mapId_x": 2578, "mapId_y": 3101, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Pay", null, null], "animation_group": 1952, "color_replacements": {"25238": 12702, "38814": 12702, "8741": 10520, "908": 8078}, "combat": 0, "headModels": [38748, 39047], "models": [377, 390, 456, 343, 10218, 7368, 428, 361], "movementCapabilities": 3, "recolor_indices": [0, 1, 2, -1, 3]}]

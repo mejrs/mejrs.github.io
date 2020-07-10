@@ -1,1 +1,1 @@
-[{"name": "Strykewyrm Jim", "id": 24713, "x": 3166, "y": 2615, "p": 0}]
+[{"name": "Strykewyrm Jim", "id": 24713, "p": 0, "x": 3166, "y": 2615, "mapId": 28, "mapId_p": 0, "mapId_x": 3166, "mapId_y": 2615, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2240, "boundSize": 1, "combat": 0, "extra": {"extra_0019C1": 23}, "headModels": [9848], "models": [9497, 118279], "movementCapabilities": 1, "respawnDirection": 2, "unknown_63": true, "unknown_67": 0}]

@@ -1,0 +1,1 @@
+[{"name": "Leprechaun", "id": 13655, "p": 0, "x": 1597, "y": 4508, "mapId": 212, "mapId_p": 0, "mapId_x": 1597, "mapId_y": 4508, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 671, "combat": 0, "headModels": [45703], "models": [45780], "movementCapabilities": 3, "unknown_63": true}]

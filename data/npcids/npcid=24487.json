@@ -1,1 +1,1 @@
-[{"name": "Grand Vizier Ehsan (Merchant)", "id": 24487, "x": 3195, "y": 2771, "p": 0}]
+[{"name": "Grand Vizier Ehsan (Merchant)", "id": 24487, "p": 0, "x": 3195, "y": 2771, "mapId": 28, "mapId_p": 0, "mapId_x": 3195, "mapId_y": 2771, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 4026, "combat": 0, "headModels": [119224], "models": [119412], "movementCapabilities": 1, "respawnDirection": 2, "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "Wiglaf", "id": 9716, "x": 3428, "y": 3698, "p": 0}]
+[{"name": "Wiglaf", "id": 9716, "p": 0, "x": 3428, "y": 3698, "mapId": 28, "mapId_p": 0, "mapId_x": 3428, "mapId_y": 3698, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 1780, "boundSize": 1, "combat": 0, "headModels": [55620], "models": [55631], "movementCapabilities": 1, "respawnDirection": 2, "unknown_67": 0}]

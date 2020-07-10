@@ -1,1 +1,1 @@
-[{"name": "Tina", "id": 3218, "x": 2956, "y": 3373, "p": 1}]
+[{"name": "Tina", "id": 3218, "p": 1, "x": 2956, "y": 3373, "mapId": 28, "mapId_p": 1, "mapId_x": 2956, "mapId_y": 3373, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "color_replacements": {"25238": 12, "43072": 4550, "8741": 10471}, "combat": 0, "headModels": [39090], "models": [107552], "movementCapabilities": 3}]

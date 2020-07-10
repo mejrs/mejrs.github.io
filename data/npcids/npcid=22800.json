@@ -1,0 +1,1 @@
+[{"name": "Thordur", "id": 22800, "p": 0, "x": 1118, "y": 5471, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 752, "combat": 0, "headModels": [112716], "models": [112761, 90394], "movementCapabilities": 1, "quests": [385], "unknown_67": 0}]

@@ -1,0 +1,1 @@
+[{"name": "Mephisto", "morph_names_1": ["", "", "", "", "", "", "", "", "", "Mephisto", "Mephisto", ""], "id": 26963, "p": 3, "x": 2591, "y": 7463, "mapId": 724, "mapId_p": 0, "mapId_x": 95, "mapId_y": 103, "combat": 0, "morphs_1": {"ids": [-1, -1, -1, -1, -1, -1, -1, -1, -1, 26957, 26958, -1], "varbit": 47122, "varp": -1}, "movementCapabilities": 1}]

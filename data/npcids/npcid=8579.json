@@ -1,0 +1,1 @@
+[{"name": "Brian Twitcher", "morph_names_1": ["Priest of Guthix", "Brian Twitcher", ""], "id": 8579, "p": 0, "x": 2292, "y": 3626, "mapId": 28, "mapId_p": 0, "mapId_x": 2292, "mapId_y": 3626, "animation_group": 771, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [8555, 8556, -1], "varbit": 10193, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

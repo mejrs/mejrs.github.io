@@ -1,1 +1,1 @@
-[{"name": "Poison Salesman", "id": 820, "x": 2695, "y": 3495, "p": 0}]
+[{"name": "Poison Salesman", "id": 820, "p": 0, "x": 2695, "y": 3495, "mapId": 28, "mapId_p": 0, "mapId_x": 2695, "mapId_y": 3495, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"25238": 7073, "6798": 943, "8078": 7075, "8741": 7073}, "combat": 0, "headModels": [39859, 39223], "models": [217, 246, 292, 162, 176, 257], "movementCapabilities": 3, "unknown_63": true}]

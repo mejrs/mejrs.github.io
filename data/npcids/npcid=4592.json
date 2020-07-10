@@ -1,1 +1,1 @@
-[{"name": "Ermin", "id": 4592, "x": 2488, "y": 3409, "p": 1}]
+[{"name": "Ermin", "id": 4592, "p": 1, "x": 2488, "y": 3409, "mapId": 28, "mapId_p": 1, "mapId_x": 2488, "mapId_y": 3409, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 108, "boundSize": 1, "combat": 0, "headModels": [63362, 63384], "modelContract": 20, "models": [62961, 62999, 63077, 62882, 62911, 63039], "movementCapabilities": 3}]

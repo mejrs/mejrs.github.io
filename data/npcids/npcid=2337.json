@@ -1,1 +1,1 @@
-[{"name": "Rhazien", "id": 2337, "x": 2591, "y": 3865, "p": 0}]
+[{"name": "Rhazien", "id": 2337, "p": 0, "x": 2591, "y": 3865, "mapId": 28, "mapId_p": 0, "mapId_x": 2591, "mapId_y": 3865, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Pay", null, null], "animation_group": 120, "color_replacements": {"25238": 13840, "6798": 6701, "8741": 6558, "908": 5648}, "combat": 0, "headModels": [39582, 38097, 39479], "models": [214, 4219, 252, 292, 326, 162, 176, 496, 254, 7121], "movementCapabilities": 3, "texture_replacements": {"745": 746}}]

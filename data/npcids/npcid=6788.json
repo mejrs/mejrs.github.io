@@ -1,0 +1,1 @@
+[{"name": "High Priest of Scabaras", "id": 6788, "p": 1, "x": 3368, "y": 9263, "mapId": 559, "mapId_p": 0, "mapId_x": 3368, "mapId_y": 9263, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 242, "combat": 0, "headModels": [31081], "models": [31018], "movementCapabilities": 1, "unknown_63": true}]

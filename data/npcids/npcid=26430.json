@@ -1,1 +1,1 @@
-[{"name": "Arcane apoterrasaur", "id": 26430, "x": 5338, "y": 2336, "p": 0}]
+[{"name": "Arcane apoterrasaur", "id": 26430, "p": 0, "x": 5338, "y": 2336, "mapId": 28, "mapId_p": 0, "mapId_x": 3866, "mapId_y": 4320, "ambience": 15, "animation_group": 4378, "boundSize": 3, "combat": 0, "extra": {"extra_001653": 1, "hide_hitpoints": 1}, "models": [34857, 34861, 34860], "movementCapabilities": 1, "movementType": 2}]

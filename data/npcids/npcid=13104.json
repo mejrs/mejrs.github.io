@@ -1,1 +1,1 @@
-[{"name": "Astlayrix", "id": 13104, "x": 2959, "y": 2908, "p": 0}]
+[{"name": "Astlayrix", "id": 13104, "p": 0, "x": 2959, "y": 2908, "mapId": 28, "mapId_p": 0, "mapId_x": 2959, "mapId_y": 2908, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Jadinko-requirements", null, null], "ambience": 10, "animation_group": 4, "boundSize": 1, "color_replacements": {"6798": 103}, "combat": 0, "headModels": [39836, 39202, 62085], "modelContract": 10, "models": [62090], "movementCapabilities": 3, "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "Citizen", "id": 7554, "x": 2565, "y": 3149, "p": 0}]
+[{"name": "Citizen", "id": 7554, "p": 0, "x": 2565, "y": 3149, "mapId": 28, "mapId_p": 0, "mapId_x": 2565, "mapId_y": 3149, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 1497, "color_replacements": {"25238": 8604, "4886": 5404, "5908": 5400, "6798": 82}, "combat": 0, "headModels": [39897, 39275], "models": [46713], "movementCapabilities": 1, "texture_replacements": {"745": 746}, "unknown_67": 0}]

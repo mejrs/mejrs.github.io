@@ -1,1 +1,1 @@
-[{"name": "Frog", "id": 2689, "x": 2918, "y": 3319, "p": 0}]
+[{"name": "Frog", "id": 2689, "p": 0, "x": 2918, "y": 3319, "mapId": 28, "mapId_p": 0, "mapId_x": 2918, "mapId_y": 3319, "ambience": 15, "animation_group": 37, "combat": 0, "models": [6947], "movementCapabilities": 3, "scaleXZ": 32, "scaleY": 32}]

@@ -1,1 +1,1 @@
-[{"name": "Julienne, Emissary of Saradomin", "id": 17132, "x": 3014, "y": 3368, "p": 0}]
+[{"name": "Julienne, Emissary of Saradomin", "id": 17132, "p": 0, "x": 3014, "y": 3368, "mapId": 28, "mapId_p": 0, "mapId_x": 3014, "mapId_y": 3368, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2857, "boundSize": 1, "combat": 0, "headModels": [85996], "members_actions": [null, null, "Check jobs", null, null], "models": [86145], "movementCapabilities": 1, "respawnDirection": 0, "unknown_63": true}]

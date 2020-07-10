@@ -1,1 +1,1 @@
-[{"name": "Quercus", "id": 17065, "x": 3134, "y": 3520, "p": 0}]
+[{"name": "Quercus", "id": 17065, "p": 0, "x": 3134, "y": 3520, "mapId": 28, "mapId_p": 0, "mapId_x": 3134, "mapId_y": 3520, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Rewards", null, null], "animation_group": 2846, "boundSize": 4, "combat": 0, "headModels": [84660], "models": [84661], "movementCapabilities": 1, "unknown_63": true, "unknown_67": 0}]

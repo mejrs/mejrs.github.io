@@ -1,1 +1,1 @@
-[{"name": "San Fan", "id": 4360, "x": 3824, "y": 3015, "p": 0}]
+[{"name": "San Fan", "id": 4360, "p": 0, "x": 3824, "y": 3015, "mapId": 28, "mapId_p": 0, "mapId_x": 3824, "mapId_y": 3015, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-To", null, "Join-Crew", null, null], "animation_group": 4, "color_replacements": {"25238": 7830, "4533": 4514, "4540": 4518, "4550": 4528, "4554": 4533, "6798": 268, "8741": 4897}, "combat": 0, "headModels": [42300], "models": [11118, 456, 343, 176, 15984, 422], "movementCapabilities": 3, "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "Naff", "id": 359, "x": 3203, "y": 3435, "p": 0}]
+[{"name": "Naff", "id": 359, "p": 0, "x": 3203, "y": 3435, "mapId": 28, "mapId_p": 0, "mapId_x": 3203, "mapId_y": 3435, "action_cursors": [44, null, null, null, null, null], "animation_group": 509, "color_replacements": {"11162": 8, "22426": 90, "25238": 37394, "38119": 786}, "combat": 0, "headModels": [28693, 28700], "members_actions": ["Talk-to", null, null, "Buy-battlestaves", null], "models": [28597, 28666], "movementCapabilities": 3, "texture_replacements": {"530": 544, "557": 2579, "569": 523}}]

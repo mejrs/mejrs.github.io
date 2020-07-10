@@ -1,1 +1,1 @@
-[{"name": "Arhein", "id": 563, "x": 2803, "y": 3426, "p": 0}]
+[{"name": "Arhein", "id": 563, "p": 0, "x": 2803, "y": 3426, "mapId": 28, "mapId_p": 0, "mapId_x": 2803, "mapId_y": 3426, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3183, "boundSize": 1, "color_replacements": {"25238": 8, "43072": 4550, "4626": 8, "54397": 4391, "6798": 8, "8741": 7070}, "combat": 0, "headModels": [39836, 39223], "models": [215, 305, 167, 10218, 254, 185, 246], "movementCapabilities": 1, "unknown_63": true}]

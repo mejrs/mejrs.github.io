@@ -1,0 +1,1 @@
+[{"name": "Seren", "morph_names_2": ["Seren", "Seren", "Seren", "Seren"], "id": 17047, "p": 1, "x": 2892, "y": 3567, "mapId": 28, "mapId_p": 1, "mapId_x": 2892, "mapId_y": 3567, "boundSize": 1, "combat": 0, "morphs_2": {"ids": [26616, 26616, 26615, 26616], "varbit": 29079, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 2}]

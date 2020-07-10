@@ -1,0 +1,1 @@
+[{"name": "Quartermaster Gully", "morph_names_1": ["", "", "Mister Gully", "Quartermaster Gully", ""], "id": 22940, "p": 0, "x": 3054, "y": 3247, "mapId": 28, "mapId_p": 0, "mapId_x": 3054, "mapId_y": 3247, "combat": 0, "morphs_1": {"ids": [-1, -1, 22941, 22942, -1], "varbit": 33059, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 6, "unknown_67": 0}]

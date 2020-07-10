@@ -1,1 +1,1 @@
-[{"name": "Uglug Nar", "id": 2039, "x": 2442, "y": 3049, "p": 0}]
+[{"name": "Uglug Nar", "id": 2039, "p": 0, "x": 2442, "y": 3049, "mapId": 28, "mapId_p": 0, "mapId_x": 2442, "mapId_y": 3049, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "ambience": 25, "animation_group": 321, "boundSize": 2, "combat": 0, "headModels": [31696], "models": [46137], "movementCapabilities": 3}]

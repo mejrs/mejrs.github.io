@@ -1,1 +1,1 @@
-[{"name": "Estrith", "id": 9714, "x": 3433, "y": 3680, "p": 0}]
+[{"name": "Estrith", "id": 9714, "p": 0, "x": 3433, "y": 3680, "mapId": 28, "mapId_p": 0, "mapId_x": 3433, "mapId_y": 3680, "animation_group": 28, "boundSize": 1, "combat": 0, "headModels": [55558], "models": [56325], "movementCapabilities": 1}]

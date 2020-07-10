@@ -1,0 +1,1 @@
+[{"name": "Grimgnash", "morph_names_1": ["Grimgnash", ""], "id": 5997, "p": 0, "x": 2865, "y": 3496, "mapId": 28, "mapId_p": 0, "mapId_x": 2865, "mapId_y": 3496, "animation_group": 781, "boundSize": 3, "combat": 0, "morphs_1": {"ids": [5989, -1], "varbit": 13632, "varp": -1}, "movementCapabilities": 1, "unknown_63": true, "unknown_67": 0}]

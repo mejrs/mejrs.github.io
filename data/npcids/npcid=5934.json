@@ -1,1 +1,1 @@
-[{"name": "Caden Azro", "id": 5934, "x": 3259, "y": 3443, "p": 0}]
+[{"name": "Caden Azro", "id": 5934, "p": 0, "x": 3259, "y": 3443, "mapId": 28, "mapId_p": 0, "mapId_x": 3259, "mapId_y": 3443, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animateIdle": false, "boundSize": 1, "color_replacements": {"6798": 10686}, "combat": 0, "headModels": [39915, 38096], "models": [25362], "movementCapabilities": 1, "unknown_67": 0}]

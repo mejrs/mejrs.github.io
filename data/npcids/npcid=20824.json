@@ -1,0 +1,1 @@
+[{"name": "Dr Harlow", "morph_names_1": ["Dr Harlow", "Dr Harlow", "Dr Harlow", "Dr Harlow", ""], "id": 20824, "p": 0, "x": 3734, "y": 9033, "mapId": 677, "mapId_p": 0, "mapId_x": 3734, "mapId_y": 9033, "combat": 0, "extra": {"weakness_class": 8}, "morphs_1": {"ids": [20825, 20825, 20826, 20826, -1], "varbit": 27275, "varp": -1}, "movementCapabilities": 1}]

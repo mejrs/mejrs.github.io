@@ -1,0 +1,1 @@
+[{"name": "Dr Nabanik", "morph_names_1": ["", "Dr Nabanik", ""], "id": 9045, "p": 0, "x": 3354, "y": 3353, "mapId": 28, "mapId_p": 0, "mapId_x": 3354, "mapId_y": 3353, "animation_group": 117, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, 9046, -1], "varbit": 11109, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

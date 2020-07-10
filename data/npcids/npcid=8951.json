@@ -1,0 +1,1 @@
+[{"name": "Arianwyn", "morph_names_1": ["Arianwyn", "Arianwyn", "", "", "Arianwyn", ""], "id": 8951, "p": 0, "x": 2352, "y": 3172, "mapId": 28, "mapId_p": 0, "mapId_x": 2352, "mapId_y": 3172, "animation_group": 3224, "combat": 0, "morphs_1": {"ids": [8913, 8950, -1, -1, 8913, -1], "varbit": 10511, "varp": -1}, "movementCapabilities": 1, "unknown_63": true}]

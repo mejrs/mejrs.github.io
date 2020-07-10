@@ -1,1 +1,1 @@
-[{"name": "Hefin herald", "id": 19863, "x": 2186, "y": 3411, "p": 1}]
+[{"name": "Hefin herald", "id": 19863, "p": 1, "x": 2186, "y": 3411, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Buy cape", "Buy symbol", null], "animation_group": 2699, "boundSize": 1, "color_replacements": {"36824": 10048}, "combat": 0, "headModels": [97199], "models": [97266, 97270, 97269, 97268, 97267, 97302, 97323], "movementCapabilities": 1, "texture_replacements": {"4833": 4838, "4840": 4849}}]

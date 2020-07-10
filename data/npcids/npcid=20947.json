@@ -1,0 +1,1 @@
+[{"name": "Easter Bunny", "id": 20947, "p": 0, "x": 3550, "y": 4267, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "ambience": 25, "animation_group": 408, "boundSize": 1, "combat": 0, "headModels": [103298], "modelContract": 0, "models": [103299], "movementCapabilities": 1, "respawnDirection": 2, "unknown_63": true}]

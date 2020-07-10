@@ -1,0 +1,1 @@
+[{"name": "Mol'Zhar the Merciless", "id": 23678, "p": 2, "x": 2660, "y": 12638, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "ambience": 45, "animation_group": 2541, "boundSize": 3, "combat": 0, "headModels": [115903], "models": [83208, 71288], "movementCapabilities": 1, "quests": [386], "respawnDirection": 2}]

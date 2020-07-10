@@ -1,1 +1,1 @@
-[{"name": "Elly the Camel", "id": 2810, "x": 3311, "y": 3208, "p": 0}]
+[{"name": "Elly the Camel", "id": 2810, "p": 0, "x": 3311, "y": 3208, "mapId": 28, "mapId_p": 0, "mapId_x": 3311, "mapId_y": 3208, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 109, "boundSize": 2, "combat": 0, "headModels": [119260], "models": [119421], "movementCapabilities": 3}]

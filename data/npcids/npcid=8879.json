@@ -1,1 +1,1 @@
-[{"name": "Iconis", "id": 8879, "x": 2928, "y": 3322, "p": 0}]
+[{"name": "Iconis", "id": 8879, "p": 0, "x": 2928, "y": 3322, "mapId": 28, "mapId_p": 0, "mapId_x": 2928, "mapId_y": 3322, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Take-picture", null, null], "animation_group": 1262, "boundSize": 1, "combat": 0, "headModels": [49835], "models": [49836], "movementCapabilities": 1, "unknown_63": true, "unknown_67": 0}]

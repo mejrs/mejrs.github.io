@@ -1,1 +1,1 @@
-[{"name": "Otto Godblessed", "id": 2725, "x": 2501, "y": 3487, "p": 0}]
+[{"name": "Otto Godblessed", "id": 2725, "p": 0, "x": 2501, "y": 3487, "mapId": 28, "mapId_p": 0, "mapId_x": 2501, "mapId_y": 3487, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "color_replacements": {"8596": 5388}, "combat": 0, "headModels": [39925, 39201], "models": [18192, 11747, 22163, 280, 11759, 11764, 11727, 11731, 19250, 11733], "movementCapabilities": 3, "texture_replacements": {"607": 619}, "unknown_63": true}]

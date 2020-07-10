@@ -1,0 +1,1 @@
+[{"name": "Address cube (cosmic)", "id": 6615, "p": 0, "x": 4111, "y": 5543, "mapId": 422, "mapId_p": 0, "mapId_x": 4111, "mapId_y": 5543, "actions": ["Look-at", null, null, null, null], "ambience": 15, "combat": 0, "drawMapDot": false, "modelContract": 10, "models": [63691], "movementCapabilities": 1, "quests": [344], "unknown_67": 0}]

@@ -1,1 +1,1 @@
-[{"name": "Sir Pelleas", "id": 244, "x": 2761, "y": 3503, "p": 1}]
+[{"name": "Sir Pelleas", "id": 244, "p": 1, "x": 2761, "y": 3503, "mapId": 28, "mapId_p": 1, "mapId_x": 2761, "mapId_y": 3503, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 2100, "boundSize": 1, "color_replacements": {"5673": 7729, "6798": 7729}, "combat": 0, "headModels": [39747, 39254], "models": [27125, 27196, 27203], "movementCapabilities": 3, "texture_replacements": {"745": 746}}]

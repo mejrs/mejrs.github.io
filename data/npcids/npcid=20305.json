@@ -1,1 +1,1 @@
-[{"name": "Meilyr musician", "id": 20305, "x": 2228, "y": 3401, "p": 1}]
+[{"name": "Meilyr musician", "id": 20305, "p": 1, "x": 2228, "y": 3401, "action_cursors": [null, null, 44, null, null, null], "actions": ["Listen to", null, "Talk to", null, null], "animation_group": 2255, "boundSize": 1, "combat": 0, "headModels": [97203], "models": [100203], "movementCapabilities": 1, "respawnDirection": 3, "texture_replacements": {"4840": 4844}, "unknown_63": true}]

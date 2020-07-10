@@ -1,1 +1,1 @@
-[{"name": "Giant rat", "id": 4924, "x": 2997, "y": 3192, "p": 0}]
+[{"name": "Giant rat", "id": 4924, "p": 0, "x": 2997, "y": 3192, "mapId": 28, "mapId_p": 0, "mapId_x": 2997, "mapId_y": 3192, "actions": [null, "Attack", null, null, null], "animation_group": 1900, "attackCursor": 42, "boundSize": 2, "combat": 7, "extra": {"accuracy_melee_(npc)": 150, "armor": 150, "attack_speed": 4, "combat_style": 1, "damage_melee": 200, "slayer_task_id": 3, "weakness": 3}, "models": [61017], "movementCapabilities": 3}]

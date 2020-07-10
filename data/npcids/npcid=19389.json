@@ -1,0 +1,1 @@
+[{"name": "Dad", "id": 19389, "p": 1, "x": 1195, "y": 4921, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 1981, "boundSize": 3, "combat": 0, "headModels": [64489], "models": [64505, 64525], "movementCapabilities": 1, "quests": [368], "unknown_8F": true}]

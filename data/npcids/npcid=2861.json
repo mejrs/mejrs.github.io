@@ -1,1 +1,1 @@
-[{"name": "Teclyn", "id": 2861, "x": 2344, "y": 3163, "p": 0}]
+[{"name": "Teclyn", "id": 2861, "p": 0, "x": 2344, "y": 3163, "mapId": 28, "mapId_p": 0, "mapId_x": 2344, "mapId_y": 3163, "action_cursors": [null, null, 44, null, null, null], "actions": ["Exchange", null, "Talk to", "Teleport", "Compost"], "animation_group": 4, "combat": 0, "headModels": [97210], "models": [97285, 95658], "movementCapabilities": 3, "texture_replacements": {"4840": 4846}}]

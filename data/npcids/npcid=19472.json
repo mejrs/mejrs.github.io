@@ -1,0 +1,1 @@
+[{"name": "Cocooned victim", "id": 19472, "p": 0, "x": 1395, "y": 7735, "mapId": 694, "mapId_p": 0, "mapId_x": 1395, "mapId_y": 7735, "ambience": 25, "animation_group": 3199, "boundSize": 1, "color_replacements": {"1": 1}, "combat": 0, "extra": {"extra_00108B": 1}, "modelContract": 15, "models": [96801], "movementCapabilities": 1, "unknown_67": 0}]

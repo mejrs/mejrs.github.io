@@ -1,0 +1,1 @@
+[{"name": "Surok Magis", "morph_names_1": ["", "Shady stranger", "Surok Magis", ""], "id": 8342, "p": 0, "x": 2989, "y": 3344, "mapId": 28, "mapId_p": 0, "mapId_x": 2989, "mapId_y": 3344, "animation_group": 35, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, 8340, 8442, -1], "varbit": 11760, "varp": -1}, "movementCapabilities": 3}]

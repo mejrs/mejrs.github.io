@@ -1,1 +1,1 @@
-[{"name": "Drill Sergeant Hartman", "id": 14852, "x": 2925, "y": 3574, "p": 0}]
+[{"name": "Drill Sergeant Hartman", "id": 14852, "p": 0, "x": 2925, "y": 3574, "mapId": 28, "mapId_p": 0, "mapId_x": 2925, "mapId_y": 3574, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "ambience": 25, "animation_group": 2311, "boundSize": 1, "combat": 0, "headModels": [48768], "modelContract": 15, "models": [49225], "movementCapabilities": 1, "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "Garai", "id": 3033, "x": 3436, "y": 2901, "p": 0}]
+[{"name": "Garai", "id": 3033, "p": 0, "x": 3436, "y": 2901, "mapId": 28, "mapId_p": 0, "mapId_x": 3436, "mapId_y": 2901, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "color_replacements": {"25238": 37929, "4533": 4510, "4540": 4515, "4550": 4525, "4554": 4529, "49054": 43043, "8741": 7616, "9019": 7616}, "combat": 0, "headModels": [39945, 38096], "models": [9016, 251, 9017, 151, 176, 6133, 181], "movementCapabilities": 3}]

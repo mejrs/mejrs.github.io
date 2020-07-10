@@ -1,1 +1,1 @@
-[{"name": "Lead archaeologist Abigail", "id": 6786, "x": 3409, "y": 2812, "p": 1}]
+[{"name": "Lead archaeologist Abigail", "id": 6786, "p": 1, "x": 3409, "y": 2812, "mapId": 28, "mapId_p": 1, "mapId_x": 3409, "mapId_y": 2812, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 1127, "boundSize": 1, "combat": 0, "headModels": [39027, 38842, 38864], "models": [30857], "movementCapabilities": 1, "unknown_63": true}]

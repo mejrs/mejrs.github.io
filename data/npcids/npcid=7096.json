@@ -1,0 +1,1 @@
+[{"name": "Penelope", "morph_names_1": ["", "Penelope", ""], "id": 7096, "p": 0, "x": 2610, "y": 2865, "mapId": 28, "mapId_p": 0, "mapId_x": 2610, "mapId_y": 2865, "animation_group": 1155, "combat": 0, "extra": {"attack_speed": 5}, "morphs_1": {"ids": [-1, 7028, -1], "varbit": 14056, "varp": -1}, "movementCapabilities": 3}]

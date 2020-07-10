@@ -1,1 +1,1 @@
-[{"name": "Sir Bedivere", "id": 242, "x": 2766, "y": 3511, "p": 1}]
+[{"name": "Sir Bedivere", "id": 242, "p": 1, "x": 2766, "y": 3511, "mapId": 28, "mapId_p": 1, "mapId_x": 2766, "mapId_y": 3511, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 2100, "boundSize": 1, "color_replacements": {"5673": 10328, "6798": 10328}, "combat": 0, "headModels": [39747, 39281], "models": [27191, 27202], "movementCapabilities": 3, "texture_replacements": {"745": 746}}]

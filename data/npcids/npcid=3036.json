@@ -1,1 +1,1 @@
-[{"name": "Zahra", "id": 3036, "x": 3448, "y": 2898, "p": 0}]
+[{"name": "Zahra", "id": 3036, "p": 0, "x": 3448, "y": 2898, "mapId": 28, "mapId_p": 0, "mapId_x": 3448, "mapId_y": 2898, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "color_replacements": {"25238": 5551, "43072": 3503, "4533": 3490, "4540": 3495, "4550": 3505, "4554": 3509, "49054": 51365, "8741": 5586, "9019": 5586}, "combat": 0, "headModels": [39048], "models": [9022, 9025, 332, 176, 428, 358], "movementCapabilities": 3}]

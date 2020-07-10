@@ -1,0 +1,1 @@
+[{"name": "Troll mother", "morph_names_1": ["", "", "", "", "Troll mother", "Troll mother", ""], "id": 1949, "p": 0, "x": 2836, "y": 3740, "mapId": 28, "mapId_p": 0, "mapId_x": 2836, "mapId_y": 3740, "animation_group": 1717, "boundSize": 2, "combat": 0, "morphs_1": {"ids": [-1, -1, -1, -1, 1950, 1950, -1], "varbit": 9506, "varp": -1}, "movementCapabilities": 1}]

@@ -1,0 +1,1 @@
+[{"name": "Gnome soldier", "id": 4642, "p": 0, "x": 2150, "y": 4964, "mapId": 278, "mapId_p": 0, "mapId_x": 2150, "mapId_y": 4964, "ambience": 20, "animation_group": 108, "combat": 0, "headModels": [42660, 63378, 63324], "modelContract": 20, "models": [62983, 63092, 62922, 63034, 63119], "movementCapabilities": 1}]

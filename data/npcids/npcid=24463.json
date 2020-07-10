@@ -1,1 +1,1 @@
-[{"name": "Crablet", "id": 24463, "x": 3244, "y": 2664, "p": 0}]
+[{"name": "Crablet", "id": 24463, "p": 0, "x": 3244, "y": 2664, "mapId": 28, "mapId_p": 0, "mapId_x": 3244, "mapId_y": 2664, "animation_group": 3779, "combat": 0, "models": [113636, 113637], "movementCapabilities": 1, "respawnDirection": 6}]

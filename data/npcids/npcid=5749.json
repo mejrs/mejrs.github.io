@@ -1,0 +1,1 @@
+[{"name": "Fishing spot", "id": 5749, "p": 0, "x": 2694, "y": 5226, "action_cursors": [60, null, 60, null, null, null], "actions": ["Net", null, "Bait", null, null], "animation_group": 265, "boundSize": 1, "combat": 0, "drawMapDot": false, "models": [6568], "movementCapabilities": 5}]

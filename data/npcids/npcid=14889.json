@@ -1,1 +1,1 @@
-[{"name": "Bryll Thoksdottir", "id": 14889, "x": 2858, "y": 3406, "p": 0}]
+[{"name": "Bryll Thoksdottir", "id": 14889, "p": 0, "x": 2858, "y": 3406, "mapId": 28, "mapId_p": 0, "mapId_x": 2858, "mapId_y": 3406, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Sail", null, null], "ambience": 25, "animation_group": 2312, "boundSize": 1, "combat": 0, "headModels": [48525], "modelContract": 15, "models": [49229], "movementCapabilities": 1, "respawnDirection": 0, "unknown_63": true}]

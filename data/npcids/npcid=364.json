@@ -1,0 +1,1 @@
+[{"name": "King Thoros", "morph_names_1": ["King Lathas", "King Thoros", ""], "id": 364, "p": 1, "x": 2577, "y": 3298, "mapId": 28, "mapId_p": 1, "mapId_x": 2577, "mapId_y": 3298, "combat": 0, "morphs_1": {"ids": [19631, 19589, -1], "varbit": 23226, "varp": -1}, "movementCapabilities": 3}]

@@ -1,0 +1,1 @@
+[{"name": "The Raptor", "morph_names_1": ["", "", "The Raptor", ""], "id": 13956, "p": 1, "x": 2729, "y": 3375, "mapId": 28, "mapId_p": 1, "mapId_x": 2729, "mapId_y": 3375, "animation_group": 2122, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, -1, 13957, -1], "varbit": 3087, "varp": -1}, "movementCapabilities": 1}]

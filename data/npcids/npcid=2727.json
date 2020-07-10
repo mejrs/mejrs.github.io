@@ -1,1 +1,1 @@
-[{"name": "Gull", "id": 2727, "x": 2969, "y": 3146, "p": 0}]
+[{"name": "Gull", "id": 2727, "p": 0, "x": 2969, "y": 3146, "mapId": 28, "mapId_p": 0, "mapId_x": 2969, "mapId_y": 3146, "ambience": 20, "animation_group": 83, "boundSize": 1, "combat": 0, "drawMapDot": false, "models": [26841], "movementCapabilities": 6}]

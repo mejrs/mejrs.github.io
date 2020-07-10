@@ -1,0 +1,1 @@
+[{"name": "Inglin", "id": 5819, "p": 1, "x": 2744, "y": 5336, "mapId": 26, "mapId_p": 0, "mapId_x": 152, "mapId_y": 152, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 495, "combat": 0, "headModels": [23238], "models": [23639, 23689, 23627], "movementCapabilities": 3, "scaleXZ": 86, "scaleY": 86}]

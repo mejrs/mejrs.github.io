@@ -1,1 +1,1 @@
-[{"name": "Katrine", "id": 642, "x": 3186, "y": 3385, "p": 0}]
+[{"name": "Katrine", "id": 642, "p": 0, "x": 3186, "y": 3385, "mapId": 28, "mapId_p": 0, "mapId_x": 3186, "mapId_y": 3385, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"6798": 9436}, "combat": 0, "headModels": [39016, 38861], "models": [393, 414, 25716, 25698, 176, 10331, 25709], "movementCapabilities": 3, "texture_replacements": {"745": 746}, "unknown_63": true}]

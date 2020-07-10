@@ -1,0 +1,1 @@
+[{"name": "Turgok", "id": 5792, "p": 0, "x": 2712, "y": 5303, "mapId": 26, "mapId_p": 0, "mapId_x": 24, "mapId_y": 55, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 214, "combat": 0, "headModels": [23224, 23246], "models": [23662, 23695, 23629], "movementCapabilities": 3}]

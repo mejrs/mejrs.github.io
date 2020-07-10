@@ -1,0 +1,1 @@
+[{"name": "Snow imp", "morph_names_1": ["Snow imp", "", "Snow imp", ""], "id": 9373, "p": 0, "x": 2646, "y": 5655, "mapId": 219, "mapId_p": 0, "mapId_x": 2646, "mapId_y": 5655, "animation_group": 130, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [9376, -1, 9377, -1], "varbit": 14682, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 1, "unknown_63": true}]

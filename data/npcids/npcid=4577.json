@@ -1,1 +1,1 @@
-[{"name": "Wingstone", "id": 4577, "x": 3379, "y": 2893, "p": 0}]
+[{"name": "Wingstone", "id": 4577, "p": 0, "x": 3379, "y": 2893, "mapId": 28, "mapId_p": 0, "mapId_x": 3379, "mapId_y": 2893, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 108, "combat": 0, "headModels": [63318, 63367, 63397], "modelContract": 20, "models": [63107, 62878, 62974, 63003, 62924, 63123], "movementCapabilities": 3}]

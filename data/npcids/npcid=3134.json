@@ -1,0 +1,1 @@
+[{"name": "Furnace grate", "morph_names_1": ["Furnace grate", ""], "id": 3134, "p": 1, "x": 3115, "y": 9323, "boundSize": 2, "combat": 0, "drawMapDot": false, "morphs_1": {"ids": [3135, -1], "varbit": 9758, "varp": -1}, "movementCapabilities": 1, "unknown_67": 0}]

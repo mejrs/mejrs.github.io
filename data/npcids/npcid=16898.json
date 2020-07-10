@@ -1,1 +1,1 @@
-[{"name": "Ysondria", "id": 16898, "x": 3220, "y": 3183, "p": 0}]
+[{"name": "Ysondria", "id": 16898, "p": 0, "x": 3220, "y": 3183, "mapId": 28, "mapId_p": 0, "mapId_x": 3220, "mapId_y": 3183, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Get charmed sack", null, null], "animation_group": 4, "boundSize": 1, "combat": 0, "drawMapDot": false, "headModels": [85656], "head_icon_data": [[440], [29]], "models": [85660], "movementCapabilities": 1}]

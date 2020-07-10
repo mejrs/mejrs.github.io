@@ -1,1 +1,1 @@
-[{"name": "Murky Matt (runes)", "id": 6525, "x": 3184, "y": 3492, "p": 0}]
+[{"name": "Murky Matt (runes)", "id": 6525, "p": 0, "x": 3184, "y": 3492, "mapId": 28, "mapId_p": 0, "mapId_x": 3184, "mapId_y": 3492, "action_cursors": [44, null, null, 46, null, null], "actions": ["Talk-to", null, "Info-runes", null, null], "animation_group": 1256, "combat": 0, "headModels": [39571], "members_actions": [null, null, null, "Combine", null], "models": [29909], "movementCapabilities": 1, "unknown_63": true}]

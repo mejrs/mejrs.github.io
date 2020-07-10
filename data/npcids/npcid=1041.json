@@ -1,1 +1,1 @@
-[{"name": "Sbott", "id": 1041, "x": 3490, "y": 3503, "p": 0}]
+[{"name": "Sbott", "id": 1041, "p": 0, "x": 3490, "y": 3503, "mapId": 28, "mapId_p": 0, "mapId_x": 3490, "mapId_y": 3503, "action_cursors": [62, null, 44, null, null, null], "actions": ["Tan hide", null, "Talk-to", null, null], "animation_group": 3183, "boundSize": 1, "combat": 0, "headModels": [39958], "models": [26122, 26131, 26115, 26126, 26119], "movementCapabilities": 3, "texture_replacements": {"606": 614, "611": 619}}]

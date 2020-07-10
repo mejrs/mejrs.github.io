@@ -1,1 +1,1 @@
-[{"name": "Shady Character", "id": 15004, "x": 2891, "y": 3440, "p": 0}]
+[{"name": "Shady Character", "id": 15004, "p": 0, "x": 2891, "y": 3440, "mapId": 28, "mapId_p": 0, "mapId_x": 2891, "mapId_y": 3440, "animation_group": 2340, "boundSize": 1, "combat": 0, "headModels": [48529], "iconHeight": 900, "models": [49671], "movementCapabilities": 1, "unknown_63": true}]

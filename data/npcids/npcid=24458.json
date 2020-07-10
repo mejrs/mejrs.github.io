@@ -1,1 +1,1 @@
-[{"name": "Menaphite citizen", "id": 24458, "x": 3116, "y": 2746, "p": 0}]
+[{"name": "Menaphite citizen", "id": 24458, "p": 0, "x": 3116, "y": 2746, "mapId": 28, "mapId_p": 0, "mapId_x": 3116, "mapId_y": 2746, "animation_group": 2699, "color_replacements": {"16311": 62469, "16323": 62481, "16335": 62493, "16347": 62505, "4533": 4501, "4540": 4504, "4550": 4510, "4554": 4514, "6798": 10}, "combat": 0, "headModels": [39630, 39275], "models": [230, 248, 10218, 119318, 119306, 119310], "movementCapabilities": 1, "respawnDirection": 6, "unknown_67": 0}]

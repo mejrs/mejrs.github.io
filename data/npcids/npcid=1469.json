@@ -1,1 +1,1 @@
-[{"name": "Monkey minder", "id": 1469, "x": 2595, "y": 3277, "p": 0}]
+[{"name": "Monkey minder", "id": 1469, "p": 0, "x": 2595, "y": 3277, "mapId": 28, "mapId_p": 0, "mapId_x": 2595, "mapId_y": 3277, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 25, "animation_group": 4, "color_replacements": {"25238": 6488, "6798": 6359}, "combat": 0, "headModels": [38641, 38642], "models": [47092], "movementCapabilities": 3}]

@@ -1,0 +1,1 @@
+[{"name": "Drunken dwarf's leg", "morph_names_1": ["", "Drunken dwarf's leg", ""], "id": 4970, "p": 0, "x": 2825, "y": 3681, "mapId": 28, "mapId_p": 0, "mapId_x": 2825, "mapId_y": 3681, "combat": 0, "morphs_1": {"ids": [-1, 4969, -1], "varbit": 9993, "varp": -1}, "movementCapabilities": 1, "unknown_63": true}]

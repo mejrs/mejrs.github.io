@@ -1,0 +1,1 @@
+[{"name": "Orry", "morph_names_1": ["Orry", "Orry", "Orry", ""], "id": 8067, "p": 0, "x": 3280, "y": 3524, "mapId": 28, "mapId_p": 0, "mapId_x": 3280, "mapId_y": 3524, "animation_group": 1097, "combat": 0, "morphs_1": {"ids": [8044, 8045, 8045, -1], "varbit": 13519, "varp": -1}, "movementCapabilities": 1, "unknown_63": true}]

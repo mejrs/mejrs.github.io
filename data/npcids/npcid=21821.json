@@ -1,0 +1,1 @@
+[{"name": "Tunks", "morph_names_1": ["Tunks", "", "", "", "", "Tunks", ""], "id": 21821, "p": 3, "x": 3110, "y": 3022, "mapId": 28, "mapId_p": 3, "mapId_x": 3110, "mapId_y": 3022, "combat": 0, "morphs_1": {"ids": [21822, -1, -1, -1, -1, 21822, -1], "varbit": 20929, "varp": -1}, "movementCapabilities": 1, "quests": [380]}]

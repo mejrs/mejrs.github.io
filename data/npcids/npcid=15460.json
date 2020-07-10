@@ -1,1 +1,1 @@
-[{"name": "Sir Rebrum", "id": 15460, "x": 2991, "y": 3237, "p": 0}]
+[{"name": "Sir Rebrum", "id": 15460, "p": 0, "x": 2991, "y": 3237, "mapId": 28, "mapId_p": 0, "mapId_x": 2991, "mapId_y": 3237, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 2699, "boundSize": 1, "combat": 0, "headModels": [69647], "models": [116185, 66343, 66389, 66600, 66691], "movementCapabilities": 1}]

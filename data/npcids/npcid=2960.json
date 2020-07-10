@@ -1,0 +1,1 @@
+[{"name": "Zenesha", "id": 2960, "p": 0, "x": 2844, "y": 5092, "mapId": 353, "mapId_p": 0, "mapId_x": 2844, "mapId_y": 5092, "animation_group": 4, "boundSize": 1, "color_replacements": {"6798": 6852, "8741": 103}, "combat": 0, "headModels": [39016, 38861], "models": [393, 468, 352, 179, 432, 414, 361], "movementCapabilities": 3, "texture_replacements": {"617": 620, "745": 746}}]

@@ -1,0 +1,1 @@
+[{"name": "Young 'un", "id": 5803, "p": 1, "x": 2741, "y": 5344, "mapId": 26, "mapId_p": 0, "mapId_x": 149, "mapId_y": 160, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 491, "combat": 0, "headModels": [23245], "models": [23711], "movementCapabilities": 3}]

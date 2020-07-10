@@ -1,0 +1,1 @@
+[{"name": "Cyclops labourer", "morph_names_1": ["", "", "", "", "", "Cyclops labourer", ""], "id": 23014, "p": 0, "x": 2068, "y": 11344, "mapId": 695, "mapId_p": 0, "mapId_x": 2068, "mapId_y": 11344, "boundSize": 2, "combat": 0, "morphs_1": {"ids": [-1, -1, -1, -1, -1, 23016, -1], "varbit": 33155, "varp": -1}, "movementCapabilities": 1}]

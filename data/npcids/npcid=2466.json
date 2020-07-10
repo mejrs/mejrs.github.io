@@ -1,0 +1,1 @@
+[{"name": "Merchant Yuri", "id": 2466, "p": 0, "x": 2709, "y": 5290, "mapId": 26, "mapId_p": 0, "mapId_x": 21, "mapId_y": 42, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "combat": 0, "headModels": [38641, 39256], "models": [46108], "movementCapabilities": 3, "unknown_63": true}]

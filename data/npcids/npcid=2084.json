@@ -1,0 +1,1 @@
+[{"name": "Mistag", "id": 2084, "p": 0, "x": 3319, "y": 9615, "mapId": 31, "mapId_p": 0, "mapId_x": 3319, "mapId_y": 9615, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Follow", null, null], "animation_group": 214, "combat": 0, "headModels": [23246, 23232, 23230], "models": [23668, 23704], "movementCapabilities": 3, "unknown_63": true}]

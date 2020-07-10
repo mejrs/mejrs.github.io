@@ -1,0 +1,1 @@
+[{"name": "Caldi", "id": 5815, "p": 1, "x": 2743, "y": 5341, "mapId": 26, "mapId_p": 0, "mapId_x": 151, "mapId_y": 157, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 495, "combat": 0, "headModels": [23239], "models": [23640, 23686, 23627], "movementCapabilities": 3, "scaleXZ": 86, "scaleY": 86}]

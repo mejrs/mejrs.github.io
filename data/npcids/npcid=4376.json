@@ -1,1 +1,1 @@
-[{"name": "Litara", "id": 4376, "x": 3083, "y": 3423, "p": 0}]
+[{"name": "Litara", "id": 4376, "p": 0, "x": 3083, "y": 3423, "mapId": 28, "mapId_p": 0, "mapId_x": 3083, "mapId_y": 3423, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 29, "color_replacements": {"6798": 7104}, "combat": 0, "headModels": [39066, 38861], "models": [390, 414, 11783, 11772, 11777, 11781, 11778, 11791], "movementCapabilities": 3, "recolor_indices": [-1, -1, 0], "texture_replacements": {"745": 746}}]

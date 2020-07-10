@@ -1,1 +1,1 @@
-[{"name": "Elite Black Knight", "id": 18059, "x": 3029, "y": 3574, "p": 1}]
+[{"name": "Elite Black Knight", "id": 18059, "p": 1, "x": 3029, "y": 3574, "mapId": 28, "mapId_p": 1, "mapId_x": 3029, "mapId_y": 3574, "ambience": 10, "animation_group": 759, "color_replacements": {"7756": 8877, "7845": 3087}, "combat": 0, "headModels": [67668], "modelContract": 10, "models": [66417, 66510, 66353, 66323, 66622, 5586], "movementCapabilities": 1, "respawnDirection": 6, "scaleXZ": 148, "scaleY": 128, "unknown_63": true}]

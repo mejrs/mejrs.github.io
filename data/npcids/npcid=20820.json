@@ -1,0 +1,1 @@
+[{"name": "Spirit of the Mind", "morph_names_1": ["", "", "Spirit of the Mind", ""], "id": 20820, "p": 0, "x": 3753, "y": 9102, "mapId": 677, "mapId_p": 0, "mapId_x": 3753, "mapId_y": 9102, "combat": 0, "extra": {"weakness_class": 8}, "morphs_1": {"ids": [-1, -1, 20821, -1], "varbit": 27276, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 0, "unknown_63": true}]

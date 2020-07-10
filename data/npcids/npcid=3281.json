@@ -1,1 +1,1 @@
-[{"name": "Engineering assistant", "id": 3281, "x": 3019, "y": 3443, "p": 0}]
+[{"name": "Engineering assistant", "id": 3281, "p": 0, "x": 3019, "y": 3443, "mapId": 28, "mapId_p": 0, "mapId_x": 3019, "mapId_y": 3443, "animation_group": 2948, "color_replacements": {"3468": 3095, "3476": 3103, "3482": 3109, "3488": 3115}, "combat": 0, "headModels": [90030, 90038], "models": [90335, 90316, 90293, 90290, 90356, 78297, 90323, 90393], "movementCapabilities": 2, "movementType": 0, "recolor_indices": [-1, -1, -1, -1, -1, -1, 0, 1, 2, 3]}]

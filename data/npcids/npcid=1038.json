@@ -1,1 +1,1 @@
-[{"name": "Rufus", "id": 1038, "x": 3507, "y": 3496, "p": 0}]
+[{"name": "Rufus", "id": 1038, "p": 0, "x": 3507, "y": 3496, "mapId": 28, "mapId_p": 0, "mapId_x": 3507, "mapId_y": 3496, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3179, "boundSize": 1, "combat": 0, "headModels": [39751], "models": [26121, 26133, 26118, 26128, 26119], "movementCapabilities": 3, "texture_replacements": {"606": 614, "611": 619, "615": 614}}]

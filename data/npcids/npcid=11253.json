@@ -1,0 +1,1 @@
+[{"name": "'The Guns'", "morph_names_1": ["'The Guns'", "'The Guns'", "'The Guns'", ""], "id": 11253, "p": 0, "x": 2643, "y": 3226, "mapId": 28, "mapId_p": 0, "mapId_x": 2643, "mapId_y": 3226, "combat": 0, "morphs_1": {"ids": [5592, 11254, 11254, -1], "varbit": 9213, "varp": -1}, "movementCapabilities": 1, "unknown_63": true, "unknown_67": 0}]

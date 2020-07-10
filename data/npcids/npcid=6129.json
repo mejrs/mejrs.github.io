@@ -1,1 +1,1 @@
-[{"name": "Creakyknees", "id": 6129, "x": 2470, "y": 3185, "p": 0}]
+[{"name": "Creakyknees", "id": 6129, "p": 0, "x": 2470, "y": 3185, "mapId": 28, "mapId_p": 0, "mapId_x": 2470, "mapId_y": 3185, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 965, "boundSize": 1, "combat": 0, "headModels": [78247], "models": [75368, 75403, 75345, 75397, 75350, 75363, 24500], "movementCapabilities": 1}]

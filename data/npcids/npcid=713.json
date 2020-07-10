@@ -1,1 +1,1 @@
-[{"name": "Clerk", "id": 713, "x": 2526, "y": 3319, "p": 0}]
+[{"name": "Clerk", "id": 713, "p": 0, "x": 2526, "y": 3319, "mapId": 28, "mapId_p": 0, "mapId_x": 2526, "mapId_y": 3319, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"25238": 20, "5652": 43072, "6798": 43072, "8741": 41}, "combat": 0, "headModels": [39799, 39256], "models": [230, 247, 292, 327, 151, 176, 254, 181], "movementCapabilities": 1}]

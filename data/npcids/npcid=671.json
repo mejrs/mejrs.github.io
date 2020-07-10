@@ -1,1 +1,1 @@
-[{"name": "Glough", "id": 671, "x": 2478, "y": 3463, "p": 1}]
+[{"name": "Glough", "id": 671, "p": 1, "x": 2478, "y": 3463, "mapId": 28, "mapId_p": 1, "mapId_x": 2478, "mapId_y": 3463, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 108, "boundSize": 1, "combat": 0, "headModels": [63363], "modelContract": 20, "models": [63117, 62875, 62926, 62985, 63030], "movementCapabilities": 3}]

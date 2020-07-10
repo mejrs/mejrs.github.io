@@ -1,1 +1,1 @@
-[{"name": "Gnome Coach", "id": 2802, "x": 2406, "y": 3498, "p": 0}]
+[{"name": "Gnome Coach", "id": 2802, "p": 0, "x": 2406, "y": 3498, "mapId": 28, "mapId_p": 0, "mapId_x": 2406, "mapId_y": 3498, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 108, "boundSize": 1, "color_replacements": {"6793": 6173, "6798": 6178}, "combat": 0, "headModels": [63382, 63352, 63301], "modelContract": 20, "models": [62931, 62993, 63087, 62894, 62911, 63008], "movementCapabilities": 2}]

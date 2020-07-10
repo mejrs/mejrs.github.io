@@ -1,1 +1,1 @@
-[{"name": "Dalldav", "id": 2356, "x": 2324, "y": 3164, "p": 0}]
+[{"name": "Dalldav", "id": 2356, "p": 0, "x": 2324, "y": 3164, "mapId": 28, "mapId_p": 0, "mapId_x": 2324, "mapId_y": 3164, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3231, "boundSize": 1, "combat": 0, "headModels": [97208], "models": [97259, 97262, 97258, 97260, 97311], "movementCapabilities": 3}]

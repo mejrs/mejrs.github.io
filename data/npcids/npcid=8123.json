@@ -1,0 +1,1 @@
+[{"name": "Rogue", "morph_names_1": ["Rogue", ""], "id": 8123, "p": 0, "x": 3285, "y": 3940, "mapId": 28, "mapId_p": 0, "mapId_x": 3285, "mapId_y": 3940, "animation_group": 117, "combat": 0, "morphs_1": {"ids": [8122, -1], "varbit": 11434, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

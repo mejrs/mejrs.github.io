@@ -1,0 +1,1 @@
+[{"name": "Guardsman Brawn", "morph_names_1": ["Guardsman Brawn", "Guardsman Brawn", "Guardsman Brawn", "Guardsman Brawn", ""], "id": 17515, "p": 1, "x": 3215, "y": 3219, "mapId": 28, "mapId_p": 1, "mapId_x": 3215, "mapId_y": 3219, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [7887, 17521, 7887, 17521, -1], "varbit": 18700, "varp": -1}, "movementCapabilities": 3}]

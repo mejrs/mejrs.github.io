@@ -1,0 +1,1 @@
+[{"name": "War", "morph_names_1": ["", "War", ""], "id": 25906, "p": 0, "x": 4912, "y": 9382, "boundSize": 2, "combat": 0, "morphs_1": {"ids": [25907, 25908, -1], "varbit": 42199, "varp": -1}, "movementCapabilities": 1, "unknown_63": true}]

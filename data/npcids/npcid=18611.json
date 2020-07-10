@@ -1,1 +1,1 @@
-[{"name": "Villager", "id": 18611, "x": 2506, "y": 2647, "p": 2}]
+[{"name": "Villager", "id": 18611, "p": 2, "x": 2506, "y": 2647, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "ambience": 64, "animation_group": 3006, "boundSize": 1, "color_replacements": {"1": 1}, "combat": 0, "headModels": [91878], "models": [91896], "movementCapabilities": 1, "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "Sir Gawain", "id": 240, "x": 2763, "y": 3506, "p": 0}]
+[{"name": "Sir Gawain", "id": 240, "p": 0, "x": 2763, "y": 3506, "mapId": 28, "mapId_p": 0, "mapId_x": 2763, "mapId_y": 3506, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 119, "boundSize": 1, "color_replacements": {"5673": 5648}, "combat": 0, "headModels": [39747, 39254], "models": [27125, 27194, 27203], "movementCapabilities": 3}]

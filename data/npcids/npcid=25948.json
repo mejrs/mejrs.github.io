@@ -1,0 +1,1 @@
+[{"name": "Elder", "morph_names_1": ["", "Elder", ""], "id": 25948, "p": 0, "x": 4265, "y": 815, "mapId": 682, "mapId_p": 0, "mapId_x": 4265, "mapId_y": 815, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [25949, 25950, -1], "varbit": 42231, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "Longbow Ben", "id": 2691, "x": 3047, "y": 3255, "p": 0}]
+[{"name": "Longbow Ben", "id": 2691, "p": 0, "x": 3047, "y": 3255, "mapId": 28, "mapId_p": 0, "mapId_x": 3047, "mapId_y": 3255, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 79, "color_replacements": {"22177": 555, "7952": 3377, "8741": 45243, "9104": 49362}, "combat": 0, "headModels": [39634], "models": [211, 246, 292, 3667, 170, 10218, 6098, 5218, 317], "movementCapabilities": 3, "recolor_indices": [-1, 0, 1, -1, 2, 3]}]

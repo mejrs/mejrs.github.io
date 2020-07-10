@@ -1,1 +1,1 @@
-[{"name": "Bench", "id": 5854, "x": 3285, "y": 3469, "p": 0}]
+[{"name": "Bench", "id": 5854, "p": 0, "x": 3285, "y": 3469, "mapId": 28, "mapId_p": 0, "mapId_x": 3285, "mapId_y": 3469, "animation_group": 817, "combat": 0, "drawMapDot": false, "models": [23946], "movementCapabilities": 1, "unknown_67": 0}]

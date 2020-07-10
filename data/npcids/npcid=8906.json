@@ -1,1 +1,1 @@
-[{"name": "Guardian", "id": 8906, "x": 3323, "y": 3501, "p": 3}]
+[{"name": "Guardian", "id": 8906, "p": 3, "x": 3323, "y": 3501, "mapId": 28, "mapId_p": 3, "mapId_x": 3323, "mapId_y": 3501, "ambience": 15, "animateIdle": false, "animation_group": 16, "boundSize": 1, "combat": 0, "models": [6318], "movementCapabilities": 1}]

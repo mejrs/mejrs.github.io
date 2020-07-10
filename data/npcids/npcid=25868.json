@@ -1,1 +1,1 @@
-[{"name": "May", "id": 25868, "x": 3209, "y": 3369, "p": 0}]
+[{"name": "May", "id": 25868, "p": 0, "x": 3209, "y": 3369, "mapId": 28, "mapId_p": 0, "mapId_x": 3209, "mapId_y": 3369, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Open shop", "Reclaim", null], "ambience": 20, "animation_group": 4305, "boundSize": 1, "combat": 0, "headModels": [67021], "modelContract": 25, "models": [67163], "movementCapabilities": 1, "respawnDirection": 2}]

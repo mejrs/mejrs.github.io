@@ -1,0 +1,1 @@
+[{"name": "Karamthulhu", "morph_names_1": ["Karamthulhu", "Karamthulhu", ""], "id": 7858, "p": 1, "x": 3828, "y": 9949, "animateIdle": false, "animation_group": 1132, "boundSize": 2, "combat": 0, "morphs_1": {"ids": [7826, 7827, -1], "varbit": 12494, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

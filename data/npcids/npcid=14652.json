@@ -1,1 +1,1 @@
-[{"name": "Organist", "id": 14652, "x": 3449, "y": 3158, "p": 1}]
+[{"name": "Organist", "id": 14652, "p": 1, "x": 3449, "y": 3158, "mapId": 28, "mapId_p": 1, "mapId_x": 3449, "mapId_y": 3158, "animation_group": 2253, "boundSize": 1, "combat": 0, "models": [9389], "movementCapabilities": 1, "respawnDirection": 2}]

@@ -1,1 +1,1 @@
-[{"name": "Bartender", "id": 735, "x": 2797, "y": 3155, "p": 0}]
+[{"name": "Bartender", "id": 735, "p": 0, "x": 2797, "y": 3155, "mapId": 28, "mapId_p": 0, "mapId_x": 2797, "mapId_y": 3155, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "color_replacements": {"25238": 6034, "43072": 4550, "8741": 6034}, "combat": 0, "headModels": [39685, 39286, 39307], "models": [203, 253, 236, 291, 263, 10218, 32592, 185], "movementCapabilities": 3}]

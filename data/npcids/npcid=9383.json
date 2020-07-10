@@ -1,0 +1,1 @@
+[{"name": "Partygoer", "morph_names_1": ["Partygoer", "", "Partygoer", "Partygoer", ""], "id": 9383, "p": 0, "x": 2658, "y": 5665, "mapId": 219, "mapId_p": 0, "mapId_x": 2658, "mapId_y": 5665, "ambience": 25, "boundSize": 1, "combat": 0, "modelContract": 15, "morphs_1": {"ids": [9384, -1, 9385, 9385, -1], "varbit": 14699, "varp": -1}, "movementCapabilities": 3}]

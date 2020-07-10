@@ -1,0 +1,1 @@
+[{"name": "Mittens", "id": 2988, "p": 0, "x": 2916, "y": 5104, "mapId": 354, "mapId_p": 0, "mapId_x": 2916, "mapId_y": 5104, "ambience": 15, "animation_group": 41, "boundSize": 1, "color_replacements": {"10345": 53, "10353": 57, "4397": 74, "4517": 66, "4521": 70, "4641": 61}, "combat": 0, "headModels": [34047], "models": [34012], "movementCapabilities": 3, "unknown_63": true}]

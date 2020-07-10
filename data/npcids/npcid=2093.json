@@ -1,0 +1,1 @@
+[{"name": "Yellow Fortune Secretary", "id": 2093, "p": 1, "x": 2870, "y": 10209, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2675, "boundSize": 1, "combat": 0, "headModels": [89966], "models": [90104, 78297], "movementCapabilities": 3}]

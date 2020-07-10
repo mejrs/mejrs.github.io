@@ -1,1 +1,1 @@
-[{"name": "Shiratti the Custodian", "id": 3044, "x": 3424, "y": 2929, "p": 0}]
+[{"name": "Shiratti the Custodian", "id": 3044, "p": 0, "x": 3424, "y": 2929, "mapId": 28, "mapId_p": 0, "mapId_x": 3424, "mapId_y": 2929, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 29, "color_replacements": {"49048": 37155, "49051": 37155, "49054": 37155, "6740": 4428, "9019": 4428}, "combat": 0, "headModels": [39150], "models": [9021, 9026, 10126, 176, 6135, 10003, 361], "movementCapabilities": 3}]

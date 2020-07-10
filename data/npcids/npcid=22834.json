@@ -1,0 +1,1 @@
+[{"name": "Sphenishchev", "morph_names_1": ["", "Sphenishchev", ""], "id": 22834, "p": 0, "x": 1034, "y": 5485, "combat": 0, "morphs_1": {"ids": [-1, 22835, -1], "varbit": 32506, "varp": -1}, "movementCapabilities": 1, "quests": [385], "respawnDirection": 2, "unknown_63": true}]

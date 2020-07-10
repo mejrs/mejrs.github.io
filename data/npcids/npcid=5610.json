@@ -1,1 +1,1 @@
-[{"name": "Monk", "id": 5610, "x": 3785, "y": 2827, "p": 0}]
+[{"name": "Monk", "id": 5610, "p": 0, "x": 3785, "y": 2827, "mapId": 28, "mapId_p": 0, "mapId_x": 3785, "mapId_y": 2827, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 988, "color_replacements": {"28727": 5541, "28740": 5541, "28744": 5541, "4540": 4392, "4541": 5541, "4550": 5541, "4657": 5784}, "combat": 0, "headModels": [40038], "models": [21429, 21468, 21412, 21440, 21460, 21446, 21422], "movementCapabilities": 3, "unknown_63": true}]

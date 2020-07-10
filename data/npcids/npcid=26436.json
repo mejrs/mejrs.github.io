@@ -1,1 +1,1 @@
-[{"name": "Oculi apoterrasaur", "id": 26436, "x": 5586, "y": 2416, "p": 0}]
+[{"name": "Oculi apoterrasaur", "id": 26436, "p": 0, "x": 5586, "y": 2416, "mapId": 28, "mapId_p": 0, "mapId_x": 4114, "mapId_y": 4400, "ambience": 15, "animation_group": 4378, "boundSize": 3, "color_replacements": {"43184": 7606}, "combat": 0, "extra": {"extra_001653": 1, "hide_hitpoints": 1}, "models": [34857, 34861, 34859], "movementCapabilities": 1, "movementType": 2, "texture_replacements": {"11218": 11217, "11224": 11223}}]

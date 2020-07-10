@@ -1,1 +1,1 @@
-[{"name": "Lara", "id": 24075, "x": 3286, "y": 2925, "p": 0}]
+[{"name": "Lara", "id": 24075, "p": 0, "x": 3286, "y": 2925, "mapId": 28, "mapId_p": 0, "mapId_x": 3286, "mapId_y": 2925, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 90, "boundSize": 1, "combat": 0, "headModels": [21525], "models": [21547], "movementCapabilities": 3, "scaleXZ": 65, "scaleY": 65, "unknown_63": true}]

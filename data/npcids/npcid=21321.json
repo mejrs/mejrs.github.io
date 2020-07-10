@@ -1,1 +1,1 @@
-[{"name": "Kara-Meir", "id": 21321, "x": 3096, "y": 3016, "p": 3}]
+[{"name": "Kara-Meir", "id": 21321, "p": 3, "x": 3096, "y": 3016, "mapId": 28, "mapId_p": 3, "mapId_x": 3096, "mapId_y": 3016, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Replay cutscene", null, null], "animation_group": 2899, "boundSize": 1, "combat": 0, "headModels": [87605], "models": [87760], "movementCapabilities": 1, "respawnDirection": 6}]

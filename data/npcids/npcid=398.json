@@ -1,1 +1,1 @@
-[{"name": "Legends' guard", "id": 398, "x": 2726, "y": 3349, "p": 0}]
+[{"name": "Legends' guard", "id": 398, "p": 0, "x": 2726, "y": 3349, "mapId": 28, "mapId_p": 0, "mapId_x": 2726, "mapId_y": 3349, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 29, "boundSize": 1, "color_replacements": {"10004": 127, "41": 43181, "57": 43218, "61": 43218, "7952": 127, "926": 127}, "combat": 0, "headModels": [38589, 39227], "models": [219, 253, 306, 164, 179, 268, 184, 540, 317], "movementCapabilities": 2}]

@@ -1,0 +1,1 @@
+[{"name": "Cyclops", "morph_names_2": ["Cyclops", "Cyclops"], "id": 23461, "p": 0, "x": 2314, "y": 11192, "mapId": 695, "mapId_p": 0, "mapId_x": 2314, "mapId_y": 11192, "boundSize": 2, "combat": 0, "morphs_2": {"ids": [23469, 23473], "varbit": 33912, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

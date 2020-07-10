@@ -1,1 +1,1 @@
-[{"name": "Leatherworker", "id": 680, "x": 2677, "y": 3434, "p": 0}]
+[{"name": "Leatherworker", "id": 680, "p": 0, "x": 2677, "y": 3434, "mapId": 28, "mapId_p": 0, "mapId_x": 2677, "mapId_y": 3434, "action_cursors": [62, null, 44, null, null, null], "actions": ["Tan hide", null, "Talk to", null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"25238": 43183, "43072": 7446, "6798": 41, "8741": 5033}, "combat": 0, "headModels": [39170, 38760], "models": [396, 457, 332, 176, 436, 479, 444], "movementCapabilities": 3, "texture_replacements": {"620": 619}}]

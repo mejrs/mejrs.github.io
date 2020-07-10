@@ -1,1 +1,1 @@
-[{"name": "Lumbridge guard dog", "id": 14937, "x": 3235, "y": 3228, "p": 0}]
+[{"name": "Lumbridge guard dog", "id": 14937, "p": 0, "x": 3235, "y": 3228, "mapId": 28, "mapId_p": 0, "mapId_x": 3235, "mapId_y": 3228, "animation_group": 3207, "combat": 0, "models": [26253], "movementCapabilities": 1, "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "Aksel", "id": 6663, "x": 3038, "y": 3343, "p": 0}]
+[{"name": "Aksel", "id": 6663, "p": 0, "x": 3038, "y": 3343, "mapId": 28, "mapId_p": 0, "mapId_x": 3038, "mapId_y": 3343, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 2675, "boundSize": 1, "combat": 0, "headModels": [78238], "modelContract": 25, "models": [78310], "movementCapabilities": 1}]

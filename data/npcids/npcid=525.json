@@ -1,1 +1,1 @@
-[{"name": "Shop assistant", "id": 525, "x": 3317, "y": 3182, "p": 0}]
+[{"name": "Shop assistant", "id": 525, "p": 0, "x": 3317, "y": 3182, "mapId": 28, "mapId_p": 0, "mapId_x": 3317, "mapId_y": 3182, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3181, "boundSize": 1, "combat": 0, "headModels": [39167], "models": [40439, 40423, 40416, 40479, 40405, 29683], "movementCapabilities": 3, "unknown_63": true}]

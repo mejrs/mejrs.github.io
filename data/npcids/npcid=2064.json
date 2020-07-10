@@ -1,1 +1,1 @@
-[{"name": "Scarg", "id": 2064, "x": 2380, "y": 3043, "p": 0}]
+[{"name": "Scarg", "id": 2064, "p": 0, "x": 2380, "y": 3043, "mapId": 28, "mapId_p": 0, "mapId_x": 2380, "mapId_y": 3043, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 1476, "boundSize": 2, "color_replacements": {"10760": 912, "17562": 664, "17566": 790, "17571": 788, "17686": 912}, "combat": 0, "headModels": [31791], "models": [46178], "movementCapabilities": 3}]

@@ -1,1 +1,1 @@
-[{"name": "Hisamitsu", "id": 24716, "x": 3170, "y": 2614, "p": 0}]
+[{"name": "Hisamitsu", "id": 24716, "p": 0, "x": 3170, "y": 2614, "mapId": 28, "mapId_p": 0, "mapId_x": 3170, "mapId_y": 2614, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2699, "boundSize": 1, "combat": 0, "extra": {"extra_0019C1": 26}, "headModels": [113707], "models": [113763, 113756, 113761, 113744], "movementCapabilities": 1, "respawnDirection": 0, "texture_replacements": {"7330": 7333}, "unknown_63": true}]

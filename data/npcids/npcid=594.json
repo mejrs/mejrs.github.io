@@ -1,0 +1,1 @@
+[{"name": "Nurmof", "id": 594, "p": 0, "x": 2996, "y": 9844, "mapId": 18, "mapId_p": 0, "mapId_x": 2996, "mapId_y": 9844, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 2, "boundSize": 1, "combat": 0, "headModels": [90026, 90042], "models": [90251, 78297], "movementCapabilities": 3, "unknown_63": true}]

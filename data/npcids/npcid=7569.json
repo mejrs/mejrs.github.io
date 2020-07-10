@@ -1,1 +1,1 @@
-[{"name": "Tool leprechaun", "id": 7569, "x": 3604, "y": 3528, "p": 0}]
+[{"name": "Tool leprechaun", "id": 7569, "p": 0, "x": 3604, "y": 3528, "mapId": 28, "mapId_p": 0, "mapId_x": 3604, "mapId_y": 3528, "action_cursors": [null, null, 44, null, null, null], "actions": ["Exchange", null, "Talk to", "Teleport", "Compost"], "animation_group": 1507, "combat": 0, "headModels": [46765], "models": [46747], "movementCapabilities": 3, "unknown_63": true}]

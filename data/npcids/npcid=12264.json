@@ -1,0 +1,1 @@
+[{"name": "Captain Korasi", "morph_names_1": ["", "Captain Korasi", ""], "id": 12264, "p": 0, "x": 2999, "y": 3374, "mapId": 28, "mapId_p": 0, "mapId_x": 2999, "mapId_y": 3374, "animation_group": 1582, "combat": 0, "morphs_1": {"ids": [-1, 6361, -1], "varbit": 13127, "varp": -1}, "movementCapabilities": 3, "quests": [342], "unknown_63": true}]

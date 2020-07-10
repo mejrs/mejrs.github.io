@@ -1,0 +1,1 @@
+[{"name": "Silver Cog Secretary", "id": 2097, "p": 1, "x": 2891, "y": 10196, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 440, "combat": 0, "headModels": [89991], "models": [90230, 78297, 8642], "movementCapabilities": 1, "unknown_67": 0}]

@@ -1,1 +1,1 @@
-[{"name": "Anna Jones", "id": 5837, "x": 3285, "y": 3468, "p": 0}]
+[{"name": "Anna Jones", "id": 5837, "p": 0, "x": 3285, "y": 3468, "mapId": 28, "mapId_p": 0, "mapId_x": 3285, "mapId_y": 3468, "action_cursors": [44, null, null, null, null, null], "animation_group": 817, "boundSize": 1, "combat": 0, "headModels": [39016, 38746], "members_actions": ["Talk to", null, null, null, null], "models": [23955, 23947, 23956, 19953], "movementCapabilities": 1, "unknown_63": true, "unknown_67": 0}]

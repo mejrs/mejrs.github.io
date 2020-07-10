@@ -1,1 +1,1 @@
-[{"name": "Smith", "id": 3162, "x": 3689, "y": 2954, "p": 0}]
+[{"name": "Smith", "id": 3162, "p": 0, "x": 3689, "y": 2954, "mapId": 28, "mapId_p": 0, "mapId_x": 3689, "mapId_y": 2954, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 35, "combat": 0, "headModels": [39785, 39313], "models": [28787, 28800, 28754, 28758, 28768, 28807, 28763], "movementCapabilities": 3}]

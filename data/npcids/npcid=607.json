@@ -1,1 +1,1 @@
-[{"name": "Gunnjorn", "id": 607, "x": 2540, "y": 3548, "p": 0}]
+[{"name": "Gunnjorn", "id": 607, "p": 0, "x": 2540, "y": 3548, "mapId": 28, "mapId_p": 0, "mapId_x": 2540, "mapId_y": 3548, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "combat": 0, "headModels": [39856, 38097, 39468], "models": [11741, 214, 11746, 252, 11759, 11727, 11732, 11810, 11736, 11764], "movementCapabilities": 3}]

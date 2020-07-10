@@ -1,1 +1,1 @@
-[{"name": "Khazard Guard", "id": 7514, "x": 2578, "y": 3159, "p": 0}]
+[{"name": "Khazard Guard", "id": 7514, "p": 0, "x": 2578, "y": 3159, "mapId": 28, "mapId_p": 0, "mapId_x": 2578, "mapId_y": 3159, "animation_group": 1487, "color_replacements": {"4626": 28, "6044": 5400, "61": 28, "926": 5231}, "combat": 0, "models": [22311, 246, 22314, 152, 177, 8748, 181, 550, 40297], "movementCapabilities": 1, "unknown_67": 0}]

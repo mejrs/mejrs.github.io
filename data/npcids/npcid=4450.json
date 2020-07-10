@@ -1,0 +1,1 @@
+[{"name": "Butterfly", "id": 4450, "p": 0, "x": 3031, "y": 4493, "mapId": 175, "mapId_p": 0, "mapId_x": 3031, "mapId_y": 4493, "ambience": 25, "animateIdle": false, "animation_group": 89, "boundSize": 1, "color_replacements": {"32889": 5351, "39386": 5351, "39892": 5351}, "combat": 0, "models": [3023], "movementCapabilities": 3}]

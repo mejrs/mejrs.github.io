@@ -1,1 +1,1 @@
-[{"name": "Garkor", "id": 1411, "x": 2805, "y": 2762, "p": 0}]
+[{"name": "Garkor", "id": 1411, "p": 0, "x": 2805, "y": 2762, "mapId": 28, "mapId_p": 0, "mapId_x": 2805, "mapId_y": 2762, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 108, "combat": 0, "headModels": [63379, 42660], "modelContract": 20, "models": [63082, 62929, 62938, 63140], "movementCapabilities": 3, "scaleXZ": 135, "scaleY": 135}]

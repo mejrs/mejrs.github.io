@@ -1,1 +1,1 @@
-[{"name": "Hugh", "id": 24073, "x": 3285, "y": 2916, "p": 0}]
+[{"name": "Hugh", "id": 24073, "p": 0, "x": 3285, "y": 2916, "mapId": 28, "mapId_p": 0, "mapId_x": 3285, "mapId_y": 2916, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 90, "boundSize": 1, "combat": 0, "headModels": [21525], "models": [21547], "movementCapabilities": 3, "quests": [389], "scaleXZ": 75, "scaleY": 75, "unknown_63": true}]

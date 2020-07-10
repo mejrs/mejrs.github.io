@@ -1,1 +1,1 @@
-[{"name": "Sanfew", "id": 454, "x": 2916, "y": 3438, "p": 0}]
+[{"name": "Sanfew", "id": 454, "p": 0, "x": 2916, "y": 3438, "mapId": 28, "mapId_p": 0, "mapId_x": 2916, "mapId_y": 3438, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 10, "animation_group": 123, "boundSize": 1, "combat": 0, "headModels": [27854], "modelContract": 10, "models": [97074], "movementCapabilities": 1}]

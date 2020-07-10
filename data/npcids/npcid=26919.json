@@ -1,0 +1,1 @@
+[{"name": "Trainee", "id": 26919, "p": 0, "x": 3380, "y": 3382, "mapId": 28, "mapId_p": 0, "mapId_x": 3380, "mapId_y": 3382, "animation_group": 2699, "color_replacements": {"2473": 278, "40355": 44324, "6582": 7461, "6585": 3241}, "combat": 0, "headModels": [39630, 38096], "models": [230, 251, 20848, 20852, 20850, 20888], "movementCapabilities": 1}]

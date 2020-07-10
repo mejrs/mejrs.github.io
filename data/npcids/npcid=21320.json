@@ -1,1 +1,1 @@
-[{"name": "Garlandia", "id": 21320, "x": 3095, "y": 3016, "p": 3}]
+[{"name": "Garlandia", "id": 21320, "p": 3, "x": 3095, "y": 3016, "mapId": 28, "mapId_p": 3, "mapId_x": 3095, "mapId_y": 3016, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 3024, "boundSize": 1, "combat": 0, "headModels": [92180], "models": [92340], "movementCapabilities": 1, "respawnDirection": 2, "unknown_63": true}]

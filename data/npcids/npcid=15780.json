@@ -1,1 +1,1 @@
-[{"name": "Challenge Mistress Fara", "id": 15780, "x": 2888, "y": 3530, "p": 0}]
+[{"name": "Challenge Mistress Fara", "id": 15780, "p": 0, "x": 2888, "y": 3530, "mapId": 28, "mapId_p": 0, "mapId_x": 2888, "mapId_y": 3530, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Turn in challenges", null, null], "ambience": 25, "animation_group": 3069, "boundSize": 1, "combat": 0, "headModels": [93728], "models": [93720, 93721], "movementCapabilities": 1, "unknown_63": true, "unknown_67": 0}]

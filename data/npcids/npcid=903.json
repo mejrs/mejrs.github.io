@@ -1,0 +1,1 @@
+[{"name": "Lundail", "id": 903, "p": 0, "x": 2534, "y": 4719, "mapId": 6, "mapId_p": 0, "mapId_x": 3110, "mapId_y": 10359, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3183, "combat": 0, "headModels": [39799, 38097], "models": [230, 252, 303, 173, 176, 274, 185], "movementCapabilities": 3}]

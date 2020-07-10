@@ -1,1 +1,1 @@
-[{"name": "The Monkey's Aunt", "id": 1454, "x": 2738, "y": 2794, "p": 0}]
+[{"name": "The Monkey's Aunt", "id": 1454, "p": 0, "x": 2738, "y": 2794, "mapId": 28, "mapId_p": 0, "mapId_x": 2738, "mapId_y": 2794, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 177, "combat": 0, "headModels": [4658], "models": [4819, 4826], "movementCapabilities": 2, "scaleXZ": 160, "scaleY": 160}]

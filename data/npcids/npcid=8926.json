@@ -1,0 +1,1 @@
+[{"name": "Masterwork fanatic", "id": 8926, "p": 1, "x": 160, "y": 160, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Request info", null, null], "ambience": 20, "animation_group": 4, "boundSize": 1, "combat": 0, "headModels": [71271], "modelContract": 25, "models": [71775, 71789, 71778, 71825, 71796, 72022], "movementCapabilities": 3}]

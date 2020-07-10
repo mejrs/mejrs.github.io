@@ -1,0 +1,1 @@
+[{"name": "Linza", "morph_names_1": ["", "Linza", ""], "id": 3479, "p": 1, "x": 2906, "y": 3514, "mapId": 28, "mapId_p": 1, "mapId_x": 2906, "mapId_y": 3514, "animation_group": 2111, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, 6531, -1], "varbit": 31409, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 6}]

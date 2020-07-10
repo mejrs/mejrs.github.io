@@ -1,1 +1,1 @@
-[{"name": "Assistant archaeologist Kerner", "id": 6787, "x": 3408, "y": 2813, "p": 1}]
+[{"name": "Assistant archaeologist Kerner", "id": 6787, "p": 1, "x": 3408, "y": 2813, "mapId": 28, "mapId_p": 1, "mapId_x": 3408, "mapId_y": 2813, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 1128, "boundSize": 1, "combat": 0, "headModels": [39619, 39474], "models": [30855, 30854], "movementCapabilities": 1, "unknown_63": true}]

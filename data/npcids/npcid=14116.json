@@ -1,1 +1,1 @@
-[{"name": "Vyrewatch guard", "id": 14116, "x": 3603, "y": 3322, "p": 0}]
+[{"name": "Vyrewatch guard", "id": 14116, "p": 0, "x": 3603, "y": 3322, "mapId": 28, "mapId_p": 0, "mapId_x": 3603, "mapId_y": 3322, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 2140, "combat": 0, "headModels": [52474], "modelContract": 25, "models": [23377], "movementCapabilities": 1, "respawnDirection": 0}]

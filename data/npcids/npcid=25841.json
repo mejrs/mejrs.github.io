@@ -1,1 +1,1 @@
-[{"name": "Pickle the cat", "id": 25841, "x": 2653, "y": 3357, "p": 0}]
+[{"name": "Pickle the cat", "id": 25841, "p": 0, "x": 2653, "y": 3357, "mapId": 28, "mapId_p": 0, "mapId_x": 2653, "mapId_y": 3357, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2790, "combat": 0, "headModels": [119258], "models": [119433], "movementCapabilities": 3, "respawnDirection": 6, "texture_replacements": {"8618": 8632}, "unknown_63": true}]

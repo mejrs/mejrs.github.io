@@ -1,0 +1,1 @@
+[{"name": "Bill Teach", "id": 25382, "p": 0, "x": 2780, "y": 1514, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 4205, "combat": 0, "headModels": [27824], "models": [28084], "movementCapabilities": 3, "respawnDirection": 0, "unknown_63": true}]

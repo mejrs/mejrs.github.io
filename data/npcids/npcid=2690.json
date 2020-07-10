@@ -1,1 +1,1 @@
-[{"name": "Jack Seagull", "id": 2690, "x": 3047, "y": 3256, "p": 0}]
+[{"name": "Jack Seagull", "id": 2690, "p": 0, "x": 3047, "y": 3256, "mapId": 28, "mapId_p": 0, "mapId_x": 3047, "mapId_y": 3256, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 79, "color_replacements": {"10378": 2332, "6798": 6445, "8741": 1709, "9104": 1829}, "combat": 0, "headModels": [39947, 38097], "models": [206, 252, 292, 3667, 151, 10218, 6098, 5218], "movementCapabilities": 3, "recolor_indices": [-1, 0, 1, -1, 2, 3]}]

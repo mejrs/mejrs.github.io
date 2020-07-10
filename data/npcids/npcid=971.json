@@ -1,1 +1,1 @@
-[{"name": "Chadwell", "id": 971, "x": 2464, "y": 3287, "p": 0}]
+[{"name": "Chadwell", "id": 971, "p": 0, "x": 2464, "y": 3287, "mapId": 28, "mapId_p": 0, "mapId_x": 2464, "mapId_y": 3287, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3179, "boundSize": 1, "combat": 0, "headModels": [39630], "models": [230, 292, 254, 246, 173, 181, 176], "movementCapabilities": 3}]

@@ -1,1 +1,1 @@
-[{"name": "Saradominist preacher", "id": 18251, "x": 3198, "y": 3213, "p": 0}]
+[{"name": "Saradominist preacher", "id": 18251, "p": 0, "x": 3198, "y": 3213, "mapId": 28, "mapId_p": 0, "mapId_x": 3198, "mapId_y": 3213, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Replay opening cutscene", "Replay finale cutscene", null], "animation_group": 4, "combat": 0, "headModels": [87627], "models": [87658, 87656, 87717, 87664, 87663, 87721], "movementCapabilities": 1}]

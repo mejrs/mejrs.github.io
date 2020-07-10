@@ -1,0 +1,1 @@
+[{"name": "Noodle", "morph_names_1": ["", "Noodle", ""], "id": 24101, "p": 0, "x": 4975, "y": 122, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 3995, "combat": 0, "morphs_1": {"ids": [24086, 24102, -1], "varbit": 35037, "varp": -1}, "movementCapabilities": 3}]

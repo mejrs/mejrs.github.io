@@ -1,1 +1,1 @@
-[{"name": "Robin", "id": 1694, "x": 3672, "y": 3491, "p": 0}]
+[{"name": "Robin", "id": 1694, "p": 0, "x": 3672, "y": 3491, "mapId": 28, "mapId_p": 0, "mapId_x": 3672, "mapId_y": 3491, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 4, "color_replacements": {"25238": 17818, "4626": 16912}, "combat": 0, "headModels": [39836, 39254, 10524], "models": [215, 249, 20672, 179, 20661, 20659, 20660, 90605], "movementCapabilities": 3}]

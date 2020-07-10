@@ -1,0 +1,1 @@
+[{"name": "Coenus", "morph_names_1": ["Coenus", ""], "id": 24661, "p": 0, "x": 3242, "y": 2729, "mapId": 28, "mapId_p": 0, "mapId_x": 3242, "mapId_y": 2729, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [24666, -1], "varbit": 36142, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 6, "unknown_67": 0}]

@@ -1,0 +1,1 @@
+[{"name": "Bouncer", "id": 15696, "p": 1, "x": 3560, "y": 5915, "actions": ["Encourage", null, null, null, null], "ambient_sound": [2901, 28461, 28461, 28461, 8], "animation_group": 2580, "boundSize": 1, "combat": 0, "headModels": [72241], "models": [72265], "movementCapabilities": 1, "quests": [204], "unknown_8C": 100}]

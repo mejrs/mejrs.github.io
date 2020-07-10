@@ -1,1 +1,1 @@
-[{"name": "Tamble", "id": 4574, "x": 2442, "y": 3503, "p": 0}]
+[{"name": "Tamble", "id": 4574, "p": 0, "x": 2442, "y": 3503, "mapId": 28, "mapId_p": 0, "mapId_x": 2442, "mapId_y": 3503, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 108, "color_replacements": {"6227": 6793}, "combat": 0, "headModels": [63390, 42662, 63311], "modelContract": 20, "models": [62942, 63001, 63104, 62891, 62911, 63022], "movementCapabilities": 3}]

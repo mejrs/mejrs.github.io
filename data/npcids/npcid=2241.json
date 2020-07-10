@@ -1,1 +1,1 @@
-[{"name": "Grand Exchange clerk", "id": 2241, "x": 3159, "y": 3493, "p": 0}]
+[{"name": "Grand Exchange clerk", "id": 2241, "p": 0, "x": 3159, "y": 3493, "mapId": 28, "mapId_p": 0, "mapId_x": 3159, "mapId_y": 3493, "action_cursors": [null, null, 44, null, null, null], "actions": ["Exchange", null, "Talk-to", "History", "Favourites"], "animation_group": 2156, "boundSize": 1, "combat": 0, "headModels": [40033], "models": [29908, 29904], "movementCapabilities": 1, "respawnDirection": 6, "unknown_63": true, "unknown_67": 0}]

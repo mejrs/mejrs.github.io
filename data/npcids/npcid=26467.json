@@ -1,1 +1,1 @@
-[{"name": "Scott", "id": 26467, "x": 5560, "y": 2351, "p": 0}]
+[{"name": "Scott", "id": 26467, "p": 0, "x": 5560, "y": 2351, "mapId": 28, "mapId_p": 0, "mapId_x": 4088, "mapId_y": 4335, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "ambience": 15, "animation_group": 4291, "boundSize": 1, "combat": 0, "headModels": [34834], "models": [34766, 34830, 34833], "movementCapabilities": 3}]

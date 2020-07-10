@@ -1,0 +1,1 @@
+[{"name": "Instruction cube (put)", "id": 6623, "p": 0, "x": 4105, "y": 5542, "mapId": 422, "mapId_p": 0, "mapId_x": 4105, "mapId_y": 5542, "actions": ["Look-at", null, null, null, null], "ambience": 15, "combat": 0, "drawMapDot": false, "modelContract": 10, "models": [63695], "movementCapabilities": 1, "quests": [344], "unknown_67": 0}]

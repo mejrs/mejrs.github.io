@@ -1,1 +1,1 @@
-[{"name": "Nurse", "id": 15017, "x": 2932, "y": 3571, "p": 0}]
+[{"name": "Nurse", "id": 15017, "p": 0, "x": 2932, "y": 3571, "mapId": 28, "mapId_p": 0, "mapId_x": 2932, "mapId_y": 3571, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 2342, "boundSize": 1, "combat": 0, "headModels": [48629], "models": [49478], "movementCapabilities": 1, "unknown_63": true}]

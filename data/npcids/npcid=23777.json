@@ -1,0 +1,1 @@
+[{"name": "Padomenes", "morph_names_1": ["Padomenes", "Padomenes", ""], "id": 23777, "p": 0, "x": 2977, "y": 3342, "mapId": 28, "mapId_p": 0, "mapId_x": 2977, "mapId_y": 3342, "boundSize": 2, "combat": 0, "morphs_1": {"ids": [23778, 23778, -1], "varbit": 34589, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 6}]

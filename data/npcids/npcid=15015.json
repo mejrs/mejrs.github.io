@@ -1,1 +1,1 @@
-[{"name": "Herbalist", "id": 15015, "x": 2918, "y": 3487, "p": 0}]
+[{"name": "Herbalist", "id": 15015, "p": 0, "x": 2918, "y": 3487, "mapId": 28, "mapId_p": 0, "mapId_x": 2918, "mapId_y": 3487, "animation_group": 2354, "boundSize": 1, "color_replacements": {"39936": 8717, "64524": 8729, "64538": 8743, "8192": 8721}, "combat": 0, "headModels": [9], "models": [49646], "movementCapabilities": 1, "respawnDirection": 0, "unknown_63": true}]

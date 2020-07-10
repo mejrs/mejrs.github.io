@@ -1,1 +1,1 @@
-[{"name": "Markus", "id": 16839, "x": 3419, "y": 3525, "p": 0}]
+[{"name": "Markus", "id": 16839, "p": 0, "x": 3419, "y": 3525, "mapId": 28, "mapId_p": 0, "mapId_x": 3419, "mapId_y": 3525, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Contract", null, null], "animation_group": 2202, "boundSize": 1, "combat": 0, "drawMapDot": false, "headModels": [83755], "modelContract": 25, "models": [83762], "movementCapabilities": 1, "unknown_63": true, "unknown_67": 0, "unknown_A3": 0}]

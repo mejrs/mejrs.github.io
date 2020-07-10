@@ -1,1 +1,1 @@
-[{"name": "Mountain Goat", "id": 5167, "x": 2793, "y": 3674, "p": 0}]
+[{"name": "Mountain Goat", "id": 5167, "p": 0, "x": 2793, "y": 3674, "mapId": 28, "mapId_p": 0, "mapId_x": 2793, "mapId_y": 3674, "animation_group": 63, "boundSize": 1, "color_replacements": {"5268": 10421, "5388": 8406, "5392": 8400, "8371": 7370, "8384": 7496, "8390": 7504}, "combat": 0, "models": [20273, 20281, 20277], "movementCapabilities": 3, "scaleXZ": 110, "scaleY": 110}]

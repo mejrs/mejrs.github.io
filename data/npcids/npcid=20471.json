@@ -1,1 +1,1 @@
-[{"name": "Eilwynn", "id": 20471, "x": 2146, "y": 3385, "p": 1}]
+[{"name": "Eilwynn", "id": 20471, "p": 1, "x": 2146, "y": 3385, "actions": ["Hand Chronicles", null, null, null, null], "animation_group": 2699, "combat": 0, "headModels": [97172], "models": [97364, 97219, 97218, 97221, 97217, 97223], "movementCapabilities": 1, "texture_replacements": {"4840": 4837}}]

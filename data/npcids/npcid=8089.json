@@ -1,0 +1,1 @@
+[{"name": "Rock", "id": 8089, "p": 0, "x": 3029, "y": 3349, "mapId": 28, "mapId_p": 0, "mapId_x": 3029, "mapId_y": 3349, "animateIdle": false, "animation_group": 4, "boundSize": 2, "combat": 0, "drawMapDot": false, "models": [1406], "movementCapabilities": 1, "unknown_6B": false, "unknown_8F": true}]

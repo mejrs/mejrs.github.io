@@ -1,1 +1,1 @@
-[{"name": "Strange bird", "id": 26571, "x": 5487, "y": 2096, "p": 0}]
+[{"name": "Strange bird", "id": 26571, "p": 0, "x": 5487, "y": 2096, "mapId": 28, "mapId_p": 0, "mapId_x": 4015, "mapId_y": 4080, "actions": ["Inspect", null, null, null, null], "ambience": 30, "animation_group": 3876, "boundSize": 1, "combat": 0, "drawMapDot": false, "models": [115010, 115009], "movementCapabilities": 3, "movementType": 0, "unknown_A3": 1}]

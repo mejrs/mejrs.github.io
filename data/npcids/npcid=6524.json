@@ -1,1 +1,1 @@
-[{"name": "Bob Barter (herbs)", "id": 6524, "x": 3148, "y": 3498, "p": 0}]
+[{"name": "Bob Barter (herbs)", "id": 6524, "p": 0, "x": 3148, "y": 3498, "mapId": 28, "mapId_p": 0, "mapId_x": 3148, "mapId_y": 3498, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Info-herbs", "Decant", null], "animation_group": 1252, "combat": 0, "headModels": [39773], "models": [29910], "movementCapabilities": 1, "unknown_63": true}]

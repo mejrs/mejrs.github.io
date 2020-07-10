@@ -1,1 +1,1 @@
-[{"name": "Achietties", "id": 796, "x": 2918, "y": 3513, "p": 0}]
+[{"name": "Achietties", "id": 796, "p": 0, "x": 2918, "y": 3513, "mapId": 28, "mapId_p": 0, "mapId_x": 2918, "mapId_y": 3513, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 4, "color_replacements": {"25238": 926, "5532": 61, "6798": 6620}, "combat": 0, "headModels": [39016, 38891, 38799], "models": [393, 376, 468, 430, 179, 360, 339, 417, 541, 518], "movementCapabilities": 3, "texture_replacements": {"745": 746}}]

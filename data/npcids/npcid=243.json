@@ -1,1 +1,1 @@
-[{"name": "Sir Tristram", "id": 243, "x": 2755, "y": 3512, "p": 1}]
+[{"name": "Sir Tristram", "id": 243, "p": 1, "x": 2755, "y": 3512, "mapId": 28, "mapId_p": 1, "mapId_x": 2755, "mapId_y": 3512, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 2100, "boundSize": 1, "combat": 0, "headModels": [39718], "models": [27127, 27195, 27203], "movementCapabilities": 3}]

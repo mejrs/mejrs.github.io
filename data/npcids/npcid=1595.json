@@ -1,1 +1,1 @@
-[{"name": "Saniboch", "id": 1595, "x": 2745, "y": 3152, "p": 0}]
+[{"name": "Saniboch", "id": 1595, "p": 0, "x": 2745, "y": 3152, "mapId": 28, "mapId_p": 0, "mapId_x": 2745, "mapId_y": 3152, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Pay", null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"4533": 6794, "4540": 6798, "4550": 6802, "4554": 6804}, "combat": 0, "headModels": [39778, 39251], "models": [231, 246, 315, 33034, 10218, 279, 33033, 281], "movementCapabilities": 3, "scaleXZ": 135, "scaleY": 128}]

@@ -1,1 +1,1 @@
-[{"name": "Parroty Pete", "id": 1216, "x": 2611, "y": 3285, "p": 0}]
+[{"name": "Parroty Pete", "id": 1216, "p": 0, "x": 2611, "y": 3285, "mapId": 28, "mapId_p": 0, "mapId_x": 2611, "mapId_y": 3285, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 25, "animation_group": 4, "boundSize": 1, "color_replacements": {"43569": 9664, "6798": 7598}, "combat": 0, "headModels": [39836, 38096, 39481], "models": [47091], "movementCapabilities": 3}]

@@ -1,0 +1,1 @@
+[{"name": "Hierophant Marius", "morph_names_1": ["", "", "Hierophant Marius", ""], "id": 18046, "p": 1, "x": 3022, "y": 3545, "mapId": 28, "mapId_p": 1, "mapId_x": 3022, "mapId_y": 3545, "combat": 0, "morphs_1": {"ids": [-1, -1, 18043, -1], "varbit": 20005, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 0, "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "House", "id": 4512, "x": 2082, "y": 3929, "p": 0}]
+[{"name": "House", "id": 4512, "p": 0, "x": 2082, "y": 3929, "mapId": 28, "mapId_p": 0, "mapId_x": 2082, "mapId_y": 3929, "actions": ["Go-inside", null, null, null, null], "ambience": 10, "animation_group": 873, "boundSize": 5, "combat": 0, "drawMapDot": false, "modelContract": 10, "models": [16736, 16735, 16737], "movementCapabilities": 3, "scaleXZ": 215, "scaleY": 215, "unknown_63": true}]

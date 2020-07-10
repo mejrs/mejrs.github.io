@@ -1,1 +1,1 @@
-[{"name": "Bruce", "id": 25568, "x": 3087, "y": 3505, "p": 0}]
+[{"name": "Bruce", "id": 25568, "p": 0, "x": 3087, "y": 3505, "mapId": 28, "mapId_p": 0, "mapId_x": 3087, "mapId_y": 3505, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "color_replacements": {"25238": 6430, "4626": 8, "6798": 4888, "8741": 43160}, "combat": 0, "headModels": [39630, 39223], "models": [230, 246, 292, 326, 151, 177, 12138, 181], "movementCapabilities": 3}]

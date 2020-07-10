@@ -1,0 +1,1 @@
+[{"name": "Knight of Ardougne", "morph_names_1": ["Mourner", "Knight of Ardougne", ""], "id": 719, "p": 0, "x": 2560, "y": 3288, "mapId": 28, "mapId_p": 0, "mapId_x": 2560, "mapId_y": 3288, "combat": 0, "morphs_1": {"ids": [19641, 19548, -1], "varbit": 23226, "varp": -1}, "movementCapabilities": 3}]

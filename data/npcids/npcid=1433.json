@@ -1,1 +1,1 @@
-[{"name": "Solihib", "id": 1433, "x": 2769, "y": 2789, "p": 0}]
+[{"name": "Solihib", "id": 1433, "p": 0, "x": 2769, "y": 2789, "mapId": 28, "mapId_p": 0, "mapId_x": 2769, "mapId_y": 2789, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 177, "color_replacements": {"20": 28, "7469": 40130}, "combat": 0, "headModels": [4659], "models": [4820, 4827], "movementCapabilities": 3, "scaleXZ": 170, "scaleY": 150}]

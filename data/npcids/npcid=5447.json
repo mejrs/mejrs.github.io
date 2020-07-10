@@ -1,1 +1,1 @@
-[{"name": "Agility Instructor", "id": 5447, "x": 2653, "y": 4038, "p": 1}]
+[{"name": "Agility Instructor", "id": 5447, "p": 1, "x": 2653, "y": 4038, "mapId": 28, "mapId_p": 1, "mapId_x": 2653, "mapId_y": 4038, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 1211, "boundSize": 1, "combat": 0, "headModels": [21525], "models": [21547, 21548], "movementCapabilities": 3, "scaleXZ": 75, "scaleY": 75, "unknown_63": true}]

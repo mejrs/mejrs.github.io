@@ -1,1 +1,1 @@
-[{"name": "Baby platypus", "id": 7024, "x": 2523, "y": 2823, "p": 0}]
+[{"name": "Baby platypus", "id": 7024, "p": 0, "x": 2523, "y": 2823, "mapId": 28, "mapId_p": 0, "mapId_x": 2523, "mapId_y": 2823, "ambience": 25, "animation_group": 1156, "boundSize": 1, "combat": 0, "extra": {"attack_speed": 5}, "modelContract": 10, "models": [31817], "movementCapabilities": 3}]

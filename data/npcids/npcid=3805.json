@@ -1,1 +1,1 @@
-[{"name": "Postie Pete", "id": 3805, "x": 2446, "y": 3097, "p": 0}]
+[{"name": "Postie Pete", "id": 3805, "p": 0, "x": 2446, "y": 3097, "mapId": 28, "mapId_p": 0, "mapId_x": 2446, "mapId_y": 3097, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 3411, "boundSize": 1, "combat": 0, "headModels": [102529], "models": [102629], "movementCapabilities": 1}]

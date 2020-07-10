@@ -1,1 +1,1 @@
-[{"name": "Pheasant", "id": 16858, "x": 2628, "y": 3490, "p": 0}]
+[{"name": "Pheasant", "id": 16858, "p": 0, "x": 2628, "y": 3490, "mapId": 28, "mapId_p": 0, "mapId_x": 2628, "mapId_y": 3490, "actions": [null, "Attack", null, null, null], "animation_group": 680, "attackCursor": 42, "boundSize": 1, "combat": 4, "models": [8839, 8840], "movementCapabilities": 3, "scaleXZ": 30, "scaleY": 30}]

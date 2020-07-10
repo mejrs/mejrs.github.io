@@ -1,1 +1,1 @@
-[{"name": "Mess Sergeant Ramsey", "id": 14881, "x": 2896, "y": 3442, "p": 0}]
+[{"name": "Mess Sergeant Ramsey", "id": 14881, "p": 0, "x": 2896, "y": 3442, "mapId": 28, "mapId_p": 0, "mapId_x": 2896, "mapId_y": 3442, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, "Trade"], "ambience": 25, "animation_group": 2327, "boundSize": 1, "combat": 0, "headModels": [48806], "modelContract": 15, "models": [49230, 60144], "movementCapabilities": 1, "respawnDirection": 6, "unknown_63": true}]

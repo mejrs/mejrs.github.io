@@ -1,1 +1,1 @@
-[{"name": "Labrador", "id": 6895, "x": 2932, "y": 3431, "p": 1}]
+[{"name": "Labrador", "id": 6895, "p": 1, "x": 2932, "y": 3431, "mapId": 28, "mapId_p": 1, "mapId_x": 2932, "mapId_y": 3431, "ambience": 25, "animation_group": 1337, "combat": 0, "models": [30444], "movementCapabilities": 3}]

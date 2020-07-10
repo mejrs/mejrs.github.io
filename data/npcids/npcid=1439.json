@@ -1,1 +1,1 @@
-[{"name": "Denadu", "id": 1439, "x": 2805, "y": 2788, "p": 1}]
+[{"name": "Denadu", "id": 1439, "p": 1, "x": 2805, "y": 2788, "mapId": 28, "mapId_p": 1, "mapId_x": 2805, "mapId_y": 2788, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 723, "combat": 0, "headModels": [4656], "models": [4815, 4824, 4829], "movementCapabilities": 3, "scaleXZ": 180, "scaleY": 180}]

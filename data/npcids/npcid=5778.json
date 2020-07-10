@@ -1,0 +1,1 @@
+[{"name": "Bartak", "id": 5778, "p": 0, "x": 2708, "y": 5275, "mapId": 26, "mapId_p": 0, "mapId_x": 20, "mapId_y": 27, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 214, "combat": 0, "headModels": [23223, 23246], "models": [23660, 23702, 23631], "movementCapabilities": 3, "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "Freda", "id": 15099, "x": 2820, "y": 3556, "p": 0}]
+[{"name": "Freda", "id": 15099, "p": 0, "x": 2820, "y": 3556, "mapId": 28, "mapId_p": 0, "mapId_x": 2820, "mapId_y": 3556, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 2403, "boundSize": 1, "combat": 0, "headModels": [53562], "modelContract": 25, "models": [50918], "movementCapabilities": 3, "quests": [140], "unknown_63": true}]

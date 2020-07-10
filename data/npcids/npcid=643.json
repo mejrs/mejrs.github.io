@@ -1,1 +1,1 @@
-[{"name": "Weaponsmaster", "id": 643, "x": 3246, "y": 3384, "p": 1}]
+[{"name": "Weaponsmaster", "id": 643, "p": 1, "x": 3246, "y": 3384, "mapId": 28, "mapId_p": 1, "mapId_x": 3246, "mapId_y": 3384, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 4, "color_replacements": {"25238": 10508, "8741": 6930}, "combat": 0, "headModels": [39799, 39254], "models": [230, 249, 56860, 176, 56899, 185, 79815], "movementCapabilities": 3, "unknown_63": true}]

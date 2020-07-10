@@ -1,1 +1,1 @@
-[{"name": "Mandrith", "id": 6537, "x": 3091, "y": 3495, "p": 0}]
+[{"name": "Mandrith", "id": 6537, "p": 0, "x": 3091, "y": 3495, "mapId": 28, "mapId_p": 0, "mapId_x": 3091, "mapId_y": 3495, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Get-task", "Trade", "Rewards"], "ambience": 25, "animation_group": 353, "combat": 0, "headModels": [40667], "modelContract": 25, "models": [47242], "movementCapabilities": 1, "respawnDirection": 2, "unknown_63": true}]

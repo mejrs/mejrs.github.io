@@ -1,1 +1,1 @@
-[{"name": "Piglet", "id": 2243, "x": 3075, "y": 3259, "p": 0}]
+[{"name": "Piglet", "id": 2243, "p": 0, "x": 2115, "y": 4923, "mapId": 329, "mapId_p": 0, "mapId_x": 2115, "mapId_y": 4923, "ambience": 15, "animation_group": 1902, "combat": 0, "models": [49771], "movementCapabilities": 3}, {"name": "Piglet", "id": 2243, "p": 0, "x": 3075, "y": 3259, "mapId": 28, "mapId_p": 0, "mapId_x": 3075, "mapId_y": 3259, "ambience": 15, "animation_group": 1902, "combat": 0, "models": [49771], "movementCapabilities": 3}]

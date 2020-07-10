@@ -1,0 +1,1 @@
+[{"name": "Emmett", "morph_names_1": ["Emmett", "", "", "", "", "Emmett", ""], "id": 14801, "p": 0, "x": 2361, "y": 3381, "mapId": 28, "mapId_p": 0, "mapId_x": 2361, "mapId_y": 3381, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [14802, -1, -1, -1, -1, 14802, -1], "varbit": 11683, "varp": -1}, "movementCapabilities": 1, "unknown_63": true}]

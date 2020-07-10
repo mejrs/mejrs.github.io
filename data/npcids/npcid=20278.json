@@ -1,0 +1,1 @@
+[{"name": "Madoc", "morph_names_1": ["", "", "", "", "", "", "", "", "", "Madoc", "Madoc", ""], "id": 20278, "p": 1, "x": 2186, "y": 3397, "animation_group": 4298, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, -1, -1, -1, -1, -1, -1, -1, -1, 20279, 20280, -1], "varbit": 25899, "varp": -1}, "movementCapabilities": 3, "unknown_8F": true}]

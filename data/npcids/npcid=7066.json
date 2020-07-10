@@ -1,0 +1,1 @@
+[{"name": "Trader Crewmember", "morph_names_1": ["", "Trader Crewmember", ""], "id": 7066, "p": 0, "x": 2619, "y": 2856, "mapId": 28, "mapId_p": 0, "mapId_x": 2619, "mapId_y": 2856, "animation_group": 3183, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, 4651, -1], "varbit": 14042, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

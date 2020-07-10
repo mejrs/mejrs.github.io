@@ -1,0 +1,1 @@
+[{"name": "Mystery figure", "id": 3055, "p": 0, "x": 3160, "y": 9771, "mapId": 31, "mapId_p": 0, "mapId_x": 3160, "mapId_y": 9771, "animation_group": 1268, "boundSize": 2, "color_replacements": {"7582": 10266}, "combat": 0, "headModels": [26111], "models": [26163, 26161], "movementCapabilities": 1, "respawnDirection": 6}]

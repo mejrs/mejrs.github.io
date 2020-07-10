@@ -1,1 +1,1 @@
-[{"name": "Mushroom", "id": 1139, "x": 2839, "y": 3683, "p": 0}]
+[{"name": "Mushroom", "id": 1139, "p": 0, "x": 2839, "y": 3683, "mapId": 28, "mapId_p": 0, "mapId_x": 2839, "mapId_y": 3683, "animation_group": 1982, "boundSize": 2, "combat": 0, "extra": {"accuracy_magic": 0, "accuracy_melee_(npc)": 928, "accuracy_ranged": 0, "armor": 928, "attack_speed": 6, "combat_style": 1, "damage_magic": 0, "damage_melee": 3180, "damage_ranged": 0, "slayer_task_id": 18, "weakness": 2}, "models": [62665, 44722, 44710, 64521], "movementCapabilities": 1, "scaleXZ": 142, "scaleY": 142}]

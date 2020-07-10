@@ -1,1 +1,1 @@
-[{"name": "Marfet", "id": 5940, "x": 3262, "y": 3442, "p": 1}]
+[{"name": "Marfet", "id": 5940, "p": 1, "x": 3262, "y": 3442, "mapId": 28, "mapId_p": 1, "mapId_x": 3262, "mapId_y": 3442, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 29, "boundSize": 1, "combat": 0, "headModels": [39836, 39412, 38096], "models": [4115, 215, 251, 4117, 4112, 4113, 79931, 4116, 4114], "movementCapabilities": 3}]

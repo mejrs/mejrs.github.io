@@ -1,1 +1,1 @@
-[{"name": "Faruq", "id": 9159, "x": 3301, "y": 3208, "p": 0}]
+[{"name": "Faruq", "id": 9159, "p": 0, "x": 3301, "y": 3208, "mapId": 28, "mapId_p": 0, "mapId_x": 3301, "mapId_y": 3208, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "ambience": 20, "animation_group": 1565, "boundSize": 1, "color_replacements": {"36824": 3014, "4540": 4637, "4550": 4645}, "combat": 0, "headModels": [47822, 40003, 47823], "modelContract": 25, "models": [47858], "movementCapabilities": 1, "respawnDirection": 6, "unknown_63": true}]

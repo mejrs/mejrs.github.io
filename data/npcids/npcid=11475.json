@@ -1,1 +1,1 @@
-[{"name": "Dealga", "id": 11475, "x": 3206, "y": 3400, "p": 0}]
+[{"name": "Dealga", "id": 11475, "p": 0, "x": 3206, "y": 3400, "mapId": 28, "mapId_p": 0, "mapId_x": 3206, "mapId_y": 3400, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 1340, "color_replacements": {"33": 7693, "66": 7711, "70": 7715, "78": 7723}, "combat": 0, "headModels": [31173], "models": [57759], "movementCapabilities": 3}]

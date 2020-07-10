@@ -1,0 +1,1 @@
+[{"name": "Wizard Vief", "id": 8030, "p": 2, "x": 1701, "y": 5465, "mapId": 109, "mapId_p": 0, "mapId_x": 1701, "mapId_y": 5465, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Join", null, null], "ambience": 25, "animation_group": 365, "combat": 0, "headModels": [39795], "models": [41465], "movementCapabilities": 3, "unknown_63": true}]

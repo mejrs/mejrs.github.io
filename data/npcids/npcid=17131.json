@@ -1,1 +1,1 @@
-[{"name": "Murknose, Emissary of Bandos", "id": 17131, "x": 2957, "y": 3490, "p": 0}]
+[{"name": "Murknose, Emissary of Bandos", "id": 17131, "p": 0, "x": 2957, "y": 3490, "mapId": 28, "mapId_p": 0, "mapId_x": 2957, "mapId_y": 3490, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2856, "boundSize": 1, "combat": 0, "headModels": [86017], "members_actions": [null, null, "Check jobs", null, null], "models": [86210], "movementCapabilities": 1, "unknown_63": true}]

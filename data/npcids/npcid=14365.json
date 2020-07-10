@@ -1,0 +1,1 @@
+[{"name": "Talent scout", "id": 14365, "p": 3, "x": 2736, "y": 5244, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2201, "boundSize": 1, "combat": 0, "headModels": [138], "models": [380], "movementCapabilities": 1}]

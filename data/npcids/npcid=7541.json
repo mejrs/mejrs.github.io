@@ -1,0 +1,1 @@
+[{"name": "Justin Servil", "morph_names_1": ["", "", "Justin Servil", ""], "id": 7541, "p": 0, "x": 2567, "y": 3200, "mapId": 28, "mapId_p": 0, "mapId_x": 2567, "mapId_y": 3200, "animation_group": 1500, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [1957, 1957, 7542, -1], "varbit": 12785, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

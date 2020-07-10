@@ -1,1 +1,1 @@
-[{"name": "Captain", "id": 5922, "x": 3213, "y": 3491, "p": 2}]
+[{"name": "Captain", "id": 5922, "p": 2, "x": 3213, "y": 3491, "mapId": 28, "mapId_p": 2, "mapId_x": 3213, "mapId_y": 3491, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 4, "combat": 0, "headModels": [111307], "modelContract": 15, "models": [111349], "movementCapabilities": 3}]

@@ -1,1 +1,1 @@
-[{"name": "Froono", "id": 4602, "x": 2435, "y": 3403, "p": 1}]
+[{"name": "Froono", "id": 4602, "p": 1, "x": 2435, "y": 3403, "mapId": 28, "mapId_p": 1, "mapId_x": 2435, "mapId_y": 3403, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 2445, "boundSize": 1, "color_replacements": {"18954": 10671, "18959": 10676}, "combat": 0, "headModels": [17041, 3011], "modelContract": 20, "models": [62816, 62820, 62814, 62815, 62818], "movementCapabilities": 3}]

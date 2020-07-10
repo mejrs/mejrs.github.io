@@ -1,0 +1,1 @@
+[{"name": "Small monolith", "id": 6300, "p": 0, "x": 2023, "y": 5537, "mapId": 364, "mapId_p": 0, "mapId_x": 2023, "mapId_y": 5537, "actions": ["Push", null, null, null, null], "boundSize": 1, "combat": 0, "drawMapDot": false, "models": [28344], "movementCapabilities": 1, "unknown_63": true, "unknown_67": 0}]

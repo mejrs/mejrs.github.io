@@ -1,1 +1,1 @@
-[{"name": "Orla Fairweather", "id": 18196, "x": 3133, "y": 3231, "p": 0}]
+[{"name": "Orla Fairweather", "id": 18196, "p": 0, "x": 3133, "y": 3231, "mapId": 28, "mapId_p": 0, "mapId_x": 3133, "mapId_y": 3231, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 2941, "boundSize": 1, "combat": 0, "headModels": [89255], "models": [89290], "movementCapabilities": 1, "unknown_63": true, "unknown_67": 0}]

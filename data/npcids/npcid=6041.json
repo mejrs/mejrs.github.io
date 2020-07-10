@@ -1,1 +1,1 @@
-[{"name": "Yadviga", "id": 6041, "x": 3479, "y": 3492, "p": 0}]
+[{"name": "Yadviga", "id": 6041, "p": 0, "x": 3479, "y": 3492, "mapId": 28, "mapId_p": 0, "mapId_x": 3479, "mapId_y": 3492, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", "Attack", null, null, null], "animation_group": 664, "attackCursor": 42, "combat": 28, "extra": {"accuracy_melee_(npc)": 316, "armor": 316, "attack_speed": 5, "combat_style": 1, "damage_melee": 1000, "weakness": 4}, "headModels": [39137], "models": [26145, 26154, 26138, 26150, 26142], "movementCapabilities": 3}]

@@ -1,1 +1,1 @@
-[{"name": "Ocellus", "id": 17143, "x": 2507, "y": 2888, "p": 0}]
+[{"name": "Ocellus", "id": 17143, "p": 0, "x": 2507, "y": 2888, "mapId": 28, "mapId_p": 0, "mapId_x": 2507, "mapId_y": 2888, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Buy algarum thread", "Create crossbow", null], "ambience": 20, "animation_group": 2868, "boundSize": 2, "combat": 0, "headModels": [86540], "modelContract": 25, "models": [86503], "movementCapabilities": 1}]

@@ -1,0 +1,1 @@
+[{"name": "Famine", "morph_names_1": ["", "Famine", ""], "id": 25909, "p": 0, "x": 4925, "y": 9378, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [25910, 25911, -1], "varbit": 42200, "varp": -1}, "movementCapabilities": 1, "unknown_63": true}]

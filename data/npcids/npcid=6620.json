@@ -1,0 +1,1 @@
+[{"name": "Address cube (nature)", "id": 6620, "p": 0, "x": 4112, "y": 5540, "mapId": 422, "mapId_p": 0, "mapId_x": 4112, "mapId_y": 5540, "actions": ["Look-at", null, null, null, null], "ambience": 15, "combat": 0, "drawMapDot": false, "modelContract": 10, "models": [63692], "movementCapabilities": 1, "quests": [344], "unknown_67": 0}]

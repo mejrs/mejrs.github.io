@@ -1,1 +1,1 @@
-[{"name": "Dungeoneering tutor", "id": 9712, "x": 3452, "y": 3720, "p": 0}]
+[{"name": "Dungeoneering tutor", "id": 9712, "p": 0, "x": 3452, "y": 3720, "mapId": 28, "mapId_p": 0, "mapId_x": 3452, "mapId_y": 3720, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Open Journal", "Set outfit appearance", null], "animation_group": 1582, "boundSize": 1, "combat": 0, "headModels": [55619], "models": [55634], "movementCapabilities": 1, "unknown_67": 0}]

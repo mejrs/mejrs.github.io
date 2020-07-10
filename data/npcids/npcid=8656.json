@@ -1,0 +1,1 @@
+[{"name": "Grubfoot", "morph_names_1": ["", "Grubfoot", ""], "id": 8656, "p": 0, "x": 2703, "y": 5367, "mapId": 26, "mapId_p": 0, "mapId_x": 15, "mapId_y": 119, "animation_group": 86, "combat": 0, "morphs_1": {"ids": [-1, 4417, -1], "varbit": 9142, "varp": -1}, "movementCapabilities": 3}]

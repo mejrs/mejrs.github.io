@@ -1,1 +1,1 @@
-[{"name": "Artimeus", "id": 5109, "x": 3443, "y": 2902, "p": 0}]
+[{"name": "Artimeus", "id": 5109, "p": 0, "x": 3443, "y": 2902, "mapId": 28, "mapId_p": 0, "mapId_x": 3443, "mapId_y": 2902, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, "Trade"], "animation_group": 3183, "color_replacements": {"4533": 4380, "4550": 4391, "4554": 4394}, "combat": 0, "headModels": [39355, 39799, 38097], "models": [19823, 252, 11759, 14175, 169, 176, 19333, 181], "movementCapabilities": 3, "unknown_63": true}]

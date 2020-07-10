@@ -1,0 +1,1 @@
+[{"name": "Adventurer", "id": 25255, "p": 0, "x": 2111, "y": 7141, "mapId": 704, "mapId_p": 0, "mapId_x": 127, "mapId_y": 165, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "combat": 0, "headModels": [113690], "models": [115093, 115091, 113746, 113744], "movementCapabilities": 3}]

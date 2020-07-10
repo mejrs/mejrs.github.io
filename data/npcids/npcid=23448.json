@@ -1,0 +1,1 @@
+[{"name": "Hari", "id": 23448, "p": 0, "x": 1792, "y": 11965, "mapId": 695, "mapId_p": 0, "mapId_x": 1792, "mapId_y": 11965, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2781, "boundSize": 1, "combat": 0, "headModels": [115055], "models": [115117], "movementCapabilities": 3}]

@@ -1,0 +1,1 @@
+[{"name": "Tinsay", "morph_names_1": ["Tinsay", "Tinsay", "Tinsay", "Tinsay", "Tinsay", "Tinsay", ""], "id": 2485, "p": 0, "x": 2764, "y": 2976, "mapId": 28, "mapId_p": 0, "mapId_x": 2764, "mapId_y": 2976, "animation_group": 4, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [1165, 1165, 1165, 1165, 1165, 1165, -1], "varbit": -1, "varp": 2523}, "movementCapabilities": 3}]

@@ -1,1 +1,1 @@
-[{"name": "Meilyr herald", "id": 19861, "x": 2230, "y": 3411, "p": 1}]
+[{"name": "Meilyr herald", "id": 19861, "p": 1, "x": 2230, "y": 3411, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Buy cape", "Buy symbol", null], "animation_group": 2702, "boundSize": 1, "color_replacements": {"36824": 10048}, "combat": 0, "headModels": [97173], "models": [97263, 97265, 97269, 97268, 97264, 97352, 97323], "movementCapabilities": 1, "texture_replacements": {"4833": 4834, "4840": 4844}}]

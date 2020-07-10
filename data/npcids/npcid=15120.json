@@ -1,1 +1,1 @@
-[{"name": "Druidess", "id": 15120, "x": 2892, "y": 3425, "p": 0}]
+[{"name": "Druidess", "id": 15120, "p": 1, "x": 1098, "y": 5910, "animation_group": 4, "boundSize": 1, "combat": 0, "headModels": [94902], "models": [95038], "movementCapabilities": 3}, {"name": "Druidess", "id": 15120, "p": 0, "x": 2892, "y": 3425, "mapId": 28, "mapId_p": 0, "mapId_x": 2892, "mapId_y": 3425, "animation_group": 4, "boundSize": 1, "combat": 0, "headModels": [94902], "models": [95038], "movementCapabilities": 3}]

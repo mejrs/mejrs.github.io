@@ -1,0 +1,1 @@
+[{"name": "Blood tither", "morph_names_1": ["Blood tither", "Blood tither", "Blood tither", "Blood tither", ""], "id": 14155, "p": 0, "x": 3606, "y": 3365, "mapId": 28, "mapId_p": 0, "mapId_x": 3606, "mapId_y": 3365, "combat": 0, "morphs_1": {"ids": [14156, 14157, 14158, 14158, -1], "varbit": 11032, "varp": -1}, "movementCapabilities": 3}]

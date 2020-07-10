@@ -1,1 +1,1 @@
-[{"name": "Golden sheep", "id": 5172, "x": 2764, "y": 3606, "p": 0}]
+[{"name": "Golden sheep", "id": 5172, "p": 0, "x": 2764, "y": 3606, "mapId": 28, "mapId_p": 0, "mapId_x": 2764, "mapId_y": 3606, "animation_group": 4287, "boundSize": 1, "combat": 0, "models": [66703], "movementCapabilities": 3}]

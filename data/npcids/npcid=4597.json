@@ -1,1 +1,1 @@
-[{"name": "Meegle", "id": 4597, "x": 2378, "y": 3433, "p": 0}]
+[{"name": "Meegle", "id": 4597, "p": 0, "x": 2378, "y": 3433, "mapId": 28, "mapId_p": 0, "mapId_x": 2378, "mapId_y": 3433, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 108, "boundSize": 1, "combat": 0, "headModels": [63296, 17043], "models": [62834, 62853, 62847, 62862], "movementCapabilities": 3}]

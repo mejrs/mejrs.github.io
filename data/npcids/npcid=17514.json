@@ -1,0 +1,1 @@
+[{"name": "Guardsman Dante", "morph_names_1": ["Guardsman Dante", "Guardsman Dante", "Guardsman Dante", "Guardsman Dante", ""], "id": 17514, "p": 1, "x": 3211, "y": 3227, "mapId": 28, "mapId_p": 1, "mapId_x": 3211, "mapId_y": 3227, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [7885, 17519, 7885, 17519, -1], "varbit": 18700, "varp": -1}, "movementCapabilities": 3}]

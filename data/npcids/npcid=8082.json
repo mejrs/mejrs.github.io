@@ -1,0 +1,1 @@
+[{"name": "Agility assistant", "id": 8082, "p": 2, "x": 3550, "y": 5606, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 1801, "combat": 0, "headModels": [7744], "models": [57307], "movementCapabilities": 1, "unknown_63": true}]

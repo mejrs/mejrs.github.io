@@ -1,0 +1,1 @@
+[{"name": "Dancer", "id": 12396, "p": 0, "x": 4318, "y": 5339, "mapId": 225, "mapId_p": 0, "mapId_x": 4318, "mapId_y": 5339, "animation_group": 1909, "color_replacements": {"6798": 6158}, "combat": 0, "models": [1867, 19183, 19172, 10218, 19180, 181], "movementCapabilities": 1, "respawnDirection": 0, "unknown_63": true}]

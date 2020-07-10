@@ -1,0 +1,1 @@
+[{"name": "Alice the Camel", "morph_names_1": ["Camel", "Alice the Camel", ""], "id": 2813, "p": 0, "x": 3284, "y": 3201, "mapId": 28, "mapId_p": 0, "mapId_x": 3284, "mapId_y": 3201, "animation_group": 109, "boundSize": 2, "combat": 0, "morphs_1": {"ids": [80, 2814, -1], "varbit": 16279, "varp": -1}, "movementCapabilities": 3}]

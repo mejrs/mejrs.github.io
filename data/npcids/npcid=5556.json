@@ -1,0 +1,1 @@
+[{"name": "Winter Elemental", "id": 5556, "p": 0, "x": 2900, "y": 5480, "mapId": 268, "mapId_p": 0, "mapId_x": 2900, "mapId_y": 5480, "ambience": 20, "animation_group": 356, "boundSize": 1, "combat": 0, "models": [22272, 22273], "movementCapabilities": 0, "scaleXZ": 80, "scaleY": 80, "slowWalk": false, "unknown_63": true}]

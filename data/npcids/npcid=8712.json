@@ -1,1 +1,1 @@
-[{"name": "Goblin musician", "id": 8712, "x": 3140, "y": 3642, "p": 0}]
+[{"name": "Goblin musician", "id": 8712, "p": 0, "x": 3140, "y": 3642, "mapId": 28, "mapId_p": 0, "mapId_x": 3140, "mapId_y": 3642, "action_cursors": [null, null, 44, null, null, null], "actions": ["Listen to", null, "Talk to", null, null], "animation_group": 1546, "boundSize": 1, "combat": 0, "headModels": [78266], "models": [78446, 47237], "movementCapabilities": 1}]

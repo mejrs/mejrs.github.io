@@ -1,0 +1,1 @@
+[{"name": "Inn Keeper", "id": 2177, "p": 1, "x": 2839, "y": 10195, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2675, "combat": 0, "headModels": [90030, 90036], "models": [90333, 90298, 90284, 90355, 78297, 90316, 90325], "movementCapabilities": 3}]

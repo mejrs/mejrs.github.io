@@ -1,0 +1,1 @@
+[{"name": "Alomone", "morph_names_1": ["Alomone", ""], "id": 891, "p": 0, "x": 2609, "y": 9670, "mapId": 0, "mapId_p": 0, "mapId_x": 2609, "mapId_y": 9670, "boundSize": 1, "combat": 9, "morphs_1": {"ids": [15586, -1], "varbit": 13016, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

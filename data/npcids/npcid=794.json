@@ -1,1 +1,1 @@
-[{"name": "Charlie the cook", "id": 794, "x": 2790, "y": 3191, "p": 0}]
+[{"name": "Charlie the cook", "id": 794, "p": 0, "x": 2790, "y": 3191, "mapId": 28, "mapId_p": 0, "mapId_x": 2790, "mapId_y": 3191, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 4, "color_replacements": {"107": 123, "25238": 9147, "8741": 66}, "combat": 0, "headModels": [39580, 39254, 39347], "models": [235, 199, 302, 263, 176, 185, 151, 249], "movementCapabilities": 3, "texture_replacements": {"615": 617}}]

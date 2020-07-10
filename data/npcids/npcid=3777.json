@@ -1,1 +1,1 @@
-[{"name": "Doomsayer", "id": 3777, "x": 3230, "y": 3228, "p": 0}]
+[{"name": "Doomsayer", "id": 3777, "p": 0, "x": 3230, "y": 3228, "mapId": 28, "mapId_p": 0, "mapId_x": 3230, "mapId_y": 3228, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Toggle-warnings", null, null], "animation_group": 198, "boundSize": 1, "combat": 0, "headModels": [49475], "models": [49463], "movementCapabilities": 1, "respawnDirection": 2, "unknown_63": true, "unknown_67": 0}]

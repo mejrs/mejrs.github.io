@@ -1,0 +1,1 @@
+[{"name": "War", "id": 26773, "p": 0, "x": 3291, "y": 10130, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Shop", "Check cooldown", "Decant"], "animation_group": 4428, "combat": 0, "headModels": [67306], "models": [67621, 67632, 85097], "movementCapabilities": 1, "unknown_63": true, "unknown_67": 0}]

@@ -1,1 +1,1 @@
-[{"name": "Guard Captain Roarkwin", "id": 22930, "x": 3013, "y": 3185, "p": 0}]
+[{"name": "Guard Captain Roarkwin", "id": 22930, "p": 0, "x": 3013, "y": 3185, "mapId": 28, "mapId_p": 0, "mapId_x": 3013, "mapId_y": 3185, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 4, "color_replacements": {"25238": 10508, "61": 5652, "8741": 6930}, "combat": 0, "headModels": [38641, 39227], "models": [113217], "movementCapabilities": 1, "respawnDirection": 0}]

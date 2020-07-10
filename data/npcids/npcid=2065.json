@@ -1,1 +1,1 @@
-[{"name": "Gruh", "id": 2065, "x": 2349, "y": 3064, "p": 0}]
+[{"name": "Gruh", "id": 2065, "p": 0, "x": 2349, "y": 3064, "mapId": 28, "mapId_p": 0, "mapId_x": 2349, "mapId_y": 3064, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 1047, "boundSize": 2, "color_replacements": {"10760": 43908, "17562": 43530, "17566": 43406, "17571": 43530, "17686": 43282}, "combat": 0, "headModels": [31791], "models": [46178], "movementCapabilities": 3}]

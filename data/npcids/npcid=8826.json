@@ -1,0 +1,1 @@
+[{"name": "Yeren", "id": 8826, "p": 0, "x": 5015, "y": 9631, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 4351, "combat": 0, "headModels": [69175], "models": [71043], "movementCapabilities": 1, "respawnDirection": 2}]

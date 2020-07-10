@@ -1,1 +1,1 @@
-[{"name": "Mama", "id": 3164, "x": 3663, "y": 2980, "p": 0}]
+[{"name": "Mama", "id": 3164, "p": 0, "x": 3663, "y": 2980, "mapId": 28, "mapId_p": 0, "mapId_x": 3663, "mapId_y": 2980, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3182, "color_replacements": {"43072": 11187, "4533": 6799, "4540": 6804, "4550": 6809, "4554": 6813, "6798": 4, "8741": 908}, "combat": 0, "headModels": [39123], "models": [378, 8786, 8846, 176, 11119, 358], "movementCapabilities": 3}]

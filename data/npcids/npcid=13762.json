@@ -1,0 +1,1 @@
+[{"name": "Caustic gazer", "id": 13762, "p": 0, "x": 1673, "y": 4396, "mapId": 338, "mapId_p": 0, "mapId_x": 1673, "mapId_y": 4396, "actions": ["Tank", null, null, null, null], "animation_group": 1777, "boundSize": 1, "combat": 0, "models": [55396], "movementCapabilities": 1, "unknown_9B": {"unknown_1": 24, "unknown_2": 5, "unknown_3": 22, "unknown_4": 64}}]

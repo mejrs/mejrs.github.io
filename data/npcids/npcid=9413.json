@@ -1,0 +1,1 @@
+[{"name": "General Wartface", "morph_names_1": ["", "", "General Wartface", ""], "id": 9413, "p": 0, "x": 2654, "y": 5657, "mapId": 219, "mapId_p": 0, "mapId_x": 2654, "mapId_y": 5657, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, -1, 9414, -1], "varbit": 14692, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 2, "unknown_63": true}]

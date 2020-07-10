@@ -1,1 +1,1 @@
-[{"name": "Sylas", "id": 5987, "x": 2912, "y": 3379, "p": 0}]
+[{"name": "Sylas", "id": 5987, "p": 0, "x": 2912, "y": 3379, "mapId": 28, "mapId_p": 0, "mapId_x": 2912, "mapId_y": 3379, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"3868": 5210, "6798": 5210}, "combat": 0, "headModels": [39363, 39573], "models": [26092, 230, 15936, 26094, 26089, 10218, 26093, 26090, 26096], "movementCapabilities": 3, "texture_replacements": {"745": 746}, "unknown_63": true}]

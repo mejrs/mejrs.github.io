@@ -1,0 +1,1 @@
+[{"name": "Crust of ice", "morph_names_1": ["Crust of ice", ""], "id": 3132, "p": 1, "x": 3091, "y": 9307, "animation_group": 4, "boundSize": 2, "combat": 0, "drawMapDot": false, "morphs_1": {"ids": [3133, -1], "varbit": 9757, "varp": -1}, "movementCapabilities": 1, "unknown_67": 0}]

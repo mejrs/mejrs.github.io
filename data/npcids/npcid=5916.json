@@ -1,1 +1,1 @@
-[{"name": "Cleaner", "id": 5916, "x": 3250, "y": 3429, "p": 0}]
+[{"name": "Cleaner", "id": 5916, "p": 0, "x": 3250, "y": 3429, "mapId": 28, "mapId_p": 0, "mapId_x": 3250, "mapId_y": 3429, "ambience": 20, "animation_group": 93, "color_replacements": {"25238": 10518, "4886": 2328, "8741": 8377}, "combat": 0, "headModels": [39643, 39218], "models": [12137, 5215, 10984, 15412, 10980, 10218, 75700, 271, 8919], "movementCapabilities": 3, "recolor_indices": [-1, 0, -1, 1, 2]}]

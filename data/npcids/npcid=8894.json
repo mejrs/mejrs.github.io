@@ -1,1 +1,1 @@
-[{"name": "Gwir", "id": 8894, "x": 2352, "y": 3179, "p": 0}]
+[{"name": "Gwir", "id": 8894, "p": 0, "x": 2352, "y": 3179, "mapId": 28, "mapId_p": 0, "mapId_x": 2352, "mapId_y": 3179, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 3229, "boundSize": 1, "combat": 0, "headModels": [97166], "models": [97263, 97265, 97264, 97269, 97268, 97353, 97328], "movementCapabilities": 3, "texture_replacements": {"4840": 4844}}]

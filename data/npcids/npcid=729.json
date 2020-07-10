@@ -1,1 +1,1 @@
-[{"name": "Man", "id": 729, "x": 2536, "y": 3308, "p": 0}]
+[{"name": "Man", "id": 729, "p": 0, "x": 2536, "y": 3308, "mapId": 28, "mapId_p": 0, "mapId_x": 2536, "mapId_y": 3308, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"25238": 3980, "4533": 7376, "4540": 7369, "4550": 7384, "4554": 7388, "4661": 7380, "6443": 10405, "6798": 7446}, "combat": 0, "headModels": [39726, 38642], "models": [214, 250, 8845, 157, 10218, 275, 185], "movementCapabilities": 3}]

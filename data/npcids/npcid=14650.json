@@ -1,1 +1,1 @@
-[{"name": "Citharede Sister", "id": 14650, "x": 3430, "y": 3151, "p": 0}]
+[{"name": "Citharede Sister", "id": 14650, "p": 0, "x": 3430, "y": 3151, "mapId": 28, "mapId_p": 0, "mapId_x": 3430, "mapId_y": 3151, "animation_group": 2242, "boundSize": 1, "combat": 0, "models": [9330], "movementCapabilities": 3}]

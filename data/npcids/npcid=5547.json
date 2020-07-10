@@ -1,0 +1,1 @@
+[{"name": "Summer Elemental", "id": 5547, "p": 0, "x": 2907, "y": 5488, "mapId": 268, "mapId_p": 0, "mapId_x": 2907, "mapId_y": 5488, "ambience": 40, "animation_group": 355, "boundSize": 1, "combat": 0, "models": [22269, 22270], "movementCapabilities": 0, "scaleXZ": 80, "scaleY": 80, "slowWalk": false, "unknown_63": true}]

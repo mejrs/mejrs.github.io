@@ -1,0 +1,1 @@
+[{"name": "Fishing spot", "id": 26951, "p": 0, "x": 3821, "y": 3168, "mapId": 28, "mapId_p": 0, "mapId_x": 3821, "mapId_y": 3168, "action_cursors": [60, null, 60, null, null, null], "actions": ["Net", null, "Harpoon", null, null], "animation_group": 178, "boundSize": 1, "combat": 0, "drawMapDot": false, "models": [36844], "movementCapabilities": 5}]

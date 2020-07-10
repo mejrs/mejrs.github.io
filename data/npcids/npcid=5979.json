@@ -1,0 +1,1 @@
+[{"name": "Dragon display", "id": 5979, "p": 0, "x": 1765, "y": 4979, "mapId": 119, "mapId_p": 0, "mapId_x": 1765, "mapId_y": 4979, "ambience": 25, "animation_group": 1845, "boundSize": 5, "combat": 0, "drawMapDot": false, "modelContract": 15, "models": [25752, 25751, 57963], "movementCapabilities": 1, "unknown_67": 0}]

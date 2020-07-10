@@ -1,1 +1,1 @@
-[{"name": "Dell Monti", "id": 3227, "x": 2763, "y": 3186, "p": 0}]
+[{"name": "Dell Monti", "id": 3227, "p": 0, "x": 2763, "y": 3186, "mapId": 28, "mapId_p": 0, "mapId_x": 2763, "mapId_y": 3186, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Claim", null, null], "animation_group": 35, "boundSize": 1, "combat": 0, "headModels": [39974, 39424], "models": [28780, 28803, 28752, 28756, 28776, 28807], "movementCapabilities": 3, "unknown_63": true}]

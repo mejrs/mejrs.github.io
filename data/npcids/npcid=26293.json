@@ -1,0 +1,1 @@
+[{"name": "Zarador", "morph_names_1": ["", "Zarador", ""], "id": 26293, "p": 1, "x": 2891, "y": 3561, "mapId": 28, "mapId_p": 1, "mapId_x": 2891, "mapId_y": 3561, "boundSize": 3, "combat": 0, "morphs_1": {"ids": [17488, 26294, -1], "varbit": 43983, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 1}]

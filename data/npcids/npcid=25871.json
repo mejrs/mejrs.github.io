@@ -1,1 +1,1 @@
-[{"name": "Fenton", "id": 25871, "x": 3209, "y": 3368, "p": 0}]
+[{"name": "Fenton", "id": 25871, "p": 0, "x": 3209, "y": 3368, "mapId": 28, "mapId_p": 0, "mapId_x": 3209, "mapId_y": 3368, "animation_group": 4304, "boundSize": 1, "combat": 0, "headModels": [67022], "models": [67197], "movementCapabilities": 1, "respawnDirection": 2}]

@@ -1,1 +1,1 @@
-[{"name": "Herald of Lumbridge", "id": 13937, "x": 3222, "y": 3247, "p": 0}]
+[{"name": "Herald of Lumbridge", "id": 13937, "p": 0, "x": 3222, "y": 3247, "mapId": 28, "mapId_p": 0, "mapId_x": 3222, "mapId_y": 3247, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Customise", null, null], "animation_group": 2099, "boundSize": 1, "combat": 0, "headModels": [43766], "models": [43846], "movementCapabilities": 1, "respawnDirection": 6, "texture_replacements": {"753": 749, "754": 756}, "unknown_63": true}]

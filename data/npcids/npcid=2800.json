@@ -1,1 +1,1 @@
-[{"name": "A pile of broken glass", "id": 2800, "x": 2981, "y": 3190, "p": 0}]
+[{"name": "A pile of broken glass", "id": 2800, "p": 0, "x": 2981, "y": 3190, "mapId": 28, "mapId_p": 0, "mapId_x": 2981, "mapId_y": 3190, "boundSize": 1, "combat": 0, "drawMapDot": false, "models": [2676], "movementCapabilities": 1}]

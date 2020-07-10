@@ -1,1 +1,1 @@
-[{"name": "Quarry overseer", "id": 18604, "x": 2517, "y": 2717, "p": 2}]
+[{"name": "Quarry overseer", "id": 18604, "p": 2, "x": 2517, "y": 2717, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "ambience": 64, "animation_group": 3008, "boundSize": 1, "color_replacements": {"1": 1}, "combat": 0, "headModels": [91881], "models": [91925], "movementCapabilities": 1, "respawnDirection": 6, "unknown_63": true}]

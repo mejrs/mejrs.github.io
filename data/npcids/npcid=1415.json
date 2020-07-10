@@ -1,1 +1,1 @@
-[{"name": "Bunkdo", "id": 1415, "x": 2775, "y": 2798, "p": 0}]
+[{"name": "Bunkdo", "id": 1415, "p": 0, "x": 2775, "y": 2798, "mapId": 28, "mapId_p": 0, "mapId_x": 2775, "mapId_y": 2798, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 108, "color_replacements": {"5396": 5398, "5400": 5406}, "combat": 0, "headModels": [63305, 42660, 42662], "modelContract": 20, "models": [62975, 62994, 63094, 62909], "movementCapabilities": 3}]

@@ -1,1 +1,1 @@
-[{"name": "Phil", "id": 7739, "x": 3319, "y": 3504, "p": 0}]
+[{"name": "Phil", "id": 7739, "p": 0, "x": 3319, "y": 3504, "mapId": 28, "mapId_p": 0, "mapId_x": 3319, "mapId_y": 3504, "animation_group": 4, "color_replacements": {"40117": 7566, "40237": 7446, "43150": 7446, "6798": 8489, "7073": 3980, "8741": 10291}, "combat": 0, "models": [18084, 215, 251, 10705, 19329, 19332, 550, 10377], "movementCapabilities": 3, "texture_replacements": {"612": 606}}]

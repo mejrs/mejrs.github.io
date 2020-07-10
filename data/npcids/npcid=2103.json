@@ -1,0 +1,1 @@
+[{"name": "Green Gemstone Director", "id": 2103, "p": 1, "x": 2891, "y": 10210, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2675, "boundSize": 1, "combat": 0, "headModels": [90014], "models": [90205, 78297], "movementCapabilities": 3, "unknown_63": true}]

@@ -1,0 +1,1 @@
+[{"name": "Captain Barnaby", "morph_names_1": ["", "Captain Barnaby", ""], "id": 4961, "p": 0, "x": 2683, "y": 3275, "mapId": 28, "mapId_p": 0, "mapId_x": 2683, "mapId_y": 3275, "animation_group": 4, "combat": 0, "morphs_1": {"ids": [-1, 4962, -1], "varbit": 9996, "varp": -1}, "movementCapabilities": 1, "unknown_63": true}]

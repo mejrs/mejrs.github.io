@@ -1,1 +1,1 @@
-[{"name": "Wizard Shug", "id": 5027, "x": 3365, "y": 3321, "p": 1}]
+[{"name": "Wizard Shug", "id": 5027, "p": 1, "x": 3365, "y": 3321, "mapId": 28, "mapId_p": 1, "mapId_x": 3365, "mapId_y": 3321, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 25, "animation_group": 1692, "boundSize": 1, "combat": 0, "headModels": [51698], "modelContract": 15, "models": [51710], "movementCapabilities": 1, "unknown_63": true, "unknown_67": 0}]

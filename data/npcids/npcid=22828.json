@@ -1,0 +1,1 @@
+[{"name": "Crunchy", "morph_names_1": ["", "Crunchy", ""], "id": 22828, "p": 0, "x": 1042, "y": 5482, "combat": 0, "morphs_1": {"ids": [-1, 22829, -1], "varbit": 32505, "varp": -1}, "movementCapabilities": 1, "quests": [385], "respawnDirection": 6, "unknown_63": true}]

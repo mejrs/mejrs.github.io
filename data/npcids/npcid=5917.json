@@ -1,0 +1,1 @@
+[{"name": "Stray dog", "id": 5917, "p": 0, "x": 1876, "y": 5517, "mapId": 110, "mapId_p": 0, "mapId_x": 1876, "mapId_y": 5517, "actions": [null, null, null, null, "Shoo-away"], "ambience": 20, "animation_group": 94, "boundSize": 1, "combat": 0, "models": [18168, 18170, 18167], "movementCapabilities": 3, "unknown_8F": true}]

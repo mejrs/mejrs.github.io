@@ -1,1 +1,1 @@
-[{"name": "Flynn", "id": 580, "x": 2951, "y": 3386, "p": 0}]
+[{"name": "Flynn", "id": 580, "p": 0, "x": 2951, "y": 3386, "mapId": 28, "mapId_p": 0, "mapId_x": 2951, "mapId_y": 3386, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3183, "color_replacements": {"25238": 5281, "4540": 4639, "4550": 4647, "4626": 24, "54397": 54298, "6798": 7700, "8741": 10508}, "combat": 0, "headModels": [39836, 39254], "models": [107508], "movementCapabilities": 3, "unknown_63": true}]

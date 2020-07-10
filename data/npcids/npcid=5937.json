@@ -1,1 +1,1 @@
-[{"name": "Tinse Torpe", "id": 5937, "x": 3267, "y": 3444, "p": 0}]
+[{"name": "Tinse Torpe", "id": 5937, "p": 0, "x": 3267, "y": 3444, "mapId": 28, "mapId_p": 0, "mapId_x": 3267, "mapId_y": 3444, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animateIdle": false, "boundSize": 1, "color_replacements": {"6798": 6188}, "combat": 0, "headModels": [40052], "models": [25362], "movementCapabilities": 1, "unknown_67": 0}]

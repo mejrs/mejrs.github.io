@@ -1,0 +1,1 @@
+[{"name": "Vanescula Drakan", "morph_names_1": ["Vanescula Drakan", "Vanescula Drakan", ""], "id": 3625, "p": 0, "x": 3599, "y": 3356, "mapId": 28, "mapId_p": 0, "mapId_x": 3599, "mapId_y": 3356, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [3615, 3626, -1], "varbit": 29468, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 2, "unknown_63": true}]

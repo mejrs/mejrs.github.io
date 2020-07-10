@@ -1,0 +1,1 @@
+[{"name": "Ringmaster", "id": 8085, "p": 0, "x": 3550, "y": 5598, "mapId": 160, "mapId_p": 0, "mapId_x": 3550, "mapId_y": 5598, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, "Rewards", null], "animation_group": 332, "boundSize": 2, "combat": 0, "headModels": [41846], "models": [41959], "movementCapabilities": 3, "unknown_63": true}]

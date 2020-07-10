@@ -1,1 +1,1 @@
-[{"name": "Old crone", "id": 1695, "x": 3461, "y": 3558, "p": 0}]
+[{"name": "Old crone", "id": 1695, "p": 0, "x": 3461, "y": 3558, "mapId": 28, "mapId_p": 0, "mapId_x": 3461, "mapId_y": 3558, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-To", null, null, null, null], "animation_group": 4, "combat": 0, "headModels": [39169], "models": [113173], "movementCapabilities": 3, "texture_replacements": {"745": 746}, "unknown_63": true}]

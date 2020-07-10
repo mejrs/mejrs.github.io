@@ -1,1 +1,1 @@
-[{"name": "Hunting expert", "id": 5112, "x": 2710, "y": 3830, "p": 1}]
+[{"name": "Hunting expert", "id": 5112, "p": 1, "x": 2710, "y": 3830, "mapId": 28, "mapId_p": 1, "mapId_x": 2710, "mapId_y": 3830, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "ambience": 10, "animation_group": 3183, "color_replacements": {"10004": 4283, "4626": 4283}, "combat": 0, "headModels": [39585, 39227], "modelContract": 10, "models": [19820, 253, 19830, 19809, 179, 19825, 185], "movementCapabilities": 3, "unknown_63": true}]

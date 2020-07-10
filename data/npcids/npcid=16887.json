@@ -1,1 +1,1 @@
-[{"name": "Memstix", "id": 16887, "x": 2932, "y": 3478, "p": 0}]
+[{"name": "Memstix", "id": 16887, "p": 0, "x": 2932, "y": 3478, "mapId": 28, "mapId_p": 0, "mapId_x": 2932, "mapId_y": 3478, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"55232": 2079, "6798": 2067}, "combat": 0, "headModels": [40030, 38096], "models": [84544], "movementCapabilities": 3, "unknown_63": true}]

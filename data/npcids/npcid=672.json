@@ -1,1 +1,1 @@
-[{"name": "Anita", "id": 672, "x": 2390, "y": 3514, "p": 1}]
+[{"name": "Anita", "id": 672, "p": 1, "x": 2390, "y": 3514, "mapId": 28, "mapId_p": 1, "mapId_x": 2390, "mapId_y": 3514, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 108, "boundSize": 1, "color_replacements": {"4508": 4480, "4530": 4500, "4540": 4510, "4550": 4520, "4564": 4534}, "combat": 0, "headModels": [63296, 26854], "modelContract": 20, "models": [62841, 62854, 62825, 62832, 62846], "movementCapabilities": 3}]

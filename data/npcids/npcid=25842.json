@@ -1,0 +1,1 @@
+[{"name": "Jack the yak", "morph_names_1": ["", "Jack the yak", ""], "id": 25842, "p": 0, "x": 2666, "y": 3360, "mapId": 28, "mapId_p": 0, "mapId_x": 2666, "mapId_y": 3360, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, 25843, -1], "varbit": 41819, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

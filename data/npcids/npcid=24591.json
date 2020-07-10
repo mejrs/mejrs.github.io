@@ -1,1 +1,1 @@
-[{"name": "Menaphite guard", "id": 24591, "x": 3289, "y": 2709, "p": 0}]
+[{"name": "Menaphite guard", "id": 24591, "p": 0, "x": 3289, "y": 2709, "mapId": 28, "mapId_p": 0, "mapId_x": 3289, "mapId_y": 2709, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Trade", null, null], "animation_group": 2696, "combat": 0, "headModels": [119242], "models": [119356], "movementCapabilities": 1, "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "Hudon", "id": 305, "x": 2511, "y": 3484, "p": 0}]
+[{"name": "Hudon", "id": 305, "p": 0, "x": 2511, "y": 3484, "mapId": 28, "mapId_p": 0, "mapId_x": 2511, "mapId_y": 3484, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 165, "boundSize": 1, "color_replacements": {"24856": 1564, "24865": 1445, "25104": 1812, "8483": 41, "8596": 5656}, "combat": 0, "headModels": [28688], "models": [28604, 28639, 28653, 28611, 28624, 28673], "movementCapabilities": 3}]

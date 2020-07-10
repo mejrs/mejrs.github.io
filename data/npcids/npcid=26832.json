@@ -1,0 +1,1 @@
+[{"name": "Fortuneteller", "morph_names_1": ["", "", "", "Fortuneteller", "Fortuneteller", ""], "id": 26832, "p": 0, "x": 1866, "y": 5327, "mapId": 395, "mapId_p": 0, "mapId_x": 1866, "mapId_y": 5327, "animation_group": 118, "combat": 0, "morphs_1": {"ids": [-1, -1, -1, 26834, 26834, -1], "varbit": 12708, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

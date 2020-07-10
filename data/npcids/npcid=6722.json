@@ -1,0 +1,1 @@
+[{"name": "Table", "id": 6722, "p": 0, "x": 3665, "y": 9393, "mapId": 552, "mapId_p": 0, "mapId_x": 3665, "mapId_y": 9393, "actions": ["Place-evidence", null, null, null, null], "boundSize": 2, "combat": 0, "drawMapDot": false, "models": [64670], "movementCapabilities": 1, "texture_replacements": {"2081": 2093, "2095": 2073}, "unknown_67": 0}]

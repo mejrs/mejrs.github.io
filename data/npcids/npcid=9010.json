@@ -1,0 +1,1 @@
+[{"name": "Tessa, the Black Knight", "morph_names_1": ["", "Slave", "Tessa", "Tessa, the Black Knight", "Tessa, the Black Knight", ""], "id": 9010, "p": 1, "x": 3008, "y": 3578, "mapId": 28, "mapId_p": 1, "mapId_x": 3008, "mapId_y": 3578, "combat": 0, "morphs_1": {"ids": [-1, 9011, 9020, 9021, 9030, -1], "varbit": 43463, "varp": -1}, "movementCapabilities": 1}]

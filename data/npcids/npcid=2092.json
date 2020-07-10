@@ -1,0 +1,1 @@
+[{"name": "Purple Pewter Secretary", "id": 2092, "p": 1, "x": 2868, "y": 10194, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2675, "boundSize": 1, "combat": 0, "headModels": [89974], "models": [90112, 78297], "movementCapabilities": 3}]

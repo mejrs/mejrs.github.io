@@ -1,0 +1,1 @@
+[{"name": "Moira", "morph_names_1": ["Molly", "Moira", ""], "id": 16853, "p": 1, "x": 3221, "y": 3385, "mapId": 28, "mapId_p": 1, "mapId_x": 3221, "mapId_y": 3385, "combat": 0, "morphs_1": {"ids": [16855, 16856, -1], "varbit": 17965, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 0}]

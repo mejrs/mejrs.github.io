@@ -1,1 +1,1 @@
-[{"name": "Farid Morrisane (ores)", "id": 6523, "x": 3181, "y": 3501, "p": 0}]
+[{"name": "Farid Morrisane (ores)", "id": 6523, "p": 0, "x": 3181, "y": 3501, "mapId": 28, "mapId_p": 0, "mapId_x": 3181, "mapId_y": 3501, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Info-ores", null, null], "animation_group": 1254, "combat": 0, "headModels": [29873], "models": [29867], "movementCapabilities": 1, "unknown_63": true}]

@@ -1,0 +1,1 @@
+[{"name": "Nomad", "morph_names_1": ["Nomad", ""], "id": 8525, "p": 0, "x": 1892, "y": 3177, "mapId": 28, "mapId_p": 0, "mapId_x": 2212, "mapId_y": 2857, "ambience": 10, "animation_group": 883, "boundSize": 1, "combat": 0, "modelContract": 10, "morphs_1": {"ids": [8591, -1], "varbit": 10095, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

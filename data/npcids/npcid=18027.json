@@ -1,0 +1,1 @@
+[{"name": "Sir Owen", "morph_names_1": ["", "", "", "", "", "", "Sir Owen", ""], "id": 18027, "p": 3, "x": 3031, "y": 3580, "mapId": 28, "mapId_p": 3, "mapId_x": 3031, "mapId_y": 3580, "combat": 0, "morphs_1": {"ids": [-1, -1, -1, -1, -1, -1, 18022, -1], "varbit": 19967, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 2, "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "Scopulus", "id": 21318, "x": 3095, "y": 3012, "p": 3}]
+[{"name": "Scopulus", "id": 21318, "p": 3, "x": 3095, "y": 3012, "mapId": 28, "mapId_p": 3, "mapId_x": 3095, "mapId_y": 3012, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 3457, "boundSize": 2, "combat": 0, "headModels": [86689], "models": [86773], "movementCapabilities": 1, "respawnDirection": 0}]

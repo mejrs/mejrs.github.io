@@ -1,1 +1,1 @@
-[{"name": "Velorina", "id": 1683, "x": 3678, "y": 3510, "p": 0}]
+[{"name": "Velorina", "id": 1683, "p": 0, "x": 3678, "y": 3510, "mapId": 28, "mapId_p": 0, "mapId_x": 3678, "mapId_y": 3510, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-To", null, null, null, null], "ambience": 50, "animation_group": 4, "color_replacements": {"17467": 18626}, "combat": 0, "extra": {"weakness_class": 8}, "headModels": [38945], "modelContract": 50, "models": [5226, 5228, 5225, 5227], "movementCapabilities": 3, "scaleXZ": 120, "scaleY": 120}]

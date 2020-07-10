@@ -1,1 +1,1 @@
-[{"name": "Valaine", "id": 536, "x": 3193, "y": 3361, "p": 1}]
+[{"name": "Valaine", "id": 536, "p": 1, "x": 3193, "y": 3361, "mapId": 28, "mapId_p": 1, "mapId_x": 3193, "mapId_y": 3361, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3182, "boundSize": 1, "color_replacements": {"25238": 10508, "43072": 4550, "6798": 6854, "8741": 39145}, "combat": 0, "headModels": [39069], "models": [390, 456, 332, 10218, 421, 358], "movementCapabilities": 3, "unknown_63": true}]

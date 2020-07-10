@@ -1,1 +1,1 @@
-[{"name": "Thistle", "id": 1214, "x": 2898, "y": 3682, "p": 0}]
+[{"name": "Thistle", "id": 1214, "p": 0, "x": 2898, "y": 3682, "mapId": 28, "mapId_p": 0, "mapId_x": 2898, "mapId_y": 3682, "action_cursors": [45, null, null, null, null, null], "actions": ["Pick", null, null, null, null], "boundSize": 1, "combat": 0, "drawMapDot": false, "models": [4067], "movementCapabilities": 1}]

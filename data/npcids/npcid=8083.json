@@ -1,0 +1,1 @@
+[{"name": "Magic assistant", "id": 8083, "p": 0, "x": 3559, "y": 5604, "mapId": 160, "mapId_p": 0, "mapId_x": 3559, "mapId_y": 5604, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 1801, "combat": 0, "headModels": [11905], "models": [57308], "movementCapabilities": 3, "unknown_63": true}]

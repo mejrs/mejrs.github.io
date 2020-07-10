@@ -1,1 +1,1 @@
-[{"name": "Billy", "id": 1093, "x": 2816, "y": 3559, "p": 0}]
+[{"name": "Billy", "id": 1093, "p": 0, "x": 2816, "y": 3559, "mapId": 28, "mapId_p": 0, "mapId_x": 2816, "mapId_y": 3559, "animation_group": 63, "boundSize": 1, "color_replacements": {"5268": 10421, "5388": 8406, "5392": 8400, "8371": 8394, "8384": 7504, "8390": 7500}, "combat": 0, "models": [20273, 20281, 20277], "movementCapabilities": 3, "scaleXZ": 100, "scaleY": 100}]

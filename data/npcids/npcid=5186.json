@@ -1,0 +1,1 @@
+[{"name": "Ogre shaman", "morph_names_1": ["Ogre shaman", ""], "id": 5186, "p": 0, "x": 2599, "y": 9461, "mapId": 572, "mapId_p": 0, "mapId_x": 2599, "mapId_y": 9461, "animation_group": 1474, "boundSize": 2, "combat": 0, "morphs_1": {"ids": [5187, -1], "varbit": 11372, "varp": -1}, "movementCapabilities": 3}]

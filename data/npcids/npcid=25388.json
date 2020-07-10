@@ -1,0 +1,1 @@
+[{"name": "Madame Shih", "id": 25388, "p": 0, "x": 2782, "y": 1509, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "ambience": 20, "animation_group": 4204, "boundSize": 1, "combat": 0, "headModels": [27808], "modelContract": 25, "models": [28138], "movementCapabilities": 1}]

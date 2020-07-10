@@ -1,0 +1,1 @@
+[{"name": "Osman", "morph_names_1": ["", "Osman", ""], "id": 24648, "p": 0, "x": 3196, "y": 2769, "mapId": 28, "mapId_p": 0, "mapId_x": 3196, "mapId_y": 2769, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, 24647, -1], "varbit": 36157, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 0, "unknown_63": true}]

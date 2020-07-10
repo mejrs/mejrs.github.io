@@ -1,0 +1,1 @@
+[{"name": "Memory block", "id": 11560, "p": 1, "x": 4321, "y": 5534, "actions": ["Move", null, null, null, null], "ambience": 20, "boundSize": 2, "combat": 0, "drawMapDot": false, "modelContract": 25, "models": [57881], "movementCapabilities": 5, "respawnDirection": 0, "unknown_67": 0}]

@@ -1,1 +1,1 @@
-[{"name": "Dugopul", "id": 1429, "x": 2802, "y": 2746, "p": 0}]
+[{"name": "Dugopul", "id": 1429, "p": 0, "x": 2802, "y": 2746, "mapId": 28, "mapId_p": 0, "mapId_x": 2802, "mapId_y": 2746, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 177, "combat": 0, "headModels": [4659], "models": [4820, 4827, 4834], "movementCapabilities": 3, "scaleXZ": 130, "scaleY": 180}]

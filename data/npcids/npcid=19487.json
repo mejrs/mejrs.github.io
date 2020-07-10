@@ -1,0 +1,1 @@
+[{"name": "Mirrorback spider", "id": 19487, "p": 0, "x": 1401, "y": 7726, "mapId": 694, "mapId_p": 0, "mapId_x": 1401, "mapId_y": 7726, "ambience": 25, "animation_group": 3196, "boundSize": 1, "color_replacements": {"1": 1}, "combat": 0, "extra": {"weakness": 0, "weakness_class": 10}, "headModels": [96825], "modelContract": 15, "models": [96797], "movementCapabilities": 3}]

@@ -1,1 +1,1 @@
-[{"name": "Merchant", "id": 23221, "x": 2804, "y": 3434, "p": 0}]
+[{"name": "Merchant", "id": 23221, "p": 0, "x": 2804, "y": 3434, "mapId": 28, "mapId_p": 0, "mapId_x": 2804, "mapId_y": 3434, "animation_group": 2337, "boundSize": 1, "color_replacements": {"55232": 6808}, "combat": 0, "headModels": [45010, 39227], "models": [49492], "movementCapabilities": 1, "respawnDirection": 0, "unknown_63": true}]

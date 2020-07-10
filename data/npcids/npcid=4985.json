@@ -1,0 +1,1 @@
+[{"name": "Escaping slave", "morph_names_1": ["Male slave", "Escaping slave", ""], "id": 4985, "p": 0, "x": 3303, "y": 3025, "mapId": 28, "mapId_p": 0, "mapId_x": 3303, "mapId_y": 3025, "animation_group": 4, "combat": 0, "morphs_1": {"ids": [825, 826, -1], "varbit": 12318, "varp": -1}, "movementCapabilities": 3}]

@@ -1,0 +1,1 @@
+[{"name": "Two-Eyed Eric", "id": 25383, "p": 0, "x": 2774, "y": 1513, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "ambience": 20, "animation_group": 4, "boundSize": 1, "combat": 0, "headModels": [39974, 39424], "modelContract": 25, "models": [28780, 28803, 28752, 28756, 28776, 28807], "movementCapabilities": 1}]

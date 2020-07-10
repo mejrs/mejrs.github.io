@@ -1,1 +1,1 @@
-[{"name": "Barfy Bill", "id": 3331, "x": 3231, "y": 3252, "p": 0}]
+[{"name": "Barfy Bill", "id": 3331, "p": 0, "x": 3231, "y": 3252, "mapId": 28, "mapId_p": 0, "mapId_x": 3231, "mapId_y": 3252, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-To", null, null, null, null], "animation_group": 4, "boundSize": 1, "combat": 0, "headModels": [49479], "models": [49460], "movementCapabilities": 3}]

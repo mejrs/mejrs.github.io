@@ -1,1 +1,1 @@
-[{"name": "Natasha", "id": 26469, "x": 5515, "y": 2326, "p": 0}]
+[{"name": "Natasha", "id": 26469, "p": 0, "x": 5515, "y": 2326, "mapId": 28, "mapId_p": 0, "mapId_x": 4043, "mapId_y": 4310, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "ambience": 15, "animation_group": 4291, "boundSize": 1, "color_replacements": {"13737": 49461}, "combat": 0, "headModels": [34832], "models": [34766, 34830], "movementCapabilities": 3, "texture_replacements": {"11202": 11206}}]

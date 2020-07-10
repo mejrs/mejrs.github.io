@@ -1,1 +1,1 @@
-[{"name": "Mary", "id": 810, "x": 2736, "y": 3576, "p": 1}]
+[{"name": "Mary", "id": 810, "p": 1, "x": 2736, "y": 3576, "mapId": 28, "mapId_p": 1, "mapId_x": 2736, "mapId_y": 3576, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"25238": 8, "43072": 4550, "8472": 127, "8741": 8}, "combat": 0, "headModels": [39068, 38861], "models": [391, 475, 40401, 10218, 429, 358, 483, 414], "movementCapabilities": 3, "unknown_63": true}]

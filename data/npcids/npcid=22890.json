@@ -1,0 +1,1 @@
+[{"name": "Soothsayer Sybil", "id": 22890, "p": 1, "x": 3198, "y": 6961, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Reset enrage", "Claim loot", null], "animation_group": 3757, "boundSize": 1, "combat": 0, "headModels": [112931], "models": [112932], "movementCapabilities": 1, "respawnDirection": 2, "unknown_67": 0}]

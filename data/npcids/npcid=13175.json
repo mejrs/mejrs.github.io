@@ -1,1 +1,1 @@
-[{"name": "Peter", "id": 13175, "x": 2657, "y": 3668, "p": 0}]
+[{"name": "Peter", "id": 13175, "p": 0, "x": 2657, "y": 3668, "mapId": 28, "mapId_p": 0, "mapId_x": 2657, "mapId_y": 3668, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animateIdle": false, "boundSize": 1, "color_replacements": {"6798": 6585}, "combat": 0, "headModels": [39947, 38097], "models": [25362], "movementCapabilities": 1, "texture_replacements": {"745": 746}, "unknown_67": 0}]

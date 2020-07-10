@@ -1,0 +1,1 @@
+[{"name": "Ghost legionary", "morph_names_1": ["", "Ghost legionary", ""], "id": 26980, "p": 0, "x": 2494, "y": 7596, "mapId": 720, "mapId_p": 0, "mapId_x": 126, "mapId_y": 44, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, 26983, -1], "varbit": 47242, "varp": -1}, "movementCapabilities": 1, "unknown_63": true, "unknown_67": 0}]

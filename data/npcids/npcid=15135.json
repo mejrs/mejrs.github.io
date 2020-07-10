@@ -1,0 +1,1 @@
+[{"name": "Ga'al-Xox", "morph_names_1": ["", "Ga'al-Xox", ""], "id": 15135, "p": 0, "x": 4673, "y": 5159, "mapId": 12, "mapId_p": 0, "mapId_x": 4673, "mapId_y": 5159, "combat": 0, "morphs_1": {"ids": [-1, 15134, -1], "varbit": 9093, "varp": -1}, "movementCapabilities": 3, "quests": [351], "unknown_63": true}]

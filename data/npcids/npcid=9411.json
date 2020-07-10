@@ -1,0 +1,1 @@
+[{"name": "General Bentnoze", "morph_names_1": ["", "", "General Bentnoze", ""], "id": 9411, "p": 0, "x": 2656, "y": 5657, "mapId": 219, "mapId_p": 0, "mapId_x": 2656, "mapId_y": 5657, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, -1, 9412, -1], "varbit": 14693, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 6, "unknown_63": true}]

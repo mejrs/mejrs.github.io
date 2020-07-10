@@ -1,1 +1,1 @@
-[{"name": "Taw'Paak, Emissary of Armadyl", "id": 17130, "x": 3007, "y": 3306, "p": 0}]
+[{"name": "Taw'Paak, Emissary of Armadyl", "id": 17130, "p": 0, "x": 3007, "y": 3306, "mapId": 28, "mapId_p": 0, "mapId_x": 3007, "mapId_y": 3306, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2855, "boundSize": 1, "combat": 0, "headModels": [85997], "members_actions": [null, null, "Check jobs", null, null], "models": [86208], "movementCapabilities": 1, "respawnDirection": 6, "unknown_63": true}]

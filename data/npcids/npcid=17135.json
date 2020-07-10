@@ -1,1 +1,1 @@
-[{"name": "Moldark, Emissary of Zamorak", "id": 17135, "x": 3105, "y": 3509, "p": 0}]
+[{"name": "Moldark, Emissary of Zamorak", "id": 17135, "p": 0, "x": 3105, "y": 3509, "mapId": 28, "mapId_p": 0, "mapId_x": 3105, "mapId_y": 3509, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2860, "boundSize": 1, "combat": 0, "headModels": [86010], "members_actions": [null, null, "Check jobs", null, null], "models": [86030], "movementCapabilities": 1, "unknown_63": true}]

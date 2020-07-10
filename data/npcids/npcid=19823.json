@@ -1,1 +1,1 @@
-[{"name": "Cadarn ranger", "id": 19823, "x": 2246, "y": 3333, "p": 1}]
+[{"name": "Cadarn ranger", "id": 19823, "p": 1, "x": 2246, "y": 3333, "animation_group": 2691, "boundSize": 1, "combat": 0, "headModels": [97209], "models": [97253, 97251, 97254, 97249, 97252, 97312, 97324], "movementCapabilities": 1}, {"name": "Cadarn ranger", "id": 19823, "p": 1, "x": 4934, "y": 6277, "animation_group": 2691, "boundSize": 1, "combat": 0, "headModels": [97209], "models": [97253, 97251, 97254, 97249, 97252, 97312, 97324], "movementCapabilities": 1}]

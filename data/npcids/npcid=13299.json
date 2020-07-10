@@ -1,0 +1,1 @@
+[{"name": "Hreidmar", "morph_names_1": ["", "Hreidmar", "Hreidmar", "Hreidmar", ""], "id": 13299, "p": 0, "x": 2899, "y": 10194, "mapId": 21, "mapId_p": 0, "mapId_x": 83, "mapId_y": 146, "combat": 0, "morphs_1": {"ids": [-1, 13300, 13300, 13300, -1], "varbit": 13912, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 2, "unknown_63": true}]

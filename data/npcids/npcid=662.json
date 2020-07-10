@@ -1,1 +1,1 @@
-[{"name": "Lucy", "id": 662, "x": 3046, "y": 3383, "p": 1}]
+[{"name": "Lucy", "id": 662, "p": 1, "x": 3046, "y": 3383, "mapId": 28, "mapId_p": 1, "mapId_x": 3046, "mapId_y": 3383, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "color_replacements": {"25238": 43162, "6798": 2981, "8741": 41682}, "combat": 0, "headModels": [39047, 38795], "models": [107555], "movementCapabilities": 3}]

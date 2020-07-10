@@ -1,1 +1,1 @@
-[{"name": "Mostafa the Camel", "id": 16712, "x": 3170, "y": 2912, "p": 0}]
+[{"name": "Mostafa the Camel", "id": 16712, "p": 0, "x": 3170, "y": 2912, "mapId": 28, "mapId_p": 0, "mapId_x": 3170, "mapId_y": 2912, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2806, "boundSize": 2, "combat": 0, "headModels": [119260], "models": [119422], "movementCapabilities": 1, "unknown_63": true, "unknown_67": 0}]

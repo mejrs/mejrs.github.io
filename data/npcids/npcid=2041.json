@@ -1,1 +1,1 @@
-[{"name": "Grug", "id": 2041, "x": 2446, "y": 3049, "p": 0}]
+[{"name": "Grug", "id": 2041, "p": 0, "x": 2446, "y": 3049, "mapId": 28, "mapId_p": 0, "mapId_x": 2446, "mapId_y": 3049, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 1466, "boundSize": 2, "combat": 0, "headModels": [31696], "models": [46148], "movementCapabilities": 1, "unknown_67": 0}]

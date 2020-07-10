@@ -1,0 +1,1 @@
+[{"name": "Lowerniel Drakan", "id": 23668, "p": 2, "x": 2660, "y": 12634, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "ambience": 45, "animation_group": 3549, "boundSize": 1, "combat": 0, "headModels": [111636], "models": [116067], "movementCapabilities": 1, "quests": [386], "respawnDirection": 2, "unknown_63": true}]

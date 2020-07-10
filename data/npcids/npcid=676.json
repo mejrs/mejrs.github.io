@@ -1,1 +1,1 @@
-[{"name": "Femi", "id": 676, "x": 2459, "y": 3382, "p": 0}]
+[{"name": "Femi", "id": 676, "p": 0, "x": 2459, "y": 3382, "mapId": 28, "mapId_p": 0, "mapId_x": 2459, "mapId_y": 3382, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 108, "combat": 0, "headModels": [26855], "modelContract": 20, "models": [62836, 62852, 62850, 62861], "movementCapabilities": 3}]

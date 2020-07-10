@@ -1,1 +1,1 @@
-[{"name": "Terrier", "id": 6894, "x": 2933, "y": 3430, "p": 1}]
+[{"name": "Terrier", "id": 6894, "p": 1, "x": 2933, "y": 3430, "mapId": 28, "mapId_p": 1, "mapId_x": 2933, "mapId_y": 3430, "ambience": 25, "animation_group": 5, "combat": 0, "models": [30447], "movementCapabilities": 3}]

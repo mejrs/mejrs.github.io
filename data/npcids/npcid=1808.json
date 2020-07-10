@@ -1,1 +1,1 @@
-[{"name": "Ragnar", "id": 1808, "x": 2764, "y": 3679, "p": 0}]
+[{"name": "Ragnar", "id": 1808, "p": 0, "x": 2764, "y": 3679, "mapId": 28, "mapId_p": 0, "mapId_x": 2764, "mapId_y": 3679, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"61": 5276, "6798": 6707}, "combat": 0, "headModels": [39947, 38642], "models": [206, 250, 5673, 5671, 5667, 5725], "movementCapabilities": 3, "recolor_indices": [-1, -1, 0, -1, 1], "texture_replacements": {"745": 746}}]

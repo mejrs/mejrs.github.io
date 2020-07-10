@@ -1,1 +1,1 @@
-[{"name": "Fur trader", "id": 573, "x": 2664, "y": 3296, "p": 0}]
+[{"name": "Fur trader", "id": 573, "p": 0, "x": 2664, "y": 3296, "mapId": 28, "mapId_p": 0, "mapId_x": 2664, "mapId_y": 3296, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3183, "boundSize": 1, "color_replacements": {"8741": 6057}, "combat": 0, "headModels": [39799, 38642], "models": [230, 299, 250, 159, 176, 254, 185], "movementCapabilities": 3, "unknown_63": true}]

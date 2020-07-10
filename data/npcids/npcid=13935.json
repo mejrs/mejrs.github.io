@@ -1,0 +1,1 @@
+[{"name": "Ariane", "morph_names_1": ["", "Ariane", ""], "id": 13935, "p": 1, "x": 2905, "y": 3515, "mapId": 28, "mapId_p": 1, "mapId_x": 2905, "mapId_y": 3515, "animation_group": 2110, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, 13941, -1], "varbit": 3087, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 2}]

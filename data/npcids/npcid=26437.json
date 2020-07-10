@@ -1,1 +1,1 @@
-[{"name": "Malletops", "id": 26437, "x": 5481, "y": 2405, "p": 0}]
+[{"name": "Malletops", "id": 26437, "p": 0, "x": 5481, "y": 2405, "mapId": 28, "mapId_p": 0, "mapId_x": 4009, "mapId_y": 4389, "ambience": 15, "animation_group": 4376, "boundSize": 3, "color_replacements": {"11188": 11188, "15640": 292, "15645": 431, "59953": 59953, "7362": 7362}, "combat": 0, "extra": {"extra_001653": 1, "hide_hitpoints": 1}, "models": [34862, 34866], "movementCapabilities": 1, "movementType": 2, "texture_replacements": {"11229": 11228}}]

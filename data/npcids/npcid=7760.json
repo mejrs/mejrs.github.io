@@ -1,0 +1,1 @@
+[{"name": "TzHaar-Ket-Jok", "id": 7760, "p": 0, "x": 2398, "y": 5218, "mapId": 330, "mapId_p": 0, "mapId_x": 2398, "mapId_y": 5218, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2423, "boundSize": 2, "combat": 0, "headModels": [65655], "models": [65968], "movementCapabilities": 1}]

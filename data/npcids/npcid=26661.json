@@ -1,1 +1,1 @@
-[{"name": "Gudrik", "id": 26661, "x": 3029, "y": 3229, "p": 0}]
+[{"name": "Gudrik", "id": 26661, "p": 0, "x": 3029, "y": 3229, "mapId": 28, "mapId_p": 0, "mapId_x": 3029, "mapId_y": 3229, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Travel to Ashdale", null, null], "ambience": 20, "animation_group": 2998, "boundSize": 1, "combat": 0, "headModels": [91866], "modelContract": 25, "models": [91932], "movementCapabilities": 1, "quests": [367], "respawnDirection": 6, "unknown_63": true}]

@@ -1,0 +1,1 @@
+[{"name": "Sister Cecilia", "morph_names_1": ["", "Sister Cecilia", ""], "id": 14662, "p": 0, "x": 3444, "y": 3159, "mapId": 28, "mapId_p": 0, "mapId_x": 3444, "mapId_y": 3159, "combat": 0, "morphs_1": {"ids": [-1, 14659, -1], "varbit": 12268, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 0, "unknown_63": true, "unknown_67": 0}]

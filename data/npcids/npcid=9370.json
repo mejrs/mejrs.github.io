@@ -1,0 +1,1 @@
+[{"name": "Ebenezer Scourge", "morph_names_1": ["", "Ebenezer Scourge", ""], "id": 9370, "p": 0, "x": 2646, "y": 5664, "mapId": 219, "mapId_p": 0, "mapId_x": 2646, "mapId_y": 5664, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, 9371, -1], "varbit": 14687, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

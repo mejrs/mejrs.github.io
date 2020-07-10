@@ -1,1 +1,1 @@
-[{"name": "Commander Akhomet (Imperial)", "id": 24490, "x": 3171, "y": 2729, "p": 0}]
+[{"name": "Commander Akhomet (Imperial)", "id": 24490, "p": 0, "x": 3171, "y": 2729, "mapId": 28, "mapId_p": 0, "mapId_x": 3171, "mapId_y": 2729, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 4027, "combat": 0, "headModels": [119223], "models": [119410, 119411], "movementCapabilities": 1, "respawnDirection": 2, "unknown_63": true}]

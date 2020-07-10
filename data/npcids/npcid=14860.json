@@ -1,1 +1,1 @@
-[{"name": "Head Farmer Jones", "id": 14860, "x": 2889, "y": 3468, "p": 0}]
+[{"name": "Head Farmer Jones", "id": 14860, "p": 0, "x": 2889, "y": 3468, "mapId": 28, "mapId_p": 0, "mapId_x": 2889, "mapId_y": 3468, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, "Trade"], "ambience": 25, "animation_group": 2317, "boundSize": 1, "combat": 0, "headModels": [49005], "modelContract": 15, "models": [49285, 60163], "movementCapabilities": 1, "respawnDirection": 2, "unknown_63": true}]

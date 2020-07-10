@@ -1,1 +1,1 @@
-[{"name": "Farmer Fromund", "id": 3917, "x": 2582, "y": 3864, "p": 0}]
+[{"name": "Farmer Fromund", "id": 3917, "p": 0, "x": 2582, "y": 3864, "mapId": 28, "mapId_p": 0, "mapId_x": 2582, "mapId_y": 3864, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Approval rating", null, null], "animation_group": 947, "boundSize": 1, "color_replacements": {"25238": 40237, "8741": 8656}, "combat": 0, "headModels": [39836, 38097, 39547], "models": [4843, 215, 252, 10705, 170, 177, 7125, 263, 185], "movementCapabilities": 1, "unknown_63": true}]

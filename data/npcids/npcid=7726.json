@@ -1,1 +1,1 @@
-[{"name": "Assistant", "id": 7726, "x": 2996, "y": 3451, "p": 0}]
+[{"name": "Assistant", "id": 7726, "p": 0, "x": 2996, "y": 3451, "mapId": 28, "mapId_p": 0, "mapId_x": 2996, "mapId_y": 3451, "animation_group": 861, "combat": 0, "headModels": [90012, 90037], "models": [90332, 90317, 90293, 90282, 90349, 78297, 90321, 90383], "movementCapabilities": 1, "unknown_67": 0}]

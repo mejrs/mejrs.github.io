@@ -1,0 +1,1 @@
+[{"name": "Father Reen", "morph_names_1": ["", "Father Reen", ""], "id": 2898, "p": 0, "x": 3483, "y": 3093, "mapId": 28, "mapId_p": 0, "mapId_x": 3483, "mapId_y": 3093, "animation_group": 53, "combat": 0, "morphs_1": {"ids": [-1, 2899, -1], "varbit": 10505, "varp": -1}, "movementCapabilities": 3}]

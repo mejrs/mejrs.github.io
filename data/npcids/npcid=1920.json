@@ -1,1 +1,1 @@
-[{"name": "Malak", "id": 1920, "x": 3497, "y": 3478, "p": 0}]
+[{"name": "Malak", "id": 1920, "p": 0, "x": 3497, "y": 3478, "mapId": 28, "mapId_p": 0, "mapId_x": 3497, "mapId_y": 3478, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"10004": 55178, "123": 8, "22177": 55178, "25238": 55178, "4540": 7393, "4550": 7401, "8741": 55178}, "combat": 0, "headModels": [39615], "models": [227, 292, 170, 179, 267, 185, 3189], "movementCapabilities": 1}]

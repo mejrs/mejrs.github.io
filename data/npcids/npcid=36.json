@@ -1,1 +1,1 @@
-[{"name": "Wyson the gardener", "id": 36, "x": 2987, "y": 3386, "p": 0}]
+[{"name": "Wyson the gardener", "id": 36, "p": 0, "x": 2987, "y": 3386, "mapId": 28, "mapId_p": 0, "mapId_x": 2987, "mapId_y": 3386, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Exchange mole bits", "Buy woad leaves", null], "animation_group": 4, "boundSize": 1, "combat": 0, "headModels": [93271], "models": [93393], "movementCapabilities": 3}]

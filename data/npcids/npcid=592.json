@@ -1,1 +1,1 @@
-[{"name": "Roachey", "id": 592, "x": 2588, "y": 3405, "p": 0}]
+[{"name": "Roachey", "id": 592, "p": 0, "x": 2588, "y": 3405, "mapId": 28, "mapId_p": 0, "mapId_x": 2588, "mapId_y": 3405, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3183, "boundSize": 1, "color_replacements": {"55232": 6218, "6798": 6234}, "combat": 0, "headModels": [46441, 39220, 52772], "models": [52781, 52785, 52776, 27646, 46363, 52778, 10218], "movementCapabilities": 3, "unknown_63": true}]

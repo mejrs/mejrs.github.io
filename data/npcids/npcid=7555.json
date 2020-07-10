@@ -1,0 +1,1 @@
+[{"name": "General Khazard", "morph_names_1": ["", "General Khazard", ""], "id": 7555, "p": 0, "x": 2606, "y": 3154, "mapId": 28, "mapId_p": 0, "mapId_x": 2606, "mapId_y": 3154, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, 7551, -1], "varbit": 12786, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

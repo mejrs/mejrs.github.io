@@ -1,1 +1,1 @@
-[{"name": "Void Knight", "id": 3786, "x": 2647, "y": 2660, "p": 0}]
+[{"name": "Void Knight", "id": 3786, "p": 0, "x": 2647, "y": 2660, "mapId": 28, "mapId_p": 0, "mapId_x": 2647, "mapId_y": 2660, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Exchange", null, null], "animation_group": 29, "combat": 0, "headModels": [39799, 39254], "models": [230, 249, 14568, 33034, 10218, 14566, 181, 14580], "movementCapabilities": 3, "unknown_63": true}]

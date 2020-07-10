@@ -1,0 +1,1 @@
+[{"name": "Klenter", "morph_names_1": ["", "Klenter", ""], "id": 2013, "p": 0, "x": 3289, "y": 2783, "mapId": 28, "mapId_p": 0, "mapId_x": 3289, "mapId_y": 2783, "animation_group": 73, "combat": 0, "extra": {"weakness_class": 8}, "morphs_1": {"ids": [-1, 2014, -1], "varbit": 11018, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

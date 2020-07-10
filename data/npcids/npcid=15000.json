@@ -1,0 +1,1 @@
+[{"name": "Fisherman", "id": 15000, "p": 1, "x": 1133, "y": 5891, "animation_group": 2365, "boundSize": 1, "color_replacements": {"55232": 7222, "6792": 7198, "6798": 7208}, "combat": 0, "headModels": [49064], "models": [49634, 50574], "movementCapabilities": 1, "unknown_63": true}]

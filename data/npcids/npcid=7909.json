@@ -1,1 +1,1 @@
-[{"name": "Roddeck", "id": 7909, "x": 3232, "y": 3237, "p": 0}]
+[{"name": "Roddeck", "id": 7909, "p": 0, "x": 3232, "y": 3237, "mapId": 28, "mapId_p": 0, "mapId_x": 3232, "mapId_y": 3237, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 1622, "boundSize": 1, "combat": 0, "headModels": [49450], "modelContract": 25, "models": [49411], "movementCapabilities": 1}]

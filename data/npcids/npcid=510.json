@@ -1,1 +1,1 @@
-[{"name": "Hajedy", "id": 510, "x": 2779, "y": 3211, "p": 0}]
+[{"name": "Hajedy", "id": 510, "p": 0, "x": 2779, "y": 3211, "mapId": 28, "mapId_p": 0, "mapId_x": 2779, "mapId_y": 3211, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Pay-fare", null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"25238": 43478, "4626": 103, "8090": 103, "8741": 103}, "combat": 0, "headModels": [39799, 39256], "models": [230, 247, 295, 150, 274, 185], "movementCapabilities": 3}]

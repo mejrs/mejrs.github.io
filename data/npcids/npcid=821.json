@@ -1,1 +1,1 @@
-[{"name": "Sinclair Guard dog", "id": 821, "x": 2750, "y": 3580, "p": 0}]
+[{"name": "Sinclair Guard dog", "id": 821, "p": 0, "x": 2750, "y": 3580, "mapId": 28, "mapId_p": 0, "mapId_x": 2750, "mapId_y": 3580, "animation_group": 98, "boundSize": 1, "color_replacements": {"2221": 47, "2328": 30, "2337": 39, "272": 20, "3594": 16}, "combat": 0, "models": [26255], "movementCapabilities": 3, "scaleXZ": 110, "scaleY": 110}]

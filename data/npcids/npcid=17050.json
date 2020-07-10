@@ -1,0 +1,1 @@
+[{"name": "King Roald", "morph_names_1": ["", "King Roald", ""], "id": 17050, "p": 1, "x": 2898, "y": 3565, "mapId": 28, "mapId_p": 1, "mapId_x": 2898, "mapId_y": 3565, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [17488, 17051, -1], "varbit": 43969, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 6}]

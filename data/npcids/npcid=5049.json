@@ -1,1 +1,1 @@
-[{"name": "Auguste", "id": 5049, "x": 2808, "y": 3355, "p": 0}]
+[{"name": "Auguste", "id": 5049, "p": 0, "x": 2808, "y": 3355, "mapId": 28, "mapId_p": 0, "mapId_x": 2808, "mapId_y": 3355, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "color_replacements": {"4626": 0}, "combat": 0, "headModels": [39641], "members_actions": [null, null, "Store logs", "Fly", "Check charges"], "models": [19470, 246, 19476, 19467, 177, 19472, 181], "movementCapabilities": 3, "unknown_63": true}]

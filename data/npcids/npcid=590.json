@@ -1,1 +1,1 @@
-[{"name": "Aemad", "id": 590, "x": 2613, "y": 3294, "p": 0}]
+[{"name": "Aemad", "id": 590, "p": 0, "x": 2613, "y": 3294, "mapId": 28, "mapId_p": 0, "mapId_x": 2613, "mapId_y": 3294, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3179, "boundSize": 1, "color_replacements": {"11200": 6798, "25238": 5652, "43072": 4550, "6798": 45, "8741": 4769, "926": 6798}, "combat": 0, "headModels": [39947, 39227], "models": [206, 274, 253, 292, 167, 10218, 185, 323], "movementCapabilities": 3, "unknown_63": true}]

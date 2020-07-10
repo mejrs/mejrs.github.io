@@ -1,1 +1,1 @@
-[{"name": "Fisherman", "id": 15568, "x": 2576, "y": 3529, "p": 0}]
+[{"name": "Fisherman", "id": 15568, "p": 0, "x": 2576, "y": 3529, "mapId": 28, "mapId_p": 0, "mapId_x": 2576, "mapId_y": 3529, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Get hint from", "Claim reward", null], "animation_group": 2538, "combat": 0, "headModels": [70786], "models": [70803], "movementCapabilities": 1, "respawnDirection": 2, "unknown_63": true}]

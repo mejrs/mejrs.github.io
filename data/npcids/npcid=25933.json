@@ -1,0 +1,1 @@
+[{"name": "Black hand", "id": 25933, "p": 0, "x": 5024, "y": 9376, "actions": ["Disrupt", null, null, null, null], "animation_group": 4312, "boundSize": 1, "combat": 0, "drawMapDot": false, "models": [67524], "movementCapabilities": 1, "respawnDirection": 0, "unknown_67": 0}]

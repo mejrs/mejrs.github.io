@@ -1,0 +1,1 @@
+[{"name": "Battle tortoise display", "id": 5981, "p": 0, "x": 1750, "y": 4979, "mapId": 119, "mapId_p": 0, "mapId_x": 1750, "mapId_y": 4979, "animation_group": 519, "boundSize": 5, "combat": 0, "drawMapDot": false, "models": [25728, 25727, 25729, 25730, 14200], "movementCapabilities": 1, "unknown_67": 0}]

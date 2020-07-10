@@ -1,0 +1,1 @@
+[{"name": "Tegdak", "id": 5868, "p": 0, "x": 2511, "y": 5563, "mapId": 272, "mapId_p": 0, "mapId_x": 2511, "mapId_y": 5563, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 214, "combat": 0, "headModels": [24535], "models": [24525, 24522, 23633], "movementCapabilities": 3, "unknown_63": true}]

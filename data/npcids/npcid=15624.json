@@ -1,0 +1,1 @@
+[{"name": "Philipe Carnillean", "morph_names_1": ["", "", "", "", "", "", "Philipe Carnillean", ""], "id": 15624, "p": 0, "x": 2710, "y": 5362, "mapId": 26, "mapId_p": 0, "mapId_x": 22, "mapId_y": 114, "boundSize": 1, "combat": 100, "morphs_1": {"ids": [-1, -1, -1, -1, -1, -1, 15618, -1], "varbit": 13029, "varp": -1}, "movementCapabilities": 3, "quests": [353]}]

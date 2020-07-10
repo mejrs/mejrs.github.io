@@ -1,1 +1,1 @@
-[{"name": "Siegfried Erkle", "id": 933, "x": 2725, "y": 3381, "p": 2}]
+[{"name": "Siegfried Erkle", "id": 933, "p": 2, "x": 2725, "y": 3381, "mapId": 28, "mapId_p": 2, "mapId_x": 2725, "mapId_y": 3381, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3179, "boundSize": 1, "color_replacements": {"15242": 127, "25238": 43181, "8078": 127, "8741": 43181, "9096": 127, "9104": 127}, "combat": 0, "headModels": [39799, 38642], "models": [230, 250, 292, 327, 162, 176, 274, 185], "movementCapabilities": 3}]

@@ -1,1 +1,1 @@
-[{"name": "Papa Mambo", "id": 3122, "x": 2950, "y": 2936, "p": 0}]
+[{"name": "Papa Mambo", "id": 3122, "p": 0, "x": 2950, "y": 2936, "mapId": 28, "mapId_p": 0, "mapId_x": 2950, "mapId_y": 2936, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", "Build", "Ward-off"], "animation_group": 1922, "color_replacements": {"4550": 3362}, "combat": 0, "headModels": [39849, 39251, 62008], "models": [62254, 62255], "movementCapabilities": 1, "unknown_63": true}]

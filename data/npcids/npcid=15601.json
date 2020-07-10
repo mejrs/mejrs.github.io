@@ -1,0 +1,1 @@
+[{"name": "Spider", "morph_names_1": ["", "Spider", ""], "id": 15601, "p": 0, "x": 2574, "y": 9667, "mapId": 0, "mapId_p": 0, "mapId_x": 2574, "mapId_y": 9667, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [-1, 15602, -1], "varbit": 13021, "varp": -1}, "movementCapabilities": 3, "quests": [353], "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "Clothears", "id": 6130, "x": 2469, "y": 3158, "p": 0}]
+[{"name": "Clothears", "id": 6130, "p": 0, "x": 2469, "y": 3158, "mapId": 28, "mapId_p": 0, "mapId_x": 2469, "mapId_y": 3158, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 964, "combat": 0, "models": [78456], "movementCapabilities": 1}]

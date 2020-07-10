@@ -1,1 +1,1 @@
-[{"name": "Banker", "id": 3199, "x": 3682, "y": 2982, "p": 0}]
+[{"name": "Banker", "id": 3199, "p": 0, "x": 3682, "y": 2982, "mapId": 28, "mapId_p": 0, "mapId_x": 3682, "mapId_y": 2982, "action_cursors": [null, null, 44, null, null, null], "actions": ["Bank", null, "Talk-to", "Collect", null], "animation_group": 3180, "color_replacements": {"25238": 10295, "8741": 10283, "9104": 10270}, "combat": 0, "headModels": [39836, 39223, 39470], "models": [215, 193, 246, 292, 320, 10301, 10218, 254, 181], "movementCapabilities": 1, "respawnDirection": 6}]

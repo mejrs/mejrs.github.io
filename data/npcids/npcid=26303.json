@@ -1,0 +1,1 @@
+[{"name": "Major Mary Rancour", "morph_names_1": ["", "Major Mary Rancour", ""], "id": 26303, "p": 1, "x": 2900, "y": 3565, "mapId": 28, "mapId_p": 1, "mapId_x": 2900, "mapId_y": 3565, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [17488, 26304, -1], "varbit": 43988, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 6}]

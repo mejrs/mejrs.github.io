@@ -1,1 +1,1 @@
-[{"name": "Bulldog", "id": 6897, "x": 2573, "y": 3082, "p": 0}, {"name": "Bulldog", "id": 6897, "x": 2933, "y": 3431, "p": 1}]
+[{"name": "Bulldog", "id": 6897, "p": 0, "x": 2573, "y": 3082, "mapId": 28, "mapId_p": 0, "mapId_x": 2573, "mapId_y": 3082, "animation_group": 1338, "combat": 0, "models": [30411], "movementCapabilities": 3}, {"name": "Bulldog", "id": 6897, "p": 1, "x": 2933, "y": 3431, "mapId": 28, "mapId_p": 1, "mapId_x": 2933, "mapId_y": 3431, "animation_group": 1338, "combat": 0, "models": [30411], "movementCapabilities": 3}]

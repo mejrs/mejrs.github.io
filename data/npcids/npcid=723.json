@@ -1,1 +1,1 @@
-[{"name": "Billy Rehnison", "id": 723, "x": 2530, "y": 3331, "p": 0}]
+[{"name": "Billy Rehnison", "id": 723, "p": 0, "x": 2530, "y": 3331, "mapId": 28, "mapId_p": 0, "mapId_x": 2530, "mapId_y": 3331, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 165, "boundSize": 1, "color_replacements": {"158": 20, "24856": 14490, "25104": 14610, "278": 16, "8483": 41}, "combat": 0, "headModels": [28688], "models": [28604, 28645, 28661, 28611, 28613, 28675], "movementCapabilities": 3}]

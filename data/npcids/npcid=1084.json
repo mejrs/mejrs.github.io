@@ -1,1 +1,1 @@
-[{"name": "Breoca", "id": 1084, "x": 2921, "y": 3546, "p": 0}]
+[{"name": "Breoca", "id": 1084, "p": 0, "x": 2921, "y": 3546, "mapId": 28, "mapId_p": 0, "mapId_x": 2921, "mapId_y": 3546, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"25238": 10409, "25485": 10401, "55232": 2590, "6798": 2580, "8741": 3604, "9104": 3598}, "combat": 0, "headModels": [38641, 45027], "models": [60107, 60021, 60056, 60075, 60044, 235, 45031], "movementCapabilities": 3}]

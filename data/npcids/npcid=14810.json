@@ -1,0 +1,1 @@
+[{"name": "Sera", "morph_names_1": ["Sera", "", "", "", "", "Sera", ""], "id": 14810, "p": 0, "x": 2362, "y": 3375, "mapId": 28, "mapId_p": 0, "mapId_x": 2362, "mapId_y": 3375, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [14811, -1, -1, -1, -1, 14811, -1], "varbit": 11683, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 7, "unknown_63": true}]

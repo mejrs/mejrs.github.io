@@ -1,1 +1,1 @@
-[{"name": "Askeladden", "id": 1295, "x": 2658, "y": 3660, "p": 0}]
+[{"name": "Askeladden", "id": 1295, "p": 0, "x": 2658, "y": 3660, "mapId": 28, "mapId_p": 0, "mapId_x": 2658, "mapId_y": 3660, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 165, "boundSize": 1, "combat": 0, "headModels": [28691, 28699], "models": [28592], "movementCapabilities": 3}]

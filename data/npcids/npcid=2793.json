@@ -1,1 +1,1 @@
-[{"name": "Tramp", "id": 2793, "x": 2683, "y": 3484, "p": 0}]
+[{"name": "Tramp", "id": 2793, "p": 0, "x": 2683, "y": 3484, "mapId": 28, "mapId_p": 0, "mapId_x": 2683, "mapId_y": 3484, "animation_group": 4, "boundSize": 1, "color_replacements": {"25238": 5652, "43072": 4550, "8741": 4502}, "combat": 0, "headModels": [39726, 39223], "models": [214, 246, 310, 151, 10218, 275, 181], "movementCapabilities": 3, "texture_replacements": {"618": 613}}]

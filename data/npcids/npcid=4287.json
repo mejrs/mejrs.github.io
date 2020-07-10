@@ -1,1 +1,1 @@
-[{"name": "Gamfred", "id": 4287, "x": 2840, "y": 3537, "p": 1}]
+[{"name": "Gamfred", "id": 4287, "p": 1, "x": 2840, "y": 3537, "mapId": 28, "mapId_p": 1, "mapId_x": 2840, "mapId_y": 3537, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, "Claim-Shield", null], "animation_group": 2675, "boundSize": 1, "combat": 0, "headModels": [89993], "models": [90195, 78297, 90389], "movementCapabilities": 3, "unknown_63": true}]

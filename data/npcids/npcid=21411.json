@@ -1,0 +1,1 @@
+[{"name": "Ramen", "id": 21411, "p": 0, "x": 4388, "y": 773, "mapId": 682, "mapId_p": 0, "mapId_x": 4388, "mapId_y": 773, "ambience": 32, "animateIdle": false, "animation_group": 3508, "boundSize": 1, "combat": 0, "headModels": [103837], "models": [103867], "movementCapabilities": 3, "scaleXZ": 50, "scaleY": 50}]

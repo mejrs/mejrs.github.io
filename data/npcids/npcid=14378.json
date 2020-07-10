@@ -1,0 +1,1 @@
+[{"name": "Frank", "id": 14378, "p": 2, "x": 4096, "y": 5275, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 2203, "boundSize": 1, "color_replacements": {"36824": 10048}, "combat": 0, "headModels": [1423], "modelContract": 25, "models": [1920], "movementCapabilities": 1, "unknown_63": true}]

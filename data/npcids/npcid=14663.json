@@ -1,0 +1,1 @@
+[{"name": "Cecilia", "morph_names_1": ["", "", "", "Cecilia", ""], "id": 14663, "p": 0, "x": 3400, "y": 3147, "mapId": 28, "mapId_p": 0, "mapId_x": 3400, "mapId_y": 3147, "combat": 0, "morphs_1": {"ids": [-1, -1, -1, 14660, -1], "varbit": 12268, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 6, "unknown_63": true}]

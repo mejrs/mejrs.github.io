@@ -1,1 +1,1 @@
-[{"name": "Wythien", "id": 20284, "x": 2236, "y": 3420, "p": 1}]
+[{"name": "Wythien", "id": 20284, "p": 1, "x": 2236, "y": 3420, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Exchange motherlode shards", "Enhancers", "Dungeoneering shop"], "animation_group": 4, "boundSize": 1, "combat": 0, "headModels": [97195], "models": [97259, 97262, 97258, 97260, 97261, 97308], "movementCapabilities": 1, "respawnDirection": 6, "texture_replacements": {"4840": 4844}, "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "Cyclops", "id": 116, "x": 2622, "y": 3277, "p": 0}]
+[{"name": "Cyclops", "id": 116, "p": 0, "x": 2622, "y": 3277, "mapId": 28, "mapId_p": 0, "mapId_x": 2622, "mapId_y": 3277, "actions": [null, "Attack", null, null, null], "animation_group": 61, "attackCursor": 42, "boundSize": 2, "combat": 63, "extra": {"accuracy_melee_(npc)": 732, "armor": 732, "attack_speed": 4, "combat_style": 1, "damage_melee": 1800, "slayer_task_id": 108, "weakness": 3}, "models": [26408, 17446, 17432, 17466], "movementCapabilities": 3}]

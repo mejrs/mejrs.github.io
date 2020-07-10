@@ -1,0 +1,1 @@
+[{"name": "Eluned", "morph_names_1": ["Eluned", "Eluned", "Eluned", ""], "id": 1679, "p": 0, "x": 2289, "y": 3145, "mapId": 28, "mapId_p": 0, "mapId_x": 2289, "mapId_y": 3145, "animation_group": 4, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [2376, 2376, 404, -1], "varbit": 29086, "varp": -1}, "movementCapabilities": 3}]

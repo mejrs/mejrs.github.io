@@ -1,1 +1,1 @@
-[{"name": "Enchanted Bucket", "id": 4525, "x": 2090, "y": 3889, "p": 0}]
+[{"name": "Enchanted Bucket", "id": 4525, "p": 0, "x": 2090, "y": 3889, "mapId": 28, "mapId_p": 0, "mapId_x": 2090, "mapId_y": 3889, "ambience": 12, "animation_group": 875, "combat": 0, "drawMapDot": false, "modelContract": 12, "models": [16739], "movementCapabilities": 3}]

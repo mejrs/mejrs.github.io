@@ -1,0 +1,1 @@
+[{"name": "Tamayu", "morph_names_1": ["Tamayu", "Tamayu", "Tamayu", "Tamayu", "Tamayu", "Tamayu", ""], "id": 2487, "p": 0, "x": 2844, "y": 3042, "mapId": 28, "mapId_p": 0, "mapId_x": 2844, "mapId_y": 3042, "animation_group": 4, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [1167, 1167, 1167, 1167, 1167, 1167, -1], "varbit": -1, "varp": 2523}, "movementCapabilities": 3}]

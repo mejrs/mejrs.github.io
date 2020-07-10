@@ -1,1 +1,1 @@
-[{"name": "Sheepdog", "id": 2311, "x": 3035, "y": 3295, "p": 0}]
+[{"name": "Sheepdog", "id": 2311, "p": 0, "x": 3035, "y": 3295, "mapId": 28, "mapId_p": 0, "mapId_x": 3035, "mapId_y": 3295, "ambience": 25, "animation_group": 1416, "combat": 0, "models": [7755], "movementCapabilities": 1, "unknown_67": 0}]

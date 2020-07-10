@@ -1,0 +1,1 @@
+[{"name": "Sanguine imp", "morph_names_1": ["", "Sanguine imp", "Sanguine imp", ""], "id": 24152, "p": 0, "x": 3127, "y": 3410, "mapId": 28, "mapId_p": 0, "mapId_x": 3127, "mapId_y": 3410, "combat": 0, "morphs_1": {"ids": [-1, 24153, 24153, -1], "varbit": 35225, "varp": -1}, "movementCapabilities": 3, "movementType": 2, "unknown_63": true}]

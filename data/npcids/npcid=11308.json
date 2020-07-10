@@ -1,0 +1,1 @@
+[{"name": "Gnarly", "morph_names_1": ["", "Gnarly", "Gnarly", ""], "id": 11308, "p": 0, "x": 2377, "y": 4468, "mapId": 1, "mapId_p": 0, "mapId_x": 2377, "mapId_y": 4468, "combat": 0, "morphs_1": {"ids": [-1, 11309, 11310, -1], "varbit": 9941, "varp": -1}, "movementCapabilities": 1, "unknown_63": true}]

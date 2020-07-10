@@ -1,1 +1,1 @@
-[{"name": "Necrovarus", "id": 1684, "x": 3660, "y": 3516, "p": 0}]
+[{"name": "Necrovarus", "id": 1684, "p": 0, "x": 3660, "y": 3516, "mapId": 28, "mapId_p": 0, "mapId_x": 3660, "mapId_y": 3516, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-To", null, null, null, null], "ambience": 50, "animation_group": 29, "boundSize": 1, "color_replacements": {"17467": 18626}, "combat": 0, "extra": {"weakness_class": 8}, "headModels": [39621], "modelContract": 50, "models": [5213, 5219, 5209, 5216, 5223, 5232], "movementCapabilities": 3}]

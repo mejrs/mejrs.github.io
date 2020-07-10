@@ -1,1 +1,1 @@
-[{"name": "Shopkeeper", "id": 524, "x": 3317, "y": 3184, "p": 0}]
+[{"name": "Shopkeeper", "id": 524, "p": 0, "x": 3317, "y": 3184, "mapId": 28, "mapId_p": 0, "mapId_x": 3317, "mapId_y": 3184, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3179, "boundSize": 1, "combat": 0, "headModels": [40029, 39248], "models": [40241, 29681, 40183, 40249, 40149, 29694, 29683], "movementCapabilities": 3, "unknown_63": true}]

@@ -1,1 +1,1 @@
-[{"name": "Kazemde", "id": 3039, "x": 3414, "y": 2906, "p": 0}]
+[{"name": "Kazemde", "id": 3039, "p": 0, "x": 3414, "y": 2906, "mapId": 28, "mapId_p": 0, "mapId_x": 3414, "mapId_y": 2906, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3179, "color_replacements": {"25238": 54317, "4533": 4640, "4540": 4645, "4550": 4655, "4554": 4659, "8741": 6724, "9019": 6724}, "combat": 0, "headModels": [39945, 39227, 39549], "models": [9016, 248, 9017, 326, 151, 176, 6133, 181, 201], "movementCapabilities": 3}]

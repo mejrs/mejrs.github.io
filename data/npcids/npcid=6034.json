@@ -1,1 +1,1 @@
-[{"name": "Svetlana", "id": 6034, "x": 3501, "y": 3493, "p": 0}]
+[{"name": "Svetlana", "id": 6034, "p": 0, "x": 3501, "y": 3493, "mapId": 28, "mapId_p": 0, "mapId_x": 3501, "mapId_y": 3493, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", "Attack", null, null, null], "animation_group": 664, "attackCursor": 42, "combat": 28, "extra": {"accuracy_melee_(npc)": 316, "armor": 316, "attack_speed": 5, "combat_style": 1, "damage_melee": 1000, "weakness": 4}, "headModels": [39139], "models": [26143, 26152, 26136, 26147, 26141], "movementCapabilities": 3}]

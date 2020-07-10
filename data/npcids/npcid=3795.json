@@ -1,1 +1,1 @@
-[{"name": "Squire", "id": 3795, "x": 2661, "y": 2647, "p": 0}]
+[{"name": "Squire", "id": 3795, "p": 0, "x": 2661, "y": 2647, "mapId": 28, "mapId_p": 0, "mapId_x": 2661, "mapId_y": 2647, "action_cursors": [null, null, 44, null, null, null], "actions": ["Bank", null, "Talk to", "Collect", null], "animation_group": 3180, "color_replacements": {"61": 16}, "combat": 0, "headModels": [39090], "models": [378, 14442, 14588, 10218, 14574, 358], "movementCapabilities": 3, "recolor_indices": [-1, 0], "texture_replacements": {"621": 615}, "unknown_63": true}]

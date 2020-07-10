@@ -1,1 +1,1 @@
-[{"name": "Spicati apoterrasaur", "id": 26433, "x": 5532, "y": 2274, "p": 0}]
+[{"name": "Spicati apoterrasaur", "id": 26433, "p": 0, "x": 5532, "y": 2274, "mapId": 28, "mapId_p": 0, "mapId_x": 4060, "mapId_y": 4258, "ambience": 15, "animation_group": 4378, "boundSize": 3, "color_replacements": {"43184": 17581}, "combat": 0, "extra": {"extra_001653": 1, "hide_hitpoints": 1}, "models": [34857, 34861, 34858], "movementCapabilities": 1, "movementType": 2, "texture_replacements": {"11218": 11216, "11224": 11222}}]

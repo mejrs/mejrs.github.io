@@ -1,1 +1,1 @@
-[{"name": "Sanguinus Varnis", "id": 14078, "x": 3667, "y": 3380, "p": 0}]
+[{"name": "Sanguinus Varnis", "id": 14078, "p": 0, "x": 3667, "y": 3380, "mapId": 28, "mapId_p": 0, "mapId_x": 3667, "mapId_y": 3380, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 2140, "combat": 0, "headModels": [52484], "modelContract": 25, "models": [22706], "movementCapabilities": 3}]

@@ -1,1 +1,1 @@
-[{"name": "Parrot", "id": 4373, "x": 3822, "y": 2954, "p": 0}]
+[{"name": "Parrot", "id": 4373, "p": 0, "x": 3822, "y": 2954, "mapId": 28, "mapId_p": 0, "mapId_x": 3822, "mapId_y": 2954, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-To", null, null, null, null], "animation_group": 307, "combat": 0, "models": [15833], "movementCapabilities": 1, "scaleXZ": 86, "scaleY": 86, "unknown_67": 0}]

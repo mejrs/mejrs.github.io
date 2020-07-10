@@ -1,0 +1,1 @@
+[{"name": "Helwyr's Chosen", "id": 22435, "p": 1, "x": 3203, "y": 6938, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, "Reputation", "Reclaim", null], "ambience": 64, "animation_group": 2703, "combat": 0, "headModels": [98924], "models": [111237, 111229, 98993, 97258, 10218], "movementCapabilities": 1, "respawnDirection": 0}]

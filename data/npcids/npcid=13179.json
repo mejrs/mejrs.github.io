@@ -1,0 +1,1 @@
+[{"name": "Pedestal", "morph_names_2": ["Iwazaru", "Pedestal"], "id": 13179, "p": 0, "x": 2789, "y": 2795, "mapId": 28, "mapId_p": 0, "mapId_x": 2789, "mapId_y": 2795, "combat": 0, "morphs_2": {"ids": [3483, 13177], "varbit": 9325, "varp": -1}, "movementCapabilities": 1, "unknown_67": 0}]

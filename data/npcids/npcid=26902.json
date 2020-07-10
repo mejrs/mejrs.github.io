@@ -1,0 +1,1 @@
+[{"name": "Ogre", "id": 26902, "p": 0, "x": 2394, "y": 2837, "mapId": 28, "mapId_p": 0, "mapId_x": 2394, "mapId_y": 2837, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2596, "boundSize": 2, "combat": 0, "models": [75311, 75312], "movementCapabilities": 3}]

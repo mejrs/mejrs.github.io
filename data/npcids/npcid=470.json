@@ -1,1 +1,1 @@
-[{"name": "Commander Montai", "id": 470, "x": 2523, "y": 3211, "p": 0}]
+[{"name": "Commander Montai", "id": 470, "p": 0, "x": 2523, "y": 3211, "mapId": 28, "mapId_p": 0, "mapId_x": 2523, "mapId_y": 3211, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 20, "animation_group": 108, "boundSize": 1, "combat": 0, "headModels": [63383, 63378, 63320], "modelContract": 20, "models": [62924, 63115, 63016, 62893, 62947, 63132], "movementCapabilities": 3}]

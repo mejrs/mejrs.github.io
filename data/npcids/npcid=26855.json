@@ -1,0 +1,1 @@
+[{"name": "Twilight Pegasus", "id": 26855, "p": 0, "x": 2887, "y": 3520, "mapId": 28, "mapId_p": 0, "mapId_x": 2887, "mapId_y": 3520, "animation_group": 4435, "boundSize": 1, "combat": 0, "drawMapDot": false, "models": [97535, 97583], "movementCapabilities": 1, "movementType": 2, "respawnDirection": 1}]

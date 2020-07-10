@@ -1,0 +1,1 @@
+[{"name": "Flower", "morph_names_2": ["Flower", "Ancient zygomite", "Ancient zygomite", "Flower"], "id": 26494, "p": 0, "x": 5326, "y": 2516, "mapId": 28, "mapId_p": 0, "mapId_x": 3854, "mapId_y": 4500, "combat": 0, "drawMapDot": false, "morphs_2": {"ids": [26478, 26479, 26480, 26478], "varbit": 44397, "varp": -1}, "movementCapabilities": 1, "respawnDirection": 1}]

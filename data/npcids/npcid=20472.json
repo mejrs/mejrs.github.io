@@ -1,1 +1,1 @@
-[{"name": "Lunet", "id": 20472, "x": 2241, "y": 3347, "p": 1}]
+[{"name": "Lunet", "id": 20472, "p": 1, "x": 2241, "y": 3347, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, "Buy battlestaves", null], "animation_group": 3211, "combat": 0, "headModels": [97149], "models": [101483], "movementCapabilities": 3, "texture_replacements": {"4837": 4840}}]

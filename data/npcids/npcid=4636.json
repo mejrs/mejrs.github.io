@@ -1,0 +1,1 @@
+[{"name": "Goblin", "id": 4636, "p": 0, "x": 2151, "y": 4956, "mapId": 278, "mapId_p": 0, "mapId_x": 2151, "mapId_y": 4956, "ambience": 15, "animation_group": 1113, "boundSize": 1, "combat": 0, "models": [75379, 75410, 75340, 75392, 75351, 75363, 24497, 24507], "movementCapabilities": 1, "scaleXZ": 120, "scaleY": 120}]

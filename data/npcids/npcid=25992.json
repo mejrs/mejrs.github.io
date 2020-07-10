@@ -1,0 +1,1 @@
+[{"name": "Gail", "id": 25992, "p": 0, "x": 4593, "y": 7242, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 4332, "boundSize": 1, "combat": 0, "headModels": [68401], "models": [68405], "movementCapabilities": 1, "respawnDirection": 2}]

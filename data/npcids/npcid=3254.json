@@ -1,1 +1,1 @@
-[{"name": "Hunding", "id": 3254, "x": 3096, "y": 3428, "p": 2}]
+[{"name": "Hunding", "id": 3254, "p": 2, "x": 3096, "y": 3428, "mapId": 28, "mapId_p": 2, "mapId_x": 3096, "mapId_y": 3428, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "color_replacements": {"935": 1944, "939": 1944}, "combat": 0, "headModels": [39856, 38097, 39410], "models": [11739, 214, 11746, 252, 11759, 11764, 11727, 11732, 11790, 11810, 11736], "movementCapabilities": 3, "recolor_indices": [-1, 0, -1, 1], "scaleXZ": 137}]

@@ -1,1 +1,1 @@
-[{"name": "Billy Goat", "id": 4932, "x": 3413, "y": 2888, "p": 0}]
+[{"name": "Billy Goat", "id": 4932, "p": 0, "x": 3413, "y": 2888, "mapId": 28, "mapId_p": 0, "mapId_x": 3413, "mapId_y": 2888, "actions": [null, "Attack", null, null, null], "animation_group": 63, "attackCursor": 42, "boundSize": 1, "combat": 15, "extra": {"accuracy_melee_(npc)": 213, "armor": 213, "attack_speed": 4, "combat_style": 1, "damage_melee": 440, "extra_0019C2": 68, "weakness": 1}, "models": [18903], "movementCapabilities": 3}]

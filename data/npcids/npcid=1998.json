@@ -1,1 +1,1 @@
-[{"name": "Plague cow", "id": 1998, "x": 3279, "y": 2801, "p": 0}]
+[{"name": "Plague cow", "id": 1998, "p": 0, "x": 3279, "y": 2801, "mapId": 28, "mapId_p": 0, "mapId_x": 3279, "mapId_y": 2801, "actions": ["Pet", null, null, null, null], "animation_group": 3157, "boundSize": 2, "combat": 0, "extra": {"accuracy_magic": 0, "accuracy_melee_(npc)": 110, "accuracy_ranged": 0, "armor": 110, "attack_speed": 4, "combat_style": 1, "damage_magic": 0, "damage_melee": 40, "damage_ranged": 0, "slayer_task_id": 6, "weakness": 1}, "models": [95127], "movementCapabilities": 3}]

@@ -1,0 +1,1 @@
+[{"name": "Gublinch", "morph_names_1": ["Gublinch", "Gublinch", "Gublinch", ""], "id": 5011, "p": 0, "x": 3187, "y": 5353, "mapId": 139, "mapId_p": 0, "mapId_x": 3187, "mapId_y": 5353, "animation_group": 599, "combat": 0, "morphs_1": {"ids": [5017, 5018, 5019, -1], "varbit": 14390, "varp": -1}, "movementCapabilities": 3, "unknown_63": true}]

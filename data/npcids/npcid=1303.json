@@ -1,1 +1,1 @@
-[{"name": "Skulgrimen", "id": 1303, "x": 2663, "y": 3694, "p": 0}]
+[{"name": "Skulgrimen", "id": 1303, "p": 0, "x": 2663, "y": 3694, "mapId": 28, "mapId_p": 0, "mapId_x": 2663, "mapId_y": 3694, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3183, "boundSize": 1, "color_replacements": {"25238": 4506, "6798": 6945, "8078": 10514, "8741": 10518}, "combat": 0, "extra": {"damage_melee": 200}, "headModels": [39947, 38097], "models": [206, 252, 299, 162, 176, 4226, 4218], "movementCapabilities": 3}]

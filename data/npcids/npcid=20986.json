@@ -1,0 +1,1 @@
+[{"name": "Blast Furnace Foreman", "morph_names_1": ["", "Blast Furnace Foreman", ""], "id": 20986, "p": 0, "x": 2931, "y": 10197, "mapId": 21, "mapId_p": 0, "mapId_x": 115, "mapId_y": 149, "combat": 0, "morphs_1": {"ids": [-1, 20987, -1], "varbit": 20806, "varp": -1}, "movementCapabilities": 1}]

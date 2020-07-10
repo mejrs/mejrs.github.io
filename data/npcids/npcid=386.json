@@ -1,1 +1,1 @@
-[{"name": "Kharid Scorpion", "id": 386, "x": 2552, "y": 3570, "p": 0}]
+[{"name": "Kharid Scorpion", "id": 386, "p": 0, "x": 2552, "y": 3570, "mapId": 28, "mapId_p": 0, "mapId_x": 2552, "mapId_y": 3570, "action_cursors": [45, null, null, null, null, null], "actions": ["Pick-up", null, null, null, null], "ambient_sound": [2901, 4334, 4334, 4334, 2], "animation_group": 3194, "boundSize": 1, "combat": 0, "models": [95772, 95771], "movementCapabilities": 3, "scaleXZ": 32, "scaleY": 32, "unknown_8C": 20}]

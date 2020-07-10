@@ -1,1 +1,1 @@
-[{"name": "Guidor's wife", "id": 342, "x": 3281, "y": 3383, "p": 0}]
+[{"name": "Guidor's wife", "id": 342, "p": 0, "x": 3281, "y": 3383, "mapId": 28, "mapId_p": 0, "mapId_x": 3281, "mapId_y": 3383, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 4, "boundSize": 1, "color_replacements": {"25238": 10508, "43072": 10508, "6798": 45, "8741": 5652}, "combat": 0, "headModels": [39090], "models": [378, 25713, 25697, 176, 421, 358], "movementCapabilities": 3}]

@@ -1,0 +1,1 @@
+[{"name": "Wood Dryad", "id": 4441, "p": 0, "x": 3027, "y": 4520, "mapId": 175, "mapId_p": 0, "mapId_x": 3027, "mapId_y": 4520, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "ambience": 25, "animation_group": 4, "combat": 0, "headModels": [38956], "models": [16296, 16295, 16298, 16297], "movementCapabilities": 3}]

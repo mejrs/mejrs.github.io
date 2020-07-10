@@ -1,1 +1,1 @@
-[{"name": "Taria", "id": 2336, "x": 2940, "y": 3223, "p": 0}]
+[{"name": "Taria", "id": 2336, "p": 0, "x": 2940, "y": 3223, "mapId": 28, "mapId_p": 0, "mapId_x": 2940, "mapId_y": 3223, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Pay", null, null], "animation_group": 1952, "color_replacements": {"25238": 7580, "6798": 5912, "7442": 8076, "8741": 10531, "908": 8076}, "combat": 0, "headModels": [39066], "models": [390, 456, 332, 10218, 7368, 433, 7366], "movementCapabilities": 3, "recolor_indices": [0, 1, -1, 2, 3, 4]}]

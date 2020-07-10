@@ -1,0 +1,1 @@
+[{"name": "Snert", "id": 7067, "p": 0, "x": 2572, "y": 5519, "mapId": 282, "mapId_p": 0, "mapId_x": 2572, "mapId_y": 5519, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "ambience": 25, "combat": 0, "headModels": [31788], "models": [32038], "movementCapabilities": 3}]

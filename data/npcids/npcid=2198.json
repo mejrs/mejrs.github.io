@@ -1,0 +1,1 @@
+[{"name": "Kjut", "id": 2198, "p": 0, "x": 2906, "y": 10216, "mapId": 21, "mapId_p": 0, "mapId_x": 90, "mapId_y": 168, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk to", null, null, null, null], "animation_group": 2675, "combat": 0, "headModels": [90026, 90034], "models": [90289, 90337, 90366, 90303, 78297, 90315, 90320], "movementCapabilities": 3}]

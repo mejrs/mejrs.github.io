@@ -1,1 +1,1 @@
-[{"name": "Da Vinci", "id": 337, "x": 3272, "y": 3389, "p": 0}]
+[{"name": "Da Vinci", "id": 337, "p": 0, "x": 3272, "y": 3389, "mapId": 28, "mapId_p": 0, "mapId_x": 3272, "mapId_y": 3389, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 79, "combat": 0, "headModels": [39686, 39270, 39492], "models": [28002], "movementCapabilities": 1}]

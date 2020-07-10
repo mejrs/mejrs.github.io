@@ -1,1 +1,1 @@
-[{"name": "Eoin", "id": 2368, "x": 2337, "y": 3175, "p": 0}]
+[{"name": "Eoin", "id": 2368, "p": 0, "x": 2337, "y": 3175, "mapId": 28, "mapId_p": 0, "mapId_x": 2337, "mapId_y": 3175, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, null, null, null], "animation_group": 2815, "combat": 0, "headModels": [96247], "models": [96310], "movementCapabilities": 3}]

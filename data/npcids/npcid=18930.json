@@ -1,0 +1,1 @@
+[{"name": "Gardener", "morph_names_1": ["Gardener", "Gardener", ""], "id": 18930, "p": 0, "x": 3011, "y": 3386, "mapId": 28, "mapId_p": 0, "mapId_x": 3011, "mapId_y": 3386, "boundSize": 1, "combat": 0, "morphs_1": {"ids": [3234, 18931, -1], "varbit": 15805, "varp": -1}, "movementCapabilities": 3}]

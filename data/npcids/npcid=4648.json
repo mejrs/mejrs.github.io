@@ -1,1 +1,1 @@
-[{"name": "Panning archaeologist", "id": 4648, "x": 3382, "y": 3372, "p": 0}]
+[{"name": "Panning archaeologist", "id": 4648, "p": 0, "x": 3382, "y": 3376, "mapId": 28, "mapId_p": 0, "mapId_x": 3382, "mapId_y": 3376, "animation_group": 2699, "color_replacements": {"4533": 4392, "4540": 4392, "4550": 4394, "4554": 4396, "6798": 15}, "combat": 0, "models": [387, 66226, 10218, 66219, 66232], "movementCapabilities": 3, "quests": [273], "respawnDirection": 2}]

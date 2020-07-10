@@ -1,1 +1,1 @@
-[{"name": "Patchy", "id": 4359, "x": 3677, "y": 2978, "p": 0}]
+[{"name": "Patchy", "id": 4359, "p": 0, "x": 3677, "y": 2978, "mapId": 28, "mapId_p": 0, "mapId_x": 3677, "mapId_y": 2978, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Sew", null, null], "animation_group": 4, "combat": 0, "headModels": [39942], "models": [28817, 28760], "movementCapabilities": 3, "scaleXZ": 130, "scaleY": 130, "unknown_63": true}]

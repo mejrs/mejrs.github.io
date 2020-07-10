@@ -1,1 +1,1 @@
-[{"name": "Bartender", "id": 1921, "x": 3159, "y": 2981, "p": 0}]
+[{"name": "Bartender", "id": 1921, "p": 0, "x": 3159, "y": 2981, "mapId": 28, "mapId_p": 0, "mapId_x": 3159, "mapId_y": 2981, "action_cursors": [44, null, null, null, null, null], "actions": ["Talk-to", null, "Trade", null, null], "animation_group": 3179, "boundSize": 1, "color_replacements": {"25238": 4769, "8741": 38439}, "combat": 0, "headModels": [38641, 39275], "models": [235, 248, 302, 32592, 10218, 254, 181], "movementCapabilities": 1}]

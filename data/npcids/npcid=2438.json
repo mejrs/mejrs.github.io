@@ -1,1 +1,1 @@
-[{"name": "Jarvald", "id": 2438, "x": 2544, "y": 3761, "p": 0}]
+[{"name": "Jarvald", "id": 2438, "p": 0, "x": 2544, "y": 3761, "mapId": 28, "mapId_p": 0, "mapId_x": 2544, "mapId_y": 3761, "action_cursors": [null, null, 44, null, null, null], "actions": ["Travel-Rellekka", null, "Talk-to", null, null], "animation_group": 119, "boundSize": 1, "color_replacements": {"25238": 10388, "8741": 7461}, "combat": 0, "headModels": [39939, 38097], "models": [8747, 252, 292, 162, 176, 4236, 4235, 4226, 4218], "movementCapabilities": 1}]
