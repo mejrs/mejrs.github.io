@@ -5,9 +5,9 @@ L.GameMap = L.Map.extend({
 
             let parsedUrl = new URL(window.location.href);
 
-            options.zoom = Number(parsedUrl.searchParams.get('zoom') || parsedUrl.searchParams.get('z') || this._limitZoom(options.zoom) || 2);
+            options.zoom = Number(parsedUrl.searchParams.get('zoom') || parsedUrl.searchParams.get('z') || this._limitZoom(options.zoom) || 0);
 
-            this._plane = Number(parsedUrl.searchParams.get('plane') || parsedUrl.searchParams.get('p') || this._limitPlane(options.plane));
+            this._plane = Number(parsedUrl.searchParams.get('plane') || parsedUrl.searchParams.get('p') || this._limitPlane(options.plane) || 0);
 
             this._mapId = Number(parsedUrl.searchParams.get('mapId') || parsedUrl.searchParams.get('mapid') || parsedUrl.searchParams.get('m') || options.initialMapId || -1);
             options.x = Number(parsedUrl.searchParams.get('x')) || options.x || 3232;
@@ -21,28 +21,56 @@ L.GameMap = L.Map.extend({
             this.on('moveend planechange mapidchange', this.setSearchParams)
 
             if (this.options.baseMaps) {
-                const dataPromise = fetch(this.options.baseMaps);
-                dataPromise.catch(console.error);
+                const dataPromise = fetch(this.options.baseMaps).then(response => response.json()).then(data => {
 
-                dataPromise.then(response => response.json()).then(data => {
+                        this._baseMaps = Array.isArray(data) ? this.castBaseMaps(data) : data;
+                        this._allowedMapIds = Object.keys(this._baseMaps).map(Number);
+                        let bounds = this.getMapIdBounds(this._mapId);
 
-                    this._baseMaps = Array.isArray(data) ? this.castBaseMaps(data) : data;
-                    this._allowedMapIds = Object.keys(this._baseMaps).map(Number);
-                    let bounds = this.getMapIdBounds(this._mapId);
+                        if (options.showMapBorder) {
+                            this.boundsRect = L.rectangle(bounds, {
+                                    color: "#ffffff",
+                                    weight: 1,
+                                    fill: false,
+                                    smoothFactor: 1,
+                                }).addTo(this);
+                        }
 
-                    if (options.showMapBorder) {
-                        this.boundsRect = L.rectangle(bounds, {
-                                color: "#ffffff",
-                                weight: 1,
-                                fill: false,
-                                smoothFactor: 1,
-                            }).addTo(this);
+                        let paddedBounds = bounds.pad(0.1);
+                        this.setMaxBounds(paddedBounds);
+                    });
+
+            }
+
+            if (options.messageBox) {
+                this._messageContainer = L.DomUtil.create('div', 'leaflet-control-message-container');
+                this._controlContainer.appendChild(this._messageContainer);
+            }
+
+        },
+
+        addMessage: function (message) {
+            if (this.options.messageBox) {
+                let messageBox = L.DomUtil.create('div', 'leaflet-control-message-box');
+
+                let messageContent = L.DomUtil.create('div', 'leaflet-control-message-content');
+                messageContent.innerHTML = message;
+                messageBox.appendChild(messageContent);
+
+                let clearButton = L.DomUtil.create('div', 'leaflet-control-message-clear');
+                clearButton.innerHTML = "[dismiss]";
+                clearButton.onclick = () => this._messageContainer.removeChild(messageBox);
+                messageBox.appendChild(clearButton);
+
+                this._messageContainer.appendChild(messageBox);
+                setTimeout(() => {
+                    if (this._messageContainer.contains(messageBox)) {
+                        this._messageContainer.removeChild(messageBox);
                     }
-
-                    let paddedBounds = bounds.pad(0.1);
-                    this.setMaxBounds(paddedBounds);
-                });
-
+                }, 4000);
+                return messageBox;
+            } else {
+                console.log(message);
             }
         },
 
@@ -220,72 +248,29 @@ L.tileLayer.main = function (url, options) {
     return new L.TileLayer.Main(url, options);
 }
 
-L.TileLayer.Grid = L.TileLayer.extend({
-        initialize: function (folder, options) {
+L.Grid = L.GridLayer.extend({
+        initialize: function (options) {
+            options.maxNativeZoom = 2;
+            options.minNativeZoom = 2;
+            options.minZoom = 1;
             L.setOptions(this, options);
-            this.folder = folder;
         },
 
-        getTileUrl: function (coords) {
-            let x = coords.x;
-            let y = coords.y;
+        createTile: function (coords) {
+            let tile = L.DomUtil.create('div', "grid");
+            tile.innerHTML = [coords.x,  - (1 + coords.y)].join(', ');
+            return tile;
+        },
 
-            switch (coords.z) {
-            case 1:
-                return this.folder + "2xsquare.png";
-            case 2:
-                return this.folder + "square.png";
-            case 3:
-                if ((x & 0x1) === 0x1 && (y & 0x1) === 0x1) {
-                    return this.folder + "bottomright.png";
-                }
-                if ((x & 0x1) === 0x0 && (y & 0x1) === 0x0) {
-                    return this.folder + "topleft.png";
-                }
-                if ((x & 0x1) === 0x0 && (y & 0x1) === 0x1) {
-                    return this.folder + "bottomleft.png";
-                }
-                if ((x & 0x1) === 0x1 && (y & 0x1) === 0x0) {
-                    return this.folder + "topright.png";
-                }
-            case 4:
-                if ((x & 0x3) === 0x3 && (y & 0x3) === 0x3) {
-                    return this.folder + "bottomright.png";
-                }
-                if ((x & 0x3) === 0x0 && (y & 0x3) === 0x0) {
-                    return this.folder + "topleft.png";
-                }
-                if ((x & 0x3) === 0x0 && (y & 0x3) === 0x3) {
-                    return this.folder + "bottomleft.png";
-                }
-                if ((x & 0x3) === 0x3 && (y & 0x3) === 0x0) {
-                    return this.folder + "topright.png";
-                }
-                if ((x & 0x3) === 0x3) {
-                    return this.folder + "right.png";
-                }
-                if ((x & 0x3) === 0x0) {
-                    return this.folder + "left.png";
-                }
-                if ((y & 0x3) === 0x3) {
-                    return this.folder + "bottom.png";
-                }
-                if ((y & 0x3) === 0x0) {
-                    return this.folder + "top.png";
-                }
-
+        _update: function (center) {
+            if (this._map.getZoom() >= this.options.minZoom) {
+                return L.GridLayer.prototype._update.call(this, center);
             }
-
-        },
-
-        options: {
-            attribution: '<a href="http://runescape.wiki.com">RuneScape Wiki</a>',
         }
-
     });
 
-L.tileLayer.grid = function (folder, options) {
-    return new L.TileLayer.Grid(folder, options);
+L.grid = function (folder, options) {
+    return new L.Grid(folder, options);
 }
 
 L.Heatmap = L.GridLayer.extend({
@@ -314,8 +299,9 @@ L.Heatmap = L.GridLayer.extend({
         onAdd: function (map) {
             L.GridLayer.prototype.onAdd.call(this, map);
 
-            if (this.options.npcs.length) {
-                this.fetchData(this.options.npcs, this.options.range);
+            if (this.options.npcs.length || this.options.ids) {
+                this.fetchData(this.options.npcs, this.options.ids, this.options.range);
+
             }
         },
 
@@ -324,62 +310,74 @@ L.Heatmap = L.GridLayer.extend({
             L.GridLayer.prototype.remove.call(this);
         },
 
-        fetchData: function (npcNames, range) {
-            //note: if changing how data is collected, do that and pass the data using this.constructDataCache(mapData, keys, npcs) and fire the event if async
+        getIds: function (names, ids) {
+            return Promise.resolve((ids && ids.length) ? ids : fetch("../mejrs.github.io/data/npc_name_collection.json")
+                .then(response => response.json())
 
-            //fetch data linking npc names to ids
-            fetch("data/npcname_id_map.json")
+                .then(name_collection => names.flatMap(name => name_collection[name]))
 
-            .then(res => res.json())
+                //remove any names not found
+                .then(namedIds => namedIds.filter(Number.isInteger)))
 
-            //maps npc names to ids
-            .then(data => npcNames.flatMap(name => data[name] || []))
-
-            //fetch location(s) of all the npc(s)
-
-            .then(idData => Promise.all(idData.map(id => fetch(`data/npcids/npcid=${id}.json`))))
-            .then(instances => Promise.all(instances.map(res => res.json())))
-            .then(data => data.flat())
-
-            //finds the map squares required
-            .then(npcs => {
-
-                let keys = this.array.unique(npcs.flatMap(npc => this.getRange(npc, range)));
-
-                //fetch collision data for these map squares
-                Promise.allSettled(keys.map(key => fetch(`data/collisions/-1/${key}.json`)))
-                .then(responses => Promise.all(responses.map(res => res.status === "fulfilled" && res.value.ok ? res.value.json() : undefined)))
-                .then(mapData => {
-
-                    //calculate all the data
-                    this.constructDataCache(mapData, keys, npcs);
-
-                    //start drawing tiles
-                    this.fire("heatdataready", {
-                        keys: this._heatData
-                    });
-                });
-            });
+            .then(namedIds => fetch("../mejrs.github.io/data/npc_morph_collection.json").then(res => res.json())
+                .then(morphs => namedIds.flatMap(id => [...(morphs[id] ?? []), id])));
 
         },
 
-        constructDataCache: function (mapData, keys, npcs) {
+        fetchData: function (npcNames, npcIds, range) {
+            const dataPromise = this.getIds(npcNames, npcIds)
+                .then(ids => {
+                    Promise.allSettled(ids.map(id => fetch(`../mejrs.github.io/data/npcids/npcid=${id}.json`)))
+                    .then(responses => Promise.all(responses.filter(res => res.status === "fulfilled" && res.value.ok).map(res => res.value.json())))
+                    .then(data => data.flat())
 
+                    //finds the map squares required
+                    .then(npcs => {
+                        let keys = this.array.unique(npcs.flatMap(npc => this.getRange(npc, range)));
+
+                        //fetch collision data for these map squares
+                        Promise.allSettled(keys.map(key => fetch(`../mejrs.github.io/data/collisions/-1/${key}.json`)))
+                        .then(responses => Promise.all(responses.filter(res => res.status === "fulfilled" && res.value.ok).map(res => res.value.json())))
+                        .then(mapData => {
+
+                            //calculate all the data
+                            this.constructDataCache(mapData, keys, npcs);
+
+                            //start drawing tiles
+                            this.fire("heatdataready", {
+                                keys: this._heatData
+                            });
+                        });
+
+                    });
+                });
+
+        },
+
+        _collisionData: undefined,
+
+        _heatData: undefined,
+
+        constructDataCache: function (mapData, keys, npcs) {
             this._collisionData = this.array.toObject(keys, mapData);
 
             this.constructNpcCache(keys, npcs, this.options.range);
 
-            let heat = keys.map(key => this.createHeatmap(key));
-            this._heatData = this.array.toObject(keys, heat);
+            if (this.options.showHeat) {
+                let heat = keys.map(key => this.createHeatmap(key));
+                this._heatData = this.array.toObject(keys, heat);
 
-            this._maxHeat = this._eachMaxHeat.length ? Math.max.apply(null, this._eachMaxHeat) : null;
-            //console.log("Max heat is", this._maxHeat);
+                this._maxHeat = this._eachMaxHeat.length ? Math.max.apply(null, this._eachMaxHeat) : undefined;
+            }
 
         },
 
         constructNpcCache: function (keys, npcs, range) {
             npcs.forEach(npc => this.getFeature(npc));
-            npcs.forEach(npc => this.getIconUrl(npc));
+
+            if (this._npcIcons) {
+                npcs.forEach(npc => this.getIconUrl(npc));
+            }
             this._markers = npcs.map(npc => this.addMarker(npc, this._map));
             this._npcData = npcs.filter(npc => npc.feature);
 
@@ -460,7 +458,7 @@ L.Heatmap = L.GridLayer.extend({
                 return this.starMap(newArray, (_, i, j) => arrays.map(array => array[i][j]).reduce((a, b) => a + b, 0));
             },
 
-            //maps function fn over a 2d array, returning the resulting array (NOT functools.starmap())
+            //maps function fn over a 2d array, returning the resulting array
             starMap: function (array, fn) {
                 return array.map((subarray, index, array) => subarray.map((value, jndex) => fn(value, index, jndex, array)));
             },
@@ -495,7 +493,6 @@ L.Heatmap = L.GridLayer.extend({
 
             let key = tileData.toString();
             if (!this.colors[key]) {
-                //this.colors[key] = '#' + (0x1000000 + (Math.random()) * 0xffffff).toString(16).substr(1, 6) + "E6";
                 this.colors[key] = 'rgba(' + parseInt(255 * tileData / this._maxHeat) + ',0, 0, ' + parseInt(100 * tileData / this._maxHeat) / 100 + ')'
 
             }
@@ -527,7 +524,7 @@ L.Heatmap = L.GridLayer.extend({
 
         addMarker: function (npc, map) {
             let icon = L.icon({
-                    iconUrl: this._npcIcons[npc.name] ? npc.iconUrl : '../mejrs.github.io/images/marker-icon.png',
+                    iconUrl: this._npcIcons && this._npcIcons[npc.name] ? npc.iconUrl : '../mejrs.github.io/images/marker-icon.png',
                     iconSize: [25, 41],
                     iconAnchor: [12, 41],
                     popupAnchor: [1, -34],
@@ -563,6 +560,7 @@ L.Heatmap = L.GridLayer.extend({
 
         getFeature: function (npc) {
             let key = this._generateDataKey(npc);
+
             npc.feature = this._collisionData[key] ? this._collisionData[key][npc.x & (this.options.gridSize - 1)][npc.y & (this.options.gridSize - 1)].f : null;
         },
 
@@ -612,14 +610,14 @@ L.Heatmap = L.GridLayer.extend({
 
                 //defer drawing the tiles until data has loaded...
                 this.once("heatdataready", (e) => {
-                    if (e.keys[key]) {
+                    if (e.keys && e.keys[key]) {
                         this._drawTile(tile, coords, e.keys[key]);
-                        //console.log(key, "successfully instantiated");
+                        //console.info("Successfully instantiated tile at", coords);
                         done(error, tile);
                     } else {
                         error = "tile not in cache";
+                        //console.info("Cancelled tile at", coords);
                         done(error, tile);
-                        //console.log(key, "has failed successfully")
 
                     }
                 });
@@ -702,7 +700,10 @@ L.heatmap = function (options) {
     return new L.Heatmap(options);
 };
 
-L.Teleports = L.Layer.extend({
+// @factory L.DynamicIcons(options?: DynamicIcons options)
+// Creates a new layer  with the supplied options.
+
+L.DynamicIcons = L.Layer.extend({
         options: {
             updateWhenIdle: L.Browser.mobile,
             updateWhenZooming: true,
@@ -731,71 +732,54 @@ L.Teleports = L.Layer.extend({
             // Function applied by .map() on icon data
             mapFn: undefined,
 
-            // @option fanRadius: Number
-            // Distance between fanned icons (a.k.a. sides of the n-sided polygon)
-            fanRadius: 3,
+            // @option show3d: boolean
+            // If true, shows a greyed marker if the marker is on a different plane
+            show3d: true,
 
-            // @option fanZoom: Number
-            // Enable fanning out at a zoom level at or greater than this
-            fanZoom: 2
         },
 
         initialize: function (options) {
             L.setOptions(this, options);
         },
 
-        //to be replaced by preprocessing the data like this
-        _parseData: function (data, watery) {
+        onAdd: function (map) {
+            if (this.options.dataPath) {
+
+                const dataPromise = fetch(this.options.dataPath).then(response => response.json()).then(response => {
+                        if (this.options.filterFn) {
+                            response = response.filter(this.options.filterFn);
+
+                        }
+
+                        if (this.options.mapFn) {
+                            response = response.map(this.options.mapFn);
+
+                        }
+
+                        this._icon_data = this.parseData(response);
+                        this._icons = {};
+                        this._resetView();
+                        this._update();
+
+                    });
+
+                dataPromise.catch(console.error);
+
+            } else {
+                throw new Error("No dataPath specified");
+            }
+        },
+
+        parseData: function (data) {
             let startTime = new Date();
-            let dataCollection = this.parseSheet(data).map(this.parseItems.bind(this)).flatMap(group => group.items).filter(Boolean).map(item => {
-                    item.plane = watery[item.x >> 6][item.y >> 6].includes((item.x << 14) + item.y) ? item.plane - 1 : item.plane;
-                    if ("destination" in item) {
-                        item.destination.plane = watery[item.destination.x >> 6][item.destination.y >> 6].includes((item.destination.x << 14) + item.destination.y) ? item.destination.plane - 1 : item.destination.plane;
-                    }
-                    if ("start" in item) {
-                        item.start.plane = watery[item.start.x >> 6][item.start.y >> 6].includes((item.start.x << 14) + item.start.y) ? item.start.plane - 1 : item.start.plane;
-                    }
-                    return item
-                });
-
-            let transits = dataCollection.filter(item => "start" in item && "destination" in item);
-            let transits_a = transits.map(item => Object.assign({
-                        ...item
-                    }, item.start, {
-                        mode: "start"
-                    }));
-            let transits_b = transits.map(item => Object.assign({
-                        ...item
-                    }, item.destination, {
-                        mode: "destination"
-                    }));
-
-            let teleports = dataCollection.filter(item => !("start" in item) && "destination" in item && !("type" in item));
-            teleports.forEach(item => item.type = "teleport");
-            teleports.forEach(item => item = Object.assign(item, item.destination));
-
-            let all_icons = [...transits_a, ...transits_b, ...teleports];
-
-            all_icons.forEach(item => item.watery = watery[item.x >> 6][item.y >> 6].includes((item.x << 14) + item.y));
-
-            all_icons.forEach(item => item.key = this._tileCoordsToKey({
-                        plane: item.plane,
+            data.forEach(item => item.key = this._tileCoordsToKey({
+                        plane: item.p,
                         x: (item.x >> 6),
                         y:  - (item.y >> 6)
                     }));
 
-            all_icons.forEach(item => this.getIconUrl(item));
-
-            if (this.options.filterFn) {
-                all_icons = all_icons.filter(item => this.options.filterFn(item));
-            }
-
-            if (this.options.mapFn) {
-                all_icons = all_icons.map(item => this.options.mapFn(item));
-            }
-
             let icon_data = {};
-            all_icons.forEach(item => {
+            data.forEach(item => {
                 if (!(item.key in icon_data)) {
                     icon_data[item.key] = [];
                 }
@@ -803,56 +787,13 @@ L.Teleports = L.Layer.extend({
             });
 
             let endTime = new Date();
-            console.info("Parsed", all_icons.length, "icons", "in", endTime - startTime, "ms.");
+            console.info("Parsed", data.length, "items", "in", endTime - startTime, "ms.");
             return icon_data;
-        },
-
-        getIconUrl: function (item) {
-            let filename = item.icon ? item.icon.trim() + ".png" : undefined;
-            if (filename) {
-                var hash = MD5.md5(filename);
-                item.iconUrl = 'https://runescape.wiki/images/' + hash.substr(0, 1) + '/' + hash.substr(0, 2) + '/' + filename;
-
-            } else if (JSON.stringify(item).includes("agility") || JSON.stringify(item).includes("Agility")) {
-                //shortcut icon
-                item.iconUrl = '../mejrs.github.io/layers/sprites/20763-0.png';
-            } else {
-
-                //travel icon
-                item.iconUrl = '../mejrs.github.io/layers/sprites/20764-0.png';
-            }
-        },
-
-        onAdd: function (map) {
-            if (this.options.API_KEY && this.options.SHEET_ID) {
-
-                const dataPromise = fetch(`https://sheets.googleapis.com/v4/spreadsheets/${this.options.SHEET_ID}/values/A:Z?key=${this.options.API_KEY}`)
-                    .then(response => response.ok ? response.json().then(sheet => sheet.values) : response.json().then(oopsie => Promise.reject(new Error(oopsie.error.message)).then(() => {}, console.error)));
-
-                const wateryPromise = fetch('../mejrs.github.io/data/keyed_watery.json').then(response => response.ok ? response.json() : Promise.reject(new Error(response.status + " Error fetching " + response.url))).catch(console.error);
-
-                const allData = Promise.all([dataPromise, wateryPromise]);
-
-                allData.then(responses => {
-                    if (!responses.includes(undefined)) {
-
-                        this._icon_data = this._parseData(...responses);
-                        this._icons = {};
-                        this._resetView();
-                        this._update();
-                    }
-                });
-
-                allData.catch(console.error);
-
-            } else {
-                throw new Error("No API_KEY and/or SHEET_ID specified");
-            }
         },
 
         onRemove: function (map) {
             this._removeAllIcons();
-            this.fanEvents.removeAll();
+
             this._tileZoom = undefined;
         },
 
@@ -1178,23 +1119,22 @@ L.Teleports = L.Layer.extend({
         // converts tile coordinates to key for the tile cache
         _tileCoordsToKey: function (coords) {
             try {
-                return coords.plane + ':' + coords.x + ':' + coords.y;
+                return (this.options.show3d ? 0 : coords.plane) + ':' + coords.x + ':' + coords.y;
             } catch {
                 throw new Error("Error parsing " + JSON.stringify(coords))
             };
-
         },
 
         // converts tile cache key to coordinates
         _keyToTileCoords: function (key) {
-
             var k = key.split(':');
-            var coords = {
-                plane: +k[0],
+
+            return {
+                plane: this.options.show3d ? 0 : +k[0],
                 x: +k[1],
                 y: +k[2]
             };
-            return coords;
+
         },
 
         _removeIcons: function (key) {
@@ -1216,6 +1156,306 @@ L.Teleports = L.Layer.extend({
 
         _getTilePos: function (coords) {
             return coords;
+        },
+
+        getAverageLatLng: function (icons) {
+            let latlngs = icons.map(icon => icon.getLatLng());
+            let lat = latlngs.map(latlng => latlng.lat).reduce((a, b) => a + b, 0) / icons.length;
+            let lng = latlngs.map(latlng => latlng.lng).reduce((a, b) => a + b, 0) / icons.length;
+            return new L.LatLng(lat, lng)
+        },
+
+        createIcon: function (item) {
+            let icon = L.icon({
+                    iconUrl: '../mejrs.github.io/images/marker-icon.png',
+                    iconSize: [25, 41],
+                    iconAnchor: [12, 41],
+                    popupAnchor: [1, -34],
+                    tooltipAnchor: [16, -28],
+                    shadowSize: [41, 41]
+                });
+            let greyscaleIcon = L.icon({
+                    iconUrl: '../mejrs.github.io/images/marker-icon-greyscale.png',
+                    iconSize: [25, 41],
+                    iconAnchor: [12, 41],
+                    popupAnchor: [1, -34],
+                    tooltipAnchor: [16, -28],
+                    shadowSize: [41, 41]
+                });
+
+            let marker = L.marker([(item.y + 0.5), (item.x + 0.5)], {
+                    icon: item.p === this._map.getPlane() ? icon : greyscaleIcon,
+                });
+
+            this._map.on('planechange', function (e) {
+                marker.setIcon(item.p === e.newPlane ? icon : greyscaleIcon);
+            });
+
+            let popUpText = Object.entries(item).map(x => x.map(i => typeof i !== "string" ? JSON.stringify(i) : i).join(" = ")).join("<br>");
+            marker.bindPopup(popUpText, {
+                autoPan: false
+            })
+
+            return marker
+        },
+
+        createPopupBody: function (mode, map, item) {
+            let wrapper = document.createElement('div');
+
+            let nav = (item.start && item.destination) ? this.createNavigator(mode, map, item) : document.createElement('div');
+
+            let info = document.createElement('div');
+            info.innerHTML = Object.entries(item).map(x => x.map(i => typeof i !== "string" ? JSON.stringify(i) : i).join(" = ")).join("<br>");
+
+            wrapper.appendChild(nav);
+            wrapper.appendChild(info);
+            return wrapper;
+        },
+
+        _addIcons: function (coords) {
+
+            var tilePos = this._getTilePos(coords);
+            var key = this._tileCoordsToKey(coords);
+            var dataKey = this._tileCoordsToKey(coords);
+            var data = this._icon_data[dataKey];
+            var icons = [];
+
+            data.forEach(item => {
+
+                var icon = this.createIcon(item);
+                this._map.addLayer(icon);
+                icons.push(icon);
+
+            });
+            this._icons[key] = {
+                icons: icons,
+                coords: coords,
+                current: true
+            };
+        },
+    });
+
+L.dynamicIcons = function (options) {
+    return new L.DynamicIcons(options);
+}
+
+L.Objects = L.DynamicIcons.extend({
+        onAdd: function (map) {
+            if (this.options.names || this.options.ids) {
+
+                const dataPromise = this.getIds(this.options.names, this.options.ids)
+                    .then(ids => {
+                        Promise.allSettled(ids.map(id => fetch(`../mejrs.github.io/data/ids/id=${id}.json`)))
+                        .then(responses => Promise.all(responses.filter(res => res.status === "fulfilled" && res.value.ok).map(res => res.value.json())))
+                        .then(data => {
+                            this._icon_data = this.parseData(data);
+                            this._icons = {};
+                            this._resetView();
+                            this._update();
+                        })
+
+                    });
+
+            } else {
+                throw new Error("No objects specified");
+            }
+        },
+        getIds: function (names, ids) {
+            return Promise.resolve((this.options.ids && this.options.ids.length) ? ids : fetch("../mejrs.github.io/data/object_name_collection.json")
+                .then(response => response.json())
+
+                .then(name_collection => names.flatMap(name => name_collection[name]))
+
+                //remove any names not found
+                .then(namedIds => namedIds.filter(Number.isInteger))).then(namedIds => fetch("../mejrs.github.io/data/object_morph_collection.json").then(res => res.json())
+                .then(morphs => namedIds.flatMap(id => [...(morphs[id] ?? []), id])));
+
+        },
+
+        parseData: function (data) {
+            let startTime = new Date();
+
+            let linear_data = data.flatMap(id => id.uniques.map(instance => Object.assign({
+                            name: undefined,
+                            p: instance.o.p,
+                            x: (instance.o.i << 6) + instance.o.x,
+                            y: (instance.o.j << 6) + instance.o.y,
+                            type: instance.t,
+                            rotation: instance.r,
+                        }, id.properties)));
+
+            linear_data.forEach(item => item.key = this._tileCoordsToKey({
+                        plane: item.p,
+                        x: (item.x >> 6),
+                        y:  - (item.y >> 6)
+                    }));
+
+            let icon_data = {};
+            linear_data.forEach(item => {
+                if (!(item.key in icon_data)) {
+                    icon_data[item.key] = [];
+                }
+                icon_data[item.key].push(item);
+            });
+
+            let endTime = new Date();
+            this._map.addMessage("Found " + linear_data.length + " locations in " + (endTime - startTime) + " ms.");
+            return icon_data;
+        },
+
+    });
+
+L.objects = function (options) {
+    return new L.Objects(options);
+}
+
+L.Teleports = L.DynamicIcons.extend({
+        options: {
+            updateWhenIdle: L.Browser.mobile,
+            updateWhenZooming: true,
+            updateInterval: 200,
+            zIndex: 1,
+            bounds: null,
+            minZoom: undefined,
+            maxZoom: undefined,
+
+            // @option nativeZoom: Number
+            // The zoom level at which one tile corresponds to one unit of granularity of the icon data
+            nativeZoom: 2,
+
+            // @option nativeZoomTileSize: Number
+            // Px size of one tile at nativeZoom. Use a number if width and height are equal, or `L.point(width, height)` otherwise.
+            nativeTileSize: 256,
+
+            className: '',
+            keepBuffer: 2,
+
+            // @option filterFn: Function
+            // Function applied by .filter() on icon data
+            filterFn: undefined,
+
+            // @option mapFn: Function
+            // Function applied by .map() on icon data
+            mapFn: undefined,
+
+            // @option fanRadius: Number
+            // Distance between fanned icons (a.k.a. sides of the n-sided polygon)
+            fanRadius: 3,
+
+            // @option fanZoom: Number
+            // Enable fanning out at a zoom level at or greater than this
+            fanZoom: 2
+        },
+
+        //to be replaced by preprocessing the data like this
+        parseData: function (data, watery) {
+            let startTime = new Date();
+            let dataCollection = this.parseSheet(data).map(this.parseItems.bind(this)).flatMap(group => group.items).filter(Boolean).map(item => {
+                    item.plane = watery[item.x >> 6][item.y >> 6].includes((item.x << 14) + item.y) ? item.plane - 1 : item.plane;
+                    if ("destination" in item) {
+                        item.destination.plane = watery[item.destination.x >> 6][item.destination.y >> 6].includes((item.destination.x << 14) + item.destination.y) ? item.destination.plane - 1 : item.destination.plane;
+                    }
+                    if ("start" in item) {
+                        item.start.plane = watery[item.start.x >> 6][item.start.y >> 6].includes((item.start.x << 14) + item.start.y) ? item.start.plane - 1 : item.start.plane;
+                    }
+                    return item
+                });
+
+            let transits = dataCollection.filter(item => "start" in item && "destination" in item);
+            let transits_a = transits.map(item => Object.assign({
+                        ...item
+                    }, item.start, {
+                        mode: "start"
+                    }));
+            let transits_b = transits.map(item => Object.assign({
+                        ...item
+                    }, item.destination, {
+                        mode: "destination"
+                    }));
+
+            let teleports = dataCollection.filter(item => !("start" in item) && "destination" in item && !("type" in item));
+            teleports.forEach(item => item.type = "teleport");
+            teleports.forEach(item => item = Object.assign(item, item.destination));
+
+            let all_icons = [...transits_a, ...transits_b, ...teleports];
+
+            all_icons.forEach(item => item.watery = watery[item.x >> 6][item.y >> 6].includes((item.x << 14) + item.y));
+
+            all_icons.forEach(item => item.key = this._tileCoordsToKey({
+                        plane: item.plane,
+                        x: (item.x >> 6),
+                        y:  - (item.y >> 6)
+                    }));
+
+            all_icons.forEach(item => this.getIconUrl(item));
+
+            if (this.options.filterFn) {
+                all_icons = all_icons.filter(item => this.options.filterFn(item));
+            }
+
+            if (this.options.mapFn) {
+                all_icons = all_icons.map(item => this.options.mapFn(item));
+            }
+
+            let icon_data = {};
+            all_icons.forEach(item => {
+                if (!(item.key in icon_data)) {
+                    icon_data[item.key] = [];
+                }
+                icon_data[item.key].push(item);
+            });
+
+            let endTime = new Date();
+            console.info("Parsed", all_icons.length, "icons", "in", endTime - startTime, "ms.");
+            return icon_data;
+        },
+
+        getIconUrl: function (item) {
+            let filename = item.icon ? item.icon.trim() + ".png" : undefined;
+            if (filename) {
+                var hash = MD5.md5(filename);
+                item.iconUrl = 'https://runescape.wiki/images/' + hash.substr(0, 1) + '/' + hash.substr(0, 2) + '/' + filename;
+
+            } else if (JSON.stringify(item).includes("agility") || JSON.stringify(item).includes("Agility")) {
+                //shortcut icon
+                item.iconUrl = '../mejrs.github.io/layers/sprites/20763-0.png';
+            } else {
+
+                //travel icon
+                item.iconUrl = '../mejrs.github.io/layers/sprites/20764-0.png';
+            }
+        },
+
+        onAdd: function (map) {
+            if (this.options.API_KEY && this.options.SHEET_ID) {
+
+                const dataPromise = fetch(`https://sheets.googleapis.com/v4/spreadsheets/${this.options.SHEET_ID}/values/A:Z?key=${this.options.API_KEY}`)
+                    .then(response => response.ok ? response.json().then(sheet => sheet.values) : response.json().then(oopsie => Promise.reject(new Error(oopsie.error.message)).then(() => {}, console.error)));
+
+                const wateryPromise = fetch('../mejrs.github.io/data/keyed_watery.json').then(response => response.ok ? response.json() : Promise.reject(new Error(response.status + " Error fetching " + response.url))).catch(console.error);
+
+                const allData = Promise.all([dataPromise, wateryPromise]);
+
+                allData.then(responses => {
+                    if (this._map && !responses.includes(undefined)) {
+
+                        this._icon_data = this.parseData(...responses);
+                        this._icons = {};
+                        this._resetView();
+                        this._update();
+                    }
+                });
+
+                allData.catch(console.error);
+
+            } else {
+                throw new Error("No API_KEY and/or SHEET_ID specified");
+            }
+        },
+
+        onRemove() {
+            this.fanEvents.removeAll();
+            return L.DynamicIcons.prototype.onRemove.call(this);
         },
 
         applyFanOut: function (original_marker, marker, zoom) {
@@ -1564,7 +1804,7 @@ L.CustomParseTeleports = L.Teleports.extend({
             if (this.options.API_KEY && this.options.SHEET_ID) {
 
                 const dataPromise = fetch(`https://sheets.googleapis.com/v4/spreadsheets/${this.options.SHEET_ID}/values/A:Z?key=${this.options.API_KEY}`)
-                    .then(response => response.ok ? response.json().then(sheet => sheet.values) : response.json().then(oopsie => Promise.reject(new Error(oopsie.error.message)).then(() => {}, console.error)));
+                    .then(response => response.ok ? response.json().then(sheet => sheet.values) : response.json().then(e => Promise.reject(new Error(e.error.message)).then(() => {}, console.error)));
 
                 const allData = Promise.all([dataPromise]);
 
