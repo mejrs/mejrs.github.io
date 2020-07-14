@@ -16,8 +16,8 @@ var runescape_map = L.gameMap('map', {
 
         initialMapId: -1,
         plane: 0,
-        x: 2332,
-        y: 5732,
+        x: 3200,
+        y: 3200,
         minPlane: 0,
         maxPlane: 3,
         minZoom: -4,
