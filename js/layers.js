@@ -246,7 +246,7 @@ L.TileLayer.Main = L.TileLayer.extend({
 		// These are expected as trivial tiles are not included to save on storage space
 		createTile: function (coords, done){
 			let tile = L.TileLayer.prototype.createTile.call(this, coords, done);
-			tile.onerror = error => true;
+			tile.onerror = error => error.preventDefault();
 			return tile
 		}
 
