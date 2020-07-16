@@ -237,10 +237,18 @@ L.TileLayer.Main = L.TileLayer.extend({
         },
 
         options: {
-            //errorTileUrl: 'layers/alpha_pixel.png',
+            errorTileUrl: 'layers/alpha_pixel.png',
             attribution: '<a href="https://runescape.wiki/w/User:Mejrs/mejrs.github.io">Documentation</a>',
 
-        }
+        },
+		
+		// Suppress 404 errors for loading tiles
+		// These are expected as trivial tiles are not included to save on storage space
+		createTile: function (coords, done){
+			let tile = L.TileLayer.prototype.createTile.call(this, coords, done);
+			tile.onerror = error => true;
+			return tile
+		}
 
     });
 
