@@ -15,7 +15,7 @@ import "../../js/layers.js";
 import "../../js/handlers.js";
 import "../../js/other.js";
 
-import * as wasm_pathfinder from '../../pkg/wasm_pathfinder.js';
+import * as wasm_pathfinder from '../../pathfinder/wasm_pathfinder.js';
 
 void function (global) {
     global.wasm_pathfinder = wasm_pathfinder;
