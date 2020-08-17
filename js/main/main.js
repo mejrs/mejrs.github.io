@@ -1,6 +1,25 @@
 'use strict';
 
-var runescape_map = L.gameMap('map', {
+
+import "../../js/leaflet.js";
+import "../../js/plugins/leaflet.fullscreen.js";
+import "../../js/plugins/leaflet.template.js";
+import "../../js/plugins/leaflet.mapSelector.js";
+import "../../js/plugins/leaflet.zoom.js";
+import "../../js/plugins/leaflet.plane.js";
+import "../../js/plugins/leaflet.position.js";
+import "../../js/plugins/leaflet.displays.js";
+import "../../js/plugins/leaflet.urllayers.js";
+import "../../js/plugins/leaflet.dive.js";
+import "../../js/layers.js";
+import "../../js/handlers.js";
+import "../../js/other.js";
+
+import * as wasm_pathfinder from '../../pkg/wasm_pathfinder.js';
+
+void function (global) {
+    global.wasm_pathfinder = wasm_pathfinder;
+    let runescape_map = global.runescape_map = L.gameMap('map', {
 
         maxBounds: [[-1000, -1000], [12800 + 1000, 12800 + 1000]],
         maxBoundsViscosity: 0.5,
@@ -94,7 +113,14 @@ var transports = L.teleports({
         filterFn: item => item.type !== "teleport"
 
     });
+    let dive = L.dive(undefined, {
+            shadowTileUrl: '../mejrs.github.io/layers/shadow_squares/-1/{zoom}/{plane}_{x}_{y}.png',
+            shadowErrorTileUrl: '../mejrs.github.io/layers/shadow_squares/shadow_tile.png',
+            messageBox: true,
+            init: wasm_pathfinder.default,
+            dive: wasm_pathfinder.dive
 
+        });
 L.control.layers.urlParam({}, {
     'Icons': icon_squares,
     'Areas': areas,
@@ -104,10 +130,15 @@ L.control.layers.urlParam({}, {
     'Teleports': teleports,
     'Transports': transports,
     '0x2': watery,
+	"dive":dive
 }, {
     collapsed: true,
     position: 'bottomright'
 }).addTo(runescape_map);
+	
+	
+	
+	
+}(this || window);
 
-L.control.objects().addTo(runescape_map);
 

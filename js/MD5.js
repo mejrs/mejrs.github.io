@@ -1,4 +1,4 @@
-const MD5 = (function () {
+export default (function () {
     return class MD5 {
         static md5cycle(x, k) {
             var a = x[0],
@@ -183,3 +183,4 @@ const MD5 = (function () {
     };
 }
     ());
+	

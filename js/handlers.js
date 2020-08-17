@@ -88,8 +88,8 @@ L.Control.Objects = L.Control.extend({
                     marker.bindPopup(popUpText);
                     break;
                 }
-                marker.addTo(runescape_map);
-                clickMarkers.addOverlay(marker, coords.plane + "_" + coords.i + "_" + coords.j + "_" + coords.x + "_" + coords.y).addTo(runescape_map);
+                marker.addTo(this._map);
+                clickMarkers.addOverlay(marker, coords.plane + "_" + coords.i + "_" + coords.j + "_" + coords.x + "_" + coords.y).addTo(this._map);
 
             });
         },

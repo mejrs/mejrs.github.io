@@ -1,4 +1,6 @@
-(function (factory) {
+import "../leaflet.js";
+
+(function (factory) {	
     var L;
     if (typeof define === "function" && define.amd) {
         define(["leaflet"], factory)
