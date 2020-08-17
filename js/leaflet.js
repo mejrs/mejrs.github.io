@@ -5,7 +5,7 @@
 !function (t, i) {
     "object" == typeof exports && "undefined" != typeof module ? i(exports) : "function" == typeof define && define.amd ? define(["exports"], i) : i(t.L = {})
 }
-(this, function (t) {
+(this || window, function (t) {
     "use strict";
     var i = Object.freeze;
     function h(t) {

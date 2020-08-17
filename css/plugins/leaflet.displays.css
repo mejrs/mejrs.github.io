@@ -10,6 +10,7 @@
     display: grid;
     grid-template-columns: 1fr;
 	grid-gap: 16px;
+	width:min-content;
 }
 
 
@@ -22,3 +23,22 @@
     grid-column: 2 / 3;
 }
 
+.leaflet-control-display-container-expanded{
+	display:block;
+	float:left;
+}
+
+
+.leaflet-control-display-icon-close{
+
+	display:block;
+	float:right;
+	width: 22px;
+	height: 22px;
+	margin: 5px;
+	background-image: linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E%3Ctitle%3Eclose%3C/title%3E%3Cpath d=%22M3.636 2.224l14.142 14.142-1.414 1.414L2.222 3.638z%22/%3E%3Cpath d=%22M17.776 3.636L3.634 17.778 2.22 16.364 16.362 2.222z%22/%3E%3C/svg%3E");
+
+}
+textarea {
+	word-break: break-all;
+}

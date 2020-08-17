@@ -1,4 +1,6 @@
-(function (factory) {
+import "../leaflet.js";
+
+export default void function (factory) {
     var L;
     if (typeof define === "function" && define.amd) {
         define(["leaflet"], factory)
@@ -11,26 +13,39 @@
         }
         factory(window.L)
     }
-})(function (L) {
+}
+(function (L) {
+
+	
+	
     L.Control.Display = L.Control.extend({
             onAdd: function (map) {
                 this._map = map;
                 this._container = L.DomUtil.create('div', "leaflet-control-layers leaflet-control-display");
 
                 this.collapsed = this.createIcon(this.options.icon);
+                L.DomEvent.on(this.collapsed, {
+                    click: this.expand,
+
+                }, this);
                 this._container.appendChild(this.collapsed);
                 this._container.title = this.options.title;
                 L.DomEvent.disableClickPropagation(this._container);
 
-                if (this.options.expand) {
-                    this.expanded = this.createInterface();
+                let closeIcon = L.DomUtil.create('a', "leaflet-control-display-icon-close");
+                L.DomEvent.on(closeIcon, {
+                    click: this.collapse,
 
-                    L.DomEvent.on(this._container, {
-                        mouseenter: this.expand,
-                        mouseleave: this.collapse
-                    }, this);
+                }, this);
+                L.DomEvent.disableClickPropagation(closeIcon);
 
-                }
+                let expandedContent = this.createInterface();
+                let expandedContentContainer = L.DomUtil.create('div', 'leaflet-control-display-container-expanded');
+                expandedContentContainer.appendChild(expandedContent)
+
+                this.expanded = L.DomUtil.create('div', "leaflet-control-display");
+                this.expanded.appendChild(closeIcon);
+                this.expanded.appendChild(expandedContentContainer);
 
                 return this._container;
             },
@@ -44,7 +59,7 @@
             },
 
             // @method collapse(): this
-            // Collapse the control container if expanded.
+            // Collapse the control container.
             collapse: function () {
                 this._container.innerHTML = '';
                 this._container.append(this.collapsed);
@@ -53,12 +68,11 @@
 
             expanded: undefined,
 
+            // @method createInterface
+            // Reimplement .createInterface to set content for the expanded interface;
+            // return a HTML Element
             createInterface: function () {
-                let expanded = L.DomUtil.create('div');
-
-                expanded.innerHTML = "Reimplement @@createInterface to set content for this pane";
-
-                return expanded;
+                return L.DomUtil.create('div');
             },
 
             collapsed: undefined,
@@ -198,7 +212,6 @@
     });
 
     L.Control.Display.NPCs = L.Control.Display.extend({
-
             options: {
                 expand: true,
                 position: 'bottomleft',
@@ -267,9 +280,9 @@
 
             submitData: function (formData) {
                 let name = formData.get("name").trim();
-                let id = formData.get("id").trim() ? Number.parseInt(formData.get("id").trim(), 10) : undefined;            
+                let id = formData.get("id").trim() ? Number.parseInt(formData.get("id").trim(), 10) : undefined;
                 let range = Number.parseInt(formData.get("range").trim()) || 0;
-				let showHeat = range || false;
+                let showHeat = range || false;
                 let names = name && (id === undefined) ? [name] : [];
                 let ids = Number.isInteger(id) ? [id] : [];
 
@@ -284,10 +297,10 @@
                     this._heatmap.remove();
                 }
                 this.setSearchParams({
-                        npc: names[0],
-                        npcid: ids[0],
-						range: range || undefined,
-                    });
+                    npc: names[0],
+                    npcid: ids[0],
+                    range: range || undefined,
+                });
 
                 if (names[0] || ids[0] || ids[0] === 0) {
 
@@ -332,7 +345,7 @@
     }
     L.Map.addInitHook(function () {
         if (this.options.displayItems) {
-            this.display = new L.control.display.items();
+            this.display = L.control.display.items();
             this.addControl(this.display)
         }
 
@@ -355,6 +368,7 @@
     L.control.display.pathfinder = function (options) {
         return new L.Control.Display.Pathfinder(options);
     }
+
     L.Map.addInitHook(function () {
         if (this.options.displayPathfinder) {
             this.display = new L.control.display.pathfinder();
@@ -362,5 +376,7 @@
         }
 
     });
+
+    
 
 });

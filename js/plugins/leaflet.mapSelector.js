@@ -1,3 +1,5 @@
+import "../leaflet.js";
+
 (function (factory) {
     var L;
     if (typeof define === "function" && define.amd) {
