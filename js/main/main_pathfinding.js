@@ -1,5 +1,5 @@
 'use strict';
-import * as wasm_pathfinder from '../../pkg/wasm_pathfinder.js';
+import * as wasm_pathfinder from '../../pathfinder/wasm_pathfinder.js';
 
 //Export wasm to global scope so it can be used from the dev console 
 window.wasm_pathfinder = wasm_pathfinder;

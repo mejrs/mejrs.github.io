@@ -1407,16 +1407,14 @@ import './leaflet.js';
                             y:  - (item.y >> 6)
                         }));
 
-               
-				
-				all_icons.forEach(item => {
-					let json =JSON.stringify(item).toLowerCase();
-					if (json.includes("template") || json.includes("instance")){
-						item.actuallyInstance = true;
-					}
-				});
-				
-				 all_icons.forEach(item => this.getIconUrl(item));
+                all_icons.forEach(item => {
+                    let json = JSON.stringify(item).toLowerCase();
+                    if (json.includes("template") || json.includes("instance")) {
+                        item.actuallyInstance = true;
+                    }
+                });
+
+                all_icons.forEach(item => this.getIconUrl(item));
 
                 if (this.options.filterFn) {
                     all_icons = all_icons.filter(item => this.options.filterFn(item));
@@ -1446,9 +1444,8 @@ import './leaflet.js';
                     item.iconUrl = 'https://runescape.wiki/images/' + hash.substr(0, 1) + '/' + hash.substr(0, 2) + '/' + filename;
 
                 } else if (item.actuallyInstance) {
-					item.iconUrl = '../mejrs.github.io/layers/sprites/31407-0.png';
-				}
-				else if (JSON.stringify(item).includes("agility") || JSON.stringify(item).includes("Agility")) {
+                    item.iconUrl = '../mejrs.github.io/layers/sprites/31407-0.png';
+                } else if (JSON.stringify(item).includes("agility") || JSON.stringify(item).includes("Agility")) {
                     //shortcut icon
                     item.iconUrl = '../mejrs.github.io/layers/sprites/20763-0.png';
                 } else {
@@ -1919,5 +1916,113 @@ import './leaflet.js';
 
     L.customParseTeleports = function (options) {
         return new L.CustomParseTeleports(options);
+    }
+
+    L.CrowdSourceMovement = L.DynamicIcons.extend({
+            onAdd: function (map) { // eslint-disable-line no-unused-vars
+
+                fetch("../mejrs.github.io/data/osrs_obj_moves.json").then(res => res.json())
+                .then(data => {
+                    this._icon_data = this.parseData(data);
+                    this._icons = {};
+                    this._resetView();
+                    this._update();
+
+                }).catch(console.error);
+
+            },
+
+            parseData: function (data) {
+                let startTime = new Date();
+
+                data.forEach(item => Object.assign(item, item.from_coordinate));
+
+                data.forEach(item => item.key = this._tileCoordsToKey({
+                            plane: item.p,
+                            x: (item.x >> 6),
+                            y:  - (item.y >> 6)
+                        }));
+
+                if (this.options.filterFn) {
+                    data = data.filter(item => this.options.filterFn(item));
+                }
+
+                if (this.options.mapFn) {
+                    data = data.map(item => this.options.mapFn(item));
+                }
+
+                let icon_data = {};
+                data.forEach(item => {
+                    if (!(item.key in icon_data)) {
+                        icon_data[item.key] = [];
+                    }
+                    icon_data[item.key].push(item);
+                });
+
+                let endTime = new Date();
+                console.info("Parsed", data.length, "icons", "in", endTime - startTime, "ms.");
+                return icon_data;
+            },
+
+            createIcon: function (item) {
+
+                let destinationMarker = L.marker([item.y + 0.5, item.x + 0.5])
+
+                    let popUpBody = this.createPopupBody(item.mode, this._map, item);
+                destinationMarker.bindPopup(popUpBody);
+
+                destinationMarker.bindTooltip("Click to edit", {
+                    direction: "top",
+                    offset: [0, -10]
+                }).openTooltip();
+
+                if ("to_coordinate" in item) {
+                    destinationMarker.on('mouseover', function () {
+                        let points = [[item.from_coordinate.y + 0.5, item.from_coordinate.x + 0.5], [item.to_coordinate.y + 0.5, item.to_coordinate.x + 0.5]];
+                        let travel = L.polyline(points, {
+                                color: 'white'
+                            });
+                        this._map.addLayer(travel);
+                        window.setTimeout(travel.remove.bind(travel), 60000)
+
+                    });
+
+                }
+                destinationMarker._item = item;
+
+                return destinationMarker;
+            },
+
+            createPopupBody: function (mode, map, item) {
+                let wrapper = document.createElement('div');
+
+                let nav = (item.from_coordinate && item.to_coordinate) ? this.createNavigator(mode, map, item) : document.createElement('div');
+
+                let info = document.createElement('div');
+                info.innerHTML = Object.entries(item).map(x => x.map(i => typeof i !== "string" ? JSON.stringify(i) : i).join(" = ")).join("<br>");
+
+                wrapper.appendChild(nav);
+                wrapper.appendChild(info);
+                return wrapper;
+            },
+            createNavigator: function (mode, map, item) {
+
+                let newButton = document.createElement("button");
+                newButton.innerHTML = "Navigate to link";
+                newButton.onclick = function () {
+
+                    console.info("navigating to", item.to_coordinate.p, item.to_coordinate.x, item.to_coordinate.y);
+                    map.setPlane(item.to_coordinate.p);
+                    map.flyTo([item.to_coordinate.y, item.to_coordinate.x], 3, {
+                        duration: 3
+                    })
+                };
+                return newButton;
+            }
+
+        });
+
+    L.crowdSourceMovement = function (options) {
+        return new L.CrowdSourceMovement(options);
     }
 });
