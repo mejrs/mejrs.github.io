@@ -33,23 +33,34 @@ import "../leaflet.js";
 
             onAdd: function (map) {
                 this._map = map;
-
-                this.rect = L.rectangle([[0, 0], [1, 1]], {
+                this._container = L.DomUtil.create('div', 'leaflet-control-mouseposition');
+                this._rect = L.rectangle([[0, 0], [1, 1]], {
                         color: "#ff7800",
                         weight: 1,
-                        zIndexOffset: -1000
-                    }).addTo(map);
-                this._container = L.DomUtil.create('div', 'leaflet-control-mouseposition');
+                    });
+
+                // gross hack because the Path renderer doesn't work properly if this is added right now
+                setTimeout(() => {
+                    this._rect.addTo(map);
+                }, 0)
+
                 L.DomEvent.disableClickPropagation(this._container);
                 L.DomEvent.on(this._container, 'click', this._onSelect, this);
                 L.DomUtil.disableTextSelection();
 
                 this._map.on('mousemove', this._updateContainerPointCache, this);
                 this._map.on('move moveend zoom zoomend resize', this.redrawRect, this);
+                this._map.on('mouseout', this.clear.bind(this));
 
                 this._container.innerHTML = this.options.emptyString;
 
                 return this._container;
+            },
+
+            clear: function () {
+                this._container.innerHTML = this.options.emptyString;
+                // hack to make it 'disappear'...not calling .remove() because I would have to make it reappear, too.
+                this._rect.setBounds([[-1000, -1000], [-1000, -1000]]);
             },
 
             onRemove: function (map) {
@@ -175,7 +186,7 @@ import "../leaflet.js";
                 let jCoord = this.createString(this.convert(this._map._plane, this.globalX, this.globalY));
                 let pxyCoord = this.createString(this._map._plane, this.globalX, this.globalY);
                 this._container.innerHTML = jCoord + "<br>" + pxyCoord;
-                this.rect.setBounds([[this.globalY, this.globalX], [this.globalY + 1, this.globalX + 1]])
+                this._rect.setBounds([[this.globalY, this.globalX], [this.globalY + 1, this.globalX + 1]])
 
             }
 

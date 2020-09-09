@@ -9,25 +9,31 @@
 	padding: 0.7em;
     display: grid;
     grid-template-columns: 1fr;
-	grid-gap: 16px;
+	grid-gap: 5px;
 	width:min-content;
 }
 
+.leaflet-control-display-pad{
+	padding: 0.7em;
+}
 
 .leaflet-control-display-label {
 	text-align: right;
     grid-column: 1 / 2;
 }
  
-.leaflet-control-display-input, .leaflet-control-display-submit {
+.leaflet-control-display-input, .leaflet-control-display-input-number,  .leaflet-control-display-submit {
     grid-column: 2 / 3;
+}
+
+.leaflet-control-display-input-number{
+	width: 90px
 }
 
 .leaflet-control-display-container-expanded{
 	display:block;
 	float:left;
 }
-
 
 .leaflet-control-display-icon-close{
 
