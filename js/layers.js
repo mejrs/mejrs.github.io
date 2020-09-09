@@ -34,7 +34,7 @@ import './leaflet.js';
 
                 L.Map.prototype.initialize.call(this, id, options);
 
-                this.on('moveend planechange mapidchange', this.setSearchParams)
+               this.on('moveend planechange mapidchange', this.setSearchParams)
 
                 if (this.options.baseMaps) {
                     fetch(this.options.baseMaps).then(response => response.json()).then(data => {
