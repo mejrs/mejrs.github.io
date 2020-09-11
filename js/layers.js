@@ -1305,8 +1305,8 @@ import './leaflet.js';
                                 // ?? statements for backwards compatibility with map dumper api change
                                 x: ((instance.i ?? instance.o.i) << 6) | (instance.x ?? instance.o.x),
                                 y: ((instance.j ?? instance.o.j) << 6) | (instance.y ?? instance.o.y),
-                                type: instance.t,
-                                rotation: instance.r,
+                                type: instance.type ?? instance.t,
+                                rotation: instance.rotation ?? instance.r,
                             }, id.properties)));
 
                 linear_data.forEach(item => item.key = this._tileCoordsToKey({
