@@ -48,7 +48,7 @@ L.Control.Objects = L.Control.extend({
 			if (this._map.getMapId() !== -1){return}
             let coords = this.convert(this._map.getPlane(), e.latlng.lng, e.latlng.lat);
             let marker_latlng = [64 * coords.j + coords.y + 0.5, 64 * coords.i + coords.x + 0.5];
-            fetch("../mejrs.github.io/data/chunks/" + coords.i + "_" + coords.j + ".json").then(response => response.json()).then(data => {
+            fetch("../mejrs.github.io/data/rs3/chunks/" + coords.i + "_" + coords.j + ".json").then(response => response.json()).then(data => {
                 var coord = JSON.stringify({
                         "p": coords.plane,
                         "i": coords.i,
