@@ -191,7 +191,8 @@ export default void function (factory) {
 
                     this._objectmap = L.objects({
                             names: names,
-                            ids: ids
+                            ids: ids,
+							folder: this.options.folder,
                         }).addTo(this._map);
                 }
 
@@ -202,14 +203,6 @@ export default void function (factory) {
     L.control.display.objects = function (options) {
         return new L.Control.Display.Objects(options);
     }
-
-    L.Map.addInitHook(function () {
-        if (this.options.displayObjects) {
-            this.display = new L.control.display.objects();
-            this.addControl(this.display)
-        }
-
-    });
 
     L.Control.Display.NPCs = L.Control.Display.extend({
             options: {
@@ -300,6 +293,7 @@ export default void function (factory) {
                     npc: names[0],
                     npcid: ids[0],
                     range: range || undefined,
+					
                 });
 
                 if (names[0] || ids[0] || ids[0] === 0) {
@@ -309,6 +303,7 @@ export default void function (factory) {
                             ids: ids,
                             showHeat: showHeat,
                             range: range,
+							folder: this.options.folder,
                         }).addTo(this._map);
                 }
 
@@ -319,14 +314,6 @@ export default void function (factory) {
     L.control.display.npcs = function (options) {
         return new L.Control.Display.NPCs(options);
     }
-
-    L.Map.addInitHook(function () {
-        if (this.options.displayNPCs) {
-            this.display = new L.control.display.npcs();
-            this.addControl(this.display)
-        }
-
-    });
 
     L.Control.Display.Items = L.Control.Display.extend({
             options: {
@@ -343,13 +330,6 @@ export default void function (factory) {
     L.control.display.items = function (options) {
         return new L.Control.Display.Items(options);
     }
-    L.Map.addInitHook(function () {
-        if (this.options.displayItems) {
-            this.display = L.control.display.items();
-            this.addControl(this.display)
-        }
-
-    });
 
     //Just a link for now, may update it to work without redirect
     L.Control.Display.Pathfinder = L.Control.Display.extend({
@@ -368,15 +348,4 @@ export default void function (factory) {
     L.control.display.pathfinder = function (options) {
         return new L.Control.Display.Pathfinder(options);
     }
-
-    L.Map.addInitHook(function () {
-        if (this.options.displayPathfinder) {
-            this.display = new L.control.display.pathfinder();
-            this.addControl(this.display)
-        }
-
-    });
-
-    
-
-});
+ });

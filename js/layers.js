@@ -34,7 +34,7 @@ import './leaflet.js';
 
                 L.Map.prototype.initialize.call(this, id, options);
 
-               this.on('moveend planechange mapidchange', this.setSearchParams)
+                this.on('moveend planechange mapidchange', this.setSearchParams)
 
                 if (this.options.baseMaps) {
                     fetch(this.options.baseMaps).then(response => response.json()).then(data => {
@@ -333,7 +333,7 @@ import './leaflet.js';
             },
 
             getIds: function (names, ids) {
-                return Promise.resolve((ids && ids.length) ? ids : fetch("../mejrs.github.io/data/npc_name_collection.json")
+                return Promise.resolve((ids && ids.length) ? ids : fetch(`../mejrs.github.io/${this.options.folder}/npc_name_collection.json`)
                     .then(response => response.json())
 
                     .then(name_collection => names.flatMap(name => name_collection[name]))
@@ -341,7 +341,7 @@ import './leaflet.js';
                     //remove any names not found
                     .then(namedIds => namedIds.filter(Number.isInteger)))
 
-                .then(namedIds => fetch("../mejrs.github.io/data/npc_morph_collection.json").then(res => res.json())
+                .then(namedIds => fetch(`../mejrs.github.io/${this.options.folder}/npc_morph_collection.json`).then(res => res.json())
                     .then(morphs => namedIds.flatMap(id => [...(morphs[id] ?? []), id])));
 
             },
@@ -349,7 +349,7 @@ import './leaflet.js';
             fetchData: function (npcNames, npcIds, range) {
                 this.getIds(npcNames, npcIds)
                 .then(ids => {
-                    Promise.allSettled(ids.map(id => fetch(`../mejrs.github.io/data/npcids/npcid=${id}.json`)))
+                    Promise.allSettled(ids.map(id => fetch(`../mejrs.github.io/${this.options.folder}/npcids/npcid=${id}.json`)))
                     .then(responses => Promise.all(responses.filter(res => res.status === "fulfilled" && res.value.ok).map(res => res.value.json())))
                     .then(data => data.flat())
 
@@ -358,7 +358,7 @@ import './leaflet.js';
                         let keys = this.array.unique(npcs.flatMap(npc => this.getRange(npc, range)));
 
                         //fetch collision data for these map squares
-                        Promise.allSettled(keys.map(key => fetch(`../mejrs.github.io/data/collisions/-1/${key}.json`)))
+                        Promise.allSettled(keys.map(key => fetch(`../mejrs.github.io/${this.options.folder}/collisions/-1/${key}.json`)))
                         .then(responses => Promise.all(responses.filter(res => res.status === "fulfilled" && res.value.ok).map(res => res.value.json())))
                         .then(mapData => {
 
@@ -1103,8 +1103,9 @@ import './leaflet.js';
                     }
                 }
 
+                // Not really necessary for icons
                 // sort tile queue to load tiles in order of their distance to center
-                queue.sort((a, b) => a.distanceTo(tileCenter) - b.distanceTo(tileCenter));
+                // queue.sort((a, b) => a.distanceTo(tileCenter) - b.distanceTo(tileCenter));
 
                 if (queue.length !== 0) {
                     // if it's the first batch of tiles to load
@@ -1265,30 +1266,33 @@ import './leaflet.js';
 
                     this.getIds(this.options.names, this.options.ids)
                     .then(ids => {
-                        Promise.allSettled(ids.map(id => fetch(`../mejrs.github.io/data/ids/id=${id}.json`)))
+                        Promise.allSettled(ids.map(id => fetch(`../mejrs.github.io/${this.options.folder}/ids/id=${id}.json`)))
                         .then(responses => Promise.all(responses.filter(res => res.status === "fulfilled" && res.value.ok).map(res => res.value.json())))
                         .then(data => {
+
                             this._icon_data = this.parseData(data);
                             this._icons = {};
                             this._resetView();
                             this._update();
-                        })
+                        }).catch(console.error);
 
-                    }).catch(console.error);
+                    });
 
                 } else {
                     throw new Error("No objects specified");
                 }
             },
             getIds: function (names, ids) {
-                return Promise.resolve((this.options.ids && this.options.ids.length) ? ids : fetch("../mejrs.github.io/data/object_name_collection.json")
+
+                return Promise.resolve((this.options.ids && this.options.ids.length) ? ids : fetch(`../mejrs.github.io/${this.options.folder}/object_name_collection.json`)
                     .then(response => response.json())
 
                     .then(name_collection => names.flatMap(name => name_collection[name]))
 
                     //remove any names not found
-                    .then(namedIds => namedIds.filter(Number.isInteger))).then(namedIds => fetch("../mejrs.github.io/data/object_morph_collection.json").then(res => res.json())
-                    .then(morphs => namedIds.flatMap(id => [...(morphs[id] ?? []), id])));
+                    .then(namedIds => namedIds.filter(Number.isInteger))).then(namedIds => fetch(`../mejrs.github.io/${this.options.folder}/object_morph_collection.json`).then(res => res.json())
+                    .then(morphs => namedIds.flatMap(id => [...(morphs[id] ?? []), id])))
+                .catch(console.error);
 
             },
 
@@ -1297,9 +1301,10 @@ import './leaflet.js';
 
                 let linear_data = data.flatMap(id => id.uniques.map(instance => Object.assign({
                                 name: undefined,
-                                p: instance.o.p,
-                                x: (instance.o.i << 6) + instance.o.x,
-                                y: (instance.o.j << 6) + instance.o.y,
+                                p: instance.plane ?? instance.o.p,
+                                // ?? statements for backwards compat. with map dumper api change
+                                x: ((instance.i ?? instance.o.i) << 6) | (instance.x ?? instance.o.x),
+                                y: ((instance.j ?? instance.o.j) << 6) | (instance.y ?? instance.o.y),
                                 type: instance.t,
                                 rotation: instance.r,
                             }, id.properties)));
@@ -1319,8 +1324,13 @@ import './leaflet.js';
                 });
 
                 let endTime = new Date();
-                this._map.addMessage("Found " + linear_data.length + " locations in " + (endTime - startTime) + " ms.");
-                return icon_data;
+                let reallyLoadEverything = linear_data.length < 10000 ? true : confirm(`Really load ${linear_data.length} markers?`);
+                if (reallyLoadEverything) {
+                    this._map.addMessage("Found " + linear_data.length + " locations in " + (endTime - startTime) + " ms.");
+                    return icon_data;
+                } else {
+                    return []
+                }
             },
 
         });
@@ -1344,7 +1354,7 @@ import './leaflet.js';
                 nativeZoom: 2,
 
                 // @option nativeZoomTileSize: Number
-                // Px size of one tile at nativeZoom. Use a number if width and height are equal, or `L.point(width, height)` otherwise.
+                // Px size of one tile at nativeZoom. Use a number if width and height are equal, or ` L.point(width, height)` otherwise.
                 nativeTileSize: 256,
 
                 className: '',
@@ -1458,10 +1468,10 @@ import './leaflet.js';
             onAdd: function (map) { // eslint-disable-line no-unused-vars
                 if (this.options.API_KEY && this.options.SHEET_ID) {
 
-                    const dataPromise = fetch(`https://sheets.googleapis.com/v4/spreadsheets/${this.options.SHEET_ID}/values/A:Z?key=${this.options.API_KEY}`)
+                    const dataPromise = fetch(` https: //sheets.googleapis.com/v4/spreadsheets/${this.options.SHEET_ID}/values/A:Z?key=${this.options.API_KEY}`)
                         .then(response => response.ok ? response.json().then(sheet => sheet.values) : response.json().then(oopsie => Promise.reject(new Error(oopsie.error.message)).then(() => {}, console.error)));
 
-                    const wateryPromise = fetch('../mejrs.github.io/data/keyed_watery.json').then(response => response.ok ? response.json() : Promise.reject(new Error(response.status + " Error fetching " + response.url))).catch(console.error);
+                    const wateryPromise = fetch(`../mejrs.github.io/${this.options.folder}/keyed_watery.json`).then(response => response.ok ? response.json() : Promise.reject(new Error(response.status + " Error fetching " + response.url))).catch(console.error);
 
                     const allData = Promise.all([dataPromise, wateryPromise]);
 
@@ -1921,7 +1931,7 @@ import './leaflet.js';
     L.CrowdSourceMovement = L.DynamicIcons.extend({
             onAdd: function (map) { // eslint-disable-line no-unused-vars
 
-                fetch("../mejrs.github.io/data/osrs_obj_moves.json").then(res => res.json())
+                fetch("../mejrs.github.io/data/osrs/osrs_obj_moves.json").then(res => res.json())
                 .then(data => {
                     this._icon_data = this.parseData(data);
                     this._icons = {};
