@@ -1302,7 +1302,7 @@ import './leaflet.js';
                 let linear_data = data.flatMap(id => id.uniques.map(instance => Object.assign({
                                 name: undefined,
                                 p: instance.plane ?? instance.o.p,
-                                // ?? statements for backwards compat. with map dumper api change
+                                // ?? statements for backwards compatibility with map dumper api change
                                 x: ((instance.i ?? instance.o.i) << 6) | (instance.x ?? instance.o.x),
                                 y: ((instance.j ?? instance.o.j) << 6) | (instance.y ?? instance.o.y),
                                 type: instance.t,
