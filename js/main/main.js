@@ -11,7 +11,6 @@ import "../../js/plugins/leaflet.displays.js";
 import "../../js/plugins/leaflet.urllayers.js";
 import "../../js/plugins/leaflet.dive.js";
 import "../../js/layers.js";
-import "../../js/handlers.js";
 import "../../js/other.js";
 
 import * as wasm_pathfinder from '../../pathfinder/wasm_pathfinder.js';
