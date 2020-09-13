@@ -1,1 +1,1 @@
-{"properties": {"mapFunction": 4359, "unk_73": true, "dummy_c6": true, "models": [{"type": 22, "values": [1105]}], "occludes_2": false, "id": 112858}, "uniques": [{"id": 112858, "t": 22, "r": 0, "o": {"p": 1, "i": 33, "j": 52, "x": 33, "y": 26}}]}
+{"properties": {"mapFunction": 4359, "unk_73": true, "dummy_c6": true, "models": [{"type": 22, "values": [1105]}], "occludes_2": false, "id": 112858}, "uniques": [{"plane": 1, "i": 33, "j": 52, "x": 33, "y": 26, "id": 112858, "type": 22, "rotation": 0}]}

@@ -1,1 +1,1 @@
-{"properties": {"unk_19": 1, "unk_17": false, "translateY": 400, "models": [{"type": 10, "values": [89798]}], "name": "Icyene buckler", "occludes_2": false, "id": 115941}, "uniques": [{"id": 115941, "t": 11, "r": 1, "o": {"p": 1, "i": 36, "j": 118, "x": 33, "y": 6}}]}
+{"properties": {"unk_19": 1, "unk_17": false, "translateY": 400, "models": [{"type": 10, "values": [89798]}], "name": "Icyene buckler", "occludes_2": false, "id": 115941}, "uniques": [{"plane": 1, "i": 36, "j": 118, "x": 33, "y": 6, "id": 115941, "type": 11, "rotation": 1}]}
