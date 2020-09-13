@@ -1468,7 +1468,7 @@ import './leaflet.js';
             onAdd: function (map) { // eslint-disable-line no-unused-vars
                 if (this.options.API_KEY && this.options.SHEET_ID) {
 
-                    const dataPromise = fetch(` https: //sheets.googleapis.com/v4/spreadsheets/${this.options.SHEET_ID}/values/A:Z?key=${this.options.API_KEY}`)
+                    const dataPromise = fetch(`https://sheets.googleapis.com/v4/spreadsheets/${this.options.SHEET_ID}/values/A:Z?key=${this.options.API_KEY}`)
                         .then(response => response.ok ? response.json().then(sheet => sheet.values) : response.json().then(oopsie => Promise.reject(new Error(oopsie.error.message)).then(() => {}, console.error)));
 
                     const wateryPromise = fetch(`../mejrs.github.io/${this.options.folder}/keyed_watery.json`).then(response => response.ok ? response.json() : Promise.reject(new Error(response.status + " Error fetching " + response.url))).catch(console.error);
