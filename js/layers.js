@@ -1454,14 +1454,14 @@ import './leaflet.js';
                     item.iconUrl = 'https://runescape.wiki/images/' + hash.substr(0, 1) + '/' + hash.substr(0, 2) + '/' + filename;
 
                 } else if (item.actuallyInstance) {
-                    item.iconUrl = '../mejrs.github.io/layers/sprites/31407-0.png';
+                    item.iconUrl = '../mejrs.github.io/sprites/31407-0.png';
                 } else if (JSON.stringify(item).includes("agility") || JSON.stringify(item).includes("Agility")) {
                     //shortcut icon
-                    item.iconUrl = '../mejrs.github.io/layers/sprites/20763-0.png';
+                    item.iconUrl = '../mejrs.github.io/sprites/20763-0.png';
                 } else {
 
                     //travel icon
-                    item.iconUrl = '../mejrs.github.io/layers/sprites/20764-0.png';
+                    item.iconUrl = '../mejrs.github.io/sprites/20764-0.png';
                 }
             },
 
@@ -1928,10 +1928,19 @@ import './leaflet.js';
         return new L.CustomParseTeleports(options);
     }
 
+    let rect = L.DivIcon.extend({
+            options: {
+                iconSize: new L.Point(8, 8)
+            }
+
+        });
     L.CrowdSourceMovement = L.DynamicIcons.extend({
             onAdd: function (map) { // eslint-disable-line no-unused-vars
+                if (this.options.data === undefined) {
+                    throw new Error("Location of data file not given");
+                }
 
-                fetch("../mejrs.github.io/data/osrs/osrs_obj_moves.json").then(res => res.json())
+                fetch(this.options.data).then(res => res.json())
                 .then(data => {
                     this._icon_data = this.parseData(data);
                     this._icons = {};
@@ -1945,6 +1954,19 @@ import './leaflet.js';
             parseData: function (data) {
                 let startTime = new Date();
 
+                let destinations = data.map(item => ({
+                            ...item
+                        }));
+                destinations.forEach(item => Object.assign(item, {
+                        "mode": "destination"
+                    }, item.to_coordinate));
+
+                destinations.forEach(item => item.key = this._tileCoordsToKey({
+                            plane: item.p,
+                            x: (item.x >> 6),
+                            y:  - (item.y >> 6)
+                        }));
+
                 data.forEach(item => Object.assign(item, item.from_coordinate));
 
                 data.forEach(item => item.key = this._tileCoordsToKey({
@@ -1953,16 +1975,15 @@ import './leaflet.js';
                             y:  - (item.y >> 6)
                         }));
 
-                if (this.options.filterFn) {
-                    data = data.filter(item => this.options.filterFn(item));
-                }
-
-                if (this.options.mapFn) {
-                    data = data.map(item => this.options.mapFn(item));
-                }
-
                 let icon_data = {};
                 data.forEach(item => {
+                    if (!(item.key in icon_data)) {
+                        icon_data[item.key] = [];
+                    }
+                    icon_data[item.key].push(item);
+                });
+
+                destinations.forEach(item => {
                     if (!(item.key in icon_data)) {
                         icon_data[item.key] = [];
                     }
@@ -1973,21 +1994,65 @@ import './leaflet.js';
                 console.info("Parsed", data.length, "icons", "in", endTime - startTime, "ms.");
                 return icon_data;
             },
-
             createIcon: function (item) {
+                if (item.mode === "destination") {
+                    return this.createEndIcon(item);
+                } else {
+                    return this.createStartIcon(item);
+                }
+            },
 
-                let destinationMarker = L.marker([item.y + 0.5, item.x + 0.5])
+            createEndIcon: function (item) {
+
+                let endMarker = L.marker([item.y + 0.5, item.x + 0.5], {
+                        "icon": new rect
+                    })
+
+                    endMarker.bindTooltip("Click to travel to origin", {
+                        direction: "top",
+                        offset: [0, -10]
+                    }).openTooltip();
+
+                endMarker.on('mouseover', function () {
+                    let points = [[item.from_coordinate.y + 0.5, item.from_coordinate.x + 0.5], [item.to_coordinate.y + 0.5, item.to_coordinate.x + 0.5]];
+                    let travel = L.polyline(points, {
+                            color: 'white'
+                        });
+                    this._map.addLayer(travel);
+                    window.setTimeout(travel.remove.bind(travel), 60000)
+
+                });
+
+                endMarker.on('click', function () {
+                    let map = this._map;
+                    map.setView([item.from_coordinate.y + 0.5, item.from_coordinate.x + 0.5]);
+                    map.setPlane(item.from_coordinate.p);
+
+                });
+
+                endMarker._item = item;
+
+                return endMarker;
+            },
+
+            createStartIcon: function (item) {
+                var icon = new L.Icon.Default();
+                icon.options.shadowSize = [0, 0];
+
+                let startMarker = L.marker([item.y + 0.5, item.x + 0.5], {
+                        icon: icon
+                    })
 
                     let popUpBody = this.createPopupBody(item.mode, this._map, item);
-                destinationMarker.bindPopup(popUpBody);
+                startMarker.bindPopup(popUpBody);
 
-                destinationMarker.bindTooltip("Click to edit", {
+                startMarker.bindTooltip("Click to edit", {
                     direction: "top",
                     offset: [0, -10]
                 }).openTooltip();
 
                 if ("to_coordinate" in item) {
-                    destinationMarker.on('mouseover', function () {
+                    startMarker.on('mouseover', function () {
                         let points = [[item.from_coordinate.y + 0.5, item.from_coordinate.x + 0.5], [item.to_coordinate.y + 0.5, item.to_coordinate.x + 0.5]];
                         let travel = L.polyline(points, {
                                 color: 'white'
@@ -1998,9 +2063,9 @@ import './leaflet.js';
                     });
 
                 }
-                destinationMarker._item = item;
+                startMarker._item = item;
 
-                return destinationMarker;
+                return startMarker;
             },
 
             createPopupBody: function (mode, map, item) {
@@ -2023,9 +2088,7 @@ import './leaflet.js';
 
                     console.info("navigating to", item.to_coordinate.p, item.to_coordinate.x, item.to_coordinate.y);
                     map.setPlane(item.to_coordinate.p);
-                    map.flyTo([item.to_coordinate.y, item.to_coordinate.x], 3, {
-                        duration: 3
-                    })
+                    map.setView([item.to_coordinate.y, item.to_coordinate.x]);
                 };
                 return newButton;
             }
