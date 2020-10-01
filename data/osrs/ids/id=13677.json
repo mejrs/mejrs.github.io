@@ -1,0 +1,1 @@
+{"properties": {"id": 13677, "actions": ["Open", "None", "None", "Remove-room", "Remove"], "floor_decoration_object_is_walkable": true, "models": [{"type": 22, "model": 12602}], "name": "Trapdoor"}, "uniques": [{"plane": 0, "i": 28, "j": 89, "x": 6, "y": 25, "id": 13677, "type": 22, "rotation": 2}]}
