@@ -70,10 +70,15 @@ void function (global) {
             show3d: false,
             minZoom: 0
         });
-    let crowdsourceFiltered = L.crowdSourceMovement({
-            data: "data/osrs/osrs_moves_filtered.json",
+    let crowdsourceFilteredObjects = L.crowdSourceMovement({
+            data: "data/osrs/osrs_obj_moves.json",
             show3d: false,
             minZoom: 0
+        });
+		
+	let npcs = L.dynamicIcons({
+            dataPath: "data/osrs/NPCList_OSRS.json",
+            minZoom: -3,
         });
 
     L.control.display.objects({
@@ -82,10 +87,10 @@ void function (global) {
 
     L.control.layers.urlParam({}, {
         crowdsource: crowdsource,
-        crowdsource_filtered: crowdsourceFiltered,
+        crowdsourceFilteredObjects: crowdsourceFilteredObjects,
         "nomove": nomove,
         "objects": objects,
-
+		"npcs":npcs,
         "grid": grid
     }, {
         collapsed: true,
