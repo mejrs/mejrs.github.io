@@ -82,7 +82,13 @@ void function (global) {
         });
 
     L.control.display.objects({
-        folder: "data/osrs"
+        folder: "data/osrs",
+		show3d: true,
+    }).addTo(runescape_map);
+	
+	L.control.display.npcs({
+        folder: "data/osrs",
+		show3d: true,
     }).addTo(runescape_map);
 
     L.control.layers.urlParam({}, {

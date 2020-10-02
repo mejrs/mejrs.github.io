@@ -273,11 +273,13 @@ export default void function (factory) {
 
             submitData: function (formData) {
                 let name = formData.get("name").trim();
+
                 let id = formData.get("id").trim() ? Number.parseInt(formData.get("id").trim(), 10) : undefined;
                 let range = Number.parseInt(formData.get("range").trim()) || 0;
                 let showHeat = range || false;
                 let names = name && (id === undefined) ? [name] : [];
                 let ids = Number.isInteger(id) ? [id] : [];
+
 
                 this.invokeHeatmap(names, ids, showHeat, range);
 
