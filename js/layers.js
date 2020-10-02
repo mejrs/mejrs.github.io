@@ -342,7 +342,9 @@ import './leaflet.js';
                     .then(namedIds => namedIds.filter(Number.isInteger)))
 
                 .then(namedIds => fetch(`../mejrs.github.io/${this.options.folder}/npc_morph_collection.json`).then(res => res.json())
-                    .then(morphs => namedIds.flatMap(id => [...(morphs[id] ?? []), id])));
+                    .then(morphs => namedIds.flatMap(id => [...(morphs[id] ?? []), id])))
+					//unique elements		
+					.then(ids => Array.from(new Set(ids)));
 
             },
 
@@ -350,6 +352,7 @@ import './leaflet.js';
                 this.getIds(npcNames, npcIds)
                 .then(ids => {
                     Promise.allSettled(ids.map(id => fetch(`../mejrs.github.io/${this.options.folder}/npcids/npcid=${id}.json`)))
+
                     .then(responses => Promise.all(responses.filter(res => res.status === "fulfilled" && res.value.ok).map(res => res.value.json())))
                     .then(data => data.length !== 0 ? data : Promise.reject(new Error("Unable to find any npcids.")))
                     .then(data => data.flat())
@@ -372,7 +375,10 @@ import './leaflet.js';
                             });
                         }).finally(this._map.addMessage(`Found ${npcs.length} instances of this npc`));
 
-                    }).catch(error => {console.log(error); this._map.addMessage(`Unable to find instances of this npc.`)});
+                    }).catch(error => {
+                        console.log(error);
+                        this._map.addMessage(`Unable to find instances of this npc.`)
+                    });
 
                 })
             },
@@ -806,7 +812,6 @@ import './leaflet.js';
                     icon_data[item.key].push(item);
                 });
 
- 
                 console.info("Added", data.length, "items");
                 return icon_data;
             },
@@ -1321,7 +1326,7 @@ import './leaflet.js';
                     icon_data[item.key].push(item);
                 });
 
-                 let reallyLoadEverything = linear_data.length < 10000 ? true : confirm(`Really load ${linear_data.length} markers?`);
+                let reallyLoadEverything = linear_data.length < 10000 ? true : confirm(`Really load ${linear_data.length} markers?`);
                 if (reallyLoadEverything) {
                     this._map.addMessage(`Found ${linear_data.length} locations of this object.`);
                     return icon_data;
