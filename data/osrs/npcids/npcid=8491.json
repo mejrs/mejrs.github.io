@@ -1,0 +1,1 @@
+[{"name": "The Collector", "id": 8491, "p": 0, "x": 3265, "y": 3455, "walkingAnimation": 6658, "standingAnimation": 6657, "combatLevel": 0, "actions": ["Talk-to", "None", "Get log", "None", "None"], "hasRenderPriority": true, "colourReplacements": [{"original": 6798, "replacement": 107}], "models": [36091], "chatHeadModels": [10976]}]

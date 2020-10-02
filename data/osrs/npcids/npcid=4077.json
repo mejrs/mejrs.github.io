@@ -1,0 +1,1 @@
+[{"name": "Austri", "id": 4077, "p": 0, "x": 2877, "y": 3483, "hasRenderPriority": true, "combatLevel": 0, "size": 1, "walkingAnimation": 98, "standingAnimation": 101, "actions": ["Talk-to", "None", "None", "None", "None"], "models": [2970, 2984, 2978, 2990, 2980, 2985], "chatHeadModels": [0]}]

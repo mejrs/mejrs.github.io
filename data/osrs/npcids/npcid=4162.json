@@ -1,0 +1,1 @@
+[{"name": "Anna Jones", "id": 4162, "p": 0, "x": 3285, "y": 3468, "combatLevel": 0, "size": 1, "standingAnimation": 6106, "actions": ["Talk-To", "None", "None", "None", "None"], "rotationSpeed": 0, "hasRenderPriority": true, "models": [23955, 23947, 23956, 19953], "chatHeadModels": [115, 23914]}]

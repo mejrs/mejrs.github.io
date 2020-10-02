@@ -1,0 +1,1 @@
+[{"name": "Banker", "id": 8321, "p": 0, "x": 3651, "y": 3206, "size": 1, "combatLevel": 0, "standingAnimation": 4703, "walkingAnimation": 4700, "ambient": -25, "actions": ["Talk-to", "None", "Bank", "Collect", "None"], "models": [17961, 17979], "chatHeadModels": [35318]}]

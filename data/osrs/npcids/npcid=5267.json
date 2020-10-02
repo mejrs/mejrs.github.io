@@ -1,0 +1,1 @@
+[{"name": "Sleeping Monkey", "id": 5267, "p": 0, "x": 2760, "y": 2771, "walkingAnimation": 1380, "standingAnimation": 1388, "widthScale": 180, "heightScale": 180, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "models": [4817, 4827, 4830], "chatHeadModels": [4659]}]

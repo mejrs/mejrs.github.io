@@ -1,0 +1,1 @@
+[{"name": "Hosa", "id": 6785, "p": 0, "x": 1631, "y": 3670, "combatLevel": 0, "size": 1, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "None", "None", "None", "None"], "models": [6848, 248, 30206, 30203, 30201, 31075], "chatHeadModels": [5787, 80]}]

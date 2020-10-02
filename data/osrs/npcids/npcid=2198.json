@@ -1,0 +1,1 @@
+[{"name": "Darren", "id": 2198, "p": 0, "x": 3016, "y": 3947, "size": 2, "walkingAnimation": 1739, "standingAnimation": 1740, "actions": ["Talk-to", "None", "Trade", "None", "None"], "combatLevel": 0, "colourReplacements": [{"original": 43072, "replacement": 80}], "models": [217, 249, 5614, 173, 176, 269, 181, 293], "chatHeadModels": [55, 81]}]

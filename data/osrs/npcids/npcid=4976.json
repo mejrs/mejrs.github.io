@@ -1,0 +1,1 @@
+[{"name": "Tracker gnome 2", "id": 4976, "p": 0, "x": 2524, "y": 3257, "combatLevel": 0, "size": 1, "walkingAnimation": 189, "standingAnimation": 195, "actions": ["Talk-to", "None", "None", "None", "None"], "colourReplacements": [{"original": 22422, "replacement": 6942}, {"original": 22426, "replacement": 6945}], "models": [2909, 2890, 2915], "chatHeadModels": [21]}]

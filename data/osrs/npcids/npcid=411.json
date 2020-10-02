@@ -1,0 +1,1 @@
+[{"name": "Kurask", "id": 411, "p": 0, "x": 2694, "y": 9999, "size": 3, "walkingAnimation": 1510, "standingAnimation": 1511, "actions": ["None", "Attack", "None", "None", "None"], "widthScale": 205, "heightScale": 205, "combatLevel": 106, "models": [5082]}]

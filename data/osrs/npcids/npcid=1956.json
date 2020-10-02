@@ -1,0 +1,1 @@
+[{"name": "Monk", "id": 1956, "p": 0, "x": 3787, "y": 2827, "morphs_names": ["Zombie monk", "Monk", ""], "standingAnimation": 5877, "walkingAnimation": 5876, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "hasRenderPriority": true, "varbitId": 3407, "varpId": -1, "morphs": [557, 542, -1]}]

@@ -1,0 +1,1 @@
+[{"name": "Joseph", "id": 2616, "p": 0, "x": 3474, "y": 3474, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "Attack", "None", "None", "None"], "combatLevel": 24, "models": [26123, 26133, 26117, 26128, 26119], "chatHeadModels": [26270]}]

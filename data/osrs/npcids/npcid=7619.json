@@ -1,0 +1,1 @@
+[{"name": "Stuliette", "id": 7619, "p": 0, "x": 1256, "y": 3548, "morphs_names": ["Stuliette", "Stuliette", "Stuliette", "Stuliette", ""], "walkingAnimation": 98, "standingAnimation": 101, "combatLevel": 0, "size": 1, "hasRenderPriority": true, "varbitId": 5085, "varpId": -1, "morphs": [7615, 7616, 7616, 7616, -1]}]

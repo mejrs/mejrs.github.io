@@ -1,0 +1,1 @@
+[{"name": "Koftik", "id": 4529, "p": 0, "x": 2449, "y": 9716, "morphs_names": ["Koftik", ""], "combatLevel": 0, "size": 1, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "None", "None", "None", "None"], "varbitId": 9139, "varpId": -1, "morphs": [8976, -1]}]

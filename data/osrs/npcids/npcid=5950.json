@@ -1,0 +1,1 @@
+[{"name": "Elly the Camel", "id": 5950, "p": 0, "x": 3311, "y": 3208, "actions": ["Talk-to", "None", "None", "None", "None"], "size": 2, "widthScale": 116, "heightScale": 115, "walkingAnimation": 45, "standingAnimation": 51, "combatLevel": 0, "colourReplacements": [{"original": 7475, "replacement": 7613}], "models": [9845, 9843, 9850], "chatHeadModels": [9839, 9842]}]

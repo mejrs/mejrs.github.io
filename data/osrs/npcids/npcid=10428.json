@@ -1,0 +1,1 @@
+[{"name": "Amy", "id": 10428, "p": 0, "x": 2990, "y": 3365, "morphs_names": ["Amy", "Amy", ""], "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "hasRenderPriority": true, "combatLevel": 1, "varbitId": 10562, "varpId": -1, "morphs": [6439, 7417, -1]}]

@@ -1,0 +1,1 @@
+[{"name": "Centaur", "id": 1843, "p": 0, "x": 3025, "y": 4503, "combatLevel": 0, "size": 2, "walkingAnimation": 4310, "standingAnimation": 4311, "actions": ["Talk-to", "None", "None", "None", "None"], "models": [16196, 16202, 16199, 16200], "chatHeadModels": [16213]}]

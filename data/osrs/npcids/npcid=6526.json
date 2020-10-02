@@ -1,0 +1,1 @@
+[{"name": "Sbott", "id": 6526, "p": 0, "x": 3490, "y": 3503, "combatLevel": 0, "size": 1, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "None", "Trade", "None", "None"], "models": [26122, 26131, 26115, 26126, 26119], "chatHeadModels": [26269]}]

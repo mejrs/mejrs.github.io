@@ -1,0 +1,1 @@
+[{"name": "King Black Dragon", "id": 239, "p": 0, "x": 2269, "y": 4697, "size": 5, "walkingAnimation": 4635, "standingAnimation": 90, "actions": ["None", "Attack", "None", "None", "None"], "combatLevel": 276, "models": [17414, 17415, 17429, 17422, 17423]}]

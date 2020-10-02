@@ -1,0 +1,1 @@
+[{"name": "Mountain Guide", "id": 7618, "p": 0, "x": 1401, "y": 3538, "morphs_names": ["", "Mountain Guide", ""], "walkingAnimation": 1146, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 813, "hasRenderPriority": true, "combatLevel": 0, "varbitId": 5421, "varpId": -1, "morphs": [-1, 7600, -1]}]

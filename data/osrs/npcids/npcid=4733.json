@@ -1,0 +1,1 @@
+[{"name": "Thurgo", "id": 4733, "p": 0, "x": 3001, "y": 3144, "combatLevel": 0, "size": 1, "walkingAnimation": 98, "standingAnimation": 101, "actions": ["Talk-to", "None", "None", "None", "None"], "colourReplacements": [{"original": 803, "replacement": 5652}, {"original": 4550, "replacement": 5314}], "models": [7034, 7049, 7041, 7057, 2985, 19100], "chatHeadModels": [6993]}]

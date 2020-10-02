@@ -1,0 +1,1 @@
+[{"name": "Kalphite Queen", "id": 963, "p": 0, "x": 3474, "y": 9496, "size": 5, "walkingAnimation": 6238, "standingAnimation": 6239, "actions": ["None", "Attack", "None", "None", "None"], "headIcon": 6, "combatLevel": 333, "models": [24597, 24598]}]

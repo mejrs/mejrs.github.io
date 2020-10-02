@@ -1,0 +1,1 @@
+[{"name": "Kaht B'alam", "id": 8580, "p": 0, "x": 1330, "y": 10084, "size": 2, "heightScale": 73, "widthScale": 73, "walkingAnimation": 8198, "standingAnimation": 8198, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "hasRenderPriority": true, "models": [36344], "chatHeadModels": [36341]}]

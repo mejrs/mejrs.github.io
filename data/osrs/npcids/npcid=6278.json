@@ -1,0 +1,1 @@
+[{"name": "Sergeant Mossfists", "id": 6278, "p": 0, "x": 3169, "y": 3170, "morphs_names": ["", "", "", "", "", "", "", "", "Sergeant Mossfists", "Sergeant Mossfists", ""], "walkingAnimation": 6152, "standingAnimation": 6153, "hasRenderPriority": true, "combatLevel": 1, "varbitId": 3550, "varpId": -1, "morphs": [-1, -1, -1, -1, -1, -1, -1, -1, 5161, 5161, -1]}]

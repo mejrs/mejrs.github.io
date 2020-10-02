@@ -1,0 +1,1 @@
+[{"name": "Gypsy", "id": 6256, "p": 0, "x": 1866, "y": 5327, "morphs_names": ["", "", "", "Gypsy", "Gypsy", ""], "combatLevel": 0, "standingAnimation": 808, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "hasRenderPriority": true, "varbitId": 1850, "varpId": -1, "morphs": [-1, -1, -1, 4847, 4847, -1]}]

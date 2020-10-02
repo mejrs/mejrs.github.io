@@ -1,0 +1,1 @@
+[{"name": "Wizard", "id": 3232, "p": 1, "x": 3108, "y": 3161, "size": 1, "combatLevel": 0, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "None", "Trade", "None", "None"], "models": [215, 4114, 250, 4117, 4112, 4113, 4116, 4115], "chatHeadModels": [53, 4110, 82]}]

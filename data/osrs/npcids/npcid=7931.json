@@ -1,0 +1,1 @@
+[{"name": "Revenant goblin", "id": 7931, "p": 0, "x": 3233, "y": 10181, "size": 1, "standingAnimation": 6181, "walkingAnimation": 6180, "ambient": 60, "contrast": 60, "actions": ["None", "Attack", "None", "None", "None"], "hasRenderPriority": true, "combatLevel": 15, "models": [34262]}]

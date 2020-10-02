@@ -1,0 +1,1 @@
+[{"name": "Revenant dark beast", "id": 7938, "p": 0, "x": 3252, "y": 10140, "size": 3, "walkingAnimation": 2729, "standingAnimation": 2730, "ambient": 60, "contrast": 60, "widthScale": 96, "heightScale": 96, "actions": ["None", "Attack", "None", "None", "None"], "hasRenderPriority": true, "combatLevel": 120, "models": [34158]}]

@@ -1,0 +1,1 @@
+[{"name": "Pebble", "id": 8450, "p": 0, "x": 2858, "y": 3931, "size": 2, "combatLevel": 0, "standingAnimation": 8154, "walkingAnimation": 8150, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "models": [35829], "chatHeadModels": [35840]}]

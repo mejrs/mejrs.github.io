@@ -1,0 +1,1 @@
+[{"name": "Ollie the Camel", "id": 5951, "p": 0, "x": 3290, "y": 3209, "actions": ["Talk-to", "None", "None", "None", "None"], "size": 2, "widthScale": 121, "heightScale": 124, "walkingAnimation": 45, "standingAnimation": 51, "combatLevel": 0, "colourReplacements": [{"original": 7475, "replacement": 6461}], "models": [9845, 9844, 9847], "chatHeadModels": [9839]}]

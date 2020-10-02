@@ -1,0 +1,1 @@
+[{"name": "Mandrith", "id": 6599, "p": 0, "x": 3183, "y": 3945, "size": 1, "standingAnimation": 2945, "walkingAnimation": 2947, "rotate180Animation": 2948, "rotate90RightAnimation": 2949, "rotate90LeftAnimation": 2950, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "hasRenderPriority": true, "models": [28290, 28292, 28291], "chatHeadModels": [28313]}]

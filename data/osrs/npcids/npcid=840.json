@@ -1,0 +1,1 @@
+[{"name": "Pong", "id": 840, "p": 0, "x": 2670, "y": 10397, "walkingAnimation": 5666, "standingAnimation": 5668, "widthScale": 75, "heightScale": 75, "size": 1, "combatLevel": 0, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "models": [21547], "chatHeadModels": [21525]}]

@@ -1,0 +1,1 @@
+[{"name": "Guard", "id": 4150, "p": 0, "x": 2855, "y": 10089, "walkingAnimation": 283, "standingAnimation": 286, "size": 1, "widthScale": 139, "heightScale": 139, "combatLevel": 0, "colourReplacements": [{"original": 61, "replacement": 8478}, {"original": 21570, "replacement": 7580}, {"original": 10355, "replacement": 7632}], "models": [3753, 3758, 3756, 3763, 3766]}]

@@ -1,0 +1,1 @@
+[{"name": "Eluned", "id": 8829, "p": 0, "x": 2448, "y": 6089, "combatLevel": 0, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "None", "Enchant", "None", "None"], "models": [38147], "chatHeadModels": [38660]}]

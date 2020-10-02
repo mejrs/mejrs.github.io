@@ -1,0 +1,1 @@
+[{"name": "Hammerspike Stoutbeard", "id": 1353, "p": 0, "x": 2965, "y": 9811, "combatLevel": 0, "size": 1, "walkingAnimation": 98, "standingAnimation": 101, "actions": ["Talk-to", "None", "None", "None", "None"], "colourReplacements": [{"original": 803, "replacement": 5652}], "models": [2970, 2981, 2979, 2983, 2985, 2993], "chatHeadModels": [0]}]

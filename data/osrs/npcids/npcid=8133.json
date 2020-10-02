@@ -1,0 +1,1 @@
+[{"name": "Odovacar", "id": 8133, "p": 0, "x": 3194, "y": 4569, "size": 1, "walkingAnimation": 8763, "standingAnimation": 8764, "widthScale": 120, "heightScale": 120, "actions": ["Talk-to", "None", "Bank", "Collect", "None"], "combatLevel": 0, "hasRenderPriority": true, "models": [40775, 39541, 39542], "chatHeadModels": [40776, 21502]}]

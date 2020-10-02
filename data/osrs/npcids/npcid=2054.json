@@ -1,0 +1,1 @@
+[{"name": "Chaos Elemental", "id": 2054, "p": 0, "x": 3261, "y": 3927, "size": 3, "walkingAnimation": 3145, "standingAnimation": 3144, "actions": ["None", "Attack", "None", "None", "None"], "combatLevel": 305, "models": [11216, 11217]}]

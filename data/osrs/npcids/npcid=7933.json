@@ -1,0 +1,1 @@
+[{"name": "Revenant hobgoblin", "id": 7933, "p": 0, "x": 3252, "y": 10158, "size": 1, "walkingAnimation": 162, "standingAnimation": 166, "ambient": 60, "contrast": 60, "actions": ["None", "Attack", "None", "None", "None"], "hasRenderPriority": true, "combatLevel": 60, "models": [34157]}]

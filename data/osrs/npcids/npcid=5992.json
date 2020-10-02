@@ -1,0 +1,1 @@
+[{"name": "Blue Opal Secretary", "id": 5992, "p": 1, "x": 2869, "y": 10205, "standingAnimation": 2158, "combatLevel": 0, "rotationSpeed": 0, "actions": ["Talk-to", "None", "None", "None", "None"], "colourReplacements": [{"original": 7473, "replacement": 39234}, {"original": 61, "replacement": 39234}], "models": [2973, 2983, 7037, 7047], "chatHeadModels": [3]}]

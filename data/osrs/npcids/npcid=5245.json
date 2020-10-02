@@ -1,0 +1,1 @@
+[{"name": "Dugopul", "id": 5245, "p": 0, "x": 2802, "y": 2746, "walkingAnimation": 1380, "standingAnimation": 1386, "widthScale": 130, "heightScale": 180, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "models": [4820, 4827, 4834], "chatHeadModels": [4659]}]

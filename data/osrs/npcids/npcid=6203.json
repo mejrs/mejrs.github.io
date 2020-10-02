@@ -1,0 +1,1 @@
+[{"name": "Reldo", "id": 6203, "p": 0, "x": 3209, "y": 3495, "morphs_names": ["Reldo", "Reldo", ""], "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "hasRenderPriority": true, "combatLevel": 1, "varbitId": 1036, "varpId": -1, "morphs": [4243, 4242, -1]}]

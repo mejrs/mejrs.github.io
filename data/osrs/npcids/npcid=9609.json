@@ -1,0 +1,1 @@
+[{"name": "Seagull", "id": 9609, "p": 0, "x": 3683, "y": 3186, "walkingAnimation": 6819, "standingAnimation": 6815, "ambient": 20, "widthScale": 148, "heightScale": 148, "actions": ["None", "Attack", "None", "None", "None"], "combatLevel": 3, "models": [26874]}]

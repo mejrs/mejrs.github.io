@@ -1,0 +1,1 @@
+[{"name": "Guidor", "id": 1110, "p": 0, "x": 3284, "y": 3382, "combatLevel": 0, "size": 1, "standingAnimation": 4780, "actions": ["Talk-to", "None", "None", "None", "None"], "rotationSpeed": 0, "colourReplacements": [{"original": 4550, "replacement": 3404}], "models": [230, 253, 25673, 25664], "chatHeadModels": [63, 85]}]

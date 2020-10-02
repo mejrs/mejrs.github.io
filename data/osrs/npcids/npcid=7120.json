@@ -1,0 +1,1 @@
+[{"name": "Oobapohk", "id": 7120, "p": 0, "x": 2774, "y": 2778, "walkingAnimation": 1380, "standingAnimation": 1386, "actions": ["Talk-to", "None", "Trade", "None", "None"], "combatLevel": 0, "colourReplacements": [{"original": 7469, "replacement": 17705}, {"original": 20, "replacement": 12}], "models": [4822, 4827], "chatHeadModels": [4659]}]

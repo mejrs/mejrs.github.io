@@ -1,0 +1,1 @@
+[{"name": "Penguin", "id": 845, "p": 0, "x": 2596, "y": 3270, "walkingAnimation": 5666, "standingAnimation": 5668, "widthScale": 75, "heightScale": 75, "size": 1, "hasRenderPriority": true, "combatLevel": 0, "actions": ["Talk-to", "None", "None", "None", "None"], "models": [21547], "chatHeadModels": [21525]}]

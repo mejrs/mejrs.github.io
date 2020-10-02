@@ -1,0 +1,1 @@
+[{"name": "Zombie pirate", "id": 580, "p": 0, "x": 3792, "y": 2830, "standingAnimation": 5879, "walkingAnimation": 5878, "actions": ["None", "Attack", "None", "None", "None"], "size": 1, "combatLevel": 57, "models": [21437, 21476, 21419, 21444, 21463, 21456, 21425]}]

@@ -1,0 +1,1 @@
+[{"name": "Wounded soldier", "id": 6838, "p": 0, "x": 1588, "y": 3589, "size": 2, "combatLevel": 0, "walkingAnimation": 6282, "standingAnimation": 6282, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "colourReplacements": [{"original": 6798, "replacement": 5772}], "models": [391, 29808, 29802, 29792, 29799, 29816], "chatHeadModels": [114]}]

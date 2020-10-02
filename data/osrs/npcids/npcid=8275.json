@@ -1,0 +1,1 @@
+[{"name": "Sister Toen", "id": 8275, "p": 0, "x": 3739, "y": 3317, "size": 1, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "models": [35170, 8946], "chatHeadModels": [35317]}]

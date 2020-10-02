@@ -1,0 +1,1 @@
+[{"name": "Outlaw", "id": 4169, "p": 0, "x": 3121, "y": 3471, "size": 1, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["None", "Attack", "None", "None", "None"], "combatLevel": 32, "models": [23923, 228, 11190, 23941, 23945, 23919, 23948, 23936]}]

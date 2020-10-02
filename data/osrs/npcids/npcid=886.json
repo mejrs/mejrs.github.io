@@ -1,0 +1,1 @@
+[{"name": "Scarg", "id": 886, "p": 0, "x": 2380, "y": 3043, "combatLevel": 0, "size": 2, "widthScale": 125, "heightScale": 123, "walkingAnimation": 358, "standingAnimation": 357, "actions": ["Talk-to", "None", "None", "None", "None"], "colourReplacements": [{"original": 8722, "replacement": 5673}], "models": [3442, 2878], "chatHeadModels": [141]}]

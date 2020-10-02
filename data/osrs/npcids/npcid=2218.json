@@ -1,0 +1,1 @@
+[{"name": "Sergeant Grimspike", "id": 2218, "p": 2, "x": 2868, "y": 5362, "walkingAnimation": 6152, "standingAnimation": 6153, "actions": ["None", "Attack", "None", "None", "None"], "ambient": 20, "combatLevel": 142, "models": [28181]}]

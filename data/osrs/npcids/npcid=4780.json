@@ -1,0 +1,1 @@
+[{"name": "Black Cat", "id": 4780, "p": 0, "x": 3028, "y": 3505, "combatLevel": 0, "size": 1, "walkingAnimation": 314, "standingAnimation": 317, "widthScale": 60, "heightScale": 60, "colourReplacements": [{"original": 61, "replacement": 12}, {"original": 16, "replacement": 12}, {"original": 127, "replacement": 33}], "models": [3010, 3006], "chatHeadModels": [6435]}]

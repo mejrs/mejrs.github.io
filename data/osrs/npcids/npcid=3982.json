@@ -1,0 +1,1 @@
+[{"name": "Lesser demon", "id": 3982, "p": 0, "x": 2936, "y": 9650, "size": 2, "walkingAnimation": 63, "standingAnimation": 66, "actions": ["None", "Attack", "None", "None", "None"], "widthScale": 86, "heightScale": 86, "combatLevel": 82, "models": [17378, 26454, 17386, 17388]}]

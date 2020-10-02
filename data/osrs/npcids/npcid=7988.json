@@ -1,0 +1,1 @@
+[{"name": "Chief Tess", "id": 7988, "p": 1, "x": 2010, "y": 9007, "size": 2, "combatLevel": 0, "walkingAnimation": 7830, "standingAnimation": 7829, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "models": [34297, 34296], "chatHeadModels": [34405]}]

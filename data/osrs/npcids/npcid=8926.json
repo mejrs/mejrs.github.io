@@ -1,0 +1,1 @@
+[{"name": "Iestin", "id": 8926, "p": 0, "x": 2459, "y": 6089, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "combatLevel": 0, "actions": ["Talk-to", "None", "None", "None", "None"], "models": [38014], "chatHeadModels": [38666]}]

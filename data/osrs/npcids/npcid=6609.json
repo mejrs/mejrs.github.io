@@ -1,0 +1,1 @@
+[{"name": "Callisto", "id": 6609, "p": 0, "x": 3290, "y": 3847, "size": 5, "walkingAnimation": 4923, "standingAnimation": 4919, "ambient": 25, "actions": ["None", "Attack", "None", "None", "None"], "combatLevel": 470, "models": [28298, 18886]}]

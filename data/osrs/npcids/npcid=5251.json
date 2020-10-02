@@ -1,0 +1,1 @@
+[{"name": "Tutab", "id": 5251, "p": 0, "x": 2757, "y": 2770, "walkingAnimation": 1380, "standingAnimation": 1386, "widthScale": 130, "heightScale": 160, "actions": ["Talk-to", "None", "Trade", "None", "None"], "combatLevel": 0, "colourReplacements": [{"original": 20, "replacement": 45}, {"original": 7721, "replacement": 6461}], "models": [4817, 4827], "chatHeadModels": [4659]}]

@@ -1,0 +1,1 @@
+[{"name": "Elder Gnome child", "id": 5518, "p": 0, "x": 2466, "y": 3459, "size": 1, "combatLevel": 0, "widthScale": 100, "heightScale": 100, "walkingAnimation": 189, "standingAnimation": 195, "actions": ["Talk-to", "None", "None", "None", "None"], "models": [2909, 2899, 2918], "chatHeadModels": [16]}]

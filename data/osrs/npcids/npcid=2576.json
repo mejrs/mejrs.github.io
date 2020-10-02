@@ -1,0 +1,1 @@
+[{"name": "Froono", "id": 2576, "p": 1, "x": 2435, "y": 3403, "size": 1, "widthScale": 100, "heightScale": 100, "walkingAnimation": 189, "standingAnimation": 195, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "colourReplacements": [{"original": 22426, "replacement": 11592}], "models": [2909, 2899, 2918], "chatHeadModels": [16]}]

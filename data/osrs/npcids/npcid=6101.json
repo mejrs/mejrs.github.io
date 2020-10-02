@@ -1,0 +1,1 @@
+[{"name": "Trainer Nacklepen", "id": 6101, "p": 0, "x": 2421, "y": 3525, "walkingAnimation": 3963, "standingAnimation": 3965, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "models": [14808, 14809, 14813], "chatHeadModels": [14822]}]

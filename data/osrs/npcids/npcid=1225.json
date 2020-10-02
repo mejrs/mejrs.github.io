@@ -1,0 +1,1 @@
+[{"name": "Khazard Ogre", "id": 1225, "p": 0, "x": 2608, "y": 3165, "size": 2, "walkingAnimation": 358, "standingAnimation": 357, "actions": ["None", "Attack", "None", "None", "None"], "combatLevel": 63, "models": [2880, 2876]}]

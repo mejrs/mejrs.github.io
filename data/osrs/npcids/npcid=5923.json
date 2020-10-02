@@ -1,0 +1,1 @@
+[{"name": "Skullball Boss", "id": 5923, "p": 0, "x": 3549, "y": 9867, "size": 1, "standingAnimation": 6539, "walkingAnimation": 6541, "actions": ["Talk-To", "None", "None", "None", "None"], "combatLevel": 0, "models": [26177, 26190, 26184], "chatHeadModels": [26113]}]

@@ -1,0 +1,1 @@
+[{"name": "Gargh", "id": 885, "p": 0, "x": 2411, "y": 3044, "combatLevel": 0, "size": 2, "walkingAnimation": 358, "standingAnimation": 357, "actions": ["Talk-to", "None", "None", "None", "None"], "colourReplacements": [{"original": 8722, "replacement": 13850}], "models": [2878, 3442], "chatHeadModels": [141]}]

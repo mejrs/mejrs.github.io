@@ -1,0 +1,1 @@
+[{"name": "Monk", "id": 1962, "p": 0, "x": 3783, "y": 9223, "morphs_names": ["Monk", ""], "walkingAnimation": 5645, "standingAnimation": 5646, "combatLevel": 0, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "varbitId": 3407, "varpId": -1, "morphs": [555, -1]}]

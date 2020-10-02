@@ -1,0 +1,1 @@
+[{"name": "Donal", "id": 1096, "p": 0, "x": 2529, "y": 10256, "combatLevel": 0, "walkingAnimation": 98, "actions": ["Talk-to", "None", "None", "None", "None"], "colourReplacements": [{"original": 61, "replacement": 40008}, {"original": 803, "replacement": 662}, {"original": 4626, "replacement": 8}], "models": [2971, 7059, 2979, 2992, 2981, 2985], "chatHeadModels": [1]}]

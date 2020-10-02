@@ -1,0 +1,1 @@
+[{"name": "Tolna", "id": 2010, "p": 0, "x": 3308, "y": 3452, "morphs_names": ["", "Tolna", ""], "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "combatLevel": 0, "actions": ["Talk-to", "None", "None", "None", "None"], "varbitId": 2025, "varpId": -1, "morphs": [-1, 1058, -1]}]

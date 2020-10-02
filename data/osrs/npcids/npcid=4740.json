@@ -1,0 +1,1 @@
+[{"name": "Tirrie", "id": 4740, "p": 0, "x": 3368, "y": 9587, "combatLevel": 0, "hasRenderPriority": true, "walkingAnimation": 2907, "standingAnimation": 2908, "actions": ["Talk-to", "None", "None", "None", "None"], "ambient": 20, "rotationSpeed": 0, "models": [10214, 10211], "chatHeadModels": [10122]}]

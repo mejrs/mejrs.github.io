@@ -1,0 +1,1 @@
+[{"name": "Ticket dwarf", "id": 5176, "p": 0, "x": 2438, "y": 5535, "combatLevel": 0, "walkingAnimation": 98, "standingAnimation": 101, "actions": ["Talk-to", "None", "None", "None", "None"], "colourReplacements": [{"original": 61, "replacement": 39203}, {"original": 22, "replacement": 39322}], "models": [2970, 23873, 7050, 2978, 7045, 2985, 23879], "chatHeadModels": [0, 24532]}]

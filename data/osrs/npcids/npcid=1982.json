@@ -1,0 +1,1 @@
+[{"name": "KGP Agent", "id": 1982, "p": 1, "x": 2640, "y": 4009, "morphs_names": ["", "KGP Agent", ""], "walkingAnimation": 5666, "standingAnimation": 5668, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "combatLevel": 0, "varbitId": 3299, "varpId": -1, "morphs": [-1, 841, -1]}]

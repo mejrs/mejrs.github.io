@@ -1,0 +1,1 @@
+[{"name": "Assistant Le Smith", "id": 4730, "p": 0, "x": 2480, "y": 3458, "morphs_names": ["", "Assistant Le Smith", ""], "walkingAnimation": 189, "standingAnimation": 195, "actions": ["Talk-to", "None", "None", "Fly", "None"], "hasRenderPriority": true, "combatLevel": 1, "varbitId": 5032, "varpId": -1, "morphs": [-1, 4722, -1]}]

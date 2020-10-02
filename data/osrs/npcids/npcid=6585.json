@@ -1,0 +1,1 @@
+[{"name": "Watson", "id": 6585, "p": 0, "x": 1645, "y": 3573, "morphs_names": ["Watson", "Watson", ""], "combatLevel": 0, "standingAnimation": 808, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "hasRenderPriority": true, "varbitId": 5195, "varpId": -1, "morphs": [7303, 7304, -1]}]

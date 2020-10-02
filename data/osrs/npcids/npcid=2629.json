@@ -1,0 +1,1 @@
+[{"name": "Nikita", "id": 2629, "p": 0, "x": 3479, "y": 3498, "walkingAnimation": 6531, "rotate180Animation": 6532, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "Attack", "None", "None", "None"], "combatLevel": 24, "models": [26146, 26155, 26139, 26151, 26142], "chatHeadModels": [26275]}]

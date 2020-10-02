@@ -1,0 +1,1 @@
+[{"name": "<col=00ffff>Boulder</col>", "id": 4543, "p": 0, "x": 2396, "y": 9595, "size": 2, "walkingAnimation": 6, "actions": ["Push", "None", "None", "None", "None"], "combatLevel": 0, "hasRenderPriority": true, "rotationSpeed": 0, "hasMinimapDot": false, "models": [2846]}]

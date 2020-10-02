@@ -1,0 +1,1 @@
+[{"name": "Commander Montai", "id": 4964, "p": 0, "x": 2523, "y": 3211, "combatLevel": 0, "size": 1, "walkingAnimation": 189, "standingAnimation": 195, "actions": ["Talk-to", "None", "None", "None", "None"], "widthScale": 150, "heightScale": 150, "colourReplacements": [{"original": 41, "replacement": 933}], "models": [2909, 2903, 2919], "chatHeadModels": [22]}]

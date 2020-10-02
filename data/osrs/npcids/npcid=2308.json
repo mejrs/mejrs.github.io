@@ -1,0 +1,1 @@
+[{"name": "Turgok", "id": 2308, "p": 0, "x": 2712, "y": 5303, "walkingAnimation": 6041, "standingAnimation": 6040, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "models": [23662, 23695, 23629], "chatHeadModels": [23224, 23246]}]

@@ -1,0 +1,1 @@
+[{"name": "Whirlpool", "id": 496, "p": 0, "x": 2278, "y": 10034, "size": 5, "heightScale": 170, "widthScale": 170, "ambient": 30, "contrast": 30, "standingAnimation": 6737, "walkingAnimation": 6737, "combatLevel": 0, "actions": ["None", "Disturb", "None", "None", "None"], "models": [26699]}]

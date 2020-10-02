@@ -1,0 +1,1 @@
+[{"name": "The Monkey's Aunt", "id": 5270, "p": 0, "x": 2738, "y": 2794, "walkingAnimation": 1380, "standingAnimation": 1386, "widthScale": 160, "heightScale": 160, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "models": [4819, 4826], "chatHeadModels": [4658]}]

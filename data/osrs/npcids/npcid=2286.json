@@ -1,0 +1,1 @@
+[{"name": "Ur-zek", "id": 2286, "p": 0, "x": 2717, "y": 5359, "walkingAnimation": 6041, "standingAnimation": 6040, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "models": [23657, 23705, 23629], "chatHeadModels": [23249]}]

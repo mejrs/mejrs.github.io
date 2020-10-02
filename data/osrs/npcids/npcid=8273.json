@@ -1,0 +1,1 @@
+[{"name": "Lector Gura", "id": 8273, "p": 0, "x": 3738, "y": 3305, "standingAnimation": 5875, "walkingAnimation": 5876, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "hasRenderPriority": true, "models": [32942], "chatHeadModels": [32987]}]

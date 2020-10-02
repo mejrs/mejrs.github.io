@@ -1,0 +1,1 @@
+[{"name": "Wanderer", "id": 6189, "p": 0, "x": 3304, "y": 9195, "morphs_names": ["", "", "", "Wanderer", ""], "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "hasRenderPriority": true, "combatLevel": 1, "varbitId": 415, "varpId": -1, "morphs": [-1, -1, -1, 4194, -1]}]

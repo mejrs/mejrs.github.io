@@ -1,0 +1,1 @@
+[{"name": "Turgall", "id": 2295, "p": 2, "x": 2741, "y": 5241, "walkingAnimation": 6041, "standingAnimation": 6040, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "hasRenderPriority": true, "models": [23675, 23701, 23631], "chatHeadModels": [23229, 23246]}]

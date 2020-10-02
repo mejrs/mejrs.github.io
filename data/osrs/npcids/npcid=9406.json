@@ -1,0 +1,1 @@
+[{"name": "Sister Naoj", "id": 9406, "p": 1, "x": 3798, "y": 9817, "size": 1, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "models": [35170, 12769], "chatHeadModels": [35317]}]

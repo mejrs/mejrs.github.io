@@ -1,0 +1,1 @@
+[{"name": "Burkor", "id": 2575, "p": 1, "x": 2420, "y": 3474, "size": 1, "walkingAnimation": 189, "standingAnimation": 195, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "models": [17019, 16996, 16985, 17031], "chatHeadModels": [16974]}]

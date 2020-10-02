@@ -1,0 +1,1 @@
+[{"name": "Elder Guard", "id": 5277, "p": 0, "x": 2798, "y": 2760, "size": 2, "walkingAnimation": 1399, "standingAnimation": 1401, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "models": [4809, 4813], "chatHeadModels": [4663]}]

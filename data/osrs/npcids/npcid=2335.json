@@ -1,0 +1,1 @@
+[{"name": "Cave goblin child", "id": 2335, "p": 1, "x": 2744, "y": 5336, "widthScale": 86, "heightScale": 86, "walkingAnimation": 6042, "standingAnimation": 6040, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "models": [23639, 23689, 23627], "chatHeadModels": [23238]}]

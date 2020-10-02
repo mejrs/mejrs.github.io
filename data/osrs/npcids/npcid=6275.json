@@ -1,0 +1,1 @@
+[{"name": "Rupert the Beard", "id": 6275, "p": 0, "x": 2970, "y": 3473, "morphs_names": ["Rupert the Beard", "Rupert the Beard", ""], "walkingAnimation": 98, "standingAnimation": 101, "hasRenderPriority": true, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "varbitId": 3701, "varpId": -1, "morphs": [5121, 5120, -1]}]

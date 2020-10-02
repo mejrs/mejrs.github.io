@@ -1,0 +1,1 @@
+[{"name": "Dwarven Ferryman", "id": 4896, "p": 0, "x": 2839, "y": 10128, "size": 1, "walkingAnimation": 98, "standingAnimation": 101, "combatLevel": 0, "actions": ["Talk-to", "None", "Travel", "None", "None"], "colourReplacements": [{"original": 61, "replacement": 6464}], "models": [2971, 2980, 2979, 2983, 2985], "chatHeadModels": [1]}]

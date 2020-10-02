@@ -1,0 +1,1 @@
+[{"name": "Hafuba", "id": 5254, "p": 1, "x": 2797, "y": 2798, "size": 2, "walkingAnimation": 1399, "standingAnimation": 1401, "widthScale": 180, "heightScale": 180, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "models": [4811, 4813, 4814], "chatHeadModels": [4664]}]

@@ -1,0 +1,1 @@
+[{"name": "Fairy Aeryka", "id": 5736, "p": 0, "x": 2426, "y": 4442, "combatLevel": 0, "size": 1, "walkingAnimation": 106, "standingAnimation": 112, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "models": [2857], "chatHeadModels": [11]}]

@@ -1,0 +1,1 @@
+[{"name": "Guildmaster Jane", "id": 8628, "p": 0, "x": 1248, "y": 3727, "morphs_names": ["Guildmaster Jane", "Guildmaster Jane", ""], "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "hasRenderPriority": true, "combatLevel": 1, "varbitId": 7947, "varpId": -1, "morphs": [8586, 8587, -1]}]

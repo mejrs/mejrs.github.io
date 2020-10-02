@@ -1,0 +1,1 @@
+[{"name": "Revenant dragon", "id": 7940, "p": 0, "x": 3239, "y": 10176, "size": 5, "walkingAnimation": 79, "standingAnimation": 90, "ambient": 40, "contrast": 40, "actions": ["None", "Attack", "None", "None", "None"], "hasRenderPriority": true, "combatLevel": 135, "models": [34163]}]

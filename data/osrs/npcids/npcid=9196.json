@@ -1,0 +1,1 @@
+[{"name": "Surma", "id": 9196, "p": 0, "x": 2160, "y": 3326, "standingAnimation": 1879, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "combatLevel": 0, "colourReplacements": [{"original": 8741, "replacement": 16}, {"original": 25238, "replacement": 16}], "models": [215, 292, 151, 264, 6100, 246, 10218]}]

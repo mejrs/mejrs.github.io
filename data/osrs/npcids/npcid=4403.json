@@ -1,0 +1,1 @@
+[{"name": "Ogre trader", "id": 4403, "p": 0, "x": 2513, "y": 3034, "size": 2, "walkingAnimation": 358, "standingAnimation": 357, "actions": ["Talk-to", "None", "Trade", "None", "None"], "combatLevel": 0, "models": [2874, 14116], "chatHeadModels": [141]}]

@@ -1,0 +1,1 @@
+[{"name": "Osman", "id": 6165, "p": 0, "x": 3286, "y": 3180, "morphs_names": ["Osman", "Osman", "Osman", ""], "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "hasRenderPriority": true, "combatLevel": 1, "varbitId": 3280, "varpId": -1, "morphs": [4286, 4286, 3877, -1]}]

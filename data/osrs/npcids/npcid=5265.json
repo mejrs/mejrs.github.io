@@ -1,0 +1,1 @@
+[{"name": "Uwogo", "id": 5265, "p": 0, "x": 2801, "y": 2764, "walkingAnimation": 1380, "standingAnimation": 1386, "widthScale": 180, "heightScale": 180, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "models": [4822, 4824], "chatHeadModels": [4656]}]

@@ -1,0 +1,1 @@
+[{"name": "Larry", "id": 2197, "p": 0, "x": 3228, "y": 3687, "size": 2, "walkingAnimation": 1739, "standingAnimation": 1740, "actions": ["Talk-to", "None", "Trade", "None", "None"], "combatLevel": 0, "colourReplacements": [{"original": 43072, "replacement": 80}], "models": [230, 246, 5614, 173, 176, 269, 181, 293], "chatHeadModels": [63]}]

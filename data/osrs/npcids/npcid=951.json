@@ -1,0 +1,1 @@
+[{"name": "Mummy", "id": 951, "p": 0, "x": 3310, "y": 9171, "walkingAnimation": 5553, "standingAnimation": 5551, "actions": ["None", "Attack", "None", "None", "None"], "combatLevel": 84, "models": [20886, 20900, 20873, 20878, 20881, 20891, 20875, 20895]}]

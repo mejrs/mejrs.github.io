@@ -1,0 +1,1 @@
+[{"name": "Key Master", "id": 5870, "p": 0, "x": 1310, "y": 1251, "combatLevel": 0, "actions": ["Talk-to", "None", "None", "None", "None"], "standingAnimation": 4519, "ambient": 20, "contrast": 15, "rotationSpeed": 0, "hasRenderPriority": true, "models": [29241, 29246, 29244, 29248, 29242, 29247, 29243, 29245, 29251, 29257], "chatHeadModels": [29391]}]

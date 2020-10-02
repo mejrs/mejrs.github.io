@@ -1,0 +1,1 @@
+[{"name": "Tower Advisor", "id": 6064, "p": 2, "x": 2666, "y": 3427, "combatLevel": 0, "size": 1, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "None", "None", "None", "None"], "models": [208, 185, 253, 296, 151, 179, 262, 563, 317], "chatHeadModels": [48, 85]}]

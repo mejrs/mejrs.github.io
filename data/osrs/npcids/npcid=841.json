@@ -1,0 +1,1 @@
+[{"name": "KGP Agent", "id": 841, "p": 0, "x": 2648, "y": 10384, "walkingAnimation": 5666, "standingAnimation": 5668, "widthScale": 75, "heightScale": 75, "size": 1, "combatLevel": 0, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "models": [21552], "chatHeadModels": [21528]}]

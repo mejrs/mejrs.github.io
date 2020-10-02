@@ -1,0 +1,1 @@
+[{"name": "Agility Instructor", "id": 847, "p": 1, "x": 2653, "y": 4038, "walkingAnimation": 5676, "standingAnimation": 5677, "widthScale": 75, "heightScale": 75, "size": 1, "combatLevel": 0, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "models": [21547, 21548], "chatHeadModels": [21525]}]

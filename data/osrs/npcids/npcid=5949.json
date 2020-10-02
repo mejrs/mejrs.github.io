@@ -1,0 +1,1 @@
+[{"name": "Al the Camel", "id": 5949, "p": 0, "x": 3274, "y": 3167, "actions": ["Talk-to", "None", "None", "None", "None"], "size": 2, "heightScale": 126, "walkingAnimation": 45, "standingAnimation": 51, "combatLevel": 0, "models": [9846, 9844, 9849], "chatHeadModels": [9840]}]

@@ -1,0 +1,1 @@
+[{"name": "Captain", "id": 3013, "p": 2, "x": 3213, "y": 3491, "walkingAnimation": 6486, "standingAnimation": 6487, "ambient": 20, "contrast": 15, "combatLevel": 0, "actions": ["Talk-to", "None", "None", "None", "None"], "models": [25672, 25685, 25684], "chatHeadModels": [25633]}]

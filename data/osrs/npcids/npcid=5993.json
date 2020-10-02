@@ -1,0 +1,1 @@
+[{"name": "Green Gemstone Secretary", "id": 5993, "p": 1, "x": 2889, "y": 10211, "standingAnimation": 2158, "combatLevel": 0, "rotationSpeed": 0, "actions": ["Talk-to", "None", "None", "None", "None"], "colourReplacements": [{"original": 61, "replacement": 19769}, {"original": 22, "replacement": 3982}], "models": [2970, 7059, 2978, 7047], "chatHeadModels": [0]}]

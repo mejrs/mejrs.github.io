@@ -1,0 +1,1 @@
+[{"name": "G.L.O. Caranock", "id": 1460, "p": 0, "x": 2956, "y": 3025, "walkingAnimation": 189, "standingAnimation": 195, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "colourReplacements": [{"original": 22422, "replacement": 6942}, {"original": 22426, "replacement": 6945}], "models": [2909, 2890, 2915], "chatHeadModels": [21]}]

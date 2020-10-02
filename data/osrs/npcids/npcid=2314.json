@@ -1,0 +1,1 @@
+[{"name": "Lurgon", "id": 2314, "p": 0, "x": 2717, "y": 5315, "walkingAnimation": 6041, "standingAnimation": 6040, "actions": ["Talk-to", "None", "Trade", "None", "None"], "combatLevel": 0, "hasRenderPriority": true, "models": [23664, 23709, 23629], "chatHeadModels": [23234, 23246]}]

@@ -1,0 +1,1 @@
+[{"name": "Alchemical Hydra", "id": 8615, "p": 0, "x": 1364, "y": 10265, "size": 6, "ambient": 30, "contrast": 44, "widthScale": 80, "heightScale": 80, "walkingAnimation": 8232, "standingAnimation": 8233, "actions": ["None", "Attack", "None", "None", "None"], "hasRenderPriority": true, "combatLevel": 426, "models": [36185]}]

@@ -1,0 +1,1 @@
+[{"name": "Scorpia", "id": 6615, "p": 0, "x": 3233, "y": 10341, "size": 5, "walkingAnimation": 6262, "standingAnimation": 6252, "widthScale": 210, "heightScale": 210, "actions": ["None", "Attack", "None", "None", "None"], "combatLevel": 225, "models": [28293]}]

@@ -1,0 +1,1 @@
+[{"name": "Khazard Scorpion", "id": 1226, "p": 0, "x": 2608, "y": 3159, "size": 3, "walkingAnimation": 6262, "standingAnimation": 6252, "actions": ["None", "Attack", "None", "None", "None"], "combatLevel": 44, "models": [24610]}]

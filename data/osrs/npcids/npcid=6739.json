@@ -1,0 +1,1 @@
+[{"name": "Evil Chicken", "id": 6739, "p": 0, "x": 3198, "y": 3359, "size": 1, "widthScale": 40, "heightScale": 40, "walkingAnimation": 2297, "standingAnimation": 2298, "actions": ["None", "Attack", "None", "None", "None"], "hasRenderPriority": true, "combatLevel": 159, "models": [7728]}]

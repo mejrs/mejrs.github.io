@@ -1,0 +1,1 @@
+[{"name": "Sarachnis", "id": 8713, "p": 0, "x": 1840, "y": 9900, "size": 5, "widthScale": 190, "heightScale": 190, "standingAnimation": 8320, "walkingAnimation": 8319, "combatLevel": 318, "rotationFlag": false, "actions": ["None", "Attack", "None", "None", "None"], "models": [37292]}]

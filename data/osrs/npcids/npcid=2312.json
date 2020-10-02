@@ -1,0 +1,1 @@
+[{"name": "Gundik", "id": 2312, "p": 0, "x": 2711, "y": 5314, "walkingAnimation": 6041, "standingAnimation": 6040, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "colourReplacements": [{"original": 4888, "replacement": 21526}, {"original": 4764, "replacement": 21522}], "models": [23646, 23691, 23626], "chatHeadModels": [23241]}]

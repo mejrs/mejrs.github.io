@@ -1,0 +1,1 @@
+[{"name": "Ur-taal", "id": 2288, "p": 0, "x": 2716, "y": 5359, "walkingAnimation": 6041, "standingAnimation": 6040, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "colourReplacements": [{"original": 6024, "replacement": 7281}, {"original": 900, "replacement": 7273}], "models": [23641, 23692, 23628], "chatHeadModels": [23240]}]

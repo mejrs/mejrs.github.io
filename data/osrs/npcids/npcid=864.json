@@ -1,0 +1,1 @@
+[{"name": "Ogre guard", "id": 864, "p": 0, "x": 2454, "y": 3047, "combatLevel": 0, "size": 2, "walkingAnimation": 358, "standingAnimation": 357, "actions": ["Talk-to", "None", "None", "None", "None"], "models": [2880, 2874], "chatHeadModels": [141]}]

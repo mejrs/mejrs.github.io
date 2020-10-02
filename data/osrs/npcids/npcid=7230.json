@@ -1,0 +1,1 @@
+[{"name": "Mogrim", "id": 7230, "p": 0, "x": 1591, "y": 3620, "morphs_names": ["Mogrim", "Mogrim", "Mogrim", "Mogrim", ""], "walkingAnimation": 98, "standingAnimation": 101, "combatLevel": 0, "size": 1, "hasRenderPriority": true, "varbitId": 5085, "varpId": -1, "morphs": [7223, 7224, 7224, 7224, -1]}]

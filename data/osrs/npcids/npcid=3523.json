@@ -1,0 +1,1 @@
+[{"name": "Sir Tristram", "id": 3523, "p": 1, "x": 2755, "y": 3512, "combatLevel": 0, "size": 1, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "None", "None", "None", "None"], "models": [27127, 27195, 27203], "chatHeadModels": [27212]}]

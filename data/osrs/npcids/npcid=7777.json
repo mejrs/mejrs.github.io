@@ -1,0 +1,1 @@
+[{"name": "Weve", "id": 7777, "p": 0, "x": 3597, "y": 10293, "walkingAnimation": 189, "standingAnimation": 195, "combatLevel": 0, "hasRenderPriority": true, "actions": ["Talk-to", "None", "None", "None", "None"], "colourReplacements": [{"original": 22426, "replacement": 43949}], "models": [2897, 2910, 2918], "chatHeadModels": [139]}]

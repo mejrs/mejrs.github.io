@@ -1,0 +1,1 @@
+[{"name": "Nirrie", "id": 4739, "p": 0, "x": 3367, "y": 9586, "combatLevel": 0, "hasRenderPriority": true, "walkingAnimation": 2907, "standingAnimation": 2906, "actions": ["Talk-to", "None", "None", "None", "None"], "ambient": 20, "colourReplacements": [{"original": 6701, "replacement": 6740}], "models": [10212], "chatHeadModels": [10122]}]

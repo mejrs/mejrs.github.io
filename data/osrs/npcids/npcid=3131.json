@@ -1,0 +1,1 @@
+[{"name": "Zakl'n Gritch", "id": 3131, "p": 2, "x": 2919, "y": 5327, "size": 2, "widthScale": 86, "heightScale": 86, "walkingAnimation": 63, "standingAnimation": 66, "actions": ["None", "Attack", "None", "None", "None"], "combatLevel": 142, "models": [27686, 27685, 27680, 17390]}]

@@ -1,0 +1,1 @@
+[{"name": "Fur trader", "id": 4580, "p": 0, "x": 2848, "y": 5096, "combatLevel": 0, "size": 1, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "colourReplacements": [{"original": 8741, "replacement": 6057}], "models": [230, 299, 250, 159, 176, 254, 185], "chatHeadModels": [63, 82]}]

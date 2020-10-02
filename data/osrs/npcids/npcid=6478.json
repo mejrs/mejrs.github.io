@@ -1,0 +1,1 @@
+[{"name": "Rufus", "id": 6478, "p": 0, "x": 3507, "y": 3496, "combatLevel": 0, "size": 1, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "None", "Trade", "None", "None"], "models": [26121, 26133, 26118, 26128, 26119], "chatHeadModels": [26268]}]

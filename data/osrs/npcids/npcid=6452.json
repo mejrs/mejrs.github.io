@@ -1,0 +1,1 @@
+[{"name": "Zombie", "id": 6452, "p": 1, "x": 3145, "y": 4583, "size": 1, "standingAnimation": 5576, "walkingAnimation": 5577, "actions": ["None", "Attack", "None", "None", "None"], "combatLevel": 50, "models": [21104, 21132, 21056, 21052, 21119, 21077, 21085]}]

@@ -1,0 +1,1 @@
+[{"name": "Commander Zilyana", "id": 2205, "p": 0, "x": 2897, "y": 5269, "size": 2, "walkingAnimation": 6965, "standingAnimation": 6966, "actions": ["None", "Attack", "None", "None", "None"], "hasRenderPriority": true, "combatLevel": 596, "models": [27989, 27937, 27985, 27968, 27990]}]

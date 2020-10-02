@@ -1,0 +1,1 @@
+[{"name": "Nieve", "id": 1455, "p": 0, "x": 2465, "y": 3490, "morphs_names": ["", "Nieve", ""], "walkingAnimation": 1205, "rotate180Animation": 1206, "rotate90RightAnimation": 1207, "rotate90LeftAnimation": 1208, "standingAnimation": 813, "hasRenderPriority": true, "combatLevel": 1, "varbitId": 5038, "varpId": -1, "morphs": [-1, 7108, -1]}]

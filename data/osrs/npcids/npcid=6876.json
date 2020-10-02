@@ -1,0 +1,1 @@
+[{"name": "Captain Rachelle", "id": 6876, "p": 0, "x": 1573, "y": 3668, "combatLevel": 0, "walkingAnimation": 2562, "standingAnimation": 2561, "hasRenderPriority": true, "actions": ["Talk-to", "None", "None", "None", "None"], "colourReplacements": [{"original": 61, "replacement": 36133}], "models": [29788, 29806, 29800, 29790, 29794, 29815, 546], "chatHeadModels": [30959]}]

@@ -1,0 +1,1 @@
+[{"name": "Vaeringk", "id": 4605, "p": 0, "x": 1937, "y": 4690, "walkingAnimation": 98, "standingAnimation": 101, "combatLevel": 0, "hasRenderPriority": true, "actions": ["Talk-to", "None", "None", "None", "None"], "colourReplacements": [{"original": 7473, "replacement": 61}], "models": [2973, 2986, 2983, 7040, 2992, 2991, 2980, 2985], "chatHeadModels": [3, 6]}]

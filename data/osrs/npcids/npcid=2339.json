@@ -1,0 +1,1 @@
+[{"name": "Spit goblin", "id": 2339, "p": 0, "x": 2729, "y": 5269, "size": 1, "walkingAnimation": 6041, "standingAnimation": 6060, "rotationSpeed": 0, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "models": [23651, 23702, 23634], "chatHeadModels": [23223, 23246]}]

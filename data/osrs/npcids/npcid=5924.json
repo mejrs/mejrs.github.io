@@ -1,0 +1,1 @@
+[{"name": "Agility Boss", "id": 5924, "p": 0, "x": 3540, "y": 9873, "size": 1, "standingAnimation": 6539, "walkingAnimation": 6548, "combatLevel": 0, "actions": ["Talk-To", "None", "None", "None", "None"], "models": [26177, 26189, 26183, 26173], "chatHeadModels": [26113]}]

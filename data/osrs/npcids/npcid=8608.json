@@ -1,0 +1,1 @@
+[{"name": "Orrvor quo Maten", "id": 8608, "p": 0, "x": 1348, "y": 10243, "combatLevel": 0, "size": 2, "walkingAnimation": 8211, "standingAnimation": 8210, "widthScale": 108, "heightScale": 108, "actions": ["Talk-to", "None", "Collect", "None", "None"], "hasRenderPriority": true, "models": [36175], "chatHeadModels": [36180]}]

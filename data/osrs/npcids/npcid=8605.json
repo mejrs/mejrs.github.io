@@ -1,0 +1,1 @@
+[{"name": "Tarfol quo Maten", "id": 8605, "p": 0, "x": 1314, "y": 10259, "combatLevel": 0, "size": 1, "walkingAnimation": 8211, "standingAnimation": 8210, "widthScale": 108, "heightScale": 108, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "models": [36175], "chatHeadModels": [36180]}]

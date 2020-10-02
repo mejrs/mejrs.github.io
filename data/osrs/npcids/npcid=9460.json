@@ -1,0 +1,1 @@
+[{"name": "The Nightmare", "id": 9460, "p": 1, "x": 3806, "y": 9757, "actions": ["Disturb", "None", "Inspect", "None", "None"], "hasRenderPriority": true, "size": 5, "rotationSpeed": 0, "ambient": 15, "contrast": 100, "walkingAnimation": 8582, "standingAnimation": 8582, "combatLevel": 814, "models": [39184]}]

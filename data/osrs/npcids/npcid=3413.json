@@ -1,0 +1,1 @@
+[{"name": "Koftik", "id": 3413, "p": 1, "x": 2012, "y": 4713, "combatLevel": 0, "size": 1, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "None", "None", "None", "None"], "models": [163, 185, 176, 208, 249, 274, 292, 326], "chatHeadModels": [48, 81]}]

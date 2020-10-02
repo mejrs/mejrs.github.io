@@ -1,0 +1,1 @@
+[{"name": "Gileth", "id": 2683, "p": 0, "x": 2488, "y": 3179, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "combatLevel": 0, "actions": ["Talk-to", "None", "Pay", "None", "None"], "models": [390, 470, 482, 332, 353, 7368, 428, 7366], "chatHeadModels": [113]}]

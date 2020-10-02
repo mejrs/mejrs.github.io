@@ -1,0 +1,1 @@
+[{"name": "Turoth", "id": 427, "p": 0, "x": 2718, "y": 10006, "size": 2, "walkingAnimation": 1593, "standingAnimation": 1594, "actions": ["None", "Attack", "None", "None", "None"], "widthScale": 256, "heightScale": 256, "combatLevel": 89, "colourReplacements": [{"original": 10357, "replacement": 317}, {"original": 5351, "replacement": 181}], "models": [5086]}]

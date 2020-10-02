@@ -1,0 +1,1 @@
+[{"name": "Loinur", "id": 7231, "p": 0, "x": 1670, "y": 3834, "morphs_names": ["Loinur", "Loinur", "Loinur", "Loinur", ""], "walkingAnimation": 98, "standingAnimation": 101, "combatLevel": 0, "size": 1, "hasRenderPriority": true, "varbitId": 5085, "varpId": -1, "morphs": [7225, 7226, 7226, 7226, -1]}]

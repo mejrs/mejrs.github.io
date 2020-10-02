@@ -1,0 +1,1 @@
+[{"name": "Guard", "id": 1372, "p": 0, "x": 2798, "y": 3667, "combatLevel": 0, "size": 1, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "None", "None", "None", "None"], "models": [230, 250, 5674, 5672, 5668, 5725, 4236], "chatHeadModels": [63, 82]}]

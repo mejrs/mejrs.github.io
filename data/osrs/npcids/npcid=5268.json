@@ -1,0 +1,1 @@
+[{"name": "Monkey Child", "id": 5268, "p": 0, "x": 2743, "y": 2795, "walkingAnimation": 1380, "standingAnimation": 1386, "widthScale": 100, "heightScale": 100, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "models": [4818, 4825], "chatHeadModels": [4657]}]

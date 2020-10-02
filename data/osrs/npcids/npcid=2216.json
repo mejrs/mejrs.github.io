@@ -1,0 +1,1 @@
+[{"name": "Sergeant Strongstack", "id": 2216, "p": 2, "x": 2866, "y": 5358, "walkingAnimation": 6152, "standingAnimation": 6153, "actions": ["None", "Attack", "None", "None", "None"], "ambient": 20, "combatLevel": 141, "models": [28183, 24425]}]

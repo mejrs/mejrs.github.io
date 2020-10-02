@@ -1,0 +1,1 @@
+[{"name": "Bryophyta", "id": 8195, "p": 0, "x": 3220, "y": 9933, "size": 3, "walkingAnimation": 4654, "standingAnimation": 4656, "actions": ["None", "Attack", "None", "None", "None"], "combatLevel": 128, "models": [28608, 17460]}]

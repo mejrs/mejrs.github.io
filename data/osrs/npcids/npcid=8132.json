@@ -1,0 +1,1 @@
+[{"name": "Eniola", "id": 8132, "p": 0, "x": 3013, "y": 5625, "size": 1, "walkingAnimation": 8763, "standingAnimation": 8764, "widthScale": 120, "heightScale": 120, "actions": ["Bank", "None", "Talk-to", "Collect", "None"], "combatLevel": 0, "hasRenderPriority": true, "models": [40775, 39541, 39542], "chatHeadModels": [40776, 21502]}]

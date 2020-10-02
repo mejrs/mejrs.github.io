@@ -1,0 +1,1 @@
+[{"name": "Wandering impling", "id": 5737, "p": 0, "x": 2424, "y": 4436, "walkingAnimation": 6614, "standingAnimation": 6613, "combatLevel": 0, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "models": [26374], "chatHeadModels": [26278]}]

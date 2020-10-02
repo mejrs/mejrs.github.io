@@ -1,0 +1,1 @@
+[{"name": "Vampyre Juvinate", "id": 3695, "p": 0, "x": 3633, "y": 3211, "actions": ["Talk-to", "Attack", "None", "None", "None"], "standingAnimation": 4702, "walkingAnimation": 4700, "ambient": -25, "combatLevel": 54, "colourReplacements": [{"original": 105, "replacement": 555}], "models": [17962, 17980], "chatHeadModels": [35318]}]

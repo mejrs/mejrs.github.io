@@ -1,0 +1,1 @@
+[{"name": "Disciple of Yama", "id": 7669, "p": 0, "x": 1439, "y": 3667, "standingAnimation": 5877, "walkingAnimation": 5876, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "hasRenderPriority": true, "colourReplacements": [{"original": 6798, "replacement": 0}], "models": [32943], "chatHeadModels": [32987, 83]}]

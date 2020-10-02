@@ -1,0 +1,1 @@
+[{"name": "Golrie", "id": 4183, "p": 0, "x": 2515, "y": 9581, "size": 1, "walkingAnimation": 189, "standingAnimation": 195, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "models": [2900, 2914, 2915], "chatHeadModels": [23]}]

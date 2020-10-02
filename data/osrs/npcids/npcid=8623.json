@@ -1,0 +1,1 @@
+[{"name": "Konar quo Maten", "id": 8623, "p": 0, "x": 1308, "y": 3784, "combatLevel": 0, "size": 1, "walkingAnimation": 8218, "standingAnimation": 8219, "widthScale": 108, "heightScale": 108, "actions": ["Talk-to", "None", "Assignment", "Trade", "Rewards"], "hasRenderPriority": true, "models": [36162], "chatHeadModels": [36161]}]

@@ -1,0 +1,1 @@
+[{"name": "Starlight", "id": 2206, "p": 0, "x": 2903, "y": 5261, "size": 2, "standingAnimation": 6374, "walkingAnimation": 6373, "widthScale": 110, "heightScale": 110, "ambient": 25, "actions": ["None", "Attack", "None", "None", "None"], "combatLevel": 149, "models": [27676, 25756]}]

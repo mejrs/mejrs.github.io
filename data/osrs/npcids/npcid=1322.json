@@ -1,0 +1,1 @@
+[{"name": "Rug Merchant", "id": 1322, "p": 0, "x": 3243, "y": 2813, "morphs_names": ["", "Rug Merchant", ""], "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "hasRenderPriority": true, "combatLevel": 0, "varbitId": 395, "varpId": -1, "morphs": [-1, 22, -1]}]

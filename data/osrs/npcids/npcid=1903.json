@@ -1,0 +1,1 @@
+[{"name": "Barnabus Hurma", "id": 1903, "p": 0, "x": 3253, "y": 3445, "size": 1, "rotationSpeed": 0, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "colourReplacements": [{"original": 6798, "replacement": 5186}], "models": [25362], "chatHeadModels": [5787]}]

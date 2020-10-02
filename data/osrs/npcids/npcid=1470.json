@@ -1,0 +1,1 @@
+[{"name": "Rantz", "id": 1470, "p": 0, "x": 2630, "y": 2981, "combatLevel": 0, "size": 2, "walkingAnimation": 358, "standingAnimation": 357, "actions": ["Talk-to", "None", "Claim-arrows", "None", "None"], "models": [2878, 3442], "chatHeadModels": [141]}]

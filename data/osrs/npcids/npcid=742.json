@@ -1,0 +1,1 @@
+[{"name": "My Arm", "id": 742, "p": 1, "x": 1895, "y": 4869, "combatLevel": 0, "standingAnimation": 4986, "walkingAnimation": 283, "size": 1, "widthScale": 100, "heightScale": 100, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "colourReplacements": [{"original": 61, "replacement": 10421}], "models": [19109], "chatHeadModels": [3790, 19105]}]

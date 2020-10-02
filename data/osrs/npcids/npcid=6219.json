@@ -1,0 +1,1 @@
+[{"name": "Dwarf", "id": 6219, "p": 0, "x": 3224, "y": 3286, "morphs_names": ["", "", "", "", "", "", "", "Dwarf", "Dwarf", "Dwarf", ""], "walkingAnimation": 98, "standingAnimation": 101, "combatLevel": 1, "varbitId": 2258, "varpId": -1, "morphs": [-1, -1, -1, -1, -1, -1, -1, 4512, 4512, 4512, -1]}]

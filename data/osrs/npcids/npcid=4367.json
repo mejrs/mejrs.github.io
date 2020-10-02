@@ -1,0 +1,1 @@
+[{"name": "Gorad", "id": 4367, "p": 0, "x": 2577, "y": 3021, "size": 2, "walkingAnimation": 358, "standingAnimation": 357, "actions": ["Talk-to", "Attack", "None", "None", "None"], "combatLevel": 68, "models": [20371, 20386], "chatHeadModels": [20418]}]

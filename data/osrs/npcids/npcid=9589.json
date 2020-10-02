@@ -1,0 +1,1 @@
+[{"name": "Mordan Nikazsi", "id": 9589, "p": 0, "x": 3662, "y": 3347, "combatLevel": 0, "actions": ["Talk-to", "None", "None", "None", "None"], "standingAnimation": 4702, "walkingAnimation": 4699, "ambient": -25, "colourReplacements": [{"original": 105, "replacement": 555}], "models": [17968, 17986], "chatHeadModels": [35320]}]

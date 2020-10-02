@@ -1,0 +1,1 @@
+[{"name": "King Vargas", "id": 3668, "p": 1, "x": 2501, "y": 3859, "walkingAnimation": 293, "standingAnimation": 296, "size": 2, "combatLevel": 0, "actions": ["Talk-to", "None", "None", "None", "None"], "colourReplacements": [{"original": 5351, "replacement": 5470}], "models": [3001], "chatHeadModels": [4651]}]

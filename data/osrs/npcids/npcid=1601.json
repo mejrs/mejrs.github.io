@@ -1,0 +1,1 @@
+[{"name": "Lundail", "id": 1601, "p": 0, "x": 2534, "y": 4719, "combatLevel": 0, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "None", "Trade", "Claim-runes", "None"], "models": [230, 252, 303, 173, 176, 274, 185], "chatHeadModels": [63, 84]}]

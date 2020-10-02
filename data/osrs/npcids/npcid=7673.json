@@ -1,0 +1,1 @@
+[{"name": "Solztun", "id": 7673, "p": 0, "x": 2338, "y": 5213, "widthScale": 137, "walkingAnimation": 1146, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 813, "combatLevel": 0, "actions": ["Talk-to", "None", "None", "None", "None"], "models": [32974], "chatHeadModels": [32998]}]

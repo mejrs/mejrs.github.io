@@ -1,0 +1,1 @@
+[{"name": "Barge guard", "id": 7768, "p": 1, "x": 3362, "y": 3451, "standingAnimation": 6390, "combatLevel": 0, "actions": ["Talk-to", "None", "Deboard", "None", "None"], "hasRenderPriority": true, "models": [25655, 6848, 246, 25679, 25647, 177, 25667, 181], "chatHeadModels": [25629, 5787]}]

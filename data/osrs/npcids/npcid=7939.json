@@ -1,0 +1,1 @@
+[{"name": "Revenant knight", "id": 7939, "p": 0, "x": 3245, "y": 10172, "size": 1, "walkingAnimation": 1205, "rotate180Animation": 1206, "rotate90RightAnimation": 1207, "rotate90LeftAnimation": 1208, "standingAnimation": 813, "ambient": 75, "contrast": 75, "actions": ["None", "Attack", "None", "None", "None"], "hasRenderPriority": true, "combatLevel": 126, "models": [34145]}]

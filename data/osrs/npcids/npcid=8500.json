@@ -1,0 +1,1 @@
+[{"name": "Old dwarf", "id": 8500, "p": 0, "x": 1410, "y": 3811, "size": 1, "walkingAnimation": 2154, "standingAnimation": 2155, "combatLevel": 0, "hasRenderPriority": true, "actions": ["Talk-to", "None", "None", "None", "None"], "colourReplacements": [{"original": 4550, "replacement": 4432}], "models": [36209, 7075], "chatHeadModels": [6988]}]

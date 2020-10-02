@@ -1,0 +1,1 @@
+[{"name": "Guardian mummy", "id": 1779, "p": 3, "x": 1934, "y": 4427, "combatLevel": 0, "walkingAnimation": 5557, "standingAnimation": 5558, "widthScale": 140, "heightScale": 138, "actions": ["Talk-to", "None", "Start-minigame", "None", "None"], "hasRenderPriority": true, "models": [20906], "chatHeadModels": [21386]}]

@@ -1,0 +1,1 @@
+[{"name": "Tegdak", "id": 5182, "p": 0, "x": 2511, "y": 5563, "walkingAnimation": 6041, "standingAnimation": 6040, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "hasRenderPriority": true, "models": [24525, 24522, 23633], "chatHeadModels": [24535]}]

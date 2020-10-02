@@ -1,0 +1,1 @@
+[{"name": "Look-out", "id": 6858, "p": 0, "x": 1624, "y": 3877, "size": 1, "combatLevel": 0, "walkingAnimation": 2562, "standingAnimation": 2561, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "colourReplacements": [{"original": 4550, "replacement": 4533}], "models": [29785, 29809, 29805, 29791, 29798, 29814, 546], "chatHeadModels": [30946]}]

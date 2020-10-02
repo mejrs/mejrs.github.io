@@ -1,0 +1,1 @@
+[{"name": "Fairy chef", "id": 5856, "p": 0, "x": 2386, "y": 4439, "combatLevel": 0, "size": 1, "walkingAnimation": 106, "standingAnimation": 112, "actions": ["Talk-to", "None", "None", "None", "None"], "colourReplacements": [{"original": 9447, "replacement": 7836}], "models": [9228], "chatHeadModels": [14, 2222]}]

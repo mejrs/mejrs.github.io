@@ -1,0 +1,1 @@
+[{"name": "Adventurer (easy)", "id": 2944, "p": 0, "x": 3433, "y": 3486, "morphs_names": ["", "Adventurer (easy)", ""], "walkingAnimation": 2562, "rotate180Animation": 2562, "rotate90RightAnimation": 2562, "rotate90LeftAnimation": 2562, "standingAnimation": 2561, "hasRenderPriority": true, "combatLevel": 1, "varbitId": 3412, "varpId": -1, "morphs": [-1, 1577, -1]}]

@@ -1,0 +1,1 @@
+[{"name": "Captain Khaled", "id": 6764, "p": 0, "x": 1847, "y": 3753, "morphs_names": ["Captain Khaled", "Captain Khaled", ""], "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "hasRenderPriority": true, "combatLevel": 1, "varbitId": 4905, "varpId": -1, "morphs": [6971, 6972, -1]}]

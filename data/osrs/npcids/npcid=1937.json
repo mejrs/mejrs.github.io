@@ -1,0 +1,1 @@
+[{"name": "Barge workman", "id": 1937, "p": 0, "x": 3357, "y": 3446, "standingAnimation": 6457, "rotationSpeed": 0, "combatLevel": 0, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "models": [25813, 25812, 25801, 25802]}]

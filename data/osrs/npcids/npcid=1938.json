@@ -1,0 +1,1 @@
+[{"name": "Barge foreman", "id": 1938, "p": 0, "x": 3364, "y": 3445, "standingAnimation": 6458, "rotationSpeed": 0, "combatLevel": 0, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "models": [25804, 25805, 25806, 25807, 25803], "chatHeadModels": [18124]}]

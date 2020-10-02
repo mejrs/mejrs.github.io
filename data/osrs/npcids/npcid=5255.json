@@ -1,0 +1,1 @@
+[{"name": "Denadu", "id": 5255, "p": 1, "x": 2805, "y": 2788, "walkingAnimation": 1380, "standingAnimation": 1387, "widthScale": 180, "heightScale": 180, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "models": [4815, 4824, 4829], "chatHeadModels": [4656]}]

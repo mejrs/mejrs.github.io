@@ -1,0 +1,1 @@
+[{"name": "Jelly", "id": 437, "p": 0, "x": 2699, "y": 10029, "size": 1, "walkingAnimation": 1584, "standingAnimation": 1583, "actions": ["None", "Attack", "None", "None", "None"], "widthScale": 112, "heightScale": 112, "combatLevel": 78, "models": [5081]}]

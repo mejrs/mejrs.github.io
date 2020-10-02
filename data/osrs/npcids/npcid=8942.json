@@ -1,0 +1,1 @@
+[{"name": "Kamen", "id": 8942, "p": 0, "x": 2453, "y": 6087, "combatLevel": 0, "size": 1, "walkingAnimation": 98, "standingAnimation": 101, "actions": ["Talk-to", "None", "None", "None", "None"], "colourReplacements": [{"original": 803, "replacement": 38040}, {"original": 4550, "replacement": 6709}], "models": [2972, 2984, 2981, 2979, 2985, 2990], "chatHeadModels": [2]}]

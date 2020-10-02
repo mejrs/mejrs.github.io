@@ -1,0 +1,1 @@
+[{"name": "Ellie", "id": 10430, "p": 0, "x": 2635, "y": 3294, "morphs_names": ["Ellie", "Ellie", ""], "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "hasRenderPriority": true, "combatLevel": 1, "varbitId": 10562, "varpId": -1, "morphs": [10410, 10411, -1]}]

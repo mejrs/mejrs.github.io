@@ -1,0 +1,1 @@
+[{"name": "Zalcano", "id": 9049, "p": 0, "x": 3031, "y": 6048, "actions": ["Attack", "None", "None", "None", "None"], "combatLevel": 336, "standingAnimation": 8429, "walkingAnimation": 8430, "size": 5, "widthScale": 152, "heightScale": 152, "ambient": 30, "contrast": 44, "models": [38592], "params": {"509": 1, "510": "Zalcano"}}]

@@ -1,0 +1,1 @@
+[{"name": "Drasdan Ranor", "id": 9721, "p": 0, "x": 3641, "y": 3336, "combatLevel": 0, "standingAnimation": 4702, "walkingAnimation": 4699, "ambient": -25, "actions": ["Talk-to", "None", "Trade", "None", "None"], "colourReplacements": [{"original": 105, "replacement": 555}], "models": [17968, 17986], "chatHeadModels": [35320]}]

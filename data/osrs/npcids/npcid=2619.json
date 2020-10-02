@@ -1,0 +1,1 @@
+[{"name": "Lev", "id": 2619, "p": 0, "x": 3502, "y": 3487, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "Attack", "None", "None", "None"], "combatLevel": 24, "models": [26124, 26131, 26116, 26126, 26119], "chatHeadModels": [26271]}]

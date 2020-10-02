@@ -1,0 +1,1 @@
+[{"name": "Vortas quo Keran", "id": 8560, "p": 0, "x": 1326, "y": 3812, "combatLevel": 0, "size": 1, "walkingAnimation": 8213, "standingAnimation": 8212, "widthScale": 108, "heightScale": 108, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "models": [36178], "chatHeadModels": [36180]}]

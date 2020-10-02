@@ -1,0 +1,1 @@
+[{"name": "Svidi", "id": 1375, "p": 0, "x": 2714, "y": 3672, "combatLevel": 0, "size": 1, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "None", "None", "None", "None"], "models": [230, 246, 5673, 5671, 5667, 5725], "chatHeadModels": [63]}]

@@ -1,0 +1,1 @@
+[{"name": "Kree'arra", "id": 3162, "p": 2, "x": 2832, "y": 5302, "size": 5, "walkingAnimation": 6977, "standingAnimation": 6976, "actions": ["None", "Attack", "None", "None", "None"], "hasRenderPriority": true, "combatLevel": 580, "models": [28019, 28021, 28020]}]

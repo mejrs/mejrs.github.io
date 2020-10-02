@@ -1,0 +1,1 @@
+[{"name": "Pagida", "id": 7608, "p": 0, "x": 1554, "y": 10221, "combatLevel": 0, "size": 1, "standingAnimation": 8201, "walkingAnimation": 8201, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "models": [30558], "chatHeadModels": [30950]}]

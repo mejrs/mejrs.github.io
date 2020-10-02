@@ -1,0 +1,1 @@
+[{"name": "Roavar", "id": 6527, "p": 0, "x": 3493, "y": 3471, "combatLevel": 0, "size": 1, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "None", "Trade", "None", "None"], "models": [26123, 26132, 26116, 26127, 26119], "chatHeadModels": [26270]}]

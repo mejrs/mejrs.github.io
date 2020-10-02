@@ -1,0 +1,1 @@
+[{"name": "The Kendal", "id": 2019, "p": 0, "x": 2786, "y": 10081, "morphs_names": ["The Kendal", ""], "standingAnimation": 1756, "walkingAnimation": 1757, "size": 2, "actions": ["Talk-to", "Attack", "None", "None", "None"], "combatLevel": 1, "varbitId": 269, "varpId": -1, "morphs": [1377, -1]}]

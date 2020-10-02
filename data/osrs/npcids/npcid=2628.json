@@ -1,0 +1,1 @@
+[{"name": "Yadviga", "id": 2628, "p": 0, "x": 3479, "y": 3492, "walkingAnimation": 6531, "rotate180Animation": 6532, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "Attack", "None", "None", "None"], "combatLevel": 24, "models": [26145, 26154, 26138, 26150, 26142], "chatHeadModels": [26274]}]

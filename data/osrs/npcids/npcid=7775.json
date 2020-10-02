@@ -1,0 +1,1 @@
+[{"name": "Dunce", "id": 7775, "p": 0, "x": 3036, "y": 9939, "combatLevel": 0, "size": 1, "walkingAnimation": 168, "standingAnimation": 171, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "models": [34520], "chatHeadModels": [34585]}]

@@ -1,0 +1,1 @@
+[{"name": "Georgy", "id": 2620, "p": 0, "x": 3483, "y": 3478, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "Attack", "None", "None", "None"], "combatLevel": 24, "models": [26120, 26132, 26117, 26127, 26119], "chatHeadModels": [26267]}]

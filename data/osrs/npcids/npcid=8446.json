@@ -1,0 +1,1 @@
+[{"name": "Icicle", "id": 8446, "p": 0, "x": 2881, "y": 3931, "size": 2, "combatLevel": 0, "standingAnimation": 8154, "walkingAnimation": 8150, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "models": [35833], "chatHeadModels": [35836]}]

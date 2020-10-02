@@ -1,0 +1,1 @@
+[{"name": "Temple guardian", "id": 3487, "p": 0, "x": 3405, "y": 9902, "morphs_names": ["Temple guardian", "Temple guardian", "Temple guardian", ""], "combatLevel": 30, "size": 2, "walkingAnimation": 16, "standingAnimation": 17, "actions": ["None", "Attack", "None", "None", "None"], "varbitId": -1, "varpId": 302, "morphs": [7620, 7620, 7620, -1]}]

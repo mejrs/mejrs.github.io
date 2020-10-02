@@ -1,0 +1,1 @@
+[{"name": "<col=00ffff>Boulder</col>", "id": 6621, "p": 3, "x": 3053, "y": 10165, "size": 2, "combatLevel": 0, "walkingAnimation": 6120, "hasMinimapDot": false, "actions": ["Move", "None", "None", "None", "None"], "rotationSpeed": 0, "colourReplacements": [{"original": 10392, "replacement": 37}], "models": [24149]}]

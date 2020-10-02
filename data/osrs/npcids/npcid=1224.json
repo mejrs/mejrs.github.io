@@ -1,0 +1,1 @@
+[{"name": "Bouncer", "id": 1224, "p": 0, "x": 2608, "y": 3162, "size": 2, "standingAnimation": 6580, "walkingAnimation": 6582, "actions": ["None", "Attack", "None", "None", "None"], "widthScale": 87, "heightScale": 87, "combatLevel": 137, "models": [26257]}]

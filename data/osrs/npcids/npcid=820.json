@@ -1,0 +1,1 @@
+[{"name": "Wormbrain", "id": 820, "p": 0, "x": 3014, "y": 3189, "standingAnimation": 6181, "walkingAnimation": 6180, "actions": ["Talk-to", "Attack", "None", "None", "None"], "ambient": 15, "hasRenderPriority": true, "combatLevel": 2, "models": [24455, 24485, 24431, 24476, 24441, 24449], "chatHeadModels": [24209]}]

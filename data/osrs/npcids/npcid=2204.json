@@ -1,0 +1,1 @@
+[{"name": "Sam", "id": 2204, "p": 0, "x": 3046, "y": 3628, "size": 2, "walkingAnimation": 1739, "standingAnimation": 1740, "actions": ["Talk-to", "None", "Trade", "None", "None"], "combatLevel": 0, "colourReplacements": [{"original": 43072, "replacement": 80}], "models": [232, 250, 5614, 173, 176, 269, 181, 293], "chatHeadModels": [65, 82]}]

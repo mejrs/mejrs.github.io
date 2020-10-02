@@ -1,0 +1,1 @@
+[{"name": "Hudon", "id": 4182, "p": 0, "x": 2511, "y": 3484, "size": 1, "walkingAnimation": 189, "standingAnimation": 195, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "colourReplacements": [{"original": 22426, "replacement": 941}], "models": [2897, 2910, 2918], "chatHeadModels": [139]}]

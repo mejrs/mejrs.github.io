@@ -1,0 +1,1 @@
+[{"name": "Ghost", "id": 472, "p": 0, "x": 1826, "y": 3864, "size": 1, "standingAnimation": 5530, "walkingAnimation": 5531, "ambient": 20, "contrast": 20, "actions": ["None", "Attack", "None", "None", "None"], "combatLevel": 19, "models": [21146]}]

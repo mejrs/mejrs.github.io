@@ -1,0 +1,1 @@
+[{"name": "Ghost", "id": 3975, "p": 1, "x": 2929, "y": 3249, "size": 1, "standingAnimation": 5538, "walkingAnimation": 5539, "ambient": 20, "contrast": 20, "actions": ["Talk-to", "Attack", "None", "None", "None"], "combatLevel": 19, "models": [21154], "chatHeadModels": [21394]}]

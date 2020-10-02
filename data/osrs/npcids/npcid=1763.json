@@ -1,0 +1,1 @@
+[{"name": "Financial Wizard", "id": 1763, "p": 0, "x": 2666, "y": 2651, "morphs_names": ["Squire", "Financial Wizard", ""], "size": 1, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "combatLevel": 1, "varbitId": 4153, "varpId": -1, "morphs": [6509, 6510, -1]}]

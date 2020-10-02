@@ -1,0 +1,1 @@
+[{"name": "General Graardor", "id": 2215, "p": 2, "x": 2872, "y": 5358, "size": 4, "widthScale": 110, "heightScale": 110, "walkingAnimation": 7016, "standingAnimation": 7017, "actions": ["None", "Attack", "None", "None", "None"], "hasRenderPriority": true, "combatLevel": 624, "models": [27660, 27665]}]

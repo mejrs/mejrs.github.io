@@ -1,0 +1,1 @@
+[{"name": "Kormar quo Maten", "id": 8606, "p": 1, "x": 1328, "y": 10240, "combatLevel": 0, "size": 1, "walkingAnimation": 8211, "standingAnimation": 8210, "widthScale": 108, "heightScale": 108, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "models": [36175], "chatHeadModels": [36180]}]

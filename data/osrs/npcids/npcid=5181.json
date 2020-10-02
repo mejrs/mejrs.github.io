@@ -1,0 +1,1 @@
+[{"name": "Builder", "id": 5181, "p": 0, "x": 2511, "y": 5532, "size": 1, "walkingAnimation": 98, "standingAnimation": 6208, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "colourReplacements": [{"original": 61, "replacement": 119}], "models": [2972, 23874, 23878, 2978, 23875, 2985], "chatHeadModels": [2, 24533]}]

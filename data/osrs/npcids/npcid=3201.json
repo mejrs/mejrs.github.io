@@ -1,0 +1,1 @@
+[{"name": "Jukat", "id": 3201, "p": 0, "x": 2484, "y": 4452, "combatLevel": 0, "size": 1, "walkingAnimation": 106, "standingAnimation": 112, "actions": ["Talk-to", "None", "Trade", "None", "None"], "hasRenderPriority": true, "colourReplacements": [{"original": 22753, "replacement": 23492}, {"original": 9447, "replacement": 38854}], "models": [2857], "chatHeadModels": [13]}]

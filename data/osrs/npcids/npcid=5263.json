@@ -1,0 +1,1 @@
+[{"name": "Padulah", "id": 5263, "p": 0, "x": 2757, "y": 2788, "walkingAnimation": 1380, "standingAnimation": 1386, "actions": ["Talk-to", "Attack", "None", "None", "None"], "combatLevel": 149, "models": [4821, 4828, 4833], "chatHeadModels": [4660]}]

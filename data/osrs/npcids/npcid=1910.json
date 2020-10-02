@@ -1,0 +1,1 @@
+[{"name": "Museum guard", "id": 1910, "p": 0, "x": 3260, "y": 3447, "rotationSpeed": 0, "standingAnimation": 6390, "combatLevel": 0, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "models": [25655, 6848, 246, 25679, 25647, 177, 25667, 181], "chatHeadModels": [25629, 5787]}]

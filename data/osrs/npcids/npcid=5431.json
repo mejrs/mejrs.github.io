@@ -1,0 +1,1 @@
+[{"name": "Frog", "id": 5431, "p": 0, "x": 2463, "y": 4782, "widthScale": 64, "heightScale": 64, "walkingAnimation": 1797, "standingAnimation": 1796, "ambient": 20, "combatLevel": 0, "actions": ["Talk-to", "None", "None", "None", "None"], "models": [6948, 6944], "chatHeadModels": [8851]}]

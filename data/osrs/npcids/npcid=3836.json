@@ -1,0 +1,1 @@
+[{"name": "House", "id": 3836, "p": 0, "x": 2082, "y": 3929, "size": 5, "contrast": 10, "ambient": 10, "walkingAnimation": 4390, "standingAnimation": 4391, "widthScale": 215, "heightScale": 215, "hasRenderPriority": true, "actions": ["Go-inside", "None", "None", "None", "None"], "hasMinimapDot": false, "combatLevel": 0, "models": [16736, 16735, 16737]}]

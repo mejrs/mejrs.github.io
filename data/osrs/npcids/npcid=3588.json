@@ -1,0 +1,1 @@
+[{"name": "Homunculus", "id": 3588, "p": 0, "x": 3038, "y": 4395, "standingAnimation": 5831, "walkingAnimation": 5832, "size": 3, "ambient": 10, "combatLevel": 0, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "models": [22772, 17460], "chatHeadModels": [22774]}]

@@ -1,0 +1,1 @@
+[{"name": "Patrolman", "id": 6973, "p": 0, "x": 1748, "y": 3766, "size": 1, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "combatLevel": 0, "hasRenderPriority": true, "rotationFlag": false, "models": [29693, 29775, 29767, 29702, 29709, 29780]}]

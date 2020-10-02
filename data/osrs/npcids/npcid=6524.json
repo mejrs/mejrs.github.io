@@ -1,0 +1,1 @@
+[{"name": "Barker", "id": 6524, "p": 0, "x": 3499, "y": 3506, "combatLevel": 0, "size": 1, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "None", "Trade", "None", "None"], "models": [26122, 26134, 26114, 26129, 26119], "chatHeadModels": [26269]}]

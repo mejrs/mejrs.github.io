@@ -1,0 +1,1 @@
+[{"name": "Tool Leprechaun", "id": 7757, "p": 1, "x": 3732, "y": 10270, "standingAnimation": 7649, "rotationSpeed": 0, "hasRenderPriority": true, "combatLevel": 0, "actions": ["Talk-to", "None", "Exchange", "None", "None"], "models": [33279], "chatHeadModels": [34011]}]

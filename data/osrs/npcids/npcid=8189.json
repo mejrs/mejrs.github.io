@@ -1,0 +1,1 @@
+[{"name": "Grave digger", "id": 8189, "p": 0, "x": 1428, "y": 3592, "combatLevel": 0, "actions": ["Talk-to", "None", "None", "None", "None"], "walkingAnimation": 2562, "standingAnimation": 2561, "ambient": 50, "contrast": 50, "models": [16375], "chatHeadModels": [16377]}]

@@ -1,0 +1,1 @@
+[{"name": "Dwarf", "id": 294, "p": 0, "x": 3025, "y": 3347, "size": 1, "walkingAnimation": 98, "standingAnimation": 101, "actions": ["None", "Attack", "None", "None", "None"], "combatLevel": 11, "colourReplacements": [{"original": 11200, "replacement": 61594}], "models": [2970, 2982, 2983, 7067, 2990, 2979, 2991, 2988]}]

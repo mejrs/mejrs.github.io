@@ -1,0 +1,1 @@
+[{"name": "Boulder", "id": 1496, "p": 0, "x": 3419, "y": 9564, "combatLevel": 0, "size": 2, "standingAnimation": 5310, "walkingAnimation": 5309, "ambient": 15, "actions": ["Push", "None", "None", "None", "None"], "rotationSpeed": 0, "hasMinimapDot": false, "models": [20088]}]

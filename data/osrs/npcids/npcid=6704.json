@@ -1,0 +1,1 @@
+[{"name": "Guard", "id": 6704, "p": 0, "x": 2807, "y": 3440, "morphs_names": ["", "Guard", ""], "size": 1, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "combatLevel": 665, "varbitId": 4153, "varpId": -1, "morphs": [-1, 6576, -1]}]

@@ -1,0 +1,1 @@
+[{"name": "Goblin Cook", "id": 4851, "p": 0, "x": 2980, "y": 9871, "size": 1, "standingAnimation": 6181, "walkingAnimation": 6180, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "models": [24459, 24481, 24430, 24479, 24445, 24453, 24504], "chatHeadModels": [24212]}]

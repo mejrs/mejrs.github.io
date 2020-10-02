@@ -1,0 +1,1 @@
+[{"name": "Dwarf", "id": 7715, "p": 0, "x": 3044, "y": 9730, "size": 1, "combatLevel": 0, "walkingAnimation": 98, "standingAnimation": 101, "actions": ["Talk-to", "None", "None", "None", "None"], "colourReplacements": [{"original": 5181, "replacement": 5793}, {"original": 4550, "replacement": 4552}], "models": [7029, 2980, 2978, 7050, 2990, 10326], "chatHeadModels": [6988]}]

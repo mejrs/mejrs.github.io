@@ -1,0 +1,1 @@
+[{"name": "Angelo", "id": 10431, "p": 0, "x": 1782, "y": 3624, "morphs_names": ["Angelo", "Angelo", ""], "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "hasRenderPriority": true, "combatLevel": 1, "varbitId": 10562, "varpId": -1, "morphs": [10412, 10413, -1]}]

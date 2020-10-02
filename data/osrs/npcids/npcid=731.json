@@ -1,0 +1,1 @@
+[{"name": "Sheep", "id": 731, "p": 0, "x": 3199, "y": 3267, "combatLevel": 0, "walkingAnimation": 3568, "standingAnimation": 3569, "hasRenderPriority": true, "actions": ["Shear", "None", "Talk-to", "None", "None"], "models": [14084, 14085], "chatHeadModels": [21525]}]

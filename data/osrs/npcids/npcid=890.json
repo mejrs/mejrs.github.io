@@ -1,0 +1,1 @@
+[{"name": "Elven Scout", "id": 890, "p": 0, "x": 2291, "y": 3147, "morphs_2_names": ["Islwyn", "Islwyn", "Elven Scout"], "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "combatLevel": 1, "varbitId": 9051, "varpId": -1, "morphs_2": [7780, 8675, 8768]}]

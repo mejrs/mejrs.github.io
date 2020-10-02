@@ -1,0 +1,1 @@
+[{"name": "Zul-Onan", "id": 2038, "p": 0, "x": 2189, "y": 3069, "combatLevel": 0, "size": 1, "heightScale": 300, "widthScale": 64, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "colourReplacements": [{"original": 6798, "replacement": 7700}], "models": [16238], "chatHeadModels": [53, 80]}]

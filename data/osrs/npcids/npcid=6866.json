@@ -1,0 +1,1 @@
+[{"name": "Captain Babacus", "id": 6866, "p": 0, "x": 1543, "y": 3531, "size": 1, "combatLevel": 0, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "None", "None", "None", "None"], "models": [215, 29774, 29713, 29698, 29708, 29783, 250], "chatHeadModels": [53, 82]}]

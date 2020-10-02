@@ -1,0 +1,1 @@
+[{"name": "Treznor", "id": 2680, "p": 0, "x": 3226, "y": 3458, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "combatLevel": 0, "actions": ["Talk-to", "None", "Pay", "None", "None"], "models": [25671, 25686], "chatHeadModels": [25634]}]

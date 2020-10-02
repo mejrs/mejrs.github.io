@@ -1,0 +1,1 @@
+[{"name": "Asteros Arceuus", "id": 8506, "p": 1, "x": 1579, "y": 3818, "combatLevel": 0, "size": 1, "standingAnimation": 8201, "walkingAnimation": 8201, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "models": [36356], "chatHeadModels": [36340]}]

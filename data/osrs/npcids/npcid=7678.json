@@ -1,0 +1,1 @@
+[{"name": "TzHaar-Ket-Yil", "id": 7678, "p": 0, "x": 2542, "y": 5140, "combatLevel": 0, "actions": ["Talk-to", "None", "Bank", "Collect", "None"], "walkingAnimation": 2601, "standingAnimation": 2603, "contrast": 0, "ambient": 10, "widthScale": 140, "heightScale": 140, "models": [9301, 9300, 9303, 9302, 9306], "chatHeadModels": [9251]}]

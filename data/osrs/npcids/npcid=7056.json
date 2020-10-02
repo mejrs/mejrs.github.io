@@ -1,0 +1,1 @@
+[{"name": "Regath", "id": 7056, "p": 0, "x": 1720, "y": 3724, "combatLevel": 0, "size": 1, "standingAnimation": 8201, "walkingAnimation": 8201, "actions": ["Talk-to", "None", "Trade", "None", "None"], "hasRenderPriority": true, "models": [30559], "chatHeadModels": [30951]}]

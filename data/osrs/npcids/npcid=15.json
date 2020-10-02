@@ -1,0 +1,1 @@
+[{"name": "Gulluck", "id": 15, "p": 2, "x": 2468, "y": 3487, "standingAnimation": 195, "walkingAnimation": 189, "actions": ["Talk-to", "None", "Trade", "None", "None"], "combatLevel": 0, "colourReplacements": [{"original": 22426, "replacement": 8472}, {"original": 22424, "replacement": 10378}], "models": [2892, 2909, 2915], "chatHeadModels": [21]}]

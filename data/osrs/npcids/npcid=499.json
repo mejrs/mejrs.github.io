@@ -1,0 +1,1 @@
+[{"name": "Thermonuclear smoke devil", "id": 499, "p": 0, "x": 2360, "y": 9452, "ambient": 30, "walkingAnimation": 1828, "standingAnimation": 1829, "size": 4, "contrast": 30, "actions": ["None", "Attack", "None", "None", "None"], "hasRenderPriority": true, "combatLevel": 301, "models": [36012]}]

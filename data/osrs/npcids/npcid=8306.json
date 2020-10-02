@@ -1,0 +1,1 @@
+[{"name": "Vyrewatch", "id": 8306, "p": 0, "x": 3737, "y": 3377, "actions": ["Talk-to", "Attack", "None", "None", "None"], "hasRenderPriority": true, "standingAnimation": 4702, "walkingAnimation": 4699, "ambient": -25, "combatLevel": 105, "models": [17971, 18000, 17989], "chatHeadModels": [18058]}]

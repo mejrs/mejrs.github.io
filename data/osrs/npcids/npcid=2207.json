@@ -1,0 +1,1 @@
+[{"name": "Growler", "id": 2207, "p": 0, "x": 2896, "y": 5264, "size": 3, "walkingAnimation": 7033, "standingAnimation": 7032, "ambient": 20, "actions": ["None", "Attack", "None", "None", "None"], "widthScale": 144, "heightScale": 144, "combatLevel": 139, "models": [27696]}]

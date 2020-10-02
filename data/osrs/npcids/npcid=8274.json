@@ -1,0 +1,1 @@
+[{"name": "Sister Sevi", "id": 8274, "p": 0, "x": 3738, "y": 3309, "size": 1, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "models": [35170], "chatHeadModels": [35317]}]

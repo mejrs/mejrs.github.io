@@ -1,0 +1,1 @@
+[{"name": "Brother Tranquility", "id": 1964, "p": 0, "x": 3786, "y": 9224, "morphs_names": ["Brother Tranquility", ""], "walkingAnimation": 5645, "standingAnimation": 5646, "combatLevel": 0, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "varbitId": 3407, "varpId": -1, "morphs": [552, -1]}]

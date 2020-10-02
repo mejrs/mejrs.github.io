@@ -1,0 +1,1 @@
+[{"name": "Islwyn", "id": 8819, "p": 0, "x": 2438, "y": 6110, "combatLevel": 0, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "None", "Trade", "None", "None"], "models": [38010, 38295], "chatHeadModels": [38652]}]

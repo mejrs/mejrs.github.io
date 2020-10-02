@@ -351,6 +351,7 @@ import './leaflet.js';
                 .then(ids => {
                     Promise.allSettled(ids.map(id => fetch(`../mejrs.github.io/${this.options.folder}/npcids/npcid=${id}.json`)))
                     .then(responses => Promise.all(responses.filter(res => res.status === "fulfilled" && res.value.ok).map(res => res.value.json())))
+                    .then(data => data.length !== 0 ? data : Promise.reject(new Error("Unable to find any npcids.")))
                     .then(data => data.flat())
 
                     //finds the map squares required
@@ -369,11 +370,11 @@ import './leaflet.js';
                             this.fire("heatdataready", {
                                 keys: this._heatData
                             });
-                        });
+                        }).finally(this._map.addMessage(`Found ${npcs.length} instances of this npc`));
 
-                    });
-                });
+                    }).catch(error => {console.log(error); this._map.addMessage(`Unable to find instances of this npc.`)});
 
+                })
             },
 
             _collisionData: undefined,
@@ -546,7 +547,15 @@ import './leaflet.js';
 
             addMarker: function (npc, map) {
                 let icon = L.icon({
-                        iconUrl: this._npcIcons && this._npcIcons[npc.name] ? npc.iconUrl : '../mejrs.github.io/images/marker-icon.png',
+                        iconUrl: '../mejrs.github.io/images/marker-icon.png',
+                        iconSize: [25, 41],
+                        iconAnchor: [12, 41],
+                        popupAnchor: [1, -34],
+                        tooltipAnchor: [16, -28],
+                        shadowSize: [41, 41]
+                    });
+                let greyscaleIcon = L.icon({
+                        iconUrl: '../mejrs.github.io/images/marker-icon-greyscale.png',
                         iconSize: [25, 41],
                         iconAnchor: [12, 41],
                         popupAnchor: [1, -34],
@@ -555,27 +564,19 @@ import './leaflet.js';
                     });
 
                 let marker = L.marker([(npc.y + 0.5), (npc.x + 0.5)], {
-                        icon: icon,
-                        alt: npc.name
+                        icon: npc.p === this._map.getPlane() ? icon : greyscaleIcon,
                     });
 
-                map.on('planechange', function (e) {
-                    if (npc.p === e.newPlane) {
-                        marker.addTo(map);
-                    } else {
-                        marker.remove();
-                    }
+                this._map.on('planechange', function (e) {
+                    marker.setIcon(npc.p === e.newPlane ? icon : greyscaleIcon);
                 });
 
-                //debug text, replace with something user facing
-                {
-                    let popUpText = Object.entries(npc).map(x => x.map(i => typeof i !== "string" ? JSON.stringify(i) : i).join(" = ")).join("<br>");
-                    marker.bindPopup(popUpText);
-                }
+                let popUpText = Object.entries(npc).map(x => x.map(i => typeof i !== "string" ? JSON.stringify(i) : i).join(" = ")).join("<br>");
+                marker.bindPopup(popUpText, {
+                    autoPan: false
+                });
+                marker.addTo(map);
 
-                if (npc.p === map.getPlane()) {
-                    marker.addTo(map);
-                }
                 return marker;
 
             },
@@ -791,7 +792,6 @@ import './leaflet.js';
             },
 
             parseData: function (data) {
-                let startTime = new Date();
                 data.forEach(item => item.key = this._tileCoordsToKey({
                             plane: item.p,
                             x: (item.x >> 6),
@@ -806,8 +806,8 @@ import './leaflet.js';
                     icon_data[item.key].push(item);
                 });
 
-                let endTime = new Date();
-                console.info("Parsed", data.length, "items", "in", endTime - startTime, "ms.");
+ 
+                console.info("Added", data.length, "items");
                 return icon_data;
             },
 
@@ -1297,8 +1297,6 @@ import './leaflet.js';
             },
 
             parseData: function (data) {
-                let startTime = new Date();
-
                 let linear_data = data.flatMap(id => id.uniques.map(instance => Object.assign({
                                 name: undefined,
                                 p: instance.plane ?? instance.o.p,
@@ -1323,10 +1321,9 @@ import './leaflet.js';
                     icon_data[item.key].push(item);
                 });
 
-                let endTime = new Date();
-                let reallyLoadEverything = linear_data.length < 10000 ? true : confirm(`Really load ${linear_data.length} markers?`);
+                 let reallyLoadEverything = linear_data.length < 10000 ? true : confirm(`Really load ${linear_data.length} markers?`);
                 if (reallyLoadEverything) {
-                    this._map.addMessage("Found " + linear_data.length + " locations in " + (endTime - startTime) + " ms.");
+                    this._map.addMessage(`Found ${linear_data.length} locations of this object.`);
                     return icon_data;
                 } else {
                     return []
@@ -1379,7 +1376,6 @@ import './leaflet.js';
 
             //to be replaced by preprocessing the data like this
             parseData: function (data, watery) {
-                let startTime = new Date();
                 let dataCollection = this.parseSheet(data).map(this.parseItems.bind(this)).flatMap(group => group.items).filter(Boolean).map(item => {
                         item.plane = watery[item.x >> 6][item.y >> 6].includes((item.x << 14) + item.y) ? item.plane - 1 : item.plane;
                         if ("destination" in item) {
@@ -1442,8 +1438,7 @@ import './leaflet.js';
                     icon_data[item.key].push(item);
                 });
 
-                let endTime = new Date();
-                console.info("Parsed", all_icons.length, "icons", "in", endTime - startTime, "ms.");
+                console.info("Parsed", all_icons.length, "icons");
                 return icon_data;
             },
 
@@ -1952,7 +1947,6 @@ import './leaflet.js';
             },
 
             parseData: function (data) {
-                let startTime = new Date();
 
                 let destinations = data.map(item => ({
                             ...item
@@ -1990,8 +1984,7 @@ import './leaflet.js';
                     icon_data[item.key].push(item);
                 });
 
-                let endTime = new Date();
-                console.info("Parsed", data.length, "icons", "in", endTime - startTime, "ms.");
+                console.info("Parsed", data.length, "icons");
                 return icon_data;
             },
             createIcon: function (item) {

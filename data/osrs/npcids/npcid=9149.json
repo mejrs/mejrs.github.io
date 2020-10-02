@@ -1,0 +1,1 @@
+[{"name": "Morvran", "id": 9149, "p": 0, "x": 3223, "y": 12444, "combatLevel": 0, "walkingAnimation": 1205, "rotate180Animation": 1206, "rotate90RightAnimation": 1207, "rotate90LeftAnimation": 1208, "standingAnimation": 813, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "models": [38012, 38293], "chatHeadModels": [38689]}]

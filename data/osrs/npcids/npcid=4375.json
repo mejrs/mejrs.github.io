@@ -1,0 +1,1 @@
+[{"name": "Mad skavid", "id": 4375, "p": 0, "x": 2523, "y": 9411, "combatLevel": 0, "size": 2, "walkingAnimation": 254, "standingAnimation": 257, "actions": ["Talk-to", "None", "None", "None", "None"], "colourReplacements": [{"original": 9647, "replacement": 11154}], "models": [20388], "chatHeadModels": [20394]}]

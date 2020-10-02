@@ -1,0 +1,1 @@
+[{"name": "Gruh", "id": 887, "p": 0, "x": 2349, "y": 3064, "combatLevel": 0, "size": 2, "widthScale": 129, "heightScale": 133, "walkingAnimation": 358, "standingAnimation": 357, "actions": ["Talk-to", "None", "None", "None", "None"], "colourReplacements": [{"original": 8722, "replacement": 8609}], "models": [3442, 2878], "chatHeadModels": [141]}]

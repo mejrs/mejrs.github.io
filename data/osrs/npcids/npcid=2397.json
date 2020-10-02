@@ -1,0 +1,1 @@
+[{"name": "Sune", "id": 2397, "p": 0, "x": 2924, "y": 10213, "walkingAnimation": 98, "standingAnimation": 101, "combatLevel": 0, "actions": ["Talk-to", "None", "None", "None", "None"], "colourReplacements": [{"original": 61, "replacement": 14499}], "models": [2970, 7072, 7059, 2978, 7045, 2985], "chatHeadModels": [0, 6997]}]

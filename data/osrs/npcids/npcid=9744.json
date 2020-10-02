@@ -1,0 +1,1 @@
+[{"name": "Werewolf", "id": 9744, "p": 0, "x": 3600, "y": 3390, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "standingAnimation": 6539, "walkingAnimation": 6541, "models": [26177, 26188, 26181], "chatHeadModels": [26113]}]

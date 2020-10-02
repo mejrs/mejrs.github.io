@@ -1,0 +1,1 @@
+[{"name": "Vampyre Juvenile", "id": 8326, "p": 0, "x": 3631, "y": 3217, "size": 1, "combatLevel": 0, "hasRenderPriority": true, "standingAnimation": 4702, "walkingAnimation": 4699, "ambient": -25, "actions": ["Talk-to", "None", "None", "None", "None"], "models": [17967, 17985], "chatHeadModels": [35320]}]

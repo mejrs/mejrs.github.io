@@ -1,0 +1,1 @@
+[{"name": "Big Wolf", "id": 115, "p": 0, "x": 2487, "y": 2924, "size": 2, "standingAnimation": 6580, "walkingAnimation": 6556, "widthScale": 170, "heightScale": 170, "actions": ["None", "Attack", "None", "None", "None"], "combatLevel": 73, "colourReplacements": [{"original": 262, "replacement": 16}], "models": [26264]}]

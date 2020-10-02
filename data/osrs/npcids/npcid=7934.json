@@ -1,0 +1,1 @@
+[{"name": "Revenant cyclops", "id": 7934, "p": 0, "x": 3247, "y": 10158, "size": 3, "widthScale": 140, "heightScale": 140, "walkingAnimation": 4649, "standingAnimation": 4650, "ambient": 60, "contrast": 60, "actions": ["None", "Attack", "None", "None", "None"], "hasRenderPriority": true, "combatLevel": 82, "models": [34155]}]

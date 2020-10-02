@@ -1,0 +1,1 @@
+[{"name": "Yarsul", "id": 7718, "p": 0, "x": 3030, "y": 9746, "combatLevel": 0, "size": 1, "walkingAnimation": 98, "standingAnimation": 101, "actions": ["Talk-to", "None", "Trade", "None", "None"], "hasRenderPriority": true, "colourReplacements": [{"original": 803, "replacement": 5652}], "models": [2973, 2980, 2978, 2984, 2985, 2990], "chatHeadModels": [3]}]

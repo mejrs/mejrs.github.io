@@ -1,0 +1,1 @@
+[{"name": "Andrea", "id": 7009, "p": 0, "x": 1807, "y": 3696, "combatLevel": 0, "walkingAnimation": 6531, "rotate180Animation": 6532, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "None", "None", "None", "None"], "models": [26143, 26152, 26136, 26147, 26141], "chatHeadModels": [26272]}]

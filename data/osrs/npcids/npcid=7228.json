@@ -1,0 +1,1 @@
+[{"name": "Traxi", "id": 7228, "p": 0, "x": 1656, "y": 3543, "morphs_names": ["Traxi", "Traxi", "Traxi", "Traxi", ""], "walkingAnimation": 98, "standingAnimation": 101, "combatLevel": 0, "size": 1, "hasRenderPriority": true, "varbitId": 5085, "varpId": -1, "morphs": [7219, 7220, 7220, 7220, -1]}]

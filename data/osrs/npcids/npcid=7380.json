@@ -1,0 +1,1 @@
+[{"name": "Cat", "id": 7380, "p": 0, "x": 1635, "y": 3946, "combatLevel": 0, "size": 1, "walkingAnimation": 314, "standingAnimation": 317, "widthScale": 60, "heightScale": 60, "actions": ["Talk-to", "None", "None", "None", "None"], "models": [32228, 32227], "chatHeadModels": [32288]}]

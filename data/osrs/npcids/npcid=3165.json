@@ -1,0 +1,1 @@
+[{"name": "Flight Kilisa", "id": 3165, "p": 2, "x": 2833, "y": 5297, "size": 2, "walkingAnimation": 6953, "standingAnimation": 6952, "actions": ["None", "Attack", "None", "None", "None"], "combatLevel": 159, "models": [27993, 28009, 28000, 27937, 27977, 27979]}]

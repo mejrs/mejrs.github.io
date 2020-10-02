@@ -1,0 +1,1 @@
+[{"name": "Fisherman Frodi", "id": 3655, "p": 0, "x": 2576, "y": 3852, "combatLevel": 0, "size": 1, "heightScale": 300, "widthScale": 64, "actions": ["Talk-to", "None", "Check-Approval", "None", "None"], "colourReplacements": [{"original": 6798, "replacement": 6705}], "models": [16238], "chatHeadModels": [53, 80]}]

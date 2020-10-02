@@ -1,0 +1,1 @@
+[{"name": "Goblin", "id": 5192, "p": 0, "x": 2564, "y": 3456, "size": 1, "standingAnimation": 6181, "walkingAnimation": 6180, "actions": ["None", "Attack", "None", "None", "None"], "combatLevel": 2, "models": [24455, 24483, 24432, 24476, 24441, 24449], "chatHeadModels": [24209]}]

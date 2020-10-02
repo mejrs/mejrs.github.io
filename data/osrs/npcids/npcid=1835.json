@@ -1,0 +1,1 @@
+[{"name": "Cosmic Being", "id": 1835, "p": 0, "x": 2090, "y": 4829, "standingAnimation": 4303, "walkingAnimation": 4304, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "size": 1, "ambient": 20, "hasRenderPriority": true, "models": [16204, 16203], "chatHeadModels": [16209]}]

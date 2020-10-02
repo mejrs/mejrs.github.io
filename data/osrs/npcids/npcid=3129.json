@@ -1,0 +1,1 @@
+[{"name": "K'ril Tsutsaroth", "id": 3129, "p": 2, "x": 2925, "y": 5322, "size": 5, "widthScale": 110, "heightScale": 110, "walkingAnimation": 4070, "standingAnimation": 6935, "actions": ["None", "Attack", "None", "None", "None"], "hasRenderPriority": true, "combatLevel": 650, "models": [27683, 27681, 27692, 27682, 27690]}]

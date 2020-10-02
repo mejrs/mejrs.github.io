@@ -1,0 +1,1 @@
+[{"name": "Gertrude's cat", "id": 1010, "p": 0, "x": 2910, "y": 5100, "combatLevel": 0, "size": 1, "walkingAnimation": 314, "standingAnimation": 317, "widthScale": 80, "heightScale": 80, "actions": ["Talk-to", "None", "None", "None", "None"], "models": [3010, 3006], "chatHeadModels": [6435]}]

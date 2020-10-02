@@ -1,0 +1,1 @@
+[{"name": "Marten", "id": 10370, "p": 0, "x": 3153, "y": 3629, "size": 1, "combatLevel": 0, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-To", "None", "None", "None", "None"], "models": [10981, 247, 23174, 10980, 23173, 19947, 179, 12087], "chatHeadModels": [10976, 79]}]

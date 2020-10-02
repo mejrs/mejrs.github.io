@@ -1,0 +1,1 @@
+[{"name": "Ug", "id": 640, "p": 1, "x": 2827, "y": 10064, "walkingAnimation": 283, "standingAnimation": 1474, "actions": ["Talk-to", "None", "None", "None", "None"], "widthScale": 124, "heightScale": 124, "combatLevel": 0, "colourReplacements": [{"original": 61, "replacement": 8367}], "models": [3753, 3758, 3755, 3773, 4945], "chatHeadModels": [3790, 3789]}]

@@ -1,0 +1,1 @@
+[{"name": "Hegir", "id": 2394, "p": 0, "x": 2851, "y": 10225, "walkingAnimation": 2154, "standingAnimation": 2155, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "colourReplacements": [{"original": 61, "replacement": 8377}], "models": [7026, 7071, 7059, 7036, 7075, 7045, 2985], "chatHeadModels": [6985, 6996]}]

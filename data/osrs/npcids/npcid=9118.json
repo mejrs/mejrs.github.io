@@ -1,0 +1,1 @@
+[{"name": "Rabbit", "id": 9118, "p": 0, "x": 3295, "y": 12581, "size": 1, "walkingAnimation": 6088, "standingAnimation": 6089, "ambient": 30, "combatLevel": 2, "actions": ["None", "Attack", "None", "None", "None"], "models": [38569]}]

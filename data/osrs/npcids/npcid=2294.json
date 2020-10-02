@@ -1,0 +1,1 @@
+[{"name": "Bartak", "id": 2294, "p": 0, "x": 2708, "y": 5275, "walkingAnimation": 6041, "standingAnimation": 6040, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "hasRenderPriority": true, "models": [23660, 23702, 23631], "chatHeadModels": [23223, 23246]}]

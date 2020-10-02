@@ -1,0 +1,1 @@
+[{"name": "Icelord", "id": 852, "p": 0, "x": 2641, "y": 10426, "size": 2, "actions": ["None", "Attack", "None", "None", "None"], "walkingAnimation": 5721, "standingAnimation": 5722, "hasRenderPriority": true, "combatLevel": 51, "models": [21802, 21801, 21806]}]

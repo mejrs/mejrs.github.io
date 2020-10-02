@@ -1,0 +1,1 @@
+[{"name": "Voice of Yama", "id": 7668, "p": 1, "x": 1439, "y": 10079, "combatLevel": 0, "size": 2, "walkingAnimation": 7016, "standingAnimation": 7017, "actions": ["Talk-to", "None", "None", "None", "None"], "models": [32944, 32945, 16314], "chatHeadModels": [32988]}]

@@ -1,0 +1,1 @@
+[{"name": "Kalrag", "id": 9216, "p": 0, "x": 2356, "y": 9911, "morphs_names": ["Kalrag", ""], "walkingAnimation": 5317, "standingAnimation": 5318, "size": 3, "actions": ["None", "Attack", "None", "None", "None"], "combatLevel": 89, "varbitId": 9115, "varpId": -1, "morphs": [8993, -1]}]

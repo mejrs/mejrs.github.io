@@ -1,0 +1,1 @@
+[{"name": "Entrana firebird", "id": 4927, "p": 0, "x": 2847, "y": 3386, "size": 2, "ambient": 40, "walkingAnimation": 6808, "standingAnimation": 6809, "actions": ["None", "Attack", "None", "None", "None"], "combatLevel": 2, "models": [26853]}]

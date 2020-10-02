@@ -1,0 +1,1 @@
+[{"name": "Giant Mole", "id": 5779, "p": 0, "x": 1759, "y": 5189, "size": 3, "standingAnimation": 3309, "walkingAnimation": 3313, "actions": ["None", "Attack", "None", "None", "None"], "widthScale": 118, "heightScale": 118, "hasRenderPriority": true, "combatLevel": 230, "models": [12076, 12075, 12074, 12077]}]

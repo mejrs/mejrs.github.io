@@ -1,0 +1,1 @@
+[{"name": "Doomsayer", "id": 119, "p": 0, "x": 3232, "y": 3223, "morphs_names": ["Doomsayer", "Doomsayer", ""], "combatLevel": 0, "walkingAnimation": 1146, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 813, "hasRenderPriority": true, "varbitId": 4153, "varpId": -1, "morphs": [6773, 6774, -1]}]

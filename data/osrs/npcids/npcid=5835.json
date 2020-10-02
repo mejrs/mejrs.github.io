@@ -1,0 +1,1 @@
+[{"name": "Co-ordinator", "id": 5835, "p": 0, "x": 2452, "y": 4451, "combatLevel": 0, "size": 1, "walkingAnimation": 106, "standingAnimation": 112, "actions": ["Talk-to", "None", "None", "None", "None"], "colourReplacements": [{"original": 9447, "replacement": 7836}], "models": [11879], "chatHeadModels": [14]}]

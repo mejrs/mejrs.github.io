@@ -1,0 +1,1 @@
+[{"name": "Trefaji", "id": 5247, "p": 0, "x": 2768, "y": 2803, "size": 2, "walkingAnimation": 1399, "standingAnimation": 1401, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "models": [4809, 4812], "chatHeadModels": [4662]}]

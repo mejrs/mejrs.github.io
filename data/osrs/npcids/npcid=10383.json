@@ -1,0 +1,1 @@
+[{"name": "Refugee", "id": 10383, "p": 0, "x": 3133, "y": 3624, "size": 1, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "combatLevel": 0, "hasRenderPriority": true, "models": [210, 249, 8845, 18126, 10218, 18132, 18127], "chatHeadModels": [49, 81]}]

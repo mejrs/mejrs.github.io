@@ -1,0 +1,1 @@
+[{"name": "Desmodus Lasiurus", "id": 9588, "p": 0, "x": 3612, "y": 3363, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "walkingAnimation": 8702, "standingAnimation": 8703, "hasRenderPriority": true, "models": [39691, 39686, 39690], "chatHeadModels": [39846]}]

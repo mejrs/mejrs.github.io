@@ -1,0 +1,1 @@
+[{"name": "Desert Phoenix", "id": 5137, "p": 0, "x": 3414, "y": 3156, "size": 2, "ambient": 40, "walkingAnimation": 6808, "standingAnimation": 6809, "actions": ["None", "None", "Grab-feather", "None", "None"], "combatLevel": 0, "models": [26852]}]

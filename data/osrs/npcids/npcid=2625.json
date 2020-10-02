@@ -1,0 +1,1 @@
+[{"name": "Galina", "id": 2625, "p": 1, "x": 3490, "y": 3472, "walkingAnimation": 6531, "rotate180Animation": 6532, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "Attack", "None", "None", "None"], "combatLevel": 24, "models": [12141, 26156, 26140, 26151, 26142], "chatHeadModels": [12134]}]

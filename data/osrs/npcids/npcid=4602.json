@@ -1,0 +1,1 @@
+[{"name": "Claude", "id": 4602, "p": 0, "x": 2664, "y": 9626, "combatLevel": 0, "size": 1, "walkingAnimation": 2662, "standingAnimation": 317, "actions": ["None", "Hidden", "None", "None", "None"], "widthScale": 30, "heightScale": 40, "hasRenderPriority": true, "models": [9386, 9388]}]

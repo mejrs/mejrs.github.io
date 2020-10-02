@@ -1,0 +1,1 @@
+[{"name": "Chadwell", "id": 4527, "p": 0, "x": 2464, "y": 3287, "combatLevel": 0, "size": 1, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "None", "Trade", "None", "None"], "models": [230, 292, 254, 246, 173, 181, 176], "chatHeadModels": [63]}]

@@ -1,0 +1,1 @@
+[{"name": "Eduard", "id": 2618, "p": 0, "x": 3511, "y": 3482, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "Attack", "None", "None", "None"], "combatLevel": 24, "models": [26123, 26130, 26115, 26125, 26119], "chatHeadModels": [26270]}]

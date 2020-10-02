@@ -1,0 +1,1 @@
+[{"name": "Patrolwoman", "id": 6978, "p": 0, "x": 1778, "y": 3731, "size": 1, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "combatLevel": 0, "hasRenderPriority": true, "rotationFlag": false, "models": [29786, 29808, 29802, 29792, 29799, 29816]}]

@@ -1,0 +1,1 @@
+[{"name": "Army Commander", "id": 848, "p": 1, "x": 2637, "y": 4041, "walkingAnimation": 5676, "standingAnimation": 5677, "widthScale": 75, "heightScale": 75, "size": 1, "combatLevel": 0, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "models": [21546, 21548], "chatHeadModels": [21524]}]

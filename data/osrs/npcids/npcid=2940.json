@@ -1,0 +1,1 @@
+[{"name": "Forester (hard)", "id": 2940, "p": 0, "x": 3438, "y": 3487, "morphs_names": ["", "Forester (hard)", ""], "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "hasRenderPriority": true, "combatLevel": 1, "varbitId": 3412, "varpId": -1, "morphs": [-1, 1573, -1]}]

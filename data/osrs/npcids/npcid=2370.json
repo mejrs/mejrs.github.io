@@ -1,0 +1,1 @@
+[{"name": "Librarian", "id": 2370, "p": 0, "x": 2858, "y": 10225, "walkingAnimation": 98, "standingAnimation": 101, "combatLevel": 0, "actions": ["Talk-to", "None", "None", "None", "None"], "colourReplacements": [{"original": 61, "replacement": 6356}, {"original": 4550, "replacement": 2394}], "models": [7029, 7071, 6017, 7037, 7045, 2985], "chatHeadModels": [6988, 6996]}]

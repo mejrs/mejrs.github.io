@@ -1,0 +1,1 @@
+[{"name": "Hamab", "id": 5253, "p": 0, "x": 2781, "y": 2793, "walkingAnimation": 1380, "standingAnimation": 1386, "widthScale": 140, "heightScale": 140, "actions": ["Talk-to", "None", "Trade", "None", "None"], "combatLevel": 0, "colourReplacements": [{"original": 7469, "replacement": 5462}], "models": [4819, 4826], "chatHeadModels": [4658]}]

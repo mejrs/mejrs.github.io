@@ -1,0 +1,1 @@
+[{"name": "Sin Seer", "id": 3515, "p": 1, "x": 2700, "y": 3475, "combatLevel": 0, "walkingAnimation": 5809, "standingAnimation": 5810, "actions": ["Talk-to", "None", "None", "None", "None"], "hasRenderPriority": true, "models": [22319, 22320], "chatHeadModels": [22277]}]

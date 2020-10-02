@@ -1,0 +1,1 @@
+[{"name": "Bartender", "id": 1318, "p": 0, "x": 2690, "y": 3493, "combatLevel": 0, "size": 1, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "actions": ["Talk-to", "None", "None", "None", "None"], "models": [214, 248, 305, 151, 176, 254, 181], "chatHeadModels": [52, 80]}]

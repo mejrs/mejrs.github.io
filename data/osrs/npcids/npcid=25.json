@@ -1,0 +1,1 @@
+[{"name": "Monkey", "id": 25, "p": 0, "x": 3467, "y": 3109, "morphs_names": ["", "", "", "", "", "", "", "", "", "", "Monkey", ""], "walkingAnimation": 219, "standingAnimation": 222, "hasRenderPriority": true, "combatLevel": 0, "varbitId": 346, "varpId": -1, "morphs": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 23, -1]}]

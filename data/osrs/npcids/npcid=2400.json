@@ -1,0 +1,1 @@
+[{"name": "Reinald", "id": 2400, "p": 0, "x": 2926, "y": 10225, "actions": ["Talk-to", "None", "None", "None", "None"], "walkingAnimation": 98, "standingAnimation": 101, "combatLevel": 0, "models": [2972, 7062, 2978, 7044, 2985, 6019], "chatHeadModels": [2, 6026]}]

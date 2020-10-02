@@ -1,0 +1,1 @@
+[{"name": "Tindar", "id": 2311, "p": 0, "x": 2712, "y": 5309, "walkingAnimation": 6041, "standingAnimation": 6040, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "colourReplacements": [{"original": 417, "replacement": 5285}, {"original": 412, "replacement": 5409}], "models": [23645, 23684, 23626], "chatHeadModels": [23237, 23220]}]

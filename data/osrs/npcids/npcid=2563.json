@@ -1,0 +1,1 @@
+[{"name": "Dalila", "id": 2563, "p": 1, "x": 2448, "y": 3500, "standingAnimation": 4537, "actions": ["Talk-to", "None", "None", "None", "None"], "combatLevel": 0, "rotationSpeed": 0, "colourReplacements": [{"original": 937, "replacement": 63917}, {"original": 22426, "replacement": 63917}], "models": [2904, 16995, 2917, 16992], "chatHeadModels": [16965]}]

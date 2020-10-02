@@ -1,0 +1,1 @@
+[{"name": "Olbertus", "id": 8718, "p": 0, "x": 1796, "y": 9953, "morphs_names": ["Olbertus", "Olbertus", ""], "size": 1, "hasRenderPriority": true, "walkingAnimation": 819, "rotate180Animation": 820, "rotate90RightAnimation": 821, "rotate90LeftAnimation": 822, "standingAnimation": 808, "combatLevel": 1, "varbitId": 8394, "varpId": -1, "morphs": [8706, 8707, -1]}]

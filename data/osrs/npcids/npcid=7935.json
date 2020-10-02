@@ -1,0 +1,1 @@
+[{"name": "Revenant hellhound", "id": 7935, "p": 0, "x": 3252, "y": 10168, "size": 3, "walkingAnimation": 6583, "standingAnimation": 6580, "ambient": 75, "contrast": 75, "actions": ["None", "Attack", "None", "None", "None"], "hasRenderPriority": true, "combatLevel": 90, "models": [34143]}]
