@@ -32,7 +32,7 @@ void function (global) {
             minPlane: 0,
             maxPlane: 3,
             minZoom: -4,
-            maxZoom: 6,
+            maxZoom: 8,
             doubleClickZoom: false,
             showMapBorder: true,
             enableUrlLocation: true
@@ -44,36 +44,36 @@ void function (global) {
         source: 'map_squares_osrs',
         minZoom: -4,
         maxNativeZoom: 2,
-        maxZoom: 6,
+        maxZoom: 8,
     }).addTo(runescape_map).bringToBack();
 
     let nomove = L.tileLayer.main(template, {
             source: 'nomove_squares_osrs',
             minZoom: -4,
             maxNativeZoom: 2,
-            maxZoom: 6,
+            maxZoom: 8,
         });
 
     let objects = L.tileLayer.main(template, {
             source: 'object_squares_osrs',
             minZoom: -4,
             maxNativeZoom: 2,
-            maxZoom: 6,
+            maxZoom: 8,
         });
 
     let grid = L.grid({
             bounds: [[0, 0], [12800, 6400]],
         });
 
-    let crowdsource = L.crowdSourceMovement({
-            data: "data/osrs/osrs_moves.json",
+    let crowdsourcetransports = L.crowdSourceMovement({
+            data: "data/osrs/combined_osrs_moves.json",
             show3d: false,
-            minZoom: 0
+            minZoom: -4
         });
-    let crowdsourceFilteredObjects = L.crowdSourceMovement({
-            data: "data/osrs/osrs_obj_moves.json",
+	let crowdsourceteles = L.crowdSourceMovement({
+            data: "data/osrs/split_teleports_osrs.json",
             show3d: false,
-            minZoom: 0
+            minZoom: -4
         });
 		
 	let npcs = L.dynamicIcons({
@@ -92,8 +92,8 @@ void function (global) {
     }).addTo(runescape_map);
 
     L.control.layers.urlParam({}, {
-        crowdsource: crowdsource,
-        crowdsourceFilteredObjects: crowdsourceFilteredObjects,
+        crowdsourcetransports: crowdsourcetransports,
+		crowdsourceteles:crowdsourceteles,
         "nomove": nomove,
         "objects": objects,
 		"npcs":npcs,

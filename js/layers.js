@@ -343,8 +343,8 @@ import './leaflet.js';
 
                 .then(namedIds => fetch(`../mejrs.github.io/${this.options.folder}/npc_morph_collection.json`).then(res => res.json())
                     .then(morphs => namedIds.flatMap(id => [...(morphs[id] ?? []), id])))
-					//unique elements		
-					.then(ids => Array.from(new Set(ids)));
+                //unique elements
+                .then(ids => Array.from(new Set(ids)));
 
             },
 
@@ -1952,21 +1952,26 @@ import './leaflet.js';
             },
 
             parseData: function (data) {
+                function average(nums) {
+                    return nums.reduce((a, b) => (a + b)) / nums.length;
+                }
+                data.forEach(item => {
+                    if (item.type === "TRANSPORT") {
+                        Object.assign(item, item.start)
+                    } else if (item.type === "TELEPORT") {
 
-                let destinations = data.map(item => ({
-                            ...item
-                        }));
-                destinations.forEach(item => Object.assign(item, {
-                        "mode": "destination"
-                    }, item.to_coordinate));
-
-                destinations.forEach(item => item.key = this._tileCoordsToKey({
-                            plane: item.p,
-                            x: (item.x >> 6),
-                            y:  - (item.y >> 6)
-                        }));
-
-                data.forEach(item => Object.assign(item, item.from_coordinate));
+                        let averageDest = {
+                            p: average(item.destinations.map(item => item.p)),
+                            x: average(item.destinations.map(item => item.x)),
+                            y: average(item.destinations.map(item => item.y))
+                        }
+                        if (!Number.isInteger(averageDest.p)) {
+                            console.log(item);
+                            throw new Error("averaged plane is not integer");
+                        }
+                        Object.assign(item, averageDest)
+                    }
+                });
 
                 data.forEach(item => item.key = this._tileCoordsToKey({
                             plane: item.p,
@@ -1982,81 +1987,72 @@ import './leaflet.js';
                     icon_data[item.key].push(item);
                 });
 
-                destinations.forEach(item => {
-                    if (!(item.key in icon_data)) {
-                        icon_data[item.key] = [];
-                    }
-                    icon_data[item.key].push(item);
-                });
-
                 console.info("Parsed", data.length, "icons");
                 return icon_data;
             },
             createIcon: function (item) {
-                if (item.mode === "destination") {
-                    return this.createEndIcon(item);
-                } else {
-                    return this.createStartIcon(item);
+                if (item.type === "TRANSPORT") {
+                    return this.createTransportIcon(item);
+                } else if (item.type === "TELEPORT") {
+                    return this.createTeleportIcon(item);
                 }
             },
 
-            createEndIcon: function (item) {
+            createTeleportIcon: function (item) {
 
-                let endMarker = L.marker([item.y + 0.5, item.x + 0.5], {
-                        "icon": new rect
-                    })
+                let teleportMarker = L.marker([item.y + 0.5, item.x + 0.5]);
 
-                    endMarker.bindTooltip("Click to travel to origin", {
-                        direction: "top",
-                        offset: [0, -10]
-                    }).openTooltip();
+                if ("destinations" in item) {
+                    teleportMarker.on('mouseover', () => {
+                        item.destinations.forEach(destination => {
+                            let points = [[item.y + 0.5, item.x + 0.5], [destination.y + 0.5, destination.x + 0.5]];
+                            let travel = L.polyline(points, {
+                                    color: 'white'
+                                });
+                            this._map.addLayer(travel);
+                            window.setTimeout(travel.remove.bind(travel), 60000);
+                            travel.on("click", () => {
+                                this._map.setPlane(destination.p);
+                                this._map.flyTo([destination.y + 0.5, destination.x + 0.5])
+                            });
+                        })
 
-                endMarker.on('mouseover', function () {
-                    let points = [[item.from_coordinate.y + 0.5, item.from_coordinate.x + 0.5], [item.to_coordinate.y + 0.5, item.to_coordinate.x + 0.5]];
-                    let travel = L.polyline(points, {
-                            color: 'white'
-                        });
-                    this._map.addLayer(travel);
-                    window.setTimeout(travel.remove.bind(travel), 60000)
+                    });
 
-                });
+                }
+				let popUp = this.createPopup(item.mode, this._map, item);
+                teleportMarker.bindPopup(popUp);
 
-                endMarker.on('click', function () {
-                    let map = this._map;
-                    map.setView([item.from_coordinate.y + 0.5, item.from_coordinate.x + 0.5]);
-                    map.setPlane(item.from_coordinate.p);
+                teleportMarker._item = item;
 
-                });
-
-                endMarker._item = item;
-
-                return endMarker;
+                return teleportMarker;
             },
 
-            createStartIcon: function (item) {
+            createTransportIcon: function (item) {
                 var icon = new L.Icon.Default();
                 icon.options.shadowSize = [0, 0];
 
                 let startMarker = L.marker([item.y + 0.5, item.x + 0.5], {
                         icon: icon
-                    })
+                    });
 
-                    let popUpBody = this.createPopupBody(item.mode, this._map, item);
-                startMarker.bindPopup(popUpBody);
+                    let popUp = this.createPopup(item.mode, this._map, item);
+                startMarker.bindPopup(popUp);
 
-                startMarker.bindTooltip("Click to edit", {
-                    direction: "top",
-                    offset: [0, -10]
-                }).openTooltip();
-
-                if ("to_coordinate" in item) {
-                    startMarker.on('mouseover', function () {
-                        let points = [[item.from_coordinate.y + 0.5, item.from_coordinate.x + 0.5], [item.to_coordinate.y + 0.5, item.to_coordinate.x + 0.5]];
-                        let travel = L.polyline(points, {
-                                color: 'white'
+                if ("destinations" in item) {
+                    startMarker.on('mouseover', () => {
+                        item.destinations.forEach(destination => {
+                            let points = [[item.start.y + 0.5, item.start.x + 0.5], [destination.y + 0.5, destination.x + 0.5]];
+                            let travel = L.polyline(points, {
+                                    color: 'white'
+                                });
+                            this._map.addLayer(travel);
+                            window.setTimeout(travel.remove.bind(travel), 60000);
+                            travel.on("click", () => {
+                                this._map.setPlane(destination.p);
+                                this._map.flyTo([destination.y + 0.5, destination.x + 0.5])
                             });
-                        this._map.addLayer(travel);
-                        window.setTimeout(travel.remove.bind(travel), 60000)
+                        })
 
                     });
 
@@ -2065,8 +2061,14 @@ import './leaflet.js';
 
                 return startMarker;
             },
+			
+			getIconUrl: function (name) {        
+                let hash = MD5.md5(`${name}.png`);
+                let iconUrl = `https://runescape.wiki/images/${hash.substr(0, 1)}/${hash.substr(0, 2)}/${name}.png`;
+                return iconUrl;
+            },
 
-            createPopupBody: function (mode, map, item) {
+            createPopup: function (mode, map, item) {
                 let wrapper = document.createElement('div');
 
                 let nav = (item.from_coordinate && item.to_coordinate) ? this.createNavigator(mode, map, item) : document.createElement('div');
@@ -2076,7 +2078,8 @@ import './leaflet.js';
 
                 wrapper.appendChild(nav);
                 wrapper.appendChild(info);
-                return wrapper;
+				let popup = L.popup({autoPan: false}).setContent(wrapper);
+                return popup;
             },
             createNavigator: function (mode, map, item) {
 
