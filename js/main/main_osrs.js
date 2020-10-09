@@ -76,6 +76,12 @@ void function (global) {
             minZoom: -4
         });
 		
+			let spheres = L.crowdSourceMovement({
+            data: "data/osrs/osrs_spheres.json",
+            show3d: false,
+            minZoom: -4
+        });
+		
 	let npcs = L.dynamicIcons({
             dataPath: "data/osrs/NPCList_OSRS.json",
             minZoom: -3,
@@ -94,6 +100,7 @@ void function (global) {
     L.control.layers.urlParam({}, {
         crowdsourcetransports: crowdsourcetransports,
 		crowdsourceteles:crowdsourceteles,
+		spheres:spheres,
         "nomove": nomove,
         "objects": objects,
 		"npcs":npcs,
