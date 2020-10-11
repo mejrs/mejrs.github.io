@@ -66,12 +66,12 @@ void function (global) {
         });
 
     let crowdsourcetransports = L.crowdSourceMovement({
-            data: "data/osrs/combined_osrs_moves.json",
+            data: "data/osrs/transports_osrs.json",
             show3d: false,
             minZoom: -4
         });
 	let crowdsourceteles = L.crowdSourceMovement({
-            data: "data/osrs/split_teleports_osrs.json",
+            data: "data/osrs/teleports_osrs.json",
             show3d: false,
             minZoom: -4
         });

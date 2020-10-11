@@ -2020,7 +2020,7 @@ import './leaflet.js';
                     });
 
                 }
-				let popUp = this.createPopup(item.mode, this._map, item);
+                let popUp = this.createPopup(item.mode, this._map, item);
                 teleportMarker.bindPopup(popUp);
 
                 teleportMarker._item = item;
@@ -2036,13 +2036,25 @@ import './leaflet.js';
                         icon: icon
                     });
 
-                    let popUp = this.createPopup(item.mode, this._map, item);
+                let popUp = this.createPopup(item.mode, this._map, item);
                 startMarker.bindPopup(popUp);
 
                 if ("destinations" in item) {
                     startMarker.on('mouseover', () => {
                         item.destinations.forEach(destination => {
-                            let points = [[item.start.y + 0.5, item.start.x + 0.5], [destination.y + 0.5, destination.x + 0.5]];
+                            let VertexIcon = L.DivIcon.extend({
+                                    options: {
+                                        iconSize: new L.Point(8, 8)
+                                    }
+
+                                });
+                            let destmarker = L.marker([destination.y + 0.5, destination.x + 0.5], {
+                                    icon: new VertexIcon
+                                }).addTo(this._map);
+							window.setTimeout(destmarker.remove.bind(destmarker), 60000);
+								
+                            let points = [[item.start.y + 0.5, item.start.x + 0.5], [destination.y + 0.5, destination.x + 0.5]];                        
+
                             let travel = L.polyline(points, {
                                     color: 'white'
                                 });
@@ -2061,8 +2073,8 @@ import './leaflet.js';
 
                 return startMarker;
             },
-			
-			getIconUrl: function (name) {        
+
+            getIconUrl: function (name) {
                 let hash = MD5.md5(`${name}.png`);
                 let iconUrl = `https://runescape.wiki/images/${hash.substr(0, 1)}/${hash.substr(0, 2)}/${name}.png`;
                 return iconUrl;
@@ -2078,7 +2090,9 @@ import './leaflet.js';
 
                 wrapper.appendChild(nav);
                 wrapper.appendChild(info);
-				let popup = L.popup({autoPan: false}).setContent(wrapper);
+                let popup = L.popup({
+                        autoPan: false
+                    }).setContent(wrapper);
                 return popup;
             },
             createNavigator: function (mode, map, item) {
