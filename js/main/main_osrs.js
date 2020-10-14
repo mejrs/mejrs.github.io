@@ -12,6 +12,7 @@ import "../../js/plugins/leaflet.urllayers.js";
 import "../../js/plugins/leaflet.dive.js";
 import "../../js/layers.js";
 import "../../js/other.js";
+import "../../js/plugins/leaflet.rect.js";
 
 void function (global) {
     let runescape_map = global.runescape_map = L.gameMap('map', {
@@ -24,6 +25,7 @@ void function (global) {
             planeControl: true,
             positionControl: true,
             messageBox: true,
+			rect: true,
 
             initialMapId: -1,
             plane: 0,
