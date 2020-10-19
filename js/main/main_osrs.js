@@ -25,7 +25,7 @@ void function (global) {
             planeControl: true,
             positionControl: true,
             messageBox: true,
-			rect: true,
+            rect: true,
 
             initialMapId: -1,
             plane: 0,
@@ -72,45 +72,44 @@ void function (global) {
             show3d: false,
             minZoom: -4
         });
-	let crowdsourceteles = L.crowdSourceMovement({
+    let crowdsourceteles = L.crowdSourceMovement({
             data: "data/osrs/teleports_osrs.json",
             show3d: false,
             minZoom: -4
         });
-		
-			let spheres = L.crowdSourceMovement({
+
+    let spheres = L.crowdSourceMovement({
             data: "data/osrs/osrs_spheres.json",
             show3d: false,
             minZoom: -4
         });
-		
-	let npcs = L.dynamicIcons({
+
+    let npcs = L.dynamicIcons({
             dataPath: "data/osrs/NPCList_OSRS.json",
             minZoom: -3,
         });
 
     L.control.display.objects({
         folder: "data/osrs",
-		show3d: true,
+        show3d: true,
     }).addTo(runescape_map);
-	
-	L.control.display.npcs({
+
+    L.control.display.npcs({
         folder: "data/osrs",
-		show3d: true,
+        show3d: true,
     }).addTo(runescape_map);
 
     L.control.layers.urlParam({}, {
         crowdsourcetransports: crowdsourcetransports,
-		crowdsourceteles:crowdsourceteles,
-		spheres:spheres,
+        crowdsourceteles: crowdsourceteles,
+        spheres: spheres,
         "nomove": nomove,
         "objects": objects,
-		"npcs":npcs,
+        "npcs": npcs,
         "grid": grid
     }, {
         collapsed: true,
         position: 'bottomright'
     }).addTo(runescape_map);
 
-}
-(this || window);
+}(this || window);

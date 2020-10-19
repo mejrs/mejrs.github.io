@@ -2005,6 +2005,16 @@ import './leaflet.js';
                 if ("destinations" in item) {
                     teleportMarker.on('mouseover', () => {
                         item.destinations.forEach(destination => {
+							let VertexIcon = L.DivIcon.extend({
+                                    options: {
+                                        iconSize: new L.Point(8, 8)
+                                    }
+
+                                });
+                            let destmarker = L.marker([destination.y + 0.5, destination.x + 0.5], {
+                                    icon: new VertexIcon
+                                }).addTo(this._map);
+							window.setTimeout(destmarker.remove.bind(destmarker), 60000);
                             let points = [[item.y + 0.5, item.x + 0.5], [destination.y + 0.5, destination.x + 0.5]];
                             let travel = L.polyline(points, {
                                     color: 'white'
@@ -2022,7 +2032,8 @@ import './leaflet.js';
                 }
                 let popUp = this.createPopup(item.mode, this._map, item);
                 teleportMarker.bindPopup(popUp);
-
+				
+				
                 teleportMarker._item = item;
 
                 return teleportMarker;
