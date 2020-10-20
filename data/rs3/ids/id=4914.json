@@ -1,1 +1,1 @@
-{"properties": {"unk_22": true, "actions": ["Crawl-down"], "models": [{"type": 10, "values": [21233]}], "name": "Cart tunnel", "occludes_2": false, "id": 4914}, "uniques": [{"plane": 0, "i": 53, "j": 50, "x": 38, "y": 33, "id": 4914, "type": 10, "rotation": 0}]}
+{"properties": {"id": 4914, "unknown_22": true, "actions": ["Crawl-down"], "models": [{"type": 10, "values": [21233]}], "name": "Cart tunnel", "occludes_2": false}, "uniques": [{"plane": 0, "i": 53, "j": 50, "x": 38, "y": 33, "id": 4914, "type": 10, "rotation": 0}]}

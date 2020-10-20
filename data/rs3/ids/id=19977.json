@@ -1,1 +1,1 @@
-{"properties": {"unk_19": 1, "actions": ["Operate"], "models": [{"type": 10, "values": [20071]}], "name": "Winch", "occludes_2": false, "id": 19977}, "uniques": [{"plane": 2, "i": 30, "j": 76, "x": 58, "y": 55, "id": 19977, "type": 10, "rotation": 3}]}
+{"properties": {"id": 19977, "unknown_19": 1, "actions": ["Operate"], "models": [{"type": 10, "values": [20071]}], "name": "Winch", "occludes_2": false}, "uniques": [{"plane": 2, "i": 30, "j": 76, "x": 58, "y": 55, "id": 19977, "type": 10, "rotation": 3}]}

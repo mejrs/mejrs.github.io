@@ -1,1 +1,1 @@
-{"properties": {"actions": [null, "Steal from"], "models": [{"type": 10, "values": [4762]}], "name": "Scimitar Stall", "occludes_2": false, "id": 4878}, "uniques": [{"plane": 0, "i": 43, "j": 43, "x": 7, "y": 22, "id": 4878, "type": 10, "rotation": 0}]}
+{"properties": {"id": 4878, "actions": [null, "Steal from"], "models": [{"type": 10, "values": [4762]}], "name": "Scimitar Stall", "occludes_2": false}, "uniques": [{"plane": 0, "i": 43, "j": 43, "x": 7, "y": 22, "id": 4878, "type": 10, "rotation": 0}]}

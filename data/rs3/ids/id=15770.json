@@ -1,1 +1,1 @@
-{"properties": {"unk_22": true, "ambient": 70, "models": [{"type": 10, "values": [15623]}], "name": "Cave", "occludes_2": false, "id": 15770}, "uniques": [{"plane": 0, "i": 58, "j": 46, "x": 35, "y": 30, "id": 15770, "type": 10, "rotation": 3}]}
+{"properties": {"id": 15770, "unknown_22": true, "ambient": 70, "models": [{"type": 10, "values": [15623]}], "name": "Cave", "occludes_2": false}, "uniques": [{"plane": 0, "i": 58, "j": 46, "x": 35, "y": 30, "id": 15770, "type": 10, "rotation": 3}]}

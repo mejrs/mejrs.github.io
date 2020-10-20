@@ -1,1 +1,1 @@
-{"properties": {"actions": ["Open"], "dummy_12": true, "models": [{"type": 0, "values": [27252]}], "name": "Gate", "action_cursors": [49], "id": 110912}, "uniques": [{"plane": 0, "i": 57, "j": 67, "x": 30, "y": 21, "id": 110912, "type": 0, "rotation": 2}]}
+{"properties": {"id": 110912, "actions": ["Open"], "is_transparent": true, "models": [{"type": 0, "values": [27252]}], "name": "Gate", "action_cursors": [49]}, "uniques": [{"plane": 0, "i": 57, "j": 67, "x": 30, "y": 21, "id": 110912, "type": 0, "rotation": 2}]}

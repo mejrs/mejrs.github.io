@@ -1,1 +1,1 @@
-{"properties": {"actions": ["Enter"], "unk_22": true, "unk_21": true, "models": [{"type": 0, "values": [96151]}], "name": "Cave", "action_cursors": [57], "id": 3217}, "uniques": [{"plane": 0, "i": 37, "j": 150, "x": 24, "y": 47, "id": 3217, "type": 0, "rotation": 3}]}
+{"properties": {"id": 3217, "actions": ["Enter"], "unknown_22": true, "unknown_21": true, "models": [{"type": 0, "values": [96151]}], "name": "Cave", "action_cursors": [57]}, "uniques": [{"plane": 0, "i": 37, "j": 150, "x": 24, "y": 47, "id": 3217, "type": 0, "rotation": 3}]}

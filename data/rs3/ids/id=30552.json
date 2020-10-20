@@ -1,1 +1,1 @@
-{"properties": {"unk_17": false, "models": [{"type": 10, "values": [33680]}], "name": "Skull stonepile", "occludes_2": false, "id": 30552}, "uniques": [{"plane": 0, "i": 55, "j": 152, "x": 38, "y": 51, "id": 30552, "type": 10, "rotation": 0}]}
+{"properties": {"id": 30552, "standard_object_is_blocking": false, "models": [{"type": 10, "values": [33680]}], "name": "Skull stonepile", "occludes_2": false}, "uniques": [{"plane": 0, "i": 55, "j": 152, "x": 38, "y": 51, "id": 30552, "type": 10, "rotation": 0}]}

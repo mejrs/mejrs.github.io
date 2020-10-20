@@ -1,1 +1,1 @@
-{"properties": {"length": 3, "unk_27": false, "ambient": 35, "models": [{"type": 10, "values": [25463, 25464]}], "name": "Machine", "occludes_2": false, "id": 24579}, "uniques": [{"plane": 0, "i": 27, "j": 77, "x": 14, "y": 39, "id": 24579, "type": 10, "rotation": 3}]}
+{"properties": {"id": 24579, "length": 3, "floor_decoration_object_is_walkable": false, "ambient": 35, "models": [{"type": 10, "values": [25463, 25464]}], "name": "Machine", "occludes_2": false}, "uniques": [{"plane": 0, "i": 27, "j": 77, "x": 14, "y": 39, "id": 24579, "type": 10, "rotation": 3}]}

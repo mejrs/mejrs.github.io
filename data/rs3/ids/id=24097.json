@@ -1,1 +1,1 @@
-{"properties": {"unk_19": 1, "ambient": 20, "unk_17": false, "models": [{"type": 22, "values": [24738]}], "name": "Toy weapons", "occludes_2": false, "id": 24097}, "uniques": [{"plane": 0, "i": 49, "j": 53, "x": 9, "y": 14, "id": 24097, "type": 22, "rotation": 2}]}
+{"properties": {"id": 24097, "unknown_19": 1, "ambient": 20, "standard_object_is_blocking": false, "models": [{"type": 22, "values": [24738]}], "name": "Toy weapons", "occludes_2": false}, "uniques": [{"plane": 0, "i": 49, "j": 53, "x": 9, "y": 14, "id": 24097, "type": 22, "rotation": 2}]}

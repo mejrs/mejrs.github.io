@@ -1,1 +1,1 @@
-{"properties": {"unk_19": 1, "model": false, "unk_88": false, "actions": ["Enter"], "models": [{"type": 0, "values": [113193]}], "name": "Door", "action_cursors": [57], "id": 103601}, "uniques": [{"plane": 2, "i": 47, "j": 49, "x": 11, "y": 49, "id": 103601, "type": 0, "rotation": 0}]}
+{"properties": {"id": 103601, "unknown_19": 1, "model": false, "unknown_88": false, "actions": ["Enter"], "models": [{"type": 0, "values": [113193]}], "name": "Door", "action_cursors": [57]}, "uniques": [{"plane": 2, "i": 47, "j": 49, "x": 11, "y": 49, "id": 103601, "type": 0, "rotation": 0}]}

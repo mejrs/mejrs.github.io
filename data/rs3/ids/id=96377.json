@@ -1,1 +1,1 @@
-{"properties": {"unk_19": 1, "morphs_1": {"varbit": 27335, "varp": 65535, "ids": [96378]}, "id": 96377}, "uniques": [{"plane": 1, "i": 57, "j": 141, "x": 50, "y": 20, "id": 96377, "type": 10, "rotation": 3}]}
+{"properties": {"id": 96377, "unknown_19": 1, "morphs_1": {"varbit": 27335, "varp": -1, "ids": [96378, -1]}}, "uniques": [{"plane": 1, "i": 57, "j": 141, "x": 50, "y": 20, "id": 96377, "type": 10, "rotation": 3}]}

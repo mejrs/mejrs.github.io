@@ -1,1 +1,1 @@
-{"properties": {"unk_19": 1, "models": [{"type": 10, "values": [93070]}], "name": "Gate", "occludes_2": false, "id": 117338}, "uniques": [{"plane": 0, "i": 37, "j": 114, "x": 31, "y": 14, "id": 117338, "type": 10, "rotation": 3}]}
+{"properties": {"id": 117338, "unknown_19": 1, "models": [{"type": 10, "values": [93070]}], "name": "Gate", "occludes_2": false}, "uniques": [{"plane": 0, "i": 37, "j": 114, "x": 31, "y": 14, "id": 117338, "type": 10, "rotation": 3}]}

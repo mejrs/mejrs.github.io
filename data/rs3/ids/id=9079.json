@@ -1,1 +1,1 @@
-{"properties": {"unk_21": true, "model": false, "unk_19": 1, "ambient": 35, "mapscene": 22, "models": [{"type": 0, "values": [8999]}], "name": "Dyed fabric", "id": 9079}, "uniques": [{"plane": 1, "i": 52, "j": 46, "x": 37, "y": 56, "id": 9079, "type": 0, "rotation": 3}]}
+{"properties": {"id": 9079, "unknown_21": true, "model": false, "unknown_19": 1, "ambient": 35, "mapscene": 22, "models": [{"type": 0, "values": [8999]}], "name": "Dyed fabric"}, "uniques": [{"plane": 1, "i": 52, "j": 46, "x": 37, "y": 56, "id": 9079, "type": 0, "rotation": 3}]}

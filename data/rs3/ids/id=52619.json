@@ -1,1 +1,1 @@
-{"properties": {"unk_19": 1, "ambient": 25, "length": 3, "unk_22": true, "models": [{"type": 10, "values": [11965]}], "name": "Fairy tree", "occludes_2": false, "id": 52619}, "uniques": [{"plane": 1, "i": 24, "j": 64, "x": 38, "y": 37, "id": 52619, "type": 10, "rotation": 0}]}
+{"properties": {"id": 52619, "unknown_19": 1, "ambient": 25, "length": 3, "unknown_22": true, "models": [{"type": 10, "values": [11965]}], "name": "Fairy tree", "occludes_2": false}, "uniques": [{"plane": 1, "i": 24, "j": 64, "x": 38, "y": 37, "id": 52619, "type": 10, "rotation": 0}]}

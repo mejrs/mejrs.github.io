@@ -1,1 +1,1 @@
-{"properties": {"mapscene": 54, "models": [{"type": 22, "values": [9050]}], "occludes_2": false, "id": 9128}, "uniques": [{"plane": 0, "i": 30, "j": 77, "x": 23, "y": 35, "id": 9128, "type": 22, "rotation": 0}]}
+{"properties": {"id": 9128, "mapscene": 54, "models": [{"type": 22, "values": [9050]}], "occludes_2": false}, "uniques": [{"plane": 0, "i": 30, "j": 77, "x": 23, "y": 35, "id": 9128, "type": 22, "rotation": 0}]}

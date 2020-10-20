@@ -1,1 +1,1 @@
-{"properties": {"unk_19": 1, "isMembers": true, "unk_27": false, "morphs_1": {"varbit": 11057, "varp": 65535, "ids": [61302, 61303, 61304]}, "id": 61301}, "uniques": [{"plane": 0, "i": 56, "j": 52, "x": 63, "y": 59, "id": 61301, "type": 4, "rotation": 0}]}
+{"properties": {"id": 61301, "unknown_19": 1, "isMembers": true, "floor_decoration_object_is_walkable": false, "morphs_1": {"varbit": 11057, "varp": -1, "ids": [61302, 61303, 61304, -1]}}, "uniques": [{"plane": 0, "i": 56, "j": 52, "x": 63, "y": 59, "id": 61301, "type": 4, "rotation": 0}]}

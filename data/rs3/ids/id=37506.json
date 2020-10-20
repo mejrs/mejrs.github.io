@@ -1,1 +1,1 @@
-{"properties": {"unk_19": 1, "ambient": 25, "dummy_12": true, "models": [{"type": 0, "values": [25030]}], "name": "Gate", "id": 37506}, "uniques": [{"plane": 0, "i": 36, "j": 90, "x": 53, "y": 3, "id": 37506, "type": 0, "rotation": 0}]}
+{"properties": {"id": 37506, "unknown_19": 1, "ambient": 25, "is_transparent": true, "models": [{"type": 0, "values": [25030]}], "name": "Gate"}, "uniques": [{"plane": 0, "i": 36, "j": 90, "x": 53, "y": 3, "id": 37506, "type": 0, "rotation": 0}]}

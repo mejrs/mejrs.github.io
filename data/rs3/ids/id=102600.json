@@ -1,1 +1,1 @@
-{"properties": {"unk_19": 1, "dummy_12": true, "morphs_1": {"varbit": 31277, "varp": 65535, "ids": [-1, -1, 81032, 81032]}, "id": 102600}, "uniques": [{"plane": 0, "i": 45, "j": 48, "x": 57, "y": 60, "id": 102600, "type": 10, "rotation": 3}]}
+{"properties": {"id": 102600, "unknown_19": 1, "is_transparent": true, "morphs_1": {"varbit": 31277, "varp": -1, "ids": [-1, -1, 81032, 81032, -1]}}, "uniques": [{"plane": 0, "i": 45, "j": 48, "x": 57, "y": 60, "id": 102600, "type": 10, "rotation": 3}]}

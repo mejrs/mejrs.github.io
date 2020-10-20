@@ -1,1 +1,1 @@
-{"properties": {"unk_24": 6613, "unk_27": false, "models": [{"type": 10, "values": [32810, 26367]}], "name": "Impling worker", "occludes_2": false, "id": 45799}, "uniques": [{"plane": 0, "i": 39, "j": 83, "x": 22, "y": 8, "id": 45799, "type": 10, "rotation": 0}]}
+{"properties": {"id": 45799, "unknown_24": 6613, "floor_decoration_object_is_walkable": false, "models": [{"type": 10, "values": [32810, 26367]}], "name": "Impling worker", "occludes_2": false}, "uniques": [{"plane": 0, "i": 39, "j": 83, "x": 22, "y": 8, "id": 45799, "type": 10, "rotation": 0}]}

@@ -1,1 +1,1 @@
-{"properties": {"models": [{"type": 10, "values": [1303]}], "name": "Gnome statue", "occludes_2": false, "id": 570}, "uniques": [{"plane": 0, "i": 41, "j": 48, "x": 18, "y": 55, "id": 570, "type": 10, "rotation": 3}]}
+{"properties": {"id": 570, "models": [{"type": 10, "values": [1303]}], "name": "Gnome statue", "occludes_2": false}, "uniques": [{"plane": 0, "i": 41, "j": 48, "x": 18, "y": 55, "id": 570, "type": 10, "rotation": 3}]}

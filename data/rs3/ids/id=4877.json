@@ -1,1 +1,1 @@
-{"properties": {"actions": [null, "Steal from"], "models": [{"type": 10, "values": [4761]}], "name": "Magic Stall", "occludes_2": false, "id": 4877}, "uniques": [{"plane": 0, "i": 43, "j": 43, "x": 5, "y": 17, "id": 4877, "type": 10, "rotation": 0}]}
+{"properties": {"id": 4877, "actions": [null, "Steal from"], "models": [{"type": 10, "values": [4761]}], "name": "Magic Stall", "occludes_2": false}, "uniques": [{"plane": 0, "i": 43, "j": 43, "x": 5, "y": 17, "id": 4877, "type": 10, "rotation": 0}]}

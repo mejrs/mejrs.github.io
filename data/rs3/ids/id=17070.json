@@ -1,1 +1,1 @@
-{"properties": {"unk_22": true, "unk_19": 1, "unk_17": false, "models": [{"type": 22, "values": [16901]}], "name": "Broken Raft", "occludes_2": false, "id": 17070}, "uniques": [{"plane": 0, "i": 36, "j": 88, "x": 53, "y": 44, "id": 17070, "type": 22, "rotation": 0}]}
+{"properties": {"id": 17070, "unknown_22": true, "unknown_19": 1, "standard_object_is_blocking": false, "models": [{"type": 22, "values": [16901]}], "name": "Broken Raft", "occludes_2": false}, "uniques": [{"plane": 0, "i": 36, "j": 88, "x": 53, "y": 44, "id": 17070, "type": 22, "rotation": 0}]}

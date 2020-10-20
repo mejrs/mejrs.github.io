@@ -1,1 +1,1 @@
-{"properties": {"ambient": 20, "actions": [null, null, null, null, "Remove"], "models": [{"type": 4, "values": [12473]}], "name": "Skeleton", "occludes_2": false, "id": 41624}, "uniques": [{"plane": 0, "i": 60, "j": 88, "x": 7, "y": 53, "id": 41624, "type": 5, "rotation": 2}]}
+{"properties": {"id": 41624, "ambient": 20, "actions": [null, null, null, null, "Remove"], "models": [{"type": 4, "values": [12473]}], "name": "Skeleton", "occludes_2": false}, "uniques": [{"plane": 0, "i": 60, "j": 88, "x": 7, "y": 53, "id": 41624, "type": 5, "rotation": 2}]}

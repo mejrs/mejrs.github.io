@@ -1,1 +1,1 @@
-{"properties": {"mapscene": 6, "unk_21": true, "#mapscene": [6], "actions": ["Inspect"], "models": [{"type": 10, "values": [22447]}], "name": "Tree", "occludes_2": false, "id": 38895}, "uniques": [{"plane": 0, "i": 50, "j": 56, "x": 37, "y": 48, "id": 38895, "type": 10, "rotation": 1}]}
+{"properties": {"id": 38895, "mapscene": 6, "unknown_21": true, "#mapscene": [6], "actions": ["Inspect"], "models": [{"type": 10, "values": [22447]}], "name": "Tree", "occludes_2": false}, "uniques": [{"plane": 0, "i": 50, "j": 56, "x": 37, "y": 48, "id": 38895, "type": 10, "rotation": 1}]}

@@ -1,1 +1,1 @@
-{"properties": {"translateY": 240, "unk_22": true, "unk_196": 2, "models": [{"type": 10, "values": [25444]}], "name": "Canal barge", "occludes_2": false, "id": 24480}, "uniques": [{"plane": 0, "i": 59, "j": 118, "x": 23, "y": 56, "id": 24480, "type": 10, "rotation": 1}]}
+{"properties": {"id": 24480, "translateY": 240, "unknown_22": true, "unknown_196": 2, "models": [{"type": 10, "values": [25444]}], "name": "Canal barge", "occludes_2": false}, "uniques": [{"plane": 0, "i": 59, "j": 118, "x": 23, "y": 56, "id": 24480, "type": 10, "rotation": 1}]}
