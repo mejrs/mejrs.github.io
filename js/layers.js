@@ -799,7 +799,7 @@ import './leaflet.js';
 
             parseData: function (data) {
                 data.forEach(item => item.key = this._tileCoordsToKey({
-                            plane: item.p,
+                            plane: item.p ?? item.plane,
                             x: (item.x >> 6),
                             y:  - (item.y >> 6)
                         }));
@@ -813,6 +813,7 @@ import './leaflet.js';
                 });
 
                 console.info("Added", data.length, "items");
+				console.log(data);
                 return icon_data;
             },
 
@@ -1210,11 +1211,11 @@ import './leaflet.js';
                     });
 
                 let marker = L.marker([(item.y + 0.5), (item.x + 0.5)], {
-                        icon: item.p === this._map.getPlane() ? icon : greyscaleIcon,
+                        icon: item.p ?? item.plane === this._map.getPlane() ? icon : greyscaleIcon,
                     });
 
                 this._map.on('planechange', function (e) {
-                    marker.setIcon(item.p === e.newPlane ? icon : greyscaleIcon);
+                    marker.setIcon(item.p ?? item.plane === e.newPlane ? icon : greyscaleIcon);
                 });
 
                 let popUpText = Object.entries(item).map(x => x.map(i => typeof i !== "string" ? JSON.stringify(i) : i).join(" = ")).join("<br>");
@@ -1313,7 +1314,7 @@ import './leaflet.js';
                             }, id.properties)));
 
                 linear_data.forEach(item => item.key = this._tileCoordsToKey({
-                            plane: item.p,
+                            plane: item.p ?? item.plane,
                             x: (item.x >> 6),
                             y:  - (item.y >> 6)
                         }));
@@ -1961,7 +1962,7 @@ import './leaflet.js';
                     } else if (item.type === "TELEPORT") {
 
                         let averageDest = {
-                            p: average(item.destinations.map(item => item.p)),
+                            p: average(item.destinations.map(item => item.p ?? item.plane)),
                             x: average(item.destinations.map(item => item.x)),
                             y: average(item.destinations.map(item => item.y))
                         }
@@ -1971,10 +1972,13 @@ import './leaflet.js';
                         }
                         Object.assign(item, averageDest)
                     }
+					else{
+						Object.assign(item, item.start)
+					}
                 });
 
                 data.forEach(item => item.key = this._tileCoordsToKey({
-                            plane: item.p,
+                            plane: item.p ?? item.plane,
                             x: (item.x >> 6),
                             y:  - (item.y >> 6)
                         }));
@@ -1986,7 +1990,6 @@ import './leaflet.js';
                     }
                     icon_data[item.key].push(item);
                 });
-
                 console.info("Parsed", data.length, "icons");
                 return icon_data;
             },
@@ -1995,6 +1998,9 @@ import './leaflet.js';
                     return this.createTransportIcon(item);
                 } else if (item.type === "TELEPORT") {
                     return this.createTeleportIcon(item);
+               
+				} else {
+                    return this.createTransportIcon(item);
                 }
             },
 

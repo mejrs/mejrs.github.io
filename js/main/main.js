@@ -38,7 +38,7 @@ void function (global) {
             maxZoom: 4,
             doubleClickZoom: false,
             iconMode: "",
-            baseMaps: '../mejrs.github.io/data/rs3/basemaps.json',
+            baseMaps: 'data/rs3/basemaps.json',
             loadMapData: true,
             showMapBorder: true,
             enableUrlLocation: true

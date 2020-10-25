@@ -89,6 +89,17 @@ void function (global) {
             minZoom: -3,
         });
 
+	let randoms = L.crowdSourceMovement({
+            data: "data/osrs/random_events.json",
+            minZoom: -3,
+        });
+		
+		let lofts = L.crowdSourceMovement({
+            data: "data/osrs/lofts.json",
+            minZoom: -3,
+        });
+
+
     L.control.display.objects({
         folder: "data/osrs",
         show3d: true,
@@ -103,6 +114,8 @@ void function (global) {
         crowdsourcetransports: crowdsourcetransports,
         crowdsourceteles: crowdsourceteles,
         spheres: spheres,
+		randoms: randoms,
+		lofts:lofts,
         "nomove": nomove,
         "objects": objects,
         "npcs": npcs,
