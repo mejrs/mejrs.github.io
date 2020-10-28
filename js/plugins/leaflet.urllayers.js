@@ -1,22 +1,23 @@
 import "../leaflet.js";
 
 
-console.log("loading urllayers");
+console.log("Loading urllayers");
 
 (function (factory) {
     var L;
     if (typeof define === "function" && define.amd) {
-        define(["leaflet"], factory)
+        define(["leaflet"], factory);
     } else if (typeof module !== "undefined") {
         L = require("leaflet");
-        module.exports = factory(L)
+        module.exports = factory(L);
     } else {
         if (typeof window.L === "undefined") {
-            throw new Error("Leaflet must be loaded first")
+            throw new Error("Leaflet must be loaded first");
         }
-        factory(window.L)
+        factory(window.L);
     }
 })(function (L) {
+	console.log("Loading urllayers2");
     L.Control.Layers.UrlParam = L.Control.Layers.extend({
             onAdd: function (map) {
                 this.initParamLayers(map);
