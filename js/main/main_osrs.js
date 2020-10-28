@@ -87,11 +87,6 @@ void function (global) {
             minZoom: -3,
         });
 
-	let randoms = L.crowdSourceMovement({
-            data: "data/osrs/random_events.json",
-            minZoom: -3,
-        });
-
     L.control.display.objects({
         folder: "data/osrs",
         show3d: true,
@@ -103,10 +98,10 @@ void function (global) {
     }).addTo(runescape_map);
 
     L.control.layers.urlParam({}, {
-        crowdsourcetransports: crowdsourcetransports,
-        crowdsourceteles: crowdsourceteles,
-        spheres: spheres,
-		randoms: randoms,
+        "crowdsourcetransports": crowdsourcetransports,
+        "crowdsourceteles": crowdsourceteles,
+        "spheres": spheres,
+		"randoms": randoms,
         "nomove": nomove,
         "objects": objects,
         "npcs": npcs,
@@ -115,5 +110,6 @@ void function (global) {
         collapsed: true,
         position: 'bottomright'
     }).addTo(runescape_map);
+
 
 }(this || window);

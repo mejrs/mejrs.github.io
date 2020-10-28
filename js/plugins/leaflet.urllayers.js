@@ -1,5 +1,7 @@
 import "../leaflet.js";
 
+
+console.log("loading urllayers")
 (function (factory) {
     var L;
     if (typeof define === "function" && define.amd) {
@@ -67,4 +69,5 @@ import "../leaflet.js";
     L.control.layers.urlParam = function (baseLayers, overlays, options) {
         return new L.Control.Layers.UrlParam(baseLayers, overlays, options);
     };
+	console.log("finished");
 });
