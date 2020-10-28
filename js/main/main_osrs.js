@@ -9,10 +9,11 @@ import "../../js/plugins/leaflet.plane.js";
 import "../../js/plugins/leaflet.position.js";
 import "../../js/plugins/leaflet.displays.js";
 import "../../js/plugins/leaflet.urllayers.js";
-import "../../js/plugins/leaflet.dive.js";
-import "../../js/layers.js";
-import "../../js/other.js";
+import "../../js/plugins/leaflet.dive.js"
 import "../../js/plugins/leaflet.rect.js";
+import "../../js/layers.js";
+
+
 
 void function (global) {
     let runescape_map = global.runescape_map = L.gameMap('map', {
@@ -93,12 +94,6 @@ void function (global) {
             data: "data/osrs/random_events.json",
             minZoom: -3,
         });
-		
-		let lofts = L.crowdSourceMovement({
-            data: "data/osrs/lofts.json",
-            minZoom: -3,
-        });
-
 
     L.control.display.objects({
         folder: "data/osrs",
@@ -115,7 +110,6 @@ void function (global) {
         crowdsourceteles: crowdsourceteles,
         spheres: spheres,
 		randoms: randoms,
-		lofts:lofts,
         "nomove": nomove,
         "objects": objects,
         "npcs": npcs,

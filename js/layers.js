@@ -813,7 +813,6 @@ import './leaflet.js';
                 });
 
                 console.info("Added", data.length, "items");
-				console.log(data);
                 return icon_data;
             },
 
@@ -1211,11 +1210,11 @@ import './leaflet.js';
                     });
 
                 let marker = L.marker([(item.y + 0.5), (item.x + 0.5)], {
-                        icon: item.p ?? item.plane === this._map.getPlane() ? icon : greyscaleIcon,
+                        icon: (item.p ?? item.plane) === this._map.getPlane() ? icon : greyscaleIcon,
                     });
 
                 this._map.on('planechange', function (e) {
-                    marker.setIcon(item.p ?? item.plane === e.newPlane ? icon : greyscaleIcon);
+                    marker.setIcon((item.p ?? item.plane) === e.newPlane ? icon : greyscaleIcon);
                 });
 
                 let popUpText = Object.entries(item).map(x => x.map(i => typeof i !== "string" ? JSON.stringify(i) : i).join(" = ")).join("<br>");
@@ -1303,7 +1302,7 @@ import './leaflet.js';
             },
 
             parseData: function (data) {
-                let linear_data = data.flatMap(id => id.uniques.map(instance => Object.assign({
+	                let linear_data = data.flatMap(id => id.uniques.map(instance => Object.assign({
                                 name: undefined,
                                 p: instance.plane ?? instance.o.p,
                                 // ?? statements for backwards compatibility with map dumper api change
