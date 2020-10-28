@@ -1471,7 +1471,7 @@ import './leaflet.js';
                     const dataPromise = fetch(`https://sheets.googleapis.com/v4/spreadsheets/${this.options.SHEET_ID}/values/A:Z?key=${this.options.API_KEY}`)
                         .then(response => response.ok ? response.json().then(sheet => sheet.values) : response.json().then(oopsie => Promise.reject(new Error(oopsie.error.message)).then(() => {}, console.error)));
 
-                    const wateryPromise = fetch(`../mejrs.github.io/${this.options.folder}/keyed_watery.json`).then(response => response.ok ? response.json() : Promise.reject(new Error(response.status + " Error fetching " + response.url))).catch(console.error);
+                    const wateryPromise = fetch(`../mejrs.github.io/data/rs3/keyed_watery.json`).then(response => response.ok ? response.json() : Promise.reject(new Error(response.status + " Error fetching " + response.url))).catch(console.error);
 
                     const allData = Promise.all([dataPromise, wateryPromise]);
 
