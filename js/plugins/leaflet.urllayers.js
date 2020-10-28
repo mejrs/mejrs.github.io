@@ -1,7 +1,8 @@
 import "../leaflet.js";
 
 
-console.log("loading urllayers")
+console.log("loading urllayers");
+
 (function (factory) {
     var L;
     if (typeof define === "function" && define.amd) {

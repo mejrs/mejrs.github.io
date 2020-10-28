@@ -101,7 +101,6 @@ void function (global) {
         "crowdsourcetransports": crowdsourcetransports,
         "crowdsourceteles": crowdsourceteles,
         "spheres": spheres,
-		"randoms": randoms,
         "nomove": nomove,
         "objects": objects,
         "npcs": npcs,
