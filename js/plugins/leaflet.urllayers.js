@@ -34,22 +34,22 @@ console.log("loading urllayers")
 				}
 			},
 
-            addSearchParam(layerName) {
+            addSearchParam: function (layerName) {
                 let url = new URL(window.location.href);
                 let params = url.searchParams;
-                params.append('layer', layerName)
+                params.append('layer', layerName);
                 url.search = params;
                 history.replaceState(0, "Location", url);
             },
 
-            removeSearchParam(layerName) {
+            removeSearchParam: function (layerName) {
                 let url = new URL(window.location.href);
                 let params = url.searchParams;
                 let otherLayers = params.getAll('layer').filter(layer => layer !== layerName);
 
                 params.delete('layer');
                 for (const layer of otherLayers) {
-                    params.append('layer', layer)
+                    params.append('layer', layer);
                 }
                 url.search = params;
                 history.replaceState(0, "Location", url);
