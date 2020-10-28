@@ -3,7 +3,7 @@ import "../leaflet.js";
 
 console.log("Loading urllayers");
 
-(function (factory) {
+void function (factory) {
     var L;
     if (typeof define === "function" && define.amd) {
         define(["leaflet"], factory);
@@ -16,7 +16,7 @@ console.log("Loading urllayers");
         }
         factory(window.L);
     }
-})(function (L) {
+}(function (L) {
 	console.log("Loading urllayers2");
     L.Control.Layers.UrlParam = L.Control.Layers.extend({
             onAdd: function (map) {
