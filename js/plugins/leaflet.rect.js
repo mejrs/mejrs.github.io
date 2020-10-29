@@ -14,8 +14,7 @@ export default void function (factory) {
         }
         factory(window.L)
     }
-}
-(function (L) {
+}(function (L) {
 
     let VertexIcon = L.DivIcon.extend({
             options: {
@@ -249,12 +248,4 @@ export default void function (factory) {
     L.control.display.rect = function (options) {
         return new L.Control.Display.Rect(options);
     }
-
-    L.Map.addInitHook(function () {
-        if (this.options.rect) {
-            this.rect = L.control.display.rect();
-            this.addControl(this.rect);
-        }
-
-    });
 });
