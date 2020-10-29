@@ -72,4 +72,7 @@ void function (factory) {
         return new L.Control.Layers.UrlParam(baseLayers, overlays, options);
     };
 	console.log("finished");
+	console.log("typeof(L.control.layers.urlParam)", typeof(L.control.layers.urlParam));
+	console.log(L);
+	
 });
