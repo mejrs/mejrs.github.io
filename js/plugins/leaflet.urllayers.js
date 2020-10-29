@@ -1,9 +1,6 @@
 import "../leaflet.js";
 
-
-console.log("Loading urllayers");
-
-void function (factory) {
+(function (factory) {
     var L;
     if (typeof define === "function" && define.amd) {
         define(["leaflet"], factory);
@@ -16,8 +13,8 @@ void function (factory) {
         }
         factory(window.L);
     }
-}(function (L) {
-	console.log("Loading urllayers2");
+})(function (L) {
+	console.log("Loading urllayers");
     L.Control.Layers.UrlParam = L.Control.Layers.extend({
             onAdd: function (map) {
                 this.initParamLayers(map);
@@ -72,7 +69,9 @@ void function (factory) {
         return new L.Control.Layers.UrlParam(baseLayers, overlays, options);
     };
 	console.log("finished");
-	console.log("typeof(L.control.layers.urlParam)", typeof(L.control.layers.urlParam));
 	console.log(L);
+	console.log("typeof(L.control.layers.urlParam) =", typeof(L.control.layers.urlParam));
 	
 });
+
+console.log("typeof(L.control.layers.urlParam) v2 =", typeof(L.control.layers.urlParam));
