@@ -10,7 +10,7 @@ import "../../js/plugins/leaflet.plane.js";
 import "../../js/plugins/leaflet.position.js";
 import "../../js/plugins/leaflet.displays.js";
 import "../../js/plugins/leaflet.urllayers.js";
-import "../../js/plugins/leaflet.rect.js";
+//import "../../js/plugins/leaflet.rect.js";
 
 
 import "../../js/plugins/leaflet.dive.js";
@@ -29,8 +29,6 @@ void function (global) {
             planeControl: true,
             positionControl: true,
             messageBox: true,
-            rect: true,
-
             initialMapId: -1,
             plane: 0,
             x: 3200,
