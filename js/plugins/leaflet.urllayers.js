@@ -74,4 +74,3 @@ export default void function (factory) {
 	
 });
 
-console.log("typeof(L.control.layers.urlParam) v2 =", typeof(L.control.layers.urlParam));
