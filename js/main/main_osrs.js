@@ -1,6 +1,7 @@
 'use strict';
 
 import "../../js/leaflet.js";
+import "../../js/layers.js";
 import "../../js/plugins/leaflet.fullscreen.js";
 import "../../js/plugins/leaflet.template.js";
 import "../../js/plugins/leaflet.mapSelector.js";
@@ -10,7 +11,7 @@ import "../../js/plugins/leaflet.position.js";
 import "../../js/plugins/leaflet.displays.js";
 import "../../js/plugins/leaflet.urllayers.js";
 import "../../js/plugins/leaflet.rect.js";
-import "../../js/layers.js";
+
 
 void function (global) {
     let runescape_map = global.runescape_map = L.gameMap('map', {
@@ -37,24 +38,33 @@ void function (global) {
             showMapBorder: true,
             enableUrlLocation: true
         });
+		
+		
+    L.control.display.objects({
+        folder: "data/osrs",
+        show3d: true,
+    }).addTo(runescape_map);
 
-    var template = 'layers/{source}/-1/{zoom}/{plane}_{x}_{y}.png';
+    L.control.display.npcs({
+        folder: "data/osrs",
+        show3d: true,
+    }).addTo(runescape_map);
 
-    L.tileLayer.main(template, {
+    L.tileLayer.main('layers/{source}/-1/{zoom}/{plane}_{x}_{y}.png', {
         source: 'map_squares_osrs',
         minZoom: -4,
         maxNativeZoom: 2,
         maxZoom: 8,
     }).addTo(runescape_map).bringToBack();
 
-    let nomove = L.tileLayer.main(template, {
+    let nomove = L.tileLayer.main('layers/{source}/-1/{zoom}/{plane}_{x}_{y}.png', {
             source: 'nomove_squares_osrs',
             minZoom: -4,
             maxNativeZoom: 2,
             maxZoom: 8,
         });
 
-    let objects = L.tileLayer.main(template, {
+    let objects = L.tileLayer.main('layers/{source}/-1/{zoom}/{plane}_{x}_{y}.png', {
             source: 'object_squares_osrs',
             minZoom: -4,
             maxNativeZoom: 2,
@@ -87,15 +97,6 @@ void function (global) {
             minZoom: -3,
         });
 
-    L.control.display.objects({
-        folder: "data/osrs",
-        show3d: true,
-    }).addTo(runescape_map);
-
-    L.control.display.npcs({
-        folder: "data/osrs",
-        show3d: true,
-    }).addTo(runescape_map);
 
     L.control.layers.urlParam({}, {
         "crowdsourcetransports": crowdsourcetransports,
@@ -110,5 +111,5 @@ void function (global) {
         position: 'bottomright'
     }).addTo(runescape_map);
 
-
-}(this || window);
+}
+(this || window);

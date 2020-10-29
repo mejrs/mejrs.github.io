@@ -1,6 +1,7 @@
 'use strict';
 
 import "../../js/leaflet.js";
+import "../../js/layers.js";
 import "../../js/plugins/leaflet.fullscreen.js";
 import "../../js/plugins/leaflet.template.js";
 import "../../js/plugins/leaflet.mapSelector.js";
@@ -10,7 +11,6 @@ import "../../js/plugins/leaflet.position.js";
 import "../../js/plugins/leaflet.displays.js";
 import "../../js/plugins/leaflet.urllayers.js";
 import "../../js/plugins/leaflet.dive.js";
-import "../../js/layers.js";
 
 
 import * as wasm_pathfinder from '../../pathfinder/wasm_pathfinder.js';
@@ -46,12 +46,12 @@ void function (global) {
     L.control.display.objects({
         folder: "data/rs3"
     }).addTo(runescape_map);
-	
-	L.control.display.npcs({
+
+    L.control.display.npcs({
         folder: "data/rs3"
     }).addTo(runescape_map);
-	
-	L.control.display.pathfinder().addTo(runescape_map);
+
+    L.control.display.pathfinder().addTo(runescape_map);
 
     var main = L.tileLayer.main('layers/{source}/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
             source: 'map_squares',
@@ -138,4 +138,5 @@ void function (global) {
         position: 'bottomright'
     }).addTo(runescape_map);
 
-}(this || window);
+}
+(this || window);
