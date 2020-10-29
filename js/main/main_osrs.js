@@ -13,6 +13,11 @@ import "../../js/plugins/leaflet.urllayers.js";
 import "../../js/plugins/leaflet.rect.js";
 
 
+import "../../js/plugins/leaflet.dive.js";
+
+
+import * as wasm_pathfinder from '../../pathfinder/wasm_pathfinder.js';
+
 void function (global) {
     let runescape_map = global.runescape_map = L.gameMap('map', {
 
