@@ -1,5 +1,5 @@
-import "../../../mejrs.github.io/js/leaflet.js";
-import "../../../mejrs.github.io/js/plugins/leaflet.displays.js"
+import "../leaflet.js";
+import "./leaflet.displays.js"
 
 export default void function (factory) {
     var L;
@@ -14,7 +14,8 @@ export default void function (factory) {
         }
         factory(window.L)
     }
-}(function (L) {
+}
+(function (L) {
 
     let VertexIcon = L.DivIcon.extend({
             options: {
@@ -39,7 +40,7 @@ export default void function (factory) {
                 return L.Marker.prototype.onAdd.call(this, map);
             },
 
-            onDragEnd: function (e) {
+            onDragEnd: function () {
                 this.trunc();
                 this.options.owner.update(this);
             },
@@ -63,6 +64,7 @@ export default void function (factory) {
             },
 
             onAdd: function (map) {
+
 
                 this.vertices.forEach(v => v.trunc().addTo(map));
 
@@ -116,23 +118,12 @@ export default void function (factory) {
         return new L.DraggableSquare(bounds, options);
     };
 
-    let DraggableMarker = L.Marker.extend({
-            initialize: function (latlng) {
-                L.Util.setOptions(this, {
-                    draggable: true
-                });
-                this._latlng = L.latLng(latlng);
-            },
-            onAdd: function (map) {
-                return L.Marker.prototype.onAdd.call(this, map);
-            },
-        });
-
     L.Control.Display.Rect = L.Control.Display.extend({
             onAdd: function (map) {
                 this.rect = L.draggableSquare([[3232, 3200], [3200, 3232]], {
                         owner: this
                     });
+					
 
                 return L.Control.Display.prototype.onAdd.call(this, map);
             },
@@ -200,11 +191,8 @@ export default void function (factory) {
 			changeRect: function(e){
 				let [width, height, _, west, east, north, south] = Array.from(e.srcElement.parentElement.children).filter(elem => elem.nodeName == "INPUT").map(elem => elem.value);
 				if (["width", "height"].includes(e.srcElement.name)){
-					console.log("changed height or width");
-					console.log(width, height, _, west, east, north, south);
 					east = Number(west) + Number(width);
 					north = Number(south) + Number(height);
-					console.log(width, height, _, west, east, north, south);
 				}
 				let bounds = L.latLngBounds([[south,west],[north, east]]);
 				this.rect.setBounds(bounds);
@@ -248,4 +236,12 @@ export default void function (factory) {
     L.control.display.rect = function (options) {
         return new L.Control.Display.Rect(options);
     }
+
+    L.Map.addInitHook(function () {
+        if (this.options.rect) {
+            this.rect = L.control.display.rect();
+            this.addControl(this.rect);
+        }
+
+    });
 });

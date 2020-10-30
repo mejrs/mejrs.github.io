@@ -3,14 +3,13 @@
 import "../../js/leaflet.js";
 import "../../js/layers.js";
 import "../../js/plugins/leaflet.fullscreen.js";
-import "../../js/plugins/leaflet.template.js";
 import "../../js/plugins/leaflet.mapSelector.js";
 import "../../js/plugins/leaflet.zoom.js";
 import "../../js/plugins/leaflet.plane.js";
 import "../../js/plugins/leaflet.position.js";
 import "../../js/plugins/leaflet.displays.js";
 import "../../js/plugins/leaflet.urllayers.js";
-//import "../../js/plugins/leaflet.rect.js";
+import "../../js/plugins/leaflet.rect.js";
 
 
 import "../../js/plugins/leaflet.dive.js";
@@ -29,6 +28,7 @@ void function (global) {
             planeControl: true,
             positionControl: true,
             messageBox: true,
+			rect: true,
             initialMapId: -1,
             plane: 0,
             x: 3200,
@@ -41,7 +41,8 @@ void function (global) {
             showMapBorder: true,
             enableUrlLocation: true
         });
-		
+	//L.control.display.rect({}).addTo(runescape_map);
+
 		
     L.control.display.objects({
         folder: "data/osrs",
@@ -52,6 +53,8 @@ void function (global) {
         folder: "data/osrs",
         show3d: true,
     }).addTo(runescape_map);
+	
+	
 
     L.tileLayer.main('layers/{source}/-1/{zoom}/{plane}_{x}_{y}.png', {
         source: 'map_squares_osrs',

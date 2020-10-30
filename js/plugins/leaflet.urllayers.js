@@ -14,7 +14,6 @@ export default void function (factory) {
         factory(window.L);
     }
 }(function (L) {
-	console.log("Loading urllayers");
     L.Control.Layers.UrlParam = L.Control.Layers.extend({
             onAdd: function (map) {
                 this.initParamLayers(map);
@@ -68,9 +67,5 @@ export default void function (factory) {
     L.control.layers.urlParam = function (baseLayers, overlays, options) {
         return new L.Control.Layers.UrlParam(baseLayers, overlays, options);
     };
-	console.log("finished");
-	console.log(L);
-	console.log("typeof(L.control.layers.urlParam) =", typeof(L.control.layers.urlParam));
-	
 });
 
