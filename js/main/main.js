@@ -3,7 +3,6 @@
 import "../../js/leaflet.js";
 import "../../js/layers.js";
 import "../../js/plugins/leaflet.fullscreen.js";
-import "../../js/plugins/leaflet.template.js";
 import "../../js/plugins/leaflet.mapSelector.js";
 import "../../js/plugins/leaflet.zoom.js";
 import "../../js/plugins/leaflet.plane.js";
