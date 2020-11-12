@@ -189,7 +189,7 @@ export default void function (factory) {
 
                 if (names[0] || ids[0] || ids[0] === 0) {
 
-                    this._objectmap = L.objects({
+                    this._objectmap = this.options.displayLayer({
                             names: names,
                             ids: ids,
 							folder: this.options.folder,

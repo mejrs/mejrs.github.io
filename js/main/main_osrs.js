@@ -47,6 +47,7 @@ void function (global) {
     L.control.display.objects({
         folder: "data/osrs",
         show3d: true,
+		displayLayer: L.objects.osrs
     }).addTo(runescape_map);
 
     L.control.display.npcs({

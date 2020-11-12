@@ -10,7 +10,8 @@ import "../../js/plugins/leaflet.position.js";
 import "../../js/plugins/leaflet.displays.js";
 import "../../js/plugins/leaflet.urllayers.js";
 import "../../js/plugins/leaflet.dive.js";
-
+import plot_map_labels from "../../js/plugins/leaflet.labels.js";
+window.plot_map_labels = plot_map_labels;
 
 import * as wasm_pathfinder from '../../pathfinder/wasm_pathfinder.js';
 
@@ -42,8 +43,9 @@ void function (global) {
             enableUrlLocation: true
         });
 
-    L.control.display.objects({
-        folder: "data/rs3"
+     L.control.display.objects({
+        folder: "data/rs3",
+		displayLayer: L.objects,
     }).addTo(runescape_map);
 
     L.control.display.npcs({
@@ -52,7 +54,7 @@ void function (global) {
 
     L.control.display.pathfinder().addTo(runescape_map);
 
-    var main = L.tileLayer.main('layers/{source}/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
+    L.tileLayer.main('layers/{source}/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
             source: 'map_squares',
             minZoom: -4,
             maxNativeZoom: 4,
