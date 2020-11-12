@@ -1,1 +1,1 @@
-{"properties": {"id": 23944, "models_2": [1527], "name": "Statue of a king"}, "uniques": [{"plane": 0, "i": 44, "j": 55, "x": 56, "y": 17, "id": 23944, "type": 10, "rotation": 2}]}
+{"properties": {"id": 23944, "models_2": [1527], "name": "Statue of a king"}, "uniques": [{"width": 1, "length": 1, "id": 23944, "models_2": [1527], "name": "Statue of a king", "plane": 0, "i": 44, "j": 55, "x": 56, "y": 17, "type": 10, "rotation": 2}]}

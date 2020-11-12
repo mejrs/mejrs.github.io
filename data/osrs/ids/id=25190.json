@@ -1,1 +1,1 @@
-{"properties": {"id": 25190, "width": 2, "length": 2, "mapscene": 5, "models_2": [26489], "name": "A tropical tree"}, "uniques": [{"plane": 0, "i": 52, "j": 49, "x": 39, "y": 5, "id": 25190, "type": 10, "rotation": 3}]}
+{"properties": {"id": 25190, "width": 2, "length": 2, "mapscene": 5, "models_2": [26489], "name": "A tropical tree"}, "uniques": [{"width": 2, "length": 2, "id": 25190, "mapscene": 5, "models_2": [26489], "name": "A tropical tree", "plane": 0, "i": 52, "j": 49, "x": 39, "y": 5, "type": 10, "rotation": 3}]}

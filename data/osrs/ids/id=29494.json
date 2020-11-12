@@ -1,1 +1,1 @@
-{"properties": {"id": 29494, "blocksProjectile": false, "models_2": [1079], "name": "Skeleton"}, "uniques": [{"plane": 0, "i": 48, "j": 153, "x": 12, "y": 6, "id": 29494, "type": 10, "rotation": 3}]}
+{"properties": {"id": 29494, "blocksProjectile": false, "models_2": [1079], "name": "Skeleton"}, "uniques": [{"width": 1, "length": 1, "id": 29494, "blocksProjectile": false, "models_2": [1079], "name": "Skeleton", "plane": 0, "i": 48, "j": 153, "x": 12, "y": 6, "type": 10, "rotation": 3}]}

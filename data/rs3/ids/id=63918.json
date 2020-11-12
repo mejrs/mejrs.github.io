@@ -1,1 +1,1 @@
-{"properties": {"id": 63918, "unknown_19": 1, "mirror": true, "models": [{"type": 0, "values": [6326]}], "name": "Door"}, "uniques": [{"plane": 0, "i": 53, "j": 49, "x": 47, "y": 27, "id": 63918, "type": 0, "rotation": 3}]}
+{"properties": {"id": 63918, "unknown_19": 1, "mirror": true, "models": [{"type": 0, "values": [6326]}], "name": "Door"}, "uniques": [{"width": 1, "length": 1, "id": 63918, "unknown_19": 1, "mirror": true, "models": [{"type": 0, "values": [6326]}], "name": "Door", "plane": 0, "i": 53, "j": 49, "x": 47, "y": 27, "type": 0, "rotation": 3}]}

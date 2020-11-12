@@ -1,1 +1,1 @@
-{"properties": {"id": 1150, "models_2": [2006], "name": "Fairy bank"}, "uniques": [{"plane": 3, "i": 37, "j": 69, "x": 15, "y": 40, "id": 1150, "type": 10, "rotation": 3}]}
+{"properties": {"id": 1150, "models_2": [2006], "name": "Fairy bank"}, "uniques": [{"width": 1, "length": 1, "id": 1150, "models_2": [2006], "name": "Fairy bank", "plane": 3, "i": 37, "j": 69, "x": 15, "y": 40, "type": 10, "rotation": 3}]}

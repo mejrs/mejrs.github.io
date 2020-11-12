@@ -1,1 +1,1 @@
-{"properties": {"id": 1108, "width": 2, "blocksProjectile": false, "models_2": [931], "name": "Throne"}, "uniques": [{"plane": 0, "i": 51, "j": 49, "x": 39, "y": 26, "id": 1108, "type": 10, "rotation": 1}]}
+{"properties": {"id": 1108, "width": 2, "blocksProjectile": false, "models_2": [931], "name": "Throne"}, "uniques": [{"width": 2, "length": 1, "id": 1108, "blocksProjectile": false, "models_2": [931], "name": "Throne", "plane": 0, "i": 51, "j": 49, "x": 39, "y": 26, "type": 10, "rotation": 1}]}

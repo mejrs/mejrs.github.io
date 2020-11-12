@@ -1,1 +1,1 @@
-{"properties": {"id": 3274, "actions": ["Open", "None", "None", "None", "None"], "models_2": [1249], "name": "Chest"}, "uniques": [{"plane": 1, "i": 33, "j": 71, "x": 24, "y": 34, "id": 3274, "type": 10, "rotation": 2}]}
+{"properties": {"id": 3274, "actions": ["Open", "None", "None", "None", "None"], "models_2": [1249], "name": "Chest"}, "uniques": [{"width": 1, "length": 1, "id": 3274, "actions": ["Open", "None", "None", "None", "None"], "models_2": [1249], "name": "Chest", "plane": 1, "i": 33, "j": 71, "x": 24, "y": 34, "type": 10, "rotation": 2}]}

@@ -1,1 +1,1 @@
-{"properties": {"id": 6065, "length": 2, "models_2": [5951, 5950], "name": "Clothes"}, "uniques": [{"plane": 0, "i": 44, "j": 159, "x": 51, "y": 33, "id": 6065, "type": 10, "rotation": 1}]}
+{"properties": {"id": 6065, "length": 2, "models_2": [5951, 5950], "name": "Clothes"}, "uniques": [{"width": 1, "length": 2, "id": 6065, "models_2": [5951, 5950], "name": "Clothes", "plane": 0, "i": 44, "j": 159, "x": 51, "y": 33, "type": 10, "rotation": 1}]}

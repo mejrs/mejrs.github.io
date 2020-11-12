@@ -1,1 +1,1 @@
-{"properties": {"id": 18177, "width": 2, "models_2": [18229, 18208], "name": "Display table"}, "uniques": [{"plane": 0, "i": 42, "j": 51, "x": 45, "y": 27, "id": 18177, "type": 10, "rotation": 1}]}
+{"properties": {"id": 18177, "width": 2, "models_2": [18229, 18208], "name": "Display table"}, "uniques": [{"width": 2, "length": 1, "id": 18177, "models_2": [18229, 18208], "name": "Display table", "plane": 0, "i": 42, "j": 51, "x": 45, "y": 27, "type": 10, "rotation": 1}]}

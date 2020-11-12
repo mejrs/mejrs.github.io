@@ -1,1 +1,1 @@
-{"properties": {"id": 31923, "animationId": 7303, "width": 2, "length": 2, "models_2": [32160], "name": "Altar of the Occult"}, "uniques": [{"plane": 0, "i": 47, "j": 155, "x": 47, "y": 6, "id": 31923, "type": 10, "rotation": 2}]}
+{"properties": {"id": 31923, "animationId": 7303, "width": 2, "length": 2, "models_2": [32160], "name": "Altar of the Occult"}, "uniques": [{"width": 2, "length": 2, "id": 31923, "animationId": 7303, "models_2": [32160], "name": "Altar of the Occult", "plane": 0, "i": 47, "j": 155, "x": 47, "y": 6, "type": 10, "rotation": 2}]}

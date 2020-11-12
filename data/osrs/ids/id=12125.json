@@ -1,1 +1,1 @@
-{"properties": {"id": 12125, "isWallOrDoor": 1, "blocksProjectile": false, "models_2": [2218], "name": "Gravestone"}, "uniques": [{"plane": 0, "i": 48, "j": 52, "x": 34, "y": 56, "id": 12125, "type": 10, "rotation": 0}]}
+{"properties": {"id": 12125, "isWallOrDoor": 1, "blocksProjectile": false, "models_2": [2218], "name": "Gravestone"}, "uniques": [{"width": 1, "length": 1, "id": 12125, "isWallOrDoor": 1, "blocksProjectile": false, "models_2": [2218], "name": "Gravestone", "plane": 0, "i": 48, "j": 52, "x": 34, "y": 56, "type": 10, "rotation": 0}]}

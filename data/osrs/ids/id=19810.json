@@ -1,1 +1,1 @@
-{"properties": {"id": 19810, "width": 2, "contouredGround": 0, "mergeNormals": true, "models_2": [19358], "name": "Large cave"}, "uniques": [{"plane": 0, "i": 36, "j": 54, "x": 26, "y": 33, "id": 19810, "type": 10, "rotation": 3}]}
+{"properties": {"id": 19810, "width": 2, "contouredGround": 0, "mergeNormals": true, "models_2": [19358], "name": "Large cave"}, "uniques": [{"width": 2, "length": 1, "id": 19810, "contouredGround": 0, "mergeNormals": true, "models_2": [19358], "name": "Large cave", "plane": 0, "i": 36, "j": 54, "x": 26, "y": 33, "type": 10, "rotation": 3}]}

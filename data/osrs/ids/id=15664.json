@@ -1,1 +1,1 @@
-{"properties": {"id": 15664, "actions": ["Throw", "None", "None", "None", "None"], "models_2": [15388], "name": "Shot"}, "uniques": [{"plane": 1, "i": 44, "j": 55, "x": 45, "y": 34, "id": 15664, "type": 10, "rotation": 2}]}
+{"properties": {"id": 15664, "actions": ["Throw", "None", "None", "None", "None"], "models_2": [15388], "name": "Shot"}, "uniques": [{"width": 1, "length": 1, "id": 15664, "actions": ["Throw", "None", "None", "None", "None"], "models_2": [15388], "name": "Shot", "plane": 1, "i": 44, "j": 55, "x": 45, "y": 34, "type": 10, "rotation": 2}]}

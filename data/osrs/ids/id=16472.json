@@ -1,1 +1,1 @@
-{"properties": {"id": 16472, "width": 2, "ambient": 20, "contrast": 500, "models_2": [29103, 29105], "name": "Lathe"}, "uniques": [{"plane": 0, "i": 48, "j": 54, "x": 33, "y": 40, "id": 16472, "type": 10, "rotation": 2}]}
+{"properties": {"id": 16472, "width": 2, "ambient": 20, "contrast": 500, "models_2": [29103, 29105], "name": "Lathe"}, "uniques": [{"width": 2, "length": 1, "id": 16472, "ambient": 20, "contrast": 500, "models_2": [29103, 29105], "name": "Lathe", "plane": 0, "i": 48, "j": 54, "x": 33, "y": 40, "type": 10, "rotation": 2}]}

@@ -1,1 +1,1 @@
-{"properties": {"id": 20811, "animationId": 3998, "ambient": 20, "contrast": 500, "models_2": [14948], "name": "Evil claw"}, "uniques": [{"plane": 0, "i": 29, "j": 80, "x": 14, "y": 12, "id": 20811, "type": 10, "rotation": 0}]}
+{"properties": {"id": 20811, "animationId": 3998, "ambient": 20, "contrast": 500, "models_2": [14948], "name": "Evil claw"}, "uniques": [{"width": 1, "length": 1, "id": 20811, "animationId": 3998, "ambient": 20, "contrast": 500, "models_2": [14948], "name": "Evil claw", "plane": 0, "i": 29, "j": 80, "x": 14, "y": 12, "type": 10, "rotation": 0}]}

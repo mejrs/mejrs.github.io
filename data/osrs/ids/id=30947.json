@@ -1,1 +1,1 @@
-{"properties": {"id": 30947, "animationId": 7648, "models_2": [33889], "name": "Pot of Gold"}, "uniques": [{"plane": 1, "i": 58, "j": 160, "x": 20, "y": 30, "id": 30947, "type": 10, "rotation": 1}]}
+{"properties": {"id": 30947, "animationId": 7648, "models_2": [33889], "name": "Pot of Gold"}, "uniques": [{"width": 1, "length": 1, "id": 30947, "animationId": 7648, "models_2": [33889], "name": "Pot of Gold", "plane": 1, "i": 58, "j": 160, "x": 20, "y": 30, "type": 10, "rotation": 1}]}

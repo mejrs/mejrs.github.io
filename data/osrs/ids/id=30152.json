@@ -1,1 +1,1 @@
-{"properties": {"id": 30152, "ambient": 35, "isWallOrDoor": 1, "models": [{"type": 4, "model": 25171}], "name": "Painting"}, "uniques": [{"plane": 0, "i": 25, "j": 75, "x": 28, "y": 27, "id": 30152, "type": 5, "rotation": 0}]}
+{"properties": {"id": 30152, "ambient": 35, "isWallOrDoor": 1, "models": [{"type": 4, "model": 25171}], "name": "Painting"}, "uniques": [{"width": 1, "length": 1, "id": 30152, "ambient": 35, "isWallOrDoor": 1, "models": [{"type": 4, "model": 25171}], "name": "Painting", "plane": 0, "i": 25, "j": 75, "x": 28, "y": 27, "type": 5, "rotation": 0}]}

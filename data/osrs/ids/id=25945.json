@@ -1,1 +1,1 @@
-{"properties": {"id": 25945, "animationId": 6901, "width": 2, "isWallOrDoor": 1, "models_2": [27523], "name": "The jury"}, "uniques": [{"plane": 0, "i": 28, "j": 66, "x": 22, "y": 46, "id": 25945, "type": 10, "rotation": 3}]}
+{"properties": {"id": 25945, "animationId": 6901, "width": 2, "isWallOrDoor": 1, "models_2": [27523], "name": "The jury"}, "uniques": [{"width": 2, "length": 1, "id": 25945, "animationId": 6901, "isWallOrDoor": 1, "models_2": [27523], "name": "The jury", "plane": 0, "i": 28, "j": 66, "x": 22, "y": 46, "type": 10, "rotation": 3}]}

@@ -1,1 +1,1 @@
-{"properties": {"id": 7017, "models": [{"type": 10, "values": [7096]}], "name": "Pillar", "occludes_2": false}, "uniques": [{"plane": 1, "i": 30, "j": 73, "x": 22, "y": 31, "id": 7017, "type": 10, "rotation": 0}]}
+{"properties": {"id": 7017, "models": [{"type": 10, "values": [7096]}], "name": "Pillar", "occludes_2": false}, "uniques": [{"width": 1, "length": 1, "id": 7017, "models": [{"type": 10, "values": [7096]}], "name": "Pillar", "occludes_2": false, "plane": 1, "i": 30, "j": 73, "x": 22, "y": 31, "type": 10, "rotation": 0}]}

@@ -1,1 +1,1 @@
-{"properties": {"id": 16866, "models_2": [16526, 13903], "name": "Sack pile"}, "uniques": [{"plane": 1, "i": 33, "j": 61, "x": 26, "y": 7, "id": 16866, "type": 10, "rotation": 2}]}
+{"properties": {"id": 16866, "models_2": [16526, 13903], "name": "Sack pile"}, "uniques": [{"width": 1, "length": 1, "id": 16866, "models_2": [16526, 13903], "name": "Sack pile", "plane": 1, "i": 33, "j": 61, "x": 26, "y": 7, "type": 10, "rotation": 2}]}

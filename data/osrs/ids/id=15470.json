@@ -1,1 +1,1 @@
-{"properties": {"id": 15470, "animationId": 3700, "models": [{"type": 22, "model": 13282}]}, "uniques": [{"plane": 0, "i": 54, "j": 54, "x": 23, "y": 27, "id": 15470, "type": 22, "rotation": 0}]}
+{"properties": {"id": 15470, "animationId": 3700, "models": [{"type": 22, "model": 13282}]}, "uniques": [{"width": 1, "length": 1, "id": 15470, "animationId": 3700, "models": [{"type": 22, "model": 13282}], "plane": 0, "i": 54, "j": 54, "x": 23, "y": 27, "type": 22, "rotation": 0}]}

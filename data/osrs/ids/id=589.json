@@ -1,1 +1,1 @@
-{"properties": {"id": 589, "width": 2, "length": 2, "blocksProjectile": false, "models_2": [1190], "name": "Crystal ball"}, "uniques": [{"plane": 1, "i": 42, "j": 53, "x": 13, "y": 12, "id": 589, "type": 10, "rotation": 2}]}
+{"properties": {"id": 589, "width": 2, "length": 2, "blocksProjectile": false, "models_2": [1190], "name": "Crystal ball"}, "uniques": [{"width": 2, "length": 2, "id": 589, "blocksProjectile": false, "models_2": [1190], "name": "Crystal ball", "plane": 1, "i": 42, "j": 53, "x": 13, "y": 12, "type": 10, "rotation": 2}]}

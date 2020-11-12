@@ -1,1 +1,1 @@
-{"properties": {"id": 5762, "width": 2, "models": [{"type": 10, "values": [60751]}], "name": "Workbench", "occludes_2": false}, "uniques": [{"plane": 0, "i": 46, "j": 153, "x": 21, "y": 14, "id": 5762, "type": 10, "rotation": 3}]}
+{"properties": {"id": 5762, "width": 2, "models": [{"type": 10, "values": [60751]}], "name": "Workbench", "occludes_2": false}, "uniques": [{"width": 2, "length": 1, "id": 5762, "models": [{"type": 10, "values": [60751]}], "name": "Workbench", "occludes_2": false, "plane": 0, "i": 46, "j": 153, "x": 21, "y": 14, "type": 10, "rotation": 3}]}

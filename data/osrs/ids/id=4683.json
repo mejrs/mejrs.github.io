@@ -1,1 +1,1 @@
-{"properties": {"id": 4683, "isWallOrDoor": 1, "models_2": [2589], "name": "Harp"}, "uniques": [{"plane": 1, "i": 39, "j": 60, "x": 4, "y": 14, "id": 4683, "type": 11, "rotation": 3}]}
+{"properties": {"id": 4683, "isWallOrDoor": 1, "models_2": [2589], "name": "Harp"}, "uniques": [{"width": 1, "length": 1, "id": 4683, "isWallOrDoor": 1, "models_2": [2589], "name": "Harp", "plane": 1, "i": 39, "j": 60, "x": 4, "y": 14, "type": 11, "rotation": 3}]}

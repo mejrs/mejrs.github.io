@@ -1,1 +1,1 @@
-{"properties": {"id": 3775, "animationId": 475, "ambient": 25, "contrast": 625, "models_2": [3810], "name": "Fire"}, "uniques": [{"plane": 2, "i": 45, "j": 157, "x": 13, "y": 27, "id": 3775, "type": 10, "rotation": 0}]}
+{"properties": {"id": 3775, "animationId": 475, "ambient": 25, "contrast": 625, "models_2": [3810], "name": "Fire"}, "uniques": [{"width": 1, "length": 1, "id": 3775, "animationId": 475, "ambient": 25, "contrast": 625, "models_2": [3810], "name": "Fire", "plane": 2, "i": 45, "j": 157, "x": 13, "y": 27, "type": 10, "rotation": 0}]}

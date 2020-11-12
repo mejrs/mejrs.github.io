@@ -1,1 +1,1 @@
-{"properties": {"id": 21920, "animationId": 5825, "ambient": 10, "models_2": [22724], "name": "Spinning pipe"}, "uniques": [{"plane": 2, "i": 41, "j": 50, "x": 21, "y": 19, "id": 21920, "type": 10, "rotation": 0}]}
+{"properties": {"id": 21920, "animationId": 5825, "ambient": 10, "models_2": [22724], "name": "Spinning pipe"}, "uniques": [{"width": 1, "length": 1, "id": 21920, "animationId": 5825, "ambient": 10, "models_2": [22724], "name": "Spinning pipe", "plane": 2, "i": 41, "j": 50, "x": 21, "y": 19, "type": 10, "rotation": 0}]}

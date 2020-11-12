@@ -1,1 +1,1 @@
-{"properties": {"id": 3360, "actions": ["Search", "None", "None", "None", "None"], "models_2": [2142], "name": "Crate"}, "uniques": [{"plane": 0, "i": 37, "j": 150, "x": 49, "y": 58, "id": 3360, "type": 10, "rotation": 0}]}
+{"properties": {"id": 3360, "actions": ["Search", "None", "None", "None", "None"], "models_2": [2142], "name": "Crate"}, "uniques": [{"width": 1, "length": 1, "id": 3360, "actions": ["Search", "None", "None", "None", "None"], "models_2": [2142], "name": "Crate", "plane": 0, "i": 37, "j": 150, "x": 49, "y": 58, "type": 10, "rotation": 0}]}

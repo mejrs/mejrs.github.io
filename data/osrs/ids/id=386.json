@@ -1,1 +1,1 @@
-{"properties": {"id": 386, "length": 2, "width": 2, "models_2": [904], "name": "Large urn"}, "uniques": [{"plane": 0, "i": 52, "j": 52, "x": 25, "y": 45, "id": 386, "type": 10, "rotation": 0}]}
+{"properties": {"id": 386, "length": 2, "width": 2, "models_2": [904], "name": "Large urn"}, "uniques": [{"width": 2, "length": 2, "id": 386, "models_2": [904], "name": "Large urn", "plane": 0, "i": 52, "j": 52, "x": 25, "y": 45, "type": 10, "rotation": 0}]}

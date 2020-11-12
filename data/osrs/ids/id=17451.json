@@ -1,1 +1,1 @@
-{"properties": {"id": 17451, "ambient": 25, "contrast": 625, "models_2": [17475, 17474, 17473], "name": "Chess"}, "uniques": [{"plane": 0, "i": 50, "j": 54, "x": 3, "y": 16, "id": 17451, "type": 10, "rotation": 0}]}
+{"properties": {"id": 17451, "ambient": 25, "contrast": 625, "models_2": [17475, 17474, 17473], "name": "Chess"}, "uniques": [{"width": 1, "length": 1, "id": 17451, "ambient": 25, "contrast": 625, "models_2": [17475, 17474, 17473], "name": "Chess", "plane": 0, "i": 50, "j": 54, "x": 3, "y": 16, "type": 10, "rotation": 0}]}

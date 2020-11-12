@@ -1,1 +1,1 @@
-{"properties": {"id": 24017, "isWallOrDoor": 1, "ambient": 15, "width": 2, "models_2": [11556], "name": "Sign"}, "uniques": [{"plane": 1, "i": 46, "j": 52, "x": 12, "y": 51, "id": 24017, "type": 10, "rotation": 3}]}
+{"properties": {"id": 24017, "isWallOrDoor": 1, "ambient": 15, "width": 2, "models_2": [11556], "name": "Sign"}, "uniques": [{"width": 2, "length": 1, "id": 24017, "isWallOrDoor": 1, "ambient": 15, "models_2": [11556], "name": "Sign", "plane": 1, "i": 46, "j": 52, "x": 12, "y": 51, "type": 10, "rotation": 3}]}

@@ -1,1 +1,1 @@
-{"properties": {"id": 39688, "ambient": 10, "contrast": 125, "models_2": [19995], "name": "Camping equipment"}, "uniques": [{"plane": 0, "i": 48, "j": 56, "x": 56, "y": 33, "id": 39688, "type": 10, "rotation": 0}]}
+{"properties": {"id": 39688, "ambient": 10, "contrast": 125, "models_2": [19995], "name": "Camping equipment"}, "uniques": [{"width": 1, "length": 1, "id": 39688, "ambient": 10, "contrast": 125, "models_2": [19995], "name": "Camping equipment", "plane": 0, "i": 48, "j": 56, "x": 56, "y": 33, "type": 10, "rotation": 0}]}

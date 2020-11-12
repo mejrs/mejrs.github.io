@@ -1,1 +1,1 @@
-{"properties": {"id": 9328, "width": 2, "models_2": [27074], "name": "Coat rack"}, "uniques": [{"plane": 0, "i": 29, "j": 78, "x": 26, "y": 27, "id": 9328, "type": 10, "rotation": 3}]}
+{"properties": {"id": 9328, "width": 2, "models_2": [27074], "name": "Coat rack"}, "uniques": [{"width": 2, "length": 1, "id": 9328, "models_2": [27074], "name": "Coat rack", "plane": 0, "i": 29, "j": 78, "x": 26, "y": 27, "type": 10, "rotation": 3}]}

@@ -1,1 +1,1 @@
-{"properties": {"id": 14053, "models": [{"type": 4, "model": 14362}]}, "uniques": [{"plane": 0, "i": 41, "j": 53, "x": 25, "y": 62, "id": 14053, "type": 4, "rotation": 1}]}
+{"properties": {"id": 14053, "models": [{"type": 4, "model": 14362}]}, "uniques": [{"width": 1, "length": 1, "id": 14053, "models": [{"type": 4, "model": 14362}], "plane": 0, "i": 41, "j": 53, "x": 25, "y": 62, "type": 4, "rotation": 1}]}

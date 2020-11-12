@@ -1,1 +1,1 @@
-{"properties": {"id": 22833, "ambient": 50, "isWallOrDoor": 1, "models": [{"type": 4, "model": 23419}], "name": "Shelf"}, "uniques": [{"plane": 2, "i": 42, "j": 83, "x": 55, "y": 38, "id": 22833, "type": 4, "rotation": 3}]}
+{"properties": {"id": 22833, "ambient": 50, "isWallOrDoor": 1, "models": [{"type": 4, "model": 23419}], "name": "Shelf"}, "uniques": [{"width": 1, "length": 1, "id": 22833, "ambient": 50, "isWallOrDoor": 1, "models": [{"type": 4, "model": 23419}], "name": "Shelf", "plane": 2, "i": 42, "j": 83, "x": 55, "y": 38, "type": 4, "rotation": 3}]}

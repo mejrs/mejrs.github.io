@@ -1,1 +1,1 @@
-{"properties": {"id": 3640, "ambient": 25, "models_2": [24699], "name": "Waterpump"}, "uniques": [{"plane": 0, "i": 23, "j": 53, "x": 30, "y": 34, "id": 3640, "type": 10, "rotation": 1}]}
+{"properties": {"id": 3640, "ambient": 25, "models_2": [24699], "name": "Waterpump"}, "uniques": [{"width": 1, "length": 1, "id": 3640, "ambient": 25, "models_2": [24699], "name": "Waterpump", "plane": 0, "i": 23, "j": 53, "x": 30, "y": 34, "type": 10, "rotation": 1}]}

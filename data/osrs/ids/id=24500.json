@@ -1,1 +1,1 @@
-{"properties": {"id": 24500, "models_2": [25433], "name": "Tar buckets"}, "uniques": [{"plane": 0, "i": 48, "j": 154, "x": 8, "y": 47, "id": 24500, "type": 10, "rotation": 2}]}
+{"properties": {"id": 24500, "models_2": [25433], "name": "Tar buckets"}, "uniques": [{"width": 1, "length": 1, "id": 24500, "models_2": [25433], "name": "Tar buckets", "plane": 0, "i": 48, "j": 154, "x": 8, "y": 47, "type": 10, "rotation": 2}]}

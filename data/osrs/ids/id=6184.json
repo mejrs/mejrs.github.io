@@ -1,1 +1,1 @@
-{"properties": {"id": 6184, "length": 2, "contouredGround": 0, "models_2": [5937], "name": "Bed"}, "uniques": [{"plane": 0, "i": 45, "j": 159, "x": 54, "y": 42, "id": 6184, "type": 10, "rotation": 2}]}
+{"properties": {"id": 6184, "length": 2, "contouredGround": 0, "models_2": [5937], "name": "Bed"}, "uniques": [{"width": 1, "length": 2, "id": 6184, "contouredGround": 0, "models_2": [5937], "name": "Bed", "plane": 0, "i": 45, "j": 159, "x": 54, "y": 42, "type": 10, "rotation": 2}]}

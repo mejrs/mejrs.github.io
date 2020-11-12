@@ -1,1 +1,1 @@
-{"properties": {"id": 6068, "models_2": [5946, 5944, 5945], "name": "Weapon Rack"}, "uniques": [{"plane": 0, "i": 44, "j": 159, "x": 58, "y": 32, "id": 6068, "type": 10, "rotation": 0}]}
+{"properties": {"id": 6068, "models_2": [5946, 5944, 5945], "name": "Weapon Rack"}, "uniques": [{"width": 1, "length": 1, "id": 6068, "models_2": [5946, 5944, 5945], "name": "Weapon Rack", "plane": 0, "i": 44, "j": 159, "x": 58, "y": 32, "type": 10, "rotation": 0}]}

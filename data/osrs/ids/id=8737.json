@@ -1,1 +1,1 @@
-{"properties": {"id": 8737, "length": 2, "models_2": [8294], "name": "Tap"}, "uniques": [{"plane": 0, "i": 38, "j": 52, "x": 53, "y": 46, "id": 8737, "type": 10, "rotation": 0}]}
+{"properties": {"id": 8737, "length": 2, "models_2": [8294], "name": "Tap"}, "uniques": [{"width": 1, "length": 2, "id": 8737, "models_2": [8294], "name": "Tap", "plane": 0, "i": 38, "j": 52, "x": 53, "y": 46, "type": 10, "rotation": 0}]}

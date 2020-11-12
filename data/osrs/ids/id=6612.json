@@ -1,1 +1,1 @@
-{"properties": {"id": 6612, "mergeNormals": true, "contouredGround": 0, "rotated": true, "models_2": [6416], "name": "Mirror"}, "uniques": [{"plane": 0, "i": 51, "j": 43, "x": 39, "y": 2, "id": 6612, "type": 10, "rotation": 3}]}
+{"properties": {"id": 6612, "mergeNormals": true, "contouredGround": 0, "rotated": true, "models_2": [6416], "name": "Mirror"}, "uniques": [{"width": 1, "length": 1, "id": 6612, "mergeNormals": true, "contouredGround": 0, "rotated": true, "models_2": [6416], "name": "Mirror", "plane": 0, "i": 51, "j": 43, "x": 39, "y": 2, "type": 10, "rotation": 3}]}

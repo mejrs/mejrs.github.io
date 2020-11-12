@@ -1,1 +1,1 @@
-{"properties": {"id": 12110, "isWallOrDoor": 1, "ambient": 20, "models_2": [11937], "name": "G.A.G. banner"}, "uniques": [{"plane": 0, "i": 48, "j": 50, "x": 7, "y": 58, "id": 12110, "type": 10, "rotation": 0}]}
+{"properties": {"id": 12110, "isWallOrDoor": 1, "ambient": 20, "models_2": [11937], "name": "G.A.G. banner"}, "uniques": [{"width": 1, "length": 1, "id": 12110, "isWallOrDoor": 1, "ambient": 20, "models_2": [11937], "name": "G.A.G. banner", "plane": 0, "i": 48, "j": 50, "x": 7, "y": 58, "type": 10, "rotation": 0}]}

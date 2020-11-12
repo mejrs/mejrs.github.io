@@ -1,1 +1,1 @@
-{"properties": {"id": 2540, "actions": ["Walk-down", "None", "None", "None", "None"], "models_2": [1287], "name": "Stairs"}, "uniques": [{"plane": 1, "i": 39, "j": 52, "x": 31, "y": 4, "id": 2540, "type": 10, "rotation": 1}]}
+{"properties": {"id": 2540, "actions": ["Walk-down", "None", "None", "None", "None"], "models_2": [1287], "name": "Stairs"}, "uniques": [{"width": 1, "length": 1, "id": 2540, "actions": ["Walk-down", "None", "None", "None", "None"], "models_2": [1287], "name": "Stairs", "plane": 1, "i": 39, "j": 52, "x": 31, "y": 4, "type": 10, "rotation": 1}]}

@@ -1,1 +1,1 @@
-{"properties": {"id": 36227, "actions": ["Jump", "None", "None", "None", "None"], "models_2": [37827], "name": "Chimney"}, "uniques": [{"plane": 2, "i": 51, "j": 95, "x": 9, "y": 27, "id": 36227, "type": 10, "rotation": 1}]}
+{"properties": {"id": 36227, "actions": ["Jump", "None", "None", "None", "None"], "models_2": [37827], "name": "Chimney"}, "uniques": [{"width": 1, "length": 1, "id": 36227, "actions": ["Jump", "None", "None", "None", "None"], "models_2": [37827], "name": "Chimney", "plane": 2, "i": 51, "j": 95, "x": 9, "y": 27, "type": 10, "rotation": 1}]}

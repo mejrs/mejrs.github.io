@@ -1,1 +1,1 @@
-{"properties": {"id": 30534, "actions": ["Inspect", "None", "None", "None", "None"], "models_2": [33846], "name": "Mushroom"}, "uniques": [{"plane": 0, "i": 57, "j": 60, "x": 22, "y": 49, "id": 30534, "type": 10, "rotation": 0}]}
+{"properties": {"id": 30534, "actions": ["Inspect", "None", "None", "None", "None"], "models_2": [33846], "name": "Mushroom"}, "uniques": [{"width": 1, "length": 1, "id": 30534, "actions": ["Inspect", "None", "None", "None", "None"], "models_2": [33846], "name": "Mushroom", "plane": 0, "i": 57, "j": 60, "x": 22, "y": 49, "type": 10, "rotation": 0}]}

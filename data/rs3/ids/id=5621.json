@@ -1,1 +1,1 @@
-{"properties": {"id": 5621, "models": [{"type": 10, "values": [5562]}], "name": "Big vase", "occludes_2": false}, "uniques": [{"plane": 0, "i": 36, "j": 89, "x": 11, "y": 39, "id": 5621, "type": 10, "rotation": 1}]}
+{"properties": {"id": 5621, "models": [{"type": 10, "values": [5562]}], "name": "Big vase", "occludes_2": false}, "uniques": [{"width": 1, "length": 1, "id": 5621, "models": [{"type": 10, "values": [5562]}], "name": "Big vase", "occludes_2": false, "plane": 0, "i": 36, "j": 89, "x": 11, "y": 39, "type": 10, "rotation": 1}]}

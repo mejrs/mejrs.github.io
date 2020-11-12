@@ -1,1 +1,1 @@
-{"properties": {"id": 3756, "models_2": [15619], "name": "Slab"}, "uniques": [{"plane": 0, "i": 58, "j": 46, "x": 20, "y": 28, "id": 3756, "type": 10, "rotation": 1}]}
+{"properties": {"id": 3756, "models_2": [15619], "name": "Slab"}, "uniques": [{"width": 1, "length": 1, "id": 3756, "models_2": [15619], "name": "Slab", "plane": 0, "i": 58, "j": 46, "x": 20, "y": 28, "type": 10, "rotation": 1}]}

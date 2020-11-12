@@ -1,1 +1,1 @@
-{"properties": {"id": 19931, "ambient": 10, "contrast": 250, "models_2": [18236], "name": "Chest"}, "uniques": [{"plane": 3, "i": 31, "j": 77, "x": 35, "y": 20, "id": 19931, "type": 11, "rotation": 0}]}
+{"properties": {"id": 19931, "ambient": 10, "contrast": 250, "models_2": [18236], "name": "Chest"}, "uniques": [{"width": 1, "length": 1, "id": 19931, "ambient": 10, "contrast": 250, "models_2": [18236], "name": "Chest", "plane": 3, "i": 31, "j": 77, "x": 35, "y": 20, "type": 11, "rotation": 0}]}

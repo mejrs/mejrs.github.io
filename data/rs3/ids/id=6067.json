@@ -1,1 +1,1 @@
-{"properties": {"id": 6067, "models": [{"type": 10, "values": [5946, 5944]}], "name": "Weapon Rack", "occludes_2": false}, "uniques": [{"plane": 0, "i": 28, "j": 97, "x": 25, "y": 50, "id": 6067, "type": 10, "rotation": 0}]}
+{"properties": {"id": 6067, "models": [{"type": 10, "values": [5946, 5944]}], "name": "Weapon Rack", "occludes_2": false}, "uniques": [{"width": 1, "length": 1, "id": 6067, "models": [{"type": 10, "values": [5946, 5944]}], "name": "Weapon Rack", "occludes_2": false, "plane": 0, "i": 28, "j": 97, "x": 25, "y": 50, "type": 10, "rotation": 0}]}

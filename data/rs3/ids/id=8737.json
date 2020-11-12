@@ -1,1 +1,1 @@
-{"properties": {"id": 8737, "length": 2, "models": [{"type": 10, "values": [8294]}], "name": "Barrel Tap", "occludes_2": false}, "uniques": [{"plane": 0, "i": 38, "j": 52, "x": 53, "y": 46, "id": 8737, "type": 10, "rotation": 0}]}
+{"properties": {"id": 8737, "length": 2, "models": [{"type": 10, "values": [8294]}], "name": "Barrel Tap", "occludes_2": false}, "uniques": [{"width": 1, "length": 2, "id": 8737, "models": [{"type": 10, "values": [8294]}], "name": "Barrel Tap", "occludes_2": false, "plane": 0, "i": 38, "j": 52, "x": 53, "y": 46, "type": 10, "rotation": 0}]}

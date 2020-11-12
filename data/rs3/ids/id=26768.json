@@ -1,1 +1,1 @@
-{"properties": {"id": 26768, "models": [{"type": 10, "values": [17140]}], "name": "Gnome crates", "occludes_2": false}, "uniques": [{"plane": 0, "i": 31, "j": 86, "x": 41, "y": 36, "id": 26768, "type": 10, "rotation": 1}]}
+{"properties": {"id": 26768, "models": [{"type": 10, "values": [17140]}], "name": "Gnome crates", "occludes_2": false}, "uniques": [{"width": 1, "length": 1, "id": 26768, "models": [{"type": 10, "values": [17140]}], "name": "Gnome crates", "occludes_2": false, "plane": 0, "i": 31, "j": 86, "x": 41, "y": 36, "type": 10, "rotation": 1}]}

@@ -1,1 +1,1 @@
-{"properties": {"id": 21931, "ambient": 15, "animationId": 5847, "models_2": [22710, 22712], "name": "Cage"}, "uniques": [{"plane": 0, "i": 47, "j": 68, "x": 33, "y": 39, "id": 21931, "type": 10, "rotation": 0}]}
+{"properties": {"id": 21931, "ambient": 15, "animationId": 5847, "models_2": [22710, 22712], "name": "Cage"}, "uniques": [{"width": 1, "length": 1, "id": 21931, "ambient": 15, "animationId": 5847, "models_2": [22710, 22712], "name": "Cage", "plane": 0, "i": 47, "j": 68, "x": 33, "y": 39, "type": 10, "rotation": 0}]}

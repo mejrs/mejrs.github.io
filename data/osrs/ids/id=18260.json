@@ -1,1 +1,1 @@
-{"properties": {"id": 18260, "width": 3, "length": 3, "ambient": 40, "contrast": 500, "models_2": [18218], "name": "Steeple"}, "uniques": [{"plane": 3, "i": 42, "j": 51, "x": 30, "y": 18, "id": 18260, "type": 10, "rotation": 0}]}
+{"properties": {"id": 18260, "width": 3, "length": 3, "ambient": 40, "contrast": 500, "models_2": [18218], "name": "Steeple"}, "uniques": [{"width": 3, "length": 3, "id": 18260, "ambient": 40, "contrast": 500, "models_2": [18218], "name": "Steeple", "plane": 3, "i": 42, "j": 51, "x": 30, "y": 18, "type": 10, "rotation": 0}]}

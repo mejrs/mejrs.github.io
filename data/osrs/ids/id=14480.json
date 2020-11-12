@@ -1,1 +1,1 @@
-{"properties": {"id": 14480, "length": 3, "models_2": [14779], "name": "Skeleton"}, "uniques": [{"plane": 0, "i": 47, "j": 56, "x": 21, "y": 45, "id": 14480, "type": 10, "rotation": 3}]}
+{"properties": {"id": 14480, "length": 3, "models_2": [14779], "name": "Skeleton"}, "uniques": [{"width": 1, "length": 3, "id": 14480, "models_2": [14779], "name": "Skeleton", "plane": 0, "i": 47, "j": 56, "x": 21, "y": 45, "type": 10, "rotation": 3}]}

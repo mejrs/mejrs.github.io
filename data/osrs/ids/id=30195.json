@@ -1,1 +1,1 @@
-{"properties": {"id": 30195, "width": 3, "length": 2, "blocksProjectile": false, "models_2": [1191], "name": "Rack"}, "uniques": [{"plane": 3, "i": 53, "j": 155, "x": 48, "y": 48, "id": 30195, "type": 10, "rotation": 0}]}
+{"properties": {"id": 30195, "width": 3, "length": 2, "blocksProjectile": false, "models_2": [1191], "name": "Rack"}, "uniques": [{"width": 3, "length": 2, "id": 30195, "blocksProjectile": false, "models_2": [1191], "name": "Rack", "plane": 3, "i": 53, "j": 155, "x": 48, "y": 48, "type": 10, "rotation": 0}]}

@@ -1,1 +1,1 @@
-{"properties": {"id": 32634, "ambient": 30, "models_2": [35302], "name": "Stone tablet"}, "uniques": [{"plane": 1, "i": 58, "j": 152, "x": 13, "y": 52, "id": 32634, "type": 10, "rotation": 3}]}
+{"properties": {"id": 32634, "ambient": 30, "models_2": [35302], "name": "Stone tablet"}, "uniques": [{"width": 1, "length": 1, "id": 32634, "ambient": 30, "models_2": [35302], "name": "Stone tablet", "plane": 1, "i": 58, "j": 152, "x": 13, "y": 52, "type": 10, "rotation": 3}]}

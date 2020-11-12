@@ -1,1 +1,1 @@
-{"properties": {"id": 16813, "length": 2, "animationId": 4395, "models_2": [16707], "name": "Rack"}, "uniques": [{"plane": 0, "i": 38, "j": 72, "x": 21, "y": 37, "id": 16813, "type": 10, "rotation": 0}]}
+{"properties": {"id": 16813, "length": 2, "animationId": 4395, "models_2": [16707], "name": "Rack"}, "uniques": [{"width": 1, "length": 2, "id": 16813, "animationId": 4395, "models_2": [16707], "name": "Rack", "plane": 0, "i": 38, "j": 72, "x": 21, "y": 37, "type": 10, "rotation": 0}]}

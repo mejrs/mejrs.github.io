@@ -1,1 +1,1 @@
-{"properties": {"id": 1951, "rotated": true, "models_2": [841], "name": "Bricks"}, "uniques": [{"plane": 0, "i": 45, "j": 55, "x": 3, "y": 46, "id": 1951, "type": 10, "rotation": 3}]}
+{"properties": {"id": 1951, "rotated": true, "models_2": [841], "name": "Bricks"}, "uniques": [{"width": 1, "length": 1, "id": 1951, "rotated": true, "models_2": [841], "name": "Bricks", "plane": 0, "i": 45, "j": 55, "x": 3, "y": 46, "type": 10, "rotation": 3}]}

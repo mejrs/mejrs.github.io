@@ -1,1 +1,1 @@
-{"properties": {"id": 37435, "models_2": [38919], "name": "Swampy sink"}, "uniques": [{"plane": 0, "i": 50, "j": 49, "x": 6, "y": 33, "id": 37435, "type": 10, "rotation": 2}]}
+{"properties": {"id": 37435, "models_2": [38919], "name": "Swampy sink"}, "uniques": [{"width": 1, "length": 1, "id": 37435, "models_2": [38919], "name": "Swampy sink", "plane": 0, "i": 50, "j": 49, "x": 6, "y": 33, "type": 10, "rotation": 2}]}

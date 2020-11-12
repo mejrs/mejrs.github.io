@@ -1,1 +1,1 @@
-{"properties": {"id": 18643, "width": 3, "length": 3, "models_2": [18816], "name": "Steam press"}, "uniques": [{"plane": 3, "i": 30, "j": 80, "x": 25, "y": 34, "id": 18643, "type": 10, "rotation": 3}]}
+{"properties": {"id": 18643, "width": 3, "length": 3, "models_2": [18816], "name": "Steam press"}, "uniques": [{"width": 3, "length": 3, "id": 18643, "models_2": [18816], "name": "Steam press", "plane": 3, "i": 30, "j": 80, "x": 25, "y": 34, "type": 10, "rotation": 3}]}

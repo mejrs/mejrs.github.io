@@ -1,1 +1,1 @@
-{"properties": {"id": 25269, "ambient": 20, "width": 2, "length": 2, "models_2": [26738], "name": "Barbarian table"}, "uniques": [{"plane": 0, "i": 39, "j": 54, "x": 5, "y": 32, "id": 25269, "type": 10, "rotation": 3}]}
+{"properties": {"id": 25269, "ambient": 20, "width": 2, "length": 2, "models_2": [26738], "name": "Barbarian table"}, "uniques": [{"width": 2, "length": 2, "id": 25269, "ambient": 20, "models_2": [26738], "name": "Barbarian table", "plane": 0, "i": 39, "j": 54, "x": 5, "y": 32, "type": 10, "rotation": 3}]}

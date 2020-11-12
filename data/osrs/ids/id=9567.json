@@ -1,1 +1,1 @@
-{"properties": {"id": 9567, "blocksProjectile": false, "models_2": [9502], "name": "Bucket"}, "uniques": [{"plane": 0, "i": 47, "j": 49, "x": 8, "y": 55, "id": 9567, "type": 10, "rotation": 1}]}
+{"properties": {"id": 9567, "blocksProjectile": false, "models_2": [9502], "name": "Bucket"}, "uniques": [{"width": 1, "length": 1, "id": 9567, "blocksProjectile": false, "models_2": [9502], "name": "Bucket", "plane": 0, "i": 47, "j": 49, "x": 8, "y": 55, "type": 10, "rotation": 1}]}

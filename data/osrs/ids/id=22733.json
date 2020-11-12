@@ -1,1 +1,1 @@
-{"properties": {"id": 22733, "isWallOrDoor": 1, "ambient": 20, "animationId": 5745, "models_2": [21818], "name": "Smoke"}, "uniques": [{"plane": 0, "i": 42, "j": 82, "x": 28, "y": 23, "id": 22733, "type": 10, "rotation": 2}]}
+{"properties": {"id": 22733, "isWallOrDoor": 1, "ambient": 20, "animationId": 5745, "models_2": [21818], "name": "Smoke"}, "uniques": [{"width": 1, "length": 1, "id": 22733, "isWallOrDoor": 1, "ambient": 20, "animationId": 5745, "models_2": [21818], "name": "Smoke", "plane": 0, "i": 42, "j": 82, "x": 28, "y": 23, "type": 10, "rotation": 2}]}

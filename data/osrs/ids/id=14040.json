@@ -1,1 +1,1 @@
-{"properties": {"id": 14040, "width": 3, "models_2": [14364, 14359, 14366], "name": "Bonzo's Table"}, "uniques": [{"plane": 0, "i": 41, "j": 53, "x": 16, "y": 44, "id": 14040, "type": 10, "rotation": 3}]}
+{"properties": {"id": 14040, "width": 3, "models_2": [14364, 14359, 14366], "name": "Bonzo's Table"}, "uniques": [{"width": 3, "length": 1, "id": 14040, "models_2": [14364, 14359, 14366], "name": "Bonzo's Table", "plane": 0, "i": 41, "j": 53, "x": 16, "y": 44, "type": 10, "rotation": 3}]}

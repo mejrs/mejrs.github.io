@@ -1,1 +1,1 @@
-{"properties": {"id": 11502, "width": 2, "blocksProjectile": false, "models_2": [11454], "name": "Table"}, "uniques": [{"plane": 1, "i": 48, "j": 52, "x": 48, "y": 27, "id": 11502, "type": 10, "rotation": 2}]}
+{"properties": {"id": 11502, "width": 2, "blocksProjectile": false, "models_2": [11454], "name": "Table"}, "uniques": [{"width": 2, "length": 1, "id": 11502, "blocksProjectile": false, "models_2": [11454], "name": "Table", "plane": 1, "i": 48, "j": 52, "x": 48, "y": 27, "type": 10, "rotation": 2}]}

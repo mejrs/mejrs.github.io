@@ -1,1 +1,1 @@
-{"properties": {"id": 33018, "isWallOrDoor": 0, "floor_decoration_object_is_walkable": false, "models_2": [35418]}, "uniques": [{"plane": 0, "i": 50, "j": 67, "x": 31, "y": 28, "id": 33018, "type": 10, "rotation": 2}]}
+{"properties": {"id": 33018, "isWallOrDoor": 0, "floor_decoration_object_is_walkable": false, "models_2": [35418]}, "uniques": [{"width": 1, "length": 1, "id": 33018, "isWallOrDoor": 0, "floor_decoration_object_is_walkable": false, "models_2": [35418], "plane": 0, "i": 50, "j": 67, "x": 31, "y": 28, "type": 10, "rotation": 2}]}

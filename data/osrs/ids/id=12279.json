@@ -1,1 +1,1 @@
-{"properties": {"id": 12279, "length": 2, "blocksProjectile": false, "models_2": [9589], "name": "Sink"}, "uniques": [{"plane": 0, "i": 48, "j": 54, "x": 5, "y": 33, "id": 12279, "type": 10, "rotation": 2}]}
+{"properties": {"id": 12279, "length": 2, "blocksProjectile": false, "models_2": [9589], "name": "Sink"}, "uniques": [{"width": 1, "length": 2, "id": 12279, "blocksProjectile": false, "models_2": [9589], "name": "Sink", "plane": 0, "i": 48, "j": 54, "x": 5, "y": 33, "type": 10, "rotation": 2}]}

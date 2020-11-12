@@ -1,1 +1,1 @@
-{"properties": {"id": 37729, "models_2": [13135], "name": "Telescope"}, "uniques": [{"plane": 0, "i": 26, "j": 95, "x": 1, "y": 14, "id": 37729, "type": 10, "rotation": 1}]}
+{"properties": {"id": 37729, "models_2": [13135], "name": "Telescope"}, "uniques": [{"width": 1, "length": 1, "id": 37729, "models_2": [13135], "name": "Telescope", "plane": 0, "i": 26, "j": 95, "x": 1, "y": 14, "type": 10, "rotation": 1}]}

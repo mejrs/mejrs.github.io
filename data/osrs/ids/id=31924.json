@@ -1,1 +1,1 @@
-{"properties": {"id": 31924, "width": 2, "length": 2, "models_2": [32158], "name": "Ornate Jewellery Box"}, "uniques": [{"plane": 0, "i": 47, "j": 155, "x": 45, "y": 8, "id": 31924, "type": 10, "rotation": 2}]}
+{"properties": {"id": 31924, "width": 2, "length": 2, "models_2": [32158], "name": "Ornate Jewellery Box"}, "uniques": [{"width": 2, "length": 2, "id": 31924, "models_2": [32158], "name": "Ornate Jewellery Box", "plane": 0, "i": 47, "j": 155, "x": 45, "y": 8, "type": 10, "rotation": 2}]}

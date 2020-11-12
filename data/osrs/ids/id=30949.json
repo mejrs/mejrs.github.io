@@ -1,1 +1,1 @@
-{"properties": {"id": 30949, "mergeNormals": true, "rotated": true, "mapscene": 41, "models_2": [13733], "name": "Anchor"}, "uniques": [{"plane": 2, "i": 58, "j": 160, "x": 19, "y": 42, "id": 30949, "type": 10, "rotation": 0}]}
+{"properties": {"id": 30949, "mergeNormals": true, "rotated": true, "mapscene": 41, "models_2": [13733], "name": "Anchor"}, "uniques": [{"width": 1, "length": 1, "id": 30949, "mergeNormals": true, "rotated": true, "mapscene": 41, "models_2": [13733], "name": "Anchor", "plane": 2, "i": 58, "j": 160, "x": 19, "y": 42, "type": 10, "rotation": 0}]}

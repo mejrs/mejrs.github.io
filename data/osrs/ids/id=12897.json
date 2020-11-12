@@ -1,1 +1,1 @@
-{"properties": {"id": 12897, "width": 2, "length": 2, "models_2": [14021], "name": "Well"}, "uniques": [{"plane": 0, "i": 54, "j": 50, "x": 26, "y": 34, "id": 12897, "type": 10, "rotation": 2}]}
+{"properties": {"id": 12897, "width": 2, "length": 2, "models_2": [14021], "name": "Well"}, "uniques": [{"width": 2, "length": 2, "id": 12897, "models_2": [14021], "name": "Well", "plane": 0, "i": 54, "j": 50, "x": 26, "y": 34, "type": 10, "rotation": 2}]}

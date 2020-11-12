@@ -1,1 +1,1 @@
-{"properties": {"id": 3857, "contouredGround": 0, "models_2": [3868], "name": "Crate"}, "uniques": [{"plane": 0, "i": 31, "j": 87, "x": 47, "y": 39, "id": 3857, "type": 10, "rotation": 1}]}
+{"properties": {"id": 3857, "contouredGround": 0, "models_2": [3868], "name": "Crate"}, "uniques": [{"width": 1, "length": 1, "id": 3857, "contouredGround": 0, "models_2": [3868], "name": "Crate", "plane": 0, "i": 31, "j": 87, "x": 47, "y": 39, "type": 10, "rotation": 1}]}

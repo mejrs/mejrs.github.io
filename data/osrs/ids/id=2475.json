@@ -1,1 +1,1 @@
-{"properties": {"id": 2475, "mergeNormals": true, "models_2": [24550], "name": "Trawler net"}, "uniques": [{"plane": 3, "i": 41, "j": 49, "x": 45, "y": 30, "id": 2475, "type": 10, "rotation": 2}]}
+{"properties": {"id": 2475, "mergeNormals": true, "models_2": [24550], "name": "Trawler net"}, "uniques": [{"width": 1, "length": 1, "id": 2475, "mergeNormals": true, "models_2": [24550], "name": "Trawler net", "plane": 3, "i": 41, "j": 49, "x": 45, "y": 30, "type": 10, "rotation": 2}]}

@@ -1,1 +1,1 @@
-{"properties": {"id": 2150, "width": 3, "length": 3, "models_2": [1761], "name": "Obelisk of Earth"}, "uniques": [{"plane": 0, "i": 48, "j": 155, "x": 14, "y": 12, "id": 2150, "type": 10, "rotation": 0}]}
+{"properties": {"id": 2150, "width": 3, "length": 3, "models_2": [1761], "name": "Obelisk of Earth"}, "uniques": [{"width": 3, "length": 3, "id": 2150, "models_2": [1761], "name": "Obelisk of Earth", "plane": 0, "i": 48, "j": 155, "x": 14, "y": 12, "type": 10, "rotation": 0}]}

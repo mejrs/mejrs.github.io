@@ -1,1 +1,1 @@
-{"properties": {"id": 9107, "isWallOrDoor": 1, "models_2": [9067], "name": "Drive belt"}, "uniques": [{"plane": 0, "i": 30, "j": 77, "x": 24, "y": 37, "id": 9107, "type": 10, "rotation": 0}]}
+{"properties": {"id": 9107, "isWallOrDoor": 1, "models_2": [9067], "name": "Drive belt"}, "uniques": [{"width": 1, "length": 1, "id": 9107, "isWallOrDoor": 1, "models_2": [9067], "name": "Drive belt", "plane": 0, "i": 30, "j": 77, "x": 24, "y": 37, "type": 10, "rotation": 0}]}

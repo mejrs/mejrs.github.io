@@ -1,1 +1,1 @@
-{"properties": {"id": 2910, "actions": ["Look", "Search", "None", "None", "None"], "models_2": [1224], "name": "Desk"}, "uniques": [{"plane": 0, "i": 43, "j": 145, "x": 42, "y": 47, "id": 2910, "type": 10, "rotation": 0}]}
+{"properties": {"id": 2910, "actions": ["Look", "Search", "None", "None", "None"], "models_2": [1224], "name": "Desk"}, "uniques": [{"width": 1, "length": 1, "id": 2910, "actions": ["Look", "Search", "None", "None", "None"], "models_2": [1224], "name": "Desk", "plane": 0, "i": 43, "j": 145, "x": 42, "y": 47, "type": 10, "rotation": 0}]}

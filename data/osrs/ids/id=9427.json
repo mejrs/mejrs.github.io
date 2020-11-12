@@ -1,1 +1,1 @@
-{"properties": {"id": 9427, "isWallOrDoor": 0, "mergeNormals": true, "width": 3, "models_2": [9394]}, "uniques": [{"plane": 3, "i": 29, "j": 70, "x": 34, "y": 44, "id": 9427, "type": 10, "rotation": 0}]}
+{"properties": {"id": 9427, "isWallOrDoor": 0, "mergeNormals": true, "width": 3, "models_2": [9394]}, "uniques": [{"width": 3, "length": 1, "id": 9427, "isWallOrDoor": 0, "mergeNormals": true, "models_2": [9394], "plane": 3, "i": 29, "j": 70, "x": 34, "y": 44, "type": 10, "rotation": 0}]}

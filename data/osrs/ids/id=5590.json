@@ -1,1 +1,1 @@
-{"properties": {"id": 5590, "width": 3, "animationId": 1729, "models_2": [5518], "name": "Water wheel"}, "uniques": [{"plane": 0, "i": 50, "j": 51, "x": 18, "y": 28, "id": 5590, "type": 10, "rotation": 3}]}
+{"properties": {"id": 5590, "width": 3, "animationId": 1729, "models_2": [5518], "name": "Water wheel"}, "uniques": [{"width": 3, "length": 1, "id": 5590, "animationId": 1729, "models_2": [5518], "name": "Water wheel", "plane": 0, "i": 50, "j": 51, "x": 18, "y": 28, "type": 10, "rotation": 3}]}

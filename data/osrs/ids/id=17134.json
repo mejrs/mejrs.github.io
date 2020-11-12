@@ -1,1 +1,1 @@
-{"properties": {"id": 17134, "models_2": [17126], "name": "Gnome barrel"}, "uniques": [{"plane": 1, "i": 31, "j": 86, "x": 9, "y": 44, "id": 17134, "type": 10, "rotation": 1}]}
+{"properties": {"id": 17134, "models_2": [17126], "name": "Gnome barrel"}, "uniques": [{"width": 1, "length": 1, "id": 17134, "models_2": [17126], "name": "Gnome barrel", "plane": 1, "i": 31, "j": 86, "x": 9, "y": 44, "type": 10, "rotation": 1}]}

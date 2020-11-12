@@ -1,1 +1,1 @@
-{"properties": {"id": 24169, "length": 2, "models_2": [11535], "name": "Bathtub"}, "uniques": [{"plane": 1, "i": 47, "j": 52, "x": 41, "y": 29, "id": 24169, "type": 10, "rotation": 2}]}
+{"properties": {"id": 24169, "length": 2, "models_2": [11535], "name": "Bathtub"}, "uniques": [{"width": 1, "length": 2, "id": 24169, "models_2": [11535], "name": "Bathtub", "plane": 1, "i": 47, "j": 52, "x": 41, "y": 29, "type": 10, "rotation": 2}]}

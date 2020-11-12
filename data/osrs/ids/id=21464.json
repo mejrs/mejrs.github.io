@@ -1,1 +1,1 @@
-{"properties": {"id": 21464, "models_2": [22012], "name": "Throne"}, "uniques": [{"plane": 0, "i": 37, "j": 59, "x": 39, "y": 25, "id": 21464, "type": 10, "rotation": 2}]}
+{"properties": {"id": 21464, "models_2": [22012], "name": "Throne"}, "uniques": [{"width": 1, "length": 1, "id": 21464, "models_2": [22012], "name": "Throne", "plane": 0, "i": 37, "j": 59, "x": 39, "y": 25, "type": 10, "rotation": 2}]}

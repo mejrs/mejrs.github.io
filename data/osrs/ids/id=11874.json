@@ -1,1 +1,1 @@
-{"properties": {"id": 11874, "models_2": [11608], "name": "Multicannon parts"}, "uniques": [{"plane": 0, "i": 47, "j": 53, "x": 4, "y": 50, "id": 11874, "type": 10, "rotation": 3}]}
+{"properties": {"id": 11874, "models_2": [11608], "name": "Multicannon parts"}, "uniques": [{"width": 1, "length": 1, "id": 11874, "models_2": [11608], "name": "Multicannon parts", "plane": 0, "i": 47, "j": 53, "x": 4, "y": 50, "type": 10, "rotation": 3}]}

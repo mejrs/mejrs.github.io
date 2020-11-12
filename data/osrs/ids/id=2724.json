@@ -1,1 +1,1 @@
-{"properties": {"id": 2724, "ambient": 20, "length": 2, "width": 2, "animationId": 6467, "models_2": [24743], "name": "Washing line"}, "uniques": [{"plane": 0, "i": 49, "j": 53, "x": 10, "y": 13, "id": 2724, "type": 10, "rotation": 2}]}
+{"properties": {"id": 2724, "ambient": 20, "length": 2, "width": 2, "animationId": 6467, "models_2": [24743], "name": "Washing line"}, "uniques": [{"width": 2, "length": 2, "id": 2724, "ambient": 20, "animationId": 6467, "models_2": [24743], "name": "Washing line", "plane": 0, "i": 49, "j": 53, "x": 10, "y": 13, "type": 10, "rotation": 2}]}

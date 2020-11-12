@@ -1,1 +1,1 @@
-{"properties": {"id": 2362, "actions": ["Search", "None", "None", "None", "None"], "models_2": [17319], "name": "Brick"}, "uniques": [{"plane": 0, "i": 52, "j": 153, "x": 50, "y": 32, "id": 2362, "type": 10, "rotation": 0}]}
+{"properties": {"id": 2362, "actions": ["Search", "None", "None", "None", "None"], "models_2": [17319], "name": "Brick"}, "uniques": [{"width": 1, "length": 1, "id": 2362, "actions": ["Search", "None", "None", "None", "None"], "models_2": [17319], "name": "Brick", "plane": 0, "i": 52, "j": 153, "x": 50, "y": 32, "type": 10, "rotation": 0}]}

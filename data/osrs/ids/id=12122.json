@@ -1,1 +1,1 @@
-{"properties": {"id": 12122, "width": 2, "models_2": [11949], "name": "Water Trough"}, "uniques": [{"plane": 0, "i": 37, "j": 69, "x": 33, "y": 53, "id": 12122, "type": 10, "rotation": 2}]}
+{"properties": {"id": 12122, "width": 2, "models_2": [11949], "name": "Water Trough"}, "uniques": [{"width": 2, "length": 1, "id": 12122, "models_2": [11949], "name": "Water Trough", "plane": 0, "i": 37, "j": 69, "x": 33, "y": 53, "type": 10, "rotation": 2}]}

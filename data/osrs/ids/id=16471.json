@@ -1,1 +1,1 @@
-{"properties": {"id": 16471, "ambient": 20, "contrast": 500, "models_2": [29106], "name": "Bellows"}, "uniques": [{"plane": 0, "i": 48, "j": 54, "x": 38, "y": 44, "id": 16471, "type": 10, "rotation": 1}]}
+{"properties": {"id": 16471, "ambient": 20, "contrast": 500, "models_2": [29106], "name": "Bellows"}, "uniques": [{"width": 1, "length": 1, "id": 16471, "ambient": 20, "contrast": 500, "models_2": [29106], "name": "Bellows", "plane": 0, "i": 48, "j": 54, "x": 38, "y": 44, "type": 10, "rotation": 1}]}

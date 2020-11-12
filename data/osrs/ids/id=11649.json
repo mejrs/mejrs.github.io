@@ -1,1 +1,1 @@
-{"properties": {"id": 11649, "length": 3, "contouredGround": 0, "rotated": true, "models_2": [5137], "name": "Zip line"}, "uniques": [{"plane": 0, "i": 55, "j": 154, "x": 7, "y": 13, "id": 11649, "type": 10, "rotation": 0}]}
+{"properties": {"id": 11649, "length": 3, "contouredGround": 0, "rotated": true, "models_2": [5137], "name": "Zip line"}, "uniques": [{"width": 1, "length": 3, "id": 11649, "contouredGround": 0, "rotated": true, "models_2": [5137], "name": "Zip line", "plane": 0, "i": 55, "j": 154, "x": 7, "y": 13, "type": 10, "rotation": 0}]}

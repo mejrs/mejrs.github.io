@@ -1,1 +1,1 @@
-{"properties": {"id": 21918, "animationId": 5824, "ambient": 10, "length": 2, "width": 2, "models_2": [22725], "name": "Magic table"}, "uniques": [{"plane": 1, "i": 41, "j": 50, "x": 28, "y": 15, "id": 21918, "type": 11, "rotation": 1}]}
+{"properties": {"id": 21918, "animationId": 5824, "ambient": 10, "length": 2, "width": 2, "models_2": [22725], "name": "Magic table"}, "uniques": [{"width": 2, "length": 2, "id": 21918, "animationId": 5824, "ambient": 10, "models_2": [22725], "name": "Magic table", "plane": 1, "i": 41, "j": 50, "x": 28, "y": 15, "type": 11, "rotation": 1}]}

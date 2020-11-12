@@ -1,1 +1,1 @@
-{"properties": {"id": 3409, "actions": ["Pull", "None", "None", "None", "None"], "models_2": [18691], "name": "Lever"}, "uniques": [{"plane": 0, "i": 42, "j": 154, "x": 46, "y": 31, "id": 3409, "type": 10, "rotation": 2}]}
+{"properties": {"id": 3409, "actions": ["Pull", "None", "None", "None", "None"], "models_2": [18691], "name": "Lever"}, "uniques": [{"width": 1, "length": 1, "id": 3409, "actions": ["Pull", "None", "None", "None", "None"], "models_2": [18691], "name": "Lever", "plane": 0, "i": 42, "j": 154, "x": 46, "y": 31, "type": 10, "rotation": 2}]}

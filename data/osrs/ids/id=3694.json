@@ -1,1 +1,1 @@
-{"properties": {"id": 3694, "blocksProjectile": false, "models_2": [3719], "name": "Crate"}, "uniques": [{"plane": 0, "i": 45, "j": 55, "x": 15, "y": 49, "id": 3694, "type": 10, "rotation": 3}]}
+{"properties": {"id": 3694, "blocksProjectile": false, "models_2": [3719], "name": "Crate"}, "uniques": [{"width": 1, "length": 1, "id": 3694, "blocksProjectile": false, "models_2": [3719], "name": "Crate", "plane": 0, "i": 45, "j": 55, "x": 15, "y": 49, "type": 10, "rotation": 3}]}

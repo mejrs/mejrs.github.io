@@ -1,1 +1,1 @@
-{"properties": {"id": 22411, "ambient": 35, "mergeNormals": true, "models_2": [22824], "name": "Granary roof"}, "uniques": [{"plane": 3, "i": 59, "j": 44, "x": 9, "y": 8, "id": 22411, "type": 10, "rotation": 0}]}
+{"properties": {"id": 22411, "ambient": 35, "mergeNormals": true, "models_2": [22824], "name": "Granary roof"}, "uniques": [{"width": 1, "length": 1, "id": 22411, "ambient": 35, "mergeNormals": true, "models_2": [22824], "name": "Granary roof", "plane": 3, "i": 59, "j": 44, "x": 9, "y": 8, "type": 10, "rotation": 0}]}

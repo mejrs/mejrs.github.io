@@ -1,1 +1,0 @@
-{"properties": {"id": 37490, "isWallOrDoor": 0, "contouredGround": 0, "standard_object_is_blocking": false, "blocksProjectile": false, "mergeNormals": true, "obstructsGround": true, "mapAreaId": 645, "models": [{"type": 22, "model": 31136}]}, "uniques": [{"plane": 0, "i": 25, "j": 57, "x": 47, "y": 28, "id": 37490, "type": 22, "rotation": 2}]}

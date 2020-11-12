@@ -1,1 +1,1 @@
-{"properties": {"id": 373, "width": 2, "models": [{"type": 10, "values": [1206]}], "name": "Dresser", "occludes_2": false}, "uniques": [{"plane": 1, "i": 40, "j": 50, "x": 54, "y": 9, "id": 373, "type": 10, "rotation": 3}]}
+{"properties": {"id": 373, "width": 2, "models": [{"type": 10, "values": [1206]}], "name": "Dresser", "occludes_2": false}, "uniques": [{"width": 2, "length": 1, "id": 373, "models": [{"type": 10, "values": [1206]}], "name": "Dresser", "occludes_2": false, "plane": 1, "i": 40, "j": 50, "x": 54, "y": 9, "type": 10, "rotation": 3}]}

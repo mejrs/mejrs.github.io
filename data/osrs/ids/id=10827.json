@@ -1,1 +1,1 @@
-{"properties": {"id": 10827, "width": 2, "length": 2, "ambientSoundId": 2151, "unk_78_1": 3, "models_2": [10754], "name": "Fountain"}, "uniques": [{"plane": 0, "i": 21, "j": 58, "x": 4, "y": 29, "id": 10827, "type": 10, "rotation": 3}]}
+{"properties": {"id": 10827, "width": 2, "length": 2, "ambientSoundId": 2151, "unk_78_1": 3, "models_2": [10754], "name": "Fountain"}, "uniques": [{"width": 2, "length": 2, "id": 10827, "ambientSoundId": 2151, "unk_78_1": 3, "models_2": [10754], "name": "Fountain", "plane": 0, "i": 21, "j": 58, "x": 4, "y": 29, "type": 10, "rotation": 3}]}

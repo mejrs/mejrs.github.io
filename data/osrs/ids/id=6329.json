@@ -1,1 +1,1 @@
-{"properties": {"id": 6329, "width": 2, "length": 2, "models_2": [6172], "name": "Broken kiln"}, "uniques": [{"plane": 0, "i": 42, "j": 76, "x": 21, "y": 48, "id": 6329, "type": 10, "rotation": 1}]}
+{"properties": {"id": 6329, "width": 2, "length": 2, "models_2": [6172], "name": "Broken kiln"}, "uniques": [{"width": 2, "length": 2, "id": 6329, "models_2": [6172], "name": "Broken kiln", "plane": 0, "i": 42, "j": 76, "x": 21, "y": 48, "type": 10, "rotation": 1}]}

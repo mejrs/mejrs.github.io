@@ -1,1 +1,1 @@
-{"properties": {"id": 4959, "models_2": [1774], "name": "Lever"}, "uniques": [{"plane": 0, "i": 43, "j": 70, "x": 19, "y": 50, "id": 4959, "type": 10, "rotation": 0}]}
+{"properties": {"id": 4959, "models_2": [1774], "name": "Lever"}, "uniques": [{"width": 1, "length": 1, "id": 4959, "models_2": [1774], "name": "Lever", "plane": 0, "i": 43, "j": 70, "x": 19, "y": 50, "type": 10, "rotation": 0}]}

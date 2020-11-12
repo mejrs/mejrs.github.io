@@ -1,1 +1,1 @@
-{"properties": {"id": 13104, "models_2": [17101], "name": "Hazelmere statue"}, "uniques": [{"plane": 0, "i": 37, "j": 53, "x": 56, "y": 2, "id": 13104, "type": 10, "rotation": 0}]}
+{"properties": {"id": 13104, "models_2": [17101], "name": "Hazelmere statue"}, "uniques": [{"width": 1, "length": 1, "id": 13104, "models_2": [17101], "name": "Hazelmere statue", "plane": 0, "i": 37, "j": 53, "x": 56, "y": 2, "type": 10, "rotation": 0}]}

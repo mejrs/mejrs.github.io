@@ -89,7 +89,14 @@ import "../leaflet.js";
 
             interpret: function (input) {
                 let numbers = input.match(/\d+/g).map(Number);
-                if (numbers.length >= 2) {
+				if (numbers.length == 1) {
+					return{
+					plane: numbers[0] >> 28,
+					globalX: (numbers[0] >> 14) & 0x3FFF,
+					globalY: numbers[0] & 0x3FFF
+					}
+				}
+                else if (numbers.length >= 2) {
                     numbers.push(0, 0, 0);
                     if (!(numbers[0]in[0, 1, 2, 3])) {
                         numbers.unshift(this._map.getPlane());

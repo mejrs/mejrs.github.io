@@ -1,1 +1,1 @@
-{"properties": {"id": 2723, "ambient": 20, "width": 2, "animationId": 6466, "models_2": [24742], "name": "Swings"}, "uniques": [{"plane": 0, "i": 49, "j": 53, "x": 9, "y": 16, "id": 2723, "type": 10, "rotation": 3}]}
+{"properties": {"id": 2723, "ambient": 20, "width": 2, "animationId": 6466, "models_2": [24742], "name": "Swings"}, "uniques": [{"width": 2, "length": 1, "id": 2723, "ambient": 20, "animationId": 6466, "models_2": [24742], "name": "Swings", "plane": 0, "i": 49, "j": 53, "x": 9, "y": 16, "type": 10, "rotation": 3}]}

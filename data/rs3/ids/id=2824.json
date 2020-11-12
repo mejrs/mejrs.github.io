@@ -1,1 +1,1 @@
-{"properties": {"id": 2824, "models": [{"type": 10, "values": [1464]}], "name": "Hole", "occludes_2": false}, "uniques": [{"plane": 0, "i": 40, "j": 48, "x": 28, "y": 35, "id": 2824, "type": 10, "rotation": 0}]}
+{"properties": {"id": 2824, "models": [{"type": 10, "values": [1464]}], "name": "Hole", "occludes_2": false}, "uniques": [{"width": 1, "length": 1, "id": 2824, "models": [{"type": 10, "values": [1464]}], "name": "Hole", "occludes_2": false, "plane": 0, "i": 40, "j": 48, "x": 28, "y": 35, "type": 10, "rotation": 0}]}

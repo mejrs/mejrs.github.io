@@ -1,1 +1,1 @@
-{"properties": {"id": 14473, "models_2": [14656], "name": "Cage"}, "uniques": [{"plane": 0, "i": 47, "j": 56, "x": 6, "y": 49, "id": 14473, "type": 10, "rotation": 2}]}
+{"properties": {"id": 14473, "models_2": [14656], "name": "Cage"}, "uniques": [{"width": 1, "length": 1, "id": 14473, "models_2": [14656], "name": "Cage", "plane": 0, "i": 47, "j": 56, "x": 6, "y": 49, "type": 10, "rotation": 2}]}

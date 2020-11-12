@@ -1,1 +1,1 @@
-{"properties": {"id": 39573, "ambient": 10, "contrast": 250, "models_2": [40606], "name": "Chair"}, "uniques": [{"plane": 0, "i": 49, "j": 89, "x": 38, "y": 34, "id": 39573, "type": 11, "rotation": 3}]}
+{"properties": {"id": 39573, "ambient": 10, "contrast": 250, "models_2": [40606], "name": "Chair"}, "uniques": [{"width": 1, "length": 1, "id": 39573, "ambient": 10, "contrast": 250, "models_2": [40606], "name": "Chair", "plane": 0, "i": 49, "j": 89, "x": 38, "y": 34, "type": 11, "rotation": 3}]}

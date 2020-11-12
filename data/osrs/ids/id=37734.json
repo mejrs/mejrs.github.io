@@ -1,1 +1,1 @@
-{"properties": {"id": 37734, "isWallOrDoor": 0, "animationId": 8568, "ambient": 30, "contrast": 1100, "models_2": [29140]}, "uniques": [{"plane": 3, "i": 60, "j": 155, "x": 19, "y": 33, "id": 37734, "type": 10, "rotation": 3}]}
+{"properties": {"id": 37734, "isWallOrDoor": 0, "animationId": 8568, "ambient": 30, "contrast": 1100, "models_2": [29140]}, "uniques": [{"width": 1, "length": 1, "id": 37734, "isWallOrDoor": 0, "animationId": 8568, "ambient": 30, "contrast": 1100, "models_2": [29140], "plane": 3, "i": 60, "j": 155, "x": 19, "y": 33, "type": 10, "rotation": 3}]}

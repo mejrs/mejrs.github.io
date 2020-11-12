@@ -1,1 +1,1 @@
-{"properties": {"id": 9335, "width": 2, "length": 2, "shadow": false, "models_2": [27081], "name": "Empty desk"}, "uniques": [{"plane": 0, "i": 29, "j": 78, "x": 31, "y": 37, "id": 9335, "type": 10, "rotation": 0}]}
+{"properties": {"id": 9335, "width": 2, "length": 2, "shadow": false, "models_2": [27081], "name": "Empty desk"}, "uniques": [{"width": 2, "length": 2, "id": 9335, "shadow": false, "models_2": [27081], "name": "Empty desk", "plane": 0, "i": 29, "j": 78, "x": 31, "y": 37, "type": 10, "rotation": 0}]}

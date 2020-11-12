@@ -1,1 +1,1 @@
-{"properties": {"id": 2824, "models_2": [1464], "name": "Hole"}, "uniques": [{"plane": 0, "i": 40, "j": 48, "x": 28, "y": 35, "id": 2824, "type": 10, "rotation": 0}]}
+{"properties": {"id": 2824, "models_2": [1464], "name": "Hole"}, "uniques": [{"width": 1, "length": 1, "id": 2824, "models_2": [1464], "name": "Hole", "plane": 0, "i": 40, "j": 48, "x": 28, "y": 35, "type": 10, "rotation": 0}]}

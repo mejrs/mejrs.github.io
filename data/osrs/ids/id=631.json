@@ -1,1 +1,1 @@
-{"properties": {"id": 631, "width": 2, "length": 2, "models_2": [1421, 1524], "name": "Gem stall"}, "uniques": [{"plane": 0, "i": 51, "j": 50, "x": 22, "y": 11, "id": 631, "type": 10, "rotation": 0}]}
+{"properties": {"id": 631, "width": 2, "length": 2, "models_2": [1421, 1524], "name": "Gem stall"}, "uniques": [{"width": 2, "length": 2, "id": 631, "models_2": [1421, 1524], "name": "Gem stall", "plane": 0, "i": 51, "j": 50, "x": 22, "y": 11, "type": 10, "rotation": 0}]}

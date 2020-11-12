@@ -1,1 +1,1 @@
-{"properties": {"id": 15469, "animationId": 3700, "models_2": [13283], "name": "Embalming tube"}, "uniques": [{"plane": 0, "i": 54, "j": 54, "x": 27, "y": 30, "id": 15469, "type": 10, "rotation": 2}]}
+{"properties": {"id": 15469, "animationId": 3700, "models_2": [13283], "name": "Embalming tube"}, "uniques": [{"width": 1, "length": 1, "id": 15469, "animationId": 3700, "models_2": [13283], "name": "Embalming tube", "plane": 0, "i": 54, "j": 54, "x": 27, "y": 30, "type": 10, "rotation": 2}]}

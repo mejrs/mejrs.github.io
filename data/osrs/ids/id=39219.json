@@ -1,1 +1,1 @@
-{"properties": {"id": 39219, "obstructsGround": true, "mapAreaId": 26, "models": [{"type": 22, "model": 40268}]}, "uniques": [{"plane": 0, "i": 56, "j": 52, "x": 60, "y": 31, "id": 39219, "type": 22, "rotation": 3}]}
+{"properties": {"id": 39219, "obstructsGround": true, "mapAreaId": 26, "models": [{"type": 22, "model": 40268}]}, "uniques": [{"width": 1, "length": 1, "id": 39219, "obstructsGround": true, "mapAreaId": 26, "models": [{"type": 22, "model": 40268}], "plane": 0, "i": 56, "j": 52, "x": 60, "y": 31, "type": 22, "rotation": 3}]}

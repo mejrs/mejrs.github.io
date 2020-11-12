@@ -1,1 +1,1 @@
-{"properties": {"id": 15466, "animationId": 3699, "models_2": [13280], "name": "Stone crusher"}, "uniques": [{"plane": 0, "i": 44, "j": 159, "x": 30, "y": 10, "id": 15466, "type": 10, "rotation": 3}]}
+{"properties": {"id": 15466, "animationId": 3699, "models_2": [13280], "name": "Stone crusher"}, "uniques": [{"width": 1, "length": 1, "id": 15466, "animationId": 3699, "models_2": [13280], "name": "Stone crusher", "plane": 0, "i": 44, "j": 159, "x": 30, "y": 10, "type": 10, "rotation": 3}]}

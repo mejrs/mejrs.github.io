@@ -1,1 +1,1 @@
-{"properties": {"id": 19162, "width": 2, "length": 2, "ambient": 10, "models_2": [19515, 19516], "name": "Frame"}, "uniques": [{"plane": 0, "i": 28, "j": 76, "x": 52, "y": 58, "id": 19162, "type": 11, "rotation": 0}]}
+{"properties": {"id": 19162, "width": 2, "length": 2, "ambient": 10, "models_2": [19515, 19516], "name": "Frame"}, "uniques": [{"width": 2, "length": 2, "id": 19162, "ambient": 10, "models_2": [19515, 19516], "name": "Frame", "plane": 0, "i": 28, "j": 76, "x": 52, "y": 58, "type": 11, "rotation": 0}]}

@@ -1,1 +1,1 @@
-{"properties": {"id": 3298, "actions": ["Read", "None", "None", "None", "None"], "models_2": [759], "name": "Stone tablet"}, "uniques": [{"plane": 0, "i": 37, "j": 151, "x": 54, "y": 7, "id": 3298, "type": 10, "rotation": 2}]}
+{"properties": {"id": 3298, "actions": ["Read", "None", "None", "None", "None"], "models_2": [759], "name": "Stone tablet"}, "uniques": [{"width": 1, "length": 1, "id": 3298, "actions": ["Read", "None", "None", "None", "None"], "models_2": [759], "name": "Stone tablet", "plane": 0, "i": 37, "j": 151, "x": 54, "y": 7, "type": 10, "rotation": 2}]}

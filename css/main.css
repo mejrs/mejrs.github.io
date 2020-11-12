@@ -20,6 +20,10 @@ body {
 	font-size: 30px;
 }
 
+.leaflet-popup-content{
+	overflow-wrap: break-word;
+}
+
 .leaflet-control-message-container{
 	position: relative;
 	top: 5px;
@@ -28,6 +32,35 @@ body {
 	
 }
 
+.object-image-container{
+		text-align:center;
+}
+
+.object-image{
+	max-width : 100%;
+	max-height: 200px;
+
+ }
+ 
+.tabbutton {
+	background: #f8f8f8;
+	display: inline-block;
+	padding: 5px;
+	margin-left: -1px;
+	position: relative;
+	list-style-type: none;
+	left: 1px;
+	top: 1px;
+	cursor: pointer;
+}
+
+.content {
+}
+.tab:target {
+    display: block;
+}
+ 
+ 
 .leaflet-control-message-box {
 
 	float:top;

@@ -1,1 +1,1 @@
-{"properties": {"id": 9130, "mapscene": 56, "models": [{"type": 22, "model": 9050}]}, "uniques": [{"plane": 0, "i": 30, "j": 77, "x": 25, "y": 33, "id": 9130, "type": 22, "rotation": 0}]}
+{"properties": {"id": 9130, "mapscene": 56, "models": [{"type": 22, "model": 9050}]}, "uniques": [{"width": 1, "length": 1, "id": 9130, "mapscene": 56, "models": [{"type": 22, "model": 9050}], "plane": 0, "i": 30, "j": 77, "x": 25, "y": 33, "type": 22, "rotation": 0}]}

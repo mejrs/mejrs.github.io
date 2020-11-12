@@ -1,1 +1,1 @@
-{"properties": {"id": 2133, "contrast": 250, "ambient": 10, "blocksProjectile": false, "models_2": [24840], "name": "Safe"}, "uniques": [{"plane": 2, "i": 25, "j": 57, "x": 10, "y": 31, "id": 2133, "type": 10, "rotation": 2}]}
+{"properties": {"id": 2133, "contrast": 250, "ambient": 10, "blocksProjectile": false, "models_2": [24840], "name": "Safe"}, "uniques": [{"width": 1, "length": 1, "id": 2133, "contrast": 250, "ambient": 10, "blocksProjectile": false, "models_2": [24840], "name": "Safe", "plane": 2, "i": 25, "j": 57, "x": 10, "y": 31, "type": 10, "rotation": 2}]}

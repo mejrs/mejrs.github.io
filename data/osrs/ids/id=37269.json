@@ -1,1 +1,1 @@
-{"properties": {"id": 37269, "isWallOrDoor": 1, "varbitId": 9062, "varpId": -1, "morphs": [35956, 35957, -1]}, "uniques": [{"plane": 0, "i": 41, "j": 52, "x": 20, "y": 38, "id": 37269, "type": 10, "rotation": 2}]}
+{"properties": {"id": 37269, "isWallOrDoor": 1, "varbitId": 9062, "varpId": -1, "morphs": [35956, 35957, -1]}, "uniques": [{"width": 1, "length": 1, "id": 37269, "isWallOrDoor": 1, "varbitId": 9062, "varpId": -1, "morphs": [35956, 35957, -1], "plane": 0, "i": 41, "j": 52, "x": 20, "y": 38, "type": 10, "rotation": 2}]}

@@ -1,1 +1,1 @@
-{"properties": {"id": 39302, "width": 3, "length": 3, "ambient": 10, "contrast": 250, "models_2": [40542], "name": "Shelves"}, "uniques": [{"plane": 0, "i": 56, "j": 52, "x": 46, "y": 27, "id": 39302, "type": 10, "rotation": 0}]}
+{"properties": {"id": 39302, "width": 3, "length": 3, "ambient": 10, "contrast": 250, "models_2": [40542], "name": "Shelves"}, "uniques": [{"width": 3, "length": 3, "id": 39302, "ambient": 10, "contrast": 250, "models_2": [40542], "name": "Shelves", "plane": 0, "i": 56, "j": 52, "x": 46, "y": 27, "type": 10, "rotation": 0}]}

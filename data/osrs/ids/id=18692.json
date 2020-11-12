@@ -1,1 +1,1 @@
-{"properties": {"id": 18692, "length": 2, "models_2": [18779], "name": "Extractor hat-top"}, "uniques": [{"plane": 1, "i": 30, "j": 80, "x": 42, "y": 30, "id": 18692, "type": 10, "rotation": 1}]}
+{"properties": {"id": 18692, "length": 2, "models_2": [18779], "name": "Extractor hat-top"}, "uniques": [{"width": 1, "length": 2, "id": 18692, "models_2": [18779], "name": "Extractor hat-top", "plane": 1, "i": 30, "j": 80, "x": 42, "y": 30, "type": 10, "rotation": 1}]}

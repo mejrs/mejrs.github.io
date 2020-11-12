@@ -1,1 +1,1 @@
-{"properties": {"id": 18007, "ambient": 15, "models_2": [17737], "name": "Corner Table"}, "uniques": [{"plane": 0, "i": 56, "j": 51, "x": 48, "y": 29, "id": 18007, "type": 10, "rotation": 0}]}
+{"properties": {"id": 18007, "ambient": 15, "models_2": [17737], "name": "Corner Table"}, "uniques": [{"width": 1, "length": 1, "id": 18007, "ambient": 15, "models_2": [17737], "name": "Corner Table", "plane": 0, "i": 56, "j": 51, "x": 48, "y": 29, "type": 10, "rotation": 0}]}

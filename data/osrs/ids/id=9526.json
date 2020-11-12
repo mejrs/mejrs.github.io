@@ -1,1 +1,1 @@
-{"properties": {"id": 9526, "models_2": [7908, 9508, 9509], "name": "Shelves"}, "uniques": [{"plane": 0, "i": 47, "j": 50, "x": 4, "y": 61, "id": 9526, "type": 10, "rotation": 1}]}
+{"properties": {"id": 9526, "models_2": [7908, 9508, 9509], "name": "Shelves"}, "uniques": [{"width": 1, "length": 1, "id": 9526, "models_2": [7908, 9508, 9509], "name": "Shelves", "plane": 0, "i": 47, "j": 50, "x": 4, "y": 61, "type": 10, "rotation": 1}]}

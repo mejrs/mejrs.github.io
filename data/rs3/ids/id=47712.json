@@ -1,1 +1,1 @@
-{"properties": {"id": 47712, "width": 2, "models": [{"type": 10, "values": [14994]}], "name": "Altar", "occludes_2": false}, "uniques": [{"plane": 0, "i": 48, "j": 149, "x": 48, "y": 30, "id": 47712, "type": 10, "rotation": 1}]}
+{"properties": {"id": 47712, "width": 2, "models": [{"type": 10, "values": [14994]}], "name": "Altar", "occludes_2": false}, "uniques": [{"width": 2, "length": 1, "id": 47712, "models": [{"type": 10, "values": [14994]}], "name": "Altar", "occludes_2": false, "plane": 0, "i": 48, "j": 149, "x": 48, "y": 30, "type": 10, "rotation": 1}]}

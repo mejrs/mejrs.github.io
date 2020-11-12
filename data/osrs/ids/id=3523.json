@@ -1,1 +1,1 @@
-{"properties": {"id": 3523, "blocksProjectile": false, "models_2": [3572], "name": "Bench"}, "uniques": [{"plane": 0, "i": 53, "j": 52, "x": 45, "y": 9, "id": 3523, "type": 10, "rotation": 0}]}
+{"properties": {"id": 3523, "blocksProjectile": false, "models_2": [3572], "name": "Bench"}, "uniques": [{"width": 1, "length": 1, "id": 3523, "blocksProjectile": false, "models_2": [3572], "name": "Bench", "plane": 0, "i": 53, "j": 52, "x": 45, "y": 9, "type": 10, "rotation": 0}]}

@@ -1,1 +1,1 @@
-{"properties": {"id": 7090, "models_2": [7398], "name": "Globe of Gielinor"}, "uniques": [{"plane": 0, "i": 33, "j": 76, "x": 15, "y": 55, "id": 7090, "type": 10, "rotation": 2}]}
+{"properties": {"id": 7090, "models_2": [7398], "name": "Globe of Gielinor"}, "uniques": [{"width": 1, "length": 1, "id": 7090, "models_2": [7398], "name": "Globe of Gielinor", "plane": 0, "i": 33, "j": 76, "x": 15, "y": 55, "type": 10, "rotation": 2}]}

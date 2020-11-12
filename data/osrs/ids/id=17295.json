@@ -1,1 +1,1 @@
-{"properties": {"id": 17295, "width": 2, "modelLengthOffset": 65519, "models_2": [17280], "name": "Hoisted sail"}, "uniques": [{"plane": 2, "i": 47, "j": 50, "x": 26, "y": 12, "id": 17295, "type": 10, "rotation": 3}]}
+{"properties": {"id": 17295, "width": 2, "modelLengthOffset": 65519, "models_2": [17280], "name": "Hoisted sail"}, "uniques": [{"width": 2, "length": 1, "id": 17295, "modelLengthOffset": 65519, "models_2": [17280], "name": "Hoisted sail", "plane": 2, "i": 47, "j": 50, "x": 26, "y": 12, "type": 10, "rotation": 3}]}

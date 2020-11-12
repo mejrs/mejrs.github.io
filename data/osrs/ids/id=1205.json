@@ -1,1 +1,1 @@
-{"properties": {"id": 1205, "contouredGround": 0, "mergeNormals": true, "models_2": [1654], "name": "Vine"}, "uniques": [{"plane": 0, "i": 43, "j": 45, "x": 17, "y": 41, "id": 1205, "type": 11, "rotation": 2}]}
+{"properties": {"id": 1205, "contouredGround": 0, "mergeNormals": true, "models_2": [1654], "name": "Vine"}, "uniques": [{"width": 1, "length": 1, "id": 1205, "contouredGround": 0, "mergeNormals": true, "models_2": [1654], "name": "Vine", "plane": 0, "i": 43, "j": 45, "x": 17, "y": 41, "type": 11, "rotation": 2}]}

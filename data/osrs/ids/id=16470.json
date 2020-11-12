@@ -1,1 +1,1 @@
-{"properties": {"id": 16470, "ambient": 20, "contrast": 500, "models_2": [29104], "name": "Whetstone"}, "uniques": [{"plane": 0, "i": 48, "j": 54, "x": 36, "y": 40, "id": 16470, "type": 10, "rotation": 2}]}
+{"properties": {"id": 16470, "ambient": 20, "contrast": 500, "models_2": [29104], "name": "Whetstone"}, "uniques": [{"width": 1, "length": 1, "id": 16470, "ambient": 20, "contrast": 500, "models_2": [29104], "name": "Whetstone", "plane": 0, "i": 48, "j": 54, "x": 36, "y": 40, "type": 10, "rotation": 2}]}

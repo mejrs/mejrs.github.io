@@ -1,1 +1,1 @@
-{"properties": {"id": 23256, "mergeNormals": true, "models_2": [24120], "name": "Wreck"}, "uniques": [{"plane": 0, "i": 42, "j": 158, "x": 54, "y": 51, "id": 23256, "type": 10, "rotation": 0}]}
+{"properties": {"id": 23256, "mergeNormals": true, "models_2": [24120], "name": "Wreck"}, "uniques": [{"width": 1, "length": 1, "id": 23256, "mergeNormals": true, "models_2": [24120], "name": "Wreck", "plane": 0, "i": 42, "j": 158, "x": 54, "y": 51, "type": 10, "rotation": 0}]}

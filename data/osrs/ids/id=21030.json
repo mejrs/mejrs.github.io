@@ -1,1 +1,1 @@
-{"properties": {"id": 21030, "isWallOrDoor": 1, "ambient": 25, "width": 2, "models_2": [21650], "name": "Piano"}, "uniques": [{"plane": 0, "i": 41, "j": 162, "x": 43, "y": 26, "id": 21030, "type": 10, "rotation": 2}]}
+{"properties": {"id": 21030, "isWallOrDoor": 1, "ambient": 25, "width": 2, "models_2": [21650], "name": "Piano"}, "uniques": [{"width": 2, "length": 1, "id": 21030, "isWallOrDoor": 1, "ambient": 25, "models_2": [21650], "name": "Piano", "plane": 0, "i": 41, "j": 162, "x": 43, "y": 26, "type": 10, "rotation": 2}]}

@@ -1,1 +1,1 @@
-{"properties": {"id": 14968, "width": 2, "models": [{"type": 10, "values": [14873]}], "name": "Barrow", "occludes_2": false}, "uniques": [{"plane": 0, "i": 36, "j": 57, "x": 51, "y": 46, "id": 14968, "type": 10, "rotation": 1}]}
+{"properties": {"id": 14968, "width": 2, "models": [{"type": 10, "values": [14873]}], "name": "Barrow", "occludes_2": false}, "uniques": [{"width": 2, "length": 1, "id": 14968, "models": [{"type": 10, "values": [14873]}], "name": "Barrow", "occludes_2": false, "plane": 0, "i": 36, "j": 57, "x": 51, "y": 46, "type": 10, "rotation": 1}]}

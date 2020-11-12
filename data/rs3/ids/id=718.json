@@ -1,1 +1,1 @@
-{"properties": {"id": 718, "models": [{"type": 10, "values": [3338]}], "name": "Barrel", "occludes_2": false}, "uniques": [{"plane": 0, "i": 49, "j": 46, "x": 28, "y": 32, "id": 718, "type": 10, "rotation": 2}]}
+{"properties": {"id": 718, "models": [{"type": 10, "values": [3338]}], "name": "Barrel", "occludes_2": false}, "uniques": [{"width": 1, "length": 1, "id": 718, "models": [{"type": 10, "values": [3338]}], "name": "Barrel", "occludes_2": false, "plane": 0, "i": 49, "j": 46, "x": 28, "y": 32, "type": 10, "rotation": 2}]}

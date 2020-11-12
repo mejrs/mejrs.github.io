@@ -1,1 +1,0 @@
-{"properties": {"id": 10230, "mergeNormals": true, "isWallOrDoor": 1, "actions": ["Standard", "Slayer", "None", "Peek", "None"], "mapscene": 7, "models_2": [4567], "name": "Kings' ladder"}, "uniques": [{"plane": 0, "i": 29, "j": 68, "x": 55, "y": 15, "id": 10230, "type": 10, "rotation": 1}]}

@@ -1,1 +1,1 @@
-{"properties": {"id": 16242, "ambient": 40, "isWallOrDoor": 1, "models": [{"type": 4, "model": 16097}], "name": "Crutch"}, "uniques": [{"plane": 0, "i": 36, "j": 69, "x": 57, "y": 39, "id": 16242, "type": 4, "rotation": 2}]}
+{"properties": {"id": 16242, "ambient": 40, "isWallOrDoor": 1, "models": [{"type": 4, "model": 16097}], "name": "Crutch"}, "uniques": [{"width": 1, "length": 1, "id": 16242, "ambient": 40, "isWallOrDoor": 1, "models": [{"type": 4, "model": 16097}], "name": "Crutch", "plane": 0, "i": 36, "j": 69, "x": 57, "y": 39, "type": 4, "rotation": 2}]}

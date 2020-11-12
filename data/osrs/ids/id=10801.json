@@ -1,1 +1,1 @@
-{"properties": {"id": 10801, "width": 2, "length": 2, "models_2": [1421, 1485], "name": "Tailor's materials"}, "uniques": [{"plane": 0, "i": 23, "j": 56, "x": 36, "y": 10, "id": 10801, "type": 11, "rotation": 3}]}
+{"properties": {"id": 10801, "width": 2, "length": 2, "models_2": [1421, 1485], "name": "Tailor's materials"}, "uniques": [{"width": 2, "length": 2, "id": 10801, "models_2": [1421, 1485], "name": "Tailor's materials", "plane": 0, "i": 23, "j": 56, "x": 36, "y": 10, "type": 11, "rotation": 3}]}

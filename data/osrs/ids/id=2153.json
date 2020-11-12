@@ -1,1 +1,1 @@
-{"properties": {"id": 2153, "width": 2, "length": 2, "ambient": 50, "contrast": 1250, "models_2": [1777], "name": "Obelisk of Fire"}, "uniques": [{"plane": 0, "i": 44, "j": 153, "x": 3, "y": 36, "id": 2153, "type": 11, "rotation": 3}]}
+{"properties": {"id": 2153, "width": 2, "length": 2, "ambient": 50, "contrast": 1250, "models_2": [1777], "name": "Obelisk of Fire"}, "uniques": [{"width": 2, "length": 2, "id": 2153, "ambient": 50, "contrast": 1250, "models_2": [1777], "name": "Obelisk of Fire", "plane": 0, "i": 44, "j": 153, "x": 3, "y": 36, "type": 11, "rotation": 3}]}

@@ -1,1 +1,1 @@
-{"properties": {"id": 32629, "width": 2, "length": 2, "models_2": [35289], "name": "Large grave"}, "uniques": [{"plane": 0, "i": 58, "j": 51, "x": 26, "y": 35, "id": 32629, "type": 10, "rotation": 3}]}
+{"properties": {"id": 32629, "width": 2, "length": 2, "models_2": [35289], "name": "Large grave"}, "uniques": [{"width": 2, "length": 2, "id": 32629, "models_2": [35289], "name": "Large grave", "plane": 0, "i": 58, "j": 51, "x": 26, "y": 35, "type": 10, "rotation": 3}]}

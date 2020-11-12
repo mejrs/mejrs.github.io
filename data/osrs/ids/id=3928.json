@@ -1,1 +1,1 @@
-{"properties": {"id": 3928, "width": 3, "length": 3, "models_2": [3977], "name": "Tree"}, "uniques": [{"plane": 0, "i": 36, "j": 71, "x": 31, "y": 38, "id": 3928, "type": 10, "rotation": 3}]}
+{"properties": {"id": 3928, "width": 3, "length": 3, "models_2": [3977], "name": "Tree"}, "uniques": [{"width": 3, "length": 3, "id": 3928, "models_2": [3977], "name": "Tree", "plane": 0, "i": 36, "j": 71, "x": 31, "y": 38, "type": 10, "rotation": 3}]}

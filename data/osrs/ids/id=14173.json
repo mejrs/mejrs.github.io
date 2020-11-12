@@ -1,1 +1,1 @@
-{"properties": {"id": 14173, "width": 3, "length": 2, "models_2": [24056], "name": "Olaf's boat"}, "uniques": [{"plane": 0, "i": 42, "j": 58, "x": 33, "y": 22, "id": 14173, "type": 10, "rotation": 0}]}
+{"properties": {"id": 14173, "width": 3, "length": 2, "models_2": [24056], "name": "Olaf's boat"}, "uniques": [{"width": 3, "length": 2, "id": 14173, "models_2": [24056], "name": "Olaf's boat", "plane": 0, "i": 42, "j": 58, "x": 33, "y": 22, "type": 10, "rotation": 0}]}
