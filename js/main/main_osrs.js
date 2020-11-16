@@ -41,7 +41,11 @@ void function (global) {
             showMapBorder: true,
             enableUrlLocation: true
         });
-	//L.control.display.rect({}).addTo(runescape_map);
+		
+	   L.control.display.OSRSvarbits({
+        show3d: true,
+    }).addTo(runescape_map);
+	
 
 		
     L.control.display.objects({

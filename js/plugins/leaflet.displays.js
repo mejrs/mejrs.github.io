@@ -332,6 +332,96 @@ export default void function (factory) {
     L.control.display.items = function (options) {
         return new L.Control.Display.Items(options);
     }
+	
+	L.Control.Display.OSRSVarbits = L.Control.Display.extend({
+            options: {
+                position: 'bottomleft',
+                title: 'Display varbits',
+                icon: '../mejrs.github.io/images/Flag.png',
+            },
+
+            onAdd: function (map) {
+                return L.Control.Display.prototype.onAdd.call(this, map);
+            },
+			createInterface: function () {
+                let parsedUrl = new URL(window.location.href);
+                let varp = parsedUrl.searchParams.get('varp');
+                let varbit = parsedUrl.searchParams.get('varbit');
+
+                let container = L.DomUtil.create('div', 'leaflet-control-display-expanded');
+
+                let varForm = L.DomUtil.create('form', 'leaflet-control-display-form', container);
+
+                let varpDescription = L.DomUtil.create('label', 'leaflet-control-display-label', varForm);
+                varpDescription.innerHTML = "varp";
+                let varpInput = L.DomUtil.create('input', 'leaflet-control-display-input', varForm);
+                varpInput.setAttribute('name', 'varp');
+				varpInput.setAttribute('type', 'number');
+                varpInput.setAttribute('value', varp);
+                varpInput.setAttribute('autocomplete', 'off');
+
+                let varbitDescription = L.DomUtil.create('label', 'leaflet-control-display-label', varForm);
+                varbitDescription.innerHTML = "varbit";
+                let varbitInput = L.DomUtil.create('input', 'leaflet-control-display-input', varForm);
+                varbitInput.setAttribute('name', 'varbit');
+                varbitInput.setAttribute('type', 'number');
+                varbitInput.setAttribute('value', varbit);
+                varbitInput.setAttribute('autocomplete', 'off');
+
+                let submitButton = L.DomUtil.create('input', 'leaflet-control-display-submit', varForm);
+                submitButton.setAttribute('type', 'submit');
+                submitButton.setAttribute('value', 'Look up');
+
+                varForm.addEventListener('submit', (e) => {
+                    // on form submission, prevent default
+                    e.preventDefault();
+
+                    let formData = new FormData(varForm);
+                    this.submitData(formData);
+                });
+
+                //Instantiate lookup if urlparam data is present
+                if (varp || varbit) {
+                    let formData = new FormData(varForm);
+                    this.submitData(formData);
+                }
+
+                return container;
+            },
+
+            submitData: function (formData) {
+                let varp = formData.get("varp");
+				let varbit = formData.get("varbit");
+                this.invokeVarbitmap(varp, varbit);
+            },
+
+            _varbitmap: undefined,
+
+            invokeVarbitmap: function (varp, varbit) {
+                if (this._varbitmap) {
+                    this._varbitmap.remove();
+                }
+
+                this.setSearchParams({
+                    varp:varp,
+                    varbit: varbit
+                });
+
+                if (varp != undefined && varbit != undefined) {
+
+                    this._varbitmap = L.varbit({
+                            varp: varp,
+                            varbit: varbit,
+                        }).addTo(this._map);
+                }
+
+            },
+        });
+
+    L.control.display.OSRSvarbits = function (options) {
+        return new L.Control.Display.OSRSVarbits(options);
+    }
+
 
     //Just a link for now, may update it to work without redirect
     L.Control.Display.Pathfinder = L.Control.Display.extend({
@@ -350,4 +440,6 @@ export default void function (factory) {
     L.control.display.pathfinder = function (options) {
         return new L.Control.Display.Pathfinder(options);
     }
+	
+	
  });
