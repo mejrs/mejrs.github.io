@@ -2239,4 +2239,59 @@ import './leaflet.js';
     L.crowdSourceMovement = function (options) {
         return new L.CrowdSourceMovement(options);
     }
+	
+	
+	L.Varbit = L.DynamicIcons.extend({
+        onAdd: function (map) { // eslint-disable-line no-unused-vars
+            if (this.options.varp !== undefined && this.options.varp !== '') {
+                fetch(`https://chisel.weirdgloop.org/varbs/mapdata?varplayer=${this.options.varp}`).then(res => res.json())
+                       .then(data => {
+                        this._icon_data = this.parseData(data);
+                        this._icons = {};
+                        this._resetView();
+                        this._update();
+                    }).catch(console.error);
+            } else if (this.options.varbit !== undefined && this.options.varbit !== ''){
+				fetch(`https://chisel.weirdgloop.org/varbs/mapdata?varbit=${this.options.varbit}`).then(res => res.json())
+                       .then(data => {
+                        this._icon_data = this.parseData(data);
+                        this._icons = {};
+                        this._resetView();
+                        this._update();
+                    }).catch(console.error);
+			} else {
+                throw new Error("No varp/varbit specified");
+            }
+        },
+
+        parseData: function (data) {
+            let linear_data = data.map(item => Object.assign(item, item.location));
+
+            linear_data.forEach(item => item.key = this._tileCoordsToKey({
+                    plane: item.p ?? item.plane,
+                    x: (item.x >> 6),
+                    y:  - (item.y >> 6)
+                }));
+
+            let icon_data = {};
+            linear_data.forEach(item => {
+                if (!(item.key in icon_data)) {
+                    icon_data[item.key] = [];
+                }
+                icon_data[item.key].push(item);
+            });
+
+            let reallyLoadEverything = linear_data.length < 10000 ? true : confirm(`Really load ${linear_data.length} markers?`);
+            if (reallyLoadEverything) {
+                this._map.addMessage(`Found ${linear_data.length} locations of this varp/varbit.`);
+                return icon_data;
+            } else {
+                return []
+            }
+        }
+    });
+
+    L.varbit = function (options) {
+        return new L.Varbit(options);
+    }
 });
