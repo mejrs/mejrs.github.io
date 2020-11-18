@@ -347,6 +347,7 @@ export default void function (factory) {
                 let parsedUrl = new URL(window.location.href);
                 let varp = parsedUrl.searchParams.get('varp');
                 let varbit = parsedUrl.searchParams.get('varbit');
+				let varvalue = parsedUrl.searchParams.get('varvalue');
 
                 let container = L.DomUtil.create('div', 'leaflet-control-display-expanded');
 
@@ -367,6 +368,15 @@ export default void function (factory) {
                 varbitInput.setAttribute('type', 'number');
                 varbitInput.setAttribute('value', varbit);
                 varbitInput.setAttribute('autocomplete', 'off');
+				
+				let varvalueDescription = L.DomUtil.create('label', 'leaflet-control-display-label', varForm);
+                varvalueDescription.innerHTML = "value";
+                let varvalueInput = L.DomUtil.create('input', 'leaflet-control-display-input', varForm);
+                varvalueInput.setAttribute('name', 'varvalue');
+                varvalueInput.setAttribute('type', 'number');
+                varvalueInput.setAttribute('value', varvalue);
+                varvalueInput.setAttribute('autocomplete', 'off');
+
 
                 let submitButton = L.DomUtil.create('input', 'leaflet-control-display-submit', varForm);
                 submitButton.setAttribute('type', 'submit');
@@ -392,19 +402,21 @@ export default void function (factory) {
             submitData: function (formData) {
                 let varp = formData.get("varp");
 				let varbit = formData.get("varbit");
-                this.invokeVarbitmap(varp, varbit);
+				let varvalue = formData.get("varvalue");
+                this.invokeVarbitmap(varp, varbit, varvalue);
             },
 
             _varbitmap: undefined,
 
-            invokeVarbitmap: function (varp, varbit) {
+            invokeVarbitmap: function (varp, varbit, varvalue) {
                 if (this._varbitmap) {
                     this._varbitmap.remove();
                 }
 
                 this.setSearchParams({
                     varp:varp,
-                    varbit: varbit
+                    varbit: varbit,
+					varvalue: varvalue
                 });
 
                 if (varp != undefined && varbit != undefined) {
@@ -412,6 +424,7 @@ export default void function (factory) {
                     this._varbitmap = L.varbit({
                             varp: varp,
                             varbit: varbit,
+							varvalue: varvalue
                         }).addTo(this._map);
                 }
 

@@ -2243,25 +2243,22 @@ import './leaflet.js';
 	
 	L.Varbit = L.DynamicIcons.extend({
         onAdd: function (map) { // eslint-disable-line no-unused-vars
+			let url;
+			console.log(this.options)
             if (this.options.varp !== undefined && this.options.varp !== '') {
-                fetch(`https://chisel.weirdgloop.org/varbs/mapdata?varplayer=${this.options.varp}`).then(res => res.json())
-                       .then(data => {
-                        this._icon_data = this.parseData(data);
-                        this._icons = {};
-                        this._resetView();
-                        this._update();
-                    }).catch(console.error);
+                url = this.options.varvalue ? `https://chisel.weirdgloop.org/varbs/mapdata?varplayer=${this.options.varp}&varvalue=${this.options.varvalue}` : `https://chisel.weirdgloop.org/varbs/mapdata?varplayer=${this.options.varp}`;
             } else if (this.options.varbit !== undefined && this.options.varbit !== ''){
-				fetch(`https://chisel.weirdgloop.org/varbs/mapdata?varbit=${this.options.varbit}`).then(res => res.json())
-                       .then(data => {
-                        this._icon_data = this.parseData(data);
-                        this._icons = {};
-                        this._resetView();
-                        this._update();
-                    }).catch(console.error);
+				url = this.options.varvalue ? `https://chisel.weirdgloop.org/varbs/mapdata?varbit=${this.options.varbit}&varvalue=${this.options.varvalue}` : `https://chisel.weirdgloop.org/varbs/mapdata?varbit=${this.options.varbit}`;
 			} else {
                 throw new Error("No varp/varbit specified");
             }
+			fetch(url).then(res => res.json())
+                       .then(data => {
+                        this._icon_data = this.parseData(data);
+                        this._icons = {};
+                        this._resetView();
+                        this._update();
+                    }).catch(console.error);
         },
 
         parseData: function (data) {
