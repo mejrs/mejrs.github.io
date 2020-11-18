@@ -101,13 +101,14 @@ import "../leaflet.js";
                     if (!(numbers[0]in[0, 1, 2, 3])) {
                         numbers.unshift(this._map.getPlane());
                     }
-                    if (numbers[1] > 100 || numbers[2] > 200) {
+                    if (numbers[1] > 200 || numbers[2] > 200) {
                         return {
                             plane: numbers[0],
                             globalX: numbers[1],
                             globalY: numbers[2]
                         }
                     } else {
+						console.log('hi');
                         return {
                             plane: numbers[0],
                             globalX: numbers[1] << 6 | numbers[3],
