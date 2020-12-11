@@ -1,1 +1,1 @@
-{"properties": {"id": 25393, "models": [{"type": 10, "values": [13135]}], "name": "Telescope", "occludes_2": false}, "uniques": [{"width": 1, "length": 1, "id": 25393, "models": [{"type": 10, "values": [13135]}], "name": "Telescope", "occludes_2": false, "plane": 0, "i": 38, "j": 49, "x": 13, "y": 55, "type": 11, "rotation": 2}]}
+{"properties": {"id": 25393, "models": [{"type": 10, "values": [13135]}], "name": "Telescope", "occludes_2": false}, "uniques": [{"plane": 0, "i": 38, "j": 49, "x": 13, "y": 55, "id": 25393, "type": 11, "rotation": 2}]}

@@ -1,0 +1,1 @@
+{"properties": {"id": 27761, "isWallOrDoor": 1, "width": 4, "length": 5, "shadow": false, "models_2": [30297], "name": "Broken rowboat"}, "uniques": [{"width": 4, "length": 5, "id": 27761, "isWallOrDoor": 1, "shadow": false, "models_2": [30297], "name": "Broken rowboat", "plane": 0, "i": 18, "j": 57, "x": 45, "y": 0, "type": 10, "rotation": 2}]}

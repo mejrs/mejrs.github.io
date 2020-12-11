@@ -1,1 +1,1 @@
-{"properties": {"id": 11538, "unknown_19": 0, "ambient": 25, "contrast": 15, "models": [{"type": 2, "values": [51031]}]}, "uniques": [{"width": 1, "length": 1, "id": 11538, "unknown_19": 0, "ambient": 25, "contrast": 15, "models": [{"type": 2, "values": [51031]}], "plane": 0, "i": 48, "j": 152, "x": 10, "y": 43, "type": 2, "rotation": 1}]}
+{"properties": {"id": 11538, "unknown_19": 0, "ambient": 25, "contrast": 15, "models": [{"type": 2, "values": [51031]}]}, "uniques": [{"plane": 0, "i": 48, "j": 152, "x": 10, "y": 43, "id": 11538, "type": 2, "rotation": 1}]}

@@ -1,1 +1,1 @@
-{"properties": {"id": 2723, "models": [{"type": 10, "values": [1260]}], "name": "Kebab", "occludes_2": false}, "uniques": [{"width": 1, "length": 1, "id": 2723, "models": [{"type": 10, "values": [1260]}], "name": "Kebab", "occludes_2": false, "plane": 0, "i": 52, "j": 46, "x": 24, "y": 32, "type": 10, "rotation": 3}]}
+{"properties": {"id": 2723, "models": [{"type": 10, "values": [1260]}], "name": "Kebab", "occludes_2": false}, "uniques": [{"plane": 0, "i": 52, "j": 46, "x": 24, "y": 32, "id": 2723, "type": 10, "rotation": 3}]}

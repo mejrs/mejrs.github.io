@@ -1,1 +1,1 @@
-{"properties": {"id": 52802, "models": [{"type": 10, "values": [12577]}], "name": "Stool", "occludes_2": false}, "uniques": [{"width": 1, "length": 1, "id": 52802, "models": [{"type": 10, "values": [12577]}], "name": "Stool", "occludes_2": false, "plane": 0, "i": 59, "j": 89, "x": 19, "y": 19, "type": 10, "rotation": 0}]}
+{"properties": {"id": 52802, "models": [{"type": 10, "values": [12577]}], "name": "Stool", "occludes_2": false}, "uniques": [{"plane": 0, "i": 59, "j": 89, "x": 19, "y": 19, "id": 52802, "type": 10, "rotation": 0}]}
