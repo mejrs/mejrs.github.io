@@ -81,6 +81,13 @@ void function (global) {
             maxNativeZoom: 2,
             maxZoom: 8,
         });
+		
+	let multimap = L.tileLayer.main('layers/{source}/-1/{zoom}/{plane}_{x}_{y}.png', {
+            source: 'multimap',
+            minZoom: -4,
+            maxNativeZoom: 2,
+            maxZoom: 8,
+        });
 
     let grid = L.grid({
             bounds: [[0, 0], [12800, 6400]],
@@ -113,6 +120,7 @@ void function (global) {
     L.control.layers.urlParam({}, {
         "crowdsourcetransports": crowdsourcetransports,
         "crowdsourceteles": crowdsourceteles,
+		"multimap": multimap,
         "spheres": spheres,
         "nomove": nomove,
         "objects": objects,
