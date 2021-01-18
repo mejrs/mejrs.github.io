@@ -114,7 +114,15 @@ void function (global) {
             dataPath: "data/osrs/NPCList_OSRS.json",
             minZoom: -3,
         });
+		
+	const defaults = {
+    minZoom: -3,
+    maxNativeZoom: 2,
+    maxZoom: 6,
 
+}
+
+	let chunks = L.tileLayer('layers/small_grid/{z}.png', defaults)
 
 
     L.control.layers.urlParam({}, {
@@ -125,7 +133,8 @@ void function (global) {
         "nomove": nomove,
         "objects": objects,
         "npcs": npcs,
-        "grid": grid
+        "grid": grid,
+		"chunks": chunks
     }, {
         collapsed: true,
         position: 'bottomright'
