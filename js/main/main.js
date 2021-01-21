@@ -10,6 +10,8 @@ import "../../js/plugins/leaflet.position.js";
 import "../../js/plugins/leaflet.displays.js";
 import "../../js/plugins/leaflet.urllayers.js";
 import "../../js/plugins/leaflet.dive.js";
+import "../../js/plugins/leaflet.clickcopy.js";
+
 import plot_map_labels from "../../js/plugins/leaflet.labels.js";
 window.plot_map_labels = plot_map_labels;
 
