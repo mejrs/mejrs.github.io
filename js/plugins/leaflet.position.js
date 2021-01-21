@@ -51,6 +51,7 @@ import "../leaflet.js";
                 this._map.on('mousemove', this._updateContainerPointCache, this);
                 this._map.on('move moveend zoom zoomend resize', this.redrawRect, this);
                 this._map.on('mouseout', this.clear.bind(this));
+                this._map.on('dblclick', this.copyCoordinates, this);
 
                 this._container.innerHTML = this.options.emptyString;
 
@@ -195,9 +196,18 @@ import "../leaflet.js";
                 let pxyCoord = this.createString(this._map._plane, this.globalX, this.globalY);
                 this._container.innerHTML = jCoord + "<br>" + pxyCoord;
                 this._rect.setBounds([[this.globalY, this.globalX], [this.globalY + 1, this.globalX + 1]])
-
+            },
+            copyCoordinates: function (e) {
+                if (e.originalEvent.ctrlKey) {
+                    let plane = this._map._plane,
+                        x = this.globalX,
+                        y = this.globalY;
+                    let copyInp = document.getElementById('copy_input');
+                    copyInp.value = "|x="+x+"|y="+y+"|plane="+plane;
+                    copyInp.select()
+                    document.execCommand('copy');
+                }
             }
-
         });
 
     L.Map.addInitHook(function () {
