@@ -95,9 +95,5 @@ body {
 	visibility: inherit;
 	image-rendering: pixelated;
 	image-rendering: crisp-edges;
-}
-
-#copy_input {
-	position: fixed;
-	top: -100px;
-}
+	}
+	

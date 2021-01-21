@@ -223,6 +223,7 @@ export default void function (factory) {
                 if (isNaN(range) || range < 0) {
                     throw new Error(parsedUrl.searchParams.get('range') + " is invalid");
                 }
+
                 let container = L.DomUtil.create('div', 'leaflet-control-display-expanded');
 
                 let npcForm = L.DomUtil.create('form', 'leaflet-control-display-form', container);
@@ -278,6 +279,7 @@ export default void function (factory) {
                 let showHeat = range || false;
                 let names = name && (id === undefined) ? [name] : [];
                 let ids = Number.isInteger(id) ? [id] : [];
+
 
                 this.invokeHeatmap(names, ids, showHeat, range);
 

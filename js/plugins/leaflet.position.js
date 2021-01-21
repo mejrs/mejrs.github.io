@@ -202,10 +202,16 @@ import "../leaflet.js";
                     let plane = this._map._plane,
                         x = this.globalX,
                         y = this.globalY;
-                    let copyInp = document.getElementById('copy_input');
-                    copyInp.value = "|x="+x+"|y="+y+"|plane="+plane;
-                    copyInp.select()
-                    document.execCommand('copy');
+                    let copystr = "|x="+x+"|y="+y+"|plane="+plane;
+                    navigator.permissions.query({name: 'clipboard-write'}).then(result => {
+                        if (result.state == 'granted' || result.state == 'prompt') {
+                            navigator.clipboard.writeText(copystr).then(function() {
+                                console.log('copied to clipboard:', copystr);
+                            }, function() {
+                                console.log('failed to copy to clipboard:', copystr);
+                            });
+                        }
+                    });
                 }
             }
         });
