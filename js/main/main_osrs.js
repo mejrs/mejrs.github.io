@@ -77,6 +77,14 @@ void function (global) {
             maxZoom: 8,
         });
 		
+	let height2005 = L.tileLayer.main('layers/{source}/-1/{zoom}/{plane}_{x}_{y}.png', {
+            source: 'height',
+            minZoom: -4,
+            maxNativeZoom: 2,
+            maxZoom: 8,
+        });
+
+		
 	let multimap = L.tileLayer.main('layers/{source}/-1/{zoom}/{plane}_{x}_{y}.png', {
             source: 'multimap',
             minZoom: -4,
@@ -127,6 +135,7 @@ void function (global) {
         "spheres": spheres,
         "nomove": nomove,
         "objects": objects,
+		"height2005": height2005,
         "npcs": npcs,
         "grid": grid,
 		"chunks": chunks
