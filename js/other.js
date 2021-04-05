@@ -10,7 +10,7 @@ function show_data(map, path, fn = (i) => i) {
         data.forEach(item => {
 
             let icon = L.icon({
-                    iconUrl: '../mejrs.github.io/images/marker-icon.png',
+                    iconUrl: 'images/marker-icon.png',
                     iconSize: [25, 41],
                     iconAnchor: [12, 41],
                     popupAnchor: [1, -34],
@@ -18,7 +18,7 @@ function show_data(map, path, fn = (i) => i) {
                     shadowSize: [41, 41]
                 });
             let greyscaleIcon = L.icon({
-                    iconUrl: '../mejrs.github.io/images/marker-icon-greyscale.png',
+                    iconUrl: 'images/marker-icon-greyscale.png',
                     iconSize: [25, 41],
                     iconAnchor: [12, 41],
                     popupAnchor: [1, -34],

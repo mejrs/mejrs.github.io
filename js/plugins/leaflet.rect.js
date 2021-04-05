@@ -131,7 +131,7 @@ export default void function (factory) {
             options: {
                 position: 'bottomleft',
                 title: 'Dimensions:',
-				icon: '../mejrs.github.io/images/Blue_square_(Prisoner_of_Glouphrie).png'
+				icon: 'images/Blue_square_(Prisoner_of_Glouphrie).png'
             },
 
             createInterface: function () {

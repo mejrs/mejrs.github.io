@@ -333,7 +333,7 @@ import './leaflet.js';
         },
 
         getIds: function (names, ids) {
-            return Promise.resolve((ids && ids.length) ? ids : fetch(`../mejrs.github.io/${this.options.folder}/npc_name_collection.json`)
+            return Promise.resolve((ids && ids.length) ? ids : fetch(`${this.options.folder}/npc_name_collection.json`)
                 .then(response => response.json())
 
                 .then(name_collection => names.flatMap(name => name_collection[name]))
@@ -341,7 +341,7 @@ import './leaflet.js';
                 //remove any names not found
                 .then(namedIds => namedIds.filter(Number.isInteger)))
 
-            .then(namedIds => fetch(`../mejrs.github.io/${this.options.folder}/npc_morph_collection.json`).then(res => res.json())
+            .then(namedIds => fetch(`${this.options.folder}/npc_morph_collection.json`).then(res => res.json())
                 .then(morphs => namedIds.flatMap(id => [...(morphs[id] ?? []), id])))
             //unique elements
             .then(ids => Array.from(new Set(ids)));
@@ -351,7 +351,7 @@ import './leaflet.js';
         fetchData: function (npcNames, npcIds, range) {
             this.getIds(npcNames, npcIds)
             .then(ids => {
-                Promise.allSettled(ids.map(id => fetch(`../mejrs.github.io/${this.options.folder}/npcids/npcid=${id}.json`)))
+                Promise.allSettled(ids.map(id => fetch(`${this.options.folder}/npcids/npcid=${id}.json`)))
 
                 .then(responses => Promise.all(responses.filter(res => res.status === "fulfilled" && res.value.ok).map(res => res.value.json())))
                 .then(data => data.length !== 0 ? data : Promise.reject(new Error("Unable to find any npcids.")))
@@ -362,7 +362,7 @@ import './leaflet.js';
                     let keys = this.array.unique(npcs.flatMap(npc => this.getRange(npc, range)));
 
                     //fetch collision data for these map squares
-                    Promise.allSettled(keys.map(key => fetch(`../mejrs.github.io/${this.options.folder}/collisions/-1/${key}.json`)))
+                    Promise.allSettled(keys.map(key => fetch(`${this.options.folder}/collisions/-1/${key}.json`)))
                     .then(responses => Promise.all(responses.filter(res => res.status === "fulfilled" && res.value.ok).map(res => res.value.json())))
                     .then(mapData => {
 
@@ -553,7 +553,7 @@ import './leaflet.js';
 
         addMarker: function (npc, map) {
             let icon = L.icon({
-                iconUrl: '../mejrs.github.io/images/marker-icon.png',
+                iconUrl: 'images/marker-icon.png',
                 iconSize: [25, 41],
                 iconAnchor: [12, 41],
                 popupAnchor: [1, -34],
@@ -561,7 +561,7 @@ import './leaflet.js';
                 shadowSize: [41, 41]
             });
             let greyscaleIcon = L.icon({
-                iconUrl: '../mejrs.github.io/images/marker-icon-greyscale.png',
+                iconUrl: 'images/marker-icon-greyscale.png',
                 iconSize: [25, 41],
                 iconAnchor: [12, 41],
                 popupAnchor: [1, -34],
@@ -1193,7 +1193,7 @@ import './leaflet.js';
 
         createIcon: function (item) {
             let icon = L.icon({
-                iconUrl: '../mejrs.github.io/images/marker-icon.png',
+                iconUrl: 'images/marker-icon.png',
                 iconSize: [25, 41],
                 iconAnchor: [12, 41],
                 popupAnchor: [1, -34],
@@ -1201,7 +1201,7 @@ import './leaflet.js';
                 shadowSize: [41, 41]
             });
             let greyscaleIcon = L.icon({
-                iconUrl: '../mejrs.github.io/images/marker-icon-greyscale.png',
+                iconUrl: 'images/marker-icon-greyscale.png',
                 iconSize: [25, 41],
                 iconAnchor: [12, 41],
                 popupAnchor: [1, -34],
@@ -1271,7 +1271,7 @@ import './leaflet.js';
 
                 this.getIds(this.options.names, this.options.ids)
                 .then(ids => {
-                    Promise.allSettled(ids.map(id => fetch(`../mejrs.github.io/${this.options.folder}/ids/id=${id}.json`)))
+                    Promise.allSettled(ids.map(id => fetch(`${this.options.folder}/ids/id=${id}.json`)))
                     .then(responses => Promise.all(responses.filter(res => res.status === "fulfilled" && res.value.ok).map(res => res.value.json())))
                     .then(data => {
 
@@ -1289,13 +1289,13 @@ import './leaflet.js';
         },
         getIds: function (names, ids) {
 
-            return Promise.resolve((this.options.ids && this.options.ids.length) ? ids : fetch(`../mejrs.github.io/${this.options.folder}/object_name_collection.json`)
+            return Promise.resolve((this.options.ids && this.options.ids.length) ? ids : fetch(`${this.options.folder}/object_name_collection.json`)
                 .then(response => response.json())
 
                 .then(name_collection => names.flatMap(name => name_collection[name]))
 
                 //remove any names not found
-                .then(namedIds => namedIds.filter(Number.isInteger))).then(namedIds => fetch(`../mejrs.github.io/${this.options.folder}/object_morph_collection.json`).then(res => res.json())
+                .then(namedIds => namedIds.filter(Number.isInteger))).then(namedIds => fetch(`${this.options.folder}/object_morph_collection.json`).then(res => res.json())
                 .then(morphs => namedIds.flatMap(id => [...(morphs[id] ?? []), id])))
             .catch(console.error);
 
@@ -1344,7 +1344,7 @@ import './leaflet.js';
 
         createIcon: function (item) {
             let icon = L.icon({
-                iconUrl: '../mejrs.github.io/images/marker-icon.png',
+                iconUrl: 'images/marker-icon.png',
                 iconSize: [25, 41],
                 iconAnchor: [12, 41],
                 popupAnchor: [1, -34],
@@ -1352,7 +1352,7 @@ import './leaflet.js';
                 shadowSize: [41, 41]
             });
             let greyscaleIcon = L.icon({
-                iconUrl: '../mejrs.github.io/images/marker-icon-greyscale.png',
+                iconUrl: 'images/marker-icon-greyscale.png',
                 iconSize: [25, 41],
                 iconAnchor: [12, 41],
                 popupAnchor: [1, -34],
@@ -1566,14 +1566,14 @@ import './leaflet.js';
                 item.iconUrl = 'https://runescape.wiki/images/' + hash.substr(0, 1) + '/' + hash.substr(0, 2) + '/' + filename;
 
             } else if (item.actuallyInstance) {
-                item.iconUrl = '../mejrs.github.io/sprites/31407-0.png';
+                item.iconUrl = 'sprites/31407-0.png';
             } else if (JSON.stringify(item).includes("agility") || JSON.stringify(item).includes("Agility")) {
                 //shortcut icon
-                item.iconUrl = '../mejrs.github.io/sprites/20763-0.png';
+                item.iconUrl = 'sprites/20763-0.png';
             } else {
 
                 //travel icon
-                item.iconUrl = '../mejrs.github.io/sprites/20764-0.png';
+                item.iconUrl = 'sprites/20764-0.png';
             }
         },
 
@@ -1583,7 +1583,7 @@ import './leaflet.js';
                 const dataPromise = fetch(`https://sheets.googleapis.com/v4/spreadsheets/${this.options.SHEET_ID}/values/A:Z?key=${this.options.API_KEY}`)
                     .then(response => response.ok ? response.json().then(sheet => sheet.values) : response.json().then(oopsie => Promise.reject(new Error(oopsie.error.message)).then(() => {}, console.error)));
 
-                const wateryPromise = fetch(`../mejrs.github.io/data/rs3/keyed_watery.json`).then(response => response.ok ? response.json() : Promise.reject(new Error(response.status + " Error fetching " + response.url))).catch(console.error);
+                const wateryPromise = fetch(`data/rs3/keyed_watery.json`).then(response => response.ok ? response.json() : Promise.reject(new Error(response.status + " Error fetching " + response.url))).catch(console.error);
 
                 const allData = Promise.all([dataPromise, wateryPromise]);
 
@@ -1959,14 +1959,14 @@ import './leaflet.js';
 
         createIcon: function (item) {
             let icon = (item.plane === this._map.getPlane()) ? L.icon({
-                iconUrl: '../mejrs.github.io/images/marker-icon.png',
+                iconUrl: 'images/marker-icon.png',
                 iconSize: [25, 41],
                 iconAnchor: [12, 41],
                 popupAnchor: [1, -34],
                 tooltipAnchor: [16, -28],
                 shadowSize: [41, 41]
             }) : L.icon({
-                iconUrl: '../mejrs.github.io/images/marker-icon-greyscale.png',
+                iconUrl: 'images/marker-icon-greyscale.png',
                 iconSize: [25, 41],
                 iconAnchor: [12, 41],
                 popupAnchor: [1, -34],

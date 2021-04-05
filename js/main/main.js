@@ -70,7 +70,7 @@ void function (global) {
             maxZoom: 5,
         });
 
-    var areas = L.tileLayer.main('../mejrs.github.io/layers/{source}/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
+    var areas = L.tileLayer.main('layers/{source}/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
             source: 'areas_squares',
             minZoom: -4,
             maxNativeZoom: 2,
@@ -119,8 +119,8 @@ void function (global) {
 
         });
     let dive = L.dive(undefined, {
-            shadowTileUrl: '../mejrs.github.io/layers/shadow_squares/-1/{zoom}/{plane}_{x}_{y}.png',
-            shadowErrorTileUrl: '../mejrs.github.io/layers/shadow_squares/shadow_tile.png',
+            shadowTileUrl: 'layers/shadow_squares/-1/{zoom}/{plane}_{x}_{y}.png',
+            shadowErrorTileUrl: 'layers/shadow_squares/shadow_tile.png',
             messageBox: true,
             init: wasm_pathfinder.default,
             dive: wasm_pathfinder.dive
@@ -135,7 +135,7 @@ void function (global) {
         'Teleports': teleports,
         'Transports': transports,
         '0x2': watery,
-        "dive": dive
+        //"dive": dive
     }, {
         collapsed: true,
         position: 'bottomright'

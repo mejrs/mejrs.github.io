@@ -1,3 +1,5 @@
+
+
 let label_path = "data/rs3/map_labels.json";
 let label_locations_path = "data/rs3/map_label_locations.json";
 
@@ -77,9 +79,6 @@ const chunk = (arr, size) =>  Array.from({ length: Math.ceil(arr.length / size) 
     arr.slice(i * size, i * size + size)
   );
 
-const cancel = {
-    addTo: function (map) {}
-}
 
 function plot(L, loc, labels) {
     Object.assign(loc, labels[loc.labelId]);
@@ -96,9 +95,9 @@ function plot(L, loc, labels) {
 }
 
 function int_to_coordinate(integer){
-    p = integer >> 28;
-    x = (integer >> 14) & 0x3FFF;
-    y = integer & 0x3FFF;
+    let p = integer >> 28;
+    let x = (integer >> 14) & 0x3FFF;
+    let y = integer & 0x3FFF;
     return {plane:p, x:x, y:y}
 }
 

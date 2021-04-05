@@ -150,7 +150,7 @@ import "../leaflet.js";
 
             placeCrosshair: function (destination) {
                 let icon = L.icon({
-                        iconUrl: '../mejrs.github.io/sprites/22449-0.png',
+                        iconUrl: 'sprites/22449-0.png',
                         iconAnchor: [25, 25]
                     });
                 let marker = L.marker(L.latLng(destination.globalY + 0.5, destination.globalX + 0.5), {

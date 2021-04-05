@@ -114,7 +114,7 @@ export default void function (factory) {
                 expand: true,
                 position: 'bottomleft',
                 title: 'Display objects',
-                icon: '../mejrs.github.io/images/objects.png',
+                icon: 'images/objects.png',
             },
 
             onAdd: function (map) {
@@ -209,7 +209,7 @@ export default void function (factory) {
                 expand: true,
                 position: 'bottomleft',
                 title: 'Display NPCs',
-                icon: '../mejrs.github.io/images/npcs.png',
+                icon: 'images/npcs.png',
             },
             onAdd: function (map) {
                 return L.Control.Display.prototype.onAdd.call(this, map);
@@ -321,7 +321,7 @@ export default void function (factory) {
             options: {
                 position: 'bottomleft',
                 title: 'Display objects',
-                icon: '../mejrs.github.io/images/items.png',
+                icon: 'images/items.png',
             },
 
             onAdd: function (map) {
@@ -337,7 +337,7 @@ export default void function (factory) {
             options: {
                 position: 'bottomleft',
                 title: 'Display varbits',
-                icon: '../mejrs.github.io/images/Flag.png',
+                icon: 'images/Flag.png',
             },
 
             onAdd: function (map) {
@@ -441,7 +441,7 @@ export default void function (factory) {
             options: {
                 position: 'bottomleft',
                 title: 'Visit Pathfinder',
-                icon: '../mejrs.github.io/images/favicon_skavid_map.png',
+                icon: 'images/favicon_skavid_map.png',
             },
             onAdd: function (map) {
                 let container = L.Control.Display.prototype.onAdd.call(this, map);
