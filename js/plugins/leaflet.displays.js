@@ -1,4 +1,5 @@
 import "../leaflet.js";
+import "./leaflet.objects.js";
 
 export default void function (factory) {
     var L;
@@ -15,9 +16,6 @@ export default void function (factory) {
     }
 }
 (function (L) {
-
-	
-	
     L.Control.Display = L.Control.extend({
             onAdd: function (map) {
                 this._map = map;

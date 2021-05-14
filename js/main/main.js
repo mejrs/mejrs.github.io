@@ -9,16 +9,15 @@ import "../../js/plugins/leaflet.plane.js";
 import "../../js/plugins/leaflet.position.js";
 import "../../js/plugins/leaflet.displays.js";
 import "../../js/plugins/leaflet.urllayers.js";
-import "../../js/plugins/leaflet.dive.js";
+import "../../js/plugins/leaflet.rect.js";
 import "../../js/plugins/leaflet.clickcopy.js";
 
 import plot_map_labels from "../../js/plugins/leaflet.labels.js";
 window.plot_map_labels = plot_map_labels;
 
-import * as wasm_pathfinder from '../../pathfinder/wasm_pathfinder.js';
+
 
 void function (global) {
-    global.wasm_pathfinder = wasm_pathfinder;
     let runescape_map = global.runescape_map = L.gameMap('map', {
 
             maxBounds: [[-1000, -1000], [12800 + 1000, 12800 + 1000]],
@@ -29,7 +28,7 @@ void function (global) {
             planeControl: true,
             positionControl: true,
             messageBox: true,
-
+			rect: true,
             initialMapId: -1,
             plane: 0,
             x: 3200,
@@ -118,14 +117,6 @@ void function (global) {
             filterFn: item => item.type !== "teleport"
 
         });
-    let dive = L.dive(undefined, {
-            shadowTileUrl: 'layers/shadow_squares/-1/{zoom}/{plane}_{x}_{y}.png',
-            shadowErrorTileUrl: 'layers/shadow_squares/shadow_tile.png',
-            messageBox: true,
-            init: wasm_pathfinder.default,
-            dive: wasm_pathfinder.dive
-
-        });
     L.control.layers.urlParam({}, {
         'Icons': icon_squares,
         'Areas': areas,
@@ -135,7 +126,6 @@ void function (global) {
         'Teleports': teleports,
         'Transports': transports,
         '0x2': watery,
-        //"dive": dive
     }, {
         collapsed: true,
         position: 'bottomright'

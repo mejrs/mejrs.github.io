@@ -1265,194 +1265,7 @@ import './leaflet.js';
         return new L.DynamicIcons(options);
     }
 
-    L.Objects = L.DynamicIcons.extend({
-        onAdd: function (map) { // eslint-disable-line no-unused-vars
-            if (this.options.names || this.options.ids) {
-
-                this.getIds(this.options.names, this.options.ids)
-                .then(ids => {
-                    Promise.allSettled(ids.map(id => fetch(`${this.options.folder}/ids/id=${id}.json`)))
-                    .then(responses => Promise.all(responses.filter(res => res.status === "fulfilled" && res.value.ok).map(res => res.value.json())))
-                    .then(data => {
-
-                        this._icon_data = this.parseData(data);
-                        this._icons = {};
-                        this._resetView();
-                        this._update();
-                    }).catch(console.error);
-
-                });
-
-            } else {
-                throw new Error("No objects specified");
-            }
-        },
-        getIds: function (names, ids) {
-
-            return Promise.resolve((this.options.ids && this.options.ids.length) ? ids : fetch(`${this.options.folder}/object_name_collection.json`)
-                .then(response => response.json())
-
-                .then(name_collection => names.flatMap(name => name_collection[name]))
-
-                //remove any names not found
-                .then(namedIds => namedIds.filter(Number.isInteger))).then(namedIds => fetch(`${this.options.folder}/object_morph_collection.json`).then(res => res.json())
-                .then(morphs => namedIds.flatMap(id => [...(morphs[id] ?? []), id])))
-            .catch(console.error);
-
-        },
-
-        parseData: function (data) {
-            let linear_data = data.flatMap(id => id.uniques.map(instance => Object.assign({
-                            name: undefined,
-                            p: instance.plane ?? instance.o.p,
-                            // ?? statements for backwards compatibility with map dumper api change
-                            x: ((instance.i ?? instance.o.i) << 6) | (instance.x ?? instance.o.x),
-                            y: ((instance.j ?? instance.o.j) << 6) | (instance.y ?? instance.o.y),
-                            type: instance.type ?? instance.t,
-                            rotation: instance.rotation ?? instance.r,
-                        }, id.properties)));
-
-            linear_data.forEach(item => item.key = this._tileCoordsToKey({
-                    plane: item.p ?? item.plane,
-                    x: (item.x >> 6),
-                    y:  - (item.y >> 6)
-                }));
-
-            let icon_data = {};
-            linear_data.forEach(item => {
-                if (!(item.key in icon_data)) {
-                    icon_data[item.key] = [];
-                }
-                icon_data[item.key].push(item);
-            });
-
-            let reallyLoadEverything = linear_data.length < 10000 ? true : confirm(`Really load ${linear_data.length} markers?`);
-            if (reallyLoadEverything) {
-                this._map.addMessage(`Found ${linear_data.length} locations of this object.`);
-                return icon_data;
-            } else {
-                return []
-            }
-        }
-    });
-
-    L.objects = function (options) {
-        return new L.Objects(options);
-    }
-
-    L.Objects.OSRS = L.Objects.extend({
-
-        createIcon: function (item) {
-            let icon = L.icon({
-                iconUrl: 'images/marker-icon.png',
-                iconSize: [25, 41],
-                iconAnchor: [12, 41],
-                popupAnchor: [1, -34],
-                tooltipAnchor: [16, -28],
-                shadowSize: [41, 41]
-            });
-            let greyscaleIcon = L.icon({
-                iconUrl: 'images/marker-icon-greyscale.png',
-                iconSize: [25, 41],
-                iconAnchor: [12, 41],
-                popupAnchor: [1, -34],
-                tooltipAnchor: [16, -28],
-                shadowSize: [41, 41]
-            });
-
-            let marker = L.marker([(item.y + 0.5), (item.x + 0.5)], {
-                icon: (item.p ?? item.plane) === this._map.getPlane() ? icon : greyscaleIcon,
-            });
-
-            this._map.on('planechange', function (e) {
-                marker.setIcon((item.p ?? item.plane) === e.newPlane ? icon : greyscaleIcon);
-            });
-
-            let popUpText = Object.entries(item).map(x => x.map(i => typeof i !== "string" ? JSON.stringify(i) : i).join(" = ")).join("<br>");
-            let textContainer = document.createElement('div');
-            textContainer.innerHTML = popUpText;
-            let imgContainer = document.createElement('div');
-            imgContainer.setAttribute('class', 'object-image-container');
-            let container = document.createElement('div');
-            container.appendChild(imgContainer);
-            container.appendChild(textContainer);
-            marker.bindPopup(container, {
-                autoPan: false
-            });
-            marker.on('popupopen', () => {
-                imgContainer.innerHTML = '';
-
-                this.createModelTab(item).then(img => imgContainer.appendChild(img))
-            });
-
-            return marker
-        },
-
-        createModelTab: async function (item) {
-            function getImage(id) {
-                return new Promise((resolve, reject) => { // eslint-disable-line no-unused-vars
-                    if (id === -1) {
-                        reject();
-                    }
-                    let img = new Image();
-                    img.onload = () => resolve(img);
-                    img.onerror = () => reject();
-                    img.src = `https://chisel.weirdgloop.org/static/img/osrs-object/${id}_orient${item.rotation}.png`;
-                })
-            }
-            let ids = Array.from(new Set([item.id, ...(item.morphs ?? []), ...(item.morphs_2 ?? [])]));
-            ids.sort();
-
-            let imgs = await Promise.allSettled(ids.map(getImage));
-
-            if (imgs.length === 1 && imgs[0].status === 'fulfilled') {
-                let img = imgs[0].value
-                    img.setAttribute('class', 'object-image');
-                return img
-            } else if (imgs.some(img => img.status === 'fulfilled')) {
-                let tabs = document.createElement('div');
-                tabs.setAttribute('class', 'tabs');
-
-                let content = document.createElement('div');
-                content.setAttribute('class', 'content');
-
-                imgs.forEach((img_promise, i) => {
-                    if (img_promise.status === 'fulfilled' && (img_promise.value.width > 1 || img_promise.value.height > 1)) {
-						if (!(content.innerHTML)){
-							let img = img_promise.value;
-                            img.setAttribute('class', 'object-image');
-                            content.appendChild(img);
-						}
-
-                        let button = document.createElement('div');
-                        button.innerHTML = ids[i];
-                        button.addEventListener('click', () => {
-                            content.innerHTML = '';
-                            let img = img_promise.value;
-                            img.setAttribute('class', 'object-image');
-                            content.appendChild(img);
-                        });
-                        button.setAttribute('class', 'tabbutton');
-                        tabs.appendChild(button);
-                    }
-                });
-                let combined = document.createElement('div');
-                combined.appendChild(tabs);
-                combined.appendChild(content);
-                return combined
-
-            } else {
-                return document.createElement('div');
-            }
-
-        }
-
-    });
-
-    L.objects.osrs = function (options) {
-        return new L.Objects.OSRS(options);
-    }
-
+   
     L.Teleports = L.DynamicIcons.extend({
         options: {
             updateWhenIdle: L.Browser.mobile,
@@ -2239,26 +2052,25 @@ import './leaflet.js';
     L.crowdSourceMovement = function (options) {
         return new L.CrowdSourceMovement(options);
     }
-	
-	
-	L.Varbit = L.DynamicIcons.extend({
+
+    L.Varbit = L.DynamicIcons.extend({
         onAdd: function (map) { // eslint-disable-line no-unused-vars
-			let url;
-			console.log(this.options)
+            let url;
+            console.log(this.options)
             if (this.options.varp !== undefined && this.options.varp !== '') {
                 url = this.options.varvalue ? `https://chisel.weirdgloop.org/varbs/mapdata?varplayer=${this.options.varp}&varvalue=${this.options.varvalue}` : `https://chisel.weirdgloop.org/varbs/mapdata?varplayer=${this.options.varp}`;
-            } else if (this.options.varbit !== undefined && this.options.varbit !== ''){
-				url = this.options.varvalue ? `https://chisel.weirdgloop.org/varbs/mapdata?varbit=${this.options.varbit}&varvalue=${this.options.varvalue}` : `https://chisel.weirdgloop.org/varbs/mapdata?varbit=${this.options.varbit}`;
-			} else {
+            } else if (this.options.varbit !== undefined && this.options.varbit !== '') {
+                url = this.options.varvalue ? `https://chisel.weirdgloop.org/varbs/mapdata?varbit=${this.options.varbit}&varvalue=${this.options.varvalue}` : `https://chisel.weirdgloop.org/varbs/mapdata?varbit=${this.options.varbit}`;
+            } else {
                 throw new Error("No varp/varbit specified");
             }
-			fetch(url).then(res => res.json())
-                       .then(data => {
-                        this._icon_data = this.parseData(data);
-                        this._icons = {};
-                        this._resetView();
-                        this._update();
-                    }).catch(console.error);
+            fetch(url).then(res => res.json())
+            .then(data => {
+                this._icon_data = this.parseData(data);
+                this._icons = {};
+                this._resetView();
+                this._update();
+            }).catch(console.error);
         },
 
         parseData: function (data) {

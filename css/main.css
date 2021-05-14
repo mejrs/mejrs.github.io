@@ -22,6 +22,7 @@ body {
 
 .leaflet-popup-content{
 	overflow-wrap: break-word;
+	width: 220px;
 }
 
 .leaflet-control-message-container{
