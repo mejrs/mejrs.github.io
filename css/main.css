@@ -12,6 +12,8 @@ body {
   margin: 0 auto;
 }
 
+img.huechange { filter: hue-rotate(120deg); }
+
 .grid {
 	outline: 1px solid white;
 	text-align: center;
