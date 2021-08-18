@@ -58,7 +58,7 @@ void function (global) {
     L.tileLayer.main('layers/{source}/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
             source: 'map_squares',
             minZoom: -4,
-            maxNativeZoom: 4,
+            maxNativeZoom: 3,
             maxZoom: 5,
         }).addTo(runescape_map).bringToBack();
 
