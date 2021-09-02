@@ -38,8 +38,8 @@ export default void function (factory) {
         getData: async function (names, ids) {
 
             if (names && names.length !== 0) {
-                let name_mapping_promise = fetch(`${this.options.folder}/object_name_collection.json`).then(res => res.json());
-                let morph_mapping_promise = fetch(`${this.options.folder}/object_morph_collection.json`).then(res => res.json());
+                let name_mapping_promise = fetch(`${this.options.folder}/object_name_collection.json`).then(res => res.json(), _ => {throw new Error(`Unable to fetch ${this.options.folder}/object_name_collection.json`)});
+                let morph_mapping_promise = fetch(`${this.options.folder}/object_morph_collection.json`).then(res => res.json(),  _ => {throw new Error(`Unable to fetch ${this.options.folder}/object_morph_collection.json`)});
                 let[name_mapping, morph_mapping] = await Promise.all([name_mapping_promise, morph_mapping_promise]);
 
                 let ids = names.flatMap(name => name_mapping[name] ?? []);
