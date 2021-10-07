@@ -55,29 +55,25 @@ void function (global) {
 
     L.control.display.pathfinder().addTo(runescape_map);
 
-    L.tileLayer.main('layers/{source}/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
-            source: 'map_squares',
+    L.tileLayer.main('layers_rs3/map_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
             minZoom: -4,
             maxNativeZoom: 3,
             maxZoom: 5,
         }).addTo(runescape_map).bringToBack();
 
-    var icon_squares = L.tileLayer.main('layers/{source}/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
-            source: 'icon_squares',
+    var icon_squares = L.tileLayer.main('layers_rs3/icon_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
             minZoom: -4,
             maxNativeZoom: 3,
             maxZoom: 5,
         });
 
-    var areas = L.tileLayer.main('layers/{source}/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
-            source: 'areas_squares',
+    var areas = L.tileLayer.main('layers_rs3/areas_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
             minZoom: -4,
             maxNativeZoom: 2,
             maxZoom: 5,
         });
 
-    var shadow = L.tileLayer.main('../mejrs.github.io./layers/{source}/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
-            source: 'shadow_squares',
+    var shadow = L.tileLayer.main('../mejrs.github.io./layers_rs3/shadow_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
             minZoom: -4,
             maxNativeZoom: 2,
             maxZoom: 5,
@@ -88,15 +84,13 @@ void function (global) {
             bounds: [[0, 0], [12800, 6400]],
         });
 
-    var zones = L.tileLayer.main('layers/{source}/{mapId}/{zoom}_0_{x}_{y}.png', {
-            source: 'zonemap_squares',
+    var zones = L.tileLayer.main('layers_rs3/zonemap_squares/{mapId}/{zoom}_0_{x}_{y}.png', {
             minZoom: -4,
             maxNativeZoom: 2,
             maxZoom: 4,
         });
 
-    var watery = L.tileLayer.main('../mejrs.github.io./layers/{source}/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
-            source: 'watery_squares',
+    var watery = L.tileLayer.main('../mejrs.github.io./layers_rs3/watery_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
             minZoom: -4,
             maxNativeZoom: 2,
             maxZoom: 5,

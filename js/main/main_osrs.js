@@ -15,46 +15,42 @@ import "../../js/plugins/leaflet.clickcopy.js";
 void function (global) {
     let runescape_map = global.runescape_map = L.gameMap('map', {
 
-            maxBounds: [[-1000, -1000], [12800 + 1000, 12800 + 1000]],
-            maxBoundsViscosity: 0.5,
+        maxBounds: [[-1000, -1000], [12800 + 1000, 12800 + 1000]],
+        maxBoundsViscosity: 0.5,
 
-            customZoomControl: true,
-            fullscreenControl: true,
-            planeControl: true,
-            positionControl: true,
-            messageBox: true,
-			rect: true,
-            initialMapId: -1,
-            plane: 0,
-            x: 3200,
-            y: 3200,
-            minPlane: 0,
-            maxPlane: 3,
-            minZoom: -4,
-            maxZoom: 8,
-            doubleClickZoom: false,
-            showMapBorder: true,
-            enableUrlLocation: true
-        });
-		
-	   L.control.display.OSRSvarbits({
+        customZoomControl: true,
+        fullscreenControl: true,
+        planeControl: true,
+        positionControl: true,
+        messageBox: true,
+        rect: true,
+        initialMapId: -1,
+        plane: 0,
+        x: 3200,
+        y: 3200,
+        minPlane: 0,
+        maxPlane: 3,
+        minZoom: -4,
+        maxZoom: 8,
+        doubleClickZoom: false,
+        showMapBorder: true,
+        enableUrlLocation: true
+    });
+
+    L.control.display.OSRSvarbits({
         show3d: true,
     }).addTo(runescape_map);
-	
 
-		
     L.control.display.objects({
         folder: "data/osrs",
         show3d: true,
-		displayLayer: L.objects.osrs
+        displayLayer: L.objects.osrs
     }).addTo(runescape_map);
 
     L.control.display.npcs({
         folder: "data/osrs",
         show3d: true,
     }).addTo(runescape_map);
-	
-	
 
     L.tileLayer.main('layers_osrs/mapsquares/-1/{zoom}/{plane}_{x}_{y}.png', {
         minZoom: -4,
@@ -63,70 +59,68 @@ void function (global) {
     }).addTo(runescape_map).bringToBack();
 
     let nomove = L.tileLayer.main('layers_osrs/nomove/-1/{zoom}/{plane}_{x}_{y}.png', {
-            minZoom: -4,
-            maxNativeZoom: 2,
-            maxZoom: 8,
-        });
+        minZoom: -4,
+        maxNativeZoom: 2,
+        maxZoom: 8,
+    });
 
     let objects = L.tileLayer.main('layers_osrs/locations/-1/{zoom}/{plane}_{x}_{y}.png', {
-            minZoom: -4,
-            maxNativeZoom: 2,
-            maxZoom: 8,
-        });
-		
-		
-	let multimap = L.tileLayer.main('layers_osrs/multimap/-1/{zoom}/{plane}_{x}_{y}.png', {
-            minZoom: -4,
-            maxNativeZoom: 2,
-            maxZoom: 8,
-        });
+        minZoom: -4,
+        maxNativeZoom: 2,
+        maxZoom: 8,
+    });
+
+    let multimap = L.tileLayer.main('layers_osrs/multimap/-1/{zoom}/{plane}_{x}_{y}.png', {
+        minZoom: -4,
+        maxNativeZoom: 2,
+        maxZoom: 8,
+    });
 
     let grid = L.grid({
-            bounds: [[0, 0], [12800, 6400]],
-        });
+        bounds: [[0, 0], [12800, 6400]],
+    });
 
     let crowdsourcetransports = L.crowdSourceMovement({
-            data: "data/osrs/transports_osrs.json",
-            show3d: false,
-            minZoom: -4
-        });
+        data: "data/osrs/transports_osrs.json",
+        show3d: false,
+        minZoom: -4
+    });
     let crowdsourceteles = L.crowdSourceMovement({
-            data: "data/osrs/teleports_osrs.json",
-            show3d: false,
-            minZoom: -4
-        });
+        data: "data/osrs/teleports_osrs.json",
+        show3d: false,
+        minZoom: -4
+    });
 
     let spheres = L.crowdSourceMovement({
-            data: "data/osrs/osrs_spheres.json",
-            show3d: false,
-            minZoom: -4
-        });
+        data: "data/osrs/osrs_spheres.json",
+        show3d: false,
+        minZoom: -4
+    });
 
     let npcs = L.dynamicIcons({
-            dataPath: "data/osrs/NPCList_OSRS.json",
-            minZoom: -3,
-        });
-		
-	const defaults = {
-    minZoom: -3,
-    maxNativeZoom: 2,
-    maxZoom: 6,
+        dataPath: "data/osrs/NPCList_OSRS.json",
+        minZoom: -3,
+    });
 
-}
+    const defaults = {
+        minZoom: -3,
+        maxNativeZoom: 2,
+        maxZoom: 6,
 
-	let chunks = L.tileLayer('layers/small_grid/{z}.png', defaults)
+    }
 
+    let chunks = L.tileLayer('layers/small_grid/{z}.png', defaults)
 
-    L.control.layers.urlParam({}, {
+        L.control.layers.urlParam({}, {
         "crowdsourcetransports": crowdsourcetransports,
         "crowdsourceteles": crowdsourceteles,
-		"multimap": multimap,
+        "multimap": multimap,
         "spheres": spheres,
         "nomove": nomove,
         "objects": objects,
         "npcs": npcs,
         "grid": grid,
-		"chunks": chunks
+        "chunks": chunks
     }, {
         collapsed: true,
         position: 'bottomright'

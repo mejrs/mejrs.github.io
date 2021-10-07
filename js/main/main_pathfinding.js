@@ -28,22 +28,21 @@ var runescape_map = L.gameMap('map', {
         showMapBorder: true,
     });
 
-var main = L.tileLayer.main('layers/{source}/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
-        source: 'map_squares',
+var main = L.tileLayer.main('layers_rs3/map_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
         minZoom: -4,
         maxNativeZoom: 3,
         maxZoom: 4,
     }).addTo(runescape_map);
 
-var zones = L.tileLayer.main('layers/{source}/{mapId}/{zoom}_0_{x}_{y}.png', {
-        source: 'zonemap_squares',
+var zones = L.tileLayer.main('layers_rs3/zonemap_squares/{mapId}/{zoom}_0_{x}_{y}.png', {
+        source: '',
         minZoom: -4,
         maxNativeZoom: 2,
         maxZoom: 4,
     }).addTo(runescape_map);
 
-var areas = L.tileLayer.main('layers/{source}/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
-        source: 'areas_squares',
+var areas = L.tileLayer.main('layers_rs3/areas_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
+        source: '',
         minZoom: -4,
         maxNativeZoom: 2,
         maxZoom: 4,

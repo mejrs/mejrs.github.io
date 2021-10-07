@@ -25,16 +25,14 @@ var runescape_map = L.gameMap('map', {
 		loadMarkers: false,
     });
 
-var main = L.tileLayer.main('layers/{source}/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
-		source: 'map_squares',
+var main = L.tileLayer.main('layers_rs3/map_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
         minZoom: -4,
         maxNativeZoom: 3,
         maxZoom: 4,
 		iconMode: "",
     }).addTo(runescape_map);
 
-var icons = L.tileLayer.main('layers/{source}/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
-		source: 'icon_squares',
+var icons = L.tileLayer.main('layers_rs3/icon_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
         minZoom: -4,
         maxNativeZoom: 3,
         maxZoom: 4,
