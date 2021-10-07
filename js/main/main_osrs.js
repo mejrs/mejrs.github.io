@@ -56,37 +56,26 @@ void function (global) {
 	
 	
 
-    L.tileLayer.main('layers/{source}/-1/{zoom}/{plane}_{x}_{y}.png', {
-        source: 'map_squares_osrs',
+    L.tileLayer.main('layers_osrs/mapsquares/-1/{zoom}/{plane}_{x}_{y}.png', {
         minZoom: -4,
-        maxNativeZoom: 2,
+        maxNativeZoom: 4,
         maxZoom: 8,
     }).addTo(runescape_map).bringToBack();
 
-    let nomove = L.tileLayer.main('layers/{source}/-1/{zoom}/{plane}_{x}_{y}.png', {
-            source: 'nomove_squares_osrs',
+    let nomove = L.tileLayer.main('layers_osrs/nomove/-1/{zoom}/{plane}_{x}_{y}.png', {
             minZoom: -4,
             maxNativeZoom: 2,
             maxZoom: 8,
         });
 
-    let objects = L.tileLayer.main('layers/{source}/-1/{zoom}/{plane}_{x}_{y}.png', {
-            source: 'object_squares_osrs',
+    let objects = L.tileLayer.main('layers_osrs/locations/-1/{zoom}/{plane}_{x}_{y}.png', {
             minZoom: -4,
             maxNativeZoom: 2,
             maxZoom: 8,
         });
 		
-	let height2005 = L.tileLayer.main('layers/{source}/-1/{zoom}/{plane}_{x}_{y}.png', {
-            source: 'height',
-            minZoom: -4,
-            maxNativeZoom: 2,
-            maxZoom: 8,
-        });
-
 		
-	let multimap = L.tileLayer.main('layers/{source}/-1/{zoom}/{plane}_{x}_{y}.png', {
-            source: 'multimap',
+	let multimap = L.tileLayer.main('layers_osrs/multimap/-1/{zoom}/{plane}_{x}_{y}.png', {
             minZoom: -4,
             maxNativeZoom: 2,
             maxZoom: 8,
@@ -135,7 +124,6 @@ void function (global) {
         "spheres": spheres,
         "nomove": nomove,
         "objects": objects,
-		"height2005": height2005,
         "npcs": npcs,
         "grid": grid,
 		"chunks": chunks

@@ -360,7 +360,10 @@ export default void function (factory) {
                     }
                     let img = new Image();
                     img.onload = () => resolve(img);
-                    img.onerror = () => reject();
+                    img.onerror = () => {
+						console.warn(`Unable to load https://chisel.weirdgloop.org/static/img/osrs-object/${id}_orient${rotation}.png`);
+						reject();
+					};
                     let rotation = loc.rotation ?? 0;
                     img.src = `https://chisel.weirdgloop.org/static/img/osrs-object/${id}_orient${rotation}.png`;
                 })

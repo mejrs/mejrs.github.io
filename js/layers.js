@@ -253,8 +253,6 @@ import './leaflet.js';
 
         options: {
             errorTileUrl: 'layers/alpha_pixel.png',
-            attribution: '<a href="https://runescape.wiki/w/User:Mejrs/mejrs.github.io">Documentation</a>',
-
         },
 
         // Suppress 404 errors for loading tiles
