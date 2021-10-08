@@ -4,12 +4,12 @@ This was developed as part of the [RuneScape Wiki](https://runescape.wiki/ "The 
 
 ## Cloning
 
-If you'd like you can clone the repository and use it locally. Most of the data used is located in git submodules. As such you need to initialize those as well. You can do that with:
+You can clone the repository and use it locally. Most of the data used is located in git submodules. As such you need to initialize those as well. You can do that with:
 ```text
 git clone --recurse-submodules https://github.com/mejrs/mejrs.github.io.git
 ```
 
-Note that you can not simply open this in your browser - you need to set up a local HTTP server to run it..
+Note that you can not simply open this in your browser - you need to set up a local HTTP server to run it.
 
 ## Maptile rendering
 
