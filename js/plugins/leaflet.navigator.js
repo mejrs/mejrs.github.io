@@ -428,7 +428,7 @@ import "../leaflet.js";
                 let key = this._generateDataKey(plane, latLng);
                 let localX = latLng.lng & 0x3F;
                 let localY = latLng.lat & 0x3F;
-                return fetch(`data/rs3/collisions/-1/${key}.json`)
+                return fetch(`wasm-pathfinder/data/collisions/-1/${key}.json`)
                 .then(response => response.json())
                 .then(data => data[localX][localY].f)
                 .catch(() => undefined);
