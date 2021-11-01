@@ -25,7 +25,7 @@ var runescape_map = L.gameMap('map', {
     showMapBorder: true,
 });
 
-var main = L.tileLayer.main('layers_rs3/map_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
+var main = L.tileLayer.main('layers_rs3/mapsquares/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
     minZoom: -4,
     maxNativeZoom: 3,
     maxZoom: 4,
@@ -64,7 +64,7 @@ let pathfinder = L.dynamicNavigator({
     initEnd: [0, 3339, 3230],
     init: wasm_pathfinder.default,
     algorithm: wasm_pathfinder.race,
-    tileUrl: 'layers_rs3/map_squares/-1/{zoom}/{plane}_{x}_{y}.png',
+    tileUrl: 'layers_rs3/mapsquares/-1/{zoom}/{plane}_{x}_{y}.png',
     errorTileUrl: 'TODO',
     shadowTileUrl: 'layers_rs3/shadow_squares/-1/{zoom}/{plane}_{x}_{y}.png',
     shadowErrorTileUrl: 'layers_rs3/shadow_squares/shadow_tile.png',

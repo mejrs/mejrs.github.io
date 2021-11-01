@@ -55,7 +55,7 @@ void function (global) {
 
     L.control.display.pathfinder().addTo(runescape_map);
 
-    L.tileLayer.main('layers_rs3/map_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
+    L.tileLayer.main('layers_rs3/mapsquares/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
             minZoom: -4,
             maxNativeZoom: 3,
             maxZoom: 5,
