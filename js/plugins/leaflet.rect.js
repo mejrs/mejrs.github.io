@@ -181,7 +181,14 @@ export default void function (factory) {
                 this.south = L.DomUtil.create('input', 'leaflet-control-display-input-number', rectForm);
 				this.south.setAttribute('type', 'number');
 				this.south.setAttribute('name', 'south');
-				
+
+                let centerLabel = L.DomUtil.create('label', 'leaflet-control-display-label', rectForm);
+				centerLabel.innerHTML = "Center";
+                this.center = L.DomUtil.create('input', 'leaflet-control-display-input-number', rectForm);
+				this.center.setAttribute('type', 'text');
+				this.center.setAttribute('name', 'center');
+				this.center.setAttribute('readOnly', true);
+
 				rectForm.addEventListener("change", this.changeRect.bind(this));
 
 				
@@ -208,6 +215,8 @@ export default void function (factory) {
                 let south = bounds.getSouth();
                 let width = east - west;
                 let height = north - south;
+                let center_width = (west + east)/2;
+                let center_height = (north + south)/2;
 
                 this.width.value = width;
                 this.height.value = height;
@@ -216,6 +225,7 @@ export default void function (factory) {
                 this.east.value = east;
                 this.north.value = north;
                 this.south.value = south;
+                this.center.value = `${center_width}, ${center_height}`;
 
             },
 
