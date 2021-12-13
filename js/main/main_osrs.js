@@ -11,6 +11,7 @@ import "../../js/plugins/leaflet.displays.js";
 import "../../js/plugins/leaflet.urllayers.js";
 import "../../js/plugins/leaflet.rect.js";
 import "../../js/plugins/leaflet.clickcopy.js";
+import "../../js/plugins/leaflet.maplabels.js";
 
 void function (global) {
     let runescape_map = global.runescape_map = L.gameMap('map', {
@@ -102,16 +103,25 @@ void function (global) {
         minZoom: -3,
     });
 
+    let labels = L.maplabelGroup({
+        API_KEY: "AIzaSyBrYT0-aS9VpW2Aenm-pJ2UCUhih8cZ4g8",
+        SHEET_ID: "1859HuKw5dXqmfakFd6e6kQ_PEXQA02namB4aNVQ0qpY",
+    });
+
+
     const defaults = {
         minZoom: -3,
         maxNativeZoom: 2,
         maxZoom: 6,
 
-    }
+    };
 
-    let chunks = L.tileLayer('layers/small_grid/{z}.png', defaults)
+
+
+    let chunks = L.tileLayer('layers/small_grid/{z}.png', defaults);
 
         L.control.layers.urlParam({}, {
+            "labels": labels,
         "crowdsourcetransports": crowdsourcetransports,
         "crowdsourceteles": crowdsourceteles,
         "multimap": multimap,

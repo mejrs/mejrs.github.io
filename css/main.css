@@ -99,4 +99,19 @@ img.huechange { filter: hue-rotate(120deg); }
 	image-rendering: pixelated;
 	image-rendering: crisp-edges;
 	}
-	
+
+.map-label-container{
+	width: max-content;
+	position: absolute;
+	overflow-wrap: normal;
+	width: 1500px;
+}
+	   
+
+.map-label{
+	font: 15px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: white;
+	width: 1500px;
+	position: relative;
+}
