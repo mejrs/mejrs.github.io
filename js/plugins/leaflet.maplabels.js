@@ -34,8 +34,13 @@ export default void function (factory) {
         },
 
         create_textlabel: function (x,y,plane, description){
+            
+            let text = document.createTextNode(description);
+            let html = document.createElement('div');
+            html.appendChild(text);
+
             let divicon = L.divIcon({
-                html: description,
+                html: html,
                 iconSize: null, // I love gross hacks! necessary to not make the text 12x12px
                 className: 'map-label'
             });
