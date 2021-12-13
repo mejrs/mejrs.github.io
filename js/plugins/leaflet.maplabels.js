@@ -17,6 +17,9 @@ export default void (function (factory) {
     let MaplabelGroup = L.LayerGroup.extend({
         initialize: function (options) {
             L.LayerGroup.prototype.initialize.call(this, {}, options);
+        },
+
+        onAdd: function (map) {
             let url = `https://sheets.googleapis.com/v4/spreadsheets/${this.options.SHEET_ID}/values/A:Z?key=${this.options.API_KEY}`;
             fetch(url)
                 .then((res) => res.json())
@@ -27,6 +30,11 @@ export default void (function (factory) {
                         this.addLayer(marker);
                     }
                 });
+            L.LayerGroup.prototype.eachLayer.call(this, map.addLayer, map);
+        },
+
+        onRemove: function (map) {
+            L.LayerGroup.prototype.eachLayer.call(this, map.removeLayer, map);
         },
 
         parse_sheet: function (sheet) {
