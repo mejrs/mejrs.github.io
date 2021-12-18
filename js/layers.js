@@ -63,6 +63,7 @@ import './leaflet.js';
                 this._controlContainer.appendChild(this._messageContainer);
             }
 
+
         },
 
         addMessage: function (message) {

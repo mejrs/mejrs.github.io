@@ -65,8 +65,6 @@ img.huechange { filter: hue-rotate(120deg); }
  
  
 .leaflet-control-message-box {
-
-	float:top;
 	position: relative;
 	left: 50%;
 	display: table;
