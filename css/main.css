@@ -100,18 +100,28 @@ img.huechange { filter: hue-rotate(120deg); }
 	image-rendering: crisp-edges;
 	}
 
+
 .map-label-container{
+	display:block;
 	width: max-content;
-	position: absolute;
+	position: relative;
 	overflow-wrap: normal;
-	width: 1500px;
 }
 	   
+.map-label-sub-container{
+	position: relative;
+	max-width:170px;
+}
 
 .map-label{
-	font: 15px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font: 16px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	color: white;
-	width: 1500px;
-	position: relative;
+	stroke:black;
+
+	text-shadow:
+	-1px -1px 0 #000,  
+	 1px -1px 0 #000,
+	 -1px 1px 0 #000,
+	  1px 1px 0 #000;
 }

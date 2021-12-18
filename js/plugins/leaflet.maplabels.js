@@ -31,6 +31,20 @@ export default void (function (factory) {
                     }
                 });
             L.LayerGroup.prototype.eachLayer.call(this, map.addLayer, map);
+
+            map.on("zoomanim", (e) => {
+                let scale = map.getZoomScale(e.zoom, 2);
+
+                let labels = document.getElementsByClassName("map-label-sub-container");
+                for (const label of labels) {
+                    label.setAttribute("style", `transform: scale(${scale})`);
+                }
+
+                let containers = document.getElementsByClassName("map-label-container");
+                for (const container of containers) {
+                    container.setAttribute("style", "transform: translate(-50%, -50%)");
+                }
+            });
         },
 
         onRemove: function (map) {
@@ -43,8 +57,16 @@ export default void (function (factory) {
 
         create_textlabel: function (x, y, plane, description) {
             let text = document.createTextNode(description);
+            let sub = document.createElement("div");
+            sub.appendChild(text);
+            sub.setAttribute("class", "map-label-sub-container");
+            let scale = this._map.getZoomScale(this._map.getZoom(), 2);
+            sub.setAttribute("style", `transform: scale(${scale})`);
+
             let html = document.createElement("div");
-            html.appendChild(text);
+            html.setAttribute("class", "map-label-container");
+            html.setAttribute("style", "transform: translate(-50%, -50%)");
+            html.appendChild(sub);
 
             let divicon = L.divIcon({
                 html: html,
@@ -54,7 +76,6 @@ export default void (function (factory) {
 
             let marker = L.marker([Number(y), Number(x)], {
                 icon: divicon,
-                className: "map-label-container",
             });
 
             return marker;
