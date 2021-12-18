@@ -7,6 +7,6 @@
 [submodule "wasm-pathfinder"]
 	path = wasm-pathfinder
 	url = https://github.com/mejrs/wasm-pathfinder
-[submodule "wasm-pathfinder/wasm-pathfinder-data"]
-	path = wasm-pathfinder/wasm-pathfinder-data
+[submodule "wasm-pathfinder-data"]
+	path = wasm-pathfinder-data
 	url = https://github.com/mejrs/wasm-pathfinder-data
