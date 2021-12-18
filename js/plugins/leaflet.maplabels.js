@@ -35,14 +35,10 @@ export default void (function (factory) {
             map.on("zoomanim", (e) => {
                 let scale = map.getZoomScale(e.zoom, 2);
 
-                let labels = document.getElementsByClassName("map-label-sub-container");
+                let labels = document.getElementsByClassName("map-label-container");
                 for (const label of labels) {
-                    label.setAttribute("style", `transform: scale(${scale})`);
-                }
-
-                let containers = document.getElementsByClassName("map-label-container");
-                for (const container of containers) {
-                    container.setAttribute("style", "transform: translate(-50%, -50%)");
+                    label.firstChild.setAttribute("style", `transform: scale(${scale})`);
+                    label.setAttribute("style", "transform: translate(-50%, -50%)");
                 }
             });
         },
