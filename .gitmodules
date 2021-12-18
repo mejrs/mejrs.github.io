@@ -9,4 +9,4 @@
 	url = https://github.com/mejrs/wasm-pathfinder
 [submodule "wasm-pathfinder/wasm-pathfinder-data"]
 	path = wasm-pathfinder/wasm-pathfinder-data
-	url = https://github.com/mejrs/wasm-pathfinder/wasm-pathfinder-data
+	url = https://github.com/mejrs/wasm-pathfinder-data
