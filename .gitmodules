@@ -10,3 +10,9 @@
 [submodule "wasm-pathfinder-data"]
 	path = wasm-pathfinder-data
 	url = https://github.com/mejrs/wasm-pathfinder-data
+[submodule "data_rs3"]
+	path = data_rs3
+	url = https://github.com/mejrs/data_rs3
+[submodule "data_osrs"]
+	path = data_osrs
+	url = https://github.com/mejrs/data_osrs
