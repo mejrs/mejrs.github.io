@@ -43,13 +43,13 @@ void function (global) {
     }).addTo(runescape_map);
 
     L.control.display.objects({
-        folder: "data/osrs",
+        folder: "data_osrs",
         show3d: true,
         displayLayer: L.objects.osrs
     }).addTo(runescape_map);
 
     L.control.display.npcs({
-        folder: "data/osrs",
+        folder: "data_osrs",
         show3d: true,
     }).addTo(runescape_map);
 
@@ -82,24 +82,24 @@ void function (global) {
     });
 
     let crowdsourcetransports = L.crowdSourceMovement({
-        data: "data/osrs/transports_osrs.json",
+        data: "data_osrs/transports_osrs.json",
         show3d: false,
         minZoom: -4
     });
     let crowdsourceteles = L.crowdSourceMovement({
-        data: "data/osrs/teleports_osrs.json",
+        data: "data_osrs/teleports_osrs.json",
         show3d: false,
         minZoom: -4
     });
 
     let spheres = L.crowdSourceMovement({
-        data: "data/osrs/osrs_spheres.json",
+        data: "data_osrs/osrs_spheres.json",
         show3d: false,
         minZoom: -4
     });
 
     let npcs = L.dynamicIcons({
-        dataPath: "data/osrs/NPCList_OSRS.json",
+        dataPath: "data_osrs/NPCList_OSRS.json",
         minZoom: -3,
     });
 

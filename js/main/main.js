@@ -39,7 +39,7 @@ void (function (global) {
         minZoom: -4,
         maxZoom: 4,
         doubleClickZoom: false,
-        baseMaps: "data/rs3/basemaps.json",
+        baseMaps: "data_rs3/basemaps.json",
         loadMapData: true,
         showMapBorder: true,
         enableUrlLocation: true,
@@ -47,14 +47,14 @@ void (function (global) {
 
     L.control.display
         .objects({
-            folder: "data/rs3",
+            folder: "data_rs3",
             displayLayer: L.objects,
         })
         .addTo(runescape_map);
 
     L.control.display
         .npcs({
-            folder: "data/rs3",
+            folder: "data_rs3",
         })
         .addTo(runescape_map);
 
@@ -81,11 +81,11 @@ void (function (global) {
         maxZoom: 5,
     });
 
-    var shadow = L.tileLayer.main("../mejrs.github.io./layers_rs3/shadow_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png", {
+    var shadow = L.tileLayer.main("layers_rs3/shadow_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png", {
         minZoom: -4,
         maxNativeZoom: 2,
         maxZoom: 5,
-        errorTileUrl: "../mejrs.github.io./layers/shadow_squares/shadow_tile.png",
+        errorTileUrl: "layers/shadow_squares/shadow_tile.png",
     });
 
     var grid = L.grid({
@@ -101,7 +101,7 @@ void (function (global) {
         maxZoom: 4,
     });
 
-    var watery = L.tileLayer.main("../mejrs.github.io./layers_rs3/watery_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png", {
+    var watery = L.tileLayer.main("layers_rs3/watery_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png", {
         minZoom: -4,
         maxNativeZoom: 2,
         maxZoom: 5,
