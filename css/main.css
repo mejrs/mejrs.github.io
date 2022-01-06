@@ -123,3 +123,21 @@ img.huechange { filter: hue-rotate(120deg); }
 	 -1px 1px 0 #000,
 	  1px 1px 0 #000;
 }
+
+.leaflet-center {
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.leaflet-middle {
+    top: 50%;
+    position: absolute;
+    z-index: 1000;
+    pointer-events: none;
+  transform: translate(0%, -50%);
+
+}
+
+.leaflet-center.leaflet-middle {
+  transform: translate(-50%, -50%);
+}

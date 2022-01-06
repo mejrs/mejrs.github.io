@@ -1,0 +1,10 @@
+.leaflet-control-era-range{
+    width: 500px;
+
+    /* Increase the clickable/hoverable area of the slider */
+    display: inline-block;     
+    position: relative;    
+    z-index: 1;     
+    padding: 2em;     
+    margin: -2em; 
+}
