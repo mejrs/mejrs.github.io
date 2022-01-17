@@ -236,12 +236,13 @@ import "./leaflet.js";
 
         setEra: function (newEra) {
             let oldEra = this._era;
+
             if (oldEra !== newEra) {
                 this.fire("preerachange", {
                     oldEra: oldEra,
                     newEra: newEra,
                 });
-                this._era = newEra;
+                this._era = newEra.key;
 
                 this.fire("erachange", {
                     oldEra: oldEra,
