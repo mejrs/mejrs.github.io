@@ -294,7 +294,7 @@ import "./leaflet.js";
             this.options.resolved_error_url = new URL(this.options.errorTileUrl, document.location).href  ;
 
             map.on("erachange", (e) => {
-                this.refresh(this._map._era);
+                this.refresh(map._era);
             });
             return L.TileLayer.prototype.onAdd.call(this, map);
         },
