@@ -26,29 +26,53 @@ import "../leaflet.js";
         onAdd: function (map) {
             this._map = map;
 
-
             let range = L.DomUtil.create("input", "leaflet-control-era-range");
             L.DomEvent.disableClickPropagation(range);
-            range.setAttribute('type', 'range');
-            range.setAttribute('name', 'Era');
+            range.setAttribute("type", "range");
+            range.setAttribute("name", "Era");
 
-            fetch("data/era_structure.json").then (res => res.json()).then(era_structure => {
-                range.setAttribute('min', 0);
-                range.setAttribute('max', era_structure.length - 1);
-                range.addEventListener('change', (e)=> {
-                    let index = e.target.valueAsNumber;
-                    let newEra = era_structure[index].key;
-                    this._map.setEra(newEra);
-                });
-            
-            });
+            fetch(map.options.era_structure)
+                .then((res) => res.json())
 
-            this._messageContainer = L.DomUtil.create('div', 'leaflet-control-era-container');
+                .then((era_structure) => {
+                    range.setAttribute("min", 0);
+                    range.setAttribute("max", era_structure.length - 1);
+
+                    let initial_era = map._era;
+                    let initialSliderPos = era_structure.findIndex((elem) => elem.key === initial_era);
+
+                    if (initialSliderPos !== -1) {
+                        range.setAttribute("value", initialSliderPos);
+                        let attr = map.attributionControl;
+                        let sources = era_structure[initialSliderPos].sources;
+                        if (attr && sources){
+                           
+                            for (const source of sources) {
+                                attr.addAttribution(source);
+                            }
+                        }
+                    } else {
+                        console.error(`Initial era "${initial_era}" not found in "${structure_url}"`);
+                    }
+
+                    //map.era_structure = era_structure;
+
+                    range.addEventListener("change", (e) => {
+                        let index = e.target.valueAsNumber;
+                        this._map.setEra(era_structure[index]);
+                    });
+
+                    range.addEventListener("mouseover", (e) => {
+                        e.target.focus();
+                    });
+                })                .catch(console.error);
+
+            this._messageContainer = L.DomUtil.create("div", "leaflet-control-era-container");
             L.DomEvent.disableClickPropagation(this._messageContainer);
             L.DomEvent.disableScrollPropagation(this._messageContainer);
-            
+
             this._messageContainer.appendChild(range);
-            return this._messageContainer
+            return this._messageContainer;
         },
 
         onRemove: function (map) {
