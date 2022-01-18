@@ -60,7 +60,7 @@ import "../leaflet.js";
                     range.addEventListener("change", (e) => {
                         // Disable the input while tiles are loading
                         range.disabled = true;
-                        range.style.cursor = 'wait';
+                        range.style.cursor = "wait";
 
                         let index = e.target.valueAsNumber;
 
@@ -68,7 +68,7 @@ import "../leaflet.js";
                         ready.finally(() => {
                             // The new map is loaded, restore the ability for users to use the slider
                             range.disabled = false;
-                            range.style.cursor = 'default';
+                            range.style.cursor = "default";
                         });
                     });
 
@@ -112,11 +112,24 @@ import "../leaflet.js";
             fetch(url)
                 .then((res) => res.json())
                 .then((sheet) => {
-                    let markers = this.parse_sheet(sheet);
-                    let marker_iter = markers[Symbol.iterator]();
-                    for (const marker of marker_iter) {
-                        this.addLayer(marker);
+                    this._markers = this.parse_sheet(sheet);
+                    let era = map._era;
+                    for (const marker of this._markers) {
+                        if (marker.start <= era && marker.end >= era) {
+                            this.addLayer(marker);
+                        }
                     }
+
+                    map.on("erachange", (e) => {
+                        for (const marker of this._markers) {
+                            if ((marker.start <= e.newEra.key, era && marker.end >= e.newEra.key)) {
+                                this.addLayer(marker);
+                            } else {
+                                this.removeLayer(marker);
+                            }
+                        }
+                        return Promise.resolve();
+                    });
                 });
             L.LayerGroup.prototype.eachLayer.call(this, map.addLayer, map);
         },
@@ -126,34 +139,34 @@ import "../leaflet.js";
         },
 
         parse_sheet: function (sheet) {
-            return sheet.values.map((row) => this.create_textlabel(...row));
+            return sheet.values.map((row) => this.create_marker(...row));
         },
 
-        create_textlabel: function (p, x, y, start, end, link) {
-            let marker = L.marker([Number(y), Number(x)], {
-            });
+        create_marker: function (p, x, y, start, end, link) {
+            let marker = L.marker([Number(y), Number(x)], {});
+            marker.start = start;
+            marker.end = end;
 
-            fetch(link).then(res => res.text()).then(txt => {
-                let div = document.createElement('a');
-                let raw_description = txt.match(/(?<=meta name="description" content=")(.*?)(?=\"\/\>)/gs)[0];
-                let description = document.createElement('p');
-                description.innerHTML = raw_description;
-                description.setAttribute('class', 'preview-txt');
-                div.appendChild(description);
-    
-                let img_url = txt.match(/(?<=meta property="og:image" content=")(.*?)(?=\"\/\>)/gs)[0];
-                let img = L.DomUtil.create('img', 'preview-image');
-                img.src = img_url;
+            fetch(link)
+                .then((res) => res.text())
+                .then((txt) => {
+                    let div = document.createElement("a");
+                    let raw_description = txt.match(/(?<=meta name="description" content=")(.*?)(?=\"\/\>)/gs)[0];
+                    let description = document.createElement("p");
+                    description.innerHTML = raw_description;
+                    description.setAttribute("class", "preview-txt");
+                    div.appendChild(description);
 
-                div.appendChild(img);
+                    let img_url = txt.match(/(?<=meta property="og:image" content=")(.*?)(?=\"\/\>)/gs)[0];
+                    let img = L.DomUtil.create("img", "preview-image");
+                    img.src = img_url;
 
-                div.href = link;
+                    div.appendChild(img);
 
-                marker.bindPopup(div);
-            });
+                    div.href = link;
 
-
-
+                    marker.bindPopup(div);
+                });
             return marker;
         },
     });
@@ -161,5 +174,4 @@ import "../leaflet.js";
     L.trivia = function (options) {
         return new Trivia(options);
     };
-
 });
