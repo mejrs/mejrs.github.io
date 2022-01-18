@@ -58,8 +58,18 @@ import "../leaflet.js";
                     //map.era_structure = era_structure;
 
                     range.addEventListener("change", (e) => {
+                        // Disable the input while tiles are loading
+                        range.disabled = true;
+                        range.style.cursor = 'wait';
+
                         let index = e.target.valueAsNumber;
-                        this._map.setEra(era_structure[index]);
+
+                        let ready = this._map.setEra(era_structure[index]);
+                        ready.finally(() => {
+                            // The new map is loaded, restore the ability for users to use the slider
+                            range.disabled = false;
+                            range.style.cursor = 'default';
+                        });
                     });
 
                     range.addEventListener("mouseover", (e) => {
@@ -91,4 +101,65 @@ import "../leaflet.js";
     L.control.eraSelector = function (options) {
         return new L.Control.EraSelector(options);
     };
+
+    let Trivia = L.LayerGroup.extend({
+        initialize: function (options) {
+            L.LayerGroup.prototype.initialize.call(this, {}, options);
+        },
+
+        onAdd: function (map) {
+            let url = `https://sheets.googleapis.com/v4/spreadsheets/${this.options.SHEET_ID}/values/A:Z?key=${this.options.API_KEY}`;
+            fetch(url)
+                .then((res) => res.json())
+                .then((sheet) => {
+                    let markers = this.parse_sheet(sheet);
+                    let marker_iter = markers[Symbol.iterator]();
+                    for (const marker of marker_iter) {
+                        this.addLayer(marker);
+                    }
+                });
+            L.LayerGroup.prototype.eachLayer.call(this, map.addLayer, map);
+        },
+
+        onRemove: function (map) {
+            L.LayerGroup.prototype.eachLayer.call(this, map.removeLayer, map);
+        },
+
+        parse_sheet: function (sheet) {
+            return sheet.values.map((row) => this.create_textlabel(...row));
+        },
+
+        create_textlabel: function (p, x, y, start, end, link) {
+            let marker = L.marker([Number(y), Number(x)], {
+            });
+
+            fetch(link).then(res => res.text()).then(txt => {
+                let div = document.createElement('a');
+                let raw_description = txt.match(/(?<=meta name="description" content=")(.*?)(?=\"\/\>)/gs)[0];
+                let description = document.createElement('p');
+                description.innerHTML = raw_description;
+                description.setAttribute('class', 'preview-txt');
+                div.appendChild(description);
+    
+                let img_url = txt.match(/(?<=meta property="og:image" content=")(.*?)(?=\"\/\>)/gs)[0];
+                let img = L.DomUtil.create('img', 'preview-image');
+                img.src = img_url;
+
+                div.appendChild(img);
+
+                div.href = link;
+
+                marker.bindPopup(div);
+            });
+
+
+
+            return marker;
+        },
+    });
+
+    L.trivia = function (options) {
+        return new Trivia(options);
+    };
+
 });

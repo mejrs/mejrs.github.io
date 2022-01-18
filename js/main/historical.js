@@ -15,9 +15,6 @@ import "../../js/plugins/leaflet.maplabels.js";
 import "../../js/plugins/leaflet.era.js";
 import "../../js/layers.js";
 
-import plot_map_labels from "../../js/plugins/leaflet.labels.js";
-window.plot_map_labels = plot_map_labels;
-
 void (function (global) {
     let runescape_map = (global.runescape_map = L.gameMap("map", {
         maxBounds: [
@@ -55,7 +52,7 @@ void (function (global) {
     L.control.display.rect({}).addTo(runescape_map);
 
     let main = L.tileLayer
-        .main("http://d3gljzx24m7f4r.cloudfront.net/{era}/{source}/{mapId}/{zoom}/{plane}_{x}_{y}.png", {
+        .main("https://d3gljzx24m7f4r.cloudfront.net/{era}/{source}/{mapId}/{zoom}/{plane}_{x}_{y}.png", {
             source: "mapsquares",
             minZoom: -4,
             maxNativeZoom: 3,
@@ -66,7 +63,7 @@ void (function (global) {
         .addTo(runescape_map)
         .bringToBack();
 
-    let nomove = L.tileLayer.main("http://d3gljzx24m7f4r.cloudfront.net/{era}/{source}/{mapId}/{zoom}/{plane}_{x}_{y}.png", {
+    let nomove = L.tileLayer.main("https://d3gljzx24m7f4r.cloudfront.net/{era}/{source}/{mapId}/{zoom}/{plane}_{x}_{y}.png", {
         source: "nomove",
         minZoom: -4,
         maxNativeZoom: 2,
@@ -74,7 +71,7 @@ void (function (global) {
         errorTileUrl: "layers/alpha_pixel.png",
     });
 
-    let objects = L.tileLayer.main("http://d3gljzx24m7f4r.cloudfront.net/{era}/{source}/{mapId}/{zoom}/{plane}_{x}_{y}.png", {
+    let objects = L.tileLayer.main("https://d3gljzx24m7f4r.cloudfront.net/{era}/{source}/{mapId}/{zoom}/{plane}_{x}_{y}.png", {
         source: "locations",
         minZoom: -4,
         maxNativeZoom: 2,
@@ -89,6 +86,11 @@ void (function (global) {
         ],
     });
 
+    let trivia = L.trivia({
+        API_KEY: "AIzaSyBrYT0-aS9VpW2Aenm-pJ2UCUhih8cZ4g8",
+        SHEET_ID: "1JaoGIx2SgIgqIQip4tzQhmnx3Z84IKBcpxRxfnw-aCo",
+    }).addTo(runescape_map);
+
     L.control.layers
         .urlParam(
             {},
@@ -96,6 +98,7 @@ void (function (global) {
                 nomove: nomove,
                 objects: objects,
                 grid: grid,
+                trivia: trivia,
             },
             {
                 collapsed: true,

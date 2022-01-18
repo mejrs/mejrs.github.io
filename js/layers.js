@@ -144,10 +144,13 @@ import "./leaflet.js";
             }
 
             for (let [key, value] of Object.entries(parameters)) {
-                if (value !== null) {params.set(key, value);}
+                if (value !== null) {
+                    params.set(key, value);
+                }
             }
             url.search = params;
             history.replaceState(0, "Location", url);
+            return Promise.resolve();
         },
 
         _limitPlane: function (plane) {
@@ -244,12 +247,23 @@ import "./leaflet.js";
                 });
                 this._era = newEra.key;
 
-                this.fire("erachange", {
+                let listeners = this._events["erachange"];
+                let event = {
                     oldEra: oldEra,
                     newEra: newEra,
-                });
+                };
 
-                return this;
+                //prevent _tileOnLoad/_tileReady re-triggering a opacity animation
+                this._fadeAnimated = false;
+
+                // We need to know when the tile is ready,
+                let states = [];
+                for (const listener of listeners) {
+                    let ready = listener.fn.call(listener.ctx || this, event);
+                    states.push(ready);
+                }
+
+                return Promise.all(states);
             }
         },
 
@@ -283,19 +297,19 @@ import "./leaflet.js";
         initialize: function (url, options) {
             this._url = url;
 
-            
             L.setOptions(this, options);
         },
 
         onAdd: function (map) {
-            if (!(this.options.errorTileUrl)){
+            if (!this.options.errorTileUrl) {
                 console.warn(`The ${this.options.source} layer did not have its errorTileUrl option set. This is needed to stop flickering.`);
             }
-            this.options.resolved_error_url = new URL(this.options.errorTileUrl, document.location).href  ;
+            this.options.resolved_error_url = new URL(this.options.errorTileUrl, document.location).href;
 
             map.on("erachange", (e) => {
-                this.refresh(map._era);
+                return this.refresh(map._era);
             });
+
             return L.TileLayer.prototype.onAdd.call(this, map);
         },
 
@@ -324,46 +338,55 @@ import "./leaflet.js";
         // https://github.com/Leaflet/Leaflet/issues/6659
         // using impl from https://gist.github.com/barryhunter/e42f0c4756e34d5d07db4a170c7ec680
         _refreshTileUrl: function (layer, tile, url, sentinel1, sentinel2) {
-            //use a image in background, so that only replace the actual tile, once image is loaded in cache!
-            let img = new Image();
-              
-            img.onload = () => {
-                L.Util.requestAnimFrame(() => {
-                    if (sentinel1 === sentinel2) {
-                        tile.el.src = url;
-                    } else{
-                        // a newer map is already loading, do nothing
-                    }
-                });
-            };
-            img.onerror = () => {
-                L.Util.requestAnimFrame(() => {
-                    if( (sentinel1 === sentinel2) && (tile.el.src !== this.options.resolved_error_url)){
-                        tile.el.src = layer.errorTileUrl;
-                    } else{
-                        // a newer map is already loading, do nothing
-                    }
-                });
-            };
-            img.src = url;
+            return new Promise((resolve, _reject) => {
+                //use a image in background, so that only replace the actual tile, once image is loaded in cache!
+                let img = new Image();
+
+                img.onload = () => {
+                    L.Util.requestAnimFrame(() => {
+                        if (sentinel1 === sentinel2) {
+                            let el = tile.el;
+                            el.onload = resolve;
+                            el.onerror = resolve;
+
+                            el.src = url;
+                        } else {
+                            resolve();
+                            // a newer map is already loading, do nothing
+                        }
+                    });
+                };
+                img.onerror = () => {
+                    L.Util.requestAnimFrame(() => {
+                        if (sentinel1 === sentinel2 && tile.el.src !== this.options.resolved_error_url) {
+                            let el = tile.el;
+                            el.onload = resolve;
+                            el.onerror = resolve;
+
+                            el.src = layer.errorTileUrl;
+                        } else {
+                            resolve();
+                            // a newer map is already loading, do nothing
+                        }
+                    });
+                };
+                img.src = url;
+            });
         },
-        refresh: function (sentinel) {
-            //prevent _tileOnLoad/_tileReady re-triggering a opacity animation
-            let wasAnimated = this._map._fadeAnimated;
-            this._map._fadeAnimated = false;
+        refresh: async function (sentinel) {
             let sentinel_ref = `${sentinel}`;
+
+            let pending_states = [];
 
             for (let tile of Object.values(this._tiles)) {
                 if (tile.current && tile.active) {
                     let newsrc = this.getTileUrl(tile.coords);
-                    this._refreshTileUrl(this, tile, newsrc, sentinel, sentinel_ref);
+                    let state = this._refreshTileUrl(this, tile, newsrc, sentinel, sentinel_ref);
+                    pending_states.push(state);
                 }
             }
 
-            if (wasAnimated)
-                setTimeout(function () {
-                    map._fadeAnimated = wasAnimated;
-                }, 5000);
+            await Promise.all(pending_states);
         },
     });
 
