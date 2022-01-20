@@ -38,7 +38,7 @@ import "../leaflet.js";
                     range.setAttribute("min", 0);
                     range.setAttribute("max", era_structure.length - 1);
 
-                    let initial_era = map.options.era;
+                    let initial_era = map._era;
 
                     let initialSliderPos = era_structure.findIndex((elem) => elem.key === initial_era);
 
@@ -55,16 +55,16 @@ import "../leaflet.js";
                         console.error(`Initial era "${initial_era}" not found in "${map.options.era_structure}"`);
                     }
 
-                    //map.era_structure = era_structure;
-
                     range.addEventListener("change", (e) => {
                         // Disable the input while tiles are loading
                         range.disabled = true;
                         range.style.cursor = "wait";
 
                         let index = e.target.valueAsNumber;
+                        console.log(e);
 
-                        let ready = this._map.setEra(era_structure[index]);
+                        let ready = this._map.setEra(era_structure[index], era_structure[initialSliderPos]);
+                        initialSliderPos = index;
                         ready.finally(() => {
                             // The new map is loaded, restore the ability for users to use the slider
                             range.disabled = false;
@@ -122,7 +122,7 @@ import "../leaflet.js";
 
                     map.on("erachange", (e) => {
                         for (const marker of this._markers) {
-                            if ((marker.start <= e.newEra.key, era && marker.end >= e.newEra.key)) {
+                            if ((marker.start <= e.newEra.key && marker.end >= e.newEra.key)) {
                                 this.addLayer(marker);
                             } else {
                                 this.removeLayer(marker);
@@ -135,6 +135,11 @@ import "../leaflet.js";
         },
 
         onRemove: function (map) {
+            for (const marker of this._markers) {
+                if (marker.start <= era && marker.end >= era) {
+                    this.removeLayer(marker);
+                }
+            }
             L.LayerGroup.prototype.eachLayer.call(this, map.removeLayer, map);
         },
 

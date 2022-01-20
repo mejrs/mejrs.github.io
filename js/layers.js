@@ -237,8 +237,22 @@ import "./leaflet.js";
             }
         },
 
-        setEra: function (newEra) {
-            let oldEra = this._era;
+        updateAttribution: function(e){
+            let attr = this.attributionControl;
+
+            if (attr) {
+                for (const source of e.oldEra.sources) {
+                    attr.removeAttribution(source);
+                }
+
+                for (const source of e.newEra.sources) {
+                    attr.addAttribution(source);
+                }
+            }
+
+        },
+
+        setEra: function (newEra, oldEra) {
 
             if (oldEra !== newEra) {
                 this.fire("preerachange", {
@@ -253,6 +267,8 @@ import "./leaflet.js";
                     newEra: newEra,
                 };
 
+                this.updateAttribution(event);
+
                 //prevent _tileOnLoad/_tileReady re-triggering a opacity animation
                 this._fadeAnimated = false;
 
@@ -263,7 +279,12 @@ import "./leaflet.js";
                     states.push(ready);
                 }
 
-                return Promise.all(states);
+                // Unblock after 1s
+                const timeout = new Promise((resolve, reject) => {
+                    setTimeout(reject, 1000);
+                  });
+                const all_ready = Promise.all(states);
+                return Promise.race([timeout, all_ready]);
             }
         },
 

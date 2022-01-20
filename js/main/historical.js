@@ -34,7 +34,7 @@ void (function (global) {
         initialMapId: -1,
         plane: 0,
         x: 3232,
-		y: 3232,
+        y: 3232,
         zoom: 2,
         minPlane: 0,
         maxPlane: 3,
@@ -42,7 +42,7 @@ void (function (global) {
         maxZoom: 6,
         doubleClickZoom: false,
         iconMode: "",
-        era_structure: "data_rs3/era_structure.json",
+        era_structure: "https://s3.eu-central-1.amazonaws.com/rs.maptiles/era_structure.json",
         era: "rs2_2005_01_18",
         loadMapData: true,
         showMapBorder: true,
@@ -106,4 +106,6 @@ void (function (global) {
             }
         )
         .addTo(runescape_map);
+    let map = document.getElementById("map");
+    map.style.backgroundColor = "grey";
 })(this || window);
