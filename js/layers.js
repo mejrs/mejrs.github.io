@@ -237,23 +237,24 @@ import "./leaflet.js";
             }
         },
 
-        updateAttribution: function(e){
+        updateAttribution: function (e) {
             let attr = this.attributionControl;
 
             if (attr) {
-                for (const source of e.oldEra.sources) {
-                    attr.removeAttribution(source);
+                if (e.oldEra.sources) {
+                    for (const source of e.oldEra.sources) {
+                        attr.removeAttribution(source);
+                    }
                 }
-
-                for (const source of e.newEra.sources) {
-                    attr.addAttribution(source);
+                if (e.newEra.source) {
+                    for (const source of e.newEra.sources) {
+                        attr.addAttribution(source);
+                    }
                 }
             }
-
         },
 
         setEra: function (newEra, oldEra) {
-
             if (oldEra !== newEra) {
                 this.fire("preerachange", {
                     oldEra: oldEra,
@@ -282,7 +283,7 @@ import "./leaflet.js";
                 // Unblock after 1s
                 const timeout = new Promise((resolve, reject) => {
                     setTimeout(reject, 1000);
-                  });
+                });
                 const all_ready = Promise.all(states);
                 return Promise.race([timeout, all_ready]);
             }
@@ -407,7 +408,7 @@ import "./leaflet.js";
                 }
             }
 
-            await Promise.all(pending_states);
+            await Promise.allSettled(pending_states);
         },
     });
 

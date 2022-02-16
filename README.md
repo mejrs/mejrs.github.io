@@ -1,6 +1,10 @@
-# RuneScape Cartography
+# RuneScape Cartography through the ages
 
 This was developed as part of the [RuneScape Wiki](https://runescape.wiki/ "The RuneScape Wiki") maps project.
+
+## Contributing
+
+You cna contribute by searching for old game caches
 
 ## Cloning
 

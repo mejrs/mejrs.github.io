@@ -61,7 +61,6 @@ import "../leaflet.js";
                         range.style.cursor = "wait";
 
                         let index = e.target.valueAsNumber;
-                        console.log(e);
 
                         let ready = this._map.setEra(era_structure[index], era_structure[initialSliderPos]);
                         initialSliderPos = index;
