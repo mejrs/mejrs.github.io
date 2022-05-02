@@ -52,7 +52,16 @@ import "../leaflet.js";
                             }
                         }
                     } else {
-                        console.error(`Initial era "${initial_era}" not found in "${map.options.era_structure}"`);
+                        console.warn(`Initial era "${initial_era}" not found in "${map.options.era_structure}"`);
+
+                        range.setAttribute("value", 0);
+                        let attr = map.attributionControl;
+                        let sources = era_structure[0].sources;
+                        if (attr && sources) {
+                            for (const source of sources) {
+                                attr.addAttribution(source);
+                            }
+                        }
                     }
 
                     range.addEventListener("change", (e) => {
