@@ -20,7 +20,8 @@ export default void function (factory) {
 (function (L) {
 
     L.Objects = L.DynamicIcons.extend({
-        onAdd: function (map) { // eslint-disable-line no-unused-vars
+        onAdd: function (map) {
+            this._map = map;
             if (this.options.names || this.options.ids) {
 
                 this.getData(this.options.names, this.options.ids)
