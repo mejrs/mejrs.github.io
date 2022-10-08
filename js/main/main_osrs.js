@@ -77,6 +77,12 @@ void function (global) {
         maxZoom: 8,
     });
 
+    let implings = L.tileLayer.main('layers_osrs/implings/-1/{zoom}/{plane}_{x}_{y}.png', {
+        minZoom: -4,
+        maxNativeZoom: 2,
+        maxZoom: 8,
+    });
+
     let grid = L.grid({
         bounds: [[0, 0], [12800, 6400]],
     });
@@ -125,6 +131,7 @@ void function (global) {
         "crowdsourcetransports": crowdsourcetransports,
         "crowdsourceteles": crowdsourceteles,
         "multimap": multimap,
+        "implings": implings,
         "spheres": spheres,
         "nomove": nomove,
         "objects": objects,
