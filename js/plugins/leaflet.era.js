@@ -42,8 +42,22 @@ import "../leaflet.js";
 
                     let initialSliderPos = era_structure.findIndex((elem) => elem.key === initial_era);
 
-                    if (initialSliderPos !== -1) {
-                        range.setAttribute("value", initialSliderPos);
+                    if (initialSliderPos === -1) {
+                        console.warn(`Initial era "${initial_era}" not found in "${map.options.era_structure}"`);
+                        initialSliderPos = era_structure.length - 1;
+                        let dummy = {
+                            "stamp": 0,
+                            "game": "",
+                            "year": 0,
+                            "month": 0,
+                            "day": 0,
+                            "key": "",
+                            "sources": []
+                          };
+                        this._map.setEra(era_structure[initialSliderPos], dummy);
+                    }
+
+                    range.setAttribute("value", initialSliderPos);
                         let attr = map.attributionControl;
                         let sources = era_structure[initialSliderPos].sources;
                         if (attr && sources) {
@@ -51,18 +65,6 @@ import "../leaflet.js";
                                 attr.addAttribution(source);
                             }
                         }
-                    } else {
-                        console.warn(`Initial era "${initial_era}" not found in "${map.options.era_structure}"`);
-
-                        range.setAttribute("value", 0);
-                        let attr = map.attributionControl;
-                        let sources = era_structure[0].sources;
-                        if (attr && sources) {
-                            for (const source of sources) {
-                                attr.addAttribution(source);
-                            }
-                        }
-                    }
 
                     range.addEventListener("change", (e) => {
                         // Disable the input while tiles are loading

@@ -399,9 +399,9 @@ import "./leaflet.js";
             let sentinel_ref = `${sentinel}`;
 
             let pending_states = [];
-
+            
             for (let tile of Object.values(this._tiles)) {
-                if (tile.current && tile.active) {
+                if (tile.current && (tile.active !== false)) {
                     let newsrc = this.getTileUrl(tile.coords);
                     let state = this._refreshTileUrl(this, tile, newsrc, sentinel, sentinel_ref);
                     pending_states.push(state);
