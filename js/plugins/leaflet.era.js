@@ -40,6 +40,11 @@ import "../leaflet.js";
 
                     let initial_era = map._era;
 
+                    /// Permit a layer named "dummy" outside the era structure
+                    if (initial_era === "dummy") {
+                        return
+                    }
+
                     let initialSliderPos = era_structure.findIndex((elem) => elem.key === initial_era);
 
                     if (initialSliderPos === -1) {
