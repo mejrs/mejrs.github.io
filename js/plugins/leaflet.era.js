@@ -87,47 +87,60 @@ import "../leaflet.js";
                         });
                     });
 
-                    range.addEventListener("mouseover", (e) => {
-                        e.target.focus();
+                    function advance(){
+                        let current = Number(range.value);
+                        let next = current + 1;
+
+                        if (next <= era_structure.length - 1) {
+                            range.disabled = true;
+                            range.style.cursor = "wait";
+
+                            let ready = map.setEra(era_structure[next], era_structure[current]);
+                            range.setAttribute("value", next);
+
+                            ready.finally(() => {
+                                // The new map is loaded, restore the ability for users to use the slider
+                                range.disabled = false;
+                                range.style.cursor = "default";
+                            });
+                        }
+                    }
+                    function recede(){
+                        let current = Number(range.value);
+                        let next = current - 1;
+                        if (next >= 0) {
+                            range.disabled = true;
+                            range.style.cursor = "wait";
+
+                            let ready = map.setEra(era_structure[next], era_structure[current]);
+                            range.setAttribute("value", next);
+
+                            ready.finally(() => {
+                                // The new map is loaded, restore the ability for users to use the slider
+                                range.disabled = false;
+                                range.style.cursor = "default";
+                            });
+                        }
+                    }
+
+                    range.addEventListener("wheel", (e) => {
+                        console.log(e);
+                        if (e.wheelDelta > 0) {
+                            advance();
+                        }
+                        if (e.wheelDelta < 0) {
+                            recede();
+                        }
                     });
 
 
                     map.addEventListener("keydown", (e) => {
                         if (e.originalEvent.keyCode === 33) {
-                            let current = Number(range.value);
-                            let next = current + 1;
-
-                            if (next <= era_structure.length - 1) {
-                                range.disabled = true;
-                                range.style.cursor = "wait";
-
-                                let ready = this._map.setEra(era_structure[next], era_structure[current]);
-                                range.setAttribute("value", next);
-
-                                ready.finally(() => {
-                                    // The new map is loaded, restore the ability for users to use the slider
-                                    range.disabled = false;
-                                    range.style.cursor = "default";
-                                });
-                            }
+                            advance();
                         }
 
                         if (e.originalEvent.keyCode === 34) {
-                            let current = Number(range.value);
-                            let next = current - 1;
-                            if (next >= 0) {
-                                range.disabled = true;
-                                range.style.cursor = "wait";
-
-                                let ready = this._map.setEra(era_structure[next], era_structure[current]);
-                                range.setAttribute("value", next);
-
-                                ready.finally(() => {
-                                    // The new map is loaded, restore the ability for users to use the slider
-                                    range.disabled = false;
-                                    range.style.cursor = "default";
-                                });
-                            }
+                            recede();
                         }
                     });
                 })
