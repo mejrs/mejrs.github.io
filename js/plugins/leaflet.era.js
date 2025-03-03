@@ -75,7 +75,6 @@ import "../leaflet.js";
                         // Disable the input while tiles are loading
                         range.disabled = true;
                         range.style.cursor = "wait";
-
                         let index = e.target.valueAsNumber;
 
                         let ready = this._map.setEra(era_structure[index], era_structure[initialSliderPos]);
@@ -90,20 +89,19 @@ import "../leaflet.js";
                     function advance(){
                         let current = Number(range.value);
                         let next = current + 1;
-
                         if (next <= era_structure.length - 1) {
                             range.disabled = true;
                             range.style.cursor = "wait";
 
                             let ready = map.setEra(era_structure[next], era_structure[current]);
-                            range.setAttribute("value", next);
+                            range.value= next;
 
                             ready.finally(() => {
                                 // The new map is loaded, restore the ability for users to use the slider
                                 range.disabled = false;
                                 range.style.cursor = "default";
                             });
-                        }
+                        } 
                     }
                     function recede(){
                         let current = Number(range.value);
@@ -113,7 +111,7 @@ import "../leaflet.js";
                             range.style.cursor = "wait";
 
                             let ready = map.setEra(era_structure[next], era_structure[current]);
-                            range.setAttribute("value", next);
+                            range.value = next;
 
                             ready.finally(() => {
                                 // The new map is loaded, restore the ability for users to use the slider
@@ -124,7 +122,6 @@ import "../leaflet.js";
                     }
 
                     range.addEventListener("wheel", (e) => {
-                        console.log(e);
                         if (e.wheelDelta > 0) {
                             advance();
                         }
