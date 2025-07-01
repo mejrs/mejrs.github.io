@@ -16,11 +16,11 @@ import "../leaflet.js";
 })(function (L) {
     L.Map.addInitHook(function () {
         this.on('dblclick', e => {
-            if (e.originalEvent.ctrlKey) {
+            if (e.originalEvent.shiftKey || e.originalEvent.ctrlKey) {
                 let plane = this.getPlane();
                 let x = Math.floor(e.latlng.lng);
                 let y = Math.floor(e.latlng.lat);
-                let copystr = `|x=${x}|y=${y}|plane=${plane}`;
+                let copystr = e.originalEvent.ctrlKey ? `|x=${x}|y=${y}|plane=${plane}` : `|${x},${y}`;
                 navigator.clipboard.writeText(copystr).then(() =>
                     this.addMessage(`Copied to clipboard: ${copystr}`), () => console.error("Cannot copy text to clipboard"));
             }
