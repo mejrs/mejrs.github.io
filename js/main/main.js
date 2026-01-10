@@ -126,6 +126,18 @@ void (function (global) {
         SHEET_ID: "1apnt91ud4GkWsfuxJTXdhrGjyGFL0hNz6jYDED3abX0",
     });
 
+    let nomove = L.tileLayer.main('layers_rs3/nomove/-1/{zoom}/{plane}_{x}_{y}.png', {
+        minZoom: -4,
+        maxNativeZoom: 2,
+        maxZoom: 8,
+    });
+
+    let objects = L.tileLayer.main('layers_rs3/locations/-1/{zoom}/{plane}_{x}_{y}.png', {
+        minZoom: -4,
+        maxNativeZoom: 2,
+        maxZoom: 8,
+    });
+
     L.control.layers
         .urlParam(
             {},
@@ -139,6 +151,8 @@ void (function (global) {
                 Teleports: teleports,
                 Transports: transports,
                 "0x2": watery,
+                        "nomove": nomove,
+        "objects": objects,
             },
             {
                 collapsed: true,
