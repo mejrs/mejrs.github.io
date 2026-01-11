@@ -53,36 +53,19 @@ void function (global) {
         show3d: true,
     }).addTo(runescape_map);
 
-    L.tileLayer.main('layers_osrs/mapsquares/-1/{zoom}/{plane}_{x}_{y}.png', {
+    L.tileLayer.main('https://raw.githubusercontent.com/mejrs/layers_osrs/refs/heads/master/mapsquares/-1/{zoom}/{plane}_{x}_{y}.png', {
         minZoom: -4,
         maxNativeZoom: 4,
         maxZoom: 8,
     }).addTo(runescape_map).bringToBack();
 
-    let nomove = L.tileLayer.main('layers_osrs/nomove/-1/{zoom}/{plane}_{x}_{y}.png', {
+    let nomove = L.tileLayer.main('https://raw.githubusercontent.com/mejrs/layers_osrs/refs/heads/master/nomove/-1/{zoom}/{plane}_{x}_{y}.png', {
         minZoom: -4,
         maxNativeZoom: 2,
         maxZoom: 8,
     });
 
-    let objects = L.tileLayer.main('layers_osrs/locations/-1/{zoom}/{plane}_{x}_{y}.png', {
-        minZoom: -4,
-        maxNativeZoom: 2,
-        maxZoom: 8,
-    });
-
-    let multimap = L.tileLayer.main('layers_osrs/multimap/-1/{zoom}/{plane}_{x}_{y}.png', {
-        minZoom: -4,
-        maxNativeZoom: 2,
-        maxZoom: 8,
-    });
-
-    let implings = L.tileLayer.main('layers_osrs/implings/-1/{zoom}/{plane}_{x}_{y}.png', {
-        minZoom: -4,
-        maxNativeZoom: 2,
-        maxZoom: 8,
-    });
-    let deaths = L.tileLayer.main('layers_osrs/deaths/-1/{zoom}/{plane}_{x}_{y}.png', {
+    let objects = L.tileLayer.main('https://raw.githubusercontent.com/mejrs/layers_osrs/refs/heads/master/locations/-1/{zoom}/{plane}_{x}_{y}.png', {
         minZoom: -4,
         maxNativeZoom: 2,
         maxZoom: 8,

@@ -25,20 +25,20 @@ var runescape_map = L.gameMap('map', {
     showMapBorder: true,
 });
 
-var main = L.tileLayer.main('layers_rs3/mapsquares/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
+var main = L.tileLayer.main('https://raw.githubusercontent.com/mejrs/layers_rs3/refs/heads/master/mapsquares/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
     minZoom: -4,
     maxNativeZoom: 3,
     maxZoom: 4,
 }).addTo(runescape_map);
 
-var zones = L.tileLayer.main('layers_rs3/zonemap_squares/{mapId}/{zoom}_0_{x}_{y}.png', {
+var zones = L.tileLayer.main('https://raw.githubusercontent.com/mejrs/layers_rs3/refs/heads/master/zonemap_squares/{mapId}/{zoom}_0_{x}_{y}.png', {
     source: '',
     minZoom: -4,
     maxNativeZoom: 2,
     maxZoom: 4,
 }).addTo(runescape_map);
 
-var areas = L.tileLayer.main('layers_rs3/areas_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
+var areas = L.tileLayer.main('https://raw.githubusercontent.com/mejrs/layers_rs3/refs/heads/master/areas_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
     source: '',
     minZoom: -4,
     maxNativeZoom: 2,
@@ -64,10 +64,10 @@ let pathfinder = L.dynamicNavigator({
     initEnd: [0, 3339, 3230],
     init: wasm_pathfinder.default,
     algorithm: wasm_pathfinder.race,
-    tileUrl: 'layers_rs3/mapsquares/-1/{zoom}/{plane}_{x}_{y}.png',
+    tileUrl: 'https://raw.githubusercontent.com/mejrs/layers_rs3/refs/heads/master/mapsquares/-1/{zoom}/{plane}_{x}_{y}.png',
     errorTileUrl: 'TODO',
-    shadowTileUrl: 'layers_rs3/shadow_squares/-1/{zoom}/{plane}_{x}_{y}.png',
-    shadowErrorTileUrl: 'layers_rs3/shadow_squares/shadow_tile.png',
+    shadowTileUrl: 'https://raw.githubusercontent.com/mejrs/layers_rs3/refs/heads/master/shadow_squares/-1/{zoom}/{plane}_{x}_{y}.png',
+    shadowErrorTileUrl: 'https://raw.githubusercontent.com/mejrs/layers_rs3/refs/heads/master/shadow_squares/shadow_tile.png',
     messageBox: true
 }).addTo(runescape_map);
 
