@@ -75,36 +75,11 @@ void (function (global) {
         maxZoom: 5,
     });
 
-    var areas = L.tileLayer.main("layers_rs3/areas_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png", {
-        minZoom: -4,
-        maxNativeZoom: 2,
-        maxZoom: 5,
-    });
-
-    var shadow = L.tileLayer.main("layers_rs3/shadow_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png", {
-        minZoom: -4,
-        maxNativeZoom: 2,
-        maxZoom: 5,
-        errorTileUrl: "layers/shadow_squares/shadow_tile.png",
-    });
-
     var grid = L.grid({
         bounds: [
             [0, 0],
             [12800, 6400],
         ],
-    });
-
-    var zones = L.tileLayer.main("layers_rs3/zonemap_squares/{mapId}/{zoom}_0_{x}_{y}.png", {
-        minZoom: -4,
-        maxNativeZoom: 2,
-        maxZoom: 4,
-    });
-
-    var watery = L.tileLayer.main("layers_rs3/watery_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png", {
-        minZoom: -4,
-        maxNativeZoom: 2,
-        maxZoom: 5,
     });
 
     var teleports = L.teleports({
@@ -144,14 +119,10 @@ void (function (global) {
             {
                 Labels: labels,
                 Icons: icon_squares,
-                Areas: areas,
-                "Areas (inverted)": shadow,
                 Grid: grid,
-                "Map zones": zones,
                 Teleports: teleports,
                 Transports: transports,
-                "0x2": watery,
-                        "nomove": nomove,
+                "nomove": nomove,
         "objects": objects,
             },
             {
