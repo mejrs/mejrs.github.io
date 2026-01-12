@@ -86,12 +86,6 @@ void function (global) {
         minZoom: -4
     });
 
-    let spheres = L.crowdSourceMovement({
-        data: "data_osrs/osrs_spheres.json",
-        show3d: false,
-        minZoom: -4
-    });
-
     let npcs = L.dynamicIcons({
         dataPath: "data_osrs/NPCList_OSRS.json",
         minZoom: -3,
@@ -111,17 +105,12 @@ void function (global) {
     };
 
 
-
     let chunks = L.tileLayer('layers/small_grid/{z}.png', defaults);
 
-        L.control.layers.urlParam({}, {
-            "labels": labels,
+    L.control.layers.urlParam({}, {
+        "labels": labels,
         "crowdsourcetransports": crowdsourcetransports,
         "crowdsourceteles": crowdsourceteles,
-        "multimap": multimap,
-        "implings": implings,
-        "deaths": deaths,
-        "spheres": spheres,
         "nomove": nomove,
         "objects": objects,
         "npcs": npcs,
