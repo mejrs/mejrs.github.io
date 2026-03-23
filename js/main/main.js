@@ -39,7 +39,7 @@ void (function (global) {
         minZoom: -4,
         maxZoom: 4,
         doubleClickZoom: false,
-        baseMaps: "data_rs3/basemaps.json",
+        baseMaps: "https://raw.githubusercontent.com/mejrs/data_rs3/refs/heads/master/basemaps.json",
         loadMapData: true,
         showMapBorder: true,
         enableUrlLocation: true,
@@ -47,14 +47,14 @@ void (function (global) {
 
     L.control.display
         .objects({
-            folder: "data_rs3",
+            folder: "https://raw.githubusercontent.com/mejrs/data_rs3/refs/heads/master",
             displayLayer: L.objects,
         })
         .addTo(runescape_map);
 
     L.control.display
         .npcs({
-            folder: "data_rs3",
+            folder: "https://raw.githubusercontent.com/mejrs/data_rs3/refs/heads/master",
         })
         .addTo(runescape_map);
 

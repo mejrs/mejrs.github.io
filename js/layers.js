@@ -1534,7 +1534,7 @@ L.Teleports = L.DynamicIcons.extend({
                 response.ok ? response.json().then((sheet) => sheet.values) : response.json().then((oopsie) => Promise.reject(new Error(oopsie.error.message)).then(() => { }, console.error))
             );
 
-            const wateryPromise = fetch(`data_rs3/keyed_watery.json`)
+            const wateryPromise = fetch(`https://raw.githubusercontent.com/mejrs/data_rs3/refs/heads/master/keyed_watery.json`)
                 .then((response) => (response.ok ? response.json() : Promise.reject(new Error(response.status + " Error fetching " + response.url))))
                 .catch(console.error);
 
