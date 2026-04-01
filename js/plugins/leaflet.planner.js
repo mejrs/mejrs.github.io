@@ -643,6 +643,91 @@ async function redrawSuggestionPins() {
     plannerSuggLayer.addTo(map);
 }
 
+// ─── Auto-route ──────────────────────────────────────────────────
+// Nearest-neighbor routing within a single group.
+// Starting point: the first item that already has a pinCoords.
+// Items with 0 candidate locations are pushed to the end.
+// Items with multiple candidates get pinned to the one closest to
+// their predecessor in the resulting order.
+async function autoRouteGroup(group) {
+    const items = group.items;
+    if (items.length < 2) return;
+
+    // Load candidate locations for every item in parallel.
+    // Pinned items keep their pin as the sole candidate.
+    const candidates = await Promise.all(items.map(async (item) => {
+        if (item.pinCoords) return [{ lat: item.pinCoords.lat, lng: item.pinCoords.lng }];
+        if (item.virtual) return [];
+        const task = getTask(item.taskName);
+        if (!task) return [];
+        const clusters = await loadSuggestedClusters(task);
+        return clusters.map(c => ({ lat: c.lat, lng: c.lng }));
+    }));
+
+    // Find the starting point — first item with a pin
+    const startIdx = items.findIndex(i => i.pinCoords);
+    if (startIdx === -1) return; // nothing pinned, nothing to route from
+
+    // Split into routable (has at least one candidate) vs unroutable
+    const routable = [];
+    const unroutable = [];
+    items.forEach((item, i) => {
+        if (candidates[i].length > 0) {
+            routable.push({ item, candidates: candidates[i], originalIdx: i });
+        } else {
+            unroutable.push(item);
+        }
+    });
+    if (routable.length < 2) return;
+
+    // Seed the walk with the first pinned item
+    const startEntry = routable.find(r => r.originalIdx === startIdx);
+    const ordered = [startEntry];
+    const remaining = new Set(routable.filter(r => r !== startEntry));
+    let currentPos = startEntry.candidates[0];
+
+    // Greedy nearest-neighbour: at each step pick the unvisited task
+    // whose closest candidate location is nearest to currentPos.
+    while (remaining.size > 0) {
+        let bestDist = Infinity;
+        let bestEntry = null;
+        let bestCoord = null;
+
+        for (const entry of remaining) {
+            for (const coord of entry.candidates) {
+                const d = (coord.lat - currentPos.lat) ** 2
+                        + (coord.lng - currentPos.lng) ** 2;
+                if (d < bestDist) {
+                    bestDist = d;
+                    bestEntry = entry;
+                    bestCoord = coord;
+                }
+            }
+        }
+
+        // Auto-assign pin to the chosen location if the item wasn't pinned
+        if (!bestEntry.item.pinCoords) {
+            bestEntry.item.pinCoords = { lat: bestCoord.lat, lng: bestCoord.lng };
+        }
+
+        ordered.push(bestEntry);
+        remaining.delete(bestEntry);
+        currentPos = bestCoord;
+    }
+
+    // Rebuild: routed items in order, then unroutable at the end
+    group.items = [...ordered.map(r => r.item), ...unroutable];
+}
+
+async function autoRouteAll() {
+    for (const group of plannerGroups) {
+        await autoRouteGroup(group);
+    }
+    savePlanner();
+    redrawMapOverlays();
+    renderPlanner();
+}
+
 // ─── Pinning mode ─────────────────────────────────────────────────
 function startPinning(itemId) {
     cancelPinning();
@@ -866,6 +951,7 @@ function renderPlanner() {
             `<button class="planner-line-btn" id="planner-import-btn" title="Load planner from JSON file">⬆ Import JSON</button>` +
             `<input type="file" id="planner-import-input" accept=".json,application/json" style="display:none"/>` +
             `<button class="planner-line-btn" id="planner-new-route-btn" title="Create a new empty route">+ New Route</button>` +
+            `<button class="planner-line-btn" id="planner-autoroute-btn" title="Reorder tasks by nearest-neighbour from the first pinned task">⟳ Auto-route</button>` +
             `<button class="planner-line-btn" id="planner-clear-btn" title="Clear all tasks from the current route">✕ Clear</button>` +
         `</div>`;
     const linesToggle = ctrl.querySelector('#planner-lines-toggle');
@@ -1001,6 +1087,25 @@ function renderPlanner() {
             saveAllRoutes();
             redrawMapOverlays();
             renderPlanner();
+        });
+    }
+    const autoRouteBtn = ctrl.querySelector('#planner-autoroute-btn');
+    if (autoRouteBtn) {
+        autoRouteBtn.addEventListener('click', async () => {
+            const hasPinnedItem = allPlannerItems().some(i => i.pinCoords);
+            if (!hasPinnedItem) {
+                alert('Pin at least one task first — auto-route starts from the first pinned task.');
+                return;
+            }
+            if (!confirm('Auto-route will reorder all tasks and overwrite your current task order. This cannot be undone. Continue?')) return;
+            autoRouteBtn.disabled = true;
+            autoRouteBtn.textContent = '⟳ Routing…';
+            try {
+                await autoRouteAll();
+            } finally {
+                autoRouteBtn.disabled = false;
+                autoRouteBtn.textContent = '⟳ Auto-route';
+            }
         });
     }
     container.appendChild(ctrl);
