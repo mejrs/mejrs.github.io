@@ -141,3 +141,7 @@ img.huechange { filter: hue-rotate(120deg); }
 .leaflet-center.leaflet-middle {
   transform: translate(-50%, -50%);
 }
+
+div.vertex-active {
+    background: #FD8 !important;
+}
