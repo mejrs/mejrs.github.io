@@ -68,13 +68,12 @@ export default void function (factory) {
             this.options.owner.removeGhostVertex();
         },
 
-        onDrag: function () {
-            this.options.owner.onVertexDrag(this);
+        onDrag: function (e) {
+            this.options.owner.onVertexDrag(this, e);
         },
 
         onDragEnd: function () {
             let owner = this.options.owner;
-            owner.update();
             owner._isDragging = false;
             // ignore vertex add through click events, because this next click event is fired from a drag
             owner._ignoreVertexAdd = true;
@@ -298,7 +297,7 @@ export default void function (factory) {
 
             v.addTo(this._map);
 
-            this.update();
+            this.redrawPolygon();
         },
 
         removeVertex: function (vertex) {
@@ -309,15 +308,15 @@ export default void function (factory) {
             this.vertices.splice(idx, 1);
 
             this.refreshVertexStyles();
-            this.update();
+            this.redrawPolygon();
         },
 
-        onVertexDrag: function (vertex) {
-            let snapped = this.snapLatLng(vertex.getLatLng(), 0.25);
+        onVertexDrag: function (vertex, e) {
+            let snapped = this.snapLatLng(vertex.getLatLng(), e.originalEvent.ctrlKey ? 0.25 : 1);
 
             vertex.setLatLng(snapped);
 
-            this.update();
+            this.redrawPolygon();
         },
 
         // -------------------------
@@ -333,14 +332,6 @@ export default void function (factory) {
         // -------------------------
         // Polygon update
         // -------------------------
-        update: function () {
-            this.redrawPolygon();
-
-            if (this.options.owner) {
-                this.options.owner.update(this.getLatLngs()[0] || []);
-            }
-        },
-
         redrawPolygon: function () {
             let latlngs = this.getPreviewLatLngs();
 
@@ -363,7 +354,7 @@ export default void function (factory) {
             });
 
             this.refreshVertexStyles();
-            this.update();
+            this.redrawPolygon();
         }
     });
 
@@ -383,22 +374,39 @@ export default void function (factory) {
 
         options: {
             position: 'bottomleft',
-            title: 'Polygon:',
-            icon: 'images/Blue_square_(Prisoner_of_Glouphrie).png'
+            title: 'Create polygon',
+            icon: 'images/Yellow_pentagon.png'
         },
 
         createInterface: function () {
             let container = L.DomUtil.create('div', 'leaflet-control-display-expanded');
             let form = L.DomUtil.create('form', 'leaflet-control-display-form', container);
+            let copyArray = L.DomUtil.create('button', 'leaflet-control-display-submit copy-array', form);
+            copyArray.addEventListener("click", this.copy.bind(this, 'array'));
+            copyArray.textContent = "Copy polygon array";
 
-            this.count = L.DomUtil.create('input', '', form);
-            this.count.readOnly = true;
+            let copyWikitext = L.DomUtil.create('button', 'leaflet-control-display-submit copy-wikitext', form);
+            copyWikitext.addEventListener("click", this.copy.bind(this, 'wikitext'));
+            copyWikitext.textContent = "Copy Wikitext";
 
             return container;
         },
 
-        update: function (latlngs) {
-            this.count.value = latlngs.length;
+        getCoordArray: function() {
+            return this.polygon.vertices.map(v => {
+                let ll = v.getLatLng();
+                return [ll.lng, ll.lat];
+            });
+        },
+
+        copy: function (copyType) {
+            let copystr = JSON.stringify(this.getCoordArray());
+            if (copyType === 'wikitext') {
+                copystr = '|' + this.getCoordArray().map(a => a.join(',')).join('|')
+            }
+
+            navigator.clipboard.writeText(copystr).then(() =>
+                this._map.addMessage(`Copied polygon ${copyType} / ${this.getCoordArray()[0].join(',')} to clipboard`), () => console.error("Cannot copy text to clipboard"));
         },
 
         expand: function () {

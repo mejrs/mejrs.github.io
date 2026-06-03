@@ -22,8 +22,9 @@
     grid-column: 1 / 2;
 }
  
-.leaflet-control-display-input, .leaflet-control-display-input-number,  .leaflet-control-display-submit {
+.leaflet-control-display-input, .leaflet-control-display-input-number, .leaflet-control-display-submit {
     grid-column: 2 / 3;
+    white-space: nowrap;
 }
 
 .leaflet-control-display-input-number{
