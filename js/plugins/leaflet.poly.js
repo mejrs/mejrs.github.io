@@ -25,6 +25,11 @@ export default void function (factory) {
             className: "leaflet-div-icon"
         }
     });
+    let GhostVertexIcon = L.DivIcon.extend({
+        options: {
+            className: "leaflet-div-icon ghost-vertex"
+        }
+    });
 
     // -------------------------
     // Vertex marker
@@ -54,11 +59,13 @@ export default void function (factory) {
 
         onClick: function () {
             this.options.owner.setActiveVertex(this);
+            this.options.owner._isDragging = false;
         },
 
         onDragStart: function () {
             this.options.owner.setActiveVertex(this);
             this.options.owner._isDragging = true;
+            this.options.owner.removeGhostVertex();
         },
 
         onDrag: function () {
@@ -66,7 +73,11 @@ export default void function (factory) {
         },
 
         onDragEnd: function () {
-            this.options.owner.update();
+            let owner = this.options.owner;
+            owner.update();
+            owner._isDragging = false;
+            // ignore vertex add through click events, because this next click event is fired from a drag
+            owner._ignoreVertexAdd = true;
         },
 
         onRightClick: function () {
@@ -94,6 +105,11 @@ export default void function (factory) {
             this.vertices = [];
             this._activeVertex = null;
             this._isDragging = false;
+            this._ignoreVertexAdd = false;
+
+            this._ghostVertex = null;
+            this._ghostLatLng = null;
+
             L.Polygon.prototype.initialize.call(this, latLngs || [], options);
         },
 
@@ -101,6 +117,8 @@ export default void function (factory) {
             this._map = map;
 
             map.on("click", this.addVertexFromClick, this);
+            map.on("mousemove", this.onMouseMove, this);
+            map.on("mouseout", this.onMouseOut, this);
 
             this.vertices.forEach(v => v.addTo(map));
 
@@ -111,7 +129,13 @@ export default void function (factory) {
 
         onRemove: function (map) {
             map.off("click", this.addVertexFromClick, this);
+            map.off("mousemove", this.onMouseMove, this);
+            map.off("mouseout", this.onMouseOut, this);
+
+            this.removeGhostVertex();
+
             this.vertices.forEach(v => v.remove());
+
             return L.Polygon.prototype.onRemove.call(this, map);
         },
 
@@ -125,6 +149,88 @@ export default void function (factory) {
         setActiveVertex: function(vertex) {
             this._activeVertex = vertex;
             this.refreshVertexStyles();
+        },
+
+        createGhostVertex: function () {
+            this._ghostVertex = L.marker([0, 0], {
+                interactive: false,
+                keyboard: false,
+                opacity: 0.4,
+                zIndexOffset: -10,
+                icon: new GhostVertexIcon(),
+            });
+
+            this._ghostVertex.addTo(this._map);
+        },
+
+        removeGhostVertex: function () {
+            if (this._ghostVertex) {
+                this._ghostVertex.remove();
+                this._ghostVertex = null;
+            }
+            this._ghostLatLng = null;
+            this.redrawPolygon();
+        },
+
+        onMouseMove: function (e) {
+            if (!this._activeVertex) return;
+            if (this._isDragging) return;
+            if (this.vertices.length < 2) return;
+
+            let snapped = this.snapLatLng(
+                e.latlng,
+                e.originalEvent.ctrlKey ? 0.25 : 1
+            );
+
+            let target = e.originalEvent?.target;
+
+            if (target?.closest?.(".leaflet-marker-icon")) {
+                this.removeGhostVertex();
+                return;
+            }
+
+            this._ghostLatLng = snapped;
+
+            if (!this._ghostVertex) {
+                this.createGhostVertex();
+            }
+
+            this._ghostVertex.setLatLng(snapped);
+
+            this.redrawPolygon();
+        },
+
+        onMouseOut: function () {
+            this._ghostLatLng = null;
+            this.removeGhostVertex();
+            this.redrawPolygon();
+        },
+
+        getPreviewLatLngs: function () {
+            let latlngs = this.vertices.map(v => v.getLatLng());
+
+            if (
+                !this._ghostLatLng ||
+                !this._activeVertex ||
+                this.vertices.length < 2
+            ) {
+                return latlngs;
+            }
+
+            let activeIndex =
+                this.vertices.indexOf(this._activeVertex);
+
+            if (activeIndex === -1) {
+                return latlngs;
+            }
+
+            latlngs.splice(
+                activeIndex + 1,
+                0,
+                this._ghostLatLng
+            );
+
+            return latlngs;
         },
 
         snapLatLng: function (latlng, step = 1) {
@@ -143,8 +249,8 @@ export default void function (factory) {
         },
 
         addVertexFromClick: function (e) {
-            if (this._isDragging) {
-                this._isDragging = false;
+            if (this._ignoreVertexAdd) {
+                this._ignoreVertexAdd = false;
                 return;
             }
 
@@ -161,17 +267,35 @@ export default void function (factory) {
             // Only accept true map clicks
             if (!this._map || !this._map.getContainer().contains(target)) return;
 
-            this.addVertex(e.latlng);
+            this.addVertex(e);
         },
 
-        addVertex: function (latlng) {
-            let snapped = this.snapLatLng(latlng, this.options.gridSize || 1);
+        addVertex: function (e) {
+            let latlng = e.latlng;
+
+            let snapped = this.snapLatLng(
+                latlng,
+                e.originalEvent.ctrlKey ? 0.25 : 1
+            );
 
             let v = this.createVertex(snapped, true);
-            this.vertices.push(v);
+
+            let insertIndex = this.vertices.length;
+
+            if (this._activeVertex) {
+                let activeIndex = this.vertices.indexOf(this._activeVertex);
+
+                if (activeIndex !== -1) {
+                    insertIndex = activeIndex + 1;
+                }
+            }
+
+            this.vertices.splice(insertIndex, 0, v);
+
             this._activeVertex = v;
 
             this.refreshVertexStyles();
+
             v.addTo(this._map);
 
             this.update();
@@ -218,11 +342,12 @@ export default void function (factory) {
         },
 
         redrawPolygon: function () {
-            let latlngs = this.vertices.map(v => v.getLatLng());
+            let latlngs = this.getPreviewLatLngs();
 
             if (latlngs.length >= 2) {
-                this.setLatLngs([latlngs]); // auto-closes polygon
+                this.setLatLngs([latlngs]);
             }
+
             this.refreshVertexStyles();
         },
 
