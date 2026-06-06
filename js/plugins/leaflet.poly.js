@@ -337,8 +337,9 @@ export default void function (factory) {
 
             if (latlngs.length >= 2) {
                 this.setLatLngs([latlngs]);
+            } else if (latlngs.length == 1) {
+                this.setLatLngs([L.GeoJSON.coordsToLatLng([0,0]), L.GeoJSON.coordsToLatLng([0,0])])
             }
-
             this.refreshVertexStyles();
         },
 
@@ -369,6 +370,8 @@ export default void function (factory) {
 
         onAdd: function (map) {
             this.polygon = L.draggablePolygon([], { owner: this });
+            console.log(this);
+            this.oldPolygon = null;
             return L.Control.Display.prototype.onAdd.call(this, map);
         },
 
@@ -389,6 +392,10 @@ export default void function (factory) {
             copyWikitext.addEventListener("click", this.copy.bind(this, 'wikitext'));
             copyWikitext.textContent = "Copy Wikitext";
 
+            let deleteVertices = L.DomUtil.create('button', 'leaflet-control-display-reset reset-polygon', form);
+            deleteVertices.addEventListener("click", this.resetPolygon.bind(this));
+            deleteVertices.textContent = "Delete all vertices";
+
             return container;
         },
 
@@ -400,13 +407,57 @@ export default void function (factory) {
         },
 
         copy: function (copyType) {
-            let copystr = JSON.stringify(this.getCoordArray());
+            event.preventDefault();
+
+            let arr = this.getCoordArray();
+            if (arr.length < 1) return;
+
+            let copystr = JSON.stringify(arr);
             if (copyType === 'wikitext') {
                 copystr = '|' + this.getCoordArray().map(a => a.join(',')).join('|')
             }
 
             navigator.clipboard.writeText(copystr).then(() =>
-                this._map.addMessage(`Copied polygon ${copyType} / ${this.getCoordArray()[0].join(',')} to clipboard`), () => console.error("Cannot copy text to clipboard"));
+                this._map.addMessage(`Copied polygon ${copyType}} to clipboard`), () => console.error("Cannot copy text to clipboard"));
+
+            return false;
+        },
+
+        resetPolygon: function () {
+            event?.preventDefault();
+
+            if (this.polygon.vertices.length == 0) {
+                this._map.addMessage('No polygons to remove.');
+                return false;
+            }
+
+            let msg = this._map.addMessage('All polygons have been deleted.');
+            let a = L.DomUtil.create('a', 'leaflet-control-message-clear', msg);
+            a.textContent = ' [Undo reset]';
+            a.onclick = () => this.undoResetPolygon(msg);
+
+            // preserve old polygon for being able to undo
+            this.oldPolygon = this.polygon;
+            this.polygon = L.draggablePolygon([], { owner: this });
+            this.polygon.addTo(this._map);
+
+            // this.onAdd();
+            this.oldPolygon.remove();
+
+            return false;
+        },
+
+        undoResetPolygon: function (msg) {
+            event?.preventDefault();
+            if (this.oldPolygon === null) return; // polygon was already reset
+
+            this.polygon = this.oldPolygon;
+            this.polygon.addTo(this._map);
+            this.oldPolygon = null;
+
+            this._map._messageContainer.removeChild(msg);
+
+            return false;
         },
 
         expand: function () {
