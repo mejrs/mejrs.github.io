@@ -381,7 +381,6 @@ export default void function (factory) {
 
         onAdd: function (map) {
             this.polygon = L.draggablePolygon([], { owner: this });
-            console.log(this);
             this.oldPolygon = null;
             return L.Control.Display.prototype.onAdd.call(this, map);
         },
