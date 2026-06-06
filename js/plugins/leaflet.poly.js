@@ -422,7 +422,7 @@ export default void function (factory) {
             }
 
             navigator.clipboard.writeText(copystr).then(() =>
-                this._map.addMessage(`Copied polygon ${copyType}} to clipboard`), () => console.error("Cannot copy text to clipboard"));
+                this._map.addMessage(`Copied polygon ${copyType} to clipboard`), () => console.error("Cannot copy text to clipboard"));
 
             return false;
         },
