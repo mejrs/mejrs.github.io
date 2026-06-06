@@ -173,9 +173,7 @@ export default void function (factory) {
         },
 
         onMouseMove: function (e) {
-            if (!this._activeVertex) return;
             if (this._isDragging) return;
-            if (this.vertices.length < 2) return;
 
             let snapped = this.snapLatLng(
                 e.latlng,
@@ -212,7 +210,7 @@ export default void function (factory) {
             if (
                 !this._ghostLatLng ||
                 !this._activeVertex ||
-                this.vertices.length < 2
+                this.vertices.length < 1
             ) {
                 return latlngs;
             }
@@ -305,8 +303,18 @@ export default void function (factory) {
             let idx = this.vertices.indexOf(vertex);
             if (idx === -1) return;
 
+            let latlng = this.vertices[idx]._latlng;
+
             vertex.remove();
             this.vertices.splice(idx, 1);
+
+            let prevVertex = idx > 0 ? this.vertices[idx - 1] : this.vertices[this.vertices.length - 1];
+            this._activeVertex = prevVertex;
+
+            // create the ghost vertex in the place of the old vertex, since we're no longer hovering over an existing vertex now
+            this.createGhostVertex();
+            this._ghostVertex.setLatLng(latlng);
+            this._ghostLatLng = latlng;
 
             this.refreshVertexStyles();
             this.redrawPolygon();
@@ -339,6 +347,8 @@ export default void function (factory) {
             if (latlngs.length >= 2) {
                 this.setLatLngs([latlngs]);
             } else if (latlngs.length == 1) {
+                this.setLatLngs([latlngs[0], latlngs[0]])
+            } else if (latlngs.length == 0 && this._path) {
                 this.setLatLngs([L.GeoJSON.coordsToLatLng([0,0]), L.GeoJSON.coordsToLatLng([0,0])])
             }
             this.refreshVertexStyles();
