@@ -17,6 +17,10 @@
 	padding: 0.7em;
 }
 
+.leaflet-control-display-info {
+	grid-column: 1 / 3;
+}
+
 .leaflet-control-display-label {
 	text-align: right;
     grid-column: 1 / 2;

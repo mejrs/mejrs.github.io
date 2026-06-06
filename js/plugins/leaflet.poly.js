@@ -383,7 +383,11 @@ export default void function (factory) {
 
         createInterface: function () {
             let container = L.DomUtil.create('div', 'leaflet-control-display-expanded');
+
             let form = L.DomUtil.create('form', 'leaflet-control-display-form', container);
+            let div = L.DomUtil.create('div', 'leaflet-control-display-info', form);
+            div.innerHTML = 'Click to add vertices, hold ctrl for quarter-tile precision. Right-click a vertex to remove.'
+
             let copyArray = L.DomUtil.create('button', 'leaflet-control-display-submit copy-array', form);
             copyArray.addEventListener("click", this.copy.bind(this, 'array'));
             copyArray.textContent = "Copy polygon array";
