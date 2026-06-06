@@ -77,6 +77,7 @@ export default void function (factory) {
             owner._isDragging = false;
             // ignore vertex add through click events, because this next click event is fired from a drag
             owner._ignoreVertexAdd = true;
+            setTimeout(() => owner._ignoreVertexAdd = false, 200);
         },
 
         onRightClick: function () {
