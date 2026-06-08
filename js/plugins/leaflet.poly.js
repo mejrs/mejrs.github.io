@@ -298,7 +298,7 @@ export default void function (factory) {
         },
 
         addVertex: function (e) {
-            this.addVertexByCoord(e.latlng, e.originalEvent.ctrlKey ? 0.25 : 1)
+            this.addVertexByCoord(e.latlng, e.originalEvent.ctrlKey ? 0.25 : 1);
         },
 
         removeVertex: function (vertex) {
@@ -409,8 +409,8 @@ export default void function (factory) {
             copyWikitext.textContent = "Copy Wikitext";
 
             let importJSON = L.DomUtil.create('button', 'leaflet-control-display-submit import-json', form);
-            importJSON.addEventListener("click", this.importJSON.bind(this));
-            importJSON.textContent = "Import JSON";
+            importJSON.addEventListener("click", this.importPoly.bind(this));
+            importJSON.textContent = "Import Polygon";
 
             let deleteVertices = L.DomUtil.create('button', 'leaflet-control-display-reset reset-polygon', form);
             deleteVertices.addEventListener("click", this.resetPolygon.bind(this));
@@ -443,21 +443,18 @@ export default void function (factory) {
             return false;
         },
 
-        importJSON: function () {
+        importPoly: function () {
             event?.preventDefault();
-            let jsonStr = prompt("Enter a valid JSON string with the format [ [x1,y1], [x2,y2], ... ] to overwrite current polygon. Cancel to preserve current polygon.");
-            let json;
-            try {
-                json = JSON.parse(jsonStr);
-            } catch (e) {
-                alert("Invalid JSON. See JS console for details.");
-                console.error(e);
-                return false;
+            let polyStr = prompt("Overwrite polygon? Enter a valid JSON/Wikitext string with the format [ [x1,y1], [x2,y2], ... ] or |x1,y1|x2,y2|...|.");
+
+            if (!polyStr) return;
+
+            let json = this.parseWikitextPoly(polyStr);
+            if (!json) {
+                json = this.parseJSONPoly(polyStr);
             }
-            console.log(jsonStr, json);
-            if (!Array.isArray(json) || (!json.every(xy => Array.isArray(xy) && xy.length == 2 && Number.isFinite(Number(xy[0]) + Number(xy[0]))))) {
-                alert("Invalid JSON format. See JS console for details.");
-                console.error("Parsed JSON as:", json);
+            if (!json) {
+                alert("Invalid data. See JS console for details.");
                 return false;
             }
 
@@ -489,6 +486,44 @@ export default void function (factory) {
             );
 
             return false;
+        },
+
+        parseJSONPoly: function (jsonStr) {
+            let json;
+            try {
+                json = JSON.parse(jsonStr);
+            } catch (e) {
+                console.error("Error parsing JSON:", e);
+                return false;
+            }
+            if (!Array.isArray(json) || (!json.every(xy => Array.isArray(xy) && xy.length == 2 && Number.isFinite(+xy[0] + +xy[1])))) {
+                console.error("Invalid JSON data entered. Parsed data was:", json);
+                return false;
+            }
+            return json;
+        },
+
+        parseWikitextPoly: function (wikiStr) {
+            let arr = wikiStr.split('|');
+            if (arr.length <= 1) {
+                console.error('Wikitext format detected but too few polygons imported.');
+                return false;
+            };
+            if (arr[0] == '') {
+                arr.shift();
+            }
+            if (arr[arr.length - 1] == '') {
+                arr.pop();
+            }
+            for (let i=0;i<arr.length;i++) {
+                let xy = arr[i].split(',');
+                if (xy.length != 2 || !Number.isFinite(+xy[0] + +xy[1])) {
+                    console.error('Wikitext format detected but invalid data entered.');
+                    return false;
+                }
+                arr[i] = [+xy[0], +xy[1]];
+            }
+            return arr;
         },
 
         resetPolygon: function () {
