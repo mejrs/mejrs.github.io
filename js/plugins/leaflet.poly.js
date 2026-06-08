@@ -232,6 +232,9 @@ export default void function (factory) {
         },
 
         snapLatLng: function (latlng, step = 1) {
+            if (step == 0) {
+                return L.latLng(latlng.lat, latlng.lng);
+            }
             let lat = Math.round(latlng.lat),
                 lng = Math.round(latlng.lng);
             if (step < 1) {
@@ -268,13 +271,8 @@ export default void function (factory) {
             this.addVertex(e);
         },
 
-        addVertex: function (e) {
-            let latlng = e.latlng;
-
-            let snapped = this.snapLatLng(
-                latlng,
-                e.originalEvent.ctrlKey ? 0.25 : 1
-            );
+        addVertexByCoord: function (latlng, precision = 0) {
+            let snapped = this.snapLatLng(latlng, precision);
 
             let v = this.createVertex(snapped, true);
 
@@ -297,6 +295,10 @@ export default void function (factory) {
             v.addTo(this._map);
 
             this.redrawPolygon();
+        },
+
+        addVertex: function (e) {
+            this.addVertexByCoord(e.latlng, e.originalEvent.ctrlKey ? 0.25 : 1)
         },
 
         removeVertex: function (vertex) {
@@ -380,7 +382,7 @@ export default void function (factory) {
     L.Control.Display.Polygon = L.Control.Display.extend({
 
         onAdd: function (map) {
-            this.polygon = L.draggablePolygon([], { owner: this });
+            this.polygon = new L.draggablePolygon([], { owner: this });
             this.oldPolygon = null;
             return L.Control.Display.prototype.onAdd.call(this, map);
         },
@@ -405,6 +407,10 @@ export default void function (factory) {
             let copyWikitext = L.DomUtil.create('button', 'leaflet-control-display-submit copy-wikitext', form);
             copyWikitext.addEventListener("click", this.copy.bind(this, 'wikitext'));
             copyWikitext.textContent = "Copy Wikitext";
+
+            let importJSON = L.DomUtil.create('button', 'leaflet-control-display-submit import-json', form);
+            importJSON.addEventListener("click", this.importJSON.bind(this));
+            importJSON.textContent = "Import JSON";
 
             let deleteVertices = L.DomUtil.create('button', 'leaflet-control-display-reset reset-polygon', form);
             deleteVertices.addEventListener("click", this.resetPolygon.bind(this));
@@ -433,6 +439,54 @@ export default void function (factory) {
 
             navigator.clipboard.writeText(copystr).then(() =>
                 this._map.addMessage(`Copied polygon ${copyType} to clipboard`), () => console.error("Cannot copy text to clipboard"));
+
+            return false;
+        },
+
+        importJSON: function () {
+            event?.preventDefault();
+            let jsonStr = prompt("Enter a valid JSON string with the format [ [x1,y1], [x2,y2], ... ] to overwrite current polygon. Cancel to preserve current polygon.");
+            let json;
+            try {
+                json = JSON.parse(jsonStr);
+            } catch (e) {
+                alert("Invalid JSON. See JS console for details.");
+                console.error(e);
+                return false;
+            }
+            console.log(jsonStr, json);
+            if (!Array.isArray(json) || (!json.every(xy => Array.isArray(xy) && xy.length == 2 && Number.isFinite(Number(xy[0]) + Number(xy[0]))))) {
+                alert("Invalid JSON format. See JS console for details.");
+                console.error("Parsed JSON as:", json);
+                return false;
+            }
+
+            // clear existing polygon
+            this.polygon.vertices.forEach(v => v.remove());
+            this.polygon.vertices = [];
+            this.polygon._activeVertex = null;
+            this.polygon.removeGhostVertex();
+
+            // add imported vertices in order
+            for (let [x, y] of json) {
+                this.polygon.addVertexByCoord(
+                    L.latLng(Number(y), Number(x)),
+                    0 // no snapping during import
+                );
+            }
+
+            // make the last imported vertex the active one
+            if (this.polygon.vertices.length > 0) {
+                this.polygon.setActiveVertex(
+                    this.polygon.vertices[this.polygon.vertices.length - 1]
+                );
+            }
+
+            this.polygon.redrawPolygon();
+
+            this._map.addMessage(
+                `Imported ${json.length} polygon vertices.`
+            );
 
             return false;
         },
