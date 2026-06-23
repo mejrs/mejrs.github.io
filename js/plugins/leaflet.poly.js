@@ -119,6 +119,7 @@ export default void function (factory) {
             map.on("click", this.addVertexFromClick, this);
             map.on("mousemove", this.onMouseMove, this);
             map.on("mouseout", this.onMouseOut, this);
+            window.addEventListener("keydown", this.onKeyDown);
 
             this.vertices.forEach(v => v.addTo(map));
 
@@ -131,6 +132,7 @@ export default void function (factory) {
             map.off("click", this.addVertexFromClick, this);
             map.off("mousemove", this.onMouseMove, this);
             map.off("mouseout", this.onMouseOut, this);
+            window.removeEventListener("keydown", this.onKeyDown);
 
             this.removeGhostVertex();
 
@@ -202,6 +204,14 @@ export default void function (factory) {
             this._ghostLatLng = null;
             this.removeGhostVertex();
             this.redrawPolygon();
+        },
+
+        onKeyDown: function (e) {
+            if (e.which === 8) {
+                // backspace key pressed
+                e.preventDefault();
+                this.removeVertex(this._activeVertex);
+            }
         },
 
         getPreviewLatLngs: function () {
