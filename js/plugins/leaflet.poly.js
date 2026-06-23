@@ -132,7 +132,7 @@ export default void function (factory) {
             map.off("click", this.addVertexFromClick, this);
             map.off("mousemove", this.onMouseMove, this);
             map.off("mouseout", this.onMouseOut, this);
-            window.removeEventListener("keydown", this.onKeyDown);
+            window.removeEventListener("keydown", this.onKeyDown.bind(this));
 
             this.removeGhostVertex();
 
