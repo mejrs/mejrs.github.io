@@ -326,6 +326,7 @@ export default void function (factory) {
             this._activeVertex = prevVertex;
 
             // create the ghost vertex in the place of the old vertex, since we're no longer hovering over an existing vertex now
+            this.removeGhostVertex(); // remove current ghost vertex if it exists
             this.createGhostVertex();
             this._ghostVertex.setLatLng(latlng);
             this._ghostLatLng = latlng;
