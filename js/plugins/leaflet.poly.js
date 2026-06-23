@@ -209,8 +209,8 @@ export default void function (factory) {
         },
 
         onKeyDown: function (e) {
-            if (e.which === 8) {
-                // backspace key pressed
+            if (e.which === 8 && e.ctrlKey) {
+                // ctrl+backspace key pressed
                 e.preventDefault();
                 this.removeVertex(this._activeVertex);
             }
@@ -411,7 +411,7 @@ export default void function (factory) {
 
             let form = L.DomUtil.create('form', 'leaflet-control-display-form', container);
             let div = L.DomUtil.create('div', 'leaflet-control-display-info', form);
-            div.innerHTML = 'Click to add vertices, hold ctrl for quarter-tile precision. Right-click a vertex to remove.'
+            div.innerHTML = 'Click to add vertices, hold ctrl for quarter-tile precision. Right-click a vertex to remove. Ctrl+Bksp to remove active vertex.'
 
             let copyArray = L.DomUtil.create('button', 'leaflet-control-display-submit copy-array', form);
             copyArray.addEventListener("click", this.copy.bind(this, 'array'));
