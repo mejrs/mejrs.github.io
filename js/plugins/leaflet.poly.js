@@ -1,5 +1,6 @@
 import "../leaflet.js";
 import "./leaflet.displays.js"
+import "../lib/polygon-clipping.umd.min.js"
 
 export default void function (factory) {
     var L;
@@ -413,17 +414,25 @@ export default void function (factory) {
             let div = L.DomUtil.create('div', 'leaflet-control-display-info', form);
             div.innerHTML = 'Click to add vertices, hold ctrl for quarter-tile precision. Right-click a vertex to remove. Ctrl+Bksp to remove active vertex.'
 
-            let copyArray = L.DomUtil.create('button', 'leaflet-control-display-submit copy-array', form);
-            copyArray.addEventListener("click", this.copy.bind(this, 'array'));
-            copyArray.textContent = "Copy polygon array";
+            let copy = L.DomUtil.create('div', 'leaflet-control-display-submit', form);
+            copy.innerHTML = 'Copy ';
 
-            let copyWikitext = L.DomUtil.create('button', 'leaflet-control-display-submit copy-wikitext', form);
+            let copyArray = L.DomUtil.create('button', 'copy-array', copy);
+            copyArray.addEventListener("click", this.copy.bind(this, 'array'));
+            copyArray.textContent = "Array";
+
+            let copyWikitext = L.DomUtil.create('button', 'copy-wikitext', copy);
             copyWikitext.addEventListener("click", this.copy.bind(this, 'wikitext'));
-            copyWikitext.textContent = "Copy Wikitext";
+            copyWikitext.textContent = "Wikitext";
 
             let importJSON = L.DomUtil.create('button', 'leaflet-control-display-submit import-json', form);
-            importJSON.addEventListener("click", this.importPoly.bind(this));
+            importJSON.addEventListener("click", this.importPoly.bind(this, null));
             importJSON.textContent = "Import Polygon";
+
+            let subtractPolygon = L.DomUtil.create('button', 'leaflet-control-display-submit import-json', form);
+            subtractPolygon.addEventListener("click", this.subtractPoly.bind(this));
+            subtractPolygon.textContent = 'Subtract polygon';
+            subtractPolygon.title = 'Subtract a specified polygon from the currently active polygon; exclaves not supported.';
 
             let deleteVertices = L.DomUtil.create('button', 'leaflet-control-display-reset reset-polygon', form);
             deleteVertices.addEventListener("click", this.resetPolygon.bind(this));
@@ -456,19 +465,21 @@ export default void function (factory) {
             return false;
         },
 
-        importPoly: function () {
+        importPoly: function (json) {
             event?.preventDefault();
-            let polyStr = prompt("Overwrite polygon? Enter a valid JSON/Wikitext string with the format [ [x1,y1], [x2,y2], ... ] or |x1,y1|x2,y2|...|.");
-
-            if (!polyStr) return;
-
-            let json = this.parseWikitextPoly(polyStr);
             if (!json) {
-                json = this.parseJSONPoly(polyStr);
-            }
-            if (!json) {
-                alert("Invalid data. See JS console for details.");
-                return false;
+                let polyStr = prompt("Overwrite polygon? Enter a valid JSON/Wikitext string with the format [ [x1,y1], [x2,y2], ... ] or |x1,y1|x2,y2|...|.");
+
+                if (!polyStr) return;
+
+                json = this.parseWikitextPoly(polyStr);
+                if (!json) {
+                    json = this.parseJSONPoly(polyStr);
+                }
+                if (!json) {
+                    alert("Invalid data. See JS console for details.");
+                    return false;
+                }
             }
 
             // clear existing polygon
@@ -501,6 +512,37 @@ export default void function (factory) {
             return false;
         },
 
+        subtractPoly: function() {
+            event?.preventDefault();
+
+            if (this.polygon.vertices.length < 2) {
+                alert("No current polygon defined; aborting");
+                return false;
+            }
+
+            let polyStr = prompt("To subtract a polygon from the currently active one (without creating holes), enter a valid JSON/Wikitext string with the format [ [x1,y1], [x2,y2], ...] or |x1,y1|x2,y2|...|.");
+
+            if (!polyStr) return;
+
+            let json = this.parseWikitextPoly(polyStr);
+            if (!json) {
+                json = this.parseJSONPoly(polyStr);
+            }
+            if (!json) {
+                alert("Invalid data. See JS console for details.");
+                return false;
+            }
+
+            let poly = this.getCoordArray();
+            let diff = polygonClipping.difference([poly], [json]);
+
+            if (diff[0].length > 1) {
+                alert("Subtraction resulted in a complex polygon with holes. This is not supported by this tool. Simply use GeoJSON to extrude this polygon from the greater polygon instead.");
+                return false;
+            }
+            this.importPoly(diff[0][0]);
+        },
+
         parseJSONPoly: function (jsonStr) {
             let json;
             try {
@@ -519,7 +561,6 @@ export default void function (factory) {
         parseWikitextPoly: function (wikiStr) {
             let arr = wikiStr.split('|');
             if (arr.length <= 1) {
-                console.error('Wikitext format detected but too few polygons imported.');
                 return false;
             };
             if (arr[0] == '') {
