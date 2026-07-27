@@ -17,13 +17,24 @@
 	padding: 0.7em;
 }
 
+.leaflet-control-display-info {
+	grid-column: 1 / 3;
+}
+
 .leaflet-control-display-label {
 	text-align: right;
     grid-column: 1 / 2;
 }
  
-.leaflet-control-display-input, .leaflet-control-display-input-number,  .leaflet-control-display-submit {
+.leaflet-control-display-input,
+.leaflet-control-display-input-number,
+.leaflet-control-display-submit,
+.leaflet-control-display-reset {
     grid-column: 2 / 3;
+    white-space: nowrap;
+}
+.leaflet-control-display-reset {
+	color: red;
 }
 
 .leaflet-control-display-input-number{
