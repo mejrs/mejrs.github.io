@@ -40,34 +40,48 @@ void function (global) {
         enableUrlLocation: true
     });
 
+    let url = new URL(window.location.href);
+    let local = url.searchParams.getAll('local').length != 0;
+    let data;
+    let layers;
+    if (local) {
+        console.log("local");
+        data = "data_osrs";
+        layers = "layers_osrs";
+        global.map.style.background = "grey";
+    } else{
+        data = "https://raw.githubusercontent.com/mejrs/data_osrs/refs/heads/master";
+        layers = "https://raw.githubusercontent.com/mejrs/layers_osrs/refs/heads/master";
+    }
+
     L.control.display.OSRSvarbits({
         show3d: true,
     }).addTo(runescape_map);
 
     L.control.display.objects({
-        folder: "https://raw.githubusercontent.com/mejrs/data_osrs/refs/heads/master",
+        folder: data,
         show3d: true,
         displayLayer: L.objects.osrs
     }).addTo(runescape_map);
 
     L.control.display.npcs({
-        folder: "https://raw.githubusercontent.com/mejrs/data_osrs/refs/heads/master",
+        folder: data,
         show3d: true,
     }).addTo(runescape_map);
 
-    L.tileLayer.main('https://raw.githubusercontent.com/mejrs/layers_osrs/refs/heads/master/mapsquares/-1/{zoom}/{plane}_{x}_{y}.png', {
+    L.tileLayer.main(`${layers}/mapsquares/-1/{zoom}/{plane}_{x}_{y}.png`, {
         minZoom: -4,
         maxNativeZoom: 4,
         maxZoom: 8,
     }).addTo(runescape_map).bringToBack();
 
-    let nomove = L.tileLayer.main('https://raw.githubusercontent.com/mejrs/layers_osrs/refs/heads/master/nomove/-1/{zoom}/{plane}_{x}_{y}.png', {
+    let nomove = L.tileLayer.main(`${layers}/nomove/-1/{zoom}/{plane}_{x}_{y}.png`, {
         minZoom: -4,
         maxNativeZoom: 2,
         maxZoom: 8,
     });
 
-    let objects = L.tileLayer.main('https://raw.githubusercontent.com/mejrs/layers_osrs/refs/heads/master/locations/-1/{zoom}/{plane}_{x}_{y}.png', {
+    let objects = L.tileLayer.main(`${layers}/locations/-1/{zoom}/{plane}_{x}_{y}.png`, {
         minZoom: -4,
         maxNativeZoom: 2,
         maxZoom: 8,
@@ -78,18 +92,18 @@ void function (global) {
     });
 
     let crowdsourcetransports = L.crowdSourceMovement({
-        data: "https://raw.githubusercontent.com/mejrs/data_osrs/refs/heads/master/transports_osrs.json",
+        data: `${data}/transports_osrs.json`,
         show3d: false,
         minZoom: -4
     });
     let crowdsourceteles = L.crowdSourceMovement({
-        data: "https://raw.githubusercontent.com/mejrs/data_osrs/refs/heads/master/teleports_osrs.json",
+        data: `${data}/teleports_osrs.json`,
         show3d: false,
         minZoom: -4
     });
 
     let npcs = L.dynamicIcons({
-        dataPath: "https://raw.githubusercontent.com/mejrs/data_osrs/refs/heads/master/NPCList_OSRS.json",
+        dataPath:`${data}/NPCList_OSRS.json`,
         minZoom: -3,
     });
 

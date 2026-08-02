@@ -18,6 +18,20 @@ import plot_map_labels from "../../js/plugins/leaflet.labels.js";
 window.plot_map_labels = plot_map_labels;
 
 void (function (global) {
+    let url = new URL(window.location.href);
+    let local = url.searchParams.getAll('local').length != 0;
+    let data;
+    let layers;
+    if (local) {
+        console.log("local");
+        data = "data_rs3";
+        layers = "layers_rs3";
+        global.map.style.background = "grey";
+    } else {
+        data = "https://raw.githubusercontent.com/mejrs/data_rs3/refs/heads/master";
+        layers = "https://raw.githubusercontent.com/mejrs/layers_rs3/refs/heads/master";
+    }
+
     let runescape_map = (global.runescape_map = L.gameMap("map", {
         maxBounds: [
             [-1000, -1000],
@@ -31,7 +45,6 @@ void (function (global) {
         positionControl: true,
         messageBox: true,
         rect: true,
-        polygon: true,
         initialMapId: -1,
         plane: 0,
         x: 3200,
@@ -41,7 +54,7 @@ void (function (global) {
         minZoom: -4,
         maxZoom: 4,
         doubleClickZoom: false,
-        baseMaps: "https://raw.githubusercontent.com/mejrs/data_rs3/refs/heads/master/basemaps.json",
+        baseMaps: `${data}/basemaps.json`,
         loadMapData: true,
         showMapBorder: true,
         enableUrlLocation: true,
@@ -49,21 +62,21 @@ void (function (global) {
 
     L.control.display
         .objects({
-            folder: "https://raw.githubusercontent.com/mejrs/data_rs3/refs/heads/master",
+            folder: data,
             displayLayer: L.objects,
         })
         .addTo(runescape_map);
 
     L.control.display
         .npcs({
-            folder: "https://raw.githubusercontent.com/mejrs/data_rs3/refs/heads/master",
+            folder: data,
         })
         .addTo(runescape_map);
 
     L.control.display.pathfinder().addTo(runescape_map);
 
     L.tileLayer
-        .main("https://raw.githubusercontent.com/mejrs/layers_rs3/refs/heads/master/map_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png", {
+        .main(`${layers}/map_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png`, {
             minZoom: -4,
             maxNativeZoom: 3,
             maxZoom: 5,
@@ -71,7 +84,7 @@ void (function (global) {
         .addTo(runescape_map)
         .bringToBack();
 
-    var icon_squares = L.tileLayer.main("https://raw.githubusercontent.com/mejrs/layers_rs3/refs/heads/master/icon_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png", {
+    var icon_squares = L.tileLayer.main(`${layers}//icon_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png`, {
         minZoom: -4,
         maxNativeZoom: 3,
         maxZoom: 5,
@@ -103,13 +116,13 @@ void (function (global) {
         SHEET_ID: "1apnt91ud4GkWsfuxJTXdhrGjyGFL0hNz6jYDED3abX0",
     });
 
-    let nomove = L.tileLayer.main('https://raw.githubusercontent.com/mejrs/layers_rs3/refs/heads/master/nomove/-1/{zoom}/{plane}_{x}_{y}.png', {
+    let nomove = L.tileLayer.main(`${layers}//nomove/-1/{zoom}/{plane}_{x}_{y}.png`, {
         minZoom: -4,
         maxNativeZoom: 2,
         maxZoom: 8,
     });
 
-    let objects = L.tileLayer.main('https://raw.githubusercontent.com/mejrs/layers_rs3/refs/heads/master/locations/-1/{zoom}/{plane}_{x}_{y}.png', {
+    let objects = L.tileLayer.main(`${layers}/locations/-1/{zoom}/{plane}_{x}_{y}.png`, {
         minZoom: -4,
         maxNativeZoom: 2,
         maxZoom: 8,
@@ -125,7 +138,7 @@ void (function (global) {
                 Teleports: teleports,
                 Transports: transports,
                 "nomove": nomove,
-        "objects": objects,
+                "objects": objects,
             },
             {
                 collapsed: true,
